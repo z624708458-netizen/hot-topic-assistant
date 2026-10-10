@@ -1,0 +1,13 @@
+name = "hot-topic-speech"
+main = "worker.mjs"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGIN = "https://z624708458-netizen.github.io"
+OPENAI_MODEL = "gpt-4.1-mini"
+
+# OPENAI_API_KEY and APP_ACCESS_TOKEN are secrets, configured only on the server.
+# Never add secret values here or to browser assets. No account is created by this file.
+[observability]
+enabled = false

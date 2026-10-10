@@ -1,88 +1,26 @@
 'use strict';
-const test=require('node:test'),assert=require('node:assert/strict'),S=require('../assets/speech-rules.js'),B=require('../assets/brain-rules.js'),R=require('../assets/rules.js');
-const news=(o={})=>({id:'test-v5',title:'仅测试：苹果 Vision Pro 团队裁员',summary:'仅测试消息：团队岗位调整。仅为fixture，未声称真实新闻。',company:'苹果',companies:['苹果'],source:'仅测试来源',url:'https://example.com/n',published:'2026-10-10T00:00:00Z',kind:'rss',...o});
-const material=(type='work',o={})=>({id:'kb-v5',type,title:'仅测试：苹果 Vision Pro 团队裁员',body:'仅测试苹果 Vision Pro 裁员与员工岗位变化。',tags:['苹果','Vision Pro'],fields:{},created_at:'2026-10-10T00:00:00Z',updated_at:'2026-10-10T00:00:00Z',...o});
-const brain=materials=>({...B.defaultState(),materials});
-const generate=(n=news(),materials=[],duration=60)=>S.generate({news:n,brain:brain(materials),duration,generated_at:'2026-10-10T01:00:00Z'});
-test('free provider generates complete editable drafts, 3 distinct openings/titles and 3–5 explanation sentences',()=>{
- const g=generate();assert.equal(g.provider,'rules');assert.equal(g.version,'5.0.0');assert.equal(g.openings.length,3);assert.equal(new Set(g.openings.map(o=>o.text)).size,3);assert.equal(new Set(g.titles).size,3);assert.ok(g.why.length>=3&&g.why.length<=5);assert.ok(!g.main.includes('[谁'));assert.equal(S.validateResult(g),g);assert.match(g.contextNote,/主要基于当前新闻/);assert.ok(g.main.includes(news().title));
- assert.throws(()=>S.generate({news:news(),brain:brain([]),provider:'ai'}));
+const test=require('node:test'),assert=require('node:assert/strict'),B=require('../assets/brain-rules.js'),S=require('../assets/speech-rules.js'),L=require('../assets/speech-llm.js'),C=require('../assets/speech-contract.js'),F=require('./speech-fixture.cjs');
+const {news,material,brain,request,output}=F;
+test('rule generation and rule rewriting are stopped, not fallback providers',()=>{assert.throws(()=>S.generate({news:news(),brain:brain([])}),/当前未连接大模型/);assert.throws(()=>S.revise({},'human',brain([])),/当前未连接大模型/);});
+test('no connection means no generation and no network',async()=>{let calls=0;await assert.rejects(L.call(request(),{}, {fetcher:()=>{calls++}}),/当前未连接大模型/);assert.equal(calls,0);});
+test('fulltext samples: up to4 relevant high performance works, unknown/C/D/weak/risky are excluded',()=>{
+ const ms=Array.from({length:6},(_,i)=>material('work',{id:'kb-'+i,fields:{views:i?600000:5806000,copy:'仅测试全文开头。\n仅测试全文中间，苹果 Vision Pro 裁员与岗位调整。\n仅测试全文末尾。'}}));
+ ms.push(material('work',{id:'kb-low',fields:{views:12000,copy:'仅测试普通稿'}}),material('work',{id:'kb-no',fields:{copy:'仅测试未知表现'}}),material('work',{id:'kb-risk',fields:{views:5806000,status:'removed',copy:'仅测试风险稿'}}),material('work',{id:'kb-empty',body:'',fields:{views:5806000}}),material('work',{id:'kb-weak',title:'苹果智能家居',body:'',fields:{views:5806000,copy:'仅测试家居'}}));
+ const p=request(news(),ms);assert.equal(p.style_works.length,4);assert.equal(p.style_works[0].id,'kb-0');assert.ok(p.style_works.every(x=>x.text.endsWith('仅测试全文末尾。')));assert.ok(p.risk_records.some(x=>x.id==='kb-risk'));assert.ok(p.style_works.every(x=>!['kb-low','kb-no','kb-risk','kb-empty','kb-weak'].includes(x.id)));
 });
-test('60/90 seconds have different lengths; display estimate never promises exact duration',()=>{
- const short=generate(),long=generate(news(),[],90);assert.equal(short.duration,60);assert.equal(long.duration,90);assert.ok(long.timing.characters>short.timing.characters);assert.match(long.timing.note,/实际以朗读/);assert.throws(()=>generate(news(),[],75));assert.ok(short.timing.to>=60);assert.ok(long.timing.to>=90);
-});
-test('>=60 threshold excludes company-only matches, and input news/brain/V3 scores are unchanged',()=>{
- const n=news(),ms=[material('work',{title:'苹果智能家居',body:'',tags:['苹果'],fields:{views:5806000}})],state=brain(ms),before=JSON.stringify(state),score=JSON.stringify(R.score(n));const g=S.generate({news:n,brain:state});assert.equal(g.used_materials.length,0);assert.equal(JSON.stringify(state),before);assert.equal(JSON.stringify(R.score(n)),score);
-});
-test('strong S/A work priority, strongest usable material per type, no historical numbers in current facts',()=>{
- const ms=[material('work',{id:'kb-old',fields:{views:5806000,copy:'讲真，旧作品记录：2023年999亿元，只是测试。昔日高光，今天的反差。'}}),material('work',{id:'kb-normal',fields:{views:12000,copy:'仅测试普通稿'}}),material('opinion',{id:'kb-point',fields:{point:'品牌光环不能替普通人作选择。'}})];
- const c=S.context(news(),brain(ms));assert.equal(c.selected[0].material.id,'kb-old');const g=generate(news(),ms);assert.ok(g.used_materials.some(m=>m.id==='kb-old'&&m.performance==='S'));assert.ok(!g.used_materials.some(m=>m.id==='kb-normal'));assert.ok(!g.main.includes('999亿元'));assert.ok(g.checks.some(c=>c.kind==='history'));
-});
-test('only explicitly recorded compatible successful structure guides writing; grade without copy has no style evidence',()=>{
- const m=material('work',{fields:{views:5806000,copy:'仅测试：大厂文化、职场、跳槽，最后回到岗位条件。'}}),g=generate(news(),[m]);assert.equal(g.structure,'D');assert.ok(g.why.some(s=>s.includes('历史表现S')));
- const incompatible=material('work',{fields:{views:5806000,copy:'仅测试昔日高光、巨大反差'}}),n=news({title:'苹果 iPhone 手机涨价',summary:'价格调整仅测试'});const c=S.context(n,brain([incompatible]));assert.ok(!S.chooseStructures(n,c).reference);
- const noCopy=material('work',{body:'',fields:{views:5806000}});assert.equal(generate(news(),[noCopy]).used_materials.length,0);
-});
-test('B/C/D alternatives reflect actual event keywords; structure fallback does not invent a past peak',()=>{
- const c=generate(news({title:'苹果 iPhone 手机涨价',summary:'仅测试价格'}));assert.ok(c.availableStructures.includes('B'));assert.ok(c.availableStructures.includes('C'));
- const d=generate(news({title:'苹果管理层与岗位调整',summary:'仅测试职场'}));assert.ok(d.availableStructures.includes('D'));
- const generic=generate(news({title:'苹果公告',summary:''}));assert.ok(!generic.main.includes('曾经爆火'));assert.ok(!generic.main.includes('销量暴跌'));
-});
-test('viral structure reference borrows pattern, not original copy',()=>{
- const m=material('viral',{fields:{structure:'仅测试昔日高光 → 巨大反差',copy:'禁止照搬的原文：8888亿元'}}),g=generate(news(),[m]);assert.ok(g.used_materials.some(x=>x.type==='viral'));assert.ok(!g.main.includes('8888'));
-});
-test('90s uses recorded user question or case where it fits; omissions are not falsely listed as used',()=>{
- const q=material('comment',{id:'kb-q',fields:{question:'为什么要看员工的岗位条件？'}}),c=material('case',{id:'kb-case',fields:{event:'我过去在岗位变化时先检查自己的生活预算。'}});
- const g=generate(news(),[q,c],90);assert.ok(g.used_materials.some(m=>m.id==='kb-q'));assert.ok(!g.used_materials.some(m=>m.id==='kb-case'));assert.ok(g.checks.some(x=>x.kind==='history'));
- const caseOnly=generate(news(),[c],90);assert.ok(caseOnly.used_materials.some(m=>m.id==='kb-case'));
-});
-test('old opinions marked history, news exact quotes marked source support with URL/time and explicit unverified context',()=>{
- const g=generate(news(),[material('opinion',{fields:{point:'我过去认为，消费选择要看自己的预算。'}})]);const history=g.checks.find(c=>c.kind==='history'),fact=g.checks.find(c=>c.kind==='news');assert.ok(history);assert.ok(fact);assert.equal(fact.evidence.url,news().url);assert.equal(fact.evidence.published,news().published);assert.match(fact.reason,/未独立核对原文/);assert.ok(history.sentence.includes('我以前'));
-});
-test('manual/unconfirmed source stays needs-review, absent summary never fabricated',()=>{
- for(const override of [{kind:'manual'},{report_type:'unconfirmed'}]){const g=generate(news(override));assert.ok(g.checks.some(x=>x.kind==='review'));assert.ok(!g.checks.some(x=>x.kind==='news'));}
- const g=generate(news({summary:''}),[],90);assert.ok(g.segments.filter(x=>x.kind==='news').every(x=>x.evidence.field==='title'));
-});
-test('manual edited unsupported sentence including Tesla full liability is flagged, not adopted as a fact',()=>{
- const g=generate(),text=g.main+'\n\n特斯拉出事将负全责。\n\n这次新闻已经证明利润翻了999倍。';const checks=S.check(text,g);assert.equal(checks.at(-1).kind,'review');assert.equal(checks.at(-2).kind,'review');assert.ok(checks.at(-2).flags.includes('法律责任或法规解释'));
-});
-test('tampered source quote or forged fact sentence cannot claim source support',()=>{
- const g=generate(),fact=g.segments.find(s=>s.kind==='news');const forged={...g,segments:[{...fact,text:'该公司利润增加了1234亿元。'}],main:'该公司利润增加了1234亿元。'};assert.equal(S.check(forged.main,forged)[0].kind,'review');
- const altered={...g,news:{...g.news,title:'另一条新闻'}};assert.ok(S.check(g.main,altered).some(x=>x.reason.includes('引用与保存')));
-});
-test('risk history inherited before generation, removed/limited texts not mimicked; unsafe opinions omitted',()=>{
- const risky=material('work',{fields:{views:5806000,status:'removed',copy:'幕后大佬操控，资本早就安排好了。'}}),point=material('opinion',{id:'kb-risk-point',fields:{point:'这是利益输送。'}}),g=generate(news(),[risky,point]);assert.equal(g.risk.level,'高');assert.ok(!g.used_materials.some(x=>x.id===risky.id));assert.ok(!g.main.includes('幕后'));assert.ok(!g.main.includes('利益输送'));
-});
-test('default risky headline not repeated; a safe short source excerpt can be used, unsafe source needs review',()=>{
- const g=generate(news({title:'仅测试：苹果资本早就安排好了，幕后大佬操控',summary:''}));assert.ok(!g.main.includes('幕后大佬'));assert.ok(g.checks.some(x=>x.kind==='review'));
-});
-test('only opening revision generates 3 new choices while preserving editable main exactly',()=>{
- const g=generate();g.main+='\n\n仅测试手动补充。';const next=S.revise(g,'opening',brain([]));assert.equal(next.main,g.main);assert.notDeepEqual(next.openings,g.openings);assert.deepEqual(next.segments,g.segments);
-});
-test('angle changes core perspective and structure, not just adjectives, and preserves actual source title',()=>{
- const g=generate(),next=S.revise(g,'angle',brain([]));assert.notEqual(next.angle,g.angle);assert.notEqual(next.structure,g.structure);assert.notEqual(next.main,g.main);assert.ok(next.main.includes(news().title));
-});
-test('strengthen conflict keeps manual edits and source facts, introduces no unsupported outcome',()=>{
- const g=generate();g.main+='\n\n保留我的手动修改。';const next=S.revise(g,'conflict',brain([]));assert.ok(next.main.includes('保留我的手动修改'));assert.ok(next.main.includes(news().title));assert.ok(next.main.includes('判断标准'));assert.ok(!next.main.includes('内幕'));
-});
-test('more human adds short pauses only, source quote unchanged and supported; manual text still reviewed',()=>{
- const g=generate();g.main+='\n\n首先，然而，对于这条消息，这是我的手动文字。';const next=S.revise(g,'human',brain([]));assert.ok(!next.main.includes('首先'));assert.ok(next.main.includes('\n'));assert.ok(next.main.includes(news().title));assert.ok(next.checks.some(x=>x.kind==='news'));assert.ok(next.checks.some(x=>x.kind==='review'));
-});
-test('lower risk removes unverified accusation, motivation, legal error and absolute claims, preserving source support',()=>{
- const g=generate();g.main+='\n\n幕后大佬操控，资本早就安排好了。\n\n故意收割。\n\n法律规定必须赔，全责。\n\n所有人一定会成功。';const next=S.revise(g,'risk',brain([]));assert.deepEqual(S.hazards(next.main),[]);assert.ok(next.checks.some(x=>x.kind==='news'));assert.ok(!next.main.includes('全责'));assert.ok(next.lowRisk);
-});
-test('apply alternative opener changes only the first paragraph, including manually edited body',()=>{
- const g=generate();g.main+='\n\n测试手动正文。';const next=S.applyOpening(g,1);assert.equal(next.main.slice(next.main.indexOf('\n\n')),g.main.slice(g.main.indexOf('\n\n')));assert.ok(next.main.startsWith(g.openings[1].text));
-});
-test('draft schema roundtrip preserves complete provenance; rejects malformed/duplicate/unsafe data',()=>{
- const g=generate(),d={id:'speech-test',created_at:g.generated_at,updated_at:g.generated_at,result:g},s={schema_version:1,drafts:[d]},raw=JSON.stringify(s);assert.equal(JSON.stringify(S.validateDraftState(JSON.parse(raw))),raw);
- for(const state of [{schema_version:99,drafts:[]},{...s,drafts:[d,d]},{...s,drafts:[{...d,result:{...g,news:{...g.news,url:'javascript:alert(1)'}}}]},{...s,drafts:[{...d,result:{...g,main:'x'.repeat(50001)}}]}])assert.throws(()=>S.validateDraftState(state));
-});
-test('work backflow metadata saves time/references/checks without fake performance or publication and survives V4 validation',()=>{
- const g=generate(news(),[material('opinion',{fields:{point:'购买选择要看自己的条件。'}})]),generation=S.workGeneration(g),m=material('work',{fields:{copy:g.main,views:null,published:''},body:g.main,generation});B.validate(m);assert.equal(m.fields.views,null);assert.equal(m.fields.published,'');assert.equal(generation.news_id,news().id);assert.equal(generation.generated_at,g.generated_at);assert.deepEqual(generation.used_materials,g.used_materials);const state=brain([m]),raw=JSON.stringify(state);B.analyse(news(),state);assert.equal(JSON.stringify(state),raw);
-});
-
-test('configured long-term interest is a lower-priority tie-breaker, never overrides compatible S/A structure evidence',()=>{
- const state={...brain([]),profile:{companies:['苹果'],domains:['职场']}},g=S.generate({news:news(),brain:state});assert.equal(g.structure,'D');assert.ok(g.why.some(t=>t.includes('长期关注')));
- const m=material('work',{fields:{views:5806000,copy:'昔日高光 → 巨大反差'}}),withSuccess=S.generate({news:news(),brain:{...state,materials:[m]}});assert.equal(withSuccess.structure,'A');
-});
+test('opinion full fields max3; writing guidance is separated from event opinions',()=>{const ms=[material('opinion',{id:'kb-a-pref',fields:{point:'科技内容不要只讲技术参数，优先从普通人利益切入。'}}),...Array.from({length:4},(_,i)=>material('opinion',{id:'kb-op-'+i,fields:{point:'仅测试观点：岗位条件比名气重要。',reason:'仅测试原因完整保留。',counter:'仅测试反对观点。'}}))];const p=request(news(),ms);assert.equal(p.opinions.length+p.writing_preferences.length,3);assert.equal(p.writing_preferences.length,1);assert.ok(p.opinions[0].text.includes('反对观点'));assert.ok(p.opinions[0].text.includes('原因完整保留'));});
+test('unrelated materials do not fill quotas; no invented account experience or scores changed',()=>{const n=news(),state=brain([material('work',{title:'苹果家居',body:'',fields:{views:5806000,copy:'仅测试家居'}})]),before=JSON.stringify(state);const p=L.buildRequest({news:n,brain:state});assert.equal(p.style_works.length,0);assert.equal(JSON.stringify(state),before);});
+test('request contains full news, manual fulltext provenance and actual risk, not entire knowledge base',()=>{const n=news({body:'仅测试：完整正文，不截断。',fulltext_origin:'user_paste'}),p=request(n,[material('work',{fields:{views:5806000,status:'limited',copy:'仅测试：不可模仿原文',risk_note:'仅测试：无真实处理'}})]);assert.equal(p.current_news.body,n.body);assert.equal(p.current_news.fulltext_origin,'user_paste');assert.equal(p.risk_records[0].text,'仅测试：不可模仿原文');assert.equal(p.style_works.length,0);assert.ok(!p.materials);});
+test('requests reject bad source, too many samples, poor/risky sample, editing without body and oversize without truncation',()=>{const p=request();for(const x of [{...p,duration:75},{...p,current_news:{...p.current_news,url:'javascript:x'}},{...p,action:'human'},{...p,style_works:[...Array(5)].map((_,i)=>({id:''+i,type:'work',title:'x',text:'x',performance:'S',status:'normal',relevance:80}))},{...p,style_works:[{id:'x',type:'work',title:'x',text:'x',performance:'C',status:'normal',relevance:80}]}])assert.throws(()=>C.validateRequest(x));const long=Array.from({length:4},(_,i)=>material('work',{id:'kb-'+i,body:'x'.repeat(50000),fields:{views:5806000}}));assert.throws(()=>request(news(),long),/超过/);});
+test('output shape, exact evidence and selected IDs enforced',()=>{const p=request(),o=output(p);C.validateOutput(o,p);for(const bad of [{...o,openings:o.openings.slice(0,2)},{...o,used_material_ids:['not-sent']},{...o,paragraphs:[{text:'虚构',kind:'news',references:[{source:'news',id:news().id,field:'summary',quote:'原文没有这句话'}]}]}])assert.throws(()=>C.validateOutput(bad,p));});
+test('substantial historical copy is rejected while current source overlap is allowed',()=>{const old='这是一段仅测试的历史样稿长句，不应复制到新稿里，因为旧数字和旧事件不是本次事实。',p=request(news(),[material('work',{fields:{views:5806000,copy:old}})]),o=output(p);o.paragraphs[0].text=old;assert.throws(()=>C.validateOutput(o,p),/复制/);o.paragraphs[0].text=news().title;C.validateOutput(o,p);});
+test('result identifies true provider, input receipt, model output and current provenance',()=>{const p=request(news(),[material('work',{fields:{views:5806000,copy:'仅测试样稿全文'}})]),g=L.normalizeResult(output(p),p,{model:'test-model'});assert.equal(g.provider,'openai');assert.equal(g.version,'5.1.0');assert.equal(g.model,'test-model');assert.equal(g.used_materials.length,1);assert.match(g.contextNote,/不足2条/);assert.ok(g.checks.some(x=>x.kind==='news'&&x.reason.includes('人工')));S.validateResult(g);const ms=[...Array.from({length:4},(_,i)=>material('work',{id:'kb-w-'+i,fields:{views:5806000,copy:'仅测试完整样稿。'}})),...Array.from({length:3},(_,i)=>material('opinion',{id:'kb-o-'+i,fields:{point:'仅测试完整观点。'}}))],all=request(news(),ms),seven=L.normalizeResult(output(all),all);assert.equal(seven.used_materials.length,7);B.validate(material('work',{generation:S.workGeneration(seven)}));});
+test('missing evidence, novel current numeric claim and risky liability remain needs review',()=>{const p=request(),o=output(p);o.paragraphs.push({text:'仅测试：已经裁掉9999人，全责。',kind:'judgment',references:[]},{text:'仅测试：已经完成调整。',kind:'news',references:[]});const g=L.normalizeResult(o,p);assert.ok(g.checks.filter(x=>x.kind==='review').length>=2);g.main+='\n特斯拉出事将负全责。';assert.ok(S.check(g.main,g).at(-1).kind==='review');});
+test('rumor and manual provenance never promoted to confirmed even if model calls it news',()=>{for(const n of [news({report_type:'unconfirmed'}),news({kind:'manual'})]){const p=request(n),g=L.normalizeResult(output(p),p);assert.equal(g.checks.find(x=>x.sentence.includes('团队裁员')).kind,'review');}});
+test('all rewrite actions send current edited body and latest selected context to model',async()=>{const p=request(),g=L.normalizeResult(output(p),p);g.main+='\n手改内容仅测试。';for(const action of ['angle','opening','conflict','human','risk']){const next=L.buildRequest({news:news(),brain:brain([]),action,existing:g});let sent;await L.call(next,{endpoint:'https://example.com',accessToken:'TEST_ONLY_APPLICATION_TOKEN'}, {existing:g,fetcher:async(u,args)=>{sent=JSON.parse(args.body);return new Response(JSON.stringify({provider:'openai',model:'test-model',output:output(next)}));}});assert.equal(sent.action,action);assert.equal(sent.existing_draft,g.main);}});
+test('opening edit enforces byte-for-byte existing main even if model returns different body',()=>{const p=request(),g=L.normalizeResult(output(p),p);g.main+='\n手动正文。';const r=L.buildRequest({news:news(),brain:brain([]),action:'opening',existing:g}),o=output(r);o.paragraphs[0].text='不同的模型主稿。';const next=L.normalizeResult(o,r,{existing:g});assert.equal(next.main,g.main);assert.deepEqual(next.segments,g.segments);});
+test('API failures, unknown provider and malformed model result do not become rule output',async()=>{const p=request(),connection={endpoint:'https://example.com',accessToken:'TEST_ONLY_APPLICATION_TOKEN'};for(const data of [{provider:'rules',model:'x',output:output(p)},{provider:'openai',model:'x',output:{}}])await assert.rejects(L.call(p,connection,{fetcher:async()=>new Response(JSON.stringify(data))}));await assert.rejects(L.call(p,connection,{fetcher:async()=>new Response('{"error":"模型暂不可用"}',{status:503})}),/暂不可用/);});
+test('HTTPS endpoint only, no credentials/query/hash; API key is never accepted as browser access code',async()=>{for(const v of ['http://example.com','https://a:b@example.com','https://example.com/?key=x'])assert.throws(()=>L.endpoint(v));await assert.rejects(L.call(request(),{endpoint:'https://example.com',accessToken:'sk-TEST-ONLY'}),/只能配置在服务端/);});
+test('LLM and legacy drafts and generated work metadata coexist, no migration required',()=>{const p=request(),g=L.normalizeResult(output(p),p),old={...g,version:'5.0.0',provider:'rules',used_materials:[]};const state={schema_version:1,drafts:[g,old].map((result,i)=>({id:'speech-'+i,created_at:g.generated_at,updated_at:g.generated_at,result}))};assert.equal(S.validateDraftState(state),state);for(const x of [g,old])B.validate(material('work',{generation:S.workGeneration(x)}));assert.throws(()=>S.validateDraftState({...state,drafts:[state.drafts[0],state.drafts[0]]}));assert.throws(()=>S.validateResult({...g,segments:[{text:'仅测试无效引用',kind:'news',evidence:{references:'bad'}}]}));assert.throws(()=>S.validateResult({...g,news:{...g.news,body:{}}}));});
+test('manual applying model opening changes first paragraph only, no new network call',()=>{const p=request(),g=L.normalizeResult(output(p),p);g.main+='\n\n手动正文。';const next=S.applyOpening(g,1);assert.equal(next.main.slice(next.main.indexOf('\n\n')),g.main.slice(g.main.indexOf('\n\n')));});
+test('system instructions explicitly separate facts, style, guidance, uncertainty and edits',()=>{for(const word of ['写作要求','可能','不抄原句','旧数字','短句','口語','不同核心切口','existing_draft','指令','信息不足'])assert.ok(C.systemPrompt.includes(word),word);});

@@ -92,7 +92,7 @@
   return m;
  }
  function validateGeneration(g){
-  if(!g||g.version!=='5.0.0'||g.provider!=='rules'||!Number.isFinite(Date.parse(g.generated_at))||typeof g.news_id!=='string'||![60,90].includes(g.duration)||!['A','B','C','D'].includes(g.structure)||!Array.isArray(g.used_materials)||g.used_materials.length>5||g.used_materials.some(x=>!x||typeof x.id!=='string'||typeof x.title!=='string'||x.title.length>300||!Object.hasOwn(types,x.type)||!Number.isFinite(x.relevance)||x.relevance<60||x.relevance>100||!(x.performance===null||['S','A','B','C','D'].includes(x.performance))||typeof x.role!=='string')||!Array.isArray(g.checks)||g.checks.length>500||g.checks.some(x=>!x||typeof x.sentence!=='string'||!['news','history','judgment','review'].includes(x.kind)))throw new Error('口播生成记录无效');
+  if(!g||!((g.version==='5.0.0'&&g.provider==='rules')||(g.version==='5.1.0'&&g.provider==='openai'))||!Number.isFinite(Date.parse(g.generated_at))||typeof g.news_id!=='string'||![60,90].includes(g.duration)||!['A','B','C','D'].includes(g.structure)||!Array.isArray(g.used_materials)||g.used_materials.length>(g.provider==='openai'?7:5)||g.used_materials.some(x=>!x||typeof x.id!=='string'||typeof x.title!=='string'||x.title.length>300||!Object.hasOwn(types,x.type)||!Number.isFinite(x.relevance)||x.relevance<60||x.relevance>100||!(x.performance===null||['S','A','B','C','D'].includes(x.performance))||typeof x.role!=='string')||!Array.isArray(g.checks)||g.checks.length>500||g.checks.some(x=>!x||typeof x.sentence!=='string'||!['news','history','judgment','review'].includes(x.kind)))throw new Error('口播生成记录无效');
   return g;
  }
  function profile(p){
