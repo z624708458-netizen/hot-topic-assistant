@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T03:32:33.373Z",
+  "generated_at": "2026-10-10T03:38:44.476Z",
   "date_china": "2026-10-10",
   "period": "48h",
   "scoring": "transparent-keyword-rules-v2",
-  "source_updated_at": "2026-10-10T03:32:27Z",
+  "source_updated_at": "2026-10-10T03:38:41Z",
   "top5": [
     {
       "id": "rss-5f55653d77a9804df2a6",
@@ -20,7 +20,7 @@
       "url": "https://www.ithome.com/1/011/183.htm",
       "summary": "IT之家 10 月 10 日消息，据 Axios 于当地时间 10 月 9 日报道，Anthropic、OpenAI 以及其他人工智能公司的高管们，目前正私下闭门推演，若发生重大灾难性 AI 事件，该如何应对公众与政界的强烈抗议及抵制浪潮。 这些业内高管预计，未来很可能发生一场大规模事件 —— 极有可能是某种网络攻击，导致金融服务、互联网通信甚至水电供应等基础设施大面积瘫痪。 一旦非安全可控的 AI 首次在现实世界中造成实质性重大危害，本就心存戒备的公众将更加坚决地反对这项技术及其领军人物，包括 Anthropic 首席执行官达里奥 · 阿莫迪（Dario Amodei）与 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）。 IT之家从报道获悉，虽然情景规划在诸多企业和国家安全领域屡见不鲜，但…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:32:27Z",
+      "fetched_at": "2026-10-10T03:38:41Z",
       "kind": "rss",
       "report_type": "unconfirmed",
       "score": {
@@ -78,7 +78,7 @@
       "url": "https://www.ithome.com/1/011/174.htm",
       "summary": "IT之家 10 月 10 日消息，科技媒体 MacRumors 昨日（10 月 9 日）发布博文，报道称苹果更新过时产品名单，新增列出 2017 款初代 Apple TV 4K，恐影响该产品的后续维修，用户可能更难获取维修零件。 IT之家注：根据官方文档表述，过时产品是指 Apple 停止发售之日起已超过 5 年但未满 7 年的产品。 2,017 款 Apple TV 4K 是苹果首款支持 4K 视频的 Apple TV。它搭载 A10X Fusion 芯片，提供 32GB 和 64GB 版本。HDMI 2.0a 支持 4K、杜比视界与 HDR10，设备还配备千兆以太网及双频 802.11ac Wi-Fi。 该机随附第一代 Siri Remote，采用玻璃触控表面，苹果从第二代 Apple TV 4K 起弃用这…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:32:27Z",
+      "fetched_at": "2026-10-10T03:38:41Z",
       "kind": "rss",
       "report_type": "unconfirmed",
       "score": {
@@ -135,7 +135,7 @@
       "url": "https://www.ithome.com/1/011/293.htm",
       "summary": "IT之家 10 月 10 日消息，YouTube 频道 fpt. 主播乔恩 · 普罗瑟（Jon Prosser）昨日（10 月 9 日）发布视频，分享了一组 3D 渲染图，展示了苹果首款智能家居中枢产品（上市后可能名为 HomeView 或者 HomePad），该产品有望 10 月 13 日发布。 外观方面，该产品提供壁挂版（内部开发代号 J491）和桌面版（开发代号 J490），均采用约 6 英寸的方形显示屏，屏幕四周存在约 1/4 英寸（约 6.35 毫米）黑色边框。IT之家附上相关图片如下： 桌面版整体外形类似 iMac G4，配有圆形金属底座，屏幕则通过金属支臂连接，用户可以手动调整俯仰角度；机身采用灰色铝制外壳，并通过 USB-C 接口供电。 壁挂版屏幕下方配有一块较薄的方形底座，用于容纳扬声器和麦克…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:32:27Z",
+      "fetched_at": "2026-10-10T03:38:41Z",
       "kind": "rss",
       "report_type": "unconfirmed",
       "score": {
@@ -191,7 +191,7 @@
       "url": "https://www.ithome.com/1/011/176.htm",
       "summary": "IT之家 10 月 10 日消息，10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 TRAE，升级为全链路开发平台。 官方表示，过去 TraeWork 更偏向办公、任务和内容生成，TraeCode 更专注专业开发者的编码需求。双端融合后，全新 TRAE 用一个统一入口承接这些连续任务，并支持 Agent 模式与 IDE 模式无缝切换。 Agent 模式 适合从想法拆解到交付结果：新手开发者可以一步步做出 Demo，专业开发者也可以跨项目调度多个 Agent 并行推进任务。 IDE 模式 保留完整智能开发环境，适合单项目深度代码编辑与精细调试。 IT之家获悉，全新 TRAE 覆盖桌面端、Web 端和移动端。用户可以在电脑上启动任务，在移动端查看进…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:32:27Z",
+      "fetched_at": "2026-10-10T03:38:41Z",
       "kind": "rss",
       "report_type": "report",
       "score": {
@@ -246,7 +246,7 @@
       "url": "https://www.ithome.com/1/011/171.htm",
       "summary": "IT之家 10 月 10 日消息，消息源 @itspdfu 昨日（10 月 9 日）发布博文，报道称苹果和 LG 合作开发的智能家居配件支持“接近控制”功能。用户将 iPhone 靠近兼容配件后，可通过灵动岛提示打开控制界面，而摄像头和门铃还可直接显示画面。 没有灵动岛功能的 iPhone 或 iPad 将显示 30 秒通知，用户可以在设置完成后，在“家庭”应用中禁用此功能。在后台，该配件会将“apple-deviceid”写入存储在其 NFC 标签上的 Matter 有效载荷中，以便 iOS 在轻触时识别它。它还会广播用于 Apple 近距离控制的低功耗蓝牙广告。 消息称苹果在 iOS 27 系统中就引入了相关代码，IT之家援引博文介绍，在 iOS 27.2 Beta 3 更新中，苹果已上线切换选项，包括以下…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:32:27Z",
+      "fetched_at": "2026-10-10T03:38:41Z",
       "kind": "rss",
       "report_type": "report",
       "score": {
