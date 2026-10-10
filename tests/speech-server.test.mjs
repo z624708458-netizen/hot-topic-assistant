@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {handle,openai} from '../server/worker.mjs';
 import F from './speech-fixture.cjs';
-const env={APP_ACCESS_TOKEN:'TEST_ONLY_PRIVATE_ACCESS_TOKEN_12345',OPENAI_API_KEY:'sk-TEST_ONLY_FAKE_NEVER_USED',ALLOWED_ORIGIN:'https://example.com',OPENAI_MODEL:'test-model'};
+const env={MODEL_ENABLED:"true",APP_ACCESS_TOKEN:'TEST_ONLY_PRIVATE_ACCESS_TOKEN_12345',OPENAI_API_KEY:'sk-TEST_ONLY_FAKE_NEVER_USED',ALLOWED_ORIGIN:'https://example.com',OPENAI_MODEL:'test-model'};
 let serial=0;
 const req=(path='/generate',over={})=>new Request('https://test-worker.invalid'+path,{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,Authorization:'Bearer '+env.APP_ACCESS_TOKEN,'Content-Type':'application/json','CF-Connecting-IP':'TEST-'+serial++,...over.headers},body:JSON.stringify(F.request()),...Object.fromEntries(Object.entries(over).filter(([k])=>k!=='headers'))});
 const response=p=>new Response(JSON.stringify({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify(F.output(p))}]}]}));
@@ -17,3 +17,23 @@ test('HTTP model auth/quota/server failures are sanitized, never returned upstre
 test('incomplete, refusal, malformed JSON and fabricated citations do not yield a draft',async()=>{const p=F.request(),bad=F.output(p);bad.paragraphs[1].references[0].quote='不存在的事实';for(const payload of [{status:'incomplete',output:[]},{status:'completed',output:[{content:[{type:'refusal',refusal:'no'}]}]},{status:'completed',output:[{content:[{type:'output_text',text:'invalid'}]}]},{status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify(bad)}]}]}]){const r=await handle(req(),env,async()=>new Response(JSON.stringify(payload)));assert.notEqual(r.status,200);}});
 test('all model revision actions preserve full current draft in real provider payload',async()=>{for(const action of ['angle','opening','human','conflict','risk']){const p={...F.request(),action,existing_draft:'仅测试：已手改全文。'};let sent;const r=await handle(req('/generate',{body:JSON.stringify(p)}),env,async(url,args)=>{sent=JSON.parse(JSON.parse(args.body).input[1].content);return response(p)});assert.equal(r.status,200);assert.equal(sent.action,action);assert.equal(sent.existing_draft,p.existing_draft);}});
 test('best effort rate limit blocks repeated paid requests in an isolate',async()=>{const headers={'CF-Connecting-IP':'TEST_ONLY_RATE_IP'};for(let i=0;i<10;i++)assert.equal((await handle(req('/generate',{headers}),env,async()=>response(F.request()))).status,200);let calls=0;assert.equal((await handle(req('/generate',{headers}),env,()=>{calls++})).status,429);assert.equal(calls,0);});
+
+test('secretless health is public readiness only, direct browser opening works',async()=>{
+ let calls=0;const r=await handle(new Request('https://test-worker.invalid/health'),{},()=>{calls++});
+ assert.equal(r.status,200);const d=await r.json();assert.equal(d.backend_ready,true);assert.equal(d.configured,false);assert.equal(d.access_verified,false);assert.match(d.message,/当前未连接大模型/);assert.equal(calls,0);
+});
+test('explicit activation is mandatory even if a model key already exists',async()=>{
+ for(const MODEL_ENABLED of [undefined,'false']){let calls=0;const r=await handle(req('/generate',{body:'not JSON'}),{...env,MODEL_ENABLED},()=>{calls++});assert.equal(r.status,503);assert.match((await r.json()).error,/当前未连接大模型/);assert.equal(calls,0);}
+});
+test('secretless CORS preflight works and hostile origin remains denied',async()=>{
+ const r=await handle(req('/generate',{method:'OPTIONS',body:undefined}),{ALLOWED_ORIGIN:env.ALLOWED_ORIGIN});assert.equal(r.status,204);
+ assert.equal((await handle(req('/health',{method:'GET',body:undefined,headers:{Origin:'https://attacker.invalid'}}),{})).status,403);
+});
+test('public health never verifies missing or incorrect access code',async()=>{
+ for(const Authorization of ['','Bearer incorrect']){const r=await handle(req('/health',{method:'GET',body:undefined,headers:{Authorization}}),env);const d=await r.json();assert.equal(d.backend_ready,true);assert.equal(d.configured,false);assert.equal(d.access_verified,false);assert.ok(!JSON.stringify(d).includes(env.OPENAI_API_KEY));}
+});
+test('dashboard bundle is reproducible, standalone, and works without any secrets',async()=>{
+ const {build}=await import('../server/build-worker.mjs');const {readFileSync}=await import('node:fs');
+ const bundle=readFileSync(new URL('../server/worker.bundle.mjs',import.meta.url),'utf8');assert.equal(bundle,build());assert.doesNotMatch(bundle,/^import /m);
+ const worker=await import('../server/worker.bundle.mjs');const r=await worker.default.fetch(new Request('https://test-worker.invalid/health'),{});assert.equal((await r.json()).configured,false);
+});

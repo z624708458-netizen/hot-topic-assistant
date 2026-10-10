@@ -21,14 +21,21 @@ export async function openai(p,env,fetcher=fetch){
 export const providers={openai};
 export async function handle(request,env,fetcher=fetch){
  const url=new URL(request.url),origin=request.headers.get('Origin'),allowed=env.ALLOWED_ORIGIN||'https://z624708458-netizen.github.io';
- // Exact origin + private application token. No public anonymous paid endpoint.
- if(!origin||origin!==allowed)return reply({error:'访问来源不允许'},403);
- if(!env.APP_ACCESS_TOKEN||env.APP_ACCESS_TOKEN.length<24)return reply({error:'服务端应用访问码尚未配置'},503,origin);
+ // Public readiness checks never invoke a model or read personal materials.
+ const health=url.pathname==='/health'&&request.method==='GET';
+ if((origin&&origin!==allowed)||(!origin&&!health))return reply({error:'访问来源不允许'},403);
  if(request.method==='OPTIONS')return new Response(null,{status:204,headers:{'Access-Control-Allow-Origin':origin,'Access-Control-Allow-Methods':'POST, GET, OPTIONS','Access-Control-Allow-Headers':'Authorization, Content-Type','Access-Control-Max-Age':'600','Vary':'Origin'}});
- if(!await equal(request.headers.get('Authorization')||'','Bearer '+env.APP_ACCESS_TOKEN))return reply({error:'应用访问码无效；不要填写OpenAI Key'},401,origin);
- if(!env.OPENAI_API_KEY)return reply({error:C.unavailable},503,origin);
- if(url.pathname==='/health'&&request.method==='GET')return reply({configured:true,provider:'openai',model:env.OPENAI_MODEL||'gpt-4.1-mini'},200,origin);
+ const enabled=env.MODEL_ENABLED==='true'&&!!env.OPENAI_API_KEY;
+ const tokenReady=typeof env.APP_ACCESS_TOKEN==='string'&&env.APP_ACCESS_TOKEN.length>=24;
+ if(health){
+  const verified=enabled&&tokenReady&&await equal(request.headers.get('Authorization')||'','Bearer '+env.APP_ACCESS_TOKEN);
+  return reply({backend_ready:true,configured:verified,access_verified:verified,provider:'openai',...(verified?{model:env.OPENAI_MODEL||'gpt-4.1-mini'}:{message:C.unavailable})},200,origin||'');
+ }
  if(url.pathname!=='/generate'||request.method!=='POST')return reply({error:'接口不存在'},404,origin);
+ // Deployment is safe without secrets. Activation must be explicit, never automatic.
+ if(!enabled)return reply({error:C.unavailable},503,origin);
+ if(!tokenReady)return reply({error:'服务端应用访问码尚未配置'},503,origin);
+ if(!await equal(request.headers.get('Authorization')||'','Bearer '+env.APP_ACCESS_TOKEN))return reply({error:'应用访问码无效；不要填写OpenAI Key'},401,origin);
  if(!request.headers.get('Content-Type')?.startsWith('application/json'))return reply({error:'仅接受JSON'},415,origin);
  // Best effort per-isolate throttle; project budget is also needed at OpenAI.
  const ip=request.headers.get('CF-Connecting-IP')||'private-user',now=Date.now(),bucket=buckets.get(ip);if(bucket&&bucket.until>now&&bucket.count>=10)return reply({error:'操作过于频繁，请一分钟后重试'},429,origin);

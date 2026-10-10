@@ -4,6 +4,7 @@ compatibility_date = "2026-10-01"
 workers_dev = true
 
 [vars]
+MODEL_ENABLED = "false"
 ALLOWED_ORIGIN = "https://z624708458-netizen.github.io"
 OPENAI_MODEL = "gpt-4.1-mini"
 

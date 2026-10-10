@@ -1,49 +1,65 @@
-# V5.1 模型服务：尚未部署，需用户授权后接通
+# Cloudflare 后端部署准备（暂不连接模型）
 
-GitHub Pages继续托管现有界面；Cloudflare Worker只负责安全调用OpenAI。Worker代码没有Key，不会因推送GitHub自动创建账号、部署Worker或调用模型。现有新闻/知识库免费功能独立运行。
+当前用户已有 Cloudflare 账号，尚未开通 OpenAI API。本版本可以**先部署后端，不需要任何 API Key**。默认模型关闭，生成和改稿保持禁用，不回退模板。GitHub Pages、新闻、第二大脑、评分及既有数据不受影响。
 
-## 接通前需要确认
+## 最简单的部署方式：控制台粘贴单文件
 
-1. 同意使用Cloudflare Workers免费计划，需要Cloudflare账号和GitHub仓库授权。日常个人使用通常适合免费额度，具体以账户实际配额为准。
-2. 同意使用OpenAI API。ChatGPT订阅不等于API额度；API按用量计费，需自己的OpenAI项目、API Key和可用额度。先设置项目预算与提醒；不能承诺免费。
-3. 需要服务端访问 `api.openai.com`，浏览器访问部署后具体的 `你的服务.workers.dev`。本次未访问新域名或发送真实模型请求。部署确认前不填写Key。
+1. 登录已有的 [Cloudflare 控制台](https://dash.cloudflare.com/)，进入 Workers & Pages，创建 Worker，选择 Hello World / Start with Hello World（控制台按钮名称可能略有变化），名称可用 `hot-topic-speech`。使用免费计划即可，不需要购买套餐或绑定 OpenAI。
+2. 打开 Worker 的 Edit code（编辑代码），打开仓库里的 [worker.bundle.mjs](https://github.com/z624708458-netizen/hot-topic-assistant/blob/main/server/worker.bundle.mjs)，点击 Raw 查看完整文件，将**全部代码**复制替换编辑器中原有代码，点击 Deploy。这个文件已经包含依赖；不需要安装软件、下载 ZIP 或授权 GitHub。
+3. 打开 `https://你的Worker地址.workers.dev/health`。应显示 `backend_ready: true`、`configured: false` 和“当前未连接大模型，无法生成高质量口播”。这表示后端就绪，**不代表模型已连接**。如果地址尚未启用，在 Worker 的 Settings → Domains & Routes 中启用 workers.dev。
+4. 返回热点雷达，打开选题详情 → 口播生成器 → 连接大模型 / 设置，只填写 Worker 根地址（不加 `/health`），**应用访问码留空**，检查连接。网页显示“后端已就绪；当前未连接大模型”，生成按钮继续禁用。
 
-## 授权后的最简单部署方式
+可以把 Worker 的公开地址提供给开发者核对。不要发送账号密码、API Key 或应用访问码。当前开发环境没有 Cloudflare 登录授权，因此仓库推送不会替你实际部署 Worker。
 
-Cloudflare控制台创建Worker，选择连接Git仓库 `z624708458-netizen/hot-topic-assistant`、main分支，工作目录 `server`，部署命令 `npx wrangler deploy`。依赖由Cloudflare构建环境处理；无需改变GitHub Pages，也无需安装本地软件。Wrangler会打包引用的 `../assets/speech-contract.js`。
+### 现在无需配置的内容
 
-在Worker的Settings → Variables and Secrets设置：
+不需要 OpenAI 账号、OpenAI API Key、应用访问码、KV、数据库或付费服务。默认允许网页来源为 `https://z624708458-netizen.github.io`。即使意外设置了 Key，未显式开启 `MODEL_ENABLED` 也不会调用模型。健康检查只检查后端和配置，不上传新闻或知识库。
+
+## 日后开通 API 再启用
+
+这是后续步骤，**当前不执行**。OpenAI API 与 ChatGPT 订阅独立，调用可能产生费用。开通后先设置项目预算与提醒，再在 Worker Settings → Variables and Secrets 添加：
 
 | 名称 | 类型 | 设置 |
 | --- | --- | --- |
-| OPENAI_API_KEY | **Secret** | 自己的OpenAI项目Key，只放这里，不放仓库/网页/聊天 |
-| APP_ACCESS_TOKEN | **Secret** | 自己生成的至少24字符随机应用访问码；与OpenAI Key不同 |
-| ALLOWED_ORIGIN | 文本 | `https://z624708458-netizen.github.io`（没有仓库路径） |
-| OPENAI_MODEL | 文本 | 默认 `gpt-4.1-mini`，需账户可用；可在服务端更换 |
-| MODEL_PROVIDER | 文本，可选 | 默认 `openai`，后续可通过providers接口扩展 |
+| OPENAI_API_KEY | Secret | 自己的 OpenAI 项目 Key，只放服务端 |
+| APP_ACCESS_TOKEN | Secret | 至少24字符随机应用访问码，与 OpenAI Key 不同 |
+| MODEL_ENABLED | 文本 | `true`（最后再开启；默认关闭） |
+| OPENAI_MODEL | 文本，可选 | 默认 `gpt-4.1-mini`，需项目有权限 |
+| ALLOWED_ORIGIN | 文本，可选 | 默认 `https://z624708458-netizen.github.io` |
+| MODEL_PROVIDER | 文本，可选 | 默认 `openai` |
 
-保存设置后重新部署。取得Worker HTTPS地址后，在页面“口播生成器 → 连接大模型 / 设置”填写服务地址和**应用访问码**，点击检查连接。这里不能输入OpenAI Key。访问码只留在当前页面内存，不写localStorage；刷新页面需要重新输入。服务地址可以保存在本浏览器。
+保存并部署后，在网页填写服务地址和**应用访问码**。Key永远不输入网页、聊天或 GitHub。访问码仅在本页内存；刷新需重新输入。localStorage 仅保存服务地址。
 
-`/health`只检查服务端配置是否齐全，不产生模型调用，也不证明Key有效；实际生成失败会明确提示，保留原稿。`/generate`发起一次OpenAI Responses API调用；五种改稿操作也各产生一次模型调用。切换时长不自动消费额度。
+`/health` 不消耗模型额度；即使配置与访问码通过，也不证明 Key 实际有效。实际生成报错会明确提示并保留旧稿。`/generate` 和每个改稿按钮各调用一次模型。切换时长不自动调用。所选新闻、历史样稿、观点与风险记录在生成时才发送至 Worker 和 OpenAI。
 
-如使用CLI，授权后可在本目录运行 `npx wrangler deploy` 和 `npx wrangler secret put OPENAI_API_KEY` / `npx wrangler secret put APP_ACCESS_TOKEN`；认证需用户自己完成，Key通过交互Secret输入，禁止写在命令参数、Git或前端。
+## 维护和可重复构建
 
-## 已实现的边界
+源码是 `server/worker.mjs`，公共输入输出契约是 `assets/speech-contract.js`，单文件由以下命令生成（无依赖）：
 
-- Key只在服务端使用；浏览器只连接自己的Worker。固定调用OpenAI官方Responses地址，不抓取用户传入的原文URL，不接受自定义上游地址。
-- 精确Origin校验、应用访问码认证、输入格式/体积限制、模型请求超时和输出来源/格式校验。每个Worker隔离实例每IP每分钟10次的限制是辅助保护，**不是全局额度保障**，仍要在OpenAI设置预算。
-- 请求不写KV或数据库，不记录正文/Key；响应不回传上游错误或Key。OpenAI请求设 `store:false`；这不代表OpenAI自身的数据保留政策为零。
-- 新闻URL、来源、发布时间、标题、摘要和可选粘贴全文作为当前事实。相关性≥60的S/A/B作品全文最多4条；相关个人观点/写作偏好合计最多3条；相关风险记录最多3条。不足不补无关素材，全文过大直接报错，不悄悄截断。
-- 历史样稿仅学习节奏、措辞习惯、开头、结构和判断方式；长句照抄会被拒绝，旧数字不会因此成为当前事实。写作策略与事件观点分别传入。
-- 模型提供事实/历史观点/判断/待核实段落与逐字证据。规则验证证据确实存在、提示新增数字与风险词，但不能证明语义推导正确或平台一定放行。
+```sh
+node server/build-worker.mjs
+node server/build-worker.mjs --check
+```
 
-## 本地验证（不需要Key、不联网到模型）
+单文件已提交仓库，测试检查与源码完全一致。之后修改源码需要重新生成，然后在 Cloudflare 控制台重新粘贴和部署；**这种手动部署不会随 GitHub 推送自动更新**。GitHub Pages 继续按原工作流自动更新。
+
+熟悉 CLI 时也可使用 `server/wrangler.toml`，`MODEL_ENABLED = "false"` 已设置；当前无需运行登录或部署命令。
+
+## 服务边界
+
+- 公开 `/health` 仅返回就绪信息，不泄露秘密。浏览器跨域仅允许指定 Origin。生成接口要求显式开启模型、服务端 Key 和正确应用访问码。
+- 固定调用 OpenAI 官方 Responses API，预留 `providers` 接口，不接受任意上游地址，不抓取输入新闻 URL。
+- 输入格式/体积限制、请求超时、输出格式/逐字证据校验、每隔离实例每 IP 每分钟10次辅助限流。限流不是全局额度保障，后续仍需 OpenAI 预算。
+- 不使用 KV/数据库存储新闻或素材，不记录请求正文或 Key，不回传上游错误。OpenAI 请求 `store:false` 不等于其数据保留政策为零。
+- 历史全文用于风格参考，旧事实不视为当前事实；证据检查无法替代人工事实核对，也不保证平台放行。
+
+## 测试
 
 在仓库根目录：
 
 ```sh
-node --test tests/speech.test.js tests/speech-server.test.mjs
-python3 -m unittest discover -s tests -p 'test_speech.py' -v
+node --test tests/rules.test.js tests/brain.test.js tests/brain41.test.js tests/speech.test.js tests/speech-server.test.mjs
+python3 -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-测试响应均明确标为TEST ONLY，验证HTTP请求/Provider/前后端状态/持久化。**真实模型文稿的自然度、像不像创作者和实际费用，需接通后用本人历史稿验收；当前尚未验证。**
+所有模型响应都是明确标识的 TEST ONLY 测试数据，没有调用真实模型。真实口播质量和费用需要后续 API 接通后验收。

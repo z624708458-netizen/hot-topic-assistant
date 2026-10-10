@@ -4,7 +4,7 @@
  const S=window.RadarSpeech,L=window.RadarSpeechLLM,B=window.RadarBrain,KEY='radar-speech-v5',esc=escapeHTML;
  const el=s=>document.querySelector(s),uuid=()=> 'speech-'+(crypto.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2));
  const sessions=new Map(),draftSessions=new Map();let draftSession=null,blocked='';
- const CONNECTION_KEY='radar-model-connection-v1';let connection={endpoint:'',accessToken:'',verified:false,model:''};
+ const CONNECTION_KEY='radar-model-connection-v1';let connection={endpoint:'',accessToken:'',verified:false,backendReady:false,model:''};
  try{const saved=JSON.parse(localStorage.getItem(CONNECTION_KEY)||'null');if(saved?.endpoint)connection.endpoint=L.endpoint(saved.endpoint);}catch{/* Invalid connection config never touches knowledge or drafts. */}
  const connected=()=>connection.verified&&!!connection.endpoint&&!!connection.accessToken;
  function read(){const raw=localStorage.getItem(KEY);return raw===null?{schema_version:1,drafts:[]}:S.validateDraftState(JSON.parse(raw));}
@@ -35,7 +35,7 @@
  }
  function workspaceHTML(t,scope='news'){
   const entry=current(t),g=entry?.result;
-  return `<div data-speech-workspace="${scope}" data-speech-news="${esc(t.news.id)}"><fieldset class="speech-fields" ${t.busy?'disabled':''}>${scope==='draft'?'<p class="speech-archive">正在查看保存时的新闻快照，未自动更新为今日进展。请以新闻发布时间和原文为准。</p>':''}<p class="speech-intro">LLM口播 · 新闻事实 + 历史样稿全文 + 个人观点 + 风险记录。生成与编辑需连接服务端OpenAI；不会回退旧规则稿。</p>${warningHTML(t.news)}<p class="speech-model-status">${connected()?`服务端已连接 · ${esc(connection.model)}。生成会消耗OpenAI API额度。`:L.unavailable}</p><button class="secondary" data-speech-connect>连接大模型 / 设置</button><details class="speech-source-input"><summary>补充新闻原文（可选）</summary><p>当前仅使用已保存标题和RSS摘要，未自动读取链接全文。内容太少时可在这里粘贴原文；不会改写新闻库。传闻仍须保留限定语。</p><textarea data-speech-fulltext rows="5" maxlength="50000" placeholder="粘贴新闻全文或你核对过的完整摘要">${esc(t.news.body||'')}</textarea></details><div class="speech-controls"><label>目标时长<select data-speech-duration aria-label="口播时长"><option value="60" ${t.duration===60?'selected':''}>60 秒</option><option value="90" ${t.duration===90?'selected':''}>90 秒</option></select></label><button class="primary" data-speech-generate ${!connected()||t.busy?'disabled':''}>${t.busy?'模型正在生成…':g?'重新生成口播':'生成口播'}</button><button class="secondary" data-speech-library>我的草稿</button></div><p class="speech-error" data-speech-error role="alert">${esc(t.error||'')}</p><p class="speech-notice" data-speech-notice role="status">${esc(t.notice||'')}</p>${g?`<p class="speech-meta">本稿新闻：${esc(g.news.title)}<br>${dateText(g.news.published)} 发布 · ${dateText(g.generated_at)} 生成<br><a href="${esc(safeURL(g.news.url))}" target="_blank" rel="noopener noreferrer">${esc(g.news.source)} · 打开原文 ↗</a></p>${resultHTML(g,t.busy)}${entry.undo?'<button class="speech-undo" data-speech-undo>撤销上一次调整</button>':''}`:'<p>仅在连接大模型后生成。相关性≥60的高表现历史全文最多4条、个人观点最多3条，风险作品单独作为避雷记录。相关全文不足2条会明确提示，不拿无关作品补数。所选资料会发送给你的服务端及OpenAI；其余知识库不会上传。</p>'}</fieldset></div>`;
+  return `<div data-speech-workspace="${scope}" data-speech-news="${esc(t.news.id)}"><fieldset class="speech-fields" ${t.busy?'disabled':''}>${scope==='draft'?'<p class="speech-archive">正在查看保存时的新闻快照，未自动更新为今日进展。请以新闻发布时间和原文为准。</p>':''}<p class="speech-intro">LLM口播 · 新闻事实 + 历史样稿全文 + 个人观点 + 风险记录。生成与编辑需连接服务端OpenAI；不会回退旧规则稿。</p>${warningHTML(t.news)}<p class="speech-model-status">${connected()?`服务端已连接 · ${esc(connection.model)}。生成会消耗OpenAI API额度。`:connection.backendReady?'后端已就绪；'+L.unavailable:L.unavailable}</p><button class="secondary" data-speech-connect>连接大模型 / 设置</button><details class="speech-source-input"><summary>补充新闻原文（可选）</summary><p>当前仅使用已保存标题和RSS摘要，未自动读取链接全文。内容太少时可在这里粘贴原文；不会改写新闻库。传闻仍须保留限定语。</p><textarea data-speech-fulltext rows="5" maxlength="50000" placeholder="粘贴新闻全文或你核对过的完整摘要">${esc(t.news.body||'')}</textarea></details><div class="speech-controls"><label>目标时长<select data-speech-duration aria-label="口播时长"><option value="60" ${t.duration===60?'selected':''}>60 秒</option><option value="90" ${t.duration===90?'selected':''}>90 秒</option></select></label><button class="primary" data-speech-generate ${!connected()||t.busy?'disabled':''}>${t.busy?'模型正在生成…':g?'重新生成口播':'生成口播'}</button><button class="secondary" data-speech-library>我的草稿</button></div><p class="speech-error" data-speech-error role="alert">${esc(t.error||'')}</p><p class="speech-notice" data-speech-notice role="status">${esc(t.notice||'')}</p>${g?`<p class="speech-meta">本稿新闻：${esc(g.news.title)}<br>${dateText(g.news.published)} 发布 · ${dateText(g.generated_at)} 生成<br><a href="${esc(safeURL(g.news.url))}" target="_blank" rel="noopener noreferrer">${esc(g.news.source)} · 打开原文 ↗</a></p>${resultHTML(g,t.busy)}${entry.undo?'<button class="speech-undo" data-speech-undo>撤销上一次调整</button>':''}`:'<p>仅在连接大模型后生成。相关性≥60的高表现历史全文最多4条、个人观点最多3条，风险作品单独作为避雷记录。相关全文不足2条会明确提示，不拿无关作品补数。所选资料会发送给你的服务端及OpenAI；其余知识库不会上传。</p>'}</fieldset></div>`;
  }
  function render(n){return `<section class="speech-generator"><h3>口播生成器 <small>V5.1 · LLM</small></h3>${workspaceHTML(session(n))}</section>`;}
  function repaint(root,t){root.outerHTML=workspaceHTML(t,root.dataset.speechWorkspace);}
@@ -74,7 +74,7 @@
  });
  document.addEventListener('click',async event=>{
   const button=event.target.closest('button');if(!button)return;
-  if(button.hasAttribute('data-speech-connect')){el('#speech-endpoint').value=connection.endpoint;el('#speech-access-token').value='';el('#speech-connect-status').textContent='OpenAI Key只放在服务端。这里填写应用访问码，访问码只在本页内存保存。';el('#speech-connect-dialog').showModal();return;}
+  if(button.hasAttribute('data-speech-connect')){el('#speech-endpoint').value=connection.endpoint;el('#speech-access-token').value='';el('#speech-connect-status').textContent='OpenAI Key只放在服务端。未开通模型时只填服务地址，应用访问码留空。访问码只在本页内存保存。';el('#speech-connect-dialog').showModal();return;}
   if(button.hasAttribute('data-speech-library')){openLibrary();return;}
   if(button.hasAttribute('data-speech-load')){try{const d=read().drafts.find(d=>d.id===button.dataset.speechLoad);if(!d)throw new Error('草稿不存在');draftSession=draftSessions.get(d.id)||{news:d.result.news,duration:d.result.duration,versions:{[d.result.duration]:{result:structuredClone(d.result),id:d.id,savedAt:d.updated_at}},error:'',notice:'已打开保存时的新闻快照；未自动更新为今日进展。'};draftSessions.set(d.id,draftSession);el('#speech-draft-body').innerHTML=workspaceHTML(draftSession,'draft');}catch(error){el('#speech-drafts-status').textContent=error.message;}return;}
   const root=rootFor(button),t=owner(root);if(!t)return;
@@ -97,14 +97,16 @@
  window.addEventListener('storage',event=>{if(event.key!==KEY)return;blocked='';readSafe();renderLibrary();});
 
  el('#speech-connect-close').addEventListener('click',()=>el('#speech-connect-dialog').close());
+ el('#speech-connect-dialog').addEventListener('close',()=>{renderDetail();if(draftSession&&el('#speech-drafts-dialog').open)el('#speech-draft-body').innerHTML=workspaceHTML(draftSession,'draft');});
  el('#speech-connect-form').addEventListener('submit',async event=>{
   event.preventDefault();const button=el('#speech-connect-submit');button.disabled=true;
-  try{const endpoint=L.endpoint(el('#speech-endpoint').value.trim()),accessToken=el('#speech-access-token').value.trim();if(!accessToken||accessToken.startsWith('sk-'))throw new Error('请填应用访问码，不是OpenAI API Key');
-   const response=await fetch(endpoint+'/health',{headers:{Authorization:'Bearer '+accessToken},signal:AbortSignal.timeout(15000),credentials:'omit',cache:'no-store'}),data=await response.json();
-   if(!response.ok||!data.configured||data.provider!=='openai')throw new Error(data.error||L.unavailable);
-   connection={endpoint,accessToken,verified:true,model:data.model};try{localStorage.setItem(CONNECTION_KEY,JSON.stringify({endpoint}));}catch{/* Connected for this page even when endpoint storage fails. */}
+  try{const endpoint=L.endpoint(el('#speech-endpoint').value.trim()),accessToken=el('#speech-access-token').value.trim();if(accessToken.startsWith('sk-'))throw new Error('请填应用访问码，不是OpenAI API Key');
+   const response=await fetch(endpoint+'/health',{headers:accessToken?{Authorization:'Bearer '+accessToken}:{},signal:AbortSignal.timeout(15000),credentials:'omit',cache:'no-store'}),data=await response.json();
+   if(!response.ok||data.backend_ready!==true||data.provider!=='openai')throw new Error(data.error||L.unavailable);
+   if(data.configured===true&&(!accessToken||data.access_verified!==true))throw new Error('模型认证未完成，请填写应用访问码');
+   connection={endpoint,accessToken:data.configured===true?accessToken:'',verified:data.configured===true,backendReady:true,model:data.model||''};try{localStorage.setItem(CONNECTION_KEY,JSON.stringify({endpoint}));}catch{/* Connected for this page even when endpoint storage fails. */}
    el('#speech-access-token').value='';el('#speech-connect-dialog').close();renderDetail();if(draftSession&&el('#speech-drafts-dialog').open)el('#speech-draft-body').innerHTML=workspaceHTML(draftSession,'draft');
-  }catch(error){connection.verified=false;el('#speech-connect-status').textContent='连接未完成：'+error.message;}finally{button.disabled=false;}
+  }catch(error){connection.verified=false;connection.backendReady=false;connection.accessToken='';el('#speech-connect-status').textContent='连接未完成：'+error.message;}finally{button.disabled=false;}
  });
  window.SpeechUI={render};renderLibrary();renderDetail();
 })();

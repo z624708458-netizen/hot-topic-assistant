@@ -16,14 +16,14 @@ class SpeechTest(unittest.TestCase):
 
     def setUp(self):
         v41.Brain41Test.setUp(self)
-        self.calls=[];self.failure=False;self.health_failure=False;self.hold=False;self.pending=None
+        self.calls=[];self.failure=False;self.health_failure=False;self.backend_only=False;self.hold=False;self.pending=None
         self.page.route('**/llm-test/**',self.provider)
 
     tearDown=base.DemoTest.tearDown
 
     def provider(self,route):
         if route.request.url.endswith('/health'):
-            route.fulfill(status=503 if self.health_failure else 200,json={'error':'当前未连接大模型，无法生成高质量口播'} if self.health_failure else {'configured':True,'provider':'openai','model':'TEST_ONLY_MODEL'});return
+            route.fulfill(status=503 if self.health_failure else 200,json={'error':'当前未连接大模型，无法生成高质量口播'} if self.health_failure else {'backend_ready':True,'configured':not self.backend_only,'access_verified':not self.backend_only,'provider':'openai','model':'TEST_ONLY_MODEL'});return
         payload=route.request.post_data_json;self.calls.append(payload)
         if self.hold:self.pending=route;return
         if self.failure:route.fulfill(status=502,json={'error':'仅测试模型服务失败，旧稿保留'});return
@@ -155,5 +155,21 @@ class SpeechTest(unittest.TestCase):
         p=self.page;p.set_viewport_size({'width':390,'height':844});self.generate();self.assertTrue(p.evaluate('document.documentElement.scrollWidth<=innerWidth'))
         for action in ['opening','human','conflict','angle','risk']:self.action(action)
         p.locator('[data-speech-save]').click();body=self.open_saved();self.assertTrue(p.evaluate('document.documentElement.scrollWidth<=innerWidth'));body.locator('[data-speech-work]').click();self.assertTrue(p.locator('#brain-dialog').is_visible());self.assertTrue(p.evaluate('document.documentElement.scrollWidth<=innerWidth'))
+
+
+    def test_backend_ready_without_access_code_keeps_model_disabled_and_data_unchanged(self):
+        self.backend_only=True;p=self.page
+        before=p.evaluate("JSON.stringify(localStorage)")
+        p.locator('[data-speech-connect]').click();p.locator('#speech-endpoint').fill(self.url+'/llm-test')
+        self.assertFalse(p.locator('#speech-access-token').evaluate('(e)=>e.required'))
+        p.locator('#speech-connect-submit').click();p.wait_for_function("!document.querySelector('#speech-connect-dialog').open")
+        self.assertIn('后端已就绪',p.locator('.speech-model-status').inner_text())
+        self.assertIn('当前未连接大模型',p.locator('.speech-model-status').inner_text())
+        self.assertTrue(p.locator('[data-speech-generate]').is_disabled());self.assertEqual(self.calls,[])
+        saved=p.evaluate("JSON.parse(localStorage.getItem('radar-model-connection-v1'))")
+        self.assertEqual(saved,{'endpoint':self.url+'/llm-test'})
+        after=p.evaluate("JSON.stringify(Object.fromEntries(Object.entries(localStorage).filter(([k])=>k!=='radar-model-connection-v1')))")
+        self.assertEqual(json.loads(before),json.loads(after))
+        p.reload();self.recommend();self.assertTrue(p.locator('[data-speech-generate]').is_disabled())
 
 if __name__=='__main__':unittest.main(verbosity=2)
