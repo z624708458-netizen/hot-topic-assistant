@@ -1,0 +1,120 @@
+{
+  "sources": [
+    {
+      "id": "ithome",
+      "name": "IT之家",
+      "url": "https://www.ithome.com/rss/",
+      "article_domains": [
+        "ithome.com"
+      ],
+      "type": "media_rss",
+      "enabled": true
+    },
+    {
+      "id": "ifanr",
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/feed",
+      "article_domains": [
+        "ifanr.com"
+      ],
+      "type": "media_rss",
+      "enabled": true
+    },
+    {
+      "id": "36kr",
+      "name": "36氪",
+      "url": "https://36kr.com/feed",
+      "article_domains": [
+        "36kr.com"
+      ],
+      "type": "media_rss",
+      "enabled": false,
+      "disabled_reason": "2026-10-10 联网验证时 /feed 返回 HTML 而非 RSS，停止自动请求；待有官方确认的公开订阅地址再启用。"
+    },
+    {
+      "id": "apple",
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/rss-feed.rss",
+      "article_domains": [
+        "apple.com"
+      ],
+      "type": "official_rss",
+      "company": "苹果",
+      "enabled": true
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI 官方新闻",
+      "url": "https://openai.com/news/rss.xml",
+      "article_domains": [
+        "openai.com"
+      ],
+      "type": "official_rss",
+      "company": "OpenAI",
+      "enabled": true
+    }
+  ],
+  "company_aliases": {
+    "小米": [
+      "小米",
+      "Xiaomi",
+      "Redmi",
+      "红米"
+    ],
+    "华为": [
+      "华为",
+      "Huawei",
+      "鸿蒙",
+      "HarmonyOS"
+    ],
+    "腾讯": [
+      "腾讯",
+      "Tencent",
+      "微信",
+      "WeChat"
+    ],
+    "字节跳动": [
+      "字节跳动",
+      "字节",
+      "ByteDance",
+      "抖音",
+      "TikTok",
+      "豆包"
+    ],
+    "阿里巴巴": [
+      "阿里巴巴",
+      "阿里",
+      "Alibaba",
+      "通义",
+      "千问",
+      "Qwen",
+      "淘宝",
+      "天猫"
+    ],
+    "百度": [
+      "百度",
+      "Baidu",
+      "文心"
+    ],
+    "OpenAI": [
+      "OpenAI",
+      "ChatGPT",
+      "GPT-5",
+      "GPT-4",
+      "Sora"
+    ],
+    "苹果": [
+      "苹果",
+      "Apple",
+      "iPhone",
+      "iPad",
+      "MacBook",
+      "iOS",
+      "Apple Intelligence"
+    ],
+    "特斯拉": [
+      "特斯拉",
+      "Tesla"
+    ]
+  }
+}

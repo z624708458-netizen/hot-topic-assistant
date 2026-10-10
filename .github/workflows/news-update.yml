@@ -1,0 +1,116 @@
+name: Update tech news and Pages
+
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+      - 'tests/RESULTS.md'
+
+concurrency:
+  group: tech-news-and-pages
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test feed parser and scoring rules
+        run: |
+          python3 -m unittest discover -s tests -p 'test_collector.py' -v
+          node --test tests/rules.test.js
+      - name: Read public RSS (keep cached news on source failure)
+        id: rss
+        continue-on-error: true
+        run: python3 scripts/collect_news.py
+      - name: Build daily Top 5 from real records only
+        run: node scripts/rank_news.js
+      - name: Commit data with built-in repository token
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news.json data/top5.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh public RSS and daily Top 5'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Report total source failure
+        if: steps.rss.outcome == 'failure'
+        run: |
+          echo 'All RSS sources failed. Published status metadata and retained only still-valid cached news. Check source statuses and logs; no filler was generated.'
+          exit 1
+
+  publish:
+    needs: collect
+    if: always() && !cancelled()
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Detect existing Pages publishing method
+        id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mode=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.build_type')
+          case "$mode" in
+            legacy)
+              branch=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.source.branch')
+              path=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.source.path')
+              if [ "$branch" != 'main' ] || [ "$path" != '/' ]; then
+                echo 'Existing Pages source is not main / root. Preserve it; ask the owner to select main / root or GitHub Actions in Settings > Pages.'
+                exit 1
+              fi
+              ;;
+            workflow) ;;
+            *) echo 'Pages is not configured. Enable Pages in repository Settings before publishing.'; exit 1 ;;
+          esac
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+      - name: Build Pages for the existing main/root deployment
+        if: steps.mode.outputs.mode == 'legacy'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # Bot pushes do not trigger the usual Pages build. Request it explicitly.
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - name: Assemble website for an existing Actions-based Pages deployment
+        if: steps.mode.outputs.mode == 'workflow'
+        run: |
+          mkdir -p /tmp/hot-topic-site
+          cp index.html /tmp/hot-topic-site/
+          cp -R assets data /tmp/hot-topic-site/
+          touch /tmp/hot-topic-site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.mode.outputs.mode == 'workflow'
+        with:
+          path: /tmp/hot-topic-site
+      - uses: actions/deploy-pages@v4
+        if: steps.mode.outputs.mode == 'workflow'
+        id: deploy

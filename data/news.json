@@ -1,0 +1,781 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-10-10T03:32:27Z",
+  "last_success_at": "2026-10-10T03:32:27Z",
+  "retention_days": 7,
+  "sources": [
+    {
+      "id": "ithome",
+      "name": "IT之家",
+      "url": "https://www.ithome.com/rss/",
+      "article_domains": [
+        "ithome.com"
+      ],
+      "type": "media_rss",
+      "enabled": true,
+      "status": "ok",
+      "feed_items": 60,
+      "accepted": 14,
+      "skipped": 46,
+      "last_success_at": "2026-10-10T03:32:27Z",
+      "last_attempt_at": "2026-10-10T03:32:27Z"
+    },
+    {
+      "id": "ifanr",
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/feed",
+      "article_domains": [
+        "ifanr.com"
+      ],
+      "type": "media_rss",
+      "enabled": true,
+      "status": "ok",
+      "feed_items": 20,
+      "accepted": 10,
+      "skipped": 10,
+      "last_success_at": "2026-10-10T03:32:27Z",
+      "last_attempt_at": "2026-10-10T03:32:27Z"
+    },
+    {
+      "id": "apple",
+      "name": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/rss-feed.rss",
+      "article_domains": [
+        "apple.com"
+      ],
+      "type": "official_rss",
+      "company": "苹果",
+      "enabled": true,
+      "status": "ok",
+      "feed_items": 20,
+      "accepted": 0,
+      "skipped": 20,
+      "last_success_at": "2026-10-10T03:32:27Z",
+      "last_attempt_at": "2026-10-10T03:32:27Z"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI 官方新闻",
+      "url": "https://openai.com/news/rss.xml",
+      "article_domains": [
+        "openai.com"
+      ],
+      "type": "official_rss",
+      "company": "OpenAI",
+      "enabled": true,
+      "status": "ok",
+      "feed_items": 1287,
+      "accepted": 15,
+      "skipped": 1272,
+      "last_success_at": "2026-10-10T03:32:27Z",
+      "last_attempt_at": "2026-10-10T03:32:27Z"
+    }
+  ],
+  "news": [
+    {
+      "id": "rss-52fde684e7db2a1f6eb8",
+      "title": "苹果首款智能家居中枢渲染图曝光：6 英寸方屏、8GB 内存，可桌放 / 壁挂",
+      "published": "2026-10-10T03:26:48Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/293.htm",
+      "summary": "IT之家 10 月 10 日消息，YouTube 频道 fpt. 主播乔恩 · 普罗瑟（Jon Prosser）昨日（10 月 9 日）发布视频，分享了一组 3D 渲染图，展示了苹果首款智能家居中枢产品（上市后可能名为 HomeView 或者 HomePad），该产品有望 10 月 13 日发布。 外观方面，该产品提供壁挂版（内部开发代号 J491）和桌面版（开发代号 J490），均采用约 6 英寸的方形显示屏，屏幕四周存在约 1/4 英寸（约 6.35 毫米）黑色边框。IT之家附上相关图片如下： 桌面版整体外形类似 iMac G4，配有圆形金属底座，屏幕则通过金属支臂连接，用户可以手动调整俯仰角度；机身采用灰色铝制外壳，并通过 USB-C 接口供电。 壁挂版屏幕下方配有一块较薄的方形底座，用于容纳扬声器和麦克…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-8bf65ba1120a92b3d85a",
+      "title": "小米智能存储升级 1.0.9.462 版本：移动端 App 界面焕新，硬盘健康度可定期检测",
+      "published": "2026-10-10T03:26:08Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/292.htm",
+      "summary": "IT之家 10 月 10 日消息，小米智能生态官微今天（10 日）宣布，小米智能存储迎来升级，固件版本号为 1.0.9.462。 IT之家汇总此次更新主要内容如下： 移动端“首页”界面全面焕新：优化背景与图标设计、重新优化卡片样式 影音相册支持归类管理：电影新增合集功能，字幕开关支持记忆，宝宝相册支持照片自动识别添加更新 硬盘健康度支持定期自动完整检测：可深度检查硬盘健康状况，还可查看历史自动检测记录，了解健康度变化",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-39cdf05fd2640f370550",
+      "title": "OpenAI 公布大批数学研究成果引发学界巨震，学者担忧破坏学术合作传统",
+      "published": "2026-10-10T03:04:36Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/285.htm",
+      "summary": "IT之家 10 月 10 日消息，据《商业内幕》今天（10 日）上午报道，OpenAI 最新公布的大批数学研究成果在学术界引发了不同反应。一些学者为数学研究取得的突破感到振奋，另一些人则开始担忧仍在努力攻克同样难题的研究人员。 纽约大学数学教授特里斯坦 · 巴克马斯特接受 CNBC《Squawk Box》节目采访时称，OpenAI 公布的成果让一些青年数学家的研究工作受到严重冲击：“他们一下子放出这么多成果，我们整个研究计划都被毁了。” 巴克马斯特还提出了另一项担忧：研究人员曾向 AI 工具提交尚未发表的研究材料，这些内容是否帮助 OpenAI 取得了此次公布的数学成果？“你得明白，他们能接触到我们所有的科研项目申请书。申请书提交后，评审专家需要审阅并写出摘要。而在撰写摘要时，他们往往会把申请书内容输入到模型中…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b87d75c84d05c3db93f7",
+      "title": "腾讯 QQ PC 端上线隐私功能“迷你窗”：窗口更小、能调透明度，鼠标移走直接隐身",
+      "published": "2026-10-10T02:15:35Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/217.htm",
+      "summary": "IT之家 10 月 10 日消息，腾讯 QQ 今日宣布，PC 端 QQ 上线“迷你窗”，小窗口显示，减少旁边的人无意看到；鼠标一移聊天窗直接隐身，隐私更安全。 此外，“迷你窗”可调节透明度，支持分别调节内容透明度和背景透明度；支持聊天、小说、股票界面，不用反复切换窗口。 对于游戏场景，“迷你窗”更适合边打游戏边聊天，分享胜利截图更快，目前只支持 Windows 游戏的「无边框全屏模式」和「窗口模式」。 IT之家获悉，更新至 PC 端 QQ 最新版本（macOS 7.0.2 版本，Windows 9.9.36 版本），就能一键开启迷你窗，还支持快捷键快速唤起和隐藏迷你窗，启动“防窥”模式。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7dc7236b54f1f079b07b",
+      "title": "为什么 ChatGPT 总爱在标题里塞色情赌博小广告？",
+      "published": "2026-10-10T02:13:13Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1683545",
+      "summary": "训练团队太单纯，中文互联网水太深 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-decd349937565a67fd93",
+      "title": "小米澎湃 OS 4 Beta 版 10 月 14 日截止招募，正式版 10 月 15 日起分批推送",
+      "published": "2026-10-10T02:04:35Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/213.htm",
+      "summary": "IT之家 10 月 10 日消息，小米澎湃 OS 公告君今日发布公告，宣布了 小米澎湃 OS 4 Beta 版 内测招募截止时间，同时确认了 小米澎湃 OS 4 正式版的推送时间安排。 今年 8 月 14 日，小米澎湃 OS 4 Beta 版启动内测。根据公告，小米澎湃 OS 4 正式版将于 10 月 15 日起陆续分批次向用户推送升级，首批覆盖 Xiaomi 17 系列、REDMI K100 Pro 系列等机型，后续将逐步拓展到更多存量机型。 小米澎湃 OS 4 Beta 版将于 10 月 14 日中午 12 点 结束内测招募，尚未参与报名且仍有兴趣体验的用户，可前往小米社区-内测中心完成报名，报名通过后可在“设置-我的设备-系统版本”中进行升级更新。 小米澎湃 OS 4 是小米新一代操作系统，在 AI 能力…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9df89e128df9a37e3ff3",
+      "title": "西班牙博物馆历时 18 个月用 30 台 2012 款苹果 Mac mini 打造 Cray-1 超算视觉复制品",
+      "published": "2026-10-10T01:38:08Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/203.htm",
+      "summary": "IT之家 10 月 10 日消息，科技媒体 Ars Technica 昨日（10 月 9 日）发布博文，报道称西班牙计算机历史博物馆纪念 Cray-1 超级计算机诞生 50 周年以及苹果公司成立 50 周年，使用 30 台 2012 年款苹果 Mac mini，历时 18 个月，复刻打造出 Cray-1 外形复制品。 IT之家注：Cray-1 是美国 Cray Research 公司设计的超级计算机，由计算机设计师西摩 · 克雷（Seymour Cray）主导研发。首台系统于 1976 年安装在美国洛斯阿拉莫斯国家实验室；从 1976 年到 1982 年，Cray-1 长期保持全球最快计算机的地位。 图源：WikiMedia Cray-1 的时钟频率为 80 MHz，主存容量约 8 MB，理论峰值性能约为每秒 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-80422a71236cd4c7f6c5",
+      "title": "鸿蒙智行智界 R7 焕新版首批试驾车陆续到店：本月底开启交付，23.98 万元起",
+      "published": "2026-10-10T01:24:13Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/198.htm",
+      "summary": "IT之家 10 月 10 日消息，智界汽车今日宣布，智界 R7 焕新版首批试驾车陆续抵达全国 77 个城市，200 家门店（具体门店见文末）。 智界汽车执行董事及执行副总裁赵长江随后表示，新车将于本月底开启交付，正在紧锣密鼓的排产。 据IT之家此前报道，智界 R7 焕新款于 9 月 28 日上市，号称 5 亿投资升级，拥有 8 项重大更新，23.98 万元起： 智界 R7 Max 版：23.98 万元 智界 R7 Max+ 版：25.98 万元 智界 R7 Max+ 长续航版：28.98 万元 智界 R7 Ultra 版：31.98 万元 新车长宽高分别为 4982/1981/1634（1650）mm，轴距为 2950mm；采用华为巨鲸 800V 高压电池平台，长续航版 CLTC 纯电续航最高 855km；搭载…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-cbf21e00f40cb8df7402",
+      "title": "苹果第二期中国清洁能源基金扩容至 2.12 亿美元，在中国逾 95% 的生产制造现已采用可再生能源",
+      "published": "2026-10-10T01:00:41Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/191.htm",
+      "summary": "IT之家 10 月 10 日消息，苹果公司今天（10 月 10 日）发布公告，宣布第二期中国清洁能源基金扩容，承诺投资总额增至 2.12 亿美元（IT之家注：现汇率约合 14.22 亿元人民币）。相较去年 1 亿美元（现汇率约合 6.71 亿元人民币）的初始锚定投资，基金规模增长约 1 倍。 位于广西的风电项目，由 Apple 第二期中国清洁能源基金的初步投资支持开发。 新能源科技、鹏鼎控股与达尔科技承诺出资。基金已完成初步投资，支持广西 260 兆瓦风电项目。山东 50 兆瓦风电项目也获支持，2 处均已开工；苹果称，中国逾 95% 的直接生产制造已采用可再生能源。 施罗德资本管理该基金，年度新增电量目标为 110 万兆瓦时。相关电量来自风能和太阳能，并将接入中国电网。首期基金已超额完成既定目标，在 14 个省…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5f55653d77a9804df2a6",
+      "title": "消息称 OpenAI、Anthropic 高管私下推演 AI 灾难情景，以应对公众反弹与政治抵制",
+      "published": "2026-10-10T00:32:24Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/183.htm",
+      "summary": "IT之家 10 月 10 日消息，据 Axios 于当地时间 10 月 9 日报道，Anthropic、OpenAI 以及其他人工智能公司的高管们，目前正私下闭门推演，若发生重大灾难性 AI 事件，该如何应对公众与政界的强烈抗议及抵制浪潮。 这些业内高管预计，未来很可能发生一场大规模事件 —— 极有可能是某种网络攻击，导致金融服务、互联网通信甚至水电供应等基础设施大面积瘫痪。 一旦非安全可控的 AI 首次在现实世界中造成实质性重大危害，本就心存戒备的公众将更加坚决地反对这项技术及其领军人物，包括 Anthropic 首席执行官达里奥 · 阿莫迪（Dario Amodei）与 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）。 IT之家从报道获悉，虽然情景规划在诸多企业和国家安全领域屡见不鲜，但…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-6a1498878af4e6103b96",
+      "title": "2026 年披露的第 4 笔 AI 交易：苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立",
+      "published": "2026-10-10T00:24:22Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/181.htm",
+      "summary": "IT之家 10 月 10 日消息，科技媒体 9to5Mac 昨日（10 月 9 日）发布博文，报道称苹果与 AI 音频初创公司 Huxe 达成人才引进与技术许可协议，这是今年公开披露的第 4 笔苹果 AI 相关交易。 根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件显示，苹果有权向 Huxe 的特定员工发出聘用邀请并录用员工。苹果同时获得 Huxe 知识产权的非独占许可。 这项安排属于“收购式招聘”（acqui-hires），不代表苹果收购 Huxe 公司。协议允许苹果引进部分员工并使用相关知识产权，但交易没有包括购买 Huxe 业务，报道没有披露协议金额。 IT之家查询公开资料，Huxe 由 3 名前 Google NotebookLM 团队成员创立。项目负责人 Raiza Mart…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b3c41b124b9b002b9536",
+      "title": "早报｜供应链回应iPhone 18 Pro砍单传闻/小米、华为手机同日调价/山姆拟限制亲友卡换绑",
+      "published": "2026-10-10T00:14:25Z",
+      "company": "小米",
+      "companies": [
+        "小米",
+        "华为",
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1683465",
+      "summary": "· 豆包据称在建设水电燃气缴费等生活服务能力 · IDC：第三季度全球 PC 出货量下降 20.1%，旺季未现 · 曾被字节辞退的田柯宇获近 3000 万美元融资，研发世界模型 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-e36d63227f1e2d6f825f",
+      "title": "字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换",
+      "published": "2026-10-10T00:04:25Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/176.htm",
+      "summary": "IT之家 10 月 10 日消息，10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 TRAE，升级为全链路开发平台。 官方表示，过去 TraeWork 更偏向办公、任务和内容生成，TraeCode 更专注专业开发者的编码需求。双端融合后，全新 TRAE 用一个统一入口承接这些连续任务，并支持 Agent 模式与 IDE 模式无缝切换。 Agent 模式 适合从想法拆解到交付结果：新手开发者可以一步步做出 Demo，专业开发者也可以跨项目调度多个 Agent 并行推进任务。 IDE 模式 保留完整智能开发环境，适合单项目深度代码编辑与精细调试。 IT之家获悉，全新 TRAE 覆盖桌面端、Web 端和移动端。用户可以在电脑上启动任务，在移动端查看进…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7ef0b50e8ddc114cbe80",
+      "title": "苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布",
+      "published": "2026-10-09T23:58:58Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/174.htm",
+      "summary": "IT之家 10 月 10 日消息，科技媒体 MacRumors 昨日（10 月 9 日）发布博文，报道称苹果更新过时产品名单，新增列出 2017 款初代 Apple TV 4K，恐影响该产品的后续维修，用户可能更难获取维修零件。 IT之家注：根据官方文档表述，过时产品是指 Apple 停止发售之日起已超过 5 年但未满 7 年的产品。 2,017 款 Apple TV 4K 是苹果首款支持 4K 视频的 Apple TV。它搭载 A10X Fusion 芯片，提供 32GB 和 64GB 版本。HDMI 2.0a 支持 4K、杜比视界与 HDR10，设备还配备千兆以太网及双频 802.11ac Wi-Fi。 该机随附第一代 Siri Remote，采用玻璃触控表面，苹果从第二代 Apple TV 4K 起弃用这…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-f70fffb635202490eb80",
+      "title": "苹果 Home 应用新特性：iPhone 靠近门铃，灵动岛预览视频画面",
+      "published": "2026-10-09T23:43:27Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/171.htm",
+      "summary": "IT之家 10 月 10 日消息，消息源 @itspdfu 昨日（10 月 9 日）发布博文，报道称苹果和 LG 合作开发的智能家居配件支持“接近控制”功能。用户将 iPhone 靠近兼容配件后，可通过灵动岛提示打开控制界面，而摄像头和门铃还可直接显示画面。 没有灵动岛功能的 iPhone 或 iPad 将显示 30 秒通知，用户可以在设置完成后，在“家庭”应用中禁用此功能。在后台，该配件会将“apple-deviceid”写入存储在其 NFC 标签上的 Matter 有效载荷中，以便 iOS 在轻触时识别它。它还会广播用于 Apple 近距离控制的低功耗蓝牙广告。 消息称苹果在 iOS 27 系统中就引入了相关代码，IT之家援引博文介绍，在 iOS 27.2 Beta 3 更新中，苹果已上线切换选项，包括以下…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0bb8ccea8942bdfbbb31",
+      "title": "古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名",
+      "published": "2026-10-09T23:28:03Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/169.htm",
+      "summary": "IT之家 10 月 10 日消息，北京时间今天（10 日）清晨，彭博社记者马克 · 古尔曼在 X 平台发文爆料称，苹果首款折叠屏手机 iPhone Duo 将拥有一项有趣的小功能：首次开机时，会显示用户名和问候语（形式类似“Hello, Mark”)。该功能将由苹果零售店内的系统提供，可在设备启动时自定义买家的名字。 不过古尔曼同时指出，该功能将是美国 iPhone Duo 限定，且仅支持英语、西班牙语。 综合IT之家此前报道，早在 2023 年 10 月，古尔曼就首次披露了这套系统的存在，随后外媒 9to5Mac 也发现了 iOS 17.2 系统中与此功能相关的代码。Presto 系统的核心是一个平板状的设备，零售店员工可以将装有 iPhone 的包装盒放置其上。该系统能够无线启动 iPhone，更新其软件，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d290c18c25d40a317033",
+      "title": "陶哲轩转发抵制声明，数学界和OpenAI彻底撕破脸",
+      "published": "2026-10-09T10:21:04Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1683401",
+      "summary": "数学家该怎么证明自己真的不需要 AI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b40d31bc034dc8142b22",
+      "title": "苹果「果家」发布会定档！至少 6 个新品曝光，HomePad 还能挂墙上？",
+      "published": "2026-10-09T07:12:12Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1683356",
+      "summary": "苹果全家桶的风，还是吹到了客厅。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-9bf93d58cc35db9987f8",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "published": "2026-10-09T07:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-570fe3204556675e8dd9",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "published": "2026-10-09T07:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/sophos",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c18794dc0e3ae6ad5f7e",
+      "title": "早报｜苹果定档10月13日发布新品/三星手机业务或减产30%/保时捷计划削减9000个岗位",
+      "published": "2026-10-09T00:51:15Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1683244",
+      "summary": "· 小米澎程上市 30 天锁单超过 7 万台 · Manus 母公司完成超 5 亿美元新一轮融资 · 小鹏 Robotaxi 定名「小鹏悠游」，下单小程序同步上线 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-db7b9e6fe248e3146f87",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "published": "2026-10-08T16:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/oracle",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-98059075324197ecfa33",
+      "title": "苹果 CEO 最爱的汽车品牌，要推出新超跑了",
+      "published": "2026-10-08T12:24:31Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1683229",
+      "summary": "保时捷要靠「厚利寡销」翻盘。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-855092fba1df7e8a668b",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "published": "2026-10-08T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/pollo-ai",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-45d6a2b79938283a07ca",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "published": "2026-10-08T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-251036c9325e14427e7a",
+      "title": "早报｜苹果一大波新品曝光，最快下周发布/全球纯汽油车份额首次跌破50%/2599 美元起，Surface Laptop Ultra发布",
+      "published": "2026-10-08T00:14:13Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1683053",
+      "summary": "· OpenAI 向 Chat 用户推送 GPT-6，并加入可交互界面 · 月之暗面估值据报升至约 500 亿美元，筹备明年赴港上市 · 2026 年诺贝尔奖陆续公布，目前已有 6 位得主 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-d9e485b409fe8517ac6e",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "published": "2026-10-08T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-661f64ddb5f472a2675e",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "published": "2026-10-07T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4e324623ab7ca6fee0e1",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "published": "2026-10-07T07:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/radisson",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a097ef0d441a7216b7cd",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "published": "2026-10-07T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2896758265cec81d9589",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "published": "2026-10-06T16:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ebb413cc5359756bf923",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "published": "2026-10-06T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/jump-trading",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-00427e47df5ef3064509",
+      "title": "Sharing AI progress in mathematics",
+      "published": "2026-10-06T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f57eff9c23a4454b476b",
+      "title": "Advancing computer use with Ironclad",
+      "published": "2026-10-06T10:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8c6c9523105b6762856c",
+      "title": "苹果突发收紧 Mac 权限，全是 AI 惹的祸",
+      "published": "2026-10-06T02:05:20Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1682953",
+      "summary": "苹果与 Meta，一对超级冤家 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d2b5b29b4c8155256199",
+      "title": "Our approach to EU text provenance rules",
+      "published": "2026-10-05T15:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2d8e70fb45cef7470a5b",
+      "title": "Building advertising for the way people use AI",
+      "published": "2026-10-05T10:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c2fe40a28b39f289b793",
+      "title": "十年前的「外挂相机」，如何在华为 Mate 90 上复活？｜硬哲学",
+      "published": "2026-10-04T14:49:07Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1682933",
+      "summary": "那个曾经太早出现的想法，这一次，可能终于等到了属于它的时代 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-10f260261bf6d622cd66",
+      "title": "OpenAI元老的一封离职信，揭开了奥特曼最不想承认的真相",
+      "published": "2026-10-04T07:08:18Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1682922",
+      "summary": "教会 AI 善待人类前，先学会善待人 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T03:32:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    }
+  ],
+  "collection_status": "ok"
+}

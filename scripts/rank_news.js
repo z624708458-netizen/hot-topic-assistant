@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('node:fs');
+const path=require('node:path');
+const rules=require('../assets/rules.js');
+const dir=path.join(__dirname,'../data');
+const data=JSON.parse(fs.readFileSync(path.join(dir,'news.json'),'utf8'));
+if(data.schema_version!==2||!Array.isArray(data.news))throw new Error('Invalid news dataset');
+const now=Date.now();
+const top5=rules.rank(data.news,{period:'48h'},now).slice(0,5);
+const result={schema_version:2,generated_at:new Date(now).toISOString(),date_china:new Date(now+28800000).toISOString().slice(0,10),period:'48h',scoring:'transparent-keyword-rules-v2',source_updated_at:data.updated_at,top5:top5.map(n=>({...n,score:rules.score(n,now),creative:rules.creative(n)}))};
+fs.writeFileSync(path.join(dir,'top5.tmp'),JSON.stringify(result,null,2)+'\n');
+fs.renameSync(path.join(dir,'top5.tmp'),path.join(dir,'top5.json'));
+console.log(`Generated ${top5.length} Top 5 recommendations; no synthetic filler.`);
