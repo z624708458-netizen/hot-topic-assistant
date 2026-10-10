@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-10T06:47:50Z",
-  "last_success_at": "2026-10-10T06:47:50Z",
+  "updated_at": "2026-10-10T08:07:54Z",
+  "last_success_at": "2026-10-10T08:07:54Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 13,
-      "skipped": 47,
-      "last_success_at": "2026-10-10T06:47:50Z",
-      "last_attempt_at": "2026-10-10T06:47:50Z"
+      "accepted": 10,
+      "skipped": 50,
+      "last_success_at": "2026-10-10T08:07:54Z",
+      "last_attempt_at": "2026-10-10T08:07:54Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 8,
-      "skipped": 12,
-      "last_success_at": "2026-10-10T06:47:50Z",
-      "last_attempt_at": "2026-10-10T06:47:50Z"
+      "accepted": 7,
+      "skipped": 13,
+      "last_success_at": "2026-10-10T08:07:54Z",
+      "last_attempt_at": "2026-10-10T08:07:54Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-10T06:47:50Z",
-      "last_attempt_at": "2026-10-10T06:47:50Z"
+      "last_success_at": "2026-10-10T08:07:54Z",
+      "last_attempt_at": "2026-10-10T08:07:54Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1287,
       "accepted": 15,
       "skipped": 1272,
-      "last_success_at": "2026-10-10T06:47:50Z",
-      "last_attempt_at": "2026-10-10T06:47:50Z"
+      "last_success_at": "2026-10-10T08:07:54Z",
+      "last_attempt_at": "2026-10-10T08:07:54Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-10-10T06:47:50Z",
-      "last_attempt_at": "2026-10-10T06:47:50Z"
+      "last_success_at": "2026-10-10T08:07:54Z",
+      "last_attempt_at": "2026-10-10T08:07:54Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,50 @@
   ],
   "news": [
     {
+      "id": "rss-8f9372ac64383c2c19b6",
+      "title": "2026 巴黎车展新设“智驾实验室”公开体验活动，仅小鹏、特斯拉两家企业参与",
+      "published": "2026-10-10T07:33:24Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/393.htm",
+      "summary": "IT之家 10 月 10 日消息，据小鹏汽车官微，2026 巴黎车展即将开幕，本届车展将举办“智驾实验室”公开体验活动，车展观众及媒体可申请参与，本次活动仅有小鹏与特斯拉两家企业参与，这也是小鹏 NGP 在欧洲的首次大规模公开体验。 当地时间 10 月 12 日（下周一），欧洲规模最大的汽车展会 —— 巴黎车展即将正式开幕。本届巴黎车展共有 100 家参展商设立展位，其中约 60 家为汽车制造商，中国汽车品牌达到创纪录的 20 家，占整整三分之一。 小鹏集团副总裁 @托马斯电火车 进一步透露，有欧洲媒体表示，此次智能辅助驾驶体验仅有来自中国和美国的两家车企参与，欧洲品牌却集体缺席这一重要展会，这一现象值得欧洲车企反思：在下一代汽车技术竞争中，欧洲是否已经被拉开差距。 @托马斯电火车 曾在本月 6 日发文称，巴黎…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-10T08:07:54Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f5aebc19629e25fdc805",
+      "title": "外媒调查显示消费者普遍认为苹果 iPhone Duo 偏贵，摄像头表现仍有改进空间",
+      "published": "2026-10-10T07:01:59Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/360.htm",
+      "summary": "IT之家 10 月 10 日消息，外媒 Android Authority 近期就苹果 iPhone Duo 发起一场投票活动，共收集了 1000 多名海外读者的投票结果。约 39% 的受访者表示自己对折叠屏手机不感兴趣；约 16% 的受访者则表示愿意立即从安卓折叠屏手机切换为 iPhone Duo，另有 10% 的人对此颇为心动，但认为苹果仍需改进摄像头表现。 此外，大部分投票者认为苹果 iPhone Duo 偏贵，该机海外起售价 1999 美元（国行 15999 元起），让不少潜在消费者望而却步。 整体来看，这项调查反映出苹果首款折叠屏手机有望吸引部分安卓用户，但目前的投票结果并不能直接代表整个市场的实际购买趋势。随着更多厂商进入折叠屏领域，竞争也有望推动手机硬件和软件体验持续改进。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-10T08:07:54Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-46184b96815d1d191270",
       "title": "苹果 iPhone Duo 开机欢迎画面爆料：能显示你的名字，且有望用上新字体",
       "published": "2026-10-10T06:32:55Z",
@@ -189,7 +233,7 @@
       "url": "https://www.ithome.com/1/011/351.htm",
       "summary": "IT之家 10 月 10 日消息，在苹果零售店购买 iPhone Duo 的用户，有望获得一项特别的个性化服务：首次开机的欢迎界面上加入买家的姓名。用户第一次开机时，屏幕上显示的就不再是简单的“Hello”，而是带有自己名字的“Hello, [姓名]”。 据IT之家今天早些时候报道，彭博社记者马克 · 古尔曼称，只有在苹果实体零售店购买 iPhone Duo 的顾客才能享受这项服务。买家的姓名会在首次开机时与“Hello”一同显示。该服务仅限美国市场，支持英语和西班牙语。 随后，爆料者 @itspdfu 透露，苹果使用零售店原有的未拆封设备系统更新工具，为 iPhone Duo 设置专属开机欢迎界面。不仅如此，早在今年 6 月，爆料者 @SteveMoser 就发现，苹果在 iOS 27 中专门加入了一款名为 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -211,7 +255,7 @@
       "url": "https://www.ithome.com/1/011/346.htm",
       "summary": "IT之家 10 月 10 日消息，据证券时报记者从苹果供应链方面获悉，苹果公司结构性调整 2026 年秋季手机新品订单量。 IT之家附相关调整如下： 对 iPhone Duo 加单 30%，但总量仍未超过 1000 万台。 对 iPhone 18 Pro 砍单 10%—15%，同时对 iPhone 18 Pro Max 加单 10%—15%，iPhone 18 Pro 系列总订单量未变。 苹果供应链人士表示，“这意味着销量在往更高价值产品倾斜，所以整体利好苹果供应链公司业绩。” 延伸阅读 iPhone Duo 是苹果首款折叠屏手机，于北京时间 2026 年 9 月 10 日凌晨举行的苹果秋季特别活动上发布，采用横向书本式内折设计，配备 5.4 英寸外屏和 7.6 英寸内屏（苹果迄今最大的 iPhone 显示屏）…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -233,7 +277,7 @@
       "url": "https://www.ithome.com/1/011/345.htm",
       "summary": "IT之家 10 月 10 日消息，综合雅虎财经及 Benzinga 报道，特斯拉的估值能否经受住下一轮考验，关键或许不再是能卖出多少辆汽车，而是已经售出的汽车还能带来多少收入。 Yorkville Ives 分析师丹 · 艾夫斯认为，自动驾驶和机器人业务有望改变特斯拉的未来，但要让 500 美元（IT之家注：现汇率约合 3,353 元人民币）的目标股价有足够支撑，特斯拉还得证明这些业务能够带来持续收入。 艾夫斯在最新研报中维持特斯拉“跑赢大盘”的评级和 500 美元的目标股价。他认为，特斯拉正从汽车制造商转型为涵盖汽车、自动驾驶、人形机器人和储能业务的“物理 AI”平台。 如果投资者仍主要按照汽车制造商的标准评估特斯拉，就可能低估软件和服务业务未来在汽车销售之外创造收入的潜力。“我们认为，特斯拉是公众市场上最直…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +299,7 @@
       "url": "https://www.ithome.com/1/011/332.htm",
       "summary": "IT之家 10 月 10 日消息，阿里 Qoder 今日宣布上线 Fast 模式，首发上线 Qoder 桌面端（更新到最新版 0.4.4 以上版本），个人版和企业版用户都可以使用，CN 版和国际版同步支持。 官方表示，Qoder 产品家族的其他产品也会在近期陆续上线 Fast 模式，敬请期待。 CN 版新增 Fast 档位，日常需要快速交付的任务，现在多了一个更快、更省的选择。 快速 Fast定位快速高效首次响应时间3s输出质量高Credits 消耗0.8x 国际版原有的 Performance 模式升级为 Fast 模式。输出质量保持不变，响应更快，消耗也更低。 性能 Performance（升级前）快速 Fast（升级后）定位极致性能快速高效首次响应时间8s3s输出质量高高（与 Performance 相同…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -279,7 +323,7 @@
       "url": "https://www.ithome.com/1/011/330.htm",
       "summary": "IT之家 10 月 10 日消息，据《商业内幕》报道，当地时间 9 日，达美航空 CEO 埃德 · 巴斯蒂安接受 CNBC 采访，被问及马斯克近期在 X 上对达美航空的接连抨击时说：“至少在我看来，我们没有互相攻击。我很喜欢星链，也很欣赏埃隆做的事情。我自己就开特斯拉，明白吗？所以没什么矛盾。说我们有私人恩怨，完全是无稽之谈。” 从公开情况来看，这场几乎由马斯克单方面发起的争执始于今年 3 月。当时，达美航空选择亚马逊 Leo 作为下一代机载卫星互联网服务商，放弃了 SpaceX 旗下的星链。马斯克随后发帖警告达美航空：“他们根本不知道，这个决定会带来多大的影响”。 过去两周，马斯克对巴斯蒂安和达美航空的批评愈发激烈。此前，航空业 X 账号 JonNYC 发布了一些未经证实、据称出自巴斯蒂安的言论，其中包括“我…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -301,7 +345,7 @@
       "url": "https://www.ithome.com/1/011/328.htm",
       "summary": "IT之家 10 月 10 日消息，小米米家空调速冷静 2027 大 1.5 匹现已开启预售，售价 1899 元，国补到手价 1614.15 元。 这款空调 APF 5.3，配备双排蒸发器，搭载 108mm 贯流风叶，实现 760m³/h 风量；搭载 9.8cc 排量高效压缩机，最大制冷量 5100W，额定制冷量 3510W，最大制热量 6710W，额定制热量 5010W。 这款空调支持内外机自清洁，运行噪音低至 18dB(A)，可实现 30 秒速冷、 60 秒速热，支持 -35℃ 低温制热和 60℃ 高温制冷；提供整机 10 年免费包修。 这款空调支持小米澎湃智联，可接入米家 App 实现全屋智能互联，支持全链路 OTA 升级，搭载米家灵云智控引擎，可主动学习用户使用习惯，提供 122 项远程智能诊断，长期使用…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -323,7 +367,7 @@
       "url": "https://www.ithome.com/1/011/323.htm",
       "summary": "IT之家 10 月 10 日消息，据人民法院报，近日，浙江省慈溪市人民法院审结了一起涉及语音唤醒词的不正当竞争纠纷案。被告公司擅自在生产、销售的智能家电上搭载与国内某知名品牌近似的语音唤醒词，法院认定其行为构成不正当竞争，判令被告公司承担相应赔偿责任。 “小爱同学”为小米科技公司旗下的人工智能交互引擎名称、搭载人工智能语音交互引擎的智能音箱名称，也是该交互引擎的语音指令唤醒词，搭载在小米公司众多产品设备中。 2026 年 1 月，该公司向慈溪法院起诉称，某电器公司与某电器科技公司生产、销售的某款智能语音茶吧机载有“小爱小爱”语音模块，该款产品的网店销售页面和使用说明书中也有“小爱小爱”等智能语音交互的内容，上述行为构成不正当竞争，要求二被告停止生产、销售相关侵权产品并赔偿损失等。 二被告公司辩称，消费者识别商品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -345,7 +389,7 @@
       "url": "https://www.ithome.com/1/011/321.htm",
       "summary": "IT之家 10 月 10 日消息，华为今日面向 Pura X View 手机率先推送了鸿蒙 HarmonyOS 7.0.0.109 SP10 版本升级，包体大小约 4.83GB。新版本带来了多人互助通信共享、熄屏循迹导航等功能。 IT之家附华为 Pura X View 阔直板手机此次更新内容如下： 多设备协同 通信共享功能再升级，手机与搭载 HarmonyOS 7 的手机、平板、鸿蒙电脑之间支持多人互助通信共享，通过碰一碰或者登录同一华为账号共享网络建立互助网络，在移动网络信号弱或网络负载大等场景下可获得更快、更稳的网络体验。 桌面和个性化 系统熄屏显示新增熄屏循迹导航功能，开启后，可在熄屏显示界面显示“地图”等部分应用循迹导航信息（设置 > 桌面和个性化 > 熄屏显示设置 > 熄屏循迹导航）。 小艺 优化多模…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -367,7 +411,7 @@
       "url": "https://www.ifanr.com/1683596",
       "summary": "iPhone 摄影又双叒叕一次进化 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -477,7 +521,7 @@
       "url": "https://www.ifanr.com/1683545",
       "summary": "训练团队太单纯，中文互联网水太深 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -724,7 +768,7 @@
       "url": "https://www.ifanr.com/1683401",
       "summary": "数学家该怎么证明自己真的不需要 AI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -746,7 +790,7 @@
       "url": "https://www.ifanr.com/1683356",
       "summary": "苹果全家桶的风，还是吹到了客厅。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -768,7 +812,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -790,7 +834,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -812,7 +856,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -834,7 +878,7 @@
       "url": "https://www.ifanr.com/1683229",
       "summary": "保时捷要靠「厚利寡销」翻盘。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -856,7 +900,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -878,7 +922,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -900,7 +944,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -922,7 +966,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -944,7 +988,7 @@
       "url": "https://openai.com/index/radisson",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -966,7 +1010,7 @@
       "url": "https://openai.com/index/gpt-6-for-everyone",
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -988,7 +1032,7 @@
       "url": "https://openai.com/index/atlassian-partnership",
       "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1010,7 +1054,7 @@
       "url": "https://openai.com/index/jump-trading",
       "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1032,7 +1076,7 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1054,7 +1098,7 @@
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1076,7 +1120,7 @@
       "url": "http://www.geekpark.net/news/372088",
       "summary": "相机好用之外，日常使用也有了新鲜感。 作者｜张勇毅 编辑｜靖宇 10 月 1 日，华为 Mate 90 系列正式发布。 最近几天，Mate 90 Pro Max 用下来，我最直接的感受是，影像能力是这一代毋庸置疑的最重要改变，可能没有之一。 作为华为每年的旗舰，Mate 系列其实每年都能在影像领域给我们带来很多惊喜，这一代 Mate 90 Pro Max 也确实有不少值得展开的相机规格。 拍合影时不知道怎么站，室内灯光把肤色染得不太对，拍完想保留妆容，又不希望手机替自己做太多修饰。这些问题很难用一个参数概括，却直接决定了我们对一部手机相机的评价。 从功能设计上你能看出，今年 Mate 90 Pro Max 的影像升级，有相当一部分在处理这些实际拍摄场景中非常「具体」的麻烦。 相机好用之外，日常使用也有了新鲜感。…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1098,7 +1142,7 @@
       "url": "https://www.ifanr.com/1682953",
       "summary": "苹果与 Meta，一对超级冤家 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1122,7 +1166,7 @@
       "url": "http://www.geekpark.net/news/372087",
       "summary": "图片来源：视觉中国 10 月 1 日，小米汽车公布了 9 月交付成绩单：单月交付量首次突破 4 万台。 这个数字放在新势力阵营里排第三，仅次于零跑（10.56 万台）和小鹏（4.13 万台），领先鸿蒙智行（3.75 万台）。 但真正值得关注的，不只是「小米又卖爆了」。 更有意思的是，9 月刚上市的澎程系列，首月交付就超过 1 万台。而这件事，偏偏发生在增程市场整体降温，上半年批发销量同比下滑 13.1%的背景下。 一个看似「风口已过」的赛道，被小米硬生生撕开了一道口子。 小米澎程是如何成功的？ 从 3 万到 4 万 过去几年，增程市场的剧本非常魔幻。2020 年，增程式汽车全年总销量才 3 万多台。那时候，增程还经常被一些车企高管嘲讽为「过时技术」，甚至被说成是「脱裤子放屁」。但市场从来不听嘴炮，它只看用户掏不…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1144,7 +1188,7 @@
       "url": "https://openai.com/index/eu-text-provenance",
       "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1166,7 +1210,7 @@
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1188,7 +1232,7 @@
       "url": "https://www.ifanr.com/1682933",
       "summary": "那个曾经太早出现的想法，这一次，可能终于等到了属于它的时代 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
+      "fetched_at": "2026-10-10T08:07:54Z",
       "kind": "rss",
       "report_type": "report"
     },
