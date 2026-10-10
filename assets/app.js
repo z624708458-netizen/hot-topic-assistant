@@ -87,12 +87,12 @@ function renderDetail() {
   if(tab==='titles') body=`<h3 class="detail-section-title">3 个短视频标题方向 <span>规则模板 · 非原报道结论</span></h3>${creative.titles.map((title,i)=>`<div class="title-item"><small>0${i+1} / ${['大众疑问','条件核验','个人选择'][i]}</small><h3>${escapeHTML(title)}</h3><button class="copy-button" data-copy="title-${i}">复制标题 ↗</button></div>`).join('')}<div class="warning-text">基于原题的表达方向，没有改写事实。英文原题会保留英文，不假装已翻译或理解。发布前校对，避免暗示尚未发生的影响。</div>`;
   if(tab==='script') body=`<h3 class="detail-section-title">60–90 秒口播框架 <span>请核验并填写占位内容</span></h3><div class="script-meta">按开场 / 事实 / 普通人视角 / 条件 / 收尾分段，不是自动事实成稿。<br>当前平台：${escapeHTML($('#platform').value)} · ${platformHint()}</div><div class="script-text">${escapeHTML(creative.framework)}</div><div class="detail-actions"><button class="primary" data-copy="script">复制口播框架</button><a class="secondary source-link" href="${escapeHTML(safeURL(n.url))}" target="_blank" rel="noopener noreferrer">打开原文核验 ↗</a></div><div class="warning-text">未接入 AI API。时间分段是创作安排，填好后需朗读计时。不能把公司计划说成已完成成果，不能补编数据。${n.kind==='manual'?'手动提供的内容未独立核验。':''}</div>`;
   if(tab==='source') body=`<h3 class="detail-section-title">来源摘要 <span>${n.kind==='manual'?'用户提供 · 未核验':'RSS 原文节选 · 非 AI 改写'}</span></h3><p class="facts">${escapeHTML(n.summary||'来源未提供摘要，本工具不自动补写。请打开原文。')}</p><div class="detail-divider"></div><h3 class="detail-section-title">原始新闻链接</h3><p class="facts timestamp">${dateText(n.published)} 发布</p><a class="source-link" href="${escapeHTML(safeURL(n.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(n.source)} · 一键打开原文 ↗<small>${escapeHTML(n.title)}</small><small>${escapeHTML(new URL(n.url).hostname)}</small></a>${(n.alternate_sources||[]).filter(s=>safeURL(s.url)).map(s=>`<a class="source-link" href="${escapeHTML(safeURL(s.url))}" target="_blank" rel="noopener noreferrer">同题其他来源：${escapeHTML(s.source)} ↗</a>`).join('')}<div class="warning-text">${n.kind==='manual'?'手动内容与来源链接未独立核验。':'来自所列 RSS 的标题、发布时间和摘要。成功读取订阅不等于独立事实核查。'}请检查原文的数字、语境、适用地区与条件。${n.company_match_basis==='person_affiliation'?'此条为人物热点，关联公司仅用于筛选，不代表公司涉事。':n.company_match_basis==='headline'?'公司由原标题关键词匹配，提到某品牌不代表品牌涉事或被处罚。':''}${n.report_type==='unconfirmed'?'原标题包含传闻、曝光或可能性表述；不能将其讲成官方确认。':''}${n.summary_status==='excerpt'?'摘要为截取片段，不包含全部上下文。':''}</div>`;
-  $('#detail-panel').innerHTML=`<div class="detail-heading"><div class="detail-kicker"><span>TOPIC BRIEF / 选题工作台</span><span>${n.kind==='manual'?'手动未核验':'公开 RSS · 规则评分'}</span></div><h2>${escapeHTML(n.title)}</h2><p>${escapeHTML(n.companies.join(' / '))} · ${dateText(n.published)} 发布</p></div><div class="tabs" role="tablist" aria-label="选题详情标签">${labels.map(([id,label])=>`<button role="tab" aria-selected="${tab===id}" class="tab ${tab===id?'active':''}" data-tab="${id}">${label}</button>`).join('')}</div><div class="detail-body" role="tabpanel">${body}</div>`;
+  $('#detail-panel').innerHTML=`<div class="detail-heading"><div class="detail-kicker"><span>TOPIC BRIEF / 选题工作台</span><span>${n.kind==='manual'?'手动未核验':'公开 RSS · 规则评分'}</span></div><h2>${escapeHTML(n.title)}</h2><p>${escapeHTML(n.companies.join(' / '))} · ${dateText(n.published)} 发布</p></div><div class="tabs" role="tablist" aria-label="选题详情标签">${labels.map(([id,label])=>`<button role="tab" aria-selected="${tab===id}" class="tab ${tab===id?'active':''}" data-tab="${id}">${label}</button>`).join('')}</div><div class="detail-body" role="tabpanel">${body}${tab==='overview'?(window.BrainUI?.renderAnalysis(n)||''):''}</div>`;
 }
 function renderSaved() {
   const list=allNews().filter(n=>saved.has(n.id));
   $('#saved-count').textContent=list.length;
-  $('#saved-list').innerHTML=list.length?list.map(card).join(''):'<div class="empty"><b>把好选题留在这里</b><p>点击新闻卡片上的 ☆ 收藏。收藏快照仅保存在这个浏览器，不延长新闻时效。</p><button class="primary" data-view="recommend">去发现选题 ↗</button></div>';
+  $('#saved-list').innerHTML=list.length?list.map((n,i)=>card(n,i).replace('</article>',`<div class="brain-convert-row"><button class="secondary" data-to-work="${escapeHTML(n.id)}">转为历史作品 ↗</button></div></article>`)).join(''):'<div class="empty"><b>把好选题留在这里</b><p>点击新闻卡片上的 ☆ 收藏。收藏快照仅保存在这个浏览器，不延长新闻时效。</p><button class="primary" data-view="recommend">去发现选题 ↗</button></div>';
 }
 function renderSources() {
   $('#method-dimensions').innerHTML=rules.dimensions.map(d=>`<div class="method-row"><strong>${d.name}</strong><span>${escapeHTML(d.explain)}</span><b>${d.max} 分</b></div>`).join('');
@@ -112,11 +112,14 @@ function renderStatus() {
 function renderAll(preserve=false) {renderStatus();renderList(preserve);renderSaved();renderSources();}
 function setView(next,preserve=false) {
   view=next;
-  ['recommend','saved','sources'].forEach(id=>$('#'+id+'-view').hidden=id!==next);
+  $('.notice').hidden=next==='brain';
+  ['recommend','saved','brain','sources'].forEach(id=>$('#'+id+'-view').hidden=id!==next);
   document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.view===next));
-  $('#view-label').textContent={recommend:'选题推荐',saved:'我的收藏',sources:'来源与评分'}[next];
-  $('#page-title').textContent={recommend:'好选题，让创作先一步。',saved:'把好灵感，留下来。',sources:'有依据，才值得讲。'}[next];
-  $('#page-subtitle').textContent={recommend:'关注钱袋子、饭碗与生活选择，找到普通人愿意停下来听的故事。',saved:'收藏保留原文快照，不把旧新闻当新热点。',sources:'公开评分规则、RSS 状态与更新时间。'}[next];
+  $('#view-label').textContent={recommend:'选题推荐',saved:'我的收藏',sources:'来源与评分',brain:'第二大脑'}[next];
+  $('#page-title').textContent={recommend:'好选题，让创作先一步。',saved:'把好灵感，留下来。',sources:'有依据，才值得讲。',brain:'把自己的积累，连成第二大脑。'}[next];
+  $('#page-subtitle').textContent={recommend:'关注钱袋子、饭碗与生活选择，找到普通人愿意停下来听的故事。',saved:'收藏保留原文快照，不把旧新闻当新热点。',sources:'公开评分规则、RSS 状态与更新时间。',brain:'让今天的新闻，遇见你的经历、观点与作品。'}[next];
+  $('#add-news').innerHTML=next==='brain'?'＋ 添加素材':'<span>＋</span> 录入一条新闻';
+  if(next==='brain')window.BrainUI?.render();
   if(next==='recommend')renderList(preserve);if(next==='saved')renderSaved();if(next==='sources')renderSources();
 }
 function renderChips() {
@@ -172,7 +175,7 @@ document.addEventListener('click',event=>{
   if(b.hasAttribute('data-reset'))resetFilters();
   if(b.hasAttribute('data-add'))openDialog();
 });
-$('#add-news').addEventListener('click',openDialog);$('#close-dialog').addEventListener('click',()=>$('#news-dialog').close());
+$('#add-news').addEventListener('click',()=>view==='brain'?window.BrainUI?.openEditor():openDialog());$('#close-dialog').addEventListener('click',()=>$('#news-dialog').close());
 $('#learn-more').addEventListener('click',()=>setView('sources'));
 $('#search').addEventListener('input',()=>renderList());
 ['time-filter','sort-order','high-score','include-manual'].forEach(id=>$('#'+id).addEventListener('change',()=>renderList()));
