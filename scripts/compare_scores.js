@@ -1,0 +1,24 @@
+'use strict';
+// Fixed collection clock and identical input records: no recency/source advantages.
+const fs=require('node:fs'),path=require('node:path');
+const v2=require('./legacy_rules_v2.js'),v3=require('../assets/rules.js');
+const root=path.join(__dirname,'..');
+const data=JSON.parse(fs.readFileSync(path.join(root,'data/news.json'),'utf8'));
+const now=Date.parse(data.updated_at),today=v3.rank(data.news,{period:'today'},now);
+const old=v2.rank(today,{period:'today'},now).slice(0,5),selection=v3.selectTop(today,{},now);
+const defaultSelection=v3.selectTop(v3.rank(data.news,{period:'48h'},now),{},now);
+const record=n=>({id:n.id,title:n.title,source:n.source,publisher_id:v3.sourceKey(n),companies:n.companies,people:n.people||[],published:n.published,url:n.url,v2:v2.score(n,now),v3:v3.score(n,now),creative:v3.creative(n,now)});
+const concentration=ns=>({companies:Object.fromEntries([...new Set(ns.flatMap(v3.entityKeys))].map(c=>[c,ns.filter(n=>v3.entityKeys(n).includes(c)).length])),publishers:Object.fromEntries([...new Set(ns.map(v3.sourceKey))].map(s=>[s,ns.filter(n=>v3.sourceKey(n)===s).length]))});
+const report={comparison_at:data.updated_at,date_china:new Date(now+28800000).toISOString().slice(0,10),period:'today',input_count:today.length,method:'Identical fresh dataset, frozen V2 code, same clock; rule priority only, no audience testing.',v2_top5:old.map(record),v3_top5:selection.news.map(record),v3_default_48h:defaultSelection.news.map(record),v2_concentration:concentration(old),v3_concentration:concentration(selection.news),selection_policy:selection.policy,selection_explanation:selection.explanation,all_today:today.map(record),sources:data.sources.map(({id,name,status,accepted})=>({id,name,status,accepted})),disabled_sources:data.disabled_sources||[]};
+fs.mkdirSync(path.join(root,'reports'),{recursive:true});fs.writeFileSync(path.join(root,'reports/v3-comparison.json'),JSON.stringify(report,null,2)+'\n');
+const clean=t=>t.replace(/\|/g,'／').replace(/\n/g,' '),link=n=>`[${clean(n.title)}](${n.url})`;
+let md=`# V3 今日同数据对比\n\n北京时间日期：${report.date_china}；采集时刻：${data.updated_at}（UTC）；今天 ${today.length} 条有效新闻。\n\n两个版本使用同一份重新采集的数据与同一时钟。V2 使用保存的原始规则，V3 先评分再应用标题停留和数量限制。分数体系不同，分数上涨不等于播放量上涨。\n\n## V2 原规则 Top 5\n\n| 原题与链接 | 发布时间（UTC） | 媒体 | V2 → V3 | V3 处理原因 |\n| --- | --- | --- | --- | --- |\n`;
+for(const n of report.v2_top5)md+=`| ${link(n)} | ${n.published} | ${n.source} | ${n.v2.total} → ${n.v3.total} | ${clean(n.v3.penalties.map(p=>p.label).join('、')||n.v3.stop.reasons.join('；'))}；停留${n.v3.stop.level} |\n`;
+md+=`\n## V3 推荐（实际 ${selection.news.length} 条）\n\n${selection.explanation}\n\n| 原题与链接 | 发布时间（UTC） | 媒体 | V2 → V3 | 更适合大众创作的线索 |\n| --- | --- | --- | --- | --- |\n`;
+for(const n of report.v3_top5)md+=`| ${link(n)} | ${n.published} | ${n.source} | ${n.v2.total} → ${n.v3.total} | ${clean(n.v3.stop.reasons.join('；'))}；普通人视角：${n.creative.angle} |\n`;
+md+=`\n## 网页默认48小时推荐（${defaultSelection.news.length}条）\n\n`;
+for(const n of defaultSelection.news)md+=`- ${link(n)}：${v3.score(n,now).total}分，${n.source}，${n.published}。${v3.creative(n,now).angle}。\n`;
+md+=`\nV2 媒体分布：${JSON.stringify(report.v2_concentration.publishers)}；V3：${JSON.stringify(report.v3_concentration.publishers)}。\n\nV3 不再用老产品停更和普通参数图填满名额，优先展示购买决策、熟悉品牌新品和用户权益的标题线索。剩余候选仍可在网页“查看全部新闻”阅读。这是规则层面的改善，尚未通过真实观众停留率验证；传闻标签、原题和数据条件必须保留。\n\n## 新增来源验证\n\n| 来源 | 状态 | 原因 |\n| --- | --- | --- |\n| 极客公园 | 启用 | 官方公开RSS，原始时间含时区；排除早报，七天窗口内本次收录${data.sources.find(s=>s.id==='geekpark')?.accepted||0}条 |\n`;
+for(const s of data.disabled_sources||[])md+=`| ${s.name} | 未启用 | ${clean(s.disabled_reason)} |\n`;
+md+='\n详细五维分数、扣分、原始字段与全部今日候选见同目录 `v3-comparison.json`。报告是本次固定时刻的快照，网页会按计划继续更新。\n';
+fs.writeFileSync(path.join(root,'reports/V3-COMPARISON.md'),md);console.log(`Compared ${today.length} identical today records: V2 ${old.length}, V3 ${selection.news.length}.`);

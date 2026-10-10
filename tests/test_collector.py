@@ -85,6 +85,27 @@ class CollectorTest(unittest.TestCase):
         rumor=c.parse_feed(feed([item(title='消息称苹果有望发布测试产品')]),SOURCE,CONFIG,NOW)[0][0]
         self.assertEqual(rumor['report_type'],'unconfirmed')
 
+    def test_person_news_is_not_mislabeled_as_company_event(self):
+        config={**CONFIG, 'public_people':[{'name':'马斯克','company':'特斯拉','aliases':['马斯克','Elon Musk']}]}
+        n=c.parse_feed(feed([item(title='马斯克回应测试争议')]),SOURCE,config,NOW)[0][0]
+        self.assertEqual(n['company'],'人物热点')
+        self.assertEqual(n['associated_companies'],['特斯拉'])
+        self.assertEqual(n['people'],['马斯克'])
+        self.assertEqual(n['company_match_basis'],'person_affiliation')
+        self.assertEqual(n['publisher_id'],'test')
+
+    def test_more_roundups_cannot_accumulate_conflict_keywords(self):
+        for title in ['早报｜小米降价/苹果裁员/华为回应','小米销量；苹果涨价；腾讯工资','苹果发布新功能｜极客早知道']:
+            self.assertEqual(c.parse_feed(feed([item(title=title)]),SOURCE,CONFIG,NOW)[0],[])
+
+    def test_public_person_config_matches_browser_and_publisher_grouping(self):
+        import subprocess
+        config=json.loads((ROOT/'config/sources.json').read_text())
+        people=json.loads(subprocess.check_output(['node','-e',"console.log(JSON.stringify(require('./assets/rules.js').publicPeople))"],cwd=ROOT))
+        self.assertEqual(config['public_people'],people)
+        sources=[s for s in config['sources'] if s['id'].startswith('sina-')]
+        self.assertTrue(all(s['publisher_id']=='sina' for s in sources))
+
     def test_partial_failure_and_official_fixed_company(self):
         config=json.loads(json.dumps(CONFIG))
         config['sources'].append({**SOURCE,'id':'official','name':'测试官方','company':'苹果','type':'official_rss'})

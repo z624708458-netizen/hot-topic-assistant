@@ -8,7 +8,8 @@
         "ithome.com"
       ],
       "type": "media_rss",
-      "enabled": true
+      "enabled": true,
+      "publisher_id": "ithome"
     },
     {
       "id": "ifanr",
@@ -18,7 +19,8 @@
         "ifanr.com"
       ],
       "type": "media_rss",
-      "enabled": true
+      "enabled": true,
+      "publisher_id": "ifanr"
     },
     {
       "id": "36kr",
@@ -29,7 +31,8 @@
       ],
       "type": "media_rss",
       "enabled": false,
-      "disabled_reason": "2026-10-10 联网验证时 /feed 返回 HTML 而非 RSS，停止自动请求；待有官方确认的公开订阅地址再启用。"
+      "disabled_reason": "2026-10-10 联网验证时 /feed 返回 HTML 而非 RSS，停止自动请求；待有官方确认的公开订阅地址再启用。",
+      "publisher_id": "36kr"
     },
     {
       "id": "apple",
@@ -40,7 +43,8 @@
       ],
       "type": "official_rss",
       "company": "苹果",
-      "enabled": true
+      "enabled": true,
+      "publisher_id": "apple"
     },
     {
       "id": "openai",
@@ -51,7 +55,83 @@
       ],
       "type": "official_rss",
       "company": "OpenAI",
+      "enabled": true,
+      "publisher_id": "openai"
+    },
+    {
+      "id": "geekpark",
+      "name": "极客公园",
+      "url": "https://www.geekpark.net/rss",
+      "article_domains": [
+        "geekpark.net"
+      ],
+      "type": "media_rss",
+      "publisher_id": "geekpark",
       "enabled": true
+    },
+    {
+      "id": "huxiu",
+      "name": "虎嗅",
+      "url": "https://www.huxiu.com/rss/0.xml",
+      "article_domains": [
+        "huxiu.com"
+      ],
+      "type": "media_rss",
+      "publisher_id": "huxiu",
+      "enabled": false,
+      "disabled_reason": "2026-10-10 两次公开 RSS 请求均读取超时，未验证成功；不绕过限制，暂不启用。"
+    },
+    {
+      "id": "sina-tech",
+      "name": "新浪科技",
+      "url": "https://rss.sina.com.cn/tech/rollnews.xml",
+      "article_domains": [
+        "tech.sina.com.cn",
+        "finance.sina.com.cn"
+      ],
+      "type": "media_rss",
+      "publisher_id": "sina",
+      "enabled": false,
+      "disabled_reason": "2026-10-10 实测最新条目停在2018年；另一个科技热榜RSS返回404，不把旧订阅当每日新闻。"
+    },
+    {
+      "id": "sina-finance",
+      "name": "新浪财经",
+      "url": "https://rss.sina.com.cn/finance/rollnews.xml",
+      "article_domains": [
+        "finance.sina.com.cn",
+        "tech.sina.com.cn"
+      ],
+      "type": "finance_rss",
+      "publisher_id": "sina",
+      "enabled": false,
+      "disabled_reason": "2026-10-10 实测条目停在2008年且时间没有时区；财经热榜RSS没有条目，暂不启用。"
+    },
+    {
+      "id": "xiaomi-ir",
+      "name": "小米官方投资者新闻",
+      "url": "https://ir.mi.com/rss/news-releases.xml",
+      "article_domains": [
+        "mi.com"
+      ],
+      "type": "official_rss",
+      "publisher_id": "xiaomi-ir",
+      "enabled": false,
+      "disabled_reason": "2026-10-10 实测最新条目停在2022年；不拿抓取时间冒充发布时间，暂不启用。",
+      "company": "小米"
+    },
+    {
+      "id": "huawei",
+      "name": "华为官方新闻",
+      "url": "https://www.huawei.com/en/rss-feeds/huawei-updates/rss",
+      "article_domains": [
+        "huawei.com"
+      ],
+      "type": "official_rss",
+      "publisher_id": "huawei",
+      "enabled": false,
+      "disabled_reason": "2026-10-10 从官方订阅目录确认RSS地址，但pubDate均无时区，无法可靠判定今天/48小时；不猜测时区，暂不启用。",
+      "company": "华为"
     }
   ],
   "company_aliases": {
@@ -116,5 +196,98 @@
       "特斯拉",
       "Tesla"
     ]
-  }
+  },
+  "public_people": [
+    {
+      "name": "雷军",
+      "company": "小米",
+      "points": 25,
+      "aliases": [
+        "雷军",
+        "Lei Jun"
+      ]
+    },
+    {
+      "name": "任正非",
+      "company": "华为",
+      "points": 25,
+      "aliases": [
+        "任正非",
+        "Ren Zhengfei"
+      ]
+    },
+    {
+      "name": "余承东",
+      "company": "华为",
+      "points": 24,
+      "aliases": [
+        "余承东",
+        "Richard Yu"
+      ]
+    },
+    {
+      "name": "马化腾",
+      "company": "腾讯",
+      "points": 24,
+      "aliases": [
+        "马化腾",
+        "Pony Ma"
+      ]
+    },
+    {
+      "name": "张一鸣",
+      "company": "字节跳动",
+      "points": 22,
+      "aliases": [
+        "张一鸣",
+        "Zhang Yiming"
+      ]
+    },
+    {
+      "name": "马云",
+      "company": "阿里巴巴",
+      "points": 25,
+      "aliases": [
+        "马云",
+        "Jack Ma"
+      ]
+    },
+    {
+      "name": "李彦宏",
+      "company": "百度",
+      "points": 22,
+      "aliases": [
+        "李彦宏",
+        "Robin Li"
+      ]
+    },
+    {
+      "name": "马斯克",
+      "company": "特斯拉",
+      "points": 25,
+      "aliases": [
+        "马斯克",
+        "Elon Musk"
+      ]
+    },
+    {
+      "name": "库克",
+      "company": "苹果",
+      "points": 23,
+      "aliases": [
+        "库克",
+        "Tim Cook"
+      ]
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "company": "OpenAI",
+      "points": 20,
+      "aliases": [
+        "萨姆·奥特曼",
+        "山姆·奥特曼",
+        "Sam Altman"
+      ]
+    }
+  ]
 }

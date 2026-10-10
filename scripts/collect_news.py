@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 UTC = dt.timezone.utc
 MAX_BYTES = 3 * 1024 * 1024
 RETENTION_DAYS = 7
-USER_AGENT = 'HotTopicAssistant/2.0 (public RSS reader; https://github.com/z624708458-netizen/hot-topic-assistant)'
+USER_AGENT = 'HotTopicAssistant/3.0 (public RSS reader; https://github.com/z624708458-netizen/hot-topic-assistant)'
 
 
 def iso(value):
@@ -125,10 +125,18 @@ def match_companies(title, config, source):
     return matches
 
 
+def match_people(title, config):
+    result = []
+    for person in config.get('public_people', []):
+        if any(re.search(r'(?<![A-Za-z])' + re.escape(alias) + r'(?![A-Za-z])' if alias.isascii() else re.escape(alias), title, re.I) for alias in person['aliases']):
+            result.append(person)
+    return result
+
+
 def excluded_headline(title):
     # RSS also contains shopping adverts and multi-event roundups. They are not
     # individual editorial news topics; do not let combined keywords inflate scores.
-    return bool(re.search(r'国补后|到手价|领券|优惠券|券后|限时抢购|[0-9]\s*→|IT早报|早报\s*\d|晚报\s*\d|新闻早知道|一周新闻汇总', title, re.I))
+    return bool(re.search(r'国补后|到手价|领券|优惠券|券后|限时抢购|[0-9]\s*→|IT早报|早报|晚报|极客早知道|新闻早知道|一周新闻汇总', title, re.I)) or title.count('；') >= 2
 
 
 def parse_feed(payload, source, config, now):
@@ -143,6 +151,10 @@ def parse_feed(payload, source, config, now):
         try:
             title = plain(child_text(entry, ('title',)))
             companies = match_companies(title, config, source)
+            people = match_people(title, config)
+            person_only = not companies and bool(people)
+            if person_only:
+                companies = ['人物热点']
             if not title or len(title) > 600 or not companies or excluded_headline(title):
                 rejected += 1
                 continue
@@ -172,10 +184,14 @@ def parse_feed(payload, source, config, now):
                 'id': 'rss-' + hashlib.sha256(url.encode()).hexdigest()[:20],
                 'title': title, 'published': iso(published), 'company': companies[0],
                 'companies': companies, 'source': source['name'], 'source_id': source['id'],
+                'publisher_id': source.get('publisher_id', source['id']),
+                'people': [p['name'] for p in people],
+                'associated_companies': list(dict.fromkeys(p['company'] for p in people)) if person_only else [],
+                'company_match_basis': 'person_affiliation' if person_only else 'official_source' if source.get('company') else 'headline',
                 'source_type': source['type'], 'url': url, 'summary': summary,
                 'summary_status': 'excerpt' if truncated else 'source' if summary else 'missing',
                 'fetched_at': iso(now), 'kind': 'rss',
-                'report_type': 'unconfirmed' if re.search(r'消息称|据传|传闻|曝光|有望|rumou?r|reportedly|may ', title, re.I) else 'report',
+                'report_type': 'unconfirmed' if re.search(r'消息称|据传|传闻|曝光|爆料|被曝|传\s*(?:OpenAI|苹果|华为|小米)|有望|rumou?r|reportedly|may ', title, re.I) else 'report',
             })
         except (ValueError, TypeError, OverflowError):
             rejected += 1
@@ -225,7 +241,7 @@ def cached_items(previous, sources, now):
                 continue
             age = now - parse_date(n['published'])
             if dt.timedelta(0) <= age <= dt.timedelta(days=RETENTION_DAYS):
-                result.append(n)
+                result.append({**n, 'publisher_id': source.get('publisher_id', source['id'])})
         except (ValueError, TypeError, KeyError):
             continue
     return result
@@ -279,7 +295,9 @@ def collect(config, previous=None, now=None, fetcher=fetch):
     return {
         'schema_version': 2, 'updated_at': iso(now),
         'last_success_at': iso(now) if any_success else previous.get('last_success_at'),
-        'retention_days': RETENTION_DAYS, 'sources': statuses, 'news': deduplicate(items),
+        'retention_days': RETENTION_DAYS, 'sources': statuses,
+        'disabled_sources': [s for s in config['sources'] if not s.get('enabled')],
+        'news': deduplicate(items),
         'collection_status': 'ok' if all(s['status'] == 'ok' for s in statuses) else 'partial' if any_success else 'error',
     }
 

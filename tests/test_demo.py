@@ -17,13 +17,13 @@ UTC=dt.timezone.utc
 def dataset():
     now=dt.datetime.now(UTC)
     titles=['小米首次免费开源新纪录意外涨价：隐私监管裁员争议，手机用户工作测试',
-            '苹果手机用户价格测试','华为首次手机测试','腾讯微信隐私用户测试',
-            'OpenAI 工作学习测试','阿里巴巴淘宝支付用户测试','特斯拉汽车电池测试','百度工作学习测试']
+            '苹果手机涨价测试','华为手机降价测试','腾讯微信收费争议测试',
+            'OpenAI 裁员岗位测试','阿里巴巴淘宝涨价测试','特斯拉汽车召回测试','百度裁员岗位测试']
     companies=['小米','苹果','华为','腾讯','OpenAI','阿里巴巴','特斯拉','百度']
     ages=[.01,2,3,4,5,30,100,167]
     news=[{'id':'test-'+str(i),'title':'仅测试数据：'+title,'published':(now-dt.timedelta(hours=ages[i])).isoformat(),
            'company':companies[i],'companies':[companies[i]],'source':'测试来源，不是真实新闻',
-           'source_id':'test','source_type':'media_rss','url':'https://example.com/test/'+str(i),
+           'source_id':'test'+str(i%3),'publisher_id':'test'+str(i%3),'source_type':'media_rss','url':'https://example.com/test/'+str(i),
            'summary':'测试摘要，仅供浏览器验收，不是真实新闻。','kind':'rss','fetched_at':now.isoformat()}
           for i,title in enumerate(titles)]
     return {'schema_version':2,'updated_at':now.isoformat(),'last_success_at':now.isoformat(),
@@ -67,6 +67,8 @@ class DemoTest(unittest.TestCase):
         self.assertEqual(scores,sorted(scores,reverse=True))
         self.assertNotIn('历史样例',p.locator('#topic-list').inner_text())
         self.assertEqual(p.locator('#detail-panel .dimension').count(),5)
+        self.assertEqual([int(v.split(' / ')[1]) for v in p.locator('.dimension-label b').all_text_contents()],[25,25,20,20,10])
+        self.assertIn('标题停留',cards.first.inner_text())
         self.assertEqual(sum(int(s.split(' / ')[0]) for s in p.locator('.dimension-label b').all_text_contents()),scores[0])
         self.assertIn('北京时间',cards.first.locator('time').inner_text())
         p.locator('.tab[data-tab="titles"]').click();self.assertEqual(p.locator('.title-item').count(),3)
@@ -81,7 +83,8 @@ class DemoTest(unittest.TestCase):
     def test_filters_all_candidates_sort_minimum_and_time(self):
         p=self.page
         p.locator('#toggle-all').click();self.assertEqual(p.locator('#topic-list .topic-card').count(),6)
-        p.locator('#high-score').check();self.assertEqual(p.locator('#topic-list .topic-card').count(),1)
+        p.locator('#high-score').check();self.assertGreater(p.locator('#topic-list .topic-card').count(),0)
+        self.assertTrue(all(int(v)>=80 for v in p.locator('#topic-list .score strong').all_text_contents()))
         p.locator('#high-score').uncheck()
         p.locator('#time-filter').select_option('7d');self.assertEqual(p.locator('#topic-list .topic-card').count(),8)
         p.locator('[data-company="特斯拉"]').click();self.assertEqual(p.locator('#topic-list .topic-card').count(),1)
@@ -123,7 +126,7 @@ class DemoTest(unittest.TestCase):
         self.assertIn(payload,p.locator('.detail-heading h2').inner_text());self.assertIsNone(p.evaluate('window.XSS'))
         p.reload();self.assertFalse(p.locator('#include-manual').is_checked())
         p.locator('[data-company="小米"]').click();self.assertEqual(p.locator('#topic-list .topic-card').count(),1)
-        p.locator('#include-manual').check();self.assertEqual(p.locator('#topic-list .topic-card').count(),2)
+        p.locator('#include-manual').check();p.locator('#toggle-all').click();self.assertEqual(p.locator('#topic-list .topic-card').count(),2)
         self.assertIsNone(p.evaluate('window.XSS'))
 
     def test_invalid_urls_future_dates(self):
@@ -170,8 +173,9 @@ class DemoTest(unittest.TestCase):
         actual=json.loads((ROOT/'data/news.json').read_text())
         now=dt.datetime.now(UTC)
         recent=[n for n in actual['news'] if dt.timedelta(0)<=now-dt.datetime.fromisoformat(n['published'].replace('Z','+00:00'))<=dt.timedelta(hours=48)]
-        if recent:
-            self.assertGreater(p.locator('#topic-list .topic-card').count(),0)
+        expected=p.evaluate('(news)=>RadarRules.selectTop(RadarRules.rank(news)).news.length',actual['news'])
+        self.assertEqual(p.locator('#topic-list .topic-card').count(),expected)
+        if expected:
             self.assertTrue(p.locator('#topic-list .card-original').first.get_attribute('href').startswith('https://'))
             self.assertNotIn('测试来源',p.locator('#topic-list').inner_text())
         else:

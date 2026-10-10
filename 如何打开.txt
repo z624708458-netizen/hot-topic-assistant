@@ -1,4 +1,4 @@
-热点雷达 V2
+热点雷达 V3
 
 直接在浏览器打开已部署的网站：
 https://z624708458-netizen.github.io/hot-topic-assistant/
