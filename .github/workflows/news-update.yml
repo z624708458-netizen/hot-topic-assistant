@@ -36,7 +36,7 @@ jobs:
       - name: Test feed parser and scoring rules
         run: |
           python3 -m unittest discover -s tests -p 'test_collector.py' -v
-          node --test tests/rules.test.js tests/brain.test.js tests/brain41.test.js
+          node --test tests/rules.test.js tests/brain.test.js tests/brain41.test.js tests/speech.test.js
       - name: Read public RSS (keep cached news on source failure)
         id: rss
         continue-on-error: true

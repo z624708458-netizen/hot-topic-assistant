@@ -3,7 +3,7 @@
  'use strict';
  const B=window.RadarBrain,KEY='radar-brain-v4';
  const el=s=>document.querySelector(s),esc=escapeHTML;
- let state=B.defaultState(),blocked='',selected=null,editing=null,origin=null,drafts={};
+ let state=B.defaultState(),blocked='',selected=null,editing=null,origin=null,generation=null,drafts={};
  const id=()=> 'kb-'+(globalThis.crypto?.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2));
  function read(){
   const raw=localStorage.getItem(KEY);return raw===null?B.defaultState():B.validateState(JSON.parse(raw));
@@ -40,18 +40,20 @@
  }
  function renderMaterial(){
   const m=state.materials.find(x=>x.id===selected);
-  el('#brain-material-detail').innerHTML=m?`<span class="company-badge">${B.types[m.type].label}</span><h2>${esc(m.title)}</h2>${m.type==='work'?performanceHTML(m):''}<p class="brain-material-meta">首次保存 ${dateText(m.created_at)}<br>最近编辑 ${dateText(m.updated_at)}</p><div class="brain-tags">${buttons(m)}</div>${m.body?`<div class="brain-field"><strong>素材内容</strong><p>${esc(m.body)}</p></div>`:''}${B.types[m.type].fields.filter(([k])=>m.fields[k]!==null&&m.fields[k]!==undefined&&m.fields[k]!=='').map(([k,label,kind])=>`<div class="brain-field"><strong>${label}</strong>${kind==='url'?`<a class="source-link" href="${esc(safeURL(m.fields[k]))}" target="_blank" rel="noopener noreferrer">打开素材来源 ↗</a>`:`<p>${esc(kind==='datetime-local'?dateText(m.fields[k]):kind==='select'?B.contentStatuses[B.contentStatus(m)]:m.fields[k])}</p>`}</div>`).join('')}${originHTML(m.origin)}<button class="primary brain-section-action" data-brain-edit="${esc(m.id)}">编辑素材</button>`:'<div class="empty"><b>选择一条素材</b><p>这里展示完整内容和可选字段。</p></div>';
+  el('#brain-material-detail').innerHTML=m?`<span class="company-badge">${B.types[m.type].label}</span><h2>${esc(m.title)}</h2>${m.type==='work'?performanceHTML(m):''}<p class="brain-material-meta">首次保存 ${dateText(m.created_at)}<br>最近编辑 ${dateText(m.updated_at)}</p><div class="brain-tags">${buttons(m)}</div>${m.body?`<div class="brain-field"><strong>素材内容</strong><p>${esc(m.body)}</p></div>`:''}${B.types[m.type].fields.filter(([k])=>m.fields[k]!==null&&m.fields[k]!==undefined&&m.fields[k]!=='').map(([k,label,kind])=>`<div class="brain-field"><strong>${label}</strong>${kind==='url'?`<a class="source-link" href="${esc(safeURL(m.fields[k]))}" target="_blank" rel="noopener noreferrer">打开素材来源 ↗</a>`:`<p>${esc(kind==='datetime-local'?dateText(m.fields[k]):kind==='select'?B.contentStatuses[B.contentStatus(m)]:m.fields[k])}</p>`}</div>`).join('')}${generationHTML(m.generation)}${originHTML(m.origin,!!m.generation)}<button class="primary brain-section-action" data-brain-edit="${esc(m.id)}">编辑素材</button>`:'<div class="empty"><b>选择一条素材</b><p>这里展示完整内容和可选字段。</p></div>';
  }
- function originHTML(o){return o?`<div class="brain-field"><strong>由收藏新闻转入</strong><p>${esc(o.title)}<br>${esc(o.source||'')} · ${dateText(o.published)}</p><a class="source-link" href="${esc(safeURL(o.url))}" target="_blank" rel="noopener noreferrer">打开关联新闻 ↗</a><p>关联新闻不是你的作品文案；作品数据与复盘由你手动填写。</p></div>`:'';}
+ function originHTML(o,generated=false){return o?`<div class="brain-field"><strong>${generated?'由口播生成器转入':'由收藏新闻转入'}</strong><p>${esc(o.title)}<br>${esc(o.source||'')} · ${dateText(o.published)}</p><a class="source-link" href="${esc(safeURL(o.url))}" target="_blank" rel="noopener noreferrer">打开关联新闻 ↗</a><p>${generated?'口播初稿来源于规则生成；尚未填写发布成绩，生成时间不等于发布时间。':'关联新闻不是你的作品文案；作品数据与复盘由你手动填写。'}</p></div>`:'';}
+ function generationHTML(g){if(!g)return '';return `<div class="brain-field"><strong>口播生成记录 · 免费规则</strong><p>${dateText(g.generated_at)} 生成 · ${g.duration}秒目标 · 结构${g.structure}</p>${g.used_materials.map(x=>`<p>${esc(B.types[x.type].short+' · '+x.title)} · 相关性${x.relevance}${x.performance?' · 表现'+x.performance:''}</p>${state.materials.some(m=>m.id===x.id)?`<button class="brain-reference" data-brain-jump="${esc(x.id)}">打开调用素材 ↗</button>`:'<p>源素材当前不存在，保留生成时的引用记录。</p>'}`).join('')}<p>观点 / 经历与新闻事实分开记录；发布前请重新核对新闻来源与风险检查。</p></div>`;}
  function renderProfile(){
   el('#brain-profile-companies').innerHTML=Object.keys(B.companyAliases).map(c=>`<label><input type="checkbox" name="focus-company" value="${c}" ${state.profile.companies.includes(c)?'checked':''}>${c}</label>`).join('');
   el('#brain-profile-domains').value=state.profile.domains.join('，');
  }
  function renderAnalysis(n){
-  if(blocked)return `<section class="personal-fit"><h3>适合我讲吗？</h3><p>${esc(blocked)}</p><button class="secondary brain-section-action" data-view="brain">打开第二大脑</button></section>`;
+  if(blocked)return `<section class="personal-fit"><h3>适合我讲吗？</h3><p>${esc(blocked)}</p><button class="secondary brain-section-action" data-view="brain">打开第二大脑</button></section>${window.SpeechUI?.render(n)||''}`;
   const a=B.analyse(n,state);
   return `<section class="personal-fit" aria-label="适合我讲吗"><h3>适合我讲吗？</h3><button type="button" class="personal-fit-score" data-brain-score aria-expanded="false" aria-controls="brain-calculations" title="查看参与素材与评分计算">${a.personal.total}<small> / 100 · 个人匹配度</small></button><p>${a.personal.label}</p>${a.personal.reasons.map(r=>`<div class="personal-reason"><b>+${r.points} ${r.label}</b><span>${esc(r.explain)}</span>${r.material_id?`<button class="copy-button brain-reference" data-brain-jump="${esc(r.material_id)}">查看加分素材 ↗</button>`:''}</div>`).join('')}<p class="brain-personal-note">个人匹配度来自历史素材、相关性和历史表现的规则计算，不代表未来播放量预测。个人分不改变 V3 新闻分与 Top 5。</p>${calculationHTML(a)}</section>
    <section class="brain-analysis-section brain-history"><h3>类似内容过去表现</h3><p class="brain-personal-note">${esc(a.history.summary)} 展示最多3条，按相关性排序；未知数据显示未填。</p>${a.history.items.map(x=>`<article class="brain-history-item"><h4><button data-brain-jump="${esc(x.material.id)}">${esc(x.material.title)} ↗</button></h4>${relevanceHTML(x)}${performanceHTML(x.material)}</article>`).join('')}</section>
+   ${window.SpeechUI?.render(n)||''}
    <section class="brain-analysis-section brain-content-risk" data-risk-level="${a.risk.level}"><h3>内容风险：${a.risk.level}</h3><p>${esc(a.risk.note)}</p>${a.risk.items.map(x=>`<article class="brain-risk-item"><b>风险提示 · ${esc(x.label)}</b><button class="brain-reference" data-brain-jump="${esc(x.id)}">${esc(x.title)} ↗</button><p>${esc(x.reason)}</p>${x.note?`<p>你记录的风险复盘（未独立核实）：${esc(x.note)}</p>`:''}</article>`).join('')}${a.risk.count>3?`<p>另有 ${a.risk.count-3} 条相关风险记录，可在知识库查看。</p>`:''}</section>
    <section class="brain-analysis-section brain-related"><h3>我的第二大脑</h3><p class="brain-personal-note">共 ${a.matchedCount} 条规则命中，展示最多 5 条。公司/人物25、具体产品25、主题20、利益点15、叙事10、标签5；80起强相关，60起中高相关，40起弱相关，低于40仅作扩展。仅60分以上参与个人加分与切口。基于已保存标题、RSS摘要和手动正文；不自动读取原文全文，不是 AI 语义分析。</p>${a.matches.length?a.matches.map(x=>`<article class="brain-match"><span class="company-badge">${B.types[x.material.type].short}</span>${performanceBadge(x.material)}<h4><button data-brain-jump="${esc(x.material.id)}">${esc(x.material.title)} ↗</button></h4>${relevanceHTML(x)}<p><b>为什么相关：</b>${esc(x.reasons.join('；'))}</p><p><b>可以怎么用：</b>${esc(x.eligible?x.use:'仅作为扩展参考，请先核对事件与产品是否一致；不据此推荐个人切口。')}</p>${x.material.type==='work'?performanceHTML(x.material):''}</article>`).join(''):'<p class="brain-personal-note">还没有相关历史素材。不会编造你的经历、观点或作品。</p>'}<button class="secondary brain-section-action" data-view="brain">打开第二大脑 / 添加素材 ↗</button></section>
    <section class="brain-analysis-section"><h3>我的切入角度</h3>${a.angles.length?a.angles.map(x=>`<article class="brain-angle"><h4>${esc(x.line)}</h4><p><b>为什么适合我：</b>${esc(x.why)}</p><p><b>内容结构：</b>${esc(x.structure)}</p><p>可调用素材：</p>${x.materials.map(m=>`<button class="brain-reference" data-brain-jump="${esc(m.id)}">${B.types[m.type].short} · ${esc(m.title)} ↗</button>`).join('')}</article>`).join(''):'<p class="brain-personal-note">暂无60分以上相关素材，不组合个人切口。上方 V3 普通人视角与口播框架仍可使用。</p>'}<p class="brain-personal-note">规则组合提示，不自动判断观点正确性；使用作品时同时核对上方内容风险，勿复用被屏蔽的表达。</p></section>`;
@@ -68,7 +70,7 @@
   }).join('');
  }
  function openEditor(material=null,news=null){
-  editing=material;origin=material?.origin|| (news?{news_id:news.id,title:news.title,url:news.url,source:news.source,published:news.published}:null);drafts={};
+  editing=material;generation=material?.generation||null;origin=material?.origin|| (news?{news_id:news.id,title:news.title,url:news.url,source:news.source,published:news.published}:null);drafts={};
   el('#brain-form').reset();const type=material?.type||(news?'work':'case');
   el('#brain-editor-type').value=type;el('#brain-editor-type').dataset.previous=type;
   el('#brain-form [name="brain-title"]').value=material?.title||news?.title||'';
@@ -77,7 +79,13 @@
   el('#brain-dialog-title').textContent=material?'编辑素材':news?'转为历史作品':'添加素材';
   el('#brain-dialog-intro').textContent=news?'保留关联新闻，填写你自己的文案与发布后的数据；新闻摘要不会被当作你的作品。全部数据可稍后补充。':'不必填完所有字段。直接粘贴文字、选择类型，就能保存。';
   showFields(type,material?.fields||(news?{platform:el('#platform').value}:{}));el('#brain-extra').open=!!news;
-  el('#brain-origin').innerHTML=originHTML(origin);el('#brain-form-error').textContent='';el('#brain-dialog').showModal();
+  el('#brain-origin').innerHTML=originHTML(origin,!!generation);el('#brain-form-error').textContent='';el('#brain-dialog').showModal();
+ }
+ function openGeneratedWork(g){
+  window.RadarSpeech.validateResult(g);const record=window.RadarSpeech.workGeneration(g);B.validateGeneration(record);openEditor(null,g.news);generation=record;
+  el('#brain-form [name="brain-body"]').value=g.main;el('#brain-extra-fields [data-field="copy"]').value=g.main;
+  el('#brain-dialog-intro').textContent='带入新闻标题、当前口播稿、调用素材与生成时间。生成不代表已经发布；发布时间和成绩留空，由你之后补充。';
+  el('#brain-origin').innerHTML=generationHTML(generation)+originHTML(origin,true);
  }
  function jump(value){
   el('#brain-search').value='';el('#brain-type').value='all';el('#brain-tag').value='';selected=value;setView('brain');
@@ -95,7 +103,7 @@
    const supplied=el('#brain-form [name="brain-title"]').value.trim();
    const title=supplied||(body||fields.point||fields.original||fields.comment||fields.event||fields.copy||'').split('\n').find(x=>x.trim())?.trim().slice(0,60);
    if(!title)throw new Error('写一个标题、粘贴一段文字或填写核心内容，即可保存。');
-   const now=new Date().toISOString(),m={id:editing?.id||id(),type,title,body,fields,tags:B.tags(el('#brain-form [name="brain-tags"]').value),created_at:editing?.created_at||now,updated_at:now,...(origin?{origin}: {})};B.validate(m);
+   const now=new Date().toISOString(),m={id:editing?.id||id(),type,title,body,fields,tags:B.tags(el('#brain-form [name="brain-tags"]').value),created_at:editing?.created_at||now,updated_at:now,...(origin?{origin}: {}),...(generation?{generation}: {})};B.validate(m);
    commit(latest=>{const current=latest.materials.find(x=>x.id===m.id);if(editing&&current&&current.updated_at!==editing.updated_at)throw new Error('这条素材已在另一窗口修改；当前输入仍保留，请复制内容后重新打开素材。');return {...latest,materials:latest.materials.filter(x=>x.id!==m.id).concat(m),updated_at:now};});
    selected=m.id;el('#brain-dialog').close();if(view==='brain'){el('#brain-search').value='';el('#brain-type').value='all';el('#brain-tag').value='';}refresh();notify('素材已保存到当前浏览器。');
   }catch(error){el('#brain-form-error').textContent=error.message;}
@@ -125,5 +133,5 @@
  });
  window.addEventListener('storage',event=>{if(event.key!==KEY)return;try{state=read();blocked='';renderProfile();refresh();}catch{blocked='另一个窗口的知识库存储异常，原数据未覆盖。';render();}});
  document.addEventListener('toggle',event=>{if(event.target.id==='brain-calculations')el('[data-brain-score]')?.setAttribute('aria-expanded',String(event.target.open));},true);
- window.BrainUI={render,openEditor,renderAnalysis};renderProfile();render();renderDetail();
+ window.BrainUI={render,openEditor,renderAnalysis,jump,openGeneratedWork,getState:()=>{if(blocked)throw new Error(blocked);return structuredClone(read());}};renderProfile();render();renderDetail();
 })();

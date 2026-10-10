@@ -88,7 +88,12 @@
   }
   if(!Number.isFinite(Date.parse(m.created_at))||!Number.isFinite(Date.parse(m.updated_at)))throw new Error('素材保存时间无效');
   if(m.origin&&(!m.origin.news_id||typeof m.origin.title!=='string'||!validURL(m.origin.url)))throw new Error('关联新闻格式无效');
+  if(m.generation)validateGeneration(m.generation);
   return m;
+ }
+ function validateGeneration(g){
+  if(!g||g.version!=='5.0.0'||g.provider!=='rules'||!Number.isFinite(Date.parse(g.generated_at))||typeof g.news_id!=='string'||![60,90].includes(g.duration)||!['A','B','C','D'].includes(g.structure)||!Array.isArray(g.used_materials)||g.used_materials.length>5||g.used_materials.some(x=>!x||typeof x.id!=='string'||typeof x.title!=='string'||x.title.length>300||!Object.hasOwn(types,x.type)||!Number.isFinite(x.relevance)||x.relevance<60||x.relevance>100||!(x.performance===null||['S','A','B','C','D'].includes(x.performance))||typeof x.role!=='string')||!Array.isArray(g.checks)||g.checks.length>500||g.checks.some(x=>!x||typeof x.sentence!=='string'||!['news','history','judgment','review'].includes(x.kind)))throw new Error('口播生成记录无效');
+  return g;
  }
  function profile(p){
   if(!p||!Array.isArray(p.companies)||p.companies.some(c=>!Object.hasOwn(companyAliases,c))||!Array.isArray(p.domains)||p.domains.length>50||p.domains.some(t=>typeof t!=='string'||!t.trim()||t.length>100))throw new Error('长期关注设置无效');
@@ -197,5 +202,5 @@
  function materialTime(m){const original=m.type==='case'?m.fields.date:m.type==='work'?m.fields.published:null;return Date.parse(original||m.created_at);}
  function filter(materials,{query='',type='all',tag='',sort='newest'}={}){const key=query.trim().toLowerCase();return materials.filter(m=>(type==='all'||m.type===type)&&(!tag||m.tags.includes(tag))&&textOf(m).toLowerCase().includes(key)).slice().sort((a,b)=>(sort==='oldest'?1:-1)*(materialTime(a)-materialTime(b))||a.id.localeCompare(b.id));}
  function performance(materials){return materials.filter(m=>m.type==='work'&&typeof m.fields.views==='number').slice().sort((a,b)=>b.fields.views-a.fields.views||Date.parse(b.updated_at)-Date.parse(a.updated_at)).slice(0,3);}
- return {types,companyAliases,people,themes,tags,textOf,validate,validateState,profile,defaultState,validURL,signals,related,matches,personal,analyse,angles,filter,materialTime,performance,uses,products,topics,interests,narratives,threshold,contentStatuses,contentStatus,gradePerformance,historyReference,contentRisk};
+ return {types,companyAliases,people,themes,tags,textOf,validate,validateState,profile,defaultState,validURL,signals,related,matches,personal,analyse,angles,filter,materialTime,performance,uses,products,topics,interests,narratives,threshold,contentStatuses,contentStatus,gradePerformance,historyReference,contentRisk,validateGeneration};
 });
