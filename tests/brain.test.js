@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),B=require('../assets/brain-rules.js');
-const material=(type='case',o={})=>({id:'kb-test',type,title:'小米手机消费测试素材',body:'仅测试，真实个人知识库不包含示例数据。',fields:{},tags:['小米'],created_at:'2026-10-10T01:00:00Z',updated_at:'2026-10-10T01:00:00Z',...o});
+const material=(type='case',o={})=>({id:'kb-test',type,title:'小米手机消费测试素材',body:'仅测试小米手机降价消费预算，真实个人知识库不包含示例数据。',fields:{},tags:['小米'],created_at:'2026-10-10T01:00:00Z',updated_at:'2026-10-10T01:00:00Z',...o});
 const news={title:'小米手机降价，雷军回应用户争议',company:'小米',companies:['小米'],people:['雷军'],summary:'售价和消费者权益情况以原文为准。'};
 test('all five material schemas and optional fields; zero metrics retained',()=>{
  assert.equal(Object.keys(B.types).length,5);
@@ -27,16 +27,16 @@ test('tag, direct company/person and configured topic are explicit; unrelated st
 test('English boundaries prevent AI inside unrelated English words',()=>{
  const m=material('case',{title:'painting seaside',body:'',tags:[]});assert.equal(B.related({title:'OpenAI模型',companies:['OpenAI']},m).value,0);
 });
-test('personal points across all five categories, once per type, maximum100',()=>{
+test('personal points across all five categories, weighted per type without stacking',()=>{
  const ms=Object.keys(B.types).map((type,i)=>material(type,{id:'kb-'+i}));const state={...B.defaultState(),materials:ms};
- assert.equal(B.analyse(news,state).personal.total,100);
- const repeated={...state,materials:[...ms,...ms.map(m=>({...m,id:m.id+'x'}))]};assert.equal(B.analyse(news,repeated).personal.total,100);assert.equal(B.analyse(news,repeated).matches.length,5);
+ assert.equal(B.analyse(news,state).personal.total,64.6); // Non-work49 + unknown work5.6 + focus10
+ const repeated={...state,materials:[...ms,...ms.map(m=>({...m,id:m.id+'x'}))]};assert.equal(B.analyse(news,repeated).personal.total,64.6);assert.equal(B.analyse(news,repeated).matches.length,5);
  assert.equal(B.analyse(news,{...state,materials:[],profile:{companies:[],domains:[]}}).personal.total,0);
  assert.equal(B.analyse(news,B.defaultState()).personal.total,10);
 });
 test('best five matches are deterministic, categories outside top5 still explain their points',()=>{
  const materials=Array.from({length:7},(_,i)=>material(i<6?'case':'work',{id:'kb-'+i}));const a=B.analyse(news,{...B.defaultState(),materials});
- assert.equal(a.matches.length,5);assert.equal(a.matchedCount,7);assert.equal(a.personal.total,50);assert.ok(a.personal.reasons.find(r=>r.type==='work').material_id);
+ assert.equal(a.matches.length,5);assert.equal(a.matchedCount,7);assert.equal(a.personal.total,29.6);assert.ok(a.personal.reasons.find(r=>r.type==='work').material_id);
  assert.deepEqual(a.matches.map(x=>x.material.id),B.analyse(news,{...B.defaultState(),materials:materials.slice().reverse()}).matches.map(x=>x.material.id));
 });
 test('max3 angles cite only stored material IDs and use entered structure',()=>{

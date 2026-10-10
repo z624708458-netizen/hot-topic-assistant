@@ -23,7 +23,10 @@ class BrainTest(unittest.TestCase):
         p.locator('#brain-form [name="brain-tags"]').fill(tags)
         if fields:
             p.locator('#brain-extra').evaluate('(e)=>e.open=true')
-            for key,value in fields.items():p.locator(f'#brain-extra-fields [data-field="{key}"]').fill(value)
+            for key,value in fields.items():
+                field=p.locator(f'#brain-extra-fields [data-field="{key}"]')
+                if key=='status':field.select_option(value)
+                else:field.fill(value)
         p.locator('#brain-form [type="submit"]').click()
         self.assertFalse(p.locator('#brain-dialog').is_visible(),p.locator('#brain-form-error').inner_text())
 
@@ -62,16 +65,16 @@ class BrainTest(unittest.TestCase):
         p.locator('#brain-tag').select_option('');p.locator('#brain-sort').select_option('oldest');self.assertIn('楼市经历',p.locator('.brain-material-card h3').first.inner_text())
         p.locator('#brain-sort').select_option('newest');self.assertIn('AI观点',p.locator('.brain-material-card h3').first.inner_text())
 
-    def test_related_matches_personal100_and_three_angles_without_changing_v3(self):
+    def test_related_matches_weighted_personal_and_three_angles_without_changing_v3(self):
         p=self.page;before=p.locator('#topic-list .score strong').all_text_contents();self.brain()
         for kind in ['case','opinion','viral','comment','work']:
             self.add(kind=kind,title='仅测试小米 '+kind,fields={'borrow':'仅测试专属结构'} if kind=='viral' else None)
         self.add(title='完全无关的主题',body='仅测试：太平洋海边旅行',tags='旅行')
         p.locator('.nav[data-view="recommend"]').click()
-        self.assertEqual(p.locator('.personal-fit-score').inner_text().split(' / ')[0],'100')
+        self.assertEqual(p.locator('.personal-fit-score').inner_text().split(' / ')[0],'64.6')
         self.assertEqual(p.locator('.brain-match').count(),5);self.assertEqual(p.locator('.brain-angle').count(),3)
-        self.assertNotIn('完全无关',p.locator('.brain-analysis-section').all_text_contents()[0])
-        self.assertIn('公司/产品名称',p.locator('.brain-match').first.inner_text())
+        self.assertNotIn('完全无关',p.locator('.brain-match').all_text_contents()[0])
+        self.assertIn('核心公司',p.locator('.brain-match').first.inner_text())
         self.assertIn('专属结构',p.locator('.brain-angle').last.inner_text())
         self.assertEqual(p.locator('#topic-list .score strong').all_text_contents(),before)
         p.locator('.brain-match [data-brain-jump]').first.click();self.assertTrue(p.locator('#brain-view').is_visible())
