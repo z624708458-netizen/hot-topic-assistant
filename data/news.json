@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-11T16:18:44Z",
-  "last_success_at": "2026-10-11T16:18:44Z",
+  "updated_at": "2026-10-11T21:55:14Z",
+  "last_success_at": "2026-10-11T21:55:14Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 9,
       "skipped": 51,
-      "last_success_at": "2026-10-11T16:18:44Z",
-      "last_attempt_at": "2026-10-11T16:18:44Z"
+      "last_success_at": "2026-10-11T21:55:14Z",
+      "last_attempt_at": "2026-10-11T21:55:14Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 6,
       "skipped": 14,
-      "last_success_at": "2026-10-11T16:18:44Z",
-      "last_attempt_at": "2026-10-11T16:18:44Z"
+      "last_success_at": "2026-10-11T21:55:14Z",
+      "last_attempt_at": "2026-10-11T21:55:14Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-11T16:18:44Z",
-      "last_attempt_at": "2026-10-11T16:18:44Z"
+      "last_success_at": "2026-10-11T21:55:14Z",
+      "last_attempt_at": "2026-10-11T21:55:14Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1287,
       "accepted": 15,
       "skipped": 1272,
-      "last_success_at": "2026-10-11T16:18:44Z",
-      "last_attempt_at": "2026-10-11T16:18:44Z"
+      "last_success_at": "2026-10-11T21:55:14Z",
+      "last_attempt_at": "2026-10-11T21:55:14Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-10-11T16:18:44Z",
-      "last_attempt_at": "2026-10-11T16:18:44Z"
+      "last_success_at": "2026-10-11T21:55:14Z",
+      "last_attempt_at": "2026-10-11T21:55:14Z"
     }
   ],
   "disabled_sources": [
@@ -189,7 +189,7 @@
       "url": "https://www.ithome.com/1/011/714.htm",
       "summary": "IT之家 10 月 11 日消息，苹果将在本周二举行“欢迎回家”活动，主角预计是 HomeView 智能家庭中枢，除此之外还有新款 HomePod mini 和 Apple TV 4K。 据彭博社记者马克 · 古尔曼今日透露，新款 Apple TV 4K 将在 10 月 30 日发售，苹果已在这款新品中测试内置麦克风，用户直接说出 Siri 就能进行语音交互。 IT之家了解到，现款 Apple TV 4K 仅在 Siri Remote 中带有麦克风，用户必须对着遥控器或 HomePod 说话，才能使用 Siri。 同时，苹果还将重新设计 Siri Remote 遥控器，这款配件将内置扬声器，方便用户找出掉在沙发坐垫的遥控器。 此外，新款 HomePod mini 预计将配备 S10 芯片，同样也是 10 月 3…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +211,7 @@
       "url": "https://www.ithome.com/1/011/713.htm",
       "summary": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天表示，苹果计划本月晚些时候推出新款 iPad mini。新机的起步存储空间可能会有所提升，但有意换机的用户得提前做好涨价的准备。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元（IT之家注：现汇率约合 5,359 元人民币）。作为对比，现款 iPad mini 7 价格为 599 美元（现汇率约合 4,017 元人民币）/4,799 元人民币。 据悉，新款 iPad mini 将首次采用 OLED 屏幕，配备重新设计的机身。预计将拥有全新扬声器系统，搭载性能更强的芯片。目前我们尚不清楚这款 OLED 面板的规格水平，并且该屏幕是否支持 120Hz 高刷，行业人士也存在相互矛盾的说法。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -233,7 +233,7 @@
       "url": "https://www.ithome.com/1/011/712.htm",
       "summary": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今天在新一期《Power On》通讯透露，苹果正在为其首款折叠屏手机 iPhone Duo 谋划声势浩大的展示活动，让每一位潜在顾客都能充分体验这款新品。 古尔曼表示，苹果将在美国各地的 Apple Store 直营店摆出大量样机，供到来的顾客上手体验。预计纽约第五大道的旗舰店将布置超 150 台体验机，分布在上手区和展示设施中。苹果总部 Apple Park 游客中心预计将展出 100 台 iPhone Duo。 同时，芝加哥密歇根大街、洛杉矶葛洛夫购物中心和曼哈顿上西城的 Apple Store 预计将提供 30-40 台样机，部分规模较小的门店也将配备约 20 台 iPhone Duo。考虑到这台手机仅有两个配色，这种数量显然是不同寻常。 古尔曼…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +255,7 @@
       "url": "https://www.ithome.com/1/011/709.htm",
       "summary": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今日在新一期《Power On》通讯中透露，苹果首款智能家庭中枢名为“HomeView”，预计将在 10 月 13 日的“欢迎回家”活动正式发布，11 月出货。 据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。该设备将搭载 A18 芯片，官方还将推出壁挂安装版本。 IT之家从原报道获悉，这款新产品将提供深空灰、银色、星光色和粉色四种配色，壁挂版仅有深空灰、银色两种配色。 古尔曼表示，这款产品主要使用语音交互，以 AI Siri 为核心。用户可以在房间另一端查看设备显示内容，并且该产品将运行苹果自家 App，但不支持 App Store。用户或许可以使用 iPhone，将第三方应用的小组件投射到设备上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +277,7 @@
       "url": "https://www.ithome.com/1/011/645.htm",
       "summary": "iPhone Duo 定价 15999 元起，国行 10 月 16 日晚 8 点接受预购。 京东目前预约人数已超 200 万人，需要注意的是： iPhone Duo 仅支持 eSIM 京东渠道首批可能需要签收激活（以下单时宝贝标题 / 咨询客服为准，就算不用任何补贴，也需激活后才能签收） 京东 Apple iPhone Duo 需签收激活 仅支持 eSIM15999 元起直达链接 京东 11.11 红包 10 月 12 日 20:00 开抢，至高 26888 元无门槛可用：点此抽取。 iPhone Duo 官方定价如下： 256GB：15999 元 512GB：17999 元 1TB：21499 元 2TB：26499 元 该机提供星光白和夜空双色可选，手机内外屏均为 120Hz（ProMotion），支持 A…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -299,7 +299,7 @@
       "url": "https://www.ithome.com/1/011/633.htm",
       "summary": "IT之家 10 月 11 日消息，小米 REDMI 显示器 A27U 2027 款现已在京东上架，该机主打 4K 75Hz，定价为 1199 元。 京东小米 REDMI 显示器 A27U 2027 款 1199 元直达链接 该机配备一块 3840x2160 分辨率 75Hz IPS 面板，显示器亮度 400 尼特，响应速度 6ms，对比度 1500:1，对比度 1500:1，显示器支持 10-Bit 色彩（8-Bit + FRC），覆盖 99% DCI-P3 色域。 该机支架支持升降 / 倾斜 / 旋转，显示器本体支持 VESA 75x75mm 壁挂，提供 2 个 HDMI 2.0、2 个 DP1.4、1 个 3.5mm 音频接口。 IT之家附产品参数：",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +321,7 @@
       "url": "https://www.ithome.com/1/011/631.htm",
       "summary": "IT之家 10 月 11 日消息，据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师范大学联合团队研发的昇腾原生时序预训练模型取得重磅突破，成功登顶国际权威时序评测榜单 TIME-leaderboard 和 GIFT-Eval（Pretrained 类目）。 ▲ TIME 评测榜单 ▲ GIFT-Eval 榜单（Pretrained 类目） 据介绍，时序基础模型作为人工智能赋能气象预测、能源调度、工业运维、金融分析等核心场景的关键技术底座，是当下 AI 基础研究与产业落地的核心赛道。研发团队基于华为昇腾生态，完成了模型的训练推理的深度优化，最终打造出高精度、高鲁棒性、高通用性、易工程化的通用时序基模型底座。 华为云官方表示，在顶级模型扎堆的 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -343,7 +343,7 @@
       "url": "https://www.ithome.com/1/011/630.htm",
       "summary": "IT之家 10 月 11 日消息，Yeelight 现已在小米有品上架全光谱智能人体存在面板灯 M4 众筹（点此访问），该产品提供 30x30cm 与 30x60cm 两种规格，其中 24W 款式适配 8 至 12m² 空间，定价为 109 元，36W 款式适配 12 至 18m² 空间，定价为 149 元。 系列面板灯采用全塑一体成型灯体，边框厚度薄至 2mm，具备 IP54 防护等级，内置 24G 雷达与光照双传感器，在 2.5m 安装高度下感应范围可达 10m。号称能够精准捕捉人体微动，实现人来灯亮与人走灯灭，并支持 AI 环境自适应以降低误触风险。 系列面板灯搭载蓝牙 Mesh 2.0 模组，采用全光谱光源，整体亮度可达 2500lm，显色指数达 Ra98，符合 RG0 低蓝光标准且无可视频闪，支持 2…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -365,7 +365,7 @@
       "url": "https://www.ithome.com/1/011/628.htm",
       "summary": "苹果今日宣布推出 AirPods 5，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在江苏、吉林、北京、大连，今日新增河北、云南），实付 849.15 元起。 另外京东今日加码“以旧换新”，旧物估值超过 100 元（限耳机品类），京东加补 100~150 元： 京东 Apple AirPods 5 支持主动降噪国补后 849 元直达链接京东 Apple AirPods 5 搭配无线充电盒 增强续航国补后 977 元直达链接 京东 11.11 红包 10 月 12 日 20:00 开抢，至高 26888 元无门槛可用：点此抢红包。 京东“换新补贴”由系统自动发放，如果点击上方卡片没有弹出，可尝试反复点击上方卡片 / 换号下单哦。 AirPods 5 采用全新多孔声学架构，具备新一代…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -953,7 +953,7 @@
       "url": "https://www.ifanr.com/1683673",
       "summary": "Mate 系列影像新高峰 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1263,7 +1263,7 @@
       "url": "https://www.ifanr.com/1683596",
       "summary": "iPhone 摄影又双叒叕一次进化 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1373,7 +1373,7 @@
       "url": "https://www.ifanr.com/1683545",
       "summary": "训练团队太单纯，中文互联网水太深 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1620,7 +1620,7 @@
       "url": "https://www.ifanr.com/1683401",
       "summary": "数学家该怎么证明自己真的不需要 AI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1642,7 +1642,7 @@
       "url": "https://www.ifanr.com/1683356",
       "summary": "苹果全家桶的风，还是吹到了客厅。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -1664,7 +1664,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1686,7 +1686,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1708,7 +1708,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1730,7 +1730,7 @@
       "url": "https://www.ifanr.com/1683229",
       "summary": "保时捷要靠「厚利寡销」翻盘。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1752,7 +1752,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1774,7 +1774,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1796,7 +1796,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1818,7 +1818,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1840,7 +1840,7 @@
       "url": "https://openai.com/index/radisson",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1862,7 +1862,7 @@
       "url": "https://openai.com/index/gpt-6-for-everyone",
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1884,7 +1884,7 @@
       "url": "https://openai.com/index/atlassian-partnership",
       "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1906,7 +1906,7 @@
       "url": "https://openai.com/index/jump-trading",
       "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1928,7 +1928,7 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1950,7 +1950,7 @@
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1972,7 +1972,7 @@
       "url": "http://www.geekpark.net/news/372088",
       "summary": "相机好用之外，日常使用也有了新鲜感。 作者｜张勇毅 编辑｜靖宇 10 月 1 日，华为 Mate 90 系列正式发布。 最近几天，Mate 90 Pro Max 用下来，我最直接的感受是，影像能力是这一代毋庸置疑的最重要改变，可能没有之一。 作为华为每年的旗舰，Mate 系列其实每年都能在影像领域给我们带来很多惊喜，这一代 Mate 90 Pro Max 也确实有不少值得展开的相机规格。 拍合影时不知道怎么站，室内灯光把肤色染得不太对，拍完想保留妆容，又不希望手机替自己做太多修饰。这些问题很难用一个参数概括，却直接决定了我们对一部手机相机的评价。 从功能设计上你能看出，今年 Mate 90 Pro Max 的影像升级，有相当一部分在处理这些实际拍摄场景中非常「具体」的麻烦。 相机好用之外，日常使用也有了新鲜感。…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2018,7 +2018,7 @@
       "url": "http://www.geekpark.net/news/372087",
       "summary": "图片来源：视觉中国 10 月 1 日，小米汽车公布了 9 月交付成绩单：单月交付量首次突破 4 万台。 这个数字放在新势力阵营里排第三，仅次于零跑（10.56 万台）和小鹏（4.13 万台），领先鸿蒙智行（3.75 万台）。 但真正值得关注的，不只是「小米又卖爆了」。 更有意思的是，9 月刚上市的澎程系列，首月交付就超过 1 万台。而这件事，偏偏发生在增程市场整体降温，上半年批发销量同比下滑 13.1%的背景下。 一个看似「风口已过」的赛道，被小米硬生生撕开了一道口子。 小米澎程是如何成功的？ 从 3 万到 4 万 过去几年，增程市场的剧本非常魔幻。2020 年，增程式汽车全年总销量才 3 万多台。那时候，增程还经常被一些车企高管嘲讽为「过时技术」，甚至被说成是「脱裤子放屁」。但市场从来不听嘴炮，它只看用户掏不…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2040,7 +2040,7 @@
       "url": "https://openai.com/index/eu-text-provenance",
       "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2062,7 +2062,7 @@
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T16:18:44Z",
+      "fetched_at": "2026-10-11T21:55:14Z",
       "kind": "rss",
       "report_type": "report"
     }
