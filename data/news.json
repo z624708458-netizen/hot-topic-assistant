@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-11T00:59:37Z",
-  "last_success_at": "2026-10-11T00:59:37Z",
+  "updated_at": "2026-10-11T08:46:23Z",
+  "last_success_at": "2026-10-11T08:46:23Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 12,
-      "skipped": 48,
-      "last_success_at": "2026-10-11T00:59:37Z",
-      "last_attempt_at": "2026-10-11T00:59:37Z"
+      "accepted": 17,
+      "skipped": 43,
+      "last_success_at": "2026-10-11T08:46:23Z",
+      "last_attempt_at": "2026-10-11T08:46:23Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 6,
       "skipped": 14,
-      "last_success_at": "2026-10-11T00:59:37Z",
-      "last_attempt_at": "2026-10-11T00:59:37Z"
+      "last_success_at": "2026-10-11T08:46:23Z",
+      "last_attempt_at": "2026-10-11T08:46:23Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-11T00:59:37Z",
-      "last_attempt_at": "2026-10-11T00:59:37Z"
+      "last_success_at": "2026-10-11T08:46:23Z",
+      "last_attempt_at": "2026-10-11T08:46:23Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1287,
       "accepted": 15,
       "skipped": 1272,
-      "last_success_at": "2026-10-11T00:59:37Z",
-      "last_attempt_at": "2026-10-11T00:59:37Z"
+      "last_success_at": "2026-10-11T08:46:23Z",
+      "last_attempt_at": "2026-10-11T08:46:23Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-10-11T00:59:37Z",
-      "last_attempt_at": "2026-10-11T00:59:37Z"
+      "last_success_at": "2026-10-11T08:46:23Z",
+      "last_attempt_at": "2026-10-11T08:46:23Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,392 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-9cd666e1fc52fc54b3d9",
+      "title": "小米 REDMI 显示器 A27U 2027 款发售：27 英寸 4K 75Hz，1199 元",
+      "published": "2026-10-11T08:39:38Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/633.htm",
+      "summary": "IT之家 10 月 11 日消息，小米 REDMI 显示器 A27U 2027 款现已在京东上架，该机主打 4K 75Hz，定价为 1199 元。 京东小米 REDMI 显示器 A27U 2027 款 1199 元直达链接 该机配备一块 3840x2160 分辨率 75Hz IPS 面板，显示器亮度 400 尼特，响应速度 6ms，对比度 1500:1，对比度 1500:1，显示器支持 10-Bit 色彩（8-Bit + FRC），覆盖 99% DCI-P3 色域。 该机支架支持升降 / 倾斜 / 旋转，显示器本体支持 VESA 75x75mm 壁挂，提供 2 个 HDMI 2.0、2 个 DP1.4、1 个 3.5mm 音频接口。 IT之家附产品参数：",
+      "summary_status": "source",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-dcf23b00ccafa357adc8",
+      "title": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
+      "published": "2026-10-11T08:30:53Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/631.htm",
+      "summary": "IT之家 10 月 11 日消息，据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师范大学联合团队研发的昇腾原生时序预训练模型取得重磅突破，成功登顶国际权威时序评测榜单 TIME-leaderboard 和 GIFT-Eval（Pretrained 类目）。 ▲ TIME 评测榜单 ▲ GIFT-Eval 榜单（Pretrained 类目） 据介绍，时序基础模型作为人工智能赋能气象预测、能源调度、工业运维、金融分析等核心场景的关键技术底座，是当下 AI 基础研究与产业落地的核心赛道。研发团队基于华为昇腾生态，完成了模型的训练推理的深度优化，最终打造出高精度、高鲁棒性、高通用性、易工程化的通用时序基模型底座。 华为云官方表示，在顶级模型扎堆的 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0044ea6851124b529ffd",
+      "title": "小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起",
+      "published": "2026-10-11T08:29:42Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/630.htm",
+      "summary": "IT之家 10 月 11 日消息，Yeelight 现已在小米有品上架全光谱智能人体存在面板灯 M4 众筹（点此访问），该产品提供 30x30cm 与 30x60cm 两种规格，其中 24W 款式适配 8 至 12m² 空间，定价为 109 元，36W 款式适配 12 至 18m² 空间，定价为 149 元。 系列面板灯采用全塑一体成型灯体，边框厚度薄至 2mm，具备 IP54 防护等级，内置 24G 雷达与光照双传感器，在 2.5m 安装高度下感应范围可达 10m。号称能够精准捕捉人体微动，实现人来灯亮与人走灯灭，并支持 AI 环境自适应以降低误触风险。 系列面板灯搭载蓝牙 Mesh 2.0 模组，采用全光谱光源，整体亮度可达 2500lm，显色指数达 Ra98，符合 RG0 低蓝光标准且无可视频闪，支持 2…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ec4eb32f851cd4fff1a4",
+      "title": "新增河北云南：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
+      "published": "2026-10-11T08:25:35Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/628.htm",
+      "summary": "苹果今日宣布推出 AirPods 5，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在江苏、吉林、北京、大连，今日新增河北、云南），实付 849.15 元起。 另外京东今日加码“以旧换新”，旧物估值超过 100 元（限耳机品类），京东加补 100~150 元： 京东 Apple AirPods 5 支持主动降噪国补后 849 元直达链接京东 Apple AirPods 5 搭配无线充电盒 增强续航国补后 977 元直达链接 京东 11.11 红包 10 月 12 日 20:00 开抢，至高 26888 元无门槛可用：点此抢红包。 京东“换新补贴”由系统自动发放，如果点击上方卡片没有弹出，可尝试反复点击上方卡片 / 换号下单哦。 AirPods 5 采用全新多孔声学架构，具备新一代…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c49e47825a7f07cbd4bc",
+      "title": "会员年卡 11.11 抢先促：百度网盘 158 元年内探底，B站 88VIP 网易 QQ 音乐发车",
+      "published": "2026-10-11T08:13:08Z",
+      "company": "百度",
+      "companies": [
+        "百度"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/623.htm",
+      "summary": "百度网盘 百度网盘超级会员年卡官方售价 298 元，今日预售直降至 196 元 + 限时加赠 3 个月。 到手共 15 个月，折合 13.1 元 / 月、157 元 / 年： 京东百度网盘 SVIP 超级会员 15 月卡券后 196 元领 10 元券 百度网盘超级会员年卡 + B站大会员季卡 + 网易云音乐月卡今日折后仅需 176 元，也是好价。 如果把百度年卡算作 157 元，B站季卡 + 网易云音乐月卡仅需 19 元： 京东百度网盘 SVIP 超级会员年卡加赠B站季卡 + 网易云音乐月卡券后 176 元领 10 元券 注：现购买权益时长 + 已有权益时长，不能超过 5 年，否则会充值失败。 88VIP 淘宝 11.11 今年 10 月 15 日抢先开始，小伙伴可以看看自己能不能 88 元开通 88VIP，开…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3ae0bd639a6057a33d2c",
+      "title": "Qwen-Image-2.1 Pro 和 Turbo API 上线千问 AI 平台，将图像生成与编辑能力接入应用",
+      "published": "2026-10-11T08:06:48Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/622.htm",
+      "summary": "IT之家 10 月 11 日消息，千问 AI 平台今日宣布，Qwen-Image-2.1 Pro 和 Turbo API 现已正式上线千问 AI 平台。开发者可以通过 API 将图像生成与编辑能力接入应用，无需自行部署模型、管理推理环境，即可围绕设计、电商、内容创作等场景搭建自己的工作流。与此同时，Qwen-Image-2.1-Turbo 模型权重同步开放。 现在，用户可以在千问 AI 平台查看 Qwen-Image-2.1 Pro 和 Turbo 的模型信息与接入说明，根据业务需求选择、测试和集成。 对于创作工具，API 可以成为从文字构思到视觉呈现的入口；对于电商和营销应用，可以围绕商品素材、场景创作和海报设计组织工作流；对于已有图片的精修与再创作，则可以通过编辑指令继续调整内容。从生成到编辑，开发者可以把…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2ea516b3c34cc32b32b5",
+      "title": "特朗普将 AI 人工智能改为 SI 超级智能后，马斯克宣布 SpaceXAI 官方账号正式更名 SpaceXSI",
+      "published": "2026-10-11T07:59:42Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/620.htm",
+      "summary": "IT之家 10 月 11 日消息，今日凌晨 4 点，马斯克在社交平台发布一张截图，宣布 SpaceXAI 的官方账号已更名为“SpaceX Super Intelligence”（@SpaceXSI）。 参考IT之家此前报道，美东时间 9 月 29 日，美国总统特朗普正式签署行政令，下令所有行政部门和机构使用“超级智能”（Super Intelligence，简称 SI）一词代替人工智能（AI）。 在特朗普宣布将“人工智能”改为“超级智能”后，多位科技领袖在白宫前接受媒体群访，轮到马斯克发言时，他脱口而出“AI（人工智能）”，随即迅速改口“SI（超级智能）”。 站在一旁的特朗普听到马斯克改口，对马斯克说“谢谢”。特朗普脸上露出微笑，并伸手拍了拍马斯克的肩膀。 相关阅读： 《特朗普签署行政令把 AI 改叫 SI，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c87ea8551c2d877e4267",
+      "title": "“第二代豆包手机”努比亚 NaviX Ultra「内测实验室」计划即将开启，10 月 14 日直播",
+      "published": "2026-10-11T07:39:16Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/617.htm",
+      "summary": "IT之家 10 月 11 日消息，努比亚今日宣布 NaviX Ultra「内测实验室」计划即将开启，面向尝鲜用户开放内测资格，抢先体验最新版本能力。10 月 14 日 19:00，首场进化直播。 IT之家注意到，“第二代豆包手机”努比亚 NaviX Ultra 于 9 月 16 日发布，号称“全球首款 AI 智能体手机”，由中兴通讯努比亚全链路主导打造，实现一句话让 AI 跨应用执行复杂任务，豆包手机助手主导 AI 助手体验，售价 5999 元起。 努比亚 NaviX Ultra 搭载行业首个集成指纹识别的独立 AI 按键，支持方言识别能力、语音唤醒能力，并内置 Seed 最新全双工语音大模型，按键位置也进行了优化，更方便操作。 硬件配置上，努比亚 NaviX Ultra 搭载第五代骁龙 8 至尊版移动平台，搭…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8bb4cf6660f35c3bfb9f",
+      "title": "马斯克称给信用卡拍照就能用 Grok Bot 购物，OpenAI 蒂博调侃“不如直接把卡发网上”",
+      "published": "2026-10-11T07:39:04Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/616.htm",
+      "summary": "IT之家 10 月 11 日消息，xAI 首席执行官埃隆 · 马斯克今日发文称：“买东西时，你只需要拍一张信用卡照片发到聊天框，Grok Bot 就会在网上搜索最佳优惠然后下单。” IT之家注意到，OpenAI Codex&ChatGPT 团队负责人蒂博 · 索蒂奥回应道：“那我干脆直接把卡放这儿得了。”并附上一张 AI 生成的虚构信用卡照片，持卡人名字就是他本人“Thibault Sottiaux”，暗示该功能的安全风险性。 另外一名用户表示，亚马逊如今已经屏蔽 Grok Bot 访问。马斯克回复道，Grok 自己会找别的方式买东西，他刚刚买了乐高，Grok 是直接从乐高官网下单的。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2af54ef95909d1277eae",
+      "title": "马斯克称尽管自己目前不知道如何制造微芯片，但一定会弄清楚",
+      "published": "2026-10-11T07:36:13Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/613.htm",
+      "summary": "IT之家 10 月 11 日消息，据彭博社报道，埃隆 · 马斯克（Elon Musk）表示，鉴于其旗下公司在制造定制设备方面的专长，他相信自己的公司很可能会“找到比任何人都更好地制造芯片的方法”。 在得克萨斯州奥斯汀的特斯拉超级工厂外，马斯克向到场的客户与投资人坦言，尽管自己目前“不知道如何制造微芯片，但我们（一定）会弄清楚”。 在周六通过线上直播参与 X Takeover 活动时，他特别提到，此前在参观竞争对手的设施时，并没有看到多少定制化设备；而他的企业在制造这些设备方面拥有丰富经验，这使他们能够改进制造流程。 “我认为可以说，这（指芯片制造）是世界上最难做的事情之一”马斯克表示，“我绝非盲目自大或自命不凡，但我认为我们很可能会找到比任何人都更好地制造芯片的方法。坦白讲，我不确定这需要多久，可能要耗费我们数…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9452aa38ddd140e42841",
+      "title": "小米智能摄像机 5 Pro 全彩夜视上架：8MP+4MP 双镜头、自带补光小夜灯，439 元",
+      "published": "2026-10-11T07:03:06Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/605.htm",
+      "summary": "IT之家 10 月 11 日消息，小米现已在京东上架“小米智能摄像机 5 Pro 全彩夜视”，定价为 499 元，首发价 439 元。 京东小米智能摄像机 5 Pro 全彩夜视 439 元直达链接 该产品配备 8MP+4MP 双镜头，可拍摄 4K 高清画面，支持多种夜视模式。机身配备小夜灯实现补光，摄像机可实现整夜彩色成像。无人时黑白成像，识别到人自动开启小夜灯并自动切换彩色画面。内置 940nm 红外补光灯，镜头无红曝干扰，夜间呈现清晰黑白影像。 该机云台支持上下左右远程旋转，支持人形及宠物追踪，家人、宠物动向灵活跟拍记录。支持手势识别通话，只需面对摄像机比个“OK”手势，即可远程呼叫手机端；手机端也可呼叫摄像机，进行双向语音通话。 同时，该机搭载 1.5T 高算力芯片，能应对更准确、更智能及更丰富的场景检测…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a77f62387a816a1924e0",
+      "title": "广东省省长孟凡利会见苹果执行董事长库克一行，库克称愿意进一步扩大在粤业务布局",
+      "published": "2026-10-11T04:38:56Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "库克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/588.htm",
+      "summary": "IT之家 10 月 11 日消息，据南方 + 报道，10 月 11 日，广东省委副书记、省长孟凡利在广州会见美国苹果公司执行董事长蒂姆 · 库克一行。 蒂姆 · 库克感谢广东省对苹果公司发展的长期支持。他表示，广东是全球重要的制造业中心，拥有完备的产业链供应链、强劲的创新创造活力，更有极富潜力的消费市场与合作空间，聚集了大量苹果供应链伙伴和生态开发者。广东对苹果公司在华发展至关重要，公司很愿意进一步扩大在粤业务布局，围绕供应链协同、创新生态赋能、智能制造和绿色制造、销售渠道拓展等方面，与广东有关城市和企业探讨更多合作，更好实现互利共赢。 孟凡利对蒂姆 · 库克一行表示欢迎。他说，苹果公司是全球知名的科技领军企业，不论是生产端、销售端还是研发端都与广东有着长期广泛深入的合作。当前广东正锚定智能化、绿色化、融合化发…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-03b51b758f76c5fef6c7",
+      "title": "小米汽车副总裁李肖爽回顾澎程座椅滑轨拉矿卡挑战，重申“安全高于一切”",
+      "published": "2026-10-11T04:13:05Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/584.htm",
+      "summary": "IT之家 10 月 11 日消息，小米汽车副总裁李肖爽今日发布视频，回顾了小米澎程的座椅滑轨拉矿卡挑战。 他重申：“安全高于一切。” 小米汽车近年来一直在反复强调汽车安全。在今年 7 月的小米澎程技术发布会上，小米创办人、董事长兼 CEO 雷军在登台演讲时表示，安全是基础，安全是前提，安全高于一切。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bdddf0f5b303eb2e2ea9",
+      "title": "广汽埃安 N60 获推第四次 OTA：新增苹果 CarPlay 互联、升级智能防晕车模式",
+      "published": "2026-10-11T04:00:58Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/582.htm",
+      "summary": "IT之家 10 月 11 日消息，广汽埃安宣布，埃安 N60 第四次升级全量推送。 IT之家附主要升级内容如下： 辅助驾驶安全体验类 升级智能防晕车模式：一键开启智能防晕车模式，轻松解决频繁加减速、拥堵启停、连续弯道、快速变道、上下坡、紧急刹停带来的晕车感 升级三档辅助驾驶模式：提供柔和、标准、敏捷三种辅助驾驶风格 升级三档智能泊车：提供舒缓、标准、高效三种智能泊车速度 升级智能闪灯提醒：智能辅助驾驶开启并计划超车时，如检测到侧前方大车压实线行驶，将自动控制远近光灯切换，提醒前方大车 升级智能用车助手：随车智能指南支持语音提问，后备箱、座椅按摩、车机设置等操作问题，秒出图文指引 升级自适应巡航（ACC）功能开关：新增 ACC 功能开关，开启后拨杆可以唤起 ACC，转动方向盘只做横向接管，不会退出 LCC / N…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c671033fb65fc2183d07",
+      "title": "消息称苹果计划与美国最大家庭安防企业 ADT 合作，首款智能家居中枢下周到来",
+      "published": "2026-10-11T03:25:49Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/579.htm",
+      "summary": "IT之家 10 月 11 日消息，苹果“Welcome home（欢迎回家）”发布会定档美国东部时间 10 月 13 日上午 9 点（北京时间 10 月 13 日晚 9 点），有望推出首款智能家居中枢产品。 随着发布会的临近，更多消息被爆料出来。外媒 MacRumors 今日报道称，根据多条线索，苹果可能计划与美国最大家庭安防企业 ADT 建立新合作关系，同时推出其全新智能家居中枢。苹果邀请媒体于 10 月 13 日前往纽约参加“欢迎回家”发布会，并宣布合作关系。 报道称，自今年 7 月以来，ADT 在美国多个城市发布了“Low Voltage Technician”职位招聘信息。近几个月来，其中一些应聘者表示他们主要在跟随其他 ADT 技术人员学习，并等待更多通知。此外，一些员工及其经理表示他们签署了与该职位…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-ee9bcea93ccefefa4ad2",
+      "title": "广汽埃安 Ray7 将于 10 月 17 日预售，搭载华为 Drive ONE 多合一电驱、宁德时代电池",
+      "published": "2026-10-11T02:57:54Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/572.htm",
+      "summary": "IT之家 10 月 11 日消息，据易车消息，埃安 Ray7 将于 10 月 17 日正式开启预售。新车基于 AEP 纯电平台打造，全系后置单电机，搭载华为 Drive ONE 多合一电驱与宁德时代电池。 据IT之家此前报道，“Ray”是广汽埃安今年 7 月官宣的全新车系，首款车型“Ray 7”定位是“年轻人热爱的超级纯电轿车”。该车尺寸为 4960×1900×1455mm，轴距 2920mm。 该车搭载 5nm 高通 8295 处理器 + 24GB LPDDR5 高带宽内存 + 新一代 128GB UFS5.0 闪存，配备悬浮柔光中控台，三层镀银防晒天幕号称支持“88% 太阳能量隔绝，99.99% 紫外线隔绝率”。 广汽埃安 Ray 7 整车控制全面电气化，全球首发芯片级驱制融合架构，全球首搭华为 EMB 全…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0aa25ed732b2b0bbb5db",
+      "title": "行业首款八千元档 4K 120Hz 投影坚果 N5S Turbo 高刷版亮相，支持小米米家生态联动",
+      "published": "2026-10-11T02:26:23Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/011/566.htm",
+      "summary": "IT之家 10 月 11 日消息，JMGO 坚果投影官方今日正式官宣了旗下新品投影仪 —— 坚果 N5S Turbo。 据介绍，坚果 N5S Turbo 是行业首款八千元档的 4K 120Hz 投影，采用万元旗舰同款高刷架构。根据规划，坚果 N5S Turbo 高刷版将在 10 月 12 日 20:00 全网上线。 IT之家注意到，京东商品页显示，坚果 N5S Turbo 搭载全新 QuaLas 42 激光器，支持 VRR 可变刷新率、3600 CVIA 流明亮度、5000:1 原生对比度、双向无损大范围移轴、0.98-1.4:1 无损光学变焦、小米米家生态联动。 京东坚果 N5S Turbo 高刷版待发布直达链接 2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前记得领取…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-11T08:46:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-ace42459d67e75622c40",
       "title": "消息称字节、腾讯加速个人 AI 智能体研发，追赶 Meta Muse",
@@ -457,7 +843,7 @@
       "url": "https://www.ifanr.com/1683673",
       "summary": "Mate 系列影像新高峰 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -767,7 +1153,7 @@
       "url": "https://www.ifanr.com/1683596",
       "summary": "iPhone 摄影又双叒叕一次进化 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -877,7 +1263,7 @@
       "url": "https://www.ifanr.com/1683545",
       "summary": "训练团队太单纯，中文互联网水太深 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1124,7 +1510,7 @@
       "url": "https://www.ifanr.com/1683401",
       "summary": "数学家该怎么证明自己真的不需要 AI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1146,7 +1532,7 @@
       "url": "https://www.ifanr.com/1683356",
       "summary": "苹果全家桶的风，还是吹到了客厅。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -1168,7 +1554,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1190,7 +1576,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1212,7 +1598,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1234,7 +1620,7 @@
       "url": "https://www.ifanr.com/1683229",
       "summary": "保时捷要靠「厚利寡销」翻盘。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1256,7 +1642,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1278,7 +1664,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1300,7 +1686,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1322,7 +1708,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1344,7 +1730,7 @@
       "url": "https://openai.com/index/radisson",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1366,7 +1752,7 @@
       "url": "https://openai.com/index/gpt-6-for-everyone",
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1388,7 +1774,7 @@
       "url": "https://openai.com/index/atlassian-partnership",
       "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1410,7 +1796,7 @@
       "url": "https://openai.com/index/jump-trading",
       "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1432,7 +1818,7 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1454,7 +1840,7 @@
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1476,7 +1862,7 @@
       "url": "http://www.geekpark.net/news/372088",
       "summary": "相机好用之外，日常使用也有了新鲜感。 作者｜张勇毅 编辑｜靖宇 10 月 1 日，华为 Mate 90 系列正式发布。 最近几天，Mate 90 Pro Max 用下来，我最直接的感受是，影像能力是这一代毋庸置疑的最重要改变，可能没有之一。 作为华为每年的旗舰，Mate 系列其实每年都能在影像领域给我们带来很多惊喜，这一代 Mate 90 Pro Max 也确实有不少值得展开的相机规格。 拍合影时不知道怎么站，室内灯光把肤色染得不太对，拍完想保留妆容，又不希望手机替自己做太多修饰。这些问题很难用一个参数概括，却直接决定了我们对一部手机相机的评价。 从功能设计上你能看出，今年 Mate 90 Pro Max 的影像升级，有相当一部分在处理这些实际拍摄场景中非常「具体」的麻烦。 相机好用之外，日常使用也有了新鲜感。…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1522,7 +1908,7 @@
       "url": "http://www.geekpark.net/news/372087",
       "summary": "图片来源：视觉中国 10 月 1 日，小米汽车公布了 9 月交付成绩单：单月交付量首次突破 4 万台。 这个数字放在新势力阵营里排第三，仅次于零跑（10.56 万台）和小鹏（4.13 万台），领先鸿蒙智行（3.75 万台）。 但真正值得关注的，不只是「小米又卖爆了」。 更有意思的是，9 月刚上市的澎程系列，首月交付就超过 1 万台。而这件事，偏偏发生在增程市场整体降温，上半年批发销量同比下滑 13.1%的背景下。 一个看似「风口已过」的赛道，被小米硬生生撕开了一道口子。 小米澎程是如何成功的？ 从 3 万到 4 万 过去几年，增程市场的剧本非常魔幻。2020 年，增程式汽车全年总销量才 3 万多台。那时候，增程还经常被一些车企高管嘲讽为「过时技术」，甚至被说成是「脱裤子放屁」。但市场从来不听嘴炮，它只看用户掏不…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1544,7 +1930,7 @@
       "url": "https://openai.com/index/eu-text-provenance",
       "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1566,7 +1952,7 @@
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
       "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
+      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1589,28 +1975,6 @@
       "summary": "那个曾经太早出现的想法，这一次，可能终于等到了属于它的时代 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
       "fetched_at": "2026-10-10T08:07:54Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-10f260261bf6d622cd66",
-      "title": "OpenAI元老的一封离职信，揭开了奥特曼最不想承认的真相",
-      "published": "2026-10-04T07:08:18Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1682922",
-      "summary": "教会 AI 善待人类前，先学会善待人 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-10T06:47:50Z",
       "kind": "rss",
       "report_type": "report"
     }
