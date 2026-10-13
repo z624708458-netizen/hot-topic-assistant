@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-13T02:00:09Z",
-  "last_success_at": "2026-10-13T02:00:09Z",
+  "updated_at": "2026-10-13T09:22:57Z",
+  "last_success_at": "2026-10-13T09:22:57Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 17,
-      "skipped": 43,
-      "last_success_at": "2026-10-13T02:00:09Z",
-      "last_attempt_at": "2026-10-13T02:00:09Z"
+      "accepted": 10,
+      "skipped": 50,
+      "last_success_at": "2026-10-13T09:22:57Z",
+      "last_attempt_at": "2026-10-13T09:22:57Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-10-13T02:00:09Z",
-      "last_attempt_at": "2026-10-13T02:00:09Z"
+      "accepted": 4,
+      "skipped": 16,
+      "last_success_at": "2026-10-13T09:22:57Z",
+      "last_attempt_at": "2026-10-13T09:22:57Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-13T02:00:09Z",
-      "last_attempt_at": "2026-10-13T02:00:09Z"
+      "last_success_at": "2026-10-13T09:22:57Z",
+      "last_attempt_at": "2026-10-13T09:22:57Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1287,
       "accepted": 13,
       "skipped": 1274,
-      "last_success_at": "2026-10-13T02:00:09Z",
-      "last_attempt_at": "2026-10-13T02:00:09Z"
+      "last_success_at": "2026-10-13T09:22:57Z",
+      "last_attempt_at": "2026-10-13T09:22:57Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 1,
       "skipped": 29,
-      "last_success_at": "2026-10-13T02:00:09Z",
-      "last_attempt_at": "2026-10-13T02:00:09Z"
+      "last_success_at": "2026-10-13T09:22:57Z",
+      "last_attempt_at": "2026-10-13T09:22:57Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,257 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-c01c5cba0c8c7e07cf0c",
+      "title": "马斯克要用造火箭的思维造芯片：一年设计 10 款快速迭代，所有流程在一个 Terafab 工厂完成",
+      "published": "2026-10-13T09:20:38Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/484.htm",
+      "summary": "IT之家 10 月 13 日消息，特斯拉 CEO 埃隆 · 马斯克今日公布了他对 Terafab 芯片工厂的愿景，表示特斯拉和 SpaceX 计划每年在 Terafab 位于美国得克萨斯州的 Giga Texas 研究设施制造和测试约 10 款芯片，以加快开发进程。 马斯克强调，特斯拉与 SpaceX 正在芯片制造领域合作，目标是开展一些高风险高回报的项目。然而，每年推出 10 款芯片设计的目标是加快芯片制造和测试周期，而不是每年将 10 个不同设计投入量产。 他补充说，团队可以快速测试芯片，制造新的光刻掩膜，并生产另一个版本，而不中断迭代循环。团队尝试了多种方法，大多数方法最初都失败了；然而，更快的测试节奏有助于加快研发进程。 他还强调，虽然他们还不知道如何制造芯片，但他们会找到方法 —— 尽管实现这些目标可…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1e987fc7aab227a59836",
+      "title": "京东“雷霆大仓库”开到英国，消息称已租给 TikTok",
+      "published": "2026-10-13T08:52:56Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/475.htm",
+      "summary": "IT之家 10 月 13 日消息，据 CoStar News 本月报道，TikTok 已完成一项交易，将位于英国物流核心地带沃里克郡拉格比的一家大型仓库租用为其电商平台。 TikTok 租用的 Rugby 251 是一座位于 M1 与 M6 高速公路交汇处旁、面积 251,000 平方英尺（IT之家注：约 23,319 平方米）的设施，由中国电商巨头京东的基础设施投资和管理部门 —— 京东产发拥有。 市场消息人士告诉该媒体，TikTok 已达成一份为期 10 年的合约，价格约为每平方英尺 11 英镑（现汇率约合 97.5 元人民币）。据悉，该建筑将由 Fulfilled by TikTok 使用，该公司负责其电商平台 TikTok Shop 的存储和发货物流。 IT之家注意到，京东产发公众号 10 月 10 日…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-1580202e9688d1e1f079",
+      "title": "华为钱包畅行无忧卡乘车信用额度由 20 元升至 50 元，通用全国 330+ 城市",
+      "published": "2026-10-13T08:36:42Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/455.htm",
+      "summary": "IT之家 10 月 13 日消息，华为终端云服务今日宣布，华为钱包畅行无忧卡的乘车信用额度将升级至 50 元（此前乘车信用额度为 20 元）。 据介绍，华为钱包畅行无忧卡无需预充值，先乘车后付款，全国 330+ 城市通用，支持地铁、公交、机场快线等线路。此次升级后，新用户开通即支持 50 元先乘后付额度，老用户可在刷卡页面提额。 IT之家了解到，此次华为钱包畅行无忧卡提升乘车信用额度，预计是为了应对市域铁等额度不够用的场景。此前有用户反馈，上海市域铁单程 26 元，而畅行无忧卡因为只有 20 元额度，导致自己抵达目的地后无法出站。 华为钱包显示，此前已开卡的老用户（乘车额度 20 元），在刷卡页面会显示“提升额度”按钮。 参考IT之家此前报道，华为钱包与江苏交通一卡通有限公司于去年 4 月联合发布了畅行无忧卡，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3d21a4f2e445ea5a523b",
+      "title": "小米智能摄像机 4 Pro 开售：800 万像素摄像头 + 微信通话，首销 329 元",
+      "published": "2026-10-13T08:35:21Z",
+      "company": "小米",
+      "companies": [
+        "小米",
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/452.htm",
+      "summary": "IT之家 10 月 13 日消息，小米官方今日宣布，小米智能摄像机 4 Pro 已正式开售，首发价为 329 元，活动期（IT之家注：10 月 12 日 - 11 月 13 日）下单并晒单评价有机会赢取 1000 京豆（限量 500 份）。 据小米官方介绍，这款摄像机新品新增实体通话按键，轻触按键即可快速呼叫，操作门槛低；还支持一键微信通话，支持 OK 手势呼叫，可在摄像机与手机微信、米家 App 之间实现双向通话。 新品搭载 800 万像素 4K 传感器，分辨率达到 3840×2160，配备 4P 光学镜片与 f/1.6 大光圈；配备大直径 BOX 扬声器与降噪麦克风，语音清晰洪亮。 它还支持 AI 检测功能，覆盖多场景精细看护：老幼看护方面支持宝宝哭声检测、虚拟围栏、家人守护；宠物看护支持宠物检测、宠物追踪…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-452c06ba282e7fbac113",
+      "title": "笨贼破窗大闯办公室，偷走数十个苹果 Mac mini 的包装盒",
+      "published": "2026-10-13T08:01:53Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/412.htm",
+      "summary": "IT之家 10 月 13 日消息，据 FOX 10 Phoenix 上周报道，美国亚利桑那州一名窃贼闯入一家科技公司的办公室，偷走了数十台苹果 Mac mini 的包装盒。奇怪的是，电脑本体就放在他面前，但他没有拿走。 事件发生在当地时间 10 月 4 日凌晨 2 点左右，地点为美国亚利桑那州坦佩市。 监控录像显示，一名穿着格子衬衫和黑色棒球帽的男子砸碎了办公室的窗户。他没有进去，而是伸手透过破碎的窗户，开始把 Mac mini 的包装盒拿到窗户外面。 该公司的一名员工证实，窃贼没有偷走任何有价值的东西。包装盒里没有电脑，而实际的 Mac mini 则留在办公室内，直言窃贼“智商真的很低”。 该公司已向坦佩市警方报案，并试图确认监控录像中被拍到的男子身份。该商户还悬赏 1,500 美元（IT之家注：现汇率约合 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e743c4ada5e4b0476b99",
+      "title": "阿里千问 N1 系列 AI 眼镜发布：支持更换电池、Pro 版支持眼动交互 / 全天候健康监测，2899 元起",
+      "published": "2026-10-13T07:33:43Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/400.htm",
+      "summary": "IT之家 10 月 13 日消息，在今天举办的千问 AI 硬件 2026 新品发布会上，千问推出 N1 / Pro 系列 AI 眼镜，两款产品核心围绕个人智能体理念，号称让 AI 从被动等待转向主动服务，IT之家整理价格如下： N1 标准套装 2899 元起，国补后 2218 元起 超级续航套装 3297 元起，国补后 2446 元起 N1 Pro 标准套装 3399 元起，国补后 2600 元起 超级续航套装 3797 元起，国补后 2829 元起 京东阿里千问 AI 眼镜 N1 系列 2899 元起直达链接 其中，标准版 N1 提供影像、主动感知、更换电池等核心能力，主打第一视角记录。而 N1 Pro 在此之上新增五大创新能力：高精度眼动交互、金融级虹膜核验支付、全天候健康监测。可采集心率、血氧、皮肤温度等…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d6a9e6638edea22720b9",
+      "title": "马斯克谈中国制造：一旦掌握，扩产能力往往能超越全球总和",
+      "published": "2026-10-13T07:13:40Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/386.htm",
+      "summary": "IT之家 10 月 13 日消息，埃隆 · 马斯克今天在 X 平台表示，一旦中国掌握某种产品的制造方法后，他们的扩产能力往往能超过世界其他地区之总和。 IT之家注意到，此番讨论建立在人工智能分析师 Melvin 的长篇文章之上。这名分析师认为，长鑫存储正成为美光、三星、SK 海力士的竞争对手。据 TrendForce 数据，长鑫存储目前在全球 DRAM 市场营收份额约为 9.5%，高于上一季度的 7.6%，已成为全球第四大 DRAM 制造商。 不过这名分析师认为，市场对长鑫 4F² DRAM 技术的突破有点反应过度，这家公司仍然需要证明自己能实现有竞争力的良率、定价、可靠性和产量。且该技术主要针对传统 DDR5 服务器内存，而非 HBM。 马斯克则回复道，当中国掌握某种产品的制造方法后，他们的扩产能力往往能超过…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d04be6a243e4b509ef22",
+      "title": "IDC：英伟达在华数据中心 AI 芯片份额降至 34%，华为升至 28%",
+      "published": "2026-10-13T07:13:21Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/385.htm",
+      "summary": "北京时间 10 月 13 日，根据路透社看到的一份 IDC 报告，2026 年上半年，英伟达在中国数据中心 AI 芯片市场的份额降至 34%，原因是美国出口管制限制了其产品的供应，同时中国本土竞争对手不断扩大份额。 IDC 数据显示，今年 1 月至 6 月，英伟达在中国市场的 AI 加速器出货量为 67.8 万颗，同比下降 44%。AI 加速器被用于训练和运行 AI 模型。 英伟达 CEO 黄仁勋曾多次批评美国政府的出口限制措施，称这一政策迫使英伟达将中国价值 500 亿美元的 AI 芯片市场拱手让给华为。 IDC 没有具体说明英伟达 34% 的市场份额由哪些产品构成，也没有说明这一数字是否包括 B200 和 B300 等尖端芯片。 在 IDC 追踪的 11 家中国芯片制造商中，有 9 家的出货量同比增长。其中…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d99c9ac1a598c536ef2a",
+      "title": "抖音：近一年来联动各方核查 959 条谣言线索，限制 32 名争议热点当事人变现",
+      "published": "2026-10-13T06:56:13Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/372.htm",
+      "summary": "IT之家 10 月 13 日消息，抖音集团发布公告，称近一年以来抖音热点信息中煽动、虚假、蹭热等低质内容播放量占比持续下降。 抖音表示，针对传播初期事实尚不清楚的热点事件，平台主动联动地方有关部门、媒体等权威渠道核查谣言线索 959 条，下架并拦截新增谣言信息；在对热点当事人采取权益保护与行为约束方面，平台联系 90 个热点事件当事人确认账号真实性、打击仿冒蹭热账号 2000 余个；同时，平台限制 32 名争议热点当事人“趁热变现”，暂停其营利权限。 IT之家注意到，此前抖音还上线声音侵权举报入口，并升级相关维权机制。官方还同步推进跨境违规营销、非法荐股炒汇等专项治理，严管各类财经违规行为。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-de919106cc518f0fc2dc",
+      "title": "特斯拉自动驾驶出租车因学区超速遭 NHTSA 调查，涉及约 1000 台车辆",
+      "published": "2026-10-13T06:51:18Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/369.htm",
+      "summary": "IT之家 10 月 13 日消息，特斯拉在美国再度迎来一轮联邦监管审查，本次调查的缘由是指控其自动驾驶出租车在活跃学区路段超速。 美国国家公路交通安全管理局（NHTSA）于当地时间 2026 年 10 月 9 日启动了一项缺陷请愿调查，涉及约 1000 台特斯拉车辆，包含 Model Y 与 Cybercab。 本次调查源自 9 月 23 日提交的一份请愿书，该请愿书指控特斯拉自动驾驶系统（ADS）无法遵守学区的限速规定。请愿人提供了三段视频作为违规证据。 NHTSA 表示，目前一共确认四起相关事件，其中一起是提交给该机构的正式投诉，另外三起是社交媒体上曝光的相关记录。 值得重点说明的是，所有上报事件均未引发碰撞、人员受伤或死亡事故。 这项调查目前尚处于初期阶段。NHTSA 还没有判定特斯拉软件存在安全缺陷，该…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3f924ed48064626e50a2",
+      "title": "上线九个月下载破亿，字节在海外再造「红果」",
+      "published": "2026-10-13T05:19:56Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "极客公园",
+      "source_id": "geekpark",
+      "publisher_id": "geekpark",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "http://www.geekpark.net/news/372284",
+      "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T09:22:57Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-8f749db873287413551e",
       "title": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
@@ -1835,7 +2086,7 @@
       "url": "https://www.ifanr.com/1683673",
       "summary": "Mate 系列影像新高峰 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2145,7 +2396,7 @@
       "url": "https://www.ifanr.com/1683596",
       "summary": "iPhone 摄影又双叒叕一次进化 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2255,7 +2506,7 @@
       "url": "https://www.ifanr.com/1683545",
       "summary": "训练团队太单纯，中文互联网水太深 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2502,7 +2753,7 @@
       "url": "https://www.ifanr.com/1683401",
       "summary": "数学家该怎么证明自己真的不需要 AI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2546,7 +2797,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2568,7 +2819,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2590,7 +2841,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2634,7 +2885,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2656,7 +2907,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2678,7 +2929,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2700,7 +2951,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2722,7 +2973,7 @@
       "url": "https://openai.com/index/radisson",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2744,7 +2995,7 @@
       "url": "https://openai.com/index/gpt-6-for-everyone",
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2766,7 +3017,7 @@
       "url": "https://openai.com/index/atlassian-partnership",
       "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2788,7 +3039,7 @@
       "url": "https://openai.com/index/jump-trading",
       "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2810,7 +3061,7 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2832,51 +3083,7 @@
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8b9248752941341ae24d",
-      "title": "9499 元起售的华为 Mate 90 Pro Max，最值的还是相机",
-      "published": "2026-10-06T08:33:30Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "极客公园",
-      "source_id": "geekpark",
-      "publisher_id": "geekpark",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "http://www.geekpark.net/news/372088",
-      "summary": "相机好用之外，日常使用也有了新鲜感。 作者｜张勇毅 编辑｜靖宇 10 月 1 日，华为 Mate 90 系列正式发布。 最近几天，Mate 90 Pro Max 用下来，我最直接的感受是，影像能力是这一代毋庸置疑的最重要改变，可能没有之一。 作为华为每年的旗舰，Mate 系列其实每年都能在影像领域给我们带来很多惊喜，这一代 Mate 90 Pro Max 也确实有不少值得展开的相机规格。 拍合影时不知道怎么站，室内灯光把肤色染得不太对，拍完想保留妆容，又不希望手机替自己做太多修饰。这些问题很难用一个参数概括，却直接决定了我们对一部手机相机的评价。 从功能设计上你能看出，今年 Mate 90 Pro Max 的影像升级，有相当一部分在处理这些实际拍摄场景中非常「具体」的麻烦。 相机好用之外，日常使用也有了新鲜感。…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8c6c9523105b6762856c",
-      "title": "苹果突发收紧 Mac 权限，全是 AI 惹的祸",
-      "published": "2026-10-06T02:05:20Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1682953",
-      "summary": "苹果与 Meta，一对超级冤家 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-10T08:07:54Z",
+      "fetched_at": "2026-10-13T09:22:57Z",
       "kind": "rss",
       "report_type": "report"
     }
