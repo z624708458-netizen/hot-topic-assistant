@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-12T19:47:46Z",
-  "last_success_at": "2026-10-12T19:47:46Z",
+  "updated_at": "2026-10-13T02:00:09Z",
+  "last_success_at": "2026-10-13T02:00:09Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 11,
-      "skipped": 49,
-      "last_success_at": "2026-10-12T19:47:46Z",
-      "last_attempt_at": "2026-10-12T19:47:46Z"
+      "accepted": 17,
+      "skipped": 43,
+      "last_success_at": "2026-10-13T02:00:09Z",
+      "last_attempt_at": "2026-10-13T02:00:09Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 6,
       "skipped": 14,
-      "last_success_at": "2026-10-12T19:47:46Z",
-      "last_attempt_at": "2026-10-12T19:47:46Z"
+      "last_success_at": "2026-10-13T02:00:09Z",
+      "last_attempt_at": "2026-10-13T02:00:09Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-12T19:47:46Z",
-      "last_attempt_at": "2026-10-12T19:47:46Z"
+      "last_success_at": "2026-10-13T02:00:09Z",
+      "last_attempt_at": "2026-10-13T02:00:09Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1287,
       "accepted": 13,
       "skipped": 1274,
-      "last_success_at": "2026-10-12T19:47:46Z",
-      "last_attempt_at": "2026-10-12T19:47:46Z"
+      "last_success_at": "2026-10-13T02:00:09Z",
+      "last_attempt_at": "2026-10-13T02:00:09Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 2,
-      "skipped": 28,
-      "last_success_at": "2026-10-12T19:47:46Z",
-      "last_attempt_at": "2026-10-12T19:47:46Z"
+      "accepted": 1,
+      "skipped": 29,
+      "last_success_at": "2026-10-13T02:00:09Z",
+      "last_attempt_at": "2026-10-13T02:00:09Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,314 @@
   ],
   "news": [
     {
+      "id": "rss-8f749db873287413551e",
+      "title": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
+      "published": "2026-10-13T01:59:42Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/176.htm",
+      "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 徐松余谈到了华为最新的韬定律和逻辑折叠路线，韬定律首次应用于麒麟 9050 系列，在性能 / 能效上获得了可观的收益。 徐松余表示，麒麟 9050 系列作为首款逻辑折叠的韬芯片，开启未来 10 年新征程。从 PPT 可以看到，华为目标在 2031 年实现 P 核频率突破 5GHz。 IT之家在沟通会现场获悉，麒麟 9050 系列在 AI 方面也取得了进步，是麒麟首个原生 AI Phone 平台。麒麟 9050 Pro 搭载新一代达芬奇架构 NPU、灵犀微核，AI 性能提升 140%、功耗降低 66%。 麒麟 9050 系列实现业界首个 30B …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-af6b179ecd534bbb88a0",
+      "title": "华为徐松余：麒麟 9030 系列是中国半导体产业的一座“高峰”，是各方努力的大成之作",
+      "published": "2026-10-13T01:42:43Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/169.htm",
+      "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 IT之家在发布会现场获悉，徐松余首先谈到了华为麒麟处理器的过往，从 2012 年的 K3V2 开始，一直到 2020 年的全球首款 5nm 5G SoC 麒麟 9000。 之后，麒麟 9030 系列于 2025 年 11 月 25 日随华为 Mate 80 系列手机首次亮相。徐松余表示，麒麟 9030 系列是中国半导体产业的一座“高峰”，是各方努力的大成之作，CPU 性能提升 25%、GPU 性能提升 40%、NPU 算力提升 70%。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7d272eb3951a0c94182f",
+      "title": "消息称 OpenAI 计划“复活”Sora：换赛道进军 AI 专业影视工具",
+      "published": "2026-10-13T01:38:41Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/168.htm",
+      "summary": "IT之家 10 月 13 日消息，科技媒体《The Information》昨日（10 月 12 日）报道，OpenAI 正与一家专注于电影制作 AI 视频技术的隐身初创公司谈判，计划将此前已停运的视频生成模型 Sora 移交给该公司，让其以专业影视工具的形式重新进入市场。 IT之家援引博文介绍，这家初创公司由好莱坞制片人杰弗里 · 卡岑伯格（Jeffrey Katzenberg）、Sora 前研究负责人比尔 · 皮布尔斯（Bill Peebles）以及 Dropbox 前首席财务官苏杰 · 贾斯瓦（Sujay Jaswa）于数月前创立，公司名称尚未公开。 合作方面，根据博文披露的细节，这家初创公司计划接管并改造 Sora 平台，并基于该技术开发、销售面向影视制作方的软件或服务。双方尚未敲定合作条款；目前也不清…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-294ba25d98af7655fc2e",
+      "title": "9 年前英伟达 Tesla V100 老将再战：4 GPU 集群 AI 推理跑赢 2 台 DGX Spark",
+      "published": "2026-10-13T01:18:41Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/165.htm",
+      "summary": "IT之家 10 月 13 日消息，YouTube 频道 Jun Yamog 昨日（10 月 12 日）发布视频，测试将 4 张 Tesla V100 安装于 NVLink 载板，在 Qwen3.8-Flash-Next 基准中，长提示处理速度较 M5 Ultra 快 230%，较 2 台 DGX Spark 快 40%。 IT之家查询公开资料，Tesla V100 是英伟达于 2017 年推出的数据中心 GPU，基于 Volta 架构，常用于 AI 训练与推理。其 32GB 版本配备 HBM2 显存，900GB/s 显存带宽可支持大模型参数与数据的快速读取。 NVLink 是英伟达的 GPU 高速互联技术，用于在多颗 GPU 之间直接传输数据。相比通过 PCIe 通信，NVLink 可降低互联瓶颈，常用于多 G…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4348e8a49e4bf5ee09f0",
+      "title": "3 个月、超 5000 亿词元：AI 重建 2009 年《现代战争 2》源代码，83% 与原版逐字节匹配",
+      "published": "2026-10-13T00:48:06Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/149.htm",
+      "summary": "IT之家 10 月 13 日消息，开发者莫里斯・霍伊曼（Maurice Heumann）于 10 月 9 日发布项目报告，团队历时 3 个月，消耗超过 5000 亿词元（Tokens），调用 AI 智能体反编译 2009 年《使命召唤：现代战争 2》游戏，并重建为 C++ 源代码。 团队成员方面，该项目由霍伊曼主导，得到了 RektInator、Future、st0rm 及其他社区成员的协助。 AI 调用方面，团队最初同时使用 Claude Max (20x) 与 Codex Pro 订阅，在 Claude Code CLI 和 Codex CLI 中运行 AI 智能体。模型涵盖 Sonnet 5、Opus 5.5、Luna、Sol 与 Terra，智能体通过 GitHub Issues 追踪任务，并经 Dis…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-52b8176c454f85383dd7",
+      "title": "苹果 Vision Pro 首部沉浸式恐怖电影：《Remnants》本周五首播",
+      "published": "2026-10-13T00:31:33Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/148.htm",
+      "summary": "IT之家 10 月 13 日消息，科技媒体 9to5Mac 昨日（10 月 12 日）发布博文，报道称苹果官宣将于 10 月 16 日本周五上线 Vision Pro 首部沉浸式恐怖电影《Remnants》。影片在 Apple TV App 独家首播，仅面向 Vision Pro 用户开放。 剧情方面，《Remnants》由编剧兼导演 Ti West 创作，影片将观众置于 Woldmere Castle 内部，并呈现 Ti West 构建的恐怖世界。 格式方面，该片采用 Apple Immersive 视频格式，提供 180 度沉浸式画面，让观众仿佛处于影片场景之中。Apple Immersive 已用于体育赛事直播和纪录片式短片，这是首次覆盖恐怖电影类型。 苹果同步发布预告视频，并展示真实观众观看影片时的反应…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e51ec2e69e32aa672c0c",
+      "title": "苹果启动独立游戏周，《师父》《无人深空》等 7 款游戏首次登陆 App Store",
+      "published": "2026-10-13T00:19:56Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/147.htm",
+      "summary": "IT之家 10 月 13 日消息，苹果公司昨日（10 月 12 日）发布公告，宣布启动 App Store 独立游戏周（App Store Indie Games Week），向全球用户展示由独立开发者制作的游戏作品。 IT之家援引博文介绍，本次首批登陆 App Store 的作品包括 7 款游戏作品： 《师父》（Sifu） 《小猫咪，大城市》（Little Kitty, Big City） 《无人深空》（No Man’s Sky） 《穹顶守护者》（Dome Keeper） 《吸血鬼爬行者》（Vampire Crawlers） 《是的，陛下 2：雪落》（Yes, Your Grace 2: Snowfall） 《九王》（9 Kings） 《师父》由 Sloclap 与 Kepler Interactive 推出…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d51ec7fdb07da531783a",
+      "title": "连线：苹果 iOS 27 拯救濒危语言，让其“住进”iPhone 18 Pro 等手机里",
+      "published": "2026-10-13T00:08:13Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/145.htm",
+      "summary": "IT之家 10 月 13 日消息，《连线》昨日（10 月 12 日）发布博文，报道称在 iOS 27 系统官方输入法中，苹果公司进一步扩展支持原住民语言，新增支持黑脚语（Blackfoot）、科曼奇语（Comanche）和东北克里语（Northern East Cree）。 博文指出目前 iPhone 18 Pro 等机型支持超过 200 种语言输入，苹果通过与原住民社区长期协作，为切罗基语等濒危语言提供键盘、字符与输入体验支持。 苹果公司深化和切罗基族（Cherokee Nation）的合作，切罗基语于 2010 年进入 iOS，成为首个获支持的美国原住民语言。切罗基族目前约有 1,500 名活跃使用者，其中多数超过 70 岁，社区正通过沉浸式课程培养第二语言学习者。 IT之家查询公开资料，切罗基族是美国规模…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5721041a3bbf69231287",
+      "title": "摩根大通称驳斥苹果 iPhone 18 Pro 系列订单削减传闻，称需求高于 iPhone 17 Pro",
+      "published": "2026-10-12T23:56:15Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/143.htm",
+      "summary": "IT之家 10 月 13 日消息，科技媒体 AppleInsider 昨日（10 月 12 日）发布博文，报道称摩根大通驳斥 iPhone 18 Pro 需求疲软并削减订单的报道，将苹果（AAPL）目标股价从 340 美元上调至 360 美元（上调 20 美元）。 在 10 月 12 日发布的投资者报告中，摩根大通驳斥有关苹果因 iPhone 18 Pro 需求低迷而削减订单的报道，并建议投资者关注更长期的基本面。 摩根大通此前曾因供应受限担忧，在 2026 年 7 月将苹果目标股价下调至 340 美元（IT之家注：现汇率约合 2,278 元人民币）。针对近期订单削减传闻，该行分析师称，相关变化未超出苹果每年例行的生产调整范围。 该行同时下调苹果 12 月季度业绩预期，不过将原因归结为 2026 年 iPhon…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-fa5036457c47eeaf3141",
+      "title": "Meta 发布 Muse Wonder 系列旗舰 AI 模型，对标 Anthropic 与 OpenAI",
+      "published": "2026-10-12T23:30:53Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/138.htm",
+      "summary": "IT之家 10 月 13 日消息，Meta 于当地时间周一发布了全新一代尖端旗舰人工智能模型，力图在人工智能竞赛中追赶 Anthropic、OpenAI 等竞争对手。 Meta 提供的数据显示，两款新模型名为 Muse Wonder 与 Muse Wonder Full，在推理、写作与代码能力测试中，得分已经接近 Anthropic 的顶尖模型。 通过 Muse 应用访问需每月 20 或 100 美元（IT之家注：现汇率约合 670.6 元人民币）订阅，两款模型即日起通过 Meta Model API 与 Muse Code 开放，Muse Wonder Full 仅面向 Muse Code 订阅用户，月费 50 或 200 美元（现汇率约合 1,341 元人民币）。新模型还加入 Active Memory 与…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3426a3776749291bd26d",
+      "title": "古尔曼称苹果 10 月 27~28 日将举办 2026 最后一场活动，推出 iPad mini 8 和 3 款 Mac",
+      "published": "2026-10-12T23:25:55Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/137.htm",
+      "summary": "IT之家 10 月 13 日消息，彭博社的马克 · 古尔曼（Mark Gurman）昨日（10 月 12 日）发布博文，爆料称苹果公司计划于 10 月 27 日至 28 日在洛杉矶举办为期两天的产品展示活动，预计集中发布 iPad mini 8 和三款新 Mac。 在活动方式方面，古尔曼爆料称本次活动不会采用传统苹果发布会的现场直播形式，主要面向内容创作者，会设置产品体验环节，形式类似苹果于 10 月 13 日在纽约举办的活动。IT之家附上相关截图如下： 产品方面，古尔曼预估苹果公司会在本次活动中推出 4 款设备： 14 英寸的 MacBook Pro 16 英寸的 MacBook Pro 24 英寸 iMac iPad mini 8 14 英寸和 16 英寸 MacBook Pro 预计迎来重大重新设计，配备…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c4f7241a80d4d23e85e2",
+      "title": "Nothing CEO 裴宇评苹果首款折叠手机 iPhone Duo：“不值得买”",
+      "published": "2026-10-12T23:15:54Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/135.htm",
+      "summary": "IT之家 10 月 13 日消息，Nothing 首席执行官裴宇（Carl Pei）称，苹果首款折叠屏手机 iPhone Duo 起售价 15,999 元，却缺失 Face ID、长焦镜头、LiDAR 扫描仪及专业相机控制，属于“不值得买 / 浪费金钱”（A Waste Of Money）。 IT之家附上视频如下： 裴宇指出，iPhone Duo 未配备 Face ID，Face ID 自 iPhone X 起成为 iPhone 的主要生物识别功能，而该折叠屏机型展开后厚度仅 5.2 毫米，难以容纳 TrueDepth 摄像头系统。 报道分析称，若在内外两块屏幕均部署面部识别传感器，设备需要两套独立 Face ID 组件，并将增加机身厚度。部分用户建议在外屏配置 Touch ID，同时在内屏保留 Face ID…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3e2789fc4c6d57f19341",
+      "title": "苹果上线“切换到 Safari”：在 Mac 上视频播放时长比 Chrome 多 5 小时，网站加载速度快 35%",
+      "published": "2026-10-12T23:06:15Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/133.htm",
+      "summary": "IT之家 10 月 13 日消息，科技媒体 9to5Mac 昨日（10 月 12 日）发布博文，报道称苹果美国官网上线“切换到 Safari”（Switch to Safari）宣传活动，通过新网页与两段视频推广 Safari 在 Mac 上的续航、速度与隐私表现。 整体定位方面，苹果公司在新宣传页面中，通过对比 Chrome 和 Safari 浏览器，从而突显 Safari 浏览器的诸多优势，包括更长电池续航、更强隐私保护与更快性能。 苹果称，与 Chrome 相比，Safari 在 Mac 上可提供最多 5 小时的视频流媒体播放时间。在加载经常访问的网站时，Safari 的速度最高比 Chrome 快 35%。 隐私方面，苹果表示 Chrome 允许更多第三方跟踪器跨网站跟踪用户，并收集数据后出售给广告商。…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6ba363ff0cb3c5ba4047",
+      "title": "Epic 诉苹果再起争端：双方就 App Store 新佣金方案内部文件提交产生分歧",
+      "published": "2026-10-12T22:55:13Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/131.htm",
+      "summary": "IT之家 10 月 13 日消息，Epic Games 指控苹果就其提出的 App Store 新佣金费率相关诉讼，人为制造程序暂停的局面，苹果对此予以否认。 IT之家注意到，在一份联合进度报告中，Epic Games 与苹果对苹果提交内部文件、说明其拟定 App Store 佣金费率依据的相关情况，给出了截然不同的说法。 回顾一下，今年 8 月，苹果针对通过 App Store 外部链接完成的交易，提出了一套全新佣金方案。 按照该方案，开发者需要支付的佣金比例为 5% 至 15%。此前法院裁定苹果必须允许开发者引导用户跳转至其他支付方式，苹果在 2024 年推出 27% 的佣金费率，本次新方案相比该费率有所下调。 之后法院认定苹果违反法院指令，苹果正寻求向最高法院推翻这一认定，主张该指令从未禁止苹果收取任何佣…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T02:00:09Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-7bf9eb5e2d41db0185cf",
       "title": "宝可梦联名：苹果 Beats 预热特别版 Pill 蓝牙音箱",
       "published": "2026-10-12T15:28:28Z",
@@ -189,7 +497,7 @@
       "url": "https://www.ithome.com/1/012/127.htm",
       "summary": "IT之家 10 月 12 日消息，苹果旗下品牌 Beats 今天在官方 X 账号发布视频，预热一款联名新品。 从视频中的轮廓我们不难看出，这款产品就是 Beats Pill 蓝牙音箱，随着画面中亮起几道闪电，音箱的设计细节也随之显现。视频最后出现了 Beats 和宝可梦的图标。 IT之家注意到，宝可梦系列最广为人知的角色“皮卡丘”曾在今年 8 月“到访”苹果总部 Apple Park，他那时候与时任苹果首席执行官蒂姆 · 库克、时任苹果硬件工程高级副总裁约翰 · 特努斯互动。",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +519,7 @@
       "url": "https://www.ithome.com/1/012/111.htm",
       "summary": "IT之家 10 月 12 日消息，开发商 Hello Games 今天宣布，《无人深空》游戏将在 10 月 28 日登陆苹果 iOS 平台，支持 iPhone 和 iPad。 IT之家了解到，《无人深空》是一款动作冒险生存游戏，发售于 2016 年 8 月，最初登陆 PS4、Windows 平台。玩家可以自由地在随机生成的确定性开放宇宙游玩，这其中包括数以兆计（1.8×10^19）的行星，许多行星都有自己的动植物群。 据 Hello Games 联合创始人肖恩 · 默里介绍，他们 2023 年将游戏移植到 Mac 后，就希望能够让本作在 iPhone 运行。 据悉，iOS 版《无人深空》拥有重新设计的触控屏操作，iPad 版还支持手柄、键盘和鼠标。最重要的是，这款游戏的大小不超过 5GB，能够在 iPhone …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +541,7 @@
       "url": "https://www.ithome.com/1/012/105.htm",
       "summary": "IT之家 10 月 12 日消息，小米 YU7 车型今日 OTA 推送 1.18.0 版本，带来多项新增功能，并对领航辅助功能进行优化。 IT之家整理如下： 新增 QQ 音乐、网易云音乐歌词翻译，支持翻译的歌曲将在应用内的歌词页面展示翻译按钮，可开启、关闭歌词翻译并记忆状态 新增车外语音音量调节设置项 新增安全车距提醒功能 新增超级小爱专家模式 优化中控解锁逻辑，提升安全性 优化城市领航辅助功能的使用体验 优化高速领航辅助功能的使用体验 优化“端到端辅助驾驶”，升级更名为“全域领航辅助”，车位级领航功能覆盖更多热门商圈和写字楼，可领航直达电梯口、充电桩车位，通行更从容 小米首款 SUV 车型 —— YU7 于 2025 年 6 月 26 日发布，售价 25.35 万元起： YU7：售价 25.35 万元 YU7…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1527,7 +1835,7 @@
       "url": "https://www.ifanr.com/1683673",
       "summary": "Mate 系列影像新高峰 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1837,7 +2145,7 @@
       "url": "https://www.ifanr.com/1683596",
       "summary": "iPhone 摄影又双叒叕一次进化 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1947,7 +2255,7 @@
       "url": "https://www.ifanr.com/1683545",
       "summary": "训练团队太单纯，中文互联网水太深 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2194,7 +2502,7 @@
       "url": "https://www.ifanr.com/1683401",
       "summary": "数学家该怎么证明自己真的不需要 AI #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2216,7 +2524,7 @@
       "url": "https://www.ifanr.com/1683356",
       "summary": "苹果全家桶的风，还是吹到了客厅。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -2238,7 +2546,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2260,7 +2568,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2282,7 +2590,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2304,7 +2612,7 @@
       "url": "https://www.ifanr.com/1683229",
       "summary": "保时捷要靠「厚利寡销」翻盘。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2326,7 +2634,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2348,7 +2656,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2370,7 +2678,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2392,7 +2700,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2414,7 +2722,7 @@
       "url": "https://openai.com/index/radisson",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2436,7 +2744,7 @@
       "url": "https://openai.com/index/gpt-6-for-everyone",
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2458,7 +2766,7 @@
       "url": "https://openai.com/index/atlassian-partnership",
       "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2480,7 +2788,7 @@
       "url": "https://openai.com/index/jump-trading",
       "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2502,7 +2810,7 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2524,7 +2832,7 @@
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2546,7 +2854,7 @@
       "url": "http://www.geekpark.net/news/372088",
       "summary": "相机好用之外，日常使用也有了新鲜感。 作者｜张勇毅 编辑｜靖宇 10 月 1 日，华为 Mate 90 系列正式发布。 最近几天，Mate 90 Pro Max 用下来，我最直接的感受是，影像能力是这一代毋庸置疑的最重要改变，可能没有之一。 作为华为每年的旗舰，Mate 系列其实每年都能在影像领域给我们带来很多惊喜，这一代 Mate 90 Pro Max 也确实有不少值得展开的相机规格。 拍合影时不知道怎么站，室内灯光把肤色染得不太对，拍完想保留妆容，又不希望手机替自己做太多修饰。这些问题很难用一个参数概括，却直接决定了我们对一部手机相机的评价。 从功能设计上你能看出，今年 Mate 90 Pro Max 的影像升级，有相当一部分在处理这些实际拍摄场景中非常「具体」的麻烦。 相机好用之外，日常使用也有了新鲜感。…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-12T19:47:46Z",
+      "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2569,30 +2877,6 @@
       "summary": "苹果与 Meta，一对超级冤家 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
       "fetched_at": "2026-10-10T08:07:54Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2bd8abef74e8da7c64f5",
-      "title": "交付 19 天，小米澎程破万台，雷军又赢了。",
-      "published": "2026-10-06T01:15:06Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "极客公园",
-      "source_id": "geekpark",
-      "publisher_id": "geekpark",
-      "people": [
-        "雷军"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "http://www.geekpark.net/news/372087",
-      "summary": "图片来源：视觉中国 10 月 1 日，小米汽车公布了 9 月交付成绩单：单月交付量首次突破 4 万台。 这个数字放在新势力阵营里排第三，仅次于零跑（10.56 万台）和小鹏（4.13 万台），领先鸿蒙智行（3.75 万台）。 但真正值得关注的，不只是「小米又卖爆了」。 更有意思的是，9 月刚上市的澎程系列，首月交付就超过 1 万台。而这件事，偏偏发生在增程市场整体降温，上半年批发销量同比下滑 13.1%的背景下。 一个看似「风口已过」的赛道，被小米硬生生撕开了一道口子。 小米澎程是如何成功的？ 从 3 万到 4 万 过去几年，增程市场的剧本非常魔幻。2020 年，增程式汽车全年总销量才 3 万多台。那时候，增程还经常被一些车企高管嘲讽为「过时技术」，甚至被说成是「脱裤子放屁」。但市场从来不听嘴炮，它只看用户掏不…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-12T19:47:46Z",
       "kind": "rss",
       "report_type": "report"
     }
