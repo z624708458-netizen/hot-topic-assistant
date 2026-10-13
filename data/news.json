@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-13T17:35:09Z",
-  "last_success_at": "2026-10-13T17:35:09Z",
+  "updated_at": "2026-10-13T22:41:44Z",
+  "last_success_at": "2026-10-13T22:41:44Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 21,
-      "skipped": 39,
-      "last_success_at": "2026-10-13T17:35:09Z",
-      "last_attempt_at": "2026-10-13T17:35:09Z"
+      "accepted": 24,
+      "skipped": 36,
+      "last_success_at": "2026-10-13T22:41:44Z",
+      "last_attempt_at": "2026-10-13T22:41:44Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 4,
       "skipped": 16,
-      "last_success_at": "2026-10-13T17:35:09Z",
-      "last_attempt_at": "2026-10-13T17:35:09Z"
+      "last_success_at": "2026-10-13T22:41:44Z",
+      "last_attempt_at": "2026-10-13T22:41:44Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-13T17:35:09Z",
-      "last_attempt_at": "2026-10-13T17:35:09Z"
+      "last_success_at": "2026-10-13T22:41:44Z",
+      "last_attempt_at": "2026-10-13T22:41:44Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1287,
-      "accepted": 9,
+      "feed_items": 1288,
+      "accepted": 10,
       "skipped": 1278,
-      "last_success_at": "2026-10-13T17:35:09Z",
-      "last_attempt_at": "2026-10-13T17:35:09Z"
+      "last_success_at": "2026-10-13T22:41:44Z",
+      "last_attempt_at": "2026-10-13T22:41:44Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-10-13T17:35:09Z",
-      "last_attempt_at": "2026-10-13T17:35:09Z"
+      "last_success_at": "2026-10-13T22:41:44Z",
+      "last_attempt_at": "2026-10-13T22:41:44Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,94 @@
   ],
   "news": [
     {
+      "id": "rss-5ae56945b8854916a7c1",
+      "title": "苹果 watchOS 27.2 开发者预览版 Beta 4 发布",
+      "published": "2026-10-13T22:33:08Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/609.htm",
+      "summary": "【点此直达升级教程】 IT之家 10 月 14 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 开发者预览版 Beta 4 更新（内部版本号：24S5112a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来具体更新内…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T22:41:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7db38d1cdd7f63faf8e3",
+      "title": "苹果 macOS 27.2 开发者预览版 Beta 4 发布",
+      "published": "2026-10-13T22:33:07Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/607.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.2 开发者预览版 Beta 4 更新（内部版本号：26B5112a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 macOS 27 发布历史：…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T22:41:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1dc63e79ebd49c8b73a1",
+      "title": "苹果 visionOS 27.2 开发者预览版 Beta 4 发布",
+      "published": "2026-10-13T22:33:07Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/608.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27.2 开发者预览版 Beta 4 更新（内部版本号：24N5114a），本次更新距离上次发布 Beta/RC 间隔 7 天。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 visionOS 27 发布历史： 2026-10-06：visionOS 27.2 Beta 3 (24N5103f) 2026-09-29：visionOS 27.0.1 (24M372) 2026-09-22：visionOS 27.2 Beta 2 (24N5093f) 2026-09-17：visio…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T22:41:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d3c68f692f71857c955f",
+      "title": "苹果 iOS/iPadOS 27.2 开发者预览版 Beta 4 发布",
+      "published": "2026-10-13T22:33:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/606.htm",
+      "summary": "【点此直达升级教程】 IT之家 10 月 14 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.2 开发者预览版 Beta 4 更新（内部版本号：24B5110a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-13T22:41:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-413c5263d8626f18f0d6",
       "title": "苹果 Apple Watch 睡眠呼吸暂停功能正式上线，先一步读懂你的呼吸",
       "published": "2026-10-13T17:01:14Z",
@@ -189,7 +277,7 @@
       "url": "https://www.ithome.com/1/012/602.htm",
       "summary": "IT之家 10 月 13 日消息，10 月 14 日凌晨 1 点，苹果通过 OTA 向用户推送新系统。升级 iOS 与 watchOS 之后，Apple Watch 用户即可开通睡眠呼吸暂停功能。这项功能此前已通过国家药品监督管理局批准，以“睡眠呼吸暂停迹象提示”应用的二类医疗器械身份进入国内，成为 Apple Watch 上又一个受医疗监管的健康功能。 睡眠呼吸暂停功能目前支持 Apple Watch Series 9、Ultra 2 和 SE 3 及后续表款，面向年满 18 岁、此前未被诊断过睡眠呼吸暂停的成年用户。 今年是 Apple Watch 上市第十一个年头，其健康功能已覆盖 18 个领域。睡眠一直是其中的主线，从就寝提醒、睡眠阶段、睡眠评分到生命体征监测，苹果一步步把这块手表打造成了贴身的睡眠观察…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +299,7 @@
       "url": "https://www.ithome.com/1/012/600.htm",
       "summary": "IT之家 10 月 13 日消息，华为在 Mate 90 系列手机上首发了多设备互助通信共享功能。只需要碰一碰，就能把几台华为设备的网络资源整合起来，按需分配。 IT之家从华为官网了解到，手机与平板间通信共享支持共享手机双卡通话、短信、网络能力（含 eSIM），支持手机双卡网络切换时，平板网络跟随切换。但手机与手机间通信共享只支持共享手机网络能力（含 eSIM）。 另外，共享端手机和接收端手机需同时为 HarmonyOS 7 及以上版本，且单台设备最多可同时为 3 台设备提供网络，或是同时连接 3 台设备的网络。网络共享功能会使用华为云增强加速，以提升上网体验。 此前有消息称，多设备互助通信共享当前支持作为受分享方的只有 Mate 90 系列和 XT 2 系列，其他手机当前只能作为分享方给前述两台设备共享网络。…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +321,7 @@
       "url": "https://www.ithome.com/1/012/599.htm",
       "summary": "IT之家 10 月 13 日消息，苹果于北京时间 10 月 13 日晚 9 点召开了一次主题为“欢迎回家”的新品发布会，正式推出旗下首款智能家庭中枢 HomeView，以及 HomePod mini 2 等新品。 当晚美股盘初，苹果股价再度创下历史新高，总市值达 5.06 万亿美元（IT之家注：现汇率约合 33.93 万亿元人民币）。 据外媒 MacObserver 报道，苹果正计划在 2027 年（明年）推出一项全新的家庭安全监控服务，作为其进一步拓展智能家居业务的一部分。与此同时，苹果正在研发一款注重隐私保护的家庭安防摄像头及自动化设备。该设备将利用 AI 分析周围环境，无需依赖传统摄像头持续录制视频，从而在提供家庭监控功能的同时，降低隐私方面的顾虑。 苹果首款智能家庭中枢 HomeView 允许用户通过触…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +343,7 @@
       "url": "https://www.ithome.com/1/012/596.htm",
       "summary": "IT之家 10 月 13 日消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 据介绍，麒麟 9050 系列在安全、音视频全面升级。 安全方面，麒麟 9050 系列是首批获权威检测的抗量子攻击移动 SoC，进一步增强芯片级安全能力，支持后量子密码相关安全能力；此外，它还是首个芯片级隐私安全 SoC 平台，通过移动安全处理器与独立安全芯片协同，构建更完整的芯片级隐私安全平台，为启动安全、数据安全、隐私保护和通信安全提供底层支撑。 音视频方面，麒麟 9050 系列通过 DSP 与 NPU 异构计算、FFTS 低延迟调度和 H.266 视频硬解码能力，进一步提升通话、音频处理和弱网视频播放体验，让音质更清晰、视频更流畅、播放更省电。…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +365,7 @@
       "url": "https://www.ithome.com/1/012/590.htm",
       "summary": "IT之家 10 月 13 日消息，特斯拉表示中国制造电动汽车的进口配额已用尽，因此已暂停在加拿大市场接受 Model 3 Premium 车型的新订单，预计要到 2027 年 3 月才可能恢复订购。 不过 Drive Tesla Canada 发现，加拿大政府公布的数据却显示，全加拿大中国制造电动汽车进口配额仍有大量剩余，特斯拉具体获得了多少配额、为何提前停止接单，目前尚无明确解释。 目前，特斯拉已从加拿大官网的订购页面移除 Model 3 Premium 后轮驱动版和全轮驱动版。两款车型均由上海超级工厂生产，其中后轮驱动版起售价为 39,490 加元（IT之家注：现汇率约合 18.6 万元人民币），全轮驱动版起售价为 49,990 加元（现汇率约合 23.5 万元人民币）。除此之外，加拿大消费者仍可订购 Mo…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -299,7 +387,7 @@
       "url": "https://www.ifanr.com/1684070",
       "summary": "从口袋走进客厅 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +409,7 @@
       "url": "https://www.ithome.com/1/012/586.htm",
       "summary": "IT之家 10 月 13 日消息，苹果首款智能家庭中枢 HomeView 现已正式发布，除了配备扬声器底座的版本外，苹果还推出了一款壁挂版本，定价均为 299 美元（IT之家注：现汇率约合 2,005 元人民币）。 不过需要注意的是，壁挂版并不附带支架，用户需要另行购买。目前，苹果官网已经上架施耐德制造的三款安装支架，IT之家附具体详情如下： Power Mount USB-C 壁挂式连接器：59.95 美元（现汇率约合 402 元人民币） Power Mount AC：79.95 美元（现汇率约合 536.1 元人民币） Power Mount PoE：129.95 美元（现汇率约合 871.4 元人民币），预计 2027 年初推出",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -343,7 +431,7 @@
       "url": "https://www.ithome.com/1/012/579.htm",
       "summary": "IT之家 10 月 13 日消息，苹果今天推出一系列智能家居产品。其中第四代 Apple TV 4K 搭配 HomePod mini 2 使用时，将可以组成四扬声器环绕声。 苹果表示，家庭影院环绕声需要四台 HomePod mini 2 或第二代 HomePod，并按照前后方式组成两组配对设备，同时需要运行最新操作系统的 Apple TV 4K（第四代）。 IT之家注意到，HomePod mini 2 现已在国内苹果官网上架，售 1099 元，可选五种配色，采用全频驱动单元和双无源辐射器，可呈现浑厚低音和清澈高音。该产品支持立体声组合，支持声音识别、温湿度传感，无线连接升级到 Wi-Fi 6E，在海外支持苹果 Siri AI 功能。音箱附带 20W 适配器。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -365,7 +453,7 @@
       "url": "https://www.ithome.com/1/012/577.htm",
       "summary": "IT之家 10 月 13 日消息，小米中国区智能硬件市场负责人 @Selen7 今日发文，称当年给智能硬件做命名，想了一套 Home 系列的名字，最终路由器用了 HomeWiFi。 他表示，智能音箱的 HomeView 只躺在了 21 年的历史文档里，上市时用的智能家庭屏。 IT之家注意到，小米在 2022 年的 Civi 1S 发布会上，发布了小米智能家庭屏 10，官方称这是“小米首款为全屋智能打造的旗舰新品，是连接家的智能中控，也是连接家人的内容中心”。 小米智能家庭屏 10 采用 10.1 英寸的触控屏，设计上使用一体化设计，机身纤薄，金属质感的机身还有精密织物包裹，屏幕支持仰角无极调节；搭载四核 A53 处理器，配备 5MP 摄像头，可物理遮蔽，拥有立体声双扬声器。 小米智能家庭屏 10 预装 MIUI…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -387,7 +475,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -409,7 +497,7 @@
       "url": "https://www.ithome.com/1/012/574.htm",
       "summary": "IT之家 10 月 13 日消息，宝可梦公司今天宣布，全新 Pokémon × Beats Pill 无线蓝牙音箱即将登场。这款联名产品将于太平洋夏令时 10 月 15 日 8:00（北京时间 23:00），在苹果官网等渠道开售。 IT之家了解到，这款音箱以惹人喜爱的皮卡丘和神秘又可爱的谜拟丘为设计元素，其中皮卡丘看起来有几分担忧。产品自带呼应机身配色的挂绳，配备独特精灵球配饰，让您随时随地享受音乐乐趣。 同时，这款音箱拥有较为出色的音质，最长续航可达 24 小时，内部采用密封设计，具备防尘防水能力，适合居家、外出使用。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -431,7 +519,7 @@
       "url": "https://www.ithome.com/1/012/573.htm",
       "summary": "IT之家 10 月 13 日消息，苹果今天宣布推出第四代 Apple TV 4K，采用 A19 芯片，支持 Siri AI。 IT之家注意到，苹果今天还为老机用户带来了好消息：第二代、第三代的 Apple TV 4K 也能用上 Siri AI。 苹果官方在新闻稿表示：“Siri AI 将以测试版形式登陆第二代及更新款 Apple TV 4K，正式推出时支持美国、澳大利亚、加拿大、印度、新西兰、新加坡、南非和英国的英语用户。” 作为参考，Apple TV 4K （第二代）发布于 2021 年，采用 A12 仿生芯片，提供 32GB/64GB 容量；Apple TV 4K（第三代）发布于 2022 年，配备 A15 仿生芯片，与 USB-C 充电的 Siri Remote，Wi-Fi 版提供 64GB 容量，Wi-…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -453,7 +541,7 @@
       "url": "https://www.ithome.com/1/012/571.htm",
       "summary": "IT之家 10 月 13 日消息，苹果今日宣布推出 Apple Home Collection，这是系列全新智能家居配件，含室内外摄像头、恒温器、温度传感器以及视频门铃和门锁 —— 由 LG 电子和施耐德电气合作设计。 这些新配件设置简单，iPhone 只需一键操作，所有管理都通过 Apple Home 应用 —— 无需单独的应用或账户。每个配件在 Apple Home 中都进行了端到端加密，因此只有用户和他们选择的人能够访问他们的家庭数据。 IT之家注：所有产品将于 12 月开始发售，部分配件将于 2027 年初上市。 据介绍，Works with Apple Home 和 Matter 认证多年来让各种第三方配件能够连接苹果的智能家居生态系统，而 Apple Home Collection 更进一步。苹果与…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -475,7 +563,7 @@
       "url": "https://www.ithome.com/1/012/569.htm",
       "summary": "IT之家 10 月 13 日消息，苹果新款 Apple TV 4K 今日正式发布。该产品将于 11 月 13 日起正式发售，售价 2,399 港元（IT之家注：现汇率约合 2,050 元人民币）。 据官方介绍，Apple TV 4K 支持杜比视界和 HDR10+，可呈现生动逼真的 4K 画面，让每一个细节都栩栩如生。该机支持空间音频和杜比全景声功能，营造宛如四面八方而来的环绕立体声。 规格方面，Apple TV 4K 搭载 A19 芯片，CPU 性能相比上一代提升 50%，GPU 性能提升最高 2 倍，带来更快的响应速度和流畅播放体验。当然最重要的是，现在 Apple TV 终于支持了 Siri AI，当您将设备与 iPhone 或 iPad 配对后，您将可以更快找出喜欢的电影，或控制更多智能家居。 Apple…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -497,7 +585,7 @@
       "url": "https://www.ithome.com/1/012/568.htm",
       "summary": "IT之家 10 月 13 日消息，苹果在今天的活动中正式推出了 HomePod mini 2 音箱，该产品将于 10 月 30 日发售，定价 1099 元，这也是苹果本次活动中唯一拥有国行版本的产品，IT之家附苹果官网商品页（点此访问）。 该音箱可选白色、粉色、蓝色、绿色、午夜色五种配色，采用全频驱动单元和双无源辐射器，可呈现浑厚低音和清澈高音，支持立体声组合，支持声音识别、温湿度传感，无线连接升级到 Wi-Fi 6E，在海外支持苹果 Siri AI 功能。音箱附带 20W 适配器。 IT之家附产品参数：",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -519,7 +607,7 @@
       "url": "https://www.ithome.com/1/012/566.htm",
       "summary": "IT之家 10 月 13 日消息，苹果刚刚推出了全新的 Apple HomeView 智能家居管理设备，标准版与壁挂版定价均为 299 美元（IT之家注：现汇率约合 2,005 元人民币），首批上市国家（澳大利亚、加拿大、印度、新西兰、英国和美国）今日开启预购，后续新加坡于 10 月 15 日开启预购，均于 11 月 13 日正式开售。 该产品搭载 A18 芯片，配备 7 英寸（实际 6.98 英寸）Liquid Retina 显示屏（IPS 面板，1088×1088 像素分辨率，220ppi，支持原彩显示，自带防指纹疏油层），还配备了一颗 1200 万像素摄像头（ƒ/2.4 光圈），整合音乐播放、FaceTime 视频通话、家庭监控和智能家居控制等功能，并搭载基于 Apple Intelligence 的 S…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -541,7 +629,7 @@
       "url": "https://www.ithome.com/1/012/563.htm",
       "summary": "IT之家 10 月 13 日消息，苹果“欢迎回家”新品发布活动即将召开。预计将推出品牌首款智能家庭中枢 HomeView、HomePod mini 2 和新款 Apple TV 4K。 如今，苹果邀请的一批博主，如 MKBHD、安德鲁爱德华等已经来到美国纽约，参加一场体验活动，IT之家附相关截图如下： 据彭博社记者马克 · 古尔曼透露，苹果首款智能家庭中枢名为“HomeView”，外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕。该产品采用 A18 芯片，提供深空灰、银色、星光色和粉色四种配色，主要使用语音交互，以 AI Siri 为核心。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -563,7 +651,7 @@
       "url": "https://www.ithome.com/1/012/560.htm",
       "summary": "IT之家 10 月 13 日消息，美国公共电动汽车直流快充网络继续扩张，但特斯拉超级充电站的价格正在上涨。 根据电动汽车充电数据平台 Paren 发布的 2026 年第三季度美国快充行业报告，7 月至 9 月期间，美国新增 4106 个公共快充接口，分布在 664 个充电站点。 从新增设施数量来看，特斯拉第三季度新增 1287 个快充接口，另通过 Supercharger for Business 项目增加 124 个接口，继续位居各运营商之首。 除特斯拉外，北美电动汽车高速充电网络合资企业 IONNA 以新增 378 个接口排名第二，沃尔玛则以新增 344 个接口排名第三。IONNA 的新增规模较第二季度翻了一倍以上，其中包括接手并更换原 Circle K 充电设施后新增的 44 个站点。Paren 将运营商…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -585,9 +673,31 @@
       "url": "https://www.ithome.com/1/012/558.htm",
       "summary": "IT之家 10 月 13 日消息，《晚点 LatePost》今日报道称，阿里旗下 AI 办公产品“千问办公”正在开发一个面向多平台商家的电商版本，计划于双十一预售前夕发布。 该项目于今年 6 月开始筹备，9 月进入集中开发阶段，由千问办公 CEO 陈宇森统筹，黄丕培（花名灵培）负责，目前参与员工接近百人。 消息人士称，阿里电商团队提供行业技能和商家洞察，千问办公团队提供通用 Agent 能力并负责产品协同。千问办公电商版并非独立 App，用户从网页端或客户端进入后，可从通用版本切换至“电商经营”版本。它是一个拥有独立界面和产品逻辑的 Agent，也是千问办公测试的第一个行业版本。 电商版首页目前设有双十一专区、经营分析、商品管理、素材生产和营销推广 5 个板块，当前形态更接近跨平台的分析和生产工作台，尚不能直接…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-8d45898e533e591d4241",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "published": "2026-10-13T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-13T22:41:44Z",
+      "kind": "rss",
+      "report_type": "report"
     },
     {
       "id": "rss-516d80bea6c609c8a94b",
@@ -607,7 +717,7 @@
       "url": "https://www.ithome.com/1/012/549.htm",
       "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 麒麟 9050 系列支持与新一代自研 CIS、全定制光学系统和专业影像 ISP 深度协同，可从传感器、光学到芯片处理链路进行端到端创新。值得一提的是，华为睿影 Z10 模块相机还采用了海思自研 50Mp 1 英寸 RYYB 传感器。 据IT之家此前报道，华为睿影 Z10 模块相机代号“金刚”，集成红枫等多种传感器，支持与手机 SoC 协同，通过软硬芯 AI 协同 + 智能融合对焦，实现对焦快、准、稳；拥有独立光学防抖模块，与麒麟芯片协同，可实现旗舰级防抖体验。 华为睿影 Z10 模块相机已于 10 月 1 日正式发布，采用 HyperClick…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -629,7 +739,7 @@
       "url": "https://www.ithome.com/1/012/539.htm",
       "summary": "10 月 13 日，据大厂日爆，字节跳动发布全员信，宣布启动 2026 年 10 月期权回购。本次回购价格为税前每股 241.35 美元（IT之家注：现汇率约合 1,618 元人民币），与 9 月初流传价格一致。 参与此次回购的人员包含离职员工，其中近期因业务调整离开的员工，每股回购价格与在职员工相同。 据全员信披露，回购额度按不同授予类型计算：总包类期权每批次归属后可申请回购该批次已归属股数的 50%，之后每满一年增加 10%；绩效类期权中，2026 年 1 月 1 日前授予的每批次归属后可申请回购 100%，2026 年 1 月 1 日及之后授予的可回购 55%，之后每满一年增加 15%；奖金类期权首个归属日后满一年可申请回购 50%，满两年可申请 100%。 全员信同时显示，入职授予的总包类期权需约 5 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -651,7 +761,7 @@
       "url": "https://www.ithome.com/1/012/538.htm",
       "summary": "IT之家 10 月 13 日消息，据蓝鲸新闻今日报道，赛豆科技旗下 AIVA 品牌的第二款车型预计为 SUV，并考虑采用换电方案。 知情人士透露，赛豆科技是否与宁德时代“巧克力换电”合作，目前最终方案尚未确定，“还没定义清楚”。 IT之家注：“巧克力换电”整体解决方案由宁德时代全资子公司时代电服科技有限公司推出。据宁德时代官方数据，截至 2026 年 9 月 29 日，巧克力换电全国累计建成换电站超 2520 座，站点覆盖 31 个省份、200 座城市，近 2 万块全新电池完成入仓部署。 赛豆科技的前身为重庆蓝电科技有限公司，今年 5 月底正式更名。赛力斯 2026 年中期报告显示，赛力斯以注入蓝电汽车业务相关资产的方式成立赛豆科技，并与多家独立第三方投资者及员工持股平台订立增资安排，合计约人民币 66.71 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -924,7 +1034,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2592,7 +2702,7 @@
       "url": "https://www.ifanr.com/1683673",
       "summary": "Mate 系列影像新高峰 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2902,7 +3012,7 @@
       "url": "https://www.ifanr.com/1683596",
       "summary": "iPhone 摄影又双叒叕一次进化 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3012,7 +3122,7 @@
       "url": "https://www.ifanr.com/1683545",
       "summary": "训练团队太单纯，中文互联网水太深 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3303,7 +3413,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3325,7 +3435,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3347,7 +3457,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3391,7 +3501,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3413,7 +3523,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3435,7 +3545,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3457,7 +3567,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3479,7 +3589,7 @@
       "url": "https://openai.com/index/radisson",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3501,7 +3611,7 @@
       "url": "https://openai.com/index/gpt-6-for-everyone",
       "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T17:35:09Z",
+      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     }
