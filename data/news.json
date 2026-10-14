@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-13T22:41:44Z",
-  "last_success_at": "2026-10-13T22:41:44Z",
+  "updated_at": "2026-10-14T04:49:05Z",
+  "last_success_at": "2026-10-14T04:49:05Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 24,
-      "skipped": 36,
-      "last_success_at": "2026-10-13T22:41:44Z",
-      "last_attempt_at": "2026-10-13T22:41:44Z"
+      "accepted": 15,
+      "skipped": 45,
+      "last_success_at": "2026-10-14T04:49:05Z",
+      "last_attempt_at": "2026-10-14T04:49:05Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 4,
       "skipped": 16,
-      "last_success_at": "2026-10-13T22:41:44Z",
-      "last_attempt_at": "2026-10-13T22:41:44Z"
+      "last_success_at": "2026-10-14T04:49:05Z",
+      "last_attempt_at": "2026-10-14T04:49:05Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-13T22:41:44Z",
-      "last_attempt_at": "2026-10-13T22:41:44Z"
+      "last_success_at": "2026-10-14T04:49:05Z",
+      "last_attempt_at": "2026-10-14T04:49:05Z"
     },
     {
       "id": "openai",
@@ -69,10 +69,10 @@
       "publisher_id": "openai",
       "status": "ok",
       "feed_items": 1288,
-      "accepted": 10,
-      "skipped": 1278,
-      "last_success_at": "2026-10-13T22:41:44Z",
-      "last_attempt_at": "2026-10-13T22:41:44Z"
+      "accepted": 9,
+      "skipped": 1279,
+      "last_success_at": "2026-10-14T04:49:05Z",
+      "last_attempt_at": "2026-10-14T04:49:05Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-10-13T22:41:44Z",
-      "last_attempt_at": "2026-10-13T22:41:44Z"
+      "last_success_at": "2026-10-14T04:49:05Z",
+      "last_attempt_at": "2026-10-14T04:49:05Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,388 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-f06b869c4405821c0021",
+      "title": "可降至仅 0.3 尼特，HomeView 刷新苹果设备屏幕最低亮度纪录",
+      "published": "2026-10-14T03:23:13Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/763.htm",
+      "summary": "IT之家 10 月 14 日消息，HomeView 的屏幕最低亮度可降至仅 0.3 尼特，适合放置在床头柜或是黑暗环境使用，这是苹果设备有史以来最低的屏幕亮度。 这款 7 英寸 Liquid 视网膜显示屏可以随环境光线自动调节亮度，明亮环境下最高可达 500 尼特。0.3 尼特的最低亮度，让它在夜间能够大幅调低屏幕亮度。True Tone 技术也会辅助屏幕适配不断变化的环境光。 此前苹果设备屏幕的最低亮度只能做到 1 尼特，Apple Watch Series 9 和 Ultra 2 最先支持，随后也应用到了 iPhone 上。 HomeView 配备不锈钢转轴，用户可以按需倾斜屏幕。设备界面支持距离感应：在远处只展示简洁信息，当用户走近时，则显示更多详细内容。 HomeView 还支持自定义表盘界面，可展示天…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5c836ed6bc60746f542e",
+      "title": "众筹售价 114 元起，小米智能开关 2 Pro 上架",
+      "published": "2026-10-14T02:52:18Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/751.htm",
+      "summary": "IT之家 10 月 14 日消息，小米智能开关 2 Pro 已上架，将于 10 月 19 日开启众筹，众筹价 114 元起。产品定位仍是“把传统灯具接入智能家居”的入门级改造件：采用标准 86 底盒，可原位替换传统开关；官方重点放在单零火兼容、Mesh 2.0 组网、按键可转无线开关，以及对传统灯 / 智能灯的同时适配上。 IT之家注意到，这一代继续走“薄面板”路线。商品页称面板厚度控制在 3.5mm，并加入高强度钢片支架，强调安装后更贴合墙面、降低变形概率。表面为 AG 玻璃，叠加 AF 涂层，主打抗油污、耐指纹、防刮花，提供双色可选。按键部分改用微动开关，官方描述为按压清脆、回弹利落。 安装兼容性方面，其支持“单零火兼容设计”，可根据家中线路条件自动呈现单零火不同操控界面，面向没有预留零线的老房改造场景，官…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-506a9ee9b983fd18bcd9",
+      "title": "企业微信升级 5.0.12 版本内置 WorkBuddy 对话助手，资料、客户信息直接调用",
+      "published": "2026-10-14T02:41:43Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/736.htm",
+      "summary": "IT之家 10 月 14 日消息，企业微信今日官宣与 WorkBuddy 联合发布新版本，将企业微信升级到 5.0.12 最新版本，用户就能在企微里直接把活儿交给 WorkBuddy。 IT之家从官方介绍获悉，用户可以直接在企业微信里和 WorkBuddy 对话，不用在多个软件中横跳，它会结合用户权限范围内的消息、文档、会议等信息理解任务，调用工作台开工，再把结果发回企微。 告别手动搬运和重复教导，企业微信里多年沉淀的工作资料、项目经验、客户信息，都能无缝转化为 WorkBuddy 可直接调用的“生产资料”。 企微管理员可以在后台一键分派名额、把控算力消耗，防止资源滥用浪费。谁能用、用多少、能看什么级别的信息也一清二楚。 如果想用更多能力，用户还能使用企微账号登录 WorkBuddy 企业版客户端。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e28554313789babcedb6",
+      "title": "我建议你马上更新，国行 Apple Watch 终于等来这个「救命功能」！",
+      "published": "2026-10-14T02:31:34Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1684204",
+      "summary": "国行终于上线，喜大普奔！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2620c52591fd76ef5853",
+      "title": "企业微信和 WorkBuddy 组了个「王炸局」，AI 终于不用人伺候了",
+      "published": "2026-10-14T02:30:24Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1684200",
+      "summary": "原地升级的 AI 办公 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8fad5361c7b03db51ded",
+      "title": "豆包手机助手宣布陆续放开第三方应用屏幕自动化操作权限，阿里、腾讯系等 App 明确拒绝",
+      "published": "2026-10-14T02:22:35Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯",
+        "字节跳动",
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/704.htm",
+      "summary": "IT之家 10 月 14 日消息，豆包手机助手今日发文宣布，豆包手机助手推出的《屏幕自动化操作声明协议》（SAEP，Screen Automation Execution Protocol）30 天公示期已结束，现将逐步放开第三方应用的屏幕自动化操作权限。 豆包手机助手表示，公示期结束后，开发者仍可随时声明拒绝，豆包手机助手也会及时关闭相关操作。已明确声明拒绝的应用，智能体将不会对其进行操作。 IT之家附最新拒绝操作应用清单如下：",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-adedb472ea8969230538",
+      "title": "支持 Wi-Fi 6E/7 的苹果 Mac 可设置 HomePod mini 2 为默认扬声器",
+      "published": "2026-10-14T02:09:33Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/698.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果公司昨日（10 月 13 日）发布博文，宣布在所有配备 Wi-Fi 6E 或更高版本系统的 Mac 机型上，HomePod mini 2 可以作为其默认扬声器。 IT之家附上苹果官方博文内容如下： 新款 HomePod mini 可用作 Mac 的扬声器，为电影、游戏、FaceTime 通话和视频通话等各种体验带来丰富饱满的声音。新款 HomePod mini 还提供与 Mac 相得益彰的同系配色，可与之共同打造美观统一的桌面环境。 苹果公司后续补充写道： 所有配备 Wi-Fi 6E 或更高版本的 Mac 电脑都支持此功能，可搭配单部 HomePod 或立体声组合使用。 HomePod mini 2 可用作 Mac 的默认扬声器，为电影、FaceTime 通话等各种体验带来…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-fb8a25018bbea0422db3",
+      "title": "苹果智能家居中枢 HomeView 扬声器细节：桌面版低音表现优于壁挂版",
+      "published": "2026-10-14T01:55:01Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/676.htm",
+      "summary": "IT之家 10 月 14 日消息，科技媒体 9to5Mac 昨日（10 月 13 日）发布博文，报道称苹果首款智能家居中枢 HomeView 的桌面版和壁挂版存在扬声器差异，桌面版还额外配备向下发声低音单元和双力抵消被动辐射器，音效配置显著强于壁挂版。 根据苹果官网规格信息，桌面版和壁挂版 HomeView 均配备 2 个定制全频驱动单元，均支持空间音频，但桌面版额外搭载 1 个定制向下发声低音单元和 2 个双力抵消被动辐射器，可输出更深沉的低音和更清晰的高音。 IT之家注：向下发声低音单元是指朝设备底部或桌面方向发声的低音扬声器，可借助反射面增强低频扩散。而双力抵消被动辐射器不主动发声、但随低音振动增强低频表现的被动部件。双辐射器可抵消部分振动，帮助标准版 HomeView 输出更深沉的低音。 桌面版和壁挂版…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-22063c3f144298eced40",
+      "title": "苹果智能家居中枢 HomeView 支持第三方音频 / 视频应用，不依赖 Face ID 最多识别 6 人",
+      "published": "2026-10-14T01:43:10Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/672.htm",
+      "summary": "IT之家 10 月 14 日消息，科技媒体 MacRumors 今天（10 月 14 日）发布博文，报道称在苹果首款智能家居中枢 HomeView 上，可以通过连接的 iPhone 或 iPad 显示第三方音频与视频应用，并在家庭环境下最多可供 6 人使用 HomeView。 应用方面，苹果智能家居中枢 HomeView 预装 Apple Music、Apple Podcasts、Apple News、日历、FaceTime 与信息等应用，不过 HomeView 并未内置 App Store 应用商店，用户无法在设备端下载应用。 IT之家援引博文介绍，苹果为了扩展家庭场景下的应用生态，采用类似 CarPlay 的运行机制，让 HomeView 支持第三方音频与视频应用。当 HomeView 连接兼容的 iPho…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f97e07a877339408f92c",
+      "title": "埃隆 · 马斯克：内存制造商漫天要价，惟美光保持合理定价",
+      "published": "2026-10-14T01:43:07Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/671.htm",
+      "summary": "IT之家 10 月 14 日消息，Elon Musk（埃隆 · 马斯克）北京时间今日在其拥有的 X 社交平台上发言表示内存制造商当前普遍漫天要价，惟美光保持合理定价，并评论称美光的做法是赢得客户长期忠诚度的明智之举。 IT之家注意到，埃隆 · 马斯克此前已表示，旗下 Tesla（特斯拉）的 AI5 / AI6 芯片将减少配套 DRAM 容量，AI5 的 LPDDR5 从 144GB 降至 96GB、AI6 的 LPDDR6 从 216GB 降至 144GB，均减少 1/3。 参考 https://x.com/elonmusk/status/2110126632572756339",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-718d2a1cdafaccaff20d",
+      "title": "微信上线“绿泡泡短剧”，网友调侃“长大了竟然还是看红果果绿泡泡”",
+      "published": "2026-10-14T01:36:52Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/670.htm",
+      "summary": "IT之家 10 月 14 日消息，据北京日报报道，腾讯近日低调上线“绿泡泡短剧”微信小程序，主打“免费好剧，一点就看”。 有网友调侃：“小时候看红果果绿泡泡，长大了还是红果果绿泡泡。” IT之家测试发现，绿泡泡短剧的界面分为“免费剧场”“刷一刷”和“我的”三部分。“免费剧场”下设“AI 剧”“真人剧”“每日上新”“动漫剧”“本周必看”“百万播放”等栏目。点击“刷一刷”入口，上下滑动即进入沉浸式推荐流。剧集全部免费，但会在剧集之间插播广告。 大家在IT之家微信号回复“微信”两字，即可获取当前最新官方内部版微信下载。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a5f8d39a4ceb2b842d57",
+      "title": "坐无后视镜的特斯拉 Cybercab 心里发慌？未来乘客行程中可随时查看侧、后摄像头画面",
+      "published": "2026-10-14T01:36:05Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/669.htm",
+      "summary": "IT之家 10 月 14 日消息，乘坐特斯拉无人驾驶出租车 Cybercab 的乘客很快将能在行程中的任意时刻查看车辆侧方与后方画面。特斯拉爱好者丹 · 伯克兰（Dan Burkland）在乘坐这款专为自动驾驶打造的机器人出租车之后，于 X 平台称赞了 Cybercab 的软件体验，并提议特斯拉允许乘客“按需调取车尾与后视镜摄像头画面”，他补充说，“这个功能尤其能提升乘坐安全感。” 特斯拉 UI 软件工程师埃文（Evan）简单回复称：“正在开发中。”他并未说明该功能的上线时间。 Cybercab 没有外后视镜，也没有车内后视镜，所以乘客在乘车途中无法看到车辆后方与两侧环境。特斯拉的机器人出租车系统依靠 8 颗外置摄像头采集视频，但乘客目前无法查看这些画面。 现阶段，摄像头画面只会在抵达目的地时才显示。屏幕会弹出…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8db11a7f2b07995c43ca",
+      "title": "小米 REDMI K100 标准版手机入网，支持 100W 快充",
+      "published": "2026-10-14T01:25:57Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/666.htm",
+      "summary": "IT之家 10 月 14 日消息，小米旗下一款型号为 M786BC 的 5G 新机于 10 月 12 日通过 3C 认证，支持 100W 快充。博主 @数码闲聊站 表示这是 REDMI K100 标准版手机。 IT之家注意到，在 8 月 11 日的 REDMI K100 Pro 系列新品发布会上，小米中国区市场部总经理魏思琪公开了 REDMI K100 系列手机的产品矩阵。除了 K100 Pro Max 和 K100 Pro 外，REDMI K100 系列还规划了标准版和一款游戏旗舰。 小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰曾在微博表示，今年很多旗舰产品会用 n-1 代旗舰处理器（如第五代骁龙 8 至尊版、天玑 9500 等），但他相信 REDMI K100 系列手机一定是“最香的”。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3658f897487dc8b9efa0",
+      "title": "不兼容 VESA：苹果壁挂版智能家居中枢 HomeView 需配专属支架",
+      "published": "2026-10-14T01:19:49Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/665.htm",
+      "summary": "IT之家 10 月 14 日消息，科技媒体 AppleInsider 昨日（10 月 13 日）发布博文，报道称由于没有配套的螺丝孔，苹果壁挂版智能家居中枢 HomeView 并不支持 VESA 标准。 IT之家注：VESA 是视频电子标准协会制定的显示设备安装接口标准，常见于显示器、电视及部分平板设备。符合该标准的设备背部设有标准化螺丝孔，可搭配通用壁挂支架、悬臂支架或桌面支架使用。 HomeView 未设置 VESA 螺丝孔，因此不兼容市面上常见的 VESA 壁挂支架。设备背部配备 USB-C 接口和一个小型凸起结构，可能对应苹果指定的专用安装点。 网友使用 Grok 生成的背面图 壁挂版则不附带支架，用户需另行选购苹果提供的壁挂配件，或等待第三方厂商推出兼容产品。目前苹果和施耐德 Schneider Ho…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9c5717517e462119cde4",
+      "title": "苹果请求法院撤销 57 亿美元专利侵权赔偿判决，称该天价赔偿金基于猜测",
+      "published": "2026-10-14T01:06:42Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/660.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果正请求美国联邦法官撤销 Taction 科技提起的专利侵权诉讼中高达 57 亿美元（IT之家注：现汇率约合 382.19 亿元人民币）的判决，该案涉及 iPhone 与 Apple Watch 所搭载的 Taptic Engine 触觉引擎。 数周前，陪审团裁定苹果需支付 57 亿美元，理由是苹果侵犯了 Taction 科技持有的两项专利，这些专利和苹果设备实现触觉反馈的 Taptic Engine 技术相关。 当时苹果就表示，强烈反对陪审团的裁决与赔偿金额，称其“完全没有事实支撑”。 苹果强调，自家技术和 Taction 两项专利所覆盖的技术存在“根本性差异”，并宣布计划提起上诉。 今日，苹果提交了新的动议，请求法院撤销陪审团裁决。苹果主张，Taction 未能提供足够证…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-47aac3517e0570aabe50",
+      "title": "苹果库克现身清华大学：参加经管学院顾问委员会年会，目前担任主席",
+      "published": "2026-10-14T01:06:22Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "库克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/659.htm",
+      "summary": "IT之家 10 月 14 日消息，多位网友 10 月 13 日晒出图片和视频，在清华大学经济管理学院看到了苹果执行董事长蒂姆 · 库克。 还有网友晒图，清华大学当日举办了清华大学经济管理学院顾问委员会 2026 年会议。 IT之家查询清华大学经济管理学院官网获悉，清华大学经济管理学院顾问委员会成立于 2000 年 10 月，委员大多是国际著名跨国公司董事长，也包括世界一流大学商学院院长和诺贝尔经济学奖获得者，现有 69 位委员，共 71 位成员。境外委员中有国际知名企业家 53 位，国际顶尖大学校长两位、海外知名商学院院长 4 位、诺贝尔经济学奖获得者两位。 该顾问委员会的使命是加强学院与外部各界的联系，提升学院在科研和教学方面的整体水平，帮助学院建设成为世界一流的经济管理学院。顾问委员会每年召开一次年会，讨论…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bea825de1c85a138724f",
+      "title": "无 AppleCare 维修约占新机价 93%：苹果公布智能家居中枢 HomeView 维修费用",
+      "published": "2026-10-14T00:54:10Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/657.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果美国官网公布新款 HomeView 智能家居中枢维修价格，在没有购买 AppleCare 保障的情况下，“其他损坏”服务费为 279 美元（IT之家注：现汇率约合 1,871 元人民币），接近 299 美元（现汇率约合 2,005 元人民币）的整机售价；而 AppleCare 用户意外损坏服务费为 39 美元（现汇率约合 261.5 元人民币）。 苹果公司昨日（10 月 13 日）发布 7 英寸智能显示屏 HomeView，目前已在美国等地开放预订，计划于 11 月 13 日开始发货，标准版与壁挂版售价均为 299 美元（现汇率约合 2,005 元人民币）。 维修选项方面，根据苹果服务页面信息，HomeView 目前未按屏幕破裂、扬声器故障等具体问题拆分维修项目，统一归入“…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T04:49:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-5ae56945b8854916a7c1",
       "title": "苹果 watchOS 27.2 开发者预览版 Beta 4 发布",
@@ -387,7 +769,7 @@
       "url": "https://www.ifanr.com/1684070",
       "summary": "从口袋走进客厅 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -475,7 +857,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -695,7 +1077,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1034,7 +1416,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2702,7 +3084,7 @@
       "url": "https://www.ifanr.com/1683673",
       "summary": "Mate 系列影像新高峰 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3413,7 +3795,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3435,7 +3817,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3457,7 +3839,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3501,7 +3883,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3523,7 +3905,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3545,7 +3927,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3567,7 +3949,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3589,29 +3971,7 @@
       "url": "https://openai.com/index/radisson",
       "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
       "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a097ef0d441a7216b7cd",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "published": "2026-10-07T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-13T22:41:44Z",
+      "fetched_at": "2026-10-14T04:49:05Z",
       "kind": "rss",
       "report_type": "report"
     }
