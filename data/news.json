@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-14T11:47:32Z",
-  "last_success_at": "2026-10-14T11:47:32Z",
+  "updated_at": "2026-10-14T17:07:45Z",
+  "last_success_at": "2026-10-14T17:07:45Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 11,
-      "skipped": 49,
-      "last_success_at": "2026-10-14T11:47:32Z",
-      "last_attempt_at": "2026-10-14T11:47:32Z"
+      "accepted": 15,
+      "skipped": 45,
+      "last_success_at": "2026-10-14T17:07:45Z",
+      "last_attempt_at": "2026-10-14T17:07:45Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 3,
-      "skipped": 17,
-      "last_success_at": "2026-10-14T11:47:32Z",
-      "last_attempt_at": "2026-10-14T11:47:32Z"
+      "accepted": 4,
+      "skipped": 16,
+      "last_success_at": "2026-10-14T17:07:45Z",
+      "last_attempt_at": "2026-10-14T17:07:45Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-14T11:47:32Z",
-      "last_attempt_at": "2026-10-14T11:47:32Z"
+      "last_success_at": "2026-10-14T17:07:45Z",
+      "last_attempt_at": "2026-10-14T17:07:45Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1289,
-      "accepted": 9,
-      "skipped": 1280,
-      "last_success_at": "2026-10-14T11:47:32Z",
-      "last_attempt_at": "2026-10-14T11:47:32Z"
+      "feed_items": 1291,
+      "accepted": 10,
+      "skipped": 1281,
+      "last_success_at": "2026-10-14T17:07:45Z",
+      "last_attempt_at": "2026-10-14T17:07:45Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-10-14T11:47:32Z",
-      "last_attempt_at": "2026-10-14T11:47:32Z"
+      "last_success_at": "2026-10-14T17:07:45Z",
+      "last_attempt_at": "2026-10-14T17:07:45Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,336 @@
   ],
   "news": [
     {
+      "id": "rss-bd6d918c3d414d6ec96e",
+      "title": "大疆 Osmo Pocket 4 手持云台相机更新固件，新增鸿蒙 Harmony OS 无感传片",
+      "published": "2026-10-14T14:52:43Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/125.htm",
+      "summary": "IT之家 10 月 14 日消息，大疆 Osmo Pocket 4 手持云台相机现已获得 V01.04.1216 固件更新，主要新增鸿蒙 Harmony OS 无感传片等功能。 IT之家附本次更新详情如下： 新增 HarmonyOS 无感传片功能。新拍摄的照片和视频可在相机关机后自动传输至移动设备相册；新拍摄的照片支持即时传输至移动设备相册。为获得更稳定的使用体验，推荐使用 HarmonyOS 7.0 及以上版本的移动设备与相机配对，并确保相机电量高于 15%。 自定义按键的单击、双击功能新增开启智能跟随选项。 D-Log to Rec.709 及 D-Log to Rec.709 vivid LUT 还原文件更新至 2.0 版本，提升色彩还原的准确度和一致性。 优化部分场景下的交互体验与画质表现。 修复部分已…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6253ba4cee23ce2303c0",
+      "title": "苹果葛越：据估计，全球有超过 10 亿人受到睡眠呼吸暂停的影响",
+      "published": "2026-10-14T14:41:45Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/121.htm",
+      "summary": "IT之家 10 月 14 日消息，Apple 大中华区董事总经理葛越刚刚发文谈及了睡眠暂停这一话题。据估计，全球有超过 10 亿人受到睡眠呼吸暂停的影响，但大多数患者尚未得到诊断。 她提到，Apple Watch 睡眠呼吸暂停迹象提示功能现已推出，可以帮助用户发现中度至重度睡眠呼吸暂停的潜在迹象。 据IT之家今日早些时候报道，凌晨 1 点，苹果宣布在中国大陆推出 Apple Watch“睡眠呼吸暂停通知”功能。升级 iOS 与 watchOS 之后，Apple Watch 用户即可开通睡眠呼吸暂停功能。 据介绍，这项功能此前已通过国家药品监督管理局批准，以“睡眠呼吸暂停迹象提示”应用的二类医疗器械身份进入国内，成为 Apple Watch 上又一个受医疗监管的健康功能。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-cd3b95eed0d09d51b246",
+      "title": "苹果公布 iPhone Duo 折叠屏手机维修预估费用：内屏损坏 7998 元、电池服务 1898 元",
+      "published": "2026-10-14T14:21:15Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/117.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果在 2026 年秋季发布会上发布了旗下首款折叠屏手机 iPhone Duo，将于 10 月 16 日晚 8 点接受预购，10 月 23 日正式发售，售价 15,999 元起。 IT之家注意到，苹果官网现已公布了 iPhoneDuo 手机的维修预估费用。 表层损坏：398 元 背面玻璃损坏：1,598 元 电池服务：1,898 元 后置相机损坏：1,798 元 外屏损坏：3,198 元 外屏和背面玻璃损坏：4,298 元 内屏损坏：7,998 元 其他损坏：11,998 元 而对于购买了 AppleCare+（2 年期 2,599 元）的用户，相关服务费用变为 0 - 628 元。 电池服务：0 元 表层损坏：139 元 背面玻璃损坏：188 元 外屏损坏：188 元 内屏损…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4bef5f2f4a9896c2465a",
+      "title": "京东 7999 元苹果 iPhone Duo 早鸟权益包重新上架，这次能退款",
+      "published": "2026-10-14T14:16:13Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/115.htm",
+      "summary": "IT之家 10 月 14 日消息，京东现已重新上架 7999 元的苹果 iPhone Duo 早鸟权益包，仅 PLUS 会员可买。据官方所述，使用早鸟优先购买资格可选购 iPhone Duo 折叠手机 256GB 和 512GB 版本。 京东京东 iPhone Duo 早鸟先享无忧权益包 7999 元直达链接 IT之家从商品页获悉，这次上架的 iPhone Duo 早鸟权益包支持退款：下单后如未使用权益，24 小时内可联系客服申请退款。 同时，该产品提供 999 元复购补贴、价值 1200 元 90 天免费换新、价值 1800 元 1 年免费维修、价值 999 元 5 年电池免费换新等服务；以及价值 999 元原厂手机壳、价值 329 元原厂充电头、价值 849 元肖特 UTG 玻璃基贴膜等实物。 从商品页面来…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-982d576c12ea85847152",
+      "title": "索尼 PS5《GT 赛车》30 周年纪念 DualSense 手柄控制器公布，小米 Vision GT 领衔六款新车加入游戏",
+      "published": "2026-10-14T14:12:36Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/114.htm",
+      "summary": "IT之家 10 月 14 日消息，索尼互动娱乐与 Polyphony Digital 今日宣布了《GT 赛车 7》Spec IV 更新第一部分 (Part 1) ，同时为庆祝该系列诞生 30 周年将推出 Gran Turismo Limited Edition DualSense 无线控制器。 这款控制器将于 10 月 22 日开启预售、12 月 10 日正式开售，售价为 84.99 美元 / 84.99 欧元 / 74.99 英镑 / 12,480 日元（IT之家注：现汇率约合 528.3 元人民币）。 Spec IV 更新第一部分将面向所有玩家免费推送，加入六款新车、全新 Sportsland Sugo 赛道、全新赛事、Scapes 拍摄地点及多项游戏功能（本次更新于北京时间 10 月 15 日 14:00…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d9765cf6b36884e55fba",
+      "title": "消息称 Nothing 将推两款智能眼镜：音频版、摄像头版，后者支持 ChatGPT",
+      "published": "2026-10-14T14:01:41Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/112.htm",
+      "summary": "IT之家 10 月 14 日消息，据消息人士 Roland Quandt 今日透露，Nothing 将推出两款智能眼镜。其中一款主打音频功能，另一款配备摄像头。 据介绍，Nothing 的音频版智能眼镜支持播放音乐、通话，用户可通过眼镜与手机的语音助手交互。该产品将配备光致变色镜片，可在阳光下自动变暗、室内自动变亮。 同时，该公司还计划推出另一款智能眼镜。该产品将拥有摄像头，支持 ChatGPT、翻译功能。 IT之家了解到，彭博社此前报道称，Nothing 的智能眼镜将通过手机和云端处理 AI 任务，不会配备 AR 显示屏。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-d8b66d18066fe8c06b61",
+      "title": "新老用户均可享：努比亚 NaviX Ultra 手机追加购机权益，加赠半年豆包标准版会员权益",
+      "published": "2026-10-14T13:46:42Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/109.htm",
+      "summary": "IT之家 10 月 14 日消息，在今晚的努比亚 NaviX Ultra 首场进化直播中，努比亚手机官方宣布，将追加 NaviX Ultra 的购机权益，新老用户均可享受。 ▲ IT之家实拍：努比亚 NaviX Ultra 手机 据介绍，双十一（10.15-11.11）新购机的用户晒单即加赠半年豆包标准版会员权益，而首月（9.16-10.14）购机的老用户则可以直接享有这份权益，官方称该权益的价值为 408 元。 据IT之家此前报道，努比亚 NaviX Ultra 手机已于 9 月 16 日正式发布，由中兴通讯努比亚全链路主导打造，豆包手机助手主导 AI 助手体验，可选幻梦、蓝境、黑色、白色四款配色，搭载第五代骁龙 8 至尊版移动平台，国补到手价 5499 元起。 12GB+512GB 售价 5999 元 16…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f87bccbeb5268c95ad40",
+      "title": "（更新：重新上架可退款）京东 7999 元苹果 iPhone Duo 早鸟权益包下架，部分消费者投诉无法退款",
+      "published": "2026-10-14T13:45:41Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/108.htm",
+      "summary": "10 月 14 日 22:16 更新：该商品已重新上架，可退款，详见：京东 7999 元苹果 iPhone Duo 早鸟权益包重新上架，这次能退款 IT之家 10 月 14 日消息，苹果首款折叠屏手机 iPhone Duo 将在 10 月 16 日晚 8 点开启预购，定价 15999 元起。 而京东今天上架了一款“iPhone Duo 早鸟权益包”，价格 7999 元，仅 PLUS 会员可买。该产品提供 999 元复购补贴、90 天免费换新、1 年免费维修、5 年电池免费换新等服务，以及价值 999 元原厂手机壳、价值 329 元原厂充电头、价值 849 元肖特 UTG 玻璃基贴膜等实物。 从商品页面来看，下单这款权益包后，购买 iPhone Duo 仍需支付全款，且权益包不支持退换，仅可在 256G 与 51…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8015c7f46141e82875aa",
+      "title": "消息称苹果 AirPods Pro 4 耳机将提供双版本，金属高端款首发美国",
+      "published": "2026-10-14T13:26:33Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/105.htm",
+      "summary": "IT之家 10 月 14 日消息，X 平台爆料人士 Early Apple 今日发文称，苹果考虑为 AirPods Pro 4 耳机采用双版本策略，类似 AirPods 4 和 AirPods 5 定价结构。其中高端版本将采用金属质感外壳，与历代产品有所不同，且首发仅在美国上市。 作为参考，苹果历代 AirPods Pro 耳机推出时通常仅有一个版本。此外IT之家注意到，AirPods 4 拥有两个版本：不支持主动降噪、定价 999 元；支持主动降噪，1399 元。 而到了 AirPods 5，两个版本都支持主动降噪，区别在于无线充电支持、轻扫调节音量，价格也来到 999 元 / 1149 元。 不过截至目前，上述传闻是否准确还没有定论，我们只能拭目以待。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-6432e6031b85f89529d3",
+      "title": "游戏史首台中国 Vision GT：小米 Vision Gran Turismo 超跑官宣明日入驻 Gran Turismo 7",
+      "published": "2026-10-14T13:16:27Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/101.htm",
+      "summary": "IT之家 10 月 14 日消息，小米汽车官方今日宣布，2026 年 10 月 15 日 14 点，Xiaomi Vision GT 将正式入驻 Gran Turismo 7（跑车浪漫旅 7）。 这也是首台中国 Vision GT。 据介绍，Vision GT 是由 Gran Turismo 系列制作人山内一典发起的一个全球性虚拟概念车合作项目。该项目邀请全球顶尖汽车制造商，抛开一切现实技术、材料等限制，自由设计并打造代表其终极梦想的概念车，专注于对未来驾驶体验的无限畅想。 据IT之家此前报道，今年 2 月，Xiaomi 17 Series 全球发布会在西班牙巴塞罗那举行。在发布会的最后，小米 Vision Gran Turismo 双门超跑（概念车）首发亮相。 小米汽车曾在答网友问（第 212 集）中提到，小…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2fcf67170ae77ceea0f5",
+      "title": "小米用户专属：Goodnotes 宣布可在小米平板限时领永久会员",
+      "published": "2026-10-14T13:10:01Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/098.htm",
+      "summary": "IT之家 10 月 14 日消息，Goodnotes 今日宣布，小米用户可限时领 Goodnotes 永久会员，活动时间为 2026 年 10 月 14 日 - 2026 年 10 月 15 日。 IT之家附领取方式如下： 下载 Goodnotes 极速版 App（注意是“极速版”，不是普通版） 打开 App 后，输入暗号“开 G 啦”（在 App 内的兑换码 / 暗号入口输入） 领取永久会员卡，领取后显示为“特别会员”，包含不限笔记本数、PDF 导入不限大小、全平台 3 本同步等权益 Goodnotes 极速版各会员档位权益如下：",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-33f141b46f29ef3ec297",
+      "title": "苹果 iOS 27.2 Beta 4 系统 Siri AI 新增支持法语、日语、西班牙语等",
+      "published": "2026-10-14T12:53:07Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/094.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果公司今日推送 iOS 27.2 Beta 4 开发者预览版（24B5110a）操作系统，为 Siri AI 新增五种语言。 本次更新后，Siri AI 将支持英语、法语、日语、韩语、葡萄牙语和西班牙语。苹果已在此前确认这些语言扩展支持，具体可用性仍取决于用户所在地区和设备。 IT之家了解到，Siri AI 是苹果最新的人工智能助理，支持 Apple 智能的各种新本领，其调用方法和平时使用 Siri 一样，理解个人情境，执行 App 操作、感知屏幕、理解图像、以及调用广博的世界知识。除此之外还拥有全新的专属 App，具备可跨平台提供视觉智能、集成工具来写作和编辑功能。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-259aca6c1a0b91333a14",
+      "title": "苹果 HomeView 上手汇总：「果家」首秀小惊艳，SiriAI 很聪明",
+      "published": "2026-10-14T12:35:44Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1684341",
+      "summary": "苹果 AI 终于有「家」了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-57c3309db5bedcdec4e0",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "published": "2026-10-14T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-64dd598f972ac2e72452",
+      "title": "绿联 NAS 鸿蒙版客户端开启公测招募，首批仅 500 个名额",
+      "published": "2026-10-14T11:54:52Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/080.htm",
+      "summary": "IT之家 10 月 14 日消息，绿联今日发布公告，宣布开启鸿蒙版 NAS 客户端公测招募，面向使用鸿蒙手机和鸿蒙电脑的绿联 NAS 用户开放首批 500 个体验名额，报名时间为 10 月 14 日至 10 月 19 日。 据介绍，此次公测覆盖手机端和电脑端双端，功能涵盖文件管理、相册备份、影音播放及远程访问等。 绿联表示，报名用户需持有运行 UGOS Pro 系统的绿联 NAS 设备，且鸿蒙设备系统版本需为 6.1.1（24）及以上。 绿联方面要求参与者在公测期间不截图、不剧透、不外传，遇到问题需配合远程排查，包括导出日志、录屏和复现操作。资格审核安排在 10 月 20 日至 22 日，拉群邀请则在 10 月 23 日至 29 日进行。 IT之家注意到，此前绿联 NAS 在鸿蒙生态的适配进展一直受到用户关注。…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-071a3c681d7285f694f5",
       "title": "苹果库克展示爱奇艺适配 iPhone Duo 折叠屏手机效果，盛赞 App 优化做得十分出色",
       "published": "2026-10-14T11:39:06Z",
@@ -191,18 +521,17 @@
       "url": "https://www.ithome.com/1/013/074.htm",
       "summary": "IT之家 10 月 14 日消息，苹果前首席执行官、现苹果公司董事会执行主席蒂姆 · 库克今日到访了爱奇艺总部，爱奇艺 CEO 龚宇亲自进行接待。 IT之家注意到，库克刚刚在微博发文，透露自己提前领略了龚宇和爱奇艺团队为 iPhone Duo 折叠屏手机打造的全新观看体验。 库克盛赞 App 优化做得十分出色，他表示非常期待广大用户能亲身感受这份惊喜。 从库克分享的画面可以看到，爱奇艺在 iPhone Duo 上适配了分屏播放功能，支持在悬停模式下使用立起的屏幕播放视频，平置的屏幕充当播控中心，用于拉进度、控制播放 / 暂停、选择画质、开关弹幕、调节音量 / 亮度、截屏等。",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
     {
       "id": "rss-7f5b323f9b76533ac851",
-      "title": "11.11 今晚 20:00 加码：iPhone 17 Pro Max 折后 7919 元，华为 Pura 80 京东 1 元秒杀",
+      "title": "10:00 蹲点抢：淘宝至高 26888 元 11.11 红包首发，京东猜大小连赢翻翻翻",
       "published": "2026-10-14T10:26:28Z",
-      "company": "华为",
+      "company": "阿里巴巴",
       "companies": [
-        "华为",
-        "苹果"
+        "阿里巴巴"
       ],
       "source": "IT之家",
       "source_id": "ithome",
@@ -212,9 +541,9 @@
       "company_match_basis": "headline",
       "source_type": "media_rss",
       "url": "https://www.ithome.com/1/013/053.htm",
-      "summary": "京东 无门槛红包至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 每日至高可领 200 淘金币：点此抽金币。 今晚 20:00 京东 11.11 狂促再加码，月黑风高夜都是好价：点此前往主会场。 iPhone 17 Pro Max 天猫补贴 200 元 + 淘金币可抵小 200 元，部分地区国补 10%（例如江苏），实付 7919 元即可入手，还可叠加银行卡分期优惠哦。 点击下方卡片领券后 → 点击宝贝右上角“…”→ 点击弹出页面右下角“淘金币”下单即可： 天猫 iPhone 17 Pro Max 256G 仅限橙色限地区 7919 元起直达链接 小编淘金币不太够，实付不到八千元： 京东今晚 20:00 月黑风高皆为好价： 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红…",
+      "summary": "京东 无门槛红包至高 26888 元，每天抽 3 次：点此抽红包。 京东 15 日 10 点额外加抽 1 次猜数字红包，连续猜中大小，红包额度翻倍。 淘宝 无门槛红包至高 26888 元，15 日 10 点首发开抢，全天大加码：点此抽红包。 iPhone 17 Pro Max 天猫补贴 200 元 + 淘金币可抵小 200 元，部分地区国补 10%（例如江苏），实付 7919 元即可入手，还可叠加银行卡分期优惠哦。 点击下方卡片领券后 → 点击宝贝右上角“…”→ 点击弹出页面右下角“淘金币”下单即可： 天猫 iPhone 17 Pro Max 256G 仅限橙色限地区 7919 元起直达链接 小编淘金币不太够，实付不到八千元： 京东 11.11 月黑风高夜 20:00 都是好价：点此前往主会场。 京东 11.1…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -419,6 +748,28 @@
       "report_type": "report"
     },
     {
+      "id": "rss-a8b8c31de898145e14c8",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "published": "2026-10-14T07:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/third-moment-research",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T17:07:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-f06b869c4405821c0021",
       "title": "可降至仅 0.3 尼特，HomeView 刷新苹果设备屏幕最低亮度纪录",
       "published": "2026-10-14T03:23:13Z",
@@ -502,7 +853,7 @@
       "url": "https://www.ifanr.com/1684204",
       "summary": "国行终于上线，喜大普奔！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -524,7 +875,7 @@
       "url": "https://www.ifanr.com/1684200",
       "summary": "原地升级的 AI 办公 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -818,7 +1169,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1038,7 +1389,7 @@
       "url": "https://www.ifanr.com/1684070",
       "summary": "从口袋走进客厅 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1126,7 +1477,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1346,7 +1697,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1685,7 +2036,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4064,7 +4415,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4086,7 +4437,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4108,7 +4459,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4152,7 +4503,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4174,7 +4525,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4196,29 +4547,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-661f64ddb5f472a2675e",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "published": "2026-10-07T12:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-14T11:47:32Z",
+      "fetched_at": "2026-10-14T17:07:45Z",
       "kind": "rss",
       "report_type": "report"
     }
