@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-14T04:49:05Z",
-  "last_success_at": "2026-10-14T04:49:05Z",
+  "updated_at": "2026-10-14T11:47:32Z",
+  "last_success_at": "2026-10-14T11:47:32Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 15,
-      "skipped": 45,
-      "last_success_at": "2026-10-14T04:49:05Z",
-      "last_attempt_at": "2026-10-14T04:49:05Z"
+      "accepted": 11,
+      "skipped": 49,
+      "last_success_at": "2026-10-14T11:47:32Z",
+      "last_attempt_at": "2026-10-14T11:47:32Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 4,
-      "skipped": 16,
-      "last_success_at": "2026-10-14T04:49:05Z",
-      "last_attempt_at": "2026-10-14T04:49:05Z"
+      "accepted": 3,
+      "skipped": 17,
+      "last_success_at": "2026-10-14T11:47:32Z",
+      "last_attempt_at": "2026-10-14T11:47:32Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-14T04:49:05Z",
-      "last_attempt_at": "2026-10-14T04:49:05Z"
+      "last_success_at": "2026-10-14T11:47:32Z",
+      "last_attempt_at": "2026-10-14T11:47:32Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1288,
+      "feed_items": 1289,
       "accepted": 9,
-      "skipped": 1279,
-      "last_success_at": "2026-10-14T04:49:05Z",
-      "last_attempt_at": "2026-10-14T04:49:05Z"
+      "skipped": 1280,
+      "last_success_at": "2026-10-14T11:47:32Z",
+      "last_attempt_at": "2026-10-14T11:47:32Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-10-14T04:49:05Z",
-      "last_attempt_at": "2026-10-14T04:49:05Z"
+      "last_success_at": "2026-10-14T11:47:32Z",
+      "last_attempt_at": "2026-10-14T11:47:32Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,253 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-071a3c681d7285f694f5",
+      "title": "苹果库克展示爱奇艺适配 iPhone Duo 折叠屏手机效果，盛赞 App 优化做得十分出色",
+      "published": "2026-10-14T11:39:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "库克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/074.htm",
+      "summary": "IT之家 10 月 14 日消息，苹果前首席执行官、现苹果公司董事会执行主席蒂姆 · 库克今日到访了爱奇艺总部，爱奇艺 CEO 龚宇亲自进行接待。 IT之家注意到，库克刚刚在微博发文，透露自己提前领略了龚宇和爱奇艺团队为 iPhone Duo 折叠屏手机打造的全新观看体验。 库克盛赞 App 优化做得十分出色，他表示非常期待广大用户能亲身感受这份惊喜。 从库克分享的画面可以看到，爱奇艺在 iPhone Duo 上适配了分屏播放功能，支持在悬停模式下使用立起的屏幕播放视频，平置的屏幕充当播控中心，用于拉进度、控制播放 / 暂停、选择画质、开关弹幕、调节音量 / 亮度、截屏等。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7f5b323f9b76533ac851",
+      "title": "11.11 今晚 20:00 加码：iPhone 17 Pro Max 折后 7919 元，华为 Pura 80 京东 1 元秒杀",
+      "published": "2026-10-14T10:26:28Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/053.htm",
+      "summary": "京东 无门槛红包至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 每日至高可领 200 淘金币：点此抽金币。 今晚 20:00 京东 11.11 狂促再加码，月黑风高夜都是好价：点此前往主会场。 iPhone 17 Pro Max 天猫补贴 200 元 + 淘金币可抵小 200 元，部分地区国补 10%（例如江苏），实付 7919 元即可入手，还可叠加银行卡分期优惠哦。 点击下方卡片领券后 → 点击宝贝右上角“…”→ 点击弹出页面右下角“淘金币”下单即可： 天猫 iPhone 17 Pro Max 256G 仅限橙色限地区 7919 元起直达链接 小编淘金币不太够，实付不到八千元： 京东今晚 20:00 月黑风高皆为好价： 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-31bd93327d113d8d3811",
+      "title": "AI 挖掘的漏洞报告存在误报，华为终端安全奖励计划要求提交前进行人工分析和验证",
+      "published": "2026-10-14T10:09:54Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/049.htm",
+      "summary": "IT之家 10 月 14 日消息，华为安全应急响应中心今日发布华为终端安全奖励计划关于后续漏洞报告处置规则的公告。 官方表示，今年收到了大量利用 AI 工具辅助挖掘的漏洞报告，其中大多数报告都提供了 PoC（IT之家注：概念验证，证明某个安全漏洞确实存在且可被触发的代码、脚本、请求数据包或详细复现步骤），但仍不可避免地存在因 AI“幻觉”误导而产生的误报。 为了合理分配有限的审核资源，确保华为终端安全奖励计划审核团队能聚焦于真实有效的漏洞，同时维护健康有序的社区生态，现提出如下要求： 一、漏洞报告要求 对于 AI 辅助或自动化发现的漏洞报告，提交前务必进行人工分析和验证。我们鼓励白帽子提供完整的 EXP 攻击链验证，请确保报告中提供漏洞实际安全影响的证明，包括但不限于： 动态可执行的完整 PoC； 受影响的产品…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7cdb53c39aa472466030",
+      "title": "特斯拉赛博无人驾驶电动车官宣打卡更多城市，覆盖深圳、宁波、成都等",
+      "published": "2026-10-14T09:53:31Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/022.htm",
+      "summary": "IT之家 10 月 14 日消息，特斯拉官方今日宣布，赛博无人驾驶电动车持续打卡更多城市。 IT之家附特斯拉赛博无人驾驶电动车全国巡展最新日程如下： 苏州 · 万象天地｜10 月 10 日-18 日 深圳 · 卓悦中心｜10 月 16 日-25 日 宁波 · 龙湖宁波鄞州天街｜10 月 22 日-27 日 上海 · 东方明珠塔｜10 月 29 日-11 月 1 日 成都 · 太古里｜10 月 30 日-11 月 8 日 该车型最初于 2024 年 10 月在特斯拉“We, Robot”活动中首次以概念车身份亮相，2026 年 2 月首台量产车在得州超级工厂下线，4 月启动正式量产，从概念发布到量产落地历时约 18 个月。其采用的拆箱式制造工艺通过子组件并行生产、再进行总装的方式，提升了生产效率并优化了制造成本。…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-fbfa8fd34609f698d9d2",
+      "title": "小米汽车推出北方八省冬季服务保障：含免费冬季专项检查、更换冬季胎免工时费等",
+      "published": "2026-10-14T09:50:30Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/015.htm",
+      "summary": "IT之家 10 月 14 日消息，小米汽车今日宣布，正式启动「北方八省冬季服务关怀」专项行动，多项免费服务与保障政策同步上线。 IT之家附服务内容如下： 活动信息 活动时间：2026 年 10 月 15 日至 2027 年 3 月 31 日 适用地区：包括黑龙江、吉林、辽宁、内蒙古、新疆、青海、甘肃、宁夏 六大专属关怀 免费冬季专项检查（限 1 次）：冬季用车，安全先行。活动期间，每车可到店享受一次免费冬季专项检查，包括全车灯光、底盘悬架、轮胎胎压 / 胎纹、制动盘与制动片状态、雨刮功能、蓄电池状态等 15 项车辆安全健康检查。根据车辆情况免费加注防冻玻璃清洗液和防冻液，让爱车从容应对严寒。 免费借用轮胎防滑链（按需）：积雪路面行驶，防滑链是重要保障。活动期间，车主可按需免费借用轮胎防滑链，借用需提前 3 天通…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a5ace02c1e040c1cdde2",
+      "title": "华为详解鸿蒙座舱「智慧场景」：一套条件 + 动作的车载自动化规则，支持触发后执行系列操作",
+      "published": "2026-10-14T09:31:46Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/979.htm",
+      "summary": "IT之家 10 月 14 日消息，华为智能汽车解决方案 BU 官方微博今日发布乾崑答网友问（第 17 期），针对鸿蒙座舱的「智慧场景」是什么、基于 MoLA 2.0 架构的小艺智能体有哪些功能等问题进行了集中解答。 IT之家附本期华为乾崑答网友问重点内容如下： 鸿蒙座舱的「智慧场景」是什么？ 鸿蒙座舱智慧场景，是一套条件 + 动作的车载自动化规则。设定好触发条件后，车辆会自动执行一系列操作，不用手动一步步点控、下发指令。 触发条件：主驾入座、挂入 D 挡、到达设定时间、副驾入座等车载场景。 执行动作：条件满足后，自动执行多项操作，比如播报日程、启动导航、调节空调、播放专属音乐、开启座椅功能等。 典型实用场景： 下班放松场景：上车挂入 D 挡（触发条件），系统自动播放舒缓音乐，同时启动回家导航（执行动作），一键解…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9cdc2f3e5927597e5a80",
+      "title": "曝小米 REDMI K100 标准版手机将堆米系最大电池、Bose 双扬等配置，定位 3500 元档",
+      "published": "2026-10-14T09:12:18Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/972.htm",
+      "summary": "IT之家 10 月 14 日消息，博主 @数码闲聊站 今日发文，爆料了小米 REDMI K100 标准版外围配置信息。他透露，新机堆了米系最大电池、独显芯片、相对大马达、Bose 双扬，属于配置不搞花活的类型。 博主称，目前的行情，骁龙 8 至尊版处理器 + 12GB LPDDR5X + 256GB UFS4.1 这套组合光成本就已经干到了 3000 元。他表示，K100 标准版属于“3.5K 档量大管饱的产品”。 有网友询问为何 REDMI K100 标准版这套组合成本如此高昂？博主解释：“主要还是内存贵，毕竟旗舰也用 LPDDR5X+UFS 4.1。” 还有网友拿 K100 标准版和 K80 Pro 进行了对比，称他们都是 3500 元档位的产品。对此，博主坦言：“内存价格今非昔比，越晚发越贵。拿以前的价格…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8567da0e15873b6c585e",
+      "title": "华为 MateBook 鸿蒙电脑获 HarmonyOS 7.0.0.111 升级，新增 3D 壁纸、多人互助通信共享等功能",
+      "published": "2026-10-14T08:56:31Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/968.htm",
+      "summary": "IT之家 10 月 14 日消息，华为官方今日宣布，MateBook 鸿蒙电脑开启了 HarmonyOS 7.0.0.111SP7 版本升级。此次升级覆盖 MateBook Pro / Pro S / 14 鸿蒙版 / Fold 非凡大师，新增 3D 影像壁纸、多人互助通信共享等功能，同时支持设置个性化字体和图标、外接光驱刻录光盘等功能。 ▲ IT之家图赏：华为 MateBook 14 鸿蒙版实拍 IT之家附版本更新日志如下： 【亮点推荐】 新增 3D 影像壁纸功能，双指滑动锁屏界面，屏幕可实时进行响应，呈现 3D 效果 (设置> 桌面和个性化 > 壁纸 > 3D 影像)。 【图库】 新增“时刻”功能，可根据时间、主题或场景，自动聚合精华照片、视频，生成精彩时刻。 【设置】 支持字体和图标的个性化设置 (设置>…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e25958d0a93506a4d05d",
+      "title": "苹果库克现身爱奇艺总部，爱奇艺 CEO 龚宇亲自接待",
+      "published": "2026-10-14T08:43:17Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "库克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/964.htm",
+      "summary": "IT之家 10 月 14 日消息，据多位博主 / 网友分享，苹果前首席执行官、现苹果公司董事会执行主席蒂姆 · 库克今日到访了爱奇艺总部，爱奇艺 CEO 龚宇亲自进行接待。 从博主 @林十兄 分享的现场照来看，爱奇艺方面准备有其适配苹果设备的历史进程图，可以直观看到爱奇艺适配不同苹果设备的具体型号和年份。该博主还透露，自己去爱奇艺是看 iPhone Duo 的适配成果，预计库克也会在现场观看相关内容。 据IT之家此前报道，蒂姆 · 库克（Tim Cook）本月再度开启了中国之行。根据他微博的分享内容来看，他首站落地广州。昨日，多位网友晒图，称在清华大学经济管理学院看到了蒂姆 · 库克。还有网友透露，清华大学当日举办了清华大学经济管理学院顾问委员会 2026 年会议。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-16ca927575592154f043",
+      "title": "XBOW 借助 GPT-5.6 Sol 模型攻破 Chrome 浏览器安全沙箱，获谷歌 25 万美元奖励",
+      "published": "2026-10-14T08:43:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/963.htm",
+      "summary": "IT之家 10 月 14 日消息，安全研究团队 XBOW 近期发现、构建一套 Chrome 浏览器全链路漏洞利用程序，预计影响全球约 10 亿用户。相关漏洞目前已报告给谷歌且已经修复，谷歌还为团队提供了 25 万美元（IT之家注：现汇率约合 167.6 万元人民币）漏洞赏金。 XBOW 表示，他们借助 OpenAI 的 GPT-5.6 Sol 等模型，以及四名研究人员，仅用 6 天就攻破了 Chrome 漏洞并获得系统完全访问权限。据某业内人士所述，类似的工作如果全部由人类完成，需要大约 6 个月。 该团队在研究漏洞时投入的算力成本约为 4 万美元（现汇率约合 26.8 万元人民币），AI 负责搜索 Chrome 源代码、测试想法、构建概念验证程序，编写漏洞利用程序的初始版本。团队成员则负责制定整体策略、决定研…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-154854f8f6ed12df0d82",
+      "title": "北汽星钽 5X 将于 10 月 21 日开启预售：方盒子造型，搭载华为乾崑智驾",
+      "published": "2026-10-14T07:45:17Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/012/920.htm",
+      "summary": "IT之家 10 月 14 日消息，据易车消息，北汽星钽 5X 将于 10 月 21 日开启预售。 据IT之家此前报道，星钽 5X 已官宣搭载华为乾崑智驾。车身尺寸方面，新车长宽高为 4865（5005）/ 2000 / 1910mm，轴距为 2875mm。 内饰方面，新车采用最新设计语言，中控台搭载 15.6 寸双联屏，并配备大尺寸液晶仪表。此外，新车还搭载三辐式多功能方向盘，中央岛台区域配备了手机无线充电以及双杯架。 动力方面，北汽星钽 5X 提供燃油、插混、纯电三种动力供选择。 插混车型搭载 1.5T 发动机与电机组成的插混系统，配备 50.4kWh 电池组，WLTC 纯电续航 232km； 纯电车型搭载最大功率 227 千瓦电机，配备 81.9kWh 电池组，CLTC 续航 625km； 燃油版车型搭载最…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-f06b869c4405821c0021",
       "title": "可降至仅 0.3 尼特，HomeView 刷新苹果设备屏幕最低亮度纪录",
@@ -255,7 +502,7 @@
       "url": "https://www.ifanr.com/1684204",
       "summary": "国行终于上线，喜大普奔！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +524,7 @@
       "url": "https://www.ifanr.com/1684200",
       "summary": "原地升级的 AI 办公 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -554,6 +801,28 @@
       "report_type": "report"
     },
     {
+      "id": "rss-200a5d3dd39c6bfb7a20",
+      "title": "The EU’s next chapter in AI is agentic",
+      "published": "2026-10-14T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-14T11:47:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-5ae56945b8854916a7c1",
       "title": "苹果 watchOS 27.2 开发者预览版 Beta 4 发布",
       "published": "2026-10-13T22:33:08Z",
@@ -769,7 +1038,7 @@
       "url": "https://www.ifanr.com/1684070",
       "summary": "从口袋走进客厅 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -857,7 +1126,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1077,7 +1346,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1416,7 +1685,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3795,7 +4064,7 @@
       "url": "https://openai.com/index/asana-browser-agent",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3817,7 +4086,7 @@
       "url": "https://openai.com/index/sophos",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3839,7 +4108,7 @@
       "url": "https://openai.com/index/oracle",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3883,7 +4152,7 @@
       "url": "https://openai.com/index/pollo-ai",
       "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3905,7 +4174,7 @@
       "url": "https://openai.com/index/legalon-halves-codex-costs",
       "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3927,7 +4196,7 @@
       "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3949,29 +4218,7 @@
       "url": "https://openai.com/index/teens-learn-and-plan",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4e324623ab7ca6fee0e1",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "published": "2026-10-07T07:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/radisson",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
+      "fetched_at": "2026-10-14T11:47:32Z",
       "kind": "rss",
       "report_type": "report"
     }
