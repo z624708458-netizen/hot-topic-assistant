@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-16T00:22:18Z",
-  "last_success_at": "2026-10-16T00:22:18Z",
+  "updated_at": "2026-10-16T07:07:10Z",
+  "last_success_at": "2026-10-16T07:07:10Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 16,
-      "skipped": 44,
-      "last_success_at": "2026-10-16T00:22:18Z",
-      "last_attempt_at": "2026-10-16T00:22:18Z"
+      "accepted": 15,
+      "skipped": 45,
+      "last_success_at": "2026-10-16T07:07:10Z",
+      "last_attempt_at": "2026-10-16T07:07:10Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-10-16T00:22:18Z",
-      "last_attempt_at": "2026-10-16T00:22:18Z"
+      "accepted": 7,
+      "skipped": 13,
+      "last_success_at": "2026-10-16T07:07:10Z",
+      "last_attempt_at": "2026-10-16T07:07:10Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-16T00:22:18Z",
-      "last_attempt_at": "2026-10-16T00:22:18Z"
+      "last_success_at": "2026-10-16T07:07:10Z",
+      "last_attempt_at": "2026-10-16T07:07:10Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1295,
-      "accepted": 10,
-      "skipped": 1285,
-      "last_success_at": "2026-10-16T00:22:18Z",
-      "last_attempt_at": "2026-10-16T00:22:18Z"
+      "feed_items": 1296,
+      "accepted": 9,
+      "skipped": 1287,
+      "last_success_at": "2026-10-16T07:07:10Z",
+      "last_attempt_at": "2026-10-16T07:07:10Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 2,
-      "skipped": 28,
-      "last_success_at": "2026-10-16T00:22:18Z",
-      "last_attempt_at": "2026-10-16T00:22:18Z"
+      "accepted": 6,
+      "skipped": 24,
+      "last_success_at": "2026-10-16T07:07:10Z",
+      "last_attempt_at": "2026-10-16T07:07:10Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,442 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-268cb23778a8d8f43f06",
+      "title": "华为 nova 12 / 13 系列手机开启鸿蒙 HarmonyOS 7 花粉 Beta 尝鲜升级",
+      "published": "2026-10-16T06:55:35Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/925.htm",
+      "summary": "IT之家 10 月 16 日消息，华为官网最新显示，华为 nova 12 系列、nova 13 系列手机现开启鸿蒙 HarmonyOS 7 花粉 Beta 尝鲜升级。 在 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，鸿蒙 7 操作系统正式发布。新系统主打全新空间美学，搭载 Harmony Intelligence 智能架构，拥有系统智能体小艺，已正式开启公测。 ▲ IT之家图赏：华为 nova 13 系列真机实拍 更智能：HarmonyOS 7 的小艺迎来升级，进化为可养成的系统智能体，可调用 2100+ 系统能力与 500+ 生态 Skills，一句话完成复杂任务。新增的小艺导航条主动服务，越用越懂你。全新上线智能短信与学习模式：重要短信主动提醒、全链路 AI 学习辅助…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-dc1cdc3a61d110fd1f8b",
+      "title": "马斯克回应 Grok Bot 被亚马逊封禁：不让 AI 智能体网购，就考虑自建电商平台",
+      "published": "2026-10-16T06:54:00Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/923.htm",
+      "summary": "IT之家 10 月 16 日消息，科技媒体 notateslaapp 昨日（10 月 15 日）发布博文，报道称有用户反馈亚马逊阻止 Grok Bot 智能体在其平台下单之后，全球首富埃隆 · 马斯克（Elon Musk）表示考虑打造一家与亚马逊竞争的公司。 IT之家注：Grok Bot 是 xAI（现称 SpaceXSI）推出的常驻云端 AI 智能体，能像给同事发消息一样交办任务，它会在自己的云端电脑上操作网页、应用和文件，完成多步骤工作。 该媒体指出特斯拉上月已将 Grok Bot 整合进车辆，用户可在通勤途中把下单任务交给 AI。用户无需亲自打开零售商网站，即可由 AI 完成购物流程，对希望掌控流量、推荐和交易入口的零售平台而言，这直接冲击了其传统电商模式。 据报道，亚马逊不仅限制 Grok Bot 下单…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8a4dac15551db03ab0bd",
+      "title": "苹果和 Meta 和好了，是 AI 逼的",
+      "published": "2026-10-16T06:41:48Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "极客公园",
+      "source_id": "geekpark",
+      "publisher_id": "geekpark",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "http://www.geekpark.net/news/372458",
+      "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ea857187ad12e4e122c4",
+      "title": "马斯克：第二代 Roadster 将是最后一款“人工驾驶”特斯拉车型",
+      "published": "2026-10-16T06:30:42Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/916.htm",
+      "summary": "IT之家 10 月 16 日消息，特斯拉将未来押注于自动驾驶，第二代 Roadster 是一个重要例外。 特斯拉 CEO 埃隆 · 马斯克在发布会上宣布，随着 Model S 和 Model X 即将退出产品阵容，Roadster 最终将成为特斯拉唯一一款专为人工驾驶打造的车型。“从长远来看，这台车实际上将是特斯拉最后一款由人亲自驾驶的汽车…… 既然只有这么一款，那就要把它的性能推向极限，甚至突破极限。” 特斯拉希望将 Roadster 打造成旗下的性能旗舰。新车采用了多项技术，能够在加速、过弯和综合性能方面达到惊人水平。 其中一项是车底的风扇吸附系统，旨在让车辆过弯时额外获得最高 2g 的横向加速度。该系统借鉴了 SpaceX 的技术研发成果，将特斯拉在航空航天领域的部分技术理念应用于汽车。 特斯拉还宣称，R…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d2e4b375f4d1d55dbe4b",
+      "title": "阿里云虚拟数字人启动退市：11 月 30 日停止新购服务，明年 11 月底全面停止",
+      "published": "2026-10-16T06:29:20Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/915.htm",
+      "summary": "IT之家 10 月 16 日消息，阿里云今日宣布，由于产品策略调整，虚拟数字人产品即将退市。 退市的具体安排如下： 2026 年 11 月 30 日，停止新购服务，已购买的客户仍可继续使用至服务到期。 2027 年 5 月 31 日，停止现有客户的续订及版本更新。 2027 年 11 月 30 日，全面停止服务。届时控制台、相关的支持服务和工单服务也将一同下线。此外，阿里云提供的退款服务也将于该日期停止，如果您有退款需求，请在截止日期前尽早联系，安排退款操作。 官方表示，为保障业务连续性，建议用户尽快迁移至替换方案：阿里云云市场数字人产品蚂蚁灵境数字人、相芯数字人、一知智能 AI 直播数字人。 IT之家查询阿里云官网获悉，虚拟数字人是由通义实验室打造的虚拟数字人平台，提供涵盖形象定制、AI 智能驱动到场景化落地…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-eda58fa2f2b46ff8f5a3",
+      "title": "苹果官网线上 Apple Store 开始维护，首款折叠屏 iPhone Duo 今晚 8 点预购",
+      "published": "2026-10-16T06:11:09Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/912.htm",
+      "summary": "IT之家 10 月 16 日消息，苹果首款折叠屏手机 iPhone Duo 今晚 8 点开启预购，目前苹果官网线上 Apple Store 商店已开始维护。 综合IT之家此前报道，苹果在 2026 年秋季发布会上发布了 iPhone Duo，于 10 月 16 日晚 8 点接受预购，10 月 23 日正式发售，定价 15,999 元起。 256GB：15,999 元 512GB：17,999 元 1TB：21,499 元 2TB：26,499 元 iPhone Duo 提供星光白和夜空双色可选，手机内外屏均为 120Hz（ProMotion），支持 Apple Pencil（今年晚些时候），其中内屏尺寸为 7.6 英寸（采用屏下摄像头），外屏 5.4 英寸。 iPhone Duo 前置 12Mp 自拍摄像头，后…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d5d40ebe6c3b3a46db30",
+      "title": "Ternary Bonsai 2 系列 AI 模型登场：苹果 iPhone 18 Pro Max 上本地吞吐最高每秒 120 个词元",
+      "published": "2026-10-16T05:50:56Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/894.htm",
+      "summary": "IT之家 10 月 16 日消息，AI 公司 PrismML 昨日（10 月 15 日）发布博文，宣布推出 Ternary Bonsai 2 系列模型，共有 2B、4B 和 9B 三种规模，目标在手机、PC 以及可穿戴设备上本地运行 AI 智能体，执行推理、识图、调用工具等能力。 Ternary Bonsai 2 系列模型基于阿里的 Qwen 3.5 基座构建，采用“三元”权重表示法，即仅用 -1、0、+1 三种数值编码模型参数。官方称，2B、4B、9B 模型的存储占用分别约为 0.43GB、0.95GB 和 2GB。 在能力上，Bonsai 2 系列强调本地智能体的实用性：遵循指令、完成日常任务、在移动设备上调用工具、避免重复输出等。官方在 19 项基准上测试了智能工具调用、数学、指令遵循、编程、知识与推理、…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2eca5b72d99ac71d5d21",
+      "title": "马斯克回应第二代 Roadster 跑车能否合法上路：能不能要看道路情况",
+      "published": "2026-10-16T05:34:45Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/869.htm",
+      "summary": "IT之家 10 月 16 日消息，汽车媒体 insideevs 今天（10 月 16 日）发布博文，报道称针对车主最关心的第二代 Roadster 跑车能否合法上路，全球首富埃隆 · 马斯克（Elon Musk）并未给出明确答案，并解读认为可能仅适用于私人场地以及部分支持地区。 IT之家今天报道，在美国得克萨斯州韦科市的 SpaceX 工厂内，特斯拉现场演示了第二代 Roadster 跑车，借助压缩空气推进器腾空跃起、越过一排车辆，并完成空中桶滚。 关于第二代 Roadster 跑车合法上路，马斯克先称“这将是一辆真正能上路的汽车”，随后又补充说“我不确定它在所有司法辖区是否合法，但肯定会有人能拥有这样一辆车”。当现场观众追问是否合法上路时，他回应：“取决于你所在的街道。” 技术层面，Roadster 配备可产…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-547d80cd51fef9ac47e9",
+      "title": "特斯拉发布全新 Roadster！不开玩笑，它真的会飞",
+      "published": "2026-10-16T05:33:11Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1684619",
+      "summary": "最后一辆给人开的特斯拉，起飞。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-32581901063a0f8572b0",
+      "title": "小米米家空调速冷静 2027 大 1.5 匹开售：APF 5.3、双排蒸发器，1799 元",
+      "published": "2026-10-16T05:06:44Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/867.htm",
+      "summary": "IT之家 10 月 16 日消息，小米米家空调速冷静 2027 大 1.5 匹现已开售，售价 1799 元，国补到手价 1529.15 元。 这款空调 APF 5.3，配备双排蒸发器，搭载 108mm 贯流风叶，实现 760m³/h 风量；搭载 9.8cc 排量高效压缩机，最大制冷量 5100W，额定制冷量 3510W，最大制热量 6710W，额定制热量 5010W。 这款空调支持内外机自清洁，运行噪音低至 18dB(A)，可实现 30 秒速冷、 60 秒速热，支持 -35℃ 低温制热和 60℃ 高温制冷；提供整机 10 年免费包修。 这款空调支持小米澎湃智联，可接入米家 App 实现全屋智能互联，支持全链路 OTA 升级，搭载米家灵云智控引擎，可主动学习用户使用习惯，提供 122 项远程智能诊断，长期使用可降…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bbdc42e5f2d233c24499",
+      "title": "是的，特斯拉真造了一辆「飞行汽车」！",
+      "published": "2026-10-16T04:52:24Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "极客公园",
+      "source_id": "geekpark",
+      "publisher_id": "geekpark",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "http://www.geekpark.net/news/372447",
+      "summary": "作者｜Wildcard 编辑｜靖宇 我们知道马斯克是个疯子，但没想到他能这么疯。 当地事件 10 月 16 日，在 SpaceX 于州 McGregor/Waco 的火箭试验场上，一段向上垂直弯过来的人造公路上，一台白色跑车以匪夷所思的状态，反重力地贴在了上面的弯上。这还不算完，在这段路上倒车加速后，这台车脱离公路，直接飞到空中，转体并通过推进器稳稳落地。 无法形容的酷｜图片来源：Tesla 新一代的特斯拉 Roderster 跑车，就以这种情况，完成了自己的首秀。 伊隆·马斯克在开场时候告诉现场观众：「我们确定没问题，但要是不巧的话，咱们这里的安全距离可不太够。」 当然，你知道的，一些恐惧，恰恰能激起人们更大的兴奋，老马是懂行的。 测试的 Rocket 版本使用的并非真人驾驶员｜图片来源：Tesla 除了能飞…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report",
+      "alternate_sources": [
+        {
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/372459",
+          "published": "2026-10-16T06:46:47Z"
+        }
+      ]
+    },
+    {
+      "id": "rss-8fbc5248d8d69e87fb2e",
+      "title": "小米 REDMI Turbo 6/Max 手机曝光：内部代号 sofia / denver，有望 2027Q1 发布",
+      "published": "2026-10-16T04:50:06Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/862.htm",
+      "summary": "IT之家 10 月 16 日消息，科技媒体 ximitime 昨日（10 月 15 日）发布博文，通过挖掘 Mi Code 代码，发现了 REDMI Turbo 6 及 REDMI Turbo 6 Max 两款手机的踪迹。 从已曝光的型号看，小米或将继续采用“同一硬件、不同品牌命名”的策略：中国市场的 REDMI Turbo 6 / Turbo 6 Max，预计在海外以 POCO X9 Pro / X9 Pro Max 的名义销售，而印度市场则可能同时出现 REDMI Turbo 与 POCO 两个系列。 在 REDMI Turbo 6 方面，在海外市场名为 POCO X9 Pro，内部代号为 sofia，也称为 Q10，目前已发现 2703BPC40G、2703BRT40I、2703BPC40I、M407CF…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-6008046cf45a3b0e11ba",
+      "title": "腾讯 WorkBuddy 和 CodeBuddy 宣布 DeepSeek 服务故障用户 7 天内积分全额返还，额外送 500 积分",
+      "published": "2026-10-16T04:37:32Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/848.htm",
+      "summary": "IT之家 10 月 16 日消息，DeepSeek 网页 / API 服务 10 月 15 日早间出现服务问题，经过近 5 个小时的修复恢复正常。对此，DeepSeek 官方开放平台宣布补偿所有 API 用户 7 天内的消耗金额。 腾讯 WorkBuddy 和 CodeBuddy 今日跟进发布补偿公告，针对在 WorkBuddy 或 CodeBuddy 国内版端内使用 DeepSeek 模型并受到影响的用户，其在 10 月 8 日 ~14 日期间使用 DeepSeek 模型所消耗的积分将给予全额返还，7 个工作日内到账。 同时，考虑到此次事件对用户造成体验不佳影响，WorkBuddy 和 CodeBuddy 宣布面向国内版全量用户额外赠送 500 积分，均可在 10 月 22 日 24 点前进入“用量管理”页面…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-124efde9e68f161b752d",
+      "title": "卢伟冰晒小米 REDMI K100 真机，称将把旗舰的起点再往上提高一大步",
+      "published": "2026-10-16T04:34:25Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/847.htm",
+      "summary": "IT之家 10 月 16 日消息，今天（16 日）上午，小米集团合伙人、总裁，手机部总裁、小米品牌总经理卢伟冰在B站发视频进一步预告 REDMI K100 标准版新机，并放出了绿色的真机外观。 卢伟冰表示，K100 标准版将全面继承 Pro 系列的全能定义，游戏体验看齐 Pro，电池容量将达到 K 系列的新高度。同时，该机将把旗舰的起点再往上提高一大步。 据IT之家此前报道，博主 @数码闲聊站 此前爆料，小米 REDMI K100 标准版手机堆了米系最大电池、独显芯片、相对大马达、Bose 双扬，属于配置不搞花活的类型。 据悉，小米 REDMI K100 标准版手机搭载骁龙 8 至尊版处理器，属于“3.5K 档量大管饱的产品”。 今天早些时候，小米 @REDMI红米手机 官方宣布，K100 来了，本月见。 全新…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5d21e7dea3f6f47d31ad",
+      "title": "苹果 iPad mini 8 新款保护套曝光，旧壳恐无法通用",
+      "published": "2026-10-16T03:48:02Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/839.htm",
+      "summary": "IT之家 10 月 16 日消息，科技媒体 MacRumors 今天（10 月 16 日）发布博文，报道称苹果在法国监管信息网站上列出了一款尚未发布的 iPad mini 智能保护套，型号为 A3632。 IT之家附上监管页面截图，报道称该型号与现有 iPad mini 及历代 iPad mini 的保护套型号均不匹配，因此该媒体将其视为 iPad mini 8 今年发布的间接证据。 该媒体指出，如果 iPad mini 8 沿用旧款设计，通常情况下苹果不会登记全新保护套，而新保护套通常要适配新机身的尺寸、摄像头开孔、按键位置或磁吸结构，因此暗示 iPad mini 8 会带来设计方面的变化。 相关阅读： 《苹果 iPad Mini 8 前瞻：首次支持 IP 防水，A20 Pro 芯片、OLED 屏、12GB …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-c928f2fa94638f0e3f1b",
+      "title": "英伟达黄仁勋公开反驳 OpenAI 奥尔特曼观点：对 AI 网络安全必须“零容忍”",
+      "published": "2026-10-16T03:20:30Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/808.htm",
+      "summary": "IT之家 10 月 16 日消息，《财富》于 10 月 14 日发布博文，报道称英伟达首席执行官黄仁勋公开表示，人工智能（AI）行业不应容忍任何由 AI 引发的网络安全事件。该观点和 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）观点形成鲜明分歧。 在伦敦接受《财富》采访时，黄仁勋明确表示：“我无法容忍任何网络安全事件的发生。我们根本不应接受这类事件，我们应当竭尽所能去避免它们。”他认为，迄今出现的 AI 相关安全事件，本来都可以通过实施更严格的隔离、管控和持续监测方式避免。 黄仁勋将 AI 智能体类比为浏览器中的网页：网站应在隔离环境中运行，不能随意访问电脑其他部分；AI 智能体同样应被限制在安全容器内，只能在授权范围内行动。他强调，AI 技术“完全处于我们的控制之中”，若企业无法保证实验…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-71c3d9fa3ae542c05223",
+      "title": "小米卢伟冰：REDMI 首款耳夹式耳机 REDMI Clip Neo 与 K100 手机同场发布，本月见",
+      "published": "2026-10-16T03:12:37Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/791.htm",
+      "summary": "IT之家 10 月 16 日消息，小米集团合伙人、总裁，手机部总裁，小米品牌总经理卢伟冰今日宣布，REDMI 首款耳夹式耳机 REDMI Clip Neo 与 K100 同场发布，本月见。 潮流设计，舒适佩戴，澎湃音质，智能体验 你想要的，一次配齐！ 作为参考，据IT之家此前报道，小米首款耳夹式耳机发布于 5 月 21 日，建议零售价 849 元，首销到手价 799 元。单只耳机重量 5.5g，采用仿生曲线设计及高性能记忆钛丝，搭载 11mm 大尺寸驱动单元，采用高亮镜面机身，支持 IP57 级防尘抗水。 京东小米 REDMI Clip Neo 红米耳夹式耳机 1 元预约 1 元直达链接 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 11.11 无门槛红包 面额至高…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-14396525b3afac665c01",
+      "title": "在 OpenAI 擅长的领域打败 OpenAI：微软称自研模型仅凭对方 1/4 算力就超越同类产品",
+      "published": "2026-10-16T02:58:34Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/013/761.htm",
+      "summary": "IT之家 10 月 16 日消息，据《商业内幕》报道，当地时间 15 日，微软 AI 业务 CEO 穆斯塔法 · 苏莱曼在员工大会上称，微软自研的一款 AI 模型性能超过 OpenAI 的同类产品，而且训练成本有望更低。“我们的预训练基础模型性能超过了目前驱动 GPT-5.6 Sol 的模型，训练时使用的算力实际上只有 OpenAI 的四分之一。” 预训练是 AI 模型开发的第一步，模型需要通过海量文本、图像等数据学习其中的规律。由于预训练需要投入大量算力，成本高昂，如果微软能够提高训练效率，就有望大幅降低成本。 当日早些时候，微软发布了这款自研模型，名称为 MAI-Base-2。 苏莱曼透露，微软曾私下将 MAI-Base-2 与多款 OpenAI 模型进行比较，其中包括代号为 Spud、支撑 GPT-5.6…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9c1723245f95d1251329",
+      "title": "腾讯盯上了字节的摇钱树",
+      "published": "2026-10-16T02:15:21Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯",
+        "字节跳动"
+      ],
+      "source": "极客公园",
+      "source_id": "geekpark",
+      "publisher_id": "geekpark",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "http://www.geekpark.net/news/372435",
+      "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-16T07:07:10Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-f5b8e45a11c5fc9ff888",
       "title": "苹果首款触控 MacBook Pro 有望本月登场，配 M7 Pro / Max 的完全体需等 2027 年",
@@ -299,7 +735,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -568,7 +1004,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -680,7 +1116,7 @@
       "url": "https://www.ifanr.com/1684477",
       "summary": "一片树林里分出两条路，而我选了人迹更少的一条，因此走出了这迥异的旅途。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -795,7 +1231,7 @@
       "url": "https://www.ifanr.com/1684431",
       "summary": "终于来了！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1128,6 +1564,28 @@
       "summary": "IT之家 10 月 15 日消息，据彭博社今天（15 日）凌晨报道，巴克莱银行分析师认为，埃隆 · 马斯克旗下的特斯拉与 SpaceX 可能在特斯拉召开年度股东大会前宣布合并。 丹 · 莱维等分析师预计，特斯拉今年的年度股东大会最迟于 12 月 6 日召开。两家公司合并能产生一定的财务协同效应，真正的价值却在于整合双方的 AI 技术，实现垂直整合。 分析师在发给客户的研报中指出，特斯拉与 SpaceX 合并正逐渐成为市场的普遍预期。合并消息预计要到 10 月下旬甚至 11 月初才会公布。然而消息公布得越晚，想在年度股东大会上获得合并批准就越困难。 投资者和分析师一直普遍看好两家公司合并的可能性，尤其是在 SpaceX 今年完成创纪录的 IPO 之后。1 月的消息称，SpaceX 考虑过与特斯拉合并，最终选择收购…",
       "summary_status": "excerpt",
       "fetched_at": "2026-10-15T00:30:49Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-94eadcab22c41e356a1d",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "published": "2026-10-15T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1638,7 +2096,7 @@
       "url": "https://www.ifanr.com/1684341",
       "summary": "苹果 AI 终于有「家」了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1660,7 +2118,7 @@
       "url": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1682,7 +2140,7 @@
       "url": "https://openai.com/index/sentinelone",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1972,7 +2430,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1994,7 +2452,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2082,7 +2540,7 @@
       "url": "https://www.ifanr.com/1684204",
       "summary": "国行终于上线，喜大普奔！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2104,7 +2562,7 @@
       "url": "https://www.ifanr.com/1684200",
       "summary": "原地升级的 AI 办公 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2398,7 +2856,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2618,7 +3076,7 @@
       "url": "https://www.ifanr.com/1684070",
       "summary": "从口袋走进客厅 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2706,7 +3164,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2926,7 +3384,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3265,7 +3723,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T00:22:18Z",
+      "fetched_at": "2026-10-16T07:07:10Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5625,50 +6083,6 @@
       "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
       "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-9bf93d58cc35db9987f8",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "published": "2026-10-09T07:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-570fe3204556675e8dd9",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "published": "2026-10-09T07:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/sophos",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-16T00:22:18Z",
-      "kind": "rss",
-      "report_type": "report"
     }
   ],
   "collection_status": "ok"
