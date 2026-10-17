@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-16T21:04:15Z",
-  "last_success_at": "2026-10-16T21:04:15Z",
+  "updated_at": "2026-10-17T00:26:59Z",
+  "last_success_at": "2026-10-17T00:26:59Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 16,
-      "skipped": 44,
-      "last_success_at": "2026-10-16T21:04:15Z",
-      "last_attempt_at": "2026-10-16T21:04:15Z"
+      "accepted": 14,
+      "skipped": 46,
+      "last_success_at": "2026-10-17T00:26:59Z",
+      "last_attempt_at": "2026-10-17T00:26:59Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-10-16T21:04:15Z",
-      "last_attempt_at": "2026-10-16T21:04:15Z"
+      "accepted": 5,
+      "skipped": 15,
+      "last_success_at": "2026-10-17T00:26:59Z",
+      "last_attempt_at": "2026-10-17T00:26:59Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-16T21:04:15Z",
-      "last_attempt_at": "2026-10-16T21:04:15Z"
+      "last_success_at": "2026-10-17T00:26:59Z",
+      "last_attempt_at": "2026-10-17T00:26:59Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1297,
-      "accepted": 10,
+      "feed_items": 1298,
+      "accepted": 11,
       "skipped": 1287,
-      "last_success_at": "2026-10-16T21:04:15Z",
-      "last_attempt_at": "2026-10-16T21:04:15Z"
+      "last_success_at": "2026-10-17T00:26:59Z",
+      "last_attempt_at": "2026-10-17T00:26:59Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 5,
       "skipped": 25,
-      "last_success_at": "2026-10-16T21:04:15Z",
-      "last_attempt_at": "2026-10-16T21:04:15Z"
+      "last_success_at": "2026-10-17T00:26:59Z",
+      "last_attempt_at": "2026-10-17T00:26:59Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,186 @@
   ],
   "news": [
     {
+      "id": "rss-16bbf9b95316e54fbb44",
+      "title": "OpenAI 升级适用于谷歌 Chrome 浏览器的 ChatGPT 扩展：能直接读取你的标签页",
+      "published": "2026-10-17T00:25:40Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/213.htm",
+      "summary": "IT之家 10 月 17 日消息，当地时间 16 日，OpenAI 宣布升级 Chrome 浏览器的 ChatGPT 扩展程序，支持读取用户打开的标签页，提供更有针对性的回答。 OpenAI 曾推出自有浏览器，随后又于 8 月 9 日停用。此后，公司持续改进 Chrome 扩展程序，增强 ChatGPT 在浏览器中的竞争力。最新一轮升级，进一步扩展了 ChatGPT 在 Chrome 中的功能。 在 ChatGPT 聊天模式下，用户可以让 AI 助手查看 Chrome 中打开的网页，并根据其中的内容回答问题。例如，在三个标签页中分别打开不同的沙发商品页面后，用户可以直接让 ChatGPT 比较尺寸、价格、送货时间和退货政策。 使用面向复杂任务的 ChatGPT Work 时，用户还可以让 AI 助手代发消息、填…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bf44e341e2e976f275b8",
+      "title": "IDC 等机构谈苹果首款折叠 iPhone Duo：首发难抢，今年出货预估 600~700 万台",
+      "published": "2026-10-17T00:18:29Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/203.htm",
+      "summary": "IT之家 10 月 17 日消息，CNBC 今天（10 月 17 日）发布博文，采访了 Counterpoint Research、IDC、TechInsights 以及摩根大通等机构分析师，围绕着苹果公司首款折叠屏手机 iPhone Duo，探讨预测该机未来销量趋势。 Counterpoint 研究总监 Tarun Pathak 预测 iPhone Duo 初期需求会超过供应。Pathak 认为目前苹果 iPhone 的整体存量大约达到 14 亿部，即便是很小比例的早期用户选择尝鲜，短期内预估会有约 600 万潜在买家。 市场研究机构 IDC 认为，折叠屏并非全新技术，安卓厂商已布局多年。苹果的真正机会在于，将这一形态带给其庞大的 iPhone 生态用户。 IDC 预计，今年折叠屏手机约占全球智能手机出货量的…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-22657547029b2d4a2606",
+      "title": "苹果 App Store 新规落地，AI 深度伪造迎来最严审核",
+      "published": "2026-10-16T23:55:28Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/209.htm",
+      "summary": "IT之家 10 月 17 日消息，苹果公司昨日（10 月 16 日）更新《App 审核指南》，在最新修订的 1.2 条款中，加强治理针对 AI 内容创作类应用，将 AI 生成的、未经当事人同意的私密图像明确纳入禁止范围。 IT之家附上修订内容如下： 1.2 用户生成内容 对于包含用户生成内容的 App，有特定的难题需要解决，比如知识产权侵权、未经同意传播私密图像、匿名欺凌等。为了避免滥用，包含用户生成内容或社交网络服务的 App 必须满足以下条件： 采用相应的方法来过滤令人反感的内容，以免这些内容在 App 中发布 制定一个机制，以举报攻击性内容并在出现问题时及时作出回应 若用户发布攻击性内容，可以取消其使用服务的资格 公布联系信息，以便用户与你联系 科技媒体 9to5Mac 指出，此次调整的直接背景，是近一年…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a6de5a8c712ad1f10dd4",
+      "title": "蒲得宇预估 2026 全球手机出货量降 14.2%，苹果成唯一增长的主要手机厂商",
+      "published": "2026-10-16T23:44:12Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/204.htm",
+      "summary": "IT之家 10 月 17 日消息，在本周发布的投资简报中，广发证券分析师蒲得宇（Jeff Pu）和 Henry Huang 预测，苹果将是 2026 年唯一一家出货量实现增长的主要智能手机制造商（增长 4%）。 在两位分析师联合发布的投资简报中，预测 2026 年全球智能手机出货量约 10.8 亿部，同比下降约为 14.2%。而苹果却有望成为唯一实现出货增长的主要厂商，达到 2.57 亿部，预计同比增长 4%，届时其全球出货份额将从 2025 年的 20% 升至 24%，继续领先三星（2.41 亿部）。 投资简报中，预估 2026 年三星和华为品牌手机出货量和 2025 年持平，同比增长均为 0%，而其它手机厂商会出现不同程度的下降情况。 报告认为，内存价格大幅上涨正在挤压整个行业：手机厂商被迫削减出货计划、提…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-73687d14be104a959406",
+      "title": "非磁吸 / 卡扣：苹果 79 美元 iPhone Duo 手机壳靠胶条固定",
+      "published": "2026-10-16T23:26:50Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/199.htm",
+      "summary": "IT之家 10 月 17 日消息，科技媒体 MacRumors 昨日（10 月 16 日）发布博文，报道称适用于苹果首款折叠 iPhone Duo 的官方手机壳（售价为 79 美元（IT之家注：现汇率约合 529.5 元人民币））并未采用常规的卡扣或磁吸方式固定，从曝光的上手图片来看采用胶条方案，引发不少科技用户讨论。 这款保护壳由左右两部分组成，内侧边缘配有黏性胶条。用户需撕掉胶条保护膜，将两半分别贴合到 iPhone Duo 上，并按压确保牢固粘合。它采用聚碳酸酯材质，提供沙色和海军蓝两种配色，主要保护机身背面摄像头凸起区域及外屏四周。 与另一款产品相比，这一设计显得较为特殊。苹果同时销售的 iPhone Duo Folio with Kickstand 售价 129 美元（现汇率约合 864.7 元人民币…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ada2df1185fb5896c9c5",
+      "title": "交货期排到明年，苹果称 iPhone Duo 市场需求异常旺盛",
+      "published": "2026-10-16T23:17:14Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/196.htm",
+      "summary": "IT之家 10 月 17 日消息，北京时间今天（17 日）凌晨，据英国《金融时报》报道，苹果表示，旗下首款折叠屏手机 iPhone Duo 的市场需求异常旺盛。开售仅数小时，苹果官网年内可交付的货源便被抢购一空，交货期延至明年。 目前，苹果官网仍接受 iPhone Duo 订单。报道提到，在系列问世近 20 年后，iPhone 仍是苹果最畅销的产品，贡献了约一半的营收。 苹果今年与其他消费电子厂商一样，深受零部件短缺困扰，存储芯片尤为紧缺。不仅令苹果供货跟不上需求，还迫使公司上调全线产品售价。 苹果原本承诺最迟在 10 月 23 日交付 iPhone Duo，但开放订购仅数小时，官网预计交货时间便推迟至明年 1 月下旬。同时，美国移动运营商接到的新订单也面临交付延期。 苹果声明称：“我们首款折叠屏 iPhone…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d4fd5f4c78754aca7b4c",
+      "title": "马斯克要让 AI 帮企业“砍价”：成本效益有望提升 5% 以上",
+      "published": "2026-10-16T23:01:02Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/192.htm",
+      "summary": "IT之家 10 月 17 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（10 月 17 日）在 X 平台发布推文，表示其团队正投入大量资源，开发面向商业场景的专用议价机器人“Hagglebot”，希望借此提升企业成本效率。 IT之家注：“专用议价机器人”就是为企业谈价格、争取更好交易条件而设计的 AI 软件，并非实体机器人。这里可以把它想象成一个“数字采购谈判员”：企业给它设定预算、可接受价格和交易条件，它再围绕这些目标协助议价。 他预计，该产品有望将企业成本效率提高 5% 甚至更多；若将这一幅度放到全球 GDP 规模上测算，每年节省的成本最高可达 6 万亿美元（现汇率约合 40.22 万亿元人民币）。 此次表态源于他回复一名用户介绍 Grok Bots 的帖子。该用户声称，Haggle Bot …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-9732b2763df5a67ab945",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "published": "2026-10-16T19:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-17T00:26:59Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-9a1586e1938901a54427",
       "title": "库克卸任苹果 CEO 后首次中国之行结束：期待下次再见",
       "published": "2026-10-16T14:56:57Z",
@@ -191,7 +371,7 @@
       "url": "https://www.ithome.com/1/014/183.htm",
       "summary": "IT之家 10 月 16 日消息，苹果董事会执行主席、前 CEO 蒂姆 · 库克今日发文告别本次中国之行，并分享记录视频。值得一提的是，这也是库克卸任苹果 CEO 后首次中国之行。 IT之家附库克原文如下： 感谢中国的每一位朋友，让这次旅程再次充满难忘的回忆。期待下次再见！Many thanks to everyone in China for another unforgettable visit. Until next time! IT之家注意到，库克于 10 月 10 日开启中国之行，首站落地广东广州，现场观看使用苹果 iPhone 18 Pro 手机拍摄非遗咏春作品，记录传统文化。随后，他到访了北京、上海等城市，接受了商务部部长王文涛会见。 此外，他还现身爱奇艺总部，由爱奇艺 CEO 龚宇亲自接待；到访…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -213,7 +393,7 @@
       "url": "https://www.ithome.com/1/014/181.htm",
       "summary": "IT之家 10 月 16 日消息，多年前曾有爆料称，育碧与腾讯旗下天美工作室群曾合作开发一款以中国古代为背景的《刺客信条》系列新作《刺客信条：命运》，但该项目目前已被取消。 昨日，游戏媒体 MP1st 根据参与开发人员的作品集披露了早期玩法视频和截图，展示了潜行刺杀、信仰之跃，以及一款类似天机伞的旋转武器。 这款作品原计划面向 PC 和主机平台，故事设定在公元前 206 年的秦朝。曝光素材大多来自 2025 年 2 月制作的原型，尚未达到完整游戏的开发阶段。 曝光视频展示了一段任务流程：一名女性刺客需要进入一座遭历史人物项羽及其军队围困的宫殿，寻找一件神秘物品。片段还短暂展示了与项羽交战的首领战早期版本。这款游戏保留了《刺客信条》系列常见的潜行暗杀、跑酷和信仰之跃等玩法。 其中一段画面展示了主角使用类似伞的旋转…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -235,7 +415,7 @@
       "url": "https://www.ithome.com/1/014/175.htm",
       "summary": "IT之家 10 月 16 日消息，Phoronix 发现，华为工程师张鹏杰（Pengjie Zhang）昨日向 Linux 内核提交补丁，提议在支持相关功能的前提下默认启用 ACPI CPPC CPUFreq 驱动中的 CPU Boost 模式。为此，该补丁修改了 cppc_cpufreq.c 文件，新增了 20 行代码用于初始化 Boost 默认状态。 ACPI CPPC（Collaborative Processor Performance Control，协作式处理器性能控制）是一套由 ACPI 定义的处理器性能控制机制，操作系统可通过它与平台固件交互，调节处理器性能。 在当前通用 ACPI CPPC 驱动下，当处理器的最高性能等级（Highest Performance）高于标称性能等级（Nominal…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -257,7 +437,7 @@
       "url": "https://www.ithome.com/1/014/157.htm",
       "summary": "IT之家 10 月 16 日消息，苹果首款折叠屏手机 iPhone Duo 于今晚 8 点开启预购，国行定价 15999 元起，大量用户同时涌入苹果官网、Apple Store App 及天猫、京东等渠道，购买页面一度无法正常打开。 京东苹果 iPhone Duo 手机 15999 元起直达链接 参考苹果中国官网，以 512GB 存储机型 / 山东青岛送货为例，目前 iPhone Duo 预计发货时间已排至 1 月 23 日，2026 年的备货已经全部售罄。不过后续随着产能释放，一般发货排期会逐步前移。 IT之家注意到，目前也有不少幸运读者在评论区晒出了自己的首发订单，也有部分读者反馈自己的订单排到了 12 月或明年 1 月后。 另参考苹果 iPhone Duo 维修价格表，该机保外背面玻璃损坏需支付 1598…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -280,7 +460,7 @@
       "url": "https://www.ithome.com/1/014/152.htm",
       "summary": "IT之家 10 月 16 日消息，理想汽车今日发布新一期答网友问，公布了关于 2026 款理想 i6 智能座舱的几大升级。 IT之家从官方介绍获悉，2026 款理想 i6 支持 Apple CarPlay、HUAWEI HiCar 和 ICCOA Carlink。手机连上车机后，原车的车辆控制、驾驶信息、空调、座椅调节等功能照常可用，车机 App 和手机 App 之间也可以丝滑切换。 2026 款理想 i6 的 29 英寸 6K 全景屏，不只是把屏幕做得更大、更清楚，也重新考虑了主驾、副驾和停车休息时，大家各自最常用的体验。 开车时，信息看得更清楚：大卡片式桌面让常用信息一目了然；副驾无人或暂不使用屏幕时，更多显示空间会留给主驾。打开地图后，显示宽度增加近 1.5 倍，让导航视野更加开阔。 副驾看视频时，可以随…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -302,7 +482,7 @@
       "url": "https://www.ithome.com/1/014/146.htm",
       "summary": "IT之家 10 月 16 日消息，中国联通今日宣布，面向 2009 年通过联通渠道购得正版 iPhone 的老用户，开放 iPhone Duo 最高优先级购机资格。 相关用户可通过联通官网（IT之家附地址：https://go.10010.com:32001/apple-booking/）核验身份，结果显示为“尊享挚友”后，可前往就近的联通苹果授权门店优先购机。 2009 年 10 月 30 日晚，中国联通在北京世贸天阶举行 iPhone 入华首销仪式，现场连续销售并为购机用户颁发印有编号的证书。当天到场的大多是办理 186 号段 3G 套餐的用户，这批人也成为中国大陆正品 iPhone 的首批使用者。 根据苹果官方新闻稿，iPhone Duo 是苹果首款可折叠机型，该机展开后为 7.6 英寸超视网膜 XDR …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -324,7 +504,7 @@
       "url": "https://www.ithome.com/1/014/142.htm",
       "summary": "IT之家 10 月 16 日消息，苹果首款折叠屏手机 iPhone Duo 将于今晚 8 点开启预购，国行定价 15999 元起，IT之家整理价格如下： 256GB 版：15999 元 512GB 版：17999 元 1TB 版：21499 元 2TB 版：26499 元 京东苹果 iPhone Duo 手机 15999 元起直达链接 该机提供星光白和夜空双色可选，提供 IP68 认证，屏幕方面采用四边一致的窄边框设计。手机内外屏拥有统一显示比例，手机内外屏均支持 Apple Pencil（今年晚些时候），其中内屏规格为 7.6 英寸 1878 x 2670 分辨率 120Hz（采用屏下摄像头），外屏规格为 5.4 英寸 1398 x 2034 分辨率 120Hz，两块屏幕均支持全天候显示，以及最高 3000 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -657,7 +837,7 @@
       "url": "https://www.ifanr.com/1684640",
       "summary": "家庭正在重新变成科技公司寻找下一个 AI 落点的地方 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -727,7 +907,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -865,7 +1045,7 @@
       "url": "https://www.ifanr.com/1684619",
       "summary": "最后一辆给人开的特斯拉，起飞。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1093,7 +1273,7 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1115,7 +1295,7 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1247,7 +1427,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1516,7 +1696,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1628,7 +1808,7 @@
       "url": "https://www.ifanr.com/1684477",
       "summary": "一片树林里分出两条路，而我选了人迹更少的一条，因此走出了这迥异的旅途。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1743,7 +1923,7 @@
       "url": "https://www.ifanr.com/1684431",
       "summary": "终于来了！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2097,7 +2277,7 @@
       "url": "https://openai.com/index/sullivan-cromwell",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2608,7 +2788,7 @@
       "url": "https://www.ifanr.com/1684341",
       "summary": "苹果 AI 终于有「家」了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2630,7 +2810,7 @@
       "url": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2652,7 +2832,7 @@
       "url": "https://openai.com/index/sentinelone",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2942,7 +3122,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2964,7 +3144,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3368,7 +3548,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3676,7 +3856,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3896,7 +4076,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4235,7 +4415,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T21:04:15Z",
+      "fetched_at": "2026-10-17T00:26:59Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6455,101 +6635,6 @@
       "fetched_at": "2026-10-10T03:38:41Z",
       "kind": "rss",
       "report_type": "unconfirmed",
-      "publisher_id": "ithome"
-    },
-    {
-      "id": "rss-6a1498878af4e6103b96",
-      "title": "2026 年披露的第 4 笔 AI 交易：苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立",
-      "published": "2026-10-10T00:24:22Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/181.htm",
-      "summary": "IT之家 10 月 10 日消息，科技媒体 9to5Mac 昨日（10 月 9 日）发布博文，报道称苹果与 AI 音频初创公司 Huxe 达成人才引进与技术许可协议，这是今年公开披露的第 4 笔苹果 AI 相关交易。 根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件显示，苹果有权向 Huxe 的特定员工发出聘用邀请并录用员工。苹果同时获得 Huxe 知识产权的非独占许可。 这项安排属于“收购式招聘”（acqui-hires），不代表苹果收购 Huxe 公司。协议允许苹果引进部分员工并使用相关知识产权，但交易没有包括购买 Huxe 业务，报道没有披露协议金额。 IT之家查询公开资料，Huxe 由 3 名前 Google NotebookLM 团队成员创立。项目负责人 Raiza Mart…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:38:41Z",
-      "kind": "rss",
-      "report_type": "report",
-      "publisher_id": "ithome"
-    },
-    {
-      "id": "rss-e36d63227f1e2d6f825f",
-      "title": "字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换",
-      "published": "2026-10-10T00:04:25Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/176.htm",
-      "summary": "IT之家 10 月 10 日消息，10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 TRAE，升级为全链路开发平台。 官方表示，过去 TraeWork 更偏向办公、任务和内容生成，TraeCode 更专注专业开发者的编码需求。双端融合后，全新 TRAE 用一个统一入口承接这些连续任务，并支持 Agent 模式与 IDE 模式无缝切换。 Agent 模式 适合从想法拆解到交付结果：新手开发者可以一步步做出 Demo，专业开发者也可以跨项目调度多个 Agent 并行推进任务。 IDE 模式 保留完整智能开发环境，适合单项目深度代码编辑与精细调试。 IT之家获悉，全新 TRAE 覆盖桌面端、Web 端和移动端。用户可以在电脑上启动任务，在移动端查看进…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:38:41Z",
-      "kind": "rss",
-      "report_type": "report",
-      "publisher_id": "ithome"
-    },
-    {
-      "id": "rss-7ef0b50e8ddc114cbe80",
-      "title": "苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布",
-      "published": "2026-10-09T23:58:58Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/174.htm",
-      "summary": "IT之家 10 月 10 日消息，科技媒体 MacRumors 昨日（10 月 9 日）发布博文，报道称苹果更新过时产品名单，新增列出 2017 款初代 Apple TV 4K，恐影响该产品的后续维修，用户可能更难获取维修零件。 IT之家注：根据官方文档表述，过时产品是指 Apple 停止发售之日起已超过 5 年但未满 7 年的产品。 2,017 款 Apple TV 4K 是苹果首款支持 4K 视频的 Apple TV。它搭载 A10X Fusion 芯片，提供 32GB 和 64GB 版本。HDMI 2.0a 支持 4K、杜比视界与 HDR10，设备还配备千兆以太网及双频 802.11ac Wi-Fi。 该机随附第一代 Siri Remote，采用玻璃触控表面，苹果从第二代 Apple TV 4K 起弃用这…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:38:41Z",
-      "kind": "rss",
-      "report_type": "unconfirmed",
-      "publisher_id": "ithome"
-    },
-    {
-      "id": "rss-f70fffb635202490eb80",
-      "title": "苹果 Home 应用新特性：iPhone 靠近门铃，灵动岛预览视频画面",
-      "published": "2026-10-09T23:43:27Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/171.htm",
-      "summary": "IT之家 10 月 10 日消息，消息源 @itspdfu 昨日（10 月 9 日）发布博文，报道称苹果和 LG 合作开发的智能家居配件支持“接近控制”功能。用户将 iPhone 靠近兼容配件后，可通过灵动岛提示打开控制界面，而摄像头和门铃还可直接显示画面。 没有灵动岛功能的 iPhone 或 iPad 将显示 30 秒通知，用户可以在设置完成后，在“家庭”应用中禁用此功能。在后台，该配件会将“apple-deviceid”写入存储在其 NFC 标签上的 Matter 有效载荷中，以便 iOS 在轻触时识别它。它还会广播用于 Apple 近距离控制的低功耗蓝牙广告。 消息称苹果在 iOS 27 系统中就引入了相关代码，IT之家援引博文介绍，在 iOS 27.2 Beta 3 更新中，苹果已上线切换选项，包括以下…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:38:41Z",
-      "kind": "rss",
-      "report_type": "report",
-      "publisher_id": "ithome"
-    },
-    {
-      "id": "rss-0bb8ccea8942bdfbbb31",
-      "title": "古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名",
-      "published": "2026-10-09T23:28:03Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/169.htm",
-      "summary": "IT之家 10 月 10 日消息，北京时间今天（10 日）清晨，彭博社记者马克 · 古尔曼在 X 平台发文爆料称，苹果首款折叠屏手机 iPhone Duo 将拥有一项有趣的小功能：首次开机时，会显示用户名和问候语（形式类似“Hello, Mark”)。该功能将由苹果零售店内的系统提供，可在设备启动时自定义买家的名字。 不过古尔曼同时指出，该功能将是美国 iPhone Duo 限定，且仅支持英语、西班牙语。 综合IT之家此前报道，早在 2023 年 10 月，古尔曼就首次披露了这套系统的存在，随后外媒 9to5Mac 也发现了 iOS 17.2 系统中与此功能相关的代码。Presto 系统的核心是一个平板状的设备，零售店员工可以将装有 iPhone 的包装盒放置其上。该系统能够无线启动 iPhone，更新其软件，…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T03:32:27Z",
-      "kind": "rss",
-      "report_type": "report",
       "publisher_id": "ithome"
     }
   ],
