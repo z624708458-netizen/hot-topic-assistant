@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-17T06:54:19Z",
-  "last_success_at": "2026-10-17T06:54:19Z",
+  "updated_at": "2026-10-17T12:10:22Z",
+  "last_success_at": "2026-10-17T12:10:22Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 7,
-      "skipped": 53,
-      "last_success_at": "2026-10-17T06:54:19Z",
-      "last_attempt_at": "2026-10-17T06:54:19Z"
+      "accepted": 10,
+      "skipped": 50,
+      "last_success_at": "2026-10-17T12:10:22Z",
+      "last_attempt_at": "2026-10-17T12:10:22Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 5,
       "skipped": 15,
-      "last_success_at": "2026-10-17T06:54:19Z",
-      "last_attempt_at": "2026-10-17T06:54:19Z"
+      "last_success_at": "2026-10-17T12:10:22Z",
+      "last_attempt_at": "2026-10-17T12:10:22Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-17T06:54:19Z",
-      "last_attempt_at": "2026-10-17T06:54:19Z"
+      "last_success_at": "2026-10-17T12:10:22Z",
+      "last_attempt_at": "2026-10-17T12:10:22Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1299,
       "accepted": 12,
       "skipped": 1287,
-      "last_success_at": "2026-10-17T06:54:19Z",
-      "last_attempt_at": "2026-10-17T06:54:19Z"
+      "last_success_at": "2026-10-17T12:10:22Z",
+      "last_attempt_at": "2026-10-17T12:10:22Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 6,
       "skipped": 24,
-      "last_success_at": "2026-10-17T06:54:19Z",
-      "last_attempt_at": "2026-10-17T06:54:19Z"
+      "last_success_at": "2026-10-17T12:10:22Z",
+      "last_attempt_at": "2026-10-17T12:10:22Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,228 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-5e787babaa8c36e4cf09",
+      "title": "OpenAI 纳维-斯托克斯方程证明方法被指与官方叙事不符：学界验证尚需数年，智能体贡献同样成谜",
+      "published": "2026-10-17T10:31:25Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/370.htm",
+      "summary": "IT之家 10 月 17 日消息，OpenAI 今年 9 月公布了一份长达 166 页的纳维-斯托克斯方程（Navier–Stokes equations）相关证明，称其内部 AI 系统在约 88 小时内完成了对这一千禧年难题的求解。 不过，随着数学界进一步审查相关工作，研究人员开始对证明采用的方法、与已有研究的关系，以及大规模 AI 智能体究竟发挥了多大作用提出质疑。 数学家贡萨洛 · 曹-拉博拉（Gonzalo Cao-Labora）指出，OpenAI 可能自己都没看懂就急着发论文了。 他表示，OpenAI 的证明细节与西班牙数学家迭戈 · 科尔多瓦（Diego Córdoba）和路易斯 · 马丁内斯-佐罗亚（Luis Martínez-Zoroa）此前提出的方法呈现出不同的路线，二者的相似之处可能更多停留…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bcf717c70e63b2a12c42",
+      "title": "特斯拉司机自称开启 FSD 后睡着，车辆冲入封闭车道撞飞警车致加州两名巡警重伤",
+      "published": "2026-10-17T09:43:25Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/348.htm",
+      "summary": "IT之家 10 月 17 日消息，加州公路巡逻队（CHP）当地时间 10 月 15 日公布了一段行车记录仪视频。视频显示，一辆特斯拉在 80 号州际公路上高速驶入事故封闭区域，撞上停靠的巡逻车，导致车内两名警员受伤。 这名 22 岁的萨克拉门托男性驾驶员告诉调查人员，事发时自己刚好已经睡着，车辆处于 Full Self-Driving（FSD）驾驶状态。 公开报道显示，此次事故发生于当地时间 10 月 13 日深夜，地点位于加州索拉诺县费尔菲尔德附近、Air Base Parkway 出口以西的 80 号州际公路东向车道。 此前约一小时，同一路段发生了一起致命交通事故：一名 19 岁男子驾驶一辆 2007 款本田思域，因不明原因失控，随后与一辆 2017 款雪佛兰太浩（Tahoe）相撞。该男子被送往医院后不治而…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c3e83f0f852c43b1d0ec",
+      "title": "特斯拉美国 Model Y 穿越高速隔离带致人死亡，驾驶辅助系统处于启用状态",
+      "published": "2026-10-17T09:24:14Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/346.htm",
+      "summary": "IT之家 10 月 17 日消息，据 Electrek 周四报道，特斯拉向美国国家公路交通安全管理局（NHTSA）提交的事故报告显示，今年 8 月的一起碰撞事故发生前，车辆的驾驶辅助系统处于已启用状态。 据新泽西州警方通报，当地时间 2026 年 8 月 22 日上午 8 时 31 分左右，一辆特斯拉 Model Y 沿新泽西州坎伯兰县文兰市的 55 号公路向南行驶时失控，在约 34.6 英里（IT之家注：约 55.7 公里）路段驶离道路左侧，穿过中央草坪隔离带并撞上树木，随后进入对向车道，与一辆迎面驶来的雪佛兰 SUV 相撞，导致 SUV 驾驶员、68 岁的菲利普 · 伊斯特曼（Phillip Eastman）死亡，特斯拉驾驶员和雪佛兰车上一名乘客受伤。 公开报道显示，伊斯特曼来自宾夕法尼亚州斯普林菲尔德，生…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-de66c93b480bb58da342",
+      "title": "2026 年度天猫双十一活动将于 10 月 20 日开启，88VIP 用户可自选消费券面额",
+      "published": "2026-10-17T09:10:45Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/341.htm",
+      "summary": "IT之家 10 月 17 日消息，天猫宣布 2026 年度双十一活动将于 10 月 20 日晚 8 点开启，第一波 88VIP 消费券现已发放，共 7 张，折扣力度比去年更大，达到 8.7 折起，10 月 20 日晚 8 点开卖后就可以使用。 今年，88VIP 用户可以自选消费券的面额，例如，“满 480 减 60”点击“膨胀”后，可在“满 600 减 75”“满 800 减 100”“满 1,000 减 125”中任选。网友总结：先看自己的购物车金额多少，再选多大的券。 天猫同时表示，今年苹果 iPhone 18 Pro 系列手机将参与天猫双 11，用户现可提前领 300 元苹果惊喜券，10 月 20 号晚 8 点叠加以旧换新抢地方补贴 500 元，到手价 9,199 元起。 同时，AI 服务也首次加入双 1…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-42408e4ea2bdc545b91f",
+      "title": "微信鸿蒙版 App 测试接入 A2A 能力，支持语音唤醒小艺发送消息",
+      "published": "2026-10-17T08:33:54Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/331.htm",
+      "summary": "IT之家 10 月 17 日消息，据IT之家网友反馈，微信鸿蒙版 App 现已支持使用小艺发送微信，但只能发送给联系人，暂不支持群聊。 另据博主 @伤心萨摩耶Ciuciu 透露，鸿蒙微信移动版 8.0.22 更新接入 A2A 能力，支持语音唤醒小艺发送指令操作微信，当前支持向好友发送文字消息（不支持发送表情）、发起语音或视频通话，暂不支持操作微信向群聊发送消息或发起通话，暂不支持操作微信分身，小艺版本需更新至 11.7.8.303（感谢陆提供的情报）。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b16305ff8ba6d54a8d56",
+      "title": "制造商 Elevation Lab 宣布下架苹果 AirTag 消音工具，公开致歉承认“产品可能被用于秘密跟踪他人”",
+      "published": "2026-10-17T08:13:55Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/327.htm",
+      "summary": "IT之家 10 月 17 日消息，据外媒 Appleinsider 报道，配件厂商 Elevation Lab 发布公告，宣布下架旗下 AirTag 消音工具 AirTag Silencer，并就产品可能被用于跟踪他人一事公开道歉。 据介绍，AirTag Silencer 旨在让用户永久摧毁苹果 AirTag 内置的扬声器，使其不会发出任何声音。使用时，用户需要先取出 AirTag 电池，再将追踪器放入专用固定模具，随后用锤子将一根销钉直接打入扬声器。Elevation Lab 声称，这种方式可以让扬声器彻底失效，同时不损坏追踪器的其他组件。 Elevation Lab 在推出这款工具时，声称这是为了防止窃贼在失窃物品被找回之前发现并拆除 AirTag，例如用户可以将消音后的 AirTag 放在自行车上，以降低…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a0f291d96b0eb22080ac",
+      "title": "华为 WATCH Ultimate 2 非凡探索等开启鸿蒙 HarmonyOS 7 升级：系统界面全面焕新，新增高尿酸风险评估研究",
+      "published": "2026-10-17T07:54:00Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/321.htm",
+      "summary": "IT之家 10 月 17 日消息，近日，华为 WATCH Ultimate 2 非凡探索 / HUAWEI WATCH ULTIMATE DESIGN 非凡大师紫金款 / 非凡大师尊界定制款开启鸿蒙 HarmonyOS 7 版本升级，带来更精致的界面交互、更进阶的运动体验，还有更多便捷、好用的新功能。 IT之家整理主要内容如下： “健康摘要”升级为“健康洞察”应用，新增身体状态准备度，评估当日状态。 华为创新研究应用新增高尿酸风险评估研究，可在手表侧直接启动高尿酸风险评估。 微体检报告总览页布局更新，顶部类别图标支持一键直达测量结果，报告详情根据类别清晰分类。 系统界面全面焕新，表盘与多任务列表等融入灵动光影，锻炼与睡眠等页面强化生命律动视觉。 新增万象模块表盘，支持自由搭配喝水、萌宠天气、熊猫敲木鱼等组件。 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f4ba5fd9ba706f2dfb4f",
+      "title": "腾讯 WorkBuddy 已提前适配苹果首款折叠屏手机 iPhone Duo",
+      "published": "2026-10-17T07:12:49Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/306.htm",
+      "summary": "IT之家 10 月 17 日消息，腾讯 WorkBuddy 昨日宣布，已提前适配苹果 iPhone Duo 折叠屏手机，并公布 6 种打开方式。 展开内屏：工作台一屏展开，手机体量，桌面级效率 外屏单手：一句话派活，后台自动跑 内屏分栏：左边跟 AI 聊需求，右边报告直接成稿 跨 App 拖拽：资料直接拖进对话，AI 立刻接手 半折悬停：上屏呈现下屏操控，边录边转不遗漏 帐篷模式：桌面一支，解放双手看产出 IT之家注意到，苹果首款折叠屏手机 iPhone Duo 于 10 月 16 日开启预购，国行定价 15999 元起。手机内屏规格为 7.6 英寸 1878 x 2670 分辨率 120Hz（采用屏下摄像头），外屏规格为 5.4 英寸 1398 x 2034 分辨率 120Hz，两块屏幕均支持全天候显示，以及…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-440408f7010d0670c568",
+      "title": "美国运营商 Verizon 将对苹果 iOS 27 新增的 iPhone 通话接力功能收取每月 10 美元费用",
+      "published": "2026-10-17T07:10:59Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/305.htm",
+      "summary": "IT之家 10 月 17 日消息，美国运营商 Verizon 宣布，将为苹果 iOS 27 新增的 iPhone 通话接力（iPhone Handoff）功能收取每月 10 美元（IT之家注：现汇率约合 67 元人民币）的费用。该功能允许用户在两台 iPhone 之间共享同一个电话号码，并根据需要切换当前使用的设备。 Verizon 表示，iPhone 通话接力兼容 iPhone Duo 和 iPhone 18 Pro 系列手机，用户可以在两台兼容 iPhone 之间随时切换，无需为两台设备分别使用不同的电话号码。不过，同一号码在同一时间只能在一台 iPhone 上处于启用状态。 目前，美国另一家主要运营商 T-Mobile 已经提供 iPhone Handoff 服务，月费为 5 美元（现汇率约合 33.5 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-cc244d1c8e6973c47493",
+      "title": "OpenAI“窃听”案迎来新进展：当事沙特工程师寻求保释，否认潜逃意图",
+      "published": "2026-10-17T07:07:38Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/303.htm",
+      "summary": "IT之家 10 月 17 日消息，据彭博社北京时间今天（17 日）午间报道，因涉嫌在 OpenAI 办公室使用秘密录音设备而遭起诉的沙特籍工程师阿卜杜勒拉赫曼 · 阿尔福赞申请保释，并否认自己购买返回沙特的单程机票是为了逃避美国司法追究。 当地时间 16 日，阿尔福赞的律师晚间向法院提交文件，称他早在受到调查前就安排了回国行程，并请求法院批准保释。 律师解释道：“阿尔福赞多年来都是先买单程机票，再订返程票。他一直从事科技行业的工作，经常临时接到会议、项目和其他工作安排，所以习惯了买单程机票。这样比临时改签更划算，而且他经常需要提前返程。” 美国司法部称，阿尔福赞于 10 月 9 日被捕。此前一个多星期，OpenAI 员工在一间高管会议室的电视机后方发现了秘密安装的录音设备。OpenAI 称，公司在阿尔福赞被捕当…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-17T12:10:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-17dc39e6d8bf7bf46872",
       "title": "华为星芒子品牌手机规划曝光：主攻线上相对有性价比，规划新机中含主动散热版本",
@@ -299,7 +521,7 @@
       "url": "http://www.geekpark.net/news/372509",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -525,7 +747,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1015,7 +1237,7 @@
       "url": "https://www.ifanr.com/1684640",
       "summary": "家庭正在重新变成科技公司寻找下一个 AI 落点的地方 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1085,7 +1307,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1223,7 +1445,7 @@
       "url": "https://www.ifanr.com/1684619",
       "summary": "最后一辆给人开的特斯拉，起飞。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1451,7 +1673,7 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1473,7 +1695,7 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1495,7 +1717,7 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1627,7 +1849,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1896,7 +2118,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2008,7 +2230,7 @@
       "url": "https://www.ifanr.com/1684477",
       "summary": "一片树林里分出两条路，而我选了人迹更少的一条，因此走出了这迥异的旅途。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2123,7 +2345,7 @@
       "url": "https://www.ifanr.com/1684431",
       "summary": "终于来了！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2477,7 +2699,7 @@
       "url": "https://openai.com/index/sullivan-cromwell",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2988,7 +3210,7 @@
       "url": "https://www.ifanr.com/1684341",
       "summary": "苹果 AI 终于有「家」了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3010,7 +3232,7 @@
       "url": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3032,7 +3254,7 @@
       "url": "https://openai.com/index/sentinelone",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3322,7 +3544,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3344,7 +3566,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3748,7 +3970,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4056,7 +4278,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4276,7 +4498,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4615,7 +4837,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-17T06:54:19Z",
+      "fetched_at": "2026-10-17T12:10:22Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6172,228 +6394,6 @@
       "summary": "IT之家 10 月 10 日消息，小米金沙江充电宝超薄磁吸 10000 45W 今日上架小米有品，售价 399 元（点击前往）。 IT之家从商品页面获悉，新品搭载小米金沙江硅碳负极电池，能量密度高达 840Wh/L，拥有 16% 旗舰级含硅量，通过新国标认证。依托于旗舰同源小米金沙江电池先进技术，精密堆叠工艺再升级，将两块 5000mAh 电池内置于纤薄机身，重量约 195g 。 集成专属智能快充芯片，广泛兼容 BC、QC、PD 等多种主流充电协议。连接充电设备时可自动识别所需充电电流，智能匹配充电功率，快充更稳更安全。新品支持 20W Max 磁吸无线快充、45W Max 有线快充、有线无线双设备同时充、30W Max 快速自充回血。 新品内置 NTC 智能控温芯片，实时精准监测电芯温度，搭配大面积石墨烯散热…",
       "summary_status": "excerpt",
       "fetched_at": "2026-10-11T00:59:37Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-340f6f071fd2c40979db",
-      "title": "库克卸任 CEO 后首次来华：首站落地广州，观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品",
-      "published": "2026-10-10T12:08:39Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "库克"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/501.htm",
-      "summary": "IT之家 10 月 10 日消息，综合部分博主透露，苹果前首席执行官、现苹果公司董事会执行主席蒂姆 · 库克（Tim Cook）再度开启中国之行。 IT之家注意到，目前蒂姆 · 库克首站落地广东广州，现场观看使用苹果 iPhone 18 Pro 手机拍摄非遗咏春作品，记录传统文化。 IT之家随附官方照片如下： 如今约翰 · 特努斯（John Ternus）已接替库克出任苹果 CEO，蒂姆 · 库克卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2650b26341a51e412748",
-      "title": "苹果 iPhone 11 Pro / Max 手机被列入官网“过时”产品",
-      "published": "2026-10-10T11:13:50Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/493.htm",
-      "summary": "IT之家 10 月 10 日消息，苹果现已将 iPhone 11 Pro / Max 手机加入官网“过时（Vintage）”产品清单中（IT 之家注：根据官方文档表述，过时产品是指 Apple 停止发售之日起已超过 5 年但未满 7 年的产品）。 公开信息显示，iPhone 11 Pro 与 iPhone 11 Pro Max 是苹果首次以“Pro”命名的旗舰手机，于 2019 年 9 月发布，两款机型分别配备 5.8 英寸 / 6.5 英寸 OLED 面板，背部引入了三摄系统，是 iPhone 中最后一批 4G 机型（注：iPhone SE 2 于 2020 年 4 月发布，也仅支持 4G 通信），从 iPhone 12 系列手机开始（2020 年 10 月发布），苹果为系列手机引入了 5G 通信。 ▲ IT…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T00:59:37Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-da036927b62e96f2f348",
-      "title": "百度网盘 11.11 年内探底：SVIP 超级会员 13 元 / 月、157 元 / 年",
-      "published": "2026-10-10T10:43:12Z",
-      "company": "百度",
-      "companies": [
-        "百度"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/479.htm",
-      "summary": "百度网盘超级会员年卡官方售价 298 元，今日预售开启，直降至 196 元年内好价，限时加赠 3 个月。 到手共 15 个月，折合 13.1 元 / 月、157 元 / 年： 京东百度网盘 SVIP 超级会员 15 月卡券后 196 元领 10 元券 如果需要联合会员，还有以下组合也在大促中： 京东百度网盘 SVIP 超级会员年卡加赠B站季卡 + 网易云音乐月卡券后 176 元领 10 元券 注：现购买权益时长 + 已有权益时长，不能超过 5 年，否则会充值失败。 购买前需在百度网盘开启手机号登录再下单。 百度网盘 SVIP 特权： 京东百度网盘 SVIP 超级会员 15 月卡券后 196 元领 10 元券",
-      "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-0c281db19d41b958aa14",
-      "title": "小米充电宝伸缩线 10000 55W 上架：2C + 1A、自带屏设计，299 元",
-      "published": "2026-10-10T10:37:56Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/478.htm",
-      "summary": "IT之家 10 月 10 日消息，小米现已在有品上架“小米充电宝伸缩线 10000 55W”（点此访问），该机为 2C + 1A 设计，内置 10000mAh 电芯，定价为 299 元。 该产品尺寸为 90x50x41mm，提供三种配色可选，整体造型圆润，正面配备一块隐藏式彩屏，顶部提供一根 70cm USB-C 55W 伸缩线，底部匹配 1 个 USB-C 55W 接口和 1 个 USB-A 22.5W 接口。 IT之家附产品参数：",
-      "summary_status": "source",
-      "fetched_at": "2026-10-11T00:59:37Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a4da073305456bb29011",
-      "title": "华为 Mate 90 Pro Max 深度体验：Mate 系列新高峰",
-      "published": "2026-10-10T10:30:03Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1683673",
-      "summary": "Mate 系列影像新高峰 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-14T04:49:05Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ef0a60f3d70cb32cb049",
-      "title": "特斯拉在美最新 Model 3 / Y 车型已支持 V2H 家庭备用供电",
-      "published": "2026-10-10T09:57:13Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/465.htm",
-      "summary": "IT之家 10 月 10 日消息，Tesla（特斯拉）官方近日宣布，本月 1 日起在美国和波多黎各市场订购的新款 Model 3 / Y 已支持 Powershare 家庭备用供电功能。 与 Cybertruck 不同的是，Model 3 / Y 的 V2H 必须搭配特斯拉 Powerwall 3 家庭储能电池方能使用。这两款车型自身储存的电力足以满足一般家庭超 2 天的使用需求，减少各类断电事故对日常生活的影响。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-10T21:40:42Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8271efcf0d4a6f5dad42",
-      "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill",
-      "published": "2026-10-10T08:52:04Z",
-      "company": "腾讯",
-      "companies": [
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/432.htm",
-      "summary": "IT之家 10 月 10 日消息，今日，腾讯云宣布开源内部自用 TeamAI。这是一款基于 Git 的团队 AI 协作工具。它把团队使用的 Skill、工作规范、工具配置和项目知识统一放进 Git 仓库，像管理代码一样进行评审、更新和版本管理，再同步到成员各自使用的 Agent 中，实现一人配置，全员复用。 IT之家注意到，目前，TeamAI 已适配 WorkBuddy、CodeBuddy、Claude Code、Codex、Cursor 等 16 种 Agent。 TeamAI 沿用了开发者熟悉的 Git 协作流程。成员提交技能或修改规范时，自动创建分支、发起合并请求，交给团队评审。确认合入后，支持会话启动 Hook 的 Agent 会在新对话开始时拉取更新，不必逐人通知、手动替换。 最近，TeamAI 还新…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T10:35:05Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-438a6ea9f5be9c094acd",
-      "title": "华为 Pura X View 手机鸿蒙 7.0.0.109 SP10 隐藏特性曝光，实装 Mate 90 同款游戏弹幕通知功能",
-      "published": "2026-10-10T08:09:01Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/410.htm",
-      "summary": "IT之家 10 月 10 日消息，华为今日面向 Pura X View 手机率先推送了鸿蒙 HarmonyOS 7.0.0.109 SP10 版本升级，包体大小约 4.83GB。新版本带来了多人互助通信共享、熄屏循迹导航等功能。 IT之家实测发现，在官方更新日志外，该机还上线实装了 Mate 90 同款游戏弹幕通知功能。 玩家在游戏助手中可对字幕的速度、大小等进行自定义设置，同时还可以管理通知应用（目前已支持 QQ、微信、信息、畅连 App、钉钉）等。 华为官网显示，应用助手（游戏助手）是华为设备内置的辅助工具，玩家在游戏中可通过应用助手快速开启高性能模式、免打扰、屏蔽指关节、截屏、录屏、智能声控、亮度锁定等功能。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-10T10:35:05Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-8f9372ac64383c2c19b6",
-      "title": "2026 巴黎车展新设“智驾实验室”公开体验活动，仅小鹏、特斯拉两家企业参与",
-      "published": "2026-10-10T07:33:24Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/393.htm",
-      "summary": "IT之家 10 月 10 日消息，据小鹏汽车官微，2026 巴黎车展即将开幕，本届车展将举办“智驾实验室”公开体验活动，车展观众及媒体可申请参与，本次活动仅有小鹏与特斯拉两家企业参与，这也是小鹏 NGP 在欧洲的首次大规模公开体验。 当地时间 10 月 12 日（下周一），欧洲规模最大的汽车展会 —— 巴黎车展即将正式开幕。本届巴黎车展共有 100 家参展商设立展位，其中约 60 家为汽车制造商，中国汽车品牌达到创纪录的 20 家，占整整三分之一。 小鹏集团副总裁 @托马斯电火车 进一步透露，有欧洲媒体表示，此次智能辅助驾驶体验仅有来自中国和美国的两家车企参与，欧洲品牌却集体缺席这一重要展会，这一现象值得欧洲车企反思：在下一代汽车技术竞争中，欧洲是否已经被拉开差距。 @托马斯电火车 曾在本月 6 日发文称，巴黎…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-10T10:35:05Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f5aebc19629e25fdc805",
-      "title": "外媒调查显示消费者普遍认为苹果 iPhone Duo 偏贵，摄像头表现仍有改进空间",
-      "published": "2026-10-10T07:01:59Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/360.htm",
-      "summary": "IT之家 10 月 10 日消息，外媒 Android Authority 近期就苹果 iPhone Duo 发起一场投票活动，共收集了 1000 多名海外读者的投票结果。约 39% 的受访者表示自己对折叠屏手机不感兴趣；约 16% 的受访者则表示愿意立即从安卓折叠屏手机切换为 iPhone Duo，另有 10% 的人对此颇为心动，但认为苹果仍需改进摄像头表现。 此外，大部分投票者认为苹果 iPhone Duo 偏贵，该机海外起售价 1999 美元（国行 15999 元起），让不少潜在消费者望而却步。 整体来看，这项调查反映出苹果首款折叠屏手机有望吸引部分安卓用户，但目前的投票结果并不能直接代表整个市场的实际购买趋势。随着更多厂商进入折叠屏领域，竞争也有望推动手机硬件和软件体验持续改进。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-10T10:35:05Z",
       "kind": "rss",
       "report_type": "report"
     }
