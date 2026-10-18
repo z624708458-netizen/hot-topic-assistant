@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-18T04:27:25Z",
-  "last_success_at": "2026-10-18T04:27:25Z",
+  "updated_at": "2026-10-18T10:59:46Z",
+  "last_success_at": "2026-10-18T10:59:46Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 14,
-      "skipped": 46,
-      "last_success_at": "2026-10-18T04:27:25Z",
-      "last_attempt_at": "2026-10-18T04:27:25Z"
+      "accepted": 11,
+      "skipped": 49,
+      "last_success_at": "2026-10-18T10:59:46Z",
+      "last_attempt_at": "2026-10-18T10:59:46Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 5,
       "skipped": 15,
-      "last_success_at": "2026-10-18T04:27:25Z",
-      "last_attempt_at": "2026-10-18T04:27:25Z"
+      "last_success_at": "2026-10-18T10:59:46Z",
+      "last_attempt_at": "2026-10-18T10:59:46Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-18T04:27:25Z",
-      "last_attempt_at": "2026-10-18T04:27:25Z"
+      "last_success_at": "2026-10-18T10:59:46Z",
+      "last_attempt_at": "2026-10-18T10:59:46Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1299,
       "accepted": 12,
       "skipped": 1287,
-      "last_success_at": "2026-10-18T04:27:25Z",
-      "last_attempt_at": "2026-10-18T04:27:25Z"
+      "last_success_at": "2026-10-18T10:59:46Z",
+      "last_attempt_at": "2026-10-18T10:59:46Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 6,
       "skipped": 24,
-      "last_success_at": "2026-10-18T04:27:25Z",
-      "last_attempt_at": "2026-10-18T04:27:25Z"
+      "last_success_at": "2026-10-18T10:59:46Z",
+      "last_attempt_at": "2026-10-18T10:59:46Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,226 @@
   ],
   "news": [
     {
+      "id": "rss-720491b47c014b31e74b",
+      "title": "奕境 X9 在华为松山湖开启交付，限时优惠价 27.98 万元起",
+      "published": "2026-10-18T10:01:25Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/553.htm",
+      "summary": "IT之家 10 月 18 日消息，今日，奕境汽车在华为松山湖园区开启奕境 X9 全国批量交付，郭富城成为奕境 001 号车主。 奕境 X9 于 9 月 24 日上市，限时优惠价 27.98 万-35.98 万元，号称满配华为乾崑全栈智能，拥有华为乾崑智驾、鸿蒙座舱、华为乾崑赤兔平台、华为乾崑车载光、华为乾崑车云、华为鲸鳍通信加持。 奕境 X9 长 5301mm、宽 2015mm、高 1820mm，轴距为 3120mm。首发搭载鸿蒙座舱 HarmonySpace 6，配备双 17.2 英寸 3.4K 蝶羽双联屏，采用 21:10 比例设计，分辨率达到 3.4K，并支持柔光技术。 该车还搭载 896 线双光路图像级激光雷达，最高采用华为乾崑四激光方案，拥有 140 亿公里累计智能辅助驾驶里程，号称行业第一。奕境 X…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4b3832cb48b5f26ed412",
+      "title": "小米大家电空调能效技术交流会 10 月 26 日举行，招募 5 名用户",
+      "published": "2026-10-18T09:32:14Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/545.htm",
+      "summary": "IT之家 10 月 18 日消息，小米集团大家电部总经理单联瑜昨日宣布，小米大家电空调能效技术交流会将于 10 月 26 日在小米武汉科技园举行，围绕“空调能效突破 APF6.0，背后究竟有哪些核心科技？”好好聊一聊。 IT之家附活动信息： 报名时间：10 月 16 日 19:00-10 月 21 日 24:00 活动时间：10 月 26 日 15:00-17:00 活动地点：小米武汉科技园 招募对象：5 人 活动流程：用户交流下午茶 活动须知显示，具体活动时间和详细地点，将在活动开始前于活动群通知，请米粉朋友们报名前知悉。本报名渠道共计筛选 5 位米粉获得活动入场资格，其中内容不包括路费、住宿，以及路途产生的餐饮费用。 参考 报名链接",
+      "summary_status": "source",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-566948548987108407bf",
+      "title": "王腾分享“从小米离职一年以来心路历程”：还是非常感谢小米、感谢雷总",
+      "published": "2026-10-18T08:32:45Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/529.htm",
+      "summary": "IT之家 10 月 18 日消息，王腾创立的 ISHO 今日宜休 AI 健康科学团队近期正式对外亮相。借此契机，王腾接受媒体“界面新闻”采访，分享了从小米离职一年以来的心路历程。 IT之家注意到，在谈及离开小米一年的感受时，王腾坦言：“去年离开（小米）的那段时间肯定是一个低谷。人生第一次连续一周上热搜，还是有很大的挫折感。但我调整得还算快，大概两三个星期，就慢慢和自己和解了，之后开始找新的方向。” 对于在小米的九年，王腾表示：还是非常感谢小米，尤其感谢雷总，也确实学到了非常多东西。第一个大的收获，是站在一个经营者的角度，获得了一条完整产品线的全貌，而且这是在一家头部科技公司，操盘接近千亿元规模的业务，这样的机会在全球范围内也不多。第二个收获，是把小米尤其是雷总讲的那套方法论，从学习变成了实践。经历了怎么做爆品，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9272dea58d2365bff734",
+      "title": "何刚重阳节分享华为手机实用功能：拦截诈骗电话、远程协助长辈",
+      "published": "2026-10-18T08:25:22Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/528.htm",
+      "summary": "IT之家 10 月 18 日消息，今天是重阳节，华为终端 BG CEO 何刚发文分享华为手机使用功能，含一键调大显示、拦截骚扰诈骗电话、快速修图等等。 关怀模式： 星盾防诈： 亲密圈： 小艺修图： 客服小艺： IT之家注意到，鸿蒙 HarmonyOS 7 拥有新升级的亲密圈，支持共享屏幕远程协助。即使人不在身边，也能协助长辈简单快速解决问题。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d496648c905746d9ef9f",
+      "title": "米哈游《绝区零》游戏 3.3 版本将适配苹果 iPhone Duo",
+      "published": "2026-10-18T07:47:36Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/520.htm",
+      "summary": "IT之家 10 月 18 日消息，米哈游前天宣布，官方将在《绝区零》游戏 3.3 版期间推出苹果 iPhone Duo 机型相关适配。 值得注意的是，Apple 执行董事长 Tim Cook（蒂姆 · 库克）最近现身上海米哈游总部，米哈游创始人、总裁刘伟（大伟哥）亲自接待。 IT之家注意到，这是库克时隔 3 年再次公开前往米哈游总部。库克曾在 2023 年 3 月进行了一次中国行，受邀来参加 3 月 25 日至 27 日在北京举行的中国发展高层论坛。除了商务会谈等必要工作外，库克还频繁探店、开会、与各种人合影留念。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b6d44cb1124e3b4ab4bc",
+      "title": "苹果 iPhone Duo 京东尊享权益套装上线，20998 元起 20:00 开抢",
+      "published": "2026-10-18T07:24:18Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/513.htm",
+      "summary": "iPhone Duo 定价 15999 元起，京东支持 12 期免息，以旧换新至高补贴 700 元：点此预约京东新品。 今日京东上线“尊享权益套装”，定价 20998 元起，每晚 20:00 开抢。 较裸机版加价 4999 元，套装内含： 本机 15999 元起 苹果 40W 充电器 329 元 摩可 · 肖特 UTG 钢化膜 929 元 1 年京东全面保修服务 1800 元（含意外故障） 5 年电池不限次换新服务 999 元（需电池健康低于 80%） 90 天全保换新服务 1200 元 复购补贴 999 元 京东 iPhone Duo 尊享权益套装 需签收激活 20998 元起直达链接 另外加价 7999 元的“臻享权益套装”也在售卖中，较“尊享套装”主要增加 999 元官方壳 + 399 元充电宝，也是每晚…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3133d517536a6f352618",
+      "title": "华为路由 X2 Pro 官宣接入智慧生活 App，新品上市时间待定",
+      "published": "2026-10-18T06:18:45Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/490.htm",
+      "summary": "IT之家 10 月 18 日消息，华为智慧生活 App 显示，鸿蒙智联基础服务迎来了 17.0.4.335 版本升级。此次版本升级又一次超前曝光了华为新品的存在。 更新说明显示，鸿蒙智联基础服务将新增支持路由 X2 Pro 接入。这表明华为接下来将推出一款路由新品（上市时间待定），预计其定位在 X3 Pro 和 X1 Pro 之间。 作为参考，华为路由 X 系列定位“创新旗舰”，目前已推出 X1 / X1 Pro 和 X3 Pro 日照金山三款产品。 遗憾的是，虽然此次鸿蒙智联基础服务升级预告了新品的存在，但华为智慧生活 App 却并未像往常一样公开新品配对步骤（华为此前的 IoT 新品常在智慧生活 App 提前“剧透”，并曝光外观和部分功能信息）。IT之家也将持续关注新品信息，并在第一时间带来产品最新情报。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b6829820569eccfab410",
+      "title": "华为鸿蒙星河互联 AirPods 适配型号公布，覆盖初代至 Max 等主流机型",
+      "published": "2026-10-18T06:05:31Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/489.htm",
+      "summary": "IT之家 10 月 18 日消息，在今年 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，华为终端 BG CEO 何刚宣布，华为鸿蒙星河互联升级，支持连接苹果 AirPods 无线耳机。 IT之家注意到，华为官网现公布了鸿蒙星河互联 AirPods 适配机型。据介绍，当前支持与 AirPods 4、AirPods Pro 3、AirPods 3、AirPods Pro 2、AirPods 2、AirPods Pro 1、AirPods 1、AirPods Max、AirPods 5 等主流型号 AirPods 进行互联。 华为手机升级 HarmonyOS 7.0 及以上版本与 AirPods 连接后，可实现 AirPods 连接提醒及电量显示功能，具体如下：…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-24631d113958b7c4665c",
+      "title": "鸿蒙智行尚界 Z9 新车再曝：消息称属于 2027 年车型，上市时间为明年 4-5 月份",
+      "published": "2026-10-18T05:22:25Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/487.htm",
+      "summary": "IT之家 10 月 18 日消息，工信部 16 日发布第 412 批《道路机动车辆生产企业及产品公告》新产品公示，尚界 Z9 纯电动 SUV 完成申报，定位纯电动运动型乘用车，尺寸为 5139×2005×1776mm、轴距 3086mm，额定载客含驾驶员为 5 人（双电机版可选 6 座版本）。 博主 @未来的学习笔记 今日发文，曝光了这款新车的更多信息。据称，按照鸿蒙智行 SUV 的尺寸矩阵，尚界 Z9 大于 6-7 系、小于 8-9 系。考虑到它运动的造型搭配 5-6 座的座椅布局，从尺寸的角度把它看成是 8 系产品的一个运动版可能更加适合。 博主透露，尚界 Z9 上市的时间是明年的 4-5 月份，属于 2027 年的车型，虽然具体配置还没确定，但 27 年的车型配置大概率是要好于目前 7-8 系车型。他表示…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-aef4d1312924b5ee144d",
+      "title": "华为 FreeClip 2 耳夹耳机潮玩拼色曝光，采用红黄蓝拼搭撞色设计",
+      "published": "2026-10-18T04:51:49Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/014/484.htm",
+      "summary": "IT之家 10 月 18 日消息，据多位网友 / 博主分享，华为 FreeClip 2 耳夹耳机将迎新配色发布。从曝光的海报来看，新配色并非固定的单一配色，而是主打“自在鲜活”的潮玩拼色。 画面显示，华为 FreeClip 2 的潮玩拼色采用红黄蓝拼接撞色设计。同时，耳机舱的外壳为黄色，内饰为黑色。还有网友分享了新配色的实拍图。 据IT之家了解，华为 FreeClip 2 采用了华为全新第三代自研低功耗芯片，首次引入 NPU AI 处理器，算力提升 10 倍；新增鸿蒙 AI 耳边助手，支持头动播报、智慧播报、小艺唤醒、小艺翻译。 这款耳机采用了 φ10.8mm 开放式双振膜声学单元，响度提升 100%，低频动力提升 100%；配备 60mAh 电池，单次续航 9 小时，搭配充电仓（537mAh 电池）38 小时…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-18T10:59:46Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
       "id": "rss-9929d224852d492ff606",
       "title": "中奖者并非随机选出，马斯克就百万美元选民抽奖欺诈诉讼达成和解",
       "published": "2026-10-18T02:53:29Z",
@@ -193,7 +413,7 @@
       "url": "https://www.ithome.com/1/014/467.htm",
       "summary": "IT之家 10 月 18 日消息，2024 年，埃隆・马斯克承诺每天向摇摆州一名随机抽选的登记选民发放 100 万美元（IT之家注：现汇率约合 670.3 万元人民币）奖金。该活动引发了多项法律争议，其合法性受到质疑，还有两名亚利桑那州居民提起诉讼，称这场抽奖属于欺诈。目前马斯克已同意和解这两起在得州奥斯汀立案的诉讼，不过和解协议的细节并未对外公开。 原告方主张，马斯克在宣布这项抽奖活动时，谎称奖金会随机抽取。费城市地方检察官也曾提起诉讼，要求叫停该抽奖活动，指控马斯克在运营非法彩票。在一场听证会上，马斯克旗下“美国政治行动委员会（America PAC）”代表克里斯・戈贝尔（Chris Gober）向法官表示：“这 100 万美元奖金获得者并非随机选出…… 我们完全清楚今天、明天将要公布的百万美元得主是谁。”…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -857,7 +1077,7 @@
       "url": "http://www.geekpark.net/news/372509",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1083,7 +1303,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1573,7 +1793,7 @@
       "url": "https://www.ifanr.com/1684640",
       "summary": "家庭正在重新变成科技公司寻找下一个 AI 落点的地方 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1643,7 +1863,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1781,7 +2001,7 @@
       "url": "https://www.ifanr.com/1684619",
       "summary": "最后一辆给人开的特斯拉，起飞。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2009,7 +2229,7 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2031,7 +2251,7 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2053,7 +2273,7 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2185,7 +2405,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2454,7 +2674,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2566,7 +2786,7 @@
       "url": "https://www.ifanr.com/1684477",
       "summary": "一片树林里分出两条路，而我选了人迹更少的一条，因此走出了这迥异的旅途。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2681,7 +2901,7 @@
       "url": "https://www.ifanr.com/1684431",
       "summary": "终于来了！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3035,7 +3255,7 @@
       "url": "https://openai.com/index/sullivan-cromwell",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3546,7 +3766,7 @@
       "url": "https://www.ifanr.com/1684341",
       "summary": "苹果 AI 终于有「家」了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3568,7 +3788,7 @@
       "url": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3590,7 +3810,7 @@
       "url": "https://openai.com/index/sentinelone",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3880,7 +4100,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3902,7 +4122,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4306,7 +4526,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4614,7 +4834,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4834,7 +5054,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5173,7 +5393,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
+      "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6144,304 +6364,6 @@
       "summary": "IT之家 10 月 11 日消息，彭博社记者马克 · 古尔曼今日在新一期《Power On》通讯中透露，苹果首款智能家庭中枢名为“HomeView”，预计将在 10 月 13 日的“欢迎回家”活动正式发布，11 月出货。 据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。该设备将搭载 A18 芯片，官方还将推出壁挂安装版本。 IT之家从原报道获悉，这款新产品将提供深空灰、银色、星光色和粉色四种配色，壁挂版仅有深空灰、银色两种配色。 古尔曼表示，这款产品主要使用语音交互，以 AI Siri 为核心。用户可以在房间另一端查看设备显示内容，并且该产品将运行苹果自家 App，但不支持 App Store。用户或许可以使用 iPhone，将第三方应用的小组件投射到设备上。",
       "summary_status": "source",
       "fetched_at": "2026-10-12T01:18:59Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7b6538bf627517c7ff85",
-      "title": "京东预约超 200 万人：苹果 iPhone Duo 折叠屏手机 15999 元起倒数 5 天预售",
-      "published": "2026-10-11T09:31:25Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/645.htm",
-      "summary": "iPhone Duo 定价 15999 元起，国行 10 月 16 日晚 8 点接受预购。 京东目前预约人数已超 200 万人，需要注意的是： iPhone Duo 仅支持 eSIM 京东渠道首批可能需要签收激活（以下单时宝贝标题 / 咨询客服为准，就算不用任何补贴，也需激活后才能签收） 京东 Apple iPhone Duo 需签收激活 仅支持 eSIM15999 元起直达链接 京东 11.11 红包 10 月 12 日 20:00 开抢，至高 26888 元无门槛可用：点此抽取。 iPhone Duo 官方定价如下： 256GB：15999 元 512GB：17999 元 1TB：21499 元 2TB：26499 元 该机提供星光白和夜空双色可选，手机内外屏均为 120Hz（ProMotion），支持 A…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T21:55:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9cd666e1fc52fc54b3d9",
-      "title": "小米 REDMI 显示器 A27U 2027 款发售：27 英寸 4K 75Hz，1199 元",
-      "published": "2026-10-11T08:39:38Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/633.htm",
-      "summary": "IT之家 10 月 11 日消息，小米 REDMI 显示器 A27U 2027 款现已在京东上架，该机主打 4K 75Hz，定价为 1199 元。 京东小米 REDMI 显示器 A27U 2027 款 1199 元直达链接 该机配备一块 3840x2160 分辨率 75Hz IPS 面板，显示器亮度 400 尼特，响应速度 6ms，对比度 1500:1，对比度 1500:1，显示器支持 10-Bit 色彩（8-Bit + FRC），覆盖 99% DCI-P3 色域。 该机支架支持升降 / 倾斜 / 旋转，显示器本体支持 VESA 75x75mm 壁挂，提供 2 个 HDMI 2.0、2 个 DP1.4、1 个 3.5mm 音频接口。 IT之家附产品参数：",
-      "summary_status": "source",
-      "fetched_at": "2026-10-11T21:55:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-dcf23b00ccafa357adc8",
-      "title": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
-      "published": "2026-10-11T08:30:53Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/631.htm",
-      "summary": "IT之家 10 月 11 日消息，据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师范大学联合团队研发的昇腾原生时序预训练模型取得重磅突破，成功登顶国际权威时序评测榜单 TIME-leaderboard 和 GIFT-Eval（Pretrained 类目）。 ▲ TIME 评测榜单 ▲ GIFT-Eval 榜单（Pretrained 类目） 据介绍，时序基础模型作为人工智能赋能气象预测、能源调度、工业运维、金融分析等核心场景的关键技术底座，是当下 AI 基础研究与产业落地的核心赛道。研发团队基于华为昇腾生态，完成了模型的训练推理的深度优化，最终打造出高精度、高鲁棒性、高通用性、易工程化的通用时序基模型底座。 华为云官方表示，在顶级模型扎堆的 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T21:55:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-0044ea6851124b529ffd",
-      "title": "小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起",
-      "published": "2026-10-11T08:29:42Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/630.htm",
-      "summary": "IT之家 10 月 11 日消息，Yeelight 现已在小米有品上架全光谱智能人体存在面板灯 M4 众筹（点此访问），该产品提供 30x30cm 与 30x60cm 两种规格，其中 24W 款式适配 8 至 12m² 空间，定价为 109 元，36W 款式适配 12 至 18m² 空间，定价为 149 元。 系列面板灯采用全塑一体成型灯体，边框厚度薄至 2mm，具备 IP54 防护等级，内置 24G 雷达与光照双传感器，在 2.5m 安装高度下感应范围可达 10m。号称能够精准捕捉人体微动，实现人来灯亮与人走灯灭，并支持 AI 环境自适应以降低误触风险。 系列面板灯搭载蓝牙 Mesh 2.0 模组，采用全光谱光源，整体亮度可达 2500lm，显色指数达 Ra98，符合 RG0 低蓝光标准且无可视频闪，支持 2…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T21:55:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ec4eb32f851cd4fff1a4",
-      "title": "新增河北云南：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
-      "published": "2026-10-11T08:25:35Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/628.htm",
-      "summary": "苹果今日宣布推出 AirPods 5，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在江苏、吉林、北京、大连，今日新增河北、云南），实付 849.15 元起。 另外京东今日加码“以旧换新”，旧物估值超过 100 元（限耳机品类），京东加补 100~150 元： 京东 Apple AirPods 5 支持主动降噪国补后 849 元直达链接京东 Apple AirPods 5 搭配无线充电盒 增强续航国补后 977 元直达链接 京东 11.11 红包 10 月 12 日 20:00 开抢，至高 26888 元无门槛可用：点此抢红包。 京东“换新补贴”由系统自动发放，如果点击上方卡片没有弹出，可尝试反复点击上方卡片 / 换号下单哦。 AirPods 5 采用全新多孔声学架构，具备新一代…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T21:55:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c49e47825a7f07cbd4bc",
-      "title": "会员年卡 11.11 抢先促：百度网盘 158 元年内探底，B站 88VIP 网易 QQ 音乐发车",
-      "published": "2026-10-11T08:13:08Z",
-      "company": "百度",
-      "companies": [
-        "百度"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/623.htm",
-      "summary": "百度网盘 百度网盘超级会员年卡官方售价 298 元，今日预售直降至 196 元 + 限时加赠 3 个月。 到手共 15 个月，折合 13.1 元 / 月、157 元 / 年： 京东百度网盘 SVIP 超级会员 15 月卡券后 196 元领 10 元券 百度网盘超级会员年卡 + B站大会员季卡 + 网易云音乐月卡今日折后仅需 176 元，也是好价。 如果把百度年卡算作 157 元，B站季卡 + 网易云音乐月卡仅需 19 元： 京东百度网盘 SVIP 超级会员年卡加赠B站季卡 + 网易云音乐月卡券后 176 元领 10 元券 注：现购买权益时长 + 已有权益时长，不能超过 5 年，否则会充值失败。 88VIP 淘宝 11.11 今年 10 月 15 日抢先开始，小伙伴可以看看自己能不能 88 元开通 88VIP，开…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T08:46:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3ae0bd639a6057a33d2c",
-      "title": "Qwen-Image-2.1 Pro 和 Turbo API 上线千问 AI 平台，将图像生成与编辑能力接入应用",
-      "published": "2026-10-11T08:06:48Z",
-      "company": "阿里巴巴",
-      "companies": [
-        "阿里巴巴"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/622.htm",
-      "summary": "IT之家 10 月 11 日消息，千问 AI 平台今日宣布，Qwen-Image-2.1 Pro 和 Turbo API 现已正式上线千问 AI 平台。开发者可以通过 API 将图像生成与编辑能力接入应用，无需自行部署模型、管理推理环境，即可围绕设计、电商、内容创作等场景搭建自己的工作流。与此同时，Qwen-Image-2.1-Turbo 模型权重同步开放。 现在，用户可以在千问 AI 平台查看 Qwen-Image-2.1 Pro 和 Turbo 的模型信息与接入说明，根据业务需求选择、测试和集成。 对于创作工具，API 可以成为从文字构思到视觉呈现的入口；对于电商和营销应用，可以围绕商品素材、场景创作和海报设计组织工作流；对于已有图片的精修与再创作，则可以通过编辑指令继续调整内容。从生成到编辑，开发者可以把…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T08:46:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2ea516b3c34cc32b32b5",
-      "title": "特朗普将 AI 人工智能改为 SI 超级智能后，马斯克宣布 SpaceXAI 官方账号正式更名 SpaceXSI",
-      "published": "2026-10-11T07:59:42Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/620.htm",
-      "summary": "IT之家 10 月 11 日消息，今日凌晨 4 点，马斯克在社交平台发布一张截图，宣布 SpaceXAI 的官方账号已更名为“SpaceX Super Intelligence”（@SpaceXSI）。 参考IT之家此前报道，美东时间 9 月 29 日，美国总统特朗普正式签署行政令，下令所有行政部门和机构使用“超级智能”（Super Intelligence，简称 SI）一词代替人工智能（AI）。 在特朗普宣布将“人工智能”改为“超级智能”后，多位科技领袖在白宫前接受媒体群访，轮到马斯克发言时，他脱口而出“AI（人工智能）”，随即迅速改口“SI（超级智能）”。 站在一旁的特朗普听到马斯克改口，对马斯克说“谢谢”。特朗普脸上露出微笑，并伸手拍了拍马斯克的肩膀。 相关阅读： 《特朗普签署行政令把 AI 改叫 SI，…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T08:46:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c87ea8551c2d877e4267",
-      "title": "“第二代豆包手机”努比亚 NaviX Ultra「内测实验室」计划即将开启，10 月 14 日直播",
-      "published": "2026-10-11T07:39:16Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/617.htm",
-      "summary": "IT之家 10 月 11 日消息，努比亚今日宣布 NaviX Ultra「内测实验室」计划即将开启，面向尝鲜用户开放内测资格，抢先体验最新版本能力。10 月 14 日 19:00，首场进化直播。 IT之家注意到，“第二代豆包手机”努比亚 NaviX Ultra 于 9 月 16 日发布，号称“全球首款 AI 智能体手机”，由中兴通讯努比亚全链路主导打造，实现一句话让 AI 跨应用执行复杂任务，豆包手机助手主导 AI 助手体验，售价 5999 元起。 努比亚 NaviX Ultra 搭载行业首个集成指纹识别的独立 AI 按键，支持方言识别能力、语音唤醒能力，并内置 Seed 最新全双工语音大模型，按键位置也进行了优化，更方便操作。 硬件配置上，努比亚 NaviX Ultra 搭载第五代骁龙 8 至尊版移动平台，搭…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T08:46:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8bb4cf6660f35c3bfb9f",
-      "title": "马斯克称给信用卡拍照就能用 Grok Bot 购物，OpenAI 蒂博调侃“不如直接把卡发网上”",
-      "published": "2026-10-11T07:39:04Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/616.htm",
-      "summary": "IT之家 10 月 11 日消息，xAI 首席执行官埃隆 · 马斯克今日发文称：“买东西时，你只需要拍一张信用卡照片发到聊天框，Grok Bot 就会在网上搜索最佳优惠然后下单。” IT之家注意到，OpenAI Codex&ChatGPT 团队负责人蒂博 · 索蒂奥回应道：“那我干脆直接把卡放这儿得了。”并附上一张 AI 生成的虚构信用卡照片，持卡人名字就是他本人“Thibault Sottiaux”，暗示该功能的安全风险性。 另外一名用户表示，亚马逊如今已经屏蔽 Grok Bot 访问。马斯克回复道，Grok 自己会找别的方式买东西，他刚刚买了乐高，Grok 是直接从乐高官网下单的。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-11T08:46:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2af54ef95909d1277eae",
-      "title": "马斯克称尽管自己目前不知道如何制造微芯片，但一定会弄清楚",
-      "published": "2026-10-11T07:36:13Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/613.htm",
-      "summary": "IT之家 10 月 11 日消息，据彭博社报道，埃隆 · 马斯克（Elon Musk）表示，鉴于其旗下公司在制造定制设备方面的专长，他相信自己的公司很可能会“找到比任何人都更好地制造芯片的方法”。 在得克萨斯州奥斯汀的特斯拉超级工厂外，马斯克向到场的客户与投资人坦言，尽管自己目前“不知道如何制造微芯片，但我们（一定）会弄清楚”。 在周六通过线上直播参与 X Takeover 活动时，他特别提到，此前在参观竞争对手的设施时，并没有看到多少定制化设备；而他的企业在制造这些设备方面拥有丰富经验，这使他们能够改进制造流程。 “我认为可以说，这（指芯片制造）是世界上最难做的事情之一”马斯克表示，“我绝非盲目自大或自命不凡，但我认为我们很可能会找到比任何人都更好地制造芯片的方法。坦白讲，我不确定这需要多久，可能要耗费我们数…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T08:46:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9452aa38ddd140e42841",
-      "title": "小米智能摄像机 5 Pro 全彩夜视上架：8MP+4MP 双镜头、自带补光小夜灯，439 元",
-      "published": "2026-10-11T07:03:06Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/605.htm",
-      "summary": "IT之家 10 月 11 日消息，小米现已在京东上架“小米智能摄像机 5 Pro 全彩夜视”，定价为 499 元，首发价 439 元。 京东小米智能摄像机 5 Pro 全彩夜视 439 元直达链接 该产品配备 8MP+4MP 双镜头，可拍摄 4K 高清画面，支持多种夜视模式。机身配备小夜灯实现补光，摄像机可实现整夜彩色成像。无人时黑白成像，识别到人自动开启小夜灯并自动切换彩色画面。内置 940nm 红外补光灯，镜头无红曝干扰，夜间呈现清晰黑白影像。 该机云台支持上下左右远程旋转，支持人形及宠物追踪，家人、宠物动向灵活跟拍记录。支持手势识别通话，只需面对摄像机比个“OK”手势，即可远程呼叫手机端；手机端也可呼叫摄像机，进行双向语音通话。 同时，该机搭载 1.5T 高算力芯片，能应对更准确、更智能及更丰富的场景检测…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T08:46:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a77f62387a816a1924e0",
-      "title": "广东省省长孟凡利会见苹果执行董事长库克一行，库克称愿意进一步扩大在粤业务布局",
-      "published": "2026-10-11T04:38:56Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "库克"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/011/588.htm",
-      "summary": "IT之家 10 月 11 日消息，据南方 + 报道，10 月 11 日，广东省委副书记、省长孟凡利在广州会见美国苹果公司执行董事长蒂姆 · 库克一行。 蒂姆 · 库克感谢广东省对苹果公司发展的长期支持。他表示，广东是全球重要的制造业中心，拥有完备的产业链供应链、强劲的创新创造活力，更有极富潜力的消费市场与合作空间，聚集了大量苹果供应链伙伴和生态开发者。广东对苹果公司在华发展至关重要，公司很愿意进一步扩大在粤业务布局，围绕供应链协同、创新生态赋能、智能制造和绿色制造、销售渠道拓展等方面，与广东有关城市和企业探讨更多合作，更好实现互利共赢。 孟凡利对蒂姆 · 库克一行表示欢迎。他说，苹果公司是全球知名的科技领军企业，不论是生产端、销售端还是研发端都与广东有着长期广泛深入的合作。当前广东正锚定智能化、绿色化、融合化发…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-11T08:46:23Z",
       "kind": "rss",
       "report_type": "report"
     }
