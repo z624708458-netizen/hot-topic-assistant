@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-19T13:07:13Z",
-  "last_success_at": "2026-10-19T13:07:13Z",
+  "updated_at": "2026-10-19T19:53:58Z",
+  "last_success_at": "2026-10-19T19:53:58Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 11,
-      "skipped": 49,
-      "last_success_at": "2026-10-19T13:07:13Z",
-      "last_attempt_at": "2026-10-19T13:07:13Z"
+      "accepted": 14,
+      "skipped": 46,
+      "last_success_at": "2026-10-19T19:53:58Z",
+      "last_attempt_at": "2026-10-19T19:53:58Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 8,
       "skipped": 12,
-      "last_success_at": "2026-10-19T13:07:13Z",
-      "last_attempt_at": "2026-10-19T13:07:13Z"
+      "last_success_at": "2026-10-19T19:53:58Z",
+      "last_attempt_at": "2026-10-19T19:53:58Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-19T13:07:13Z",
-      "last_attempt_at": "2026-10-19T13:07:13Z"
+      "last_success_at": "2026-10-19T19:53:58Z",
+      "last_attempt_at": "2026-10-19T19:53:58Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1299,
       "accepted": 12,
       "skipped": 1287,
-      "last_success_at": "2026-10-19T13:07:13Z",
-      "last_attempt_at": "2026-10-19T13:07:13Z"
+      "last_success_at": "2026-10-19T19:53:58Z",
+      "last_attempt_at": "2026-10-19T19:53:58Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 6,
       "skipped": 24,
-      "last_success_at": "2026-10-19T13:07:13Z",
-      "last_attempt_at": "2026-10-19T13:07:13Z"
+      "last_success_at": "2026-10-19T19:53:58Z",
+      "last_attempt_at": "2026-10-19T19:53:58Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,182 @@
   ],
   "news": [
     {
+      "id": "rss-65f608fc9999df0a83da",
+      "title": "苹果 watchOS 27.2 RC 发布",
+      "published": "2026-10-19T18:35:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/065.htm",
+      "summary": "【点此直达升级教程】 IT之家 10 月 20 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 RC 更新（内部版本号：24S116），本次更新距离上次发布 Beta/RC 间隔 6 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 watchOS …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e667a498c54f4b5c9b2f",
+      "title": "苹果 macOS 27.2 RC 发布",
+      "published": "2026-10-19T18:35:05Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/063.htm",
+      "summary": "IT之家 10 月 20 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.2 RC 更新（内部版本号：26B118），本次更新距离上次发布 Beta/RC 间隔 6 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 macOS 27 发布历史： 2026-10-14：m…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c06c729573d0c1e5591a",
+      "title": "苹果 visionOS 27.2 RC 发布",
+      "published": "2026-10-19T18:35:05Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/064.htm",
+      "summary": "IT之家 10 月 20 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27.2 RC 更新（内部版本号：24N118），本次更新距离上次发布 Beta/RC 间隔 6 天。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 visionOS 27 发布历史： 2026-10-14：visionOS 27.2 Beta 4 (24N5114a) 2026-10-06：visionOS 27.2 Beta 3 (24N5103f) 2026-09-29：visionOS 27.0.1 (24M372) 2026-09-22：visionOS 27.2 Beta…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1e283a85b4ca5afd5db3",
+      "title": "苹果 iOS/iPadOS 27.2 RC 发布",
+      "published": "2026-10-19T18:35:04Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/062.htm",
+      "summary": "【点此直达升级教程】 IT之家 10 月 20 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.2 RC 更新（内部版本号：24B115），本次更新距离上次发布 Beta/RC 间隔 6 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 iOS…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3ddc05dfa4466d93c797",
+      "title": "苹果官宣北京时间 10 月 29 日举行特别活动，有望推出 OLED MacBook Pro / iPad mini 8 等机型",
+      "published": "2026-10-19T16:14:13Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/054.htm",
+      "summary": "【00:15 更新】苹果已确认发布会时间，官方将于美国当地东部时间 10 月 28 日下午 1 时（北京时间 10 月 29 日凌晨 1:00）在美国洛杉矶举办本月第二场新品发布活动。 IT之家 10 月 20 日消息，苹果官方账号在小红书发文，透露“好多好消息，下周和你说”，暗示将于下周举行特别活动，届时将推出一系列新品，不过官方尚未公布具体时间信息。 IT之家注意到，此前有消息称苹果大概率下周三正式发布一批新品，包含搭载 OLED 屏幕的 MacBook Pro、配备 M6 芯片的 14 英寸 MacBook Pro 与 iMac，以及搭载 OLED 屏幕的 iPad mini 8，相应产品预计将于 11 月 6 日发售。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-87f34802f57cc54eac7f",
+      "title": "微信发起公众号小说改编短剧激励活动：作者承制方各享 5% 额外收益，上不封顶",
+      "published": "2026-10-19T14:42:11Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/044.htm",
+      "summary": "IT之家 10 月 19 日消息，微信开放平台与微信视频号团队今日联合宣布，发起「公众号小说改编微短剧：第一期」激励活动，支持原创小说开展改编短剧合作。首期选出 10 部深受微信用户喜爱的作品，平台已与作者确认改编意向。 IT之家从“微信公开课”公众号获悉，短剧承制方与作者在活动有效期内达成合作，并按要求完成改编、在微信生态优先发行后，双方可各获改编短剧在微信生态优先发行期收入的额外 5% 现金激励，上不封顶。 同时，激励对应的发行载体为绿泡泡短剧小程序、视频号端原生短剧，收入计算范围为短剧在微信生态优先发行前 30 天的变现收入。微信开放平台不占有小说的著作权及改编权。具体改编合作，由短剧承制方与作者协商一致并签署协议。 此外，短剧承制方需与作者协商一致，共同签署改编协议，并以书面形式提交平台，支持短剧在微信…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-03f4c7277236cd915d4f",
+      "title": "2026 年三季度印度智能手机市场遇冷，iPhone 销量下滑 20%",
+      "published": "2026-10-19T14:30:53Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/042.htm",
+      "summary": "IT之家 10 月 19 日消息，市场调研机构 Omdia 数据显示，2026 年第三季度，印度全国智能手机出货量同比下降 26%，创下过去 10 年同期最低水平。尽管苹果 iPhone 在印度的销量同比下滑 20%，但与竞争对手相比，其表现仍相对稳健。 据悉，印度消费者的消费支出趋于保守，与新机涨价叠加在一起，该国智能手机总出货量降至 3580 万部。零售商也采取了更为谨慎的策略，在购物季到来前避免囤积过多库存。 尽管销量下滑 20%，苹果仍以 390 万部的出货量位列印度智能手机市场第五，iPhone 16 和 iPhone 17 等标准版机型占大头。由于苹果今年没有推出 iPhone 18 标准版，因此不少消费者选择旧款产品。 如今，手机厂商已不能再单纯依靠庞大的出货量推动印度业务增长，而是需要付出更多努…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6747de55b9c3243aa041",
+      "title": "古尔曼：苹果正研发室内摄像头，依靠 AI 分析环境",
+      "published": "2026-10-19T13:39:51Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/023.htm",
+      "summary": "IT之家 10 月 19 日消息，彭博社记者马克 · 古尔曼在最新一期《Power On》通讯中提到，苹果正在研发一款室内摄像头，内部代号 J450，可利用 AI 分析周围环境。 IT之家了解到，这款摄像头拥有低帧率传感器和红外传感器，支持人脸识别等技术，以识别人员或宠物。用户将收到周围环境的文字描述，而非视频画面。该产品的核心设计理念似乎与隐私保护有关，无法录制家里的私密场景。 古尔曼认为，这款摄像头预计将在明年某个时候推出。同时，该产品并不属于 10 月 13 日公布的 Home Collection 系列配件。 此外，苹果可能还会观察 Home Collection 系列产品的销售情况，再决定是否推出自有品牌智能家居硬件。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-19T19:53:58Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-ed1f8b767d81689266d0",
       "title": "VGN 联合腾讯天美工作室推出 V98Pro V4 TiMi 限定款机械键盘：带有小云仔发声键帽按钮，首发价 419 元",
       "published": "2026-10-19T12:46:58Z",
@@ -189,7 +365,7 @@
       "url": "https://www.ithome.com/1/015/015.htm",
       "summary": "IT之家 10 月 19 日消息，VGN 宣布联合腾讯天美工作室推出一款 V98Pro V4 TiMi 限定款机械键盘，该键盘采用云朵轴，使用天蓝色外观，首发价 419 元。 京东 VGN V98Pro V4 TiMi 限定款机械键盘 419 元直达链接 该键盘主体采用了清新的天蓝色外壳，搭配定制云朵图案印花键帽及一颗联名小云仔发声键帽按钮，按下时会发出“TiMi”的声音。该键盘还配备了 V-Display 情绪屏，支持输入交互模式和用户自定义图案。 性能和规格方面，该键盘采用了 98 配列（100 键）设计，重量约 1132g±50g。键盘采用了 Gasket 结构，并进行了消音填充，搭配 PC 横向开槽定位板和 FR-4 单键开槽 PCB，全键支持热插拔，并且全键无冲。 该键盘支持有线、2.4G 和蓝牙三模…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +387,7 @@
       "url": "https://www.ithome.com/1/015/014.htm",
       "summary": "IT之家 10 月 19 日消息，华为乾崑智能汽车解决方案今日宣布，引望与宁德时代、时代电服开展智能换电合作，打造乾崑智驾完整智能充换电生态。 引望智能技术有限公司（IT之家注：以下简称“引望”）与宁德时代新能源科技股份有限公司（以下简称“宁德时代”）、时代电服科技有限公司将就新能源汽车智能换电生态开展全面合作。 根据三方签署的《智能化补能生态战略合作协议》，三方将加强换电电池及换电网络方面的合作并联合生态伙伴共同构建智能换电生态。同时，通过华为乾崑智驾与宁德时代巧克力换电网络的深度协同与底层生态互联，系统级打通车端、站端与云端的数据与服务生态，基于电池实时状态与用户出行特征的智能预判与主动调度，车辆可实现自主确定补能需求、自主寻站、自主入库、自动对位、99 秒全自动换电、自主驶离的全流程智能闭环，打造面向自动…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +409,7 @@
       "url": "https://www.ithome.com/1/015/005.htm",
       "summary": "IT之家 10 月 19 日消息，据外媒 Appleinsider 报道，苹果已收购瑞士苏黎世 AI 音频编辑公司 Samplab，根据收购交易清单，苹果将收购 Samplab 的部分资产，并向该公司部分员工提供工作机会。 公开信息显示，Samplab 于 2020 年在瑞士苏黎世成立，创始人为 Manuel Fritsche 和 Gian-Marco Hutter。该公司规模较小，员工人数据信不超过 10 人。根据 LinkedIn 上的资料，甚至目前公司可能只有两位创始人在职。 Samplab 此前将自身定位为“面向 AI 时代的音乐制作”公司。在关闭前，其官方网站曾重点介绍软件的音频编辑能力，包括修改音频中的任意音符，以及识别和编辑和弦。该软件还提供公司所称的精细化音轨分离功能。 苹果自 2024 年起已…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -255,7 +431,7 @@
       "url": "https://www.ithome.com/1/014/981.htm",
       "summary": "IT之家 10 月 19 日消息，据 Digitimes 报道，有消息称，特斯拉正在韩国市场打破传统汽车供应链议价模式，改变过去主要与一级、二级（Tier 1、Tier 2）供应商沟通的传统模式，开始直接接触更下游的零部件及原材料行业，将管理触角延伸至第三、第四级供应商。 业内人士认为，特斯拉这种“跳过中间供应商、直接介入下游议价”的举措，有助于更精准地掌握成本细节，压缩不必要的中间环节及中间商利润，从而在竞争激烈的电动汽车市场中保持价格优势，但也让下游企业面临更大的议价压力。 目前，韩国电动汽车市场的竞争格局正在发生渐进变化。长期由现代汽车和起亚主导的大众电动汽车市场，正受到特斯拉的进一步冲击。如今特斯拉不再只是满足特定消费群体需求的进口电动汽车品牌，而是逐渐成为韩国消费者选购电动汽车时，可与本土品牌直接竞争…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -277,7 +453,7 @@
       "url": "https://www.ithome.com/1/014/974.htm",
       "summary": "IT之家 10 月 19 日消息，华为官方刚刚宣布，全新理想 i9 支持 HUAWEI HiCar 手车互联，可实现上车无感互联。 导航、音乐及常用应用轻松流转 手机镜像支持宽幅 / 窄幅模式自由切换 手机查看商家或地址，摇一摇即可流转至车机导航 IT之家注：HiCar 智行是华为推出的手机和汽车互联产品，通过简单的连接，用户即可在驾驶时通过车机来使用手机的导航、音乐、电话、语音交互等功能。 今年 5 月，华为 HiCar 官宣已与 70 多个汽车品牌建立合作关系，累计装车量超过 4000 万，合作车型超过 600 款。根据易车榜发布的 2026 年中国手机-车机互联系统排名，华为 HiCar 以新车搭载率 63.1% 以及市场占有率 57% 排名第一。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -299,7 +475,7 @@
       "url": "https://www.ifanr.com/1684921",
       "summary": "给屏幕装上脖子 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +497,7 @@
       "url": "https://www.ithome.com/1/014/960.htm",
       "summary": "IT之家 10 月 19 日消息，据阿里巴巴达摩院，10 月 19 日，RISC-V 中国峰会在深圳举行。作为开源 CPU 指令集架构，RISC-V 正快速追赶 X86 和 Arm，并进入 AI、服务器、车载等高价值领域。 达摩院在会上透露，玄铁 RISC-V 处理器通过架构创新、软件兼容与生态合作，显著提升在 AgenticAI 和服务器等领域的表现，推动高性能 RISC-V 从“可用”到“可靠”，迈向大规模量产落地。同时，发布面向自动驾驶和具身智能的处理器产品路线图，推动 RISC-V 进入全新领域。 据行业机构预测，RISC-V 处理器年出货量正保持 50% 的高速增长，到 2030 年市场占有率将达到约 25%。达摩院在今年 3 月发布玄铁 C950，刷新全球 RISC-V 性能纪录。 达摩院首席科学家…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -369,7 +545,7 @@
       "url": "https://www.ifanr.com/1684880",
       "summary": "好用到原地「起飞」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -458,7 +634,7 @@
       "url": "https://www.ifanr.com/1684608",
       "summary": "平台与伙伴并肩作战、克服困难，其中辛酸故事不为人知 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -503,7 +679,7 @@
       "url": "https://www.ifanr.com/1684869",
       "summary": "从零重写，两年从 1.0 追到 8.0。这是微信鸿蒙版，和它背后那群人的故事。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1813,7 +1989,7 @@
       "url": "http://www.geekpark.net/news/372509",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2039,7 +2215,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2529,7 +2705,7 @@
       "url": "https://www.ifanr.com/1684640",
       "summary": "家庭正在重新变成科技公司寻找下一个 AI 落点的地方 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2599,7 +2775,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2737,7 +2913,7 @@
       "url": "https://www.ifanr.com/1684619",
       "summary": "最后一辆给人开的特斯拉，起飞。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2965,7 +3141,7 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2987,7 +3163,7 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3009,7 +3185,7 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3141,7 +3317,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3410,7 +3586,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3522,7 +3698,7 @@
       "url": "https://www.ifanr.com/1684477",
       "summary": "一片树林里分出两条路，而我选了人迹更少的一条，因此走出了这迥异的旅途。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3637,7 +3813,7 @@
       "url": "https://www.ifanr.com/1684431",
       "summary": "终于来了！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3991,7 +4167,7 @@
       "url": "https://openai.com/index/sullivan-cromwell",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4524,7 +4700,7 @@
       "url": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4546,7 +4722,7 @@
       "url": "https://openai.com/index/sentinelone",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4836,7 +5012,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4858,7 +5034,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5262,7 +5438,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5570,7 +5746,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5790,7 +5966,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6129,7 +6305,7 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T13:07:13Z",
+      "fetched_at": "2026-10-19T19:53:58Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6436,72 +6612,6 @@
       "source_type": "media_rss",
       "url": "https://www.ithome.com/1/012/131.htm",
       "summary": "IT之家 10 月 13 日消息，Epic Games 指控苹果就其提出的 App Store 新佣金费率相关诉讼，人为制造程序暂停的局面，苹果对此予以否认。 IT之家注意到，在一份联合进度报告中，Epic Games 与苹果对苹果提交内部文件、说明其拟定 App Store 佣金费率依据的相关情况，给出了截然不同的说法。 回顾一下，今年 8 月，苹果针对通过 App Store 外部链接完成的交易，提出了一套全新佣金方案。 按照该方案，开发者需要支付的佣金比例为 5% 至 15%。此前法院裁定苹果必须允许开发者引导用户跳转至其他支付方式，苹果在 2024 年推出 27% 的佣金费率，本次新方案相比该费率有所下调。 之后法院认定苹果违反法院指令，苹果正寻求向最高法院推翻这一认定，主张该指令从未禁止苹果收取任何佣…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7bf9eb5e2d41db0185cf",
-      "title": "宝可梦联名：苹果 Beats 预热特别版 Pill 蓝牙音箱",
-      "published": "2026-10-12T15:28:28Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/127.htm",
-      "summary": "IT之家 10 月 12 日消息，苹果旗下品牌 Beats 今天在官方 X 账号发布视频，预热一款联名新品。 从视频中的轮廓我们不难看出，这款产品就是 Beats Pill 蓝牙音箱，随着画面中亮起几道闪电，音箱的设计细节也随之显现。视频最后出现了 Beats 和宝可梦的图标。 IT之家注意到，宝可梦系列最广为人知的角色“皮卡丘”曾在今年 8 月“到访”苹果总部 Apple Park，他那时候与时任苹果首席执行官蒂姆 · 库克、时任苹果硬件工程高级副总裁约翰 · 特努斯互动。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f127970b2788bdba55e0",
-      "title": "经典游戏《无人深空》将登陆苹果 iOS 平台，iPhone 11 以上即可游玩",
-      "published": "2026-10-12T14:33:29Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/111.htm",
-      "summary": "IT之家 10 月 12 日消息，开发商 Hello Games 今天宣布，《无人深空》游戏将在 10 月 28 日登陆苹果 iOS 平台，支持 iPhone 和 iPad。 IT之家了解到，《无人深空》是一款动作冒险生存游戏，发售于 2016 年 8 月，最初登陆 PS4、Windows 平台。玩家可以自由地在随机生成的确定性开放宇宙游玩，这其中包括数以兆计（1.8×10^19）的行星，许多行星都有自己的动植物群。 据 Hello Games 联合创始人肖恩 · 默里介绍，他们 2023 年将游戏移植到 Mac 后，就希望能够让本作在 iPhone 运行。 据悉，iOS 版《无人深空》拥有重新设计的触控屏操作，iPad 版还支持手柄、键盘和鼠标。最重要的是，这款游戏的大小不超过 5GB，能够在 iPhone …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2359330ed67432a75913",
-      "title": "小米 YU7 车型 OTA 推送 1.18.0 版本：新增安全车距提醒、超级小爱专家模式等",
-      "published": "2026-10-12T14:30:45Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/105.htm",
-      "summary": "IT之家 10 月 12 日消息，小米 YU7 车型今日 OTA 推送 1.18.0 版本，带来多项新增功能，并对领航辅助功能进行优化。 IT之家整理如下： 新增 QQ 音乐、网易云音乐歌词翻译，支持翻译的歌曲将在应用内的歌词页面展示翻译按钮，可开启、关闭歌词翻译并记忆状态 新增车外语音音量调节设置项 新增安全车距提醒功能 新增超级小爱专家模式 优化中控解锁逻辑，提升安全性 优化城市领航辅助功能的使用体验 优化高速领航辅助功能的使用体验 优化“端到端辅助驾驶”，升级更名为“全域领航辅助”，车位级领航功能覆盖更多热门商圈和写字楼，可领航直达电梯口、充电桩车位，通行更从容 小米首款 SUV 车型 —— YU7 于 2025 年 6 月 26 日发布，售价 25.35 万元起： YU7：售价 25.35 万元 YU7…",
       "summary_status": "excerpt",
       "fetched_at": "2026-10-13T02:00:09Z",
       "kind": "rss",
