@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-19T23:37:09Z",
-  "last_success_at": "2026-10-19T23:37:09Z",
+  "updated_at": "2026-10-20T04:45:29Z",
+  "last_success_at": "2026-10-20T04:45:29Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 14,
-      "skipped": 46,
-      "last_success_at": "2026-10-19T23:37:09Z",
-      "last_attempt_at": "2026-10-19T23:37:09Z"
+      "accepted": 9,
+      "skipped": 51,
+      "last_success_at": "2026-10-20T04:45:29Z",
+      "last_attempt_at": "2026-10-20T04:45:29Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 8,
       "skipped": 12,
-      "last_success_at": "2026-10-19T23:37:09Z",
-      "last_attempt_at": "2026-10-19T23:37:09Z"
+      "last_success_at": "2026-10-20T04:45:29Z",
+      "last_attempt_at": "2026-10-20T04:45:29Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-19T23:37:09Z",
-      "last_attempt_at": "2026-10-19T23:37:09Z"
+      "last_success_at": "2026-10-20T04:45:29Z",
+      "last_attempt_at": "2026-10-20T04:45:29Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1300,
       "accepted": 13,
       "skipped": 1287,
-      "last_success_at": "2026-10-19T23:37:09Z",
-      "last_attempt_at": "2026-10-19T23:37:09Z"
+      "last_success_at": "2026-10-20T04:45:29Z",
+      "last_attempt_at": "2026-10-20T04:45:29Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 6,
-      "skipped": 24,
-      "last_success_at": "2026-10-19T23:37:09Z",
-      "last_attempt_at": "2026-10-19T23:37:09Z"
+      "accepted": 7,
+      "skipped": 23,
+      "last_success_at": "2026-10-20T04:45:29Z",
+      "last_attempt_at": "2026-10-20T04:45:29Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,254 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-8ad9022be2de5c3e052f",
+      "title": "马斯克向特朗普的儿童储蓄账户捐款、美国财长公开致谢，总额已达 80 亿美元",
+      "published": "2026-10-20T03:12:00Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/213.htm",
+      "summary": "IT之家 10 月 20 日消息，美国财政部部长斯科特 · 贝森特（Scott Bessent）今日在 X 平台发文，感谢埃隆 · 马斯克为下一代投资。“已经有超过 80 亿美元（IT之家注：现汇率约合 535.49 亿元人民币）存入儿童账户，这笔非凡的捐赠将使这一总数更上一层楼。随着特朗普账户的持续发展，我们期待更多慈善家加入这一运动，帮助美国各地的儿童启动他们的财务未来。” Trump Accounts（特朗普账户）是特朗普政府推出的面向美国未成年人的普惠投资储蓄政策账户，核心目的是让美国儿童成年后获得一笔可观的投资积累。 根据特朗普账户官网介绍，2025 年至 2028 年出生的未成年人可获得美国联邦政府一次性发放的 1000 美元种子投资，家长、亲友每年合计最多可存入 5000 美元税后资金，雇主每年可…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f6d584388d15bdd893e0",
+      "title": "苹果收紧 App Store 开发者准则，严打 AI 不良内容与换皮“脱衣”应用",
+      "published": "2026-10-20T03:08:30Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/212.htm",
+      "summary": "IT之家 10 月 20 日消息，苹果于上周末收紧开发者准则，禁止两类应用：一类是利用 AI 生成冒犯性内容的应用；另一类是伪装成普通应用通过 App Store 审核，上架后变身脱衣类应用，或是重点展示相关功能的应用。 苹果更新了准则中关于 AI 和用户生成内容的严苛条款，明确要求开发者必须设置充足的防范机制，对不良或冒犯性内容实施内容审核。 苹果在一篇博客文章中写道：“托管用户生成内容的应用，必须过滤违规素材，为用户提供举报不良内容的渠道，并且支持用户拉黑违规账号。App Store 同样禁止含有隐藏功能、未在文档说明功能的应用，包括在审核阶段刻意隐瞒真实用途，获批后才解锁‘脱衣’这类有害能力的应用，这种手段就是常见的钓鱼式欺诈（bait-and-switch）。” 苹果表示，如果应用新增了提交审核版本中不…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e9596ba2558c3d89376f",
+      "title": "2028 款 iPhone 有望首发：消息称苹果重金锁定台积电 1.4 纳米首批产能",
+      "published": "2026-10-20T02:53:32Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/201.htm",
+      "summary": "IT之家 10 月 20 日消息，根据摩根大通最新研究报告，苹果公司计划重金提前锁定台积电 1.4 纳米产能，2028 年款 iPhone 有望成为首批搭载该工艺 A 系列芯片机型。 苹果上月发布基于 2 纳米工艺的 A20 Pro 芯片，用于新款 iPhone 18 Pro、iPhone 18 Pro Max 及折叠屏机型 iPhone Duo。研报称苹果并未因 2 纳米量产而放缓节奏，已经开始为两年后的 1.4 纳米芯片布局。IT之家附上相关研报截图如下： 图源：@OptionKing666 对普通用户而言，制程从 2 纳米进一步降至 1.4 纳米，通常意味着在同等芯片面积下可容纳更多晶体管，有望带来更强的性能、更低的功耗和更好的散热表现。在实际 iPhone 体验上，可能转化为更流畅的 AI 功能、更长的…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-f4f332d305b01d9c247f",
+      "title": "马斯克 2025 年特斯拉股权薪酬为 1584 亿美元，为员工薪酬中位数 250 万倍",
+      "published": "2026-10-20T02:37:40Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/191.htm",
+      "summary": "IT之家 10 月 20 日消息，据福布斯报道，特斯拉当地时间周一向美国证券交易委员会（SEC）提交的 14A 代理声明文件显示，埃隆・马斯克 2025 年从特斯拉获得的薪酬总额约 1,584 亿美元（IT之家注：现汇率约合 1.06 万亿元人民币），其中 CEO 绩效奖励最高价值 1,323 亿美元（现汇率约合 8,855.71 亿元人民币），临时奖励价值 261 亿美元（现汇率约合 1,747.05 亿元人民币）。 基于 135623 名符合统计条件员工的数据，2025 年特斯拉非高管普通员工的薪酬中位数为 62,786 美元（现汇率约合 42 万元人民币）。该数字高于 2024 年的 57,243 美元（现汇率约合 38.3 万元人民币）与 2023 年的 45,811 美元（现汇率约合 30.7 万元人…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-fcae8c982004e615d696",
+      "title": "小米米家高速吹风机 Mini 预售：11 万转 / 分钟高速电机，首销 199.7 元",
+      "published": "2026-10-20T02:33:18Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/190.htm",
+      "summary": "IT之家 10 月 20 日消息，小米米家高速吹风机 Mini 今日开始预售，建议零售价 299 元，首销到手价 199.7 元。 据介绍，这款新品整机重 270g（不含电源线），适配居家日常、差旅出行、健身通勤等多种场景；搭载 11 万转 / 分钟全新微型高速无刷电机，风速可达 62 米 / 秒；升级正负等离子双离子系统，实现护发 + 头皮洁净双重效果。 这款新品支持 2 挡风速可调，支持 4 挡风温可调，此外还有儿童模式；拥有粉色、紫色、米白色三种颜色可选，搭载磁吸进风过滤罩，电源线自带束线带方便收纳。 IT之家附这款新品详细参数如下： 京东小米米家高速吹风机 Mini 券后 199.66 元领 0.9 元券 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 11.…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f13f3e77a03b8fc5d875",
+      "title": "华为路由 X2 系列预售：书本设计、Wi‑Fi 7+、AI Mesh 组网，478 元起",
+      "published": "2026-10-20T02:29:15Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/187.htm",
+      "summary": "IT之家 10 月 20 日消息，华为路由 X2 系列今日开启预售，售价 478 元起： 华为路由 X2（白色）：478 元 华为路由 X2 双支装：888 元 华为路由 X2 Pro（大地棕、橡木白、石纹灰）：588 元 华为路由 X2 Pro 双支装（大地棕 & 橡木白）：1108 元 华为路由 X2 系列支持 Wi-Fi 7+，实现 100% 弱信号区域速率提升，卡顿降低 80%，同时带来星闪电竞专链、星闪蓝牙多模网关功能，支持全屋互联，可适配 3200+ 品牌、 400+ 品类智能设备。 华为路由 X2 系列搭载凌霄 760 系列芯片，与华为终端产品实现芯片级底层联调优化，有效降低兼容损耗，释放更强性能；采用 4 通道信号放大设计，自研凌霄芯片搭配 4 颗高性能信号放大器，从底层强化信号穿透力。 华为路…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4774b45fd5f421d23d3a",
+      "title": "特斯拉只能飞 5 秒？科学家称其为「放屁车」，联邦航空局：不符合航空器定义",
+      "published": "2026-10-20T02:18:01Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1684938",
+      "summary": "马斯克：我朝你放个屁。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-16609b9443ad9ce5a098",
+      "title": "小米 REDMI 手环 4 发售：续航最长 21 天，售价 169 元",
+      "published": "2026-10-20T02:14:11Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/151.htm",
+      "summary": "IT之家 10 月 20 日消息，小米 REDMI 手环 4 今日正式发售，定价 169 元。 REDMI 手环 4 可选黑、银两款配色，配备一体化金属质感中框、1.47 英寸 2.5D 60Hz 屏，续航最长 21 天、常规监测 8 天。 REDMI 手环 4 还配备全天候压力监测，多维健康指标管理，以及 50 项运动模式精准跟测，支持 5ATM 级防水。 REDMI 手环 4 也支持常规的消息提醒、更换表盘、微信支付宝扫码支付、闹钟等功能，IT之家附配置表如下： 京东小米 REDMI 手环 4169 元直达链接 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 11.11 无门槛红包 面额至高 26888 元，每天抽 1 次：点此抽红包。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-29b13c7eec88427aa8d1",
+      "title": "华为路由 X2 Pro 三种配色公布：书本设计，外壳磁吸安装能 DIY",
+      "published": "2026-10-20T01:50:37Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/122.htm",
+      "summary": "IT之家 10 月 20 日消息，华为终端 BG CEO 何刚今日正式公布了华为路由 X2 Pro 外观，新品共有大地棕、橡木白、石纹灰三种配色，新品外观像一本书，外壳还能 DIY，跟着家里装修风格自由搭配。 此外，这款路由器支持 Wi‑Fi 7+、AI Mesh 组网，支持多台路由协同工作，全屋网络覆盖更稳。 IT之家附三种配色官图如下： 相关阅读： 《华为路由 X2 Pro 官宣接入智慧生活 App，新品上市时间待定》",
+      "summary_status": "source",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-18ea1d028ba713c30345",
+      "title": "最强小米金沙江电池：REDMI K100 手机搭载 10000mAh 电池，-20°C 下可提供稳定高性能体验",
+      "published": "2026-10-20T01:21:07Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/102.htm",
+      "summary": "IT之家 10 月 20 日消息，小米 REDMI K100 手机已定档 10 月 27 日晚 7 点，官方今日对新品进行预热，官宣 REDMI K100 手机搭载 10000mAh 小米金沙江电池。 该电池达 28% 硅碳含量、957Wh/L 能量密度；在-20°C 低温下仍可提供稳定高性能体验，官方称之为“最强小米金沙江电池”。 IT之家整理小米 REDMI K100 标准版已公布 / 曝光配置如下： 性能：骁龙 8 至尊版 | 游戏独显 D2 屏幕：6.83 英寸大屏 | 升级 165Hz 刷新率 | 3500nits 超高亮度 | 小米青山护眼 4.0 触控：480Hz 多指触控报点率 | 3500Hz 瞬时触控采样率 电池：10000mAh 电池 | 支持 100W 快充 系统：出厂搭载小米澎湃 OS…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3cd5e2c1ef6395ccdc00",
+      "title": "苹果新发布会官宣：iPad mini 终于配「高刷」，MacBook 要能「上手」了",
+      "published": "2026-10-20T01:00:07Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1684978",
+      "summary": "真·高端局 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-20T04:45:29Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-22b4c77dfc40ead84533",
       "title": "听歌支持动态氛围光：苹果第二代 HomePod 等扩展支持“音乐律动灯效”",
@@ -453,7 +701,7 @@
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -541,7 +789,7 @@
       "url": "https://www.ifanr.com/1684921",
       "summary": "给屏幕装上脖子 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -611,7 +859,7 @@
       "url": "https://www.ifanr.com/1684880",
       "summary": "好用到原地「起飞」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -700,7 +948,7 @@
       "url": "https://www.ifanr.com/1684608",
       "summary": "平台与伙伴并肩作战、克服困难，其中辛酸故事不为人知 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -745,7 +993,7 @@
       "url": "https://www.ifanr.com/1684869",
       "summary": "从零重写，两年从 1.0 追到 8.0。这是微信鸿蒙版，和它背后那群人的故事。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2055,9 +2303,16 @@
       "url": "http://www.geekpark.net/news/372509",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
-      "report_type": "report"
+      "report_type": "report",
+      "alternate_sources": [
+        {
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/372583",
+          "published": "2026-10-20T01:34:14Z"
+        }
+      ]
     },
     {
       "id": "rss-d7739b950a9364e56e64",
@@ -2281,7 +2536,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2771,7 +3026,7 @@
       "url": "https://www.ifanr.com/1684640",
       "summary": "家庭正在重新变成科技公司寻找下一个 AI 落点的地方 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2841,7 +3096,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2979,7 +3234,7 @@
       "url": "https://www.ifanr.com/1684619",
       "summary": "最后一辆给人开的特斯拉，起飞。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3207,7 +3462,7 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3229,7 +3484,7 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3251,7 +3506,7 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3383,7 +3638,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3652,7 +3907,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4233,7 +4488,7 @@
       "url": "https://openai.com/index/sullivan-cromwell",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4766,7 +5021,7 @@
       "url": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4788,7 +5043,7 @@
       "url": "https://openai.com/index/sentinelone",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5078,7 +5333,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5100,7 +5355,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5504,7 +5759,7 @@
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5812,7 +6067,7 @@
       "url": "http://www.geekpark.net/news/372302",
       "summary": "头图来源：Apple 官网 北京时间 10 月 13 日晚，苹果召开了一次主题为「欢迎回家」的新品发布会，苹果这次放进客厅的新东西，是一块 7 英寸的屏幕。 它叫 Apple HomeView，美国售价 299 美元，10 月 13 日开放预订，11 月 13 日上市，一同曝光的还有第四代 Apple TV 4K、HomePod mini 2。三款产品在海外都以新一代 Siri AI 为卖点，但音箱要等后续软件更新才能用上。同期发布的，还有 Apple Home Collection 智能家居配件系列。 HomePod 和 Apple TV 早已支持家庭控制，HomePod 也有声音识别和个人请求。HomeView 给了 Siri 一块全家共用的屏幕，可以放在厨房台面、床头柜上，也可以装在玄关的墙上。 这次产品…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6032,7 +6287,7 @@
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "summary_status": "source",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6371,207 +6626,9 @@
       "url": "http://www.geekpark.net/news/372284",
       "summary": "头图来源：视觉中国 上线不到一年，字节跳动旗下的短剧 App PineDrama，累计下载量已经突破 1 亿次。 10 月 12 日，Sensor Tower 的一组数据让短剧赛道再添热度：字节跳动旗下海外短剧应用 PineDrama 累计下载量已突破 1 亿次，日活跃用户约 700 万，仅 2026 年 9 月单月下载量就超过 1200 万次。 距离这款产品正式上线，才刚过去 9 个月。在全球累计下载破亿的 7 款独立短剧 App 里，PineDrama 是唯一一款上线不足一年的新品。这让人很自然地联想到它的国内「前辈」——红果短剧，那个用三年时间做到日活 1.68 亿、超过四家长视频平台总和的现象级产品。 字节已经用红果在国内把免费短剧做成了大众娱乐产品，如今，它能否在海外再做一遍？ 从红果到 PineDr…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-19T23:37:09Z",
+      "fetched_at": "2026-10-20T04:45:29Z",
       "kind": "rss",
       "report_type": "report"
-    },
-    {
-      "id": "rss-8f749db873287413551e",
-      "title": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
-      "published": "2026-10-13T01:59:42Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/176.htm",
-      "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 徐松余谈到了华为最新的韬定律和逻辑折叠路线，韬定律首次应用于麒麟 9050 系列，在性能 / 能效上获得了可观的收益。 徐松余表示，麒麟 9050 系列作为首款逻辑折叠的韬芯片，开启未来 10 年新征程。从 PPT 可以看到，华为目标在 2031 年实现 P 核频率突破 5GHz。 IT之家在沟通会现场获悉，麒麟 9050 系列在 AI 方面也取得了进步，是麒麟首个原生 AI Phone 平台。麒麟 9050 Pro 搭载新一代达芬奇架构 NPU、灵犀微核，AI 性能提升 140%、功耗降低 66%。 麒麟 9050 系列实现业界首个 30B …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-af6b179ecd534bbb88a0",
-      "title": "华为徐松余：麒麟 9030 系列是中国半导体产业的一座“高峰”，是各方努力的大成之作",
-      "published": "2026-10-13T01:42:43Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/169.htm",
-      "summary": "IT之家 10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线终端芯片产品管理部部长徐松余发表演讲。 IT之家在发布会现场获悉，徐松余首先谈到了华为麒麟处理器的过往，从 2012 年的 K3V2 开始，一直到 2020 年的全球首款 5nm 5G SoC 麒麟 9000。 之后，麒麟 9030 系列于 2025 年 11 月 25 日随华为 Mate 80 系列手机首次亮相。徐松余表示，麒麟 9030 系列是中国半导体产业的一座“高峰”，是各方努力的大成之作，CPU 性能提升 25%、GPU 性能提升 40%、NPU 算力提升 70%。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7d272eb3951a0c94182f",
-      "title": "消息称 OpenAI 计划“复活”Sora：换赛道进军 AI 专业影视工具",
-      "published": "2026-10-13T01:38:41Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/168.htm",
-      "summary": "IT之家 10 月 13 日消息，科技媒体《The Information》昨日（10 月 12 日）报道，OpenAI 正与一家专注于电影制作 AI 视频技术的隐身初创公司谈判，计划将此前已停运的视频生成模型 Sora 移交给该公司，让其以专业影视工具的形式重新进入市场。 IT之家援引博文介绍，这家初创公司由好莱坞制片人杰弗里 · 卡岑伯格（Jeffrey Katzenberg）、Sora 前研究负责人比尔 · 皮布尔斯（Bill Peebles）以及 Dropbox 前首席财务官苏杰 · 贾斯瓦（Sujay Jaswa）于数月前创立，公司名称尚未公开。 合作方面，根据博文披露的细节，这家初创公司计划接管并改造 Sora 平台，并基于该技术开发、销售面向影视制作方的软件或服务。双方尚未敲定合作条款；目前也不清…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-294ba25d98af7655fc2e",
-      "title": "9 年前英伟达 Tesla V100 老将再战：4 GPU 集群 AI 推理跑赢 2 台 DGX Spark",
-      "published": "2026-10-13T01:18:41Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/165.htm",
-      "summary": "IT之家 10 月 13 日消息，YouTube 频道 Jun Yamog 昨日（10 月 12 日）发布视频，测试将 4 张 Tesla V100 安装于 NVLink 载板，在 Qwen3.8-Flash-Next 基准中，长提示处理速度较 M5 Ultra 快 230%，较 2 台 DGX Spark 快 40%。 IT之家查询公开资料，Tesla V100 是英伟达于 2017 年推出的数据中心 GPU，基于 Volta 架构，常用于 AI 训练与推理。其 32GB 版本配备 HBM2 显存，900GB/s 显存带宽可支持大模型参数与数据的快速读取。 NVLink 是英伟达的 GPU 高速互联技术，用于在多颗 GPU 之间直接传输数据。相比通过 PCIe 通信，NVLink 可降低互联瓶颈，常用于多 G…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4348e8a49e4bf5ee09f0",
-      "title": "3 个月、超 5000 亿词元：AI 重建 2009 年《现代战争 2》源代码，83% 与原版逐字节匹配",
-      "published": "2026-10-13T00:48:06Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/149.htm",
-      "summary": "IT之家 10 月 13 日消息，开发者莫里斯・霍伊曼（Maurice Heumann）于 10 月 9 日发布项目报告，团队历时 3 个月，消耗超过 5000 亿词元（Tokens），调用 AI 智能体反编译 2009 年《使命召唤：现代战争 2》游戏，并重建为 C++ 源代码。 团队成员方面，该项目由霍伊曼主导，得到了 RektInator、Future、st0rm 及其他社区成员的协助。 AI 调用方面，团队最初同时使用 Claude Max (20x) 与 Codex Pro 订阅，在 Claude Code CLI 和 Codex CLI 中运行 AI 智能体。模型涵盖 Sonnet 5、Opus 5.5、Luna、Sol 与 Terra，智能体通过 GitHub Issues 追踪任务，并经 Dis…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-52b8176c454f85383dd7",
-      "title": "苹果 Vision Pro 首部沉浸式恐怖电影：《Remnants》本周五首播",
-      "published": "2026-10-13T00:31:33Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/148.htm",
-      "summary": "IT之家 10 月 13 日消息，科技媒体 9to5Mac 昨日（10 月 12 日）发布博文，报道称苹果官宣将于 10 月 16 日本周五上线 Vision Pro 首部沉浸式恐怖电影《Remnants》。影片在 Apple TV App 独家首播，仅面向 Vision Pro 用户开放。 剧情方面，《Remnants》由编剧兼导演 Ti West 创作，影片将观众置于 Woldmere Castle 内部，并呈现 Ti West 构建的恐怖世界。 格式方面，该片采用 Apple Immersive 视频格式，提供 180 度沉浸式画面，让观众仿佛处于影片场景之中。Apple Immersive 已用于体育赛事直播和纪录片式短片，这是首次覆盖恐怖电影类型。 苹果同步发布预告视频，并展示真实观众观看影片时的反应…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e51ec2e69e32aa672c0c",
-      "title": "苹果启动独立游戏周，《师父》《无人深空》等 7 款游戏首次登陆 App Store",
-      "published": "2026-10-13T00:19:56Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/147.htm",
-      "summary": "IT之家 10 月 13 日消息，苹果公司昨日（10 月 12 日）发布公告，宣布启动 App Store 独立游戏周（App Store Indie Games Week），向全球用户展示由独立开发者制作的游戏作品。 IT之家援引博文介绍，本次首批登陆 App Store 的作品包括 7 款游戏作品： 《师父》（Sifu） 《小猫咪，大城市》（Little Kitty, Big City） 《无人深空》（No Man’s Sky） 《穹顶守护者》（Dome Keeper） 《吸血鬼爬行者》（Vampire Crawlers） 《是的，陛下 2：雪落》（Yes, Your Grace 2: Snowfall） 《九王》（9 Kings） 《师父》由 Sloclap 与 Kepler Interactive 推出…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d51ec7fdb07da531783a",
-      "title": "连线：苹果 iOS 27 拯救濒危语言，让其“住进”iPhone 18 Pro 等手机里",
-      "published": "2026-10-13T00:08:13Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/145.htm",
-      "summary": "IT之家 10 月 13 日消息，《连线》昨日（10 月 12 日）发布博文，报道称在 iOS 27 系统官方输入法中，苹果公司进一步扩展支持原住民语言，新增支持黑脚语（Blackfoot）、科曼奇语（Comanche）和东北克里语（Northern East Cree）。 博文指出目前 iPhone 18 Pro 等机型支持超过 200 种语言输入，苹果通过与原住民社区长期协作，为切罗基语等濒危语言提供键盘、字符与输入体验支持。 苹果公司深化和切罗基族（Cherokee Nation）的合作，切罗基语于 2010 年进入 iOS，成为首个获支持的美国原住民语言。切罗基族目前约有 1,500 名活跃使用者，其中多数超过 70 岁，社区正通过沉浸式课程培养第二语言学习者。 IT之家查询公开资料，切罗基族是美国规模…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-5721041a3bbf69231287",
-      "title": "摩根大通称驳斥苹果 iPhone 18 Pro 系列订单削减传闻，称需求高于 iPhone 17 Pro",
-      "published": "2026-10-12T23:56:15Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/143.htm",
-      "summary": "IT之家 10 月 13 日消息，科技媒体 AppleInsider 昨日（10 月 12 日）发布博文，报道称摩根大通驳斥 iPhone 18 Pro 需求疲软并削减订单的报道，将苹果（AAPL）目标股价从 340 美元上调至 360 美元（上调 20 美元）。 在 10 月 12 日发布的投资者报告中，摩根大通驳斥有关苹果因 iPhone 18 Pro 需求低迷而削减订单的报道，并建议投资者关注更长期的基本面。 摩根大通此前曾因供应受限担忧，在 2026 年 7 月将苹果目标股价下调至 340 美元（IT之家注：现汇率约合 2,278 元人民币）。针对近期订单削减传闻，该行分析师称，相关变化未超出苹果每年例行的生产调整范围。 该行同时下调苹果 12 月季度业绩预期，不过将原因归结为 2026 年 iPhon…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T02:00:09Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
     }
   ],
   "collection_status": "ok"
