@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-20T21:34:59Z",
-  "last_success_at": "2026-10-20T21:34:59Z",
+  "updated_at": "2026-10-21T00:36:33Z",
+  "last_success_at": "2026-10-21T00:36:33Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 14,
-      "skipped": 46,
-      "last_success_at": "2026-10-20T21:34:59Z",
-      "last_attempt_at": "2026-10-20T21:34:59Z"
+      "accepted": 19,
+      "skipped": 41,
+      "last_success_at": "2026-10-21T00:36:33Z",
+      "last_attempt_at": "2026-10-21T00:36:33Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 8,
       "skipped": 12,
-      "last_success_at": "2026-10-20T21:34:59Z",
-      "last_attempt_at": "2026-10-20T21:34:59Z"
+      "last_success_at": "2026-10-21T00:36:33Z",
+      "last_attempt_at": "2026-10-21T00:36:33Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-20T21:34:59Z",
-      "last_attempt_at": "2026-10-20T21:34:59Z"
+      "last_success_at": "2026-10-21T00:36:33Z",
+      "last_attempt_at": "2026-10-21T00:36:33Z"
     },
     {
       "id": "openai",
@@ -69,10 +69,10 @@
       "publisher_id": "openai",
       "status": "ok",
       "feed_items": 1302,
-      "accepted": 14,
-      "skipped": 1288,
-      "last_success_at": "2026-10-20T21:34:59Z",
-      "last_attempt_at": "2026-10-20T21:34:59Z"
+      "accepted": 13,
+      "skipped": 1289,
+      "last_success_at": "2026-10-21T00:36:33Z",
+      "last_attempt_at": "2026-10-21T00:36:33Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 5,
       "skipped": 25,
-      "last_success_at": "2026-10-20T21:34:59Z",
-      "last_attempt_at": "2026-10-20T21:34:59Z"
+      "last_success_at": "2026-10-21T00:36:33Z",
+      "last_attempt_at": "2026-10-21T00:36:33Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,238 @@
   ],
   "news": [
     {
+      "id": "rss-cd08c4d5e79c528904dd",
+      "title": "10 月 23 日发售，苹果 iPhone Duo 首个开箱视频流出",
+      "published": "2026-10-21T00:30:28Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/646.htm",
+      "summary": "IT之家 10 月 21 日消息，距离 iPhone Duo 正式开售只剩短短几天，有博主提前拿到了真机，网上已经流出该机的首个开箱视频。 iPhone Duo 出厂为平整展开状态，而非折叠收纳；外包装和普通 iPhone 保持一致，没有特殊设计。 iPhone Duo 真机评测稿件将于明日正式解禁上线；机型正式发售日期为 10 月 23 日。苹果官网线上预订的新机，发货时间已经排到次年 1 月 25 日，等待周期极长。 IT之家注意到，线下门店现货同样紧张：苹果官网提示用户等到 24 日再查询门店库存；多名直营店员工接到通知，首发当天基本没有现货，不支持直接到店购买。日本、韩国、阿联酋等地区明确规定：iPhone Duo 仅对持有预约提货资格的顾客开放，不开放无预约到店购机。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ce494858ebf40f1d8842",
+      "title": "马斯克：SpaceX 与特斯拉的 Terafab 项目计划 2028 年实现芯片量产",
+      "published": "2026-10-21T00:08:34Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/640.htm",
+      "summary": "IT之家 10 月 21 日消息，埃隆 · 马斯克（Elon Musk）在当地时间周二的 SpaceX 电话会议上表示，SpaceX 与特斯拉合资成立的芯片制造企业 Terafab 计划在 2028 年第三季度实现量产。 谈及这份时间表时，马斯克称：“我给这个目标预留了很大的误差区间，因为我们不确定最终能否如期达成。” 该项目计划每年产出 1 太瓦算力，供给人工智能与机器人业务使用，这份时间表本身被马斯克评价为“极具挑战性”。在美国，一座前沿逻辑芯片工厂的建设周期通常需要三年甚至更久。 马斯克介绍，这座规划设在得克萨斯州的综合厂区，将在同一园区内完成先进逻辑芯片与存储芯片的制造、封装和测试。 马斯克在周二透露，Terafab 的内部目标是，明年 5 月或 6 月前后，在位于奥斯汀的 Terafab 研发基地产出…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0d6fcc10a2a9cf0b3639",
+      "title": "英监管机构要求苹果降低非接触式支付接入门槛，并允许竞争对手入局",
+      "published": "2026-10-20T23:50:44Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/635.htm",
+      "summary": "IT之家 10 月 21 日消息，据路透社报道，当地时间 20 日，英国竞争与市场管理局提出一项新方案，计划要求苹果降低收费、取消技术限制，削弱苹果在非接触式支付领域的控制力，让其他支付服务能够与 Apple Pay 竞争。 英国竞争与市场管理局称，新方案有望大幅降低开发者接入苹果非接触式支付技术的费用，同时减少技术接入障碍。 英国的监管要求比欧盟 2024 年实施的措施宽松。当时，欧盟要求苹果向第三方开发者免费开放技术。英国竞争与市场管理局称，此后，PayPal、Klarna、Curve 和 BBVA 等企业陆续推出了其他支付应用。 按照欧盟的要求，苹果必须允许数字钱包开发者利用主机卡模拟技术，直接调用 iPhone 的近场通信（NFC）芯片。借助该技术，第三方应用无需经过 Apple Pay 或苹果钱包，就…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-61b067e0a62a6c04d241",
+      "title": "马斯克：SpaceX 可能在 2028 年实现 1 万亿美元营收",
+      "published": "2026-10-20T23:46:22Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/634.htm",
+      "summary": "IT之家 10 月 21 日消息，当地时间 10 月 20 日，埃隆 · 马斯克在社交平台发文称，“尽管这听起来很疯狂，但 SpaceX 在 2028 年实现 1 万亿美元（IT之家注：现汇率约合 6.69 万亿元人民币）营收已不再是不可能的事。” 同日，SpaceX 公布 2026 年第三季度业绩：营收 146 亿美元（现汇率约合 977.27 亿元人民币），同比增长 161%；净利润 44 亿美元（现汇率约合 294.52 亿元人民币），上年同期净亏损 11 亿美元（现汇率约合 73.63 亿元人民币）；调整后 EBITDA 为 88 亿美元（现汇率约合 589.04 亿元人民币），同比增长 306%。其中，太空业务营收为 18 亿美元（现汇率约合 120.49 亿元人民币），环比增长 84%，同比增长 6…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d15c16ce06f8ee083e75",
+      "title": "OpenAI 增强 AI 模型攻克冷门编程语言，COBOL 迁移准确率飙至 97.9%",
+      "published": "2026-10-20T23:45:48Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/633.htm",
+      "summary": "IT之家 10 月 21 日消息，OpenAI 公司昨日（10 月 20 日）发布研究报告，称增强 GPT-6 Astra 等模型构建和迁移 COBOL、Fortran、Visual Basic 等“低资源编程语言”的能力。这类语言虽然公开代码和文档较少，却广泛支撑银行、ATM、天气预报和核安全分析等关键系统。 为衡量能力，OpenAI 推出两项评测：MultiLangBench 要求模型用 20 种语言从零构建兼容 SQLite 的数据库引擎；另一项评测则要求模型保持原有业务行为不变的情况下，将 COBOL 程序迁移至 C++、Java、Python、Rust 等语言。 结果显示，GPT-6 Astra 在 MultiLangBench 的 20 种语言中平均测试通过率达 87.4%，较 GPT-5.6 So…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4779798937871a575c05",
+      "title": "OpenAI 为 ChatGPT 推出聊天上锁功能，通过 PIN 码、生物识别保护敏感对话",
+      "published": "2026-10-20T23:22:26Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/629.htm",
+      "summary": "IT之家 10 月 21 日消息，OpenAI 于当地时间周二宣布，用户现在可以为 ChatGPT 对话上锁。当其他人有可能看到屏幕或使用自己设备时，这项功能能够保护敏感对话的隐私。用户可以设置四位数字 PIN 码保护锁定对话，在支持的设备上也可以使用面容 ID（Face ID）或触控 ID（Touch ID）。 据IT之家了解，该功能和应用内的临时对话不同，临时对话属于独立会话，不会出现在聊天记录里，而锁定对话支持用户随时回看。 OpenAI 表示，这项功能面向这类场景：用户正在讨论私人事项或是策划惊喜，需要把相关对话保护起来，之后把设备交给亲友，向对方展示其他对话里的内容。 随着越来越多人用 ChatGPT 进行私人交流，锁定对话功能为其新增了一层隐私防护。当然，锁定对话虽然可以限制他人访问，但无法解决用户…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-72b7e766646f83c60ebf",
+      "title": "马斯克：未来某天金钱将毫无意义，传统货币也不再重要",
+      "published": "2026-10-20T23:21:49Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/628.htm",
+      "summary": "IT之家 10 月 21 日消息，据《商业内幕》今天（21 日）凌晨报道，特斯拉和 SpaceX CEO、全球首富埃隆 · 马斯克认为，金钱有一天可能变得毫无意义，而他的巨额财富也很可能在几代人后所剩无几。 马斯克预测，随着机器人技术和太空旅行的发展，跨行星经济体系将逐渐形成，届时金钱会失去意义，传统货币也不再重要。未来衡量价值的标准，将是物质质量、功率或能量。 今年早些时候，马斯克曾建议人们不必再为 10 年或 20 年后的退休生活攒钱，因为他相信 AI 等技术会极大提高生产力，让社会进入物质极大丰富的时代，人们可以得到任何想要的东西。 马斯克在最新的采访中重申了这一观点：人类能做的所有事情，AI 和机器人都能做得更好。届时人们很可能会通过种植水果和蔬菜、艺术创作等爱好寻找生活的意义。 SpaceX 于 6 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-36e1e5de7fea1919cc63",
+      "title": "地表最强科技联姻：马斯克称特斯拉与 SpaceX 合并“有很多好处”",
+      "published": "2026-10-20T23:08:36Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/625.htm",
+      "summary": "IT之家 10 月 21 日消息，彭博社今天（10 月 21 日）发布博文，报道称在 2026 财年第三财季（2026 年 7 月～2026 年 9 月）财报电话会上，全球首富埃隆 · 马斯克表示 SpaceX 与特斯拉均已成立由独立董事组成的特别委员会，研究两家公司潜在合并的可能性。 若交易最终落地，有望成为有史以来规模最大的企业合并。马斯克称，合并“有很多好处”，尤其是在双方共同开发“超级智能”（SI）软件、推进人工智能与自动驾驶等业务方面，合作空间巨大。不过他强调，目前两家公司的委员会尚未就交易条款达成一致，合并并不确定。 由于马斯克同时担任两家公司首席执行官，并持有大量股权，他表示自己属于利益冲突方，不会参与委员会讨论。两家公司董事会是在股东要求下设立特别委员会，以评估交易方案。从程序上看，交易仍面临较…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f51245fc49923b1035be",
+      "title": "新任 CEO 特努斯：设计仍是苹果的首要任务，产品也要有奇思妙想",
+      "published": "2026-10-20T22:54:33Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/622.htm",
+      "summary": "IT之家 10 月 21 日消息，昨日（10 月 20 日）接受《时代》（Time）杂志采访时，苹果现任首席执行官约翰 · 特努斯（John Ternus）表示，设计依然是苹果公司的核心，尊重用户、打造真正有益的产品是“首要任务”。他强调，苹果不会因技术趋势或新角色而改变自己的工作方式。 IT之家附上相关采访视频如下： 特努斯 25 年前以产品设计团队成员身份加入苹果，在工业设计领域摸爬滚打多年，拥有丰富的设计经验。在采访中，特努斯认为苹果的独特之处在于硬件与软件设计师都理解工程，而工程师也深刻理解设计，这种跨领域协作是苹果产品体验的重要基础。 图源：苹果 在特努斯看来，“设计就是它如何运作”这一理念并未过时。他表示，随着新技术出现，产品机会和具体形态会不断演变，但苹果内部以设计为中心、以用户尊重为前提的协作方…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-767d0812742dd0d4449f",
+      "title": "OpenAI 宣布收购 AI 生物科技初创企业 Orchestra Bio",
+      "published": "2026-10-20T22:51:11Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/015/621.htm",
+      "summary": "IT之家 10 月 21 日消息，OpenAI 于当地时间周二宣布，收购成立四年的人工智能生物科技软件初创企业 Orchestra Bio，相关消息由该公司在官网发布。本次交易的具体条款并未对外披露，但有报道称，截至 2025 年，这家初创公司已从安德里森 · 霍罗威茨（Andreessen Horowitz）、阿特里亚（Atria）和 8VC 等投资方筹集约 2,000 万美元（IT之家注：现汇率约合 1.34 亿元人民币）资金。 Orchestra Bio 开发 AI 智能体，助力生物科技企业管理药物研发业务中的各类细碎工作，涵盖资金追踪，以及解决临床试验的排期问题。 OpenAI 表示，将吸纳 Orchestra Bio 的团队与技术，投入 Rosalind 项目的研发。Rosalind 是该公司面向生命…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-21T00:36:33Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-6dbfb2e0881876947b7d",
       "title": "1 亿目标近在咫尺：曝华为鸿蒙 HarmonyOS 系统装机量突破 9500 万台",
       "published": "2026-10-20T15:57:50Z",
@@ -189,7 +421,7 @@
       "url": "https://www.ithome.com/1/015/614.htm",
       "summary": "IT之家 10 月 20 日消息，奇妙工具箱今日数据显示，华为鸿蒙 HarmonyOS 操作系统装机量突破 9,500 万台，目前约 95,288,247 台。 据IT之家此前报道，在今年 3 月的直播中，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东透露，鸿蒙系统用户规模正经历急剧增长，预计将在今年冬季前突破 1 亿大关。 另外，在 10 月 1 日的华为 Mate 90 系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，鸿蒙 HarmonyOS 6 | HarmonyOS 7 终端设备数突破 9000 万。 华为官网披露，截至 2026 年 6 月，全球鸿蒙开发者规模已超 1100 万，华为应用市场可获取的鸿蒙应用与服务数量突破 38 万。第三方数…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +443,7 @@
       "url": "https://www.ithome.com/1/015/613.htm",
       "summary": "IT之家 10 月 20 日消息，华为官网迎来更新，详细介绍了 Wi-Fi 7+ 端到端芯片解决方案。 华为官网显示，基于标准 Wi-Fi 7 协议，华为 Wi-Fi 7+ 依⁠托凌霄 760 系列路由与终端芯片，构筑端到端同源架构。通过芯片级底层协⁠议的深度协同与联合调试，消除异构芯⁠片间的兼容损耗，实现“1+1＞2”的性⁠能提升。 其中，凌霄 760 芯片应用于华为路由（属于 Wi-Fi 芯片）、凌霄 760M 芯片应用于华为手机、平板终端设备（属于短距通信芯片）。 IT之家附华为 Wi-Fi 7+ 技术点如下： 动态窄频宽 路由器和手机的功率存在差异，在穿墙或⁠者远距离时，路由的信号能到手机，但手机回传的信号到不了路由器，则导致数据传⁠输失败。手机明明有信号，但却上⁠不了网，这就是常见的家庭 Wi-Fi“…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +465,7 @@
       "url": "https://www.ithome.com/1/015/607.htm",
       "summary": "IT之家 10 月 20 日消息，据科技媒体 Sammobile 今天报道，三星马来西亚总裁 Charles Kim 接受采访时表示，他乐于看见苹果 iPhone Duo 等竞争对手入局折叠屏手机市场。 Charles Kim 表示：“三星已经在 2019 年推出首款折叠屏手机 Galaxy Fold。如今其他品牌纷纷进入这一赛道，恰恰说明我们早年的理念，越来越受到移动行业重视。” IT之家从原报道了解到，这名总裁认为，折叠屏手机过去是相对小众的消费品类。今年市场格局迎来变化，越来越多品牌加入这一领域。折叠屏手机的市场认可度正不断提高，竞争也随之加剧。 他还认为，竞争将让整个行业继续突破：“竞争正是推动我们不断学习、持续改进每一代 Z 系列产品的关键因素。” 此外 Charles Kim 还表示，现在市场的焦点…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +487,7 @@
       "url": "https://www.ithome.com/1/015/599.htm",
       "summary": "IT之家 10 月 20 日消息，苹果公司今日发布新闻稿，宣布与多家美国公司建立新合作关系，为 iPhone 18 Pro 和 iPhone Duo 等产品提供关键组件。 苹果确认，公司将于今年晚些时候开始，在美国得克萨斯州休斯敦先进制造中心（AMC）组装 Mac mini。 IT之家注意到，苹果运营主管 Sabih Khan 曾在今年表示，美国组装的 Mac mini 将主要供应美国市场，海外市场订单仍将继续由亚洲工厂生产。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +509,7 @@
       "url": "https://www.ithome.com/1/015/597.htm",
       "summary": "IT之家 10 月 20 日消息，小米智能生态今日宣布，小米智能门锁 5 Max 系列全新升级服务标准： 整机保修从 3 年升级至 5 年 一站式免费送拆装，24 小时服务保障 全链路智能看管，从“AI 勘测”到“一键自检” 京东小米智能门锁 5 Max 国补价 2999.65 元起领 400 元券 据IT之家此前报道，小米智能门锁 5 Max 已于 9 月 23 日 20:00 正式开售，提供标准版和内外双摄版两个版本可选，国补价 2999.65 元起。相较于标准版，内外双摄版首发 UWB 近场无感开锁技术，授权设备靠近门锁一握即开。 该门锁采用桥式结构，面板经 AG 工艺处理，匹配玻璃质地把手，结合悬浮面板与环形灯带设计，能融入多种家居风格；提供“12 种开锁方式”，主打 AI 3D 人脸及掌静脉识别解锁；…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -299,7 +531,7 @@
       "url": "https://www.ithome.com/1/015/591.htm",
       "summary": "IT之家 10 月 20 日消息，据科技媒体 MacObserver 今天报道，苹果 iOS 27.2 RC 系统的家庭 App 新增一项功能，可完全禁用 HomePod 顶部的触控板。 IT之家注意到，该功能位于家庭 App 的设备设置中。打开 App 并选择对应设备后，用户就能在辅助功能选项里看到“锁定控制”开关。启动后，音箱顶部的触控区域将被完全禁用。 开启该功能后，孩子或宠物再也无法触碰音箱顶部暂停音乐，用户也可以直接擦拭触控板表面，而不必担心音乐响起或 Siri 被唤醒。当然，遇到触控失灵的 HomePod 也可以使用这个功能。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +553,7 @@
       "url": "https://www.ithome.com/1/015/588.htm",
       "summary": "iPhone 18 Pro Max 上市价 10999 元，iPhone 18 Pro上市价 9999 元，今日京东 11.11 直降 300 元。 以旧换新（非数码类估值满 20 元即可）政府补贴 10%，单笔补贴上限 1000 元，仅需 8729 元 / 9699 元起 12 期免息。 京东 11.11 红包至高 26888 元无门槛可用，每天可抽一次：点此抽取。 下单时选择“以旧换新” → 焕新小电 / 鼠标等 → 例如选个“德尔玛吸尘器”估值 20 元 → 选择“送新品，单独回收旧品”即可。 京东 iPhone 18 Pro Max 以旧换新今日补贴千元以旧换新 9699 元起领 300 元券京东 iPhone 18 Pro 以旧换新今日补贴 10% 以旧换新 8729 元起直达链接 旧机补贴随时更改，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -343,7 +575,7 @@
       "url": "https://www.ithome.com/1/015/584.htm",
       "summary": "IT之家 10 月 20 日消息，9to5mac 今日发现，苹果自助维修商店新上架了 iPhone 18 Pro 系列及新款 Mac 零件，用户现可购买原厂替换部件和维修工具，涉及 iPhone 18 Pro、iPhone 18 Pro Max，以及搭载 M5 Max、M5 Ultra 的 Mac Studio 和搭载 M6、M5 Pro 的 Mac mini。 IT之家注：苹果自助维修计划于 2022 年推出，允许符合条件的用户购买或租赁维修工具，并根据官方维修手册自行更换设备部件。 对于 iPhone 18 Pro 和 iPhone 18 Pro Max，新增可购买的零件包括后玻璃、电池、底部扬声器、后置摄像头、显示屏、机身外壳、前置摄像头、主板、主麦克风、SIM 卡托、触觉反馈马达 Taptic Engi…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -365,7 +597,7 @@
       "url": "https://www.ithome.com/1/015/583.htm",
       "summary": "IT之家 10 月 20 日消息，据博主 @新出行贺磊 分享，华为乾崑最近的智驾用户开通费的问题开始遇到阻力，他们也在积极地调研中。 该博主透露，华为乾崑准备推出一款新的智驾方案，价格比 ADS Pro 更便宜，但又高于 SE 版本。博主还在评论区补充，称新方案对比的是 SE，应该能力是提升的。 据IT之家了解，华为乾崑智驾共有 Ultra / Max / Pro / SE 四个档位： 第 1 档是 ADS SE 基础版：满足基本的主动安全、泊车辅助、高速 NCA 及城区 LCC+ 功能，经济型车型首选。 第 2 档是 ADS Pro 增强版：搭载舱内激光视觉传感器，主动安全能力与城区 LCC+ 功能进一步增强，标准型车型首选。 第 3 档是 ADS Max 超阶版：搭载高性能超远距激光，可选配分布式毫米波雷达…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -567,7 +799,7 @@
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -929,7 +1161,7 @@
       "url": "https://www.ifanr.com/1684938",
       "summary": "马斯克：我朝你放个屁。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1017,7 +1249,7 @@
       "url": "https://www.ifanr.com/1684978",
       "summary": "真·高端局 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1039,7 +1271,7 @@
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1325,7 +1557,7 @@
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1413,7 +1645,7 @@
       "url": "https://www.ifanr.com/1684921",
       "summary": "给屏幕装上脖子 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1483,7 +1715,7 @@
       "url": "https://www.ifanr.com/1684880",
       "summary": "好用到原地「起飞」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1572,7 +1804,7 @@
       "url": "https://www.ifanr.com/1684608",
       "summary": "平台与伙伴并肩作战、克服困难，其中辛酸故事不为人知 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1617,7 +1849,7 @@
       "url": "https://www.ifanr.com/1684869",
       "summary": "从零重写，两年从 1.0 追到 8.0。这是微信鸿蒙版，和它背后那群人的故事。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2927,7 +3159,7 @@
       "url": "http://www.geekpark.net/news/372509",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report",
       "alternate_sources": [
@@ -3160,7 +3392,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3650,7 +3882,7 @@
       "url": "https://www.ifanr.com/1684640",
       "summary": "家庭正在重新变成科技公司寻找下一个 AI 落点的地方 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3720,7 +3952,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3858,7 +4090,7 @@
       "url": "https://www.ifanr.com/1684619",
       "summary": "最后一辆给人开的特斯拉，起飞。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4086,7 +4318,7 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4108,7 +4340,7 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4130,7 +4362,7 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4262,7 +4494,7 @@
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4531,7 +4763,7 @@
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5112,7 +5344,7 @@
       "url": "https://openai.com/index/sullivan-cromwell",
       "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5645,7 +5877,7 @@
       "url": "https://openai.com/index/amp-beyond-coding",
       "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5667,7 +5899,7 @@
       "url": "https://openai.com/index/sentinelone",
       "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5957,7 +6189,7 @@
       "url": "https://openai.com/index/third-moment-research",
       "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5979,7 +6211,7 @@
       "url": "https://openai.com/index/block-ai-powered-security",
       "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
+      "fetched_at": "2026-10-21T00:36:33Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6362,116 +6594,6 @@
       "summary": "IT之家 10 月 14 日消息，苹果美国官网公布新款 HomeView 智能家居中枢维修价格，在没有购买 AppleCare 保障的情况下，“其他损坏”服务费为 279 美元（IT之家注：现汇率约合 1,871 元人民币），接近 299 美元（现汇率约合 2,005 元人民币）的整机售价；而 AppleCare 用户意外损坏服务费为 39 美元（现汇率约合 261.5 元人民币）。 苹果公司昨日（10 月 13 日）发布 7 英寸智能显示屏 HomeView，目前已在美国等地开放预订，计划于 11 月 13 日开始发货，标准版与壁挂版售价均为 299 美元（现汇率约合 2,005 元人民币）。 维修选项方面，根据苹果服务页面信息，HomeView 目前未按屏幕破裂、扬声器故障等具体问题拆分维修项目，统一归入“…",
       "summary_status": "excerpt",
       "fetched_at": "2026-10-14T04:49:05Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-200a5d3dd39c6bfb7a20",
-      "title": "The EU’s next chapter in AI is agentic",
-      "published": "2026-10-14T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-20T21:34:59Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-5ae56945b8854916a7c1",
-      "title": "苹果 watchOS 27.2 开发者预览版 Beta 4 发布",
-      "published": "2026-10-13T22:33:08Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/609.htm",
-      "summary": "【点此直达升级教程】 IT之家 10 月 14 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.2 开发者预览版 Beta 4 更新（内部版本号：24S5112a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来具体更新内…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T22:41:44Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7db38d1cdd7f63faf8e3",
-      "title": "苹果 macOS 27.2 开发者预览版 Beta 4 发布",
-      "published": "2026-10-13T22:33:07Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/607.htm",
-      "summary": "IT之家 10 月 14 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.2 开发者预览版 Beta 4 更新（内部版本号：26B5112a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 macOS 27 发布历史：…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T22:41:44Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-1dc63e79ebd49c8b73a1",
-      "title": "苹果 visionOS 27.2 开发者预览版 Beta 4 发布",
-      "published": "2026-10-13T22:33:07Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/608.htm",
-      "summary": "IT之家 10 月 14 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27.2 开发者预览版 Beta 4 更新（内部版本号：24N5114a），本次更新距离上次发布 Beta/RC 间隔 7 天。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 visionOS 27 发布历史： 2026-10-06：visionOS 27.2 Beta 3 (24N5103f) 2026-09-29：visionOS 27.0.1 (24M372) 2026-09-22：visionOS 27.2 Beta 2 (24N5093f) 2026-09-17：visio…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T22:41:44Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d3c68f692f71857c955f",
-      "title": "苹果 iOS/iPadOS 27.2 开发者预览版 Beta 4 发布",
-      "published": "2026-10-13T22:33:06Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/012/606.htm",
-      "summary": "【点此直达升级教程】 IT之家 10 月 14 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.2 开发者预览版 Beta 4 更新（内部版本号：24B5110a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全》 本文由机器人发布，IT之家稍后将为大家带来…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-13T22:41:44Z",
       "kind": "rss",
       "report_type": "report"
     }
