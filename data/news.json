@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-22T17:07:44Z",
-  "last_success_at": "2026-10-22T17:07:44Z",
+  "updated_at": "2026-10-22T21:32:55Z",
+  "last_success_at": "2026-10-22T21:32:55Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 13,
       "skipped": 47,
-      "last_success_at": "2026-10-22T17:07:44Z",
-      "last_attempt_at": "2026-10-22T17:07:44Z"
+      "last_success_at": "2026-10-22T21:32:55Z",
+      "last_attempt_at": "2026-10-22T21:32:55Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 9,
       "skipped": 11,
-      "last_success_at": "2026-10-22T17:07:44Z",
-      "last_attempt_at": "2026-10-22T17:07:44Z"
+      "last_success_at": "2026-10-22T21:32:55Z",
+      "last_attempt_at": "2026-10-22T21:32:55Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-22T17:07:44Z",
-      "last_attempt_at": "2026-10-22T17:07:44Z"
+      "last_success_at": "2026-10-22T21:32:55Z",
+      "last_attempt_at": "2026-10-22T21:32:55Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1314,
+      "feed_items": 1315,
       "accepted": 19,
-      "skipped": 1295,
-      "last_success_at": "2026-10-22T17:07:44Z",
-      "last_attempt_at": "2026-10-22T17:07:44Z"
+      "skipped": 1296,
+      "last_success_at": "2026-10-22T21:32:55Z",
+      "last_attempt_at": "2026-10-22T21:32:55Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 6,
       "skipped": 24,
-      "last_success_at": "2026-10-22T17:07:44Z",
-      "last_attempt_at": "2026-10-22T17:07:44Z"
+      "last_success_at": "2026-10-22T21:32:55Z",
+      "last_attempt_at": "2026-10-22T21:32:55Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,28 @@
   ],
   "news": [
     {
+      "id": "rss-891b7e0bbf66f86d27b7",
+      "title": "Build more responsive apps with the Decisions API",
+      "published": "2026-10-22T19:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/decisions-api",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-22T21:32:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-f2424e5372a74ee828e8",
       "title": "方舟引擎新突破：华为详解 HarmonyOS 7 超空间存储 + 超空间内存技术",
       "published": "2026-10-22T15:59:04Z",
@@ -189,7 +211,7 @@
       "url": "https://www.ithome.com/1/016/755.htm",
       "summary": "IT之家 10 月 22 日消息，华为官方今日发布图文，详细介绍了 HarmonyOS 7 系统的超空间存储 + 超空间内存技术，称其是方舟引擎的技术新突破。 据介绍，运行内存（RAM）决定了手机能同时运行多少 App，可用运行内存耗尽时，系统就会触发“杀后台”，牺牲应用使用进度来保障前台流畅度；存储空间（ROM）决定了手机可以存储多少数据，可用存储空间不足时，手机不仅不能存储更多数据，还会在运行时卡顿。 超空间内存技术提升了内存压缩率，帮助应用“瘦身”，进而提升应用保活率，手机内存更耐用，让 60+ 款机型保活体验全面升级，16GB 运行内存最多增加 3GB，可以保活的应用更多。 超空间存储技术会把不同 App 间的相同文件无感去重，全盘只留一份源文件，不同 App 保留原来的入口和“快捷方式”，大大节省了手…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -213,7 +235,7 @@
       "url": "https://www.ithome.com/1/016/754.htm",
       "summary": "IT之家 10 月 22 日消息，荣耀手表 Fit 6 已现身官网开启预订，主打“军规品质 & 高亮大屏、专业健身模式、心脏健康守护、强劲续航”，价格暂未公布、上市时间待定。 据介绍，荣耀手表 Fit 6 提供苔原绿、峡湾蓝、破晓橙、碳索黑、岩壁黑 5 种配色，尺寸为 47.5×40.73×11.39mm，适配 130-200mm 手腕尺寸；内置 620mAh 大容量电池，号称“告别电量焦虑”。 新表配备 1.97 英寸 AMOLED 彩色全面屏，支持全屏触摸操作，拥有 1.82mm 超窄边框（屏占比 81.2%），分辨率为 410*502，拥有 332 PPI、60Hz 高刷。荣耀手表 Fit 6 重约 31.8g（不含表带的重量），中框和底壳采用增强型聚合纤维材质，配备 TPU 材质表带。 荣耀手表 Fit…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -235,7 +257,7 @@
       "url": "https://www.ithome.com/1/016/749.htm",
       "summary": "IT之家 10 月 22 日消息，华为乾崑智能汽车解决方案迎来更新，公开了华为乾崑智驾 ADS 5 各版本的差异。 IT之家整理华为乾崑智驾 ADS 5 各版本配置及对应核心功能如下： 硬件配置华为乾崑智驾 ADS 5 ADS MaxADS ProADS SE激光雷达 896 线双光路图像级激光雷达舱内激光视觉 Limera—摄像头11 个11 个10 个毫米波雷达3 个 / 5 个（含 1 套分布式毫米波雷达）3 个3 个高精度固态激光雷达 0 / 3 个 / 4 个——超声波雷达12 个12 个12 个核心功能华为乾崑智驾 ADS 5 ADS MaxADS ProADS SE核心功能六维安全六维安全基础安全高速领航辅助 NCA高速领航辅助 NCA高速领航辅助 NCA 城区领航辅助 NCA 城区领航辅助 NC…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -257,7 +279,7 @@
       "url": "https://www.ithome.com/1/016/740.htm",
       "summary": "IT之家 10 月 22 日消息，北京越野昨日正式发布“星钽”品牌，首款车型星钽 5X 同步开启预售，13.99 万元起。此次共推出 7 款车型，其中纯电版本是首款搭载华为乾崑智驾 ADS5 Pro 的纯电方盒子车型。 据多位博主今日分享，北汽星钽 5X 预售 24 小时订单突破 17,876 台。 北京越野将星钽 5X 的动力方案概括为“一台方盒子，三种动力”，除插混与纯电外，还提供 2.0T 燃油版（已申报，暂未发布）。这款车型尺寸为 4865×2000×1910mm、轴距 2875mm，选装外挂备胎后车长延伸至 5005mm。 座舱有效高度 1307mm，官方公布的得房率为 88.6%；前排座椅一键放倒可形成 1.75 米贯通平面，二排拓展后达到 1.8 米，座椅放倒后装载容积 2231L。纯电版额外提供…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -279,7 +301,7 @@
       "url": "https://www.ithome.com/1/016/707.htm",
       "summary": "IT之家 10 月 22 日消息，华为官网最新信息显示，HUAWEI WATCH Ultimate 2 非凡探索、WATCH GT 6 等穿戴设备的鸿蒙 HarmonyOS 7 系统从公测版转为正式版，不限量升级开启。 ▲ IT之家评测室：华为 WATCH Ultimate 2 非凡探索体验 IT之家附华为鸿蒙 HarmonyOS 7 最新适配机型清单如下： 正式版 HUAWEI Mate 80 系列 HUAWEI Mate 70 系列 HUAWEI Mate 60 系列 HUAWEI Mate X7 系列 HUAWEI Mate X6 系列 HUAWEI Mate X5 系列 HUAWEI Mate XTs 非凡大师 HUAWEI Mate XT 非凡大师 HUAWEI Pura 90 系列 HUAWEI P…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -301,7 +323,7 @@
       "url": "https://www.ithome.com/1/016/700.htm",
       "summary": "IT之家 10 月 22 日消息，苹果刚刚宣布，从 2026 年美国大奖赛开始，美国地区 Apple TV 服务将为 F1 赛事提供杜比全景声（Dolby Atmos）音频支持（涵盖车队无线电通信、赛事解说、赛车引擎声和维修区现场声音等）。 美国大奖赛将于当地时间 10 月 23 日至 25 日在得克萨斯州奥斯汀的美洲赛道举行，这也将成为 Apple TV 首场支持杜比全景声直播的 F1 比赛。 苹果发布公告称，杜比全景声将与此前已支持的杜比视界（Dolby Vision）结合，为观众提供空间音频和高动态范围画面。观众可以通过兼容的苹果设备，以及支持杜比技术的电视、条形音箱和家庭影院系统观看赛事。 Apple TV 自 2026 年 3 月起成为美国地区 F1 独家转播平台，双方合作协议为期五年。美国订阅用户可…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -323,7 +345,7 @@
       "url": "https://www.ithome.com/1/016/699.htm",
       "summary": "IT之家 10 月 22 日消息，微信安卓平台迎来了 8.0.80 测试版更新，本次更新安装包文件详细信息如下： 微信安卓内测版 8.0.80 (ARM64) 安装包 文件大小 272.33 MB 更新时间 2026-10-22 20:46 MD5 80bbd112d4eaea1e204d22fe4cef318b 目标 API 34 最低支持 24 (Android 7.0) 官方更新日志为： 优化了一些已知问题. 大家在IT之家微信号回复“微信”两字，即可获取当前最新官方内部版微信下载。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。如果你发现了日志中未提及的更新点，欢迎发在评论区供大家参考~[微笑]",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -345,7 +367,7 @@
       "url": "https://www.ithome.com/1/016/691.htm",
       "summary": "IT之家 10 月 22 日消息，小米 REDMI Book 14 2027 笔记本全新「星云紫」亮相，新品采用金属材质、圆润 R 角设计。 据此前官方预热，新品采用 72Wh 超大电池，真实办公续航模拟可达 20.2 小时。这款笔记本还将配备全新超级小爱 2.0，支持 AI 办公内容生成。可设置定时任务，一键 PPT 制作，办公更高效。同时该笔记本接入米家 App，可通过手机、平板远程开关机。 IT之家注意到，该产品搭载第三代英特尔酷睿平台，外观焕新时尚多彩配色，质感全面升级，主打移动办公。其中，REDMI Book 14 机身左右两侧保留了双 USB-A 接口、双 USB-C 接口、HDMI 接口、3.5mm 耳机孔。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -367,7 +389,7 @@
       "url": "https://www.ithome.com/1/016/690.htm",
       "summary": "IT之家 10 月 22 日消息，腾讯 SSV（可持续社会价值事业部）在 10 月 19 日宣布，WorkBuddy 教育公益版正式上线，面向全国教师开放。开通账号后，全国老师每人每月可领 2000 积分，能连续领 12 个月。不挑地区，不限学段。 腾讯公司公关总监张军宣布，到今天，已经有超过 10 万名老师申领了 WorkBuddy 教育公益版，覆盖全国 1467 个城市 4.5 万所学校，积分正在陆续发放中。 据介绍，腾讯 SSV 与 WorkBuddy 团队制作了专门给老师用的 AI 教学助理，联合北京大学、北京师范大学等高校，把教学设计、课件设计、公开课打磨、分层教学、家校沟通、学生心理这些教育研究，拆成老师能直接调用的 100 多位教育专家（陆续上线中）。 IT之家获悉，该版本后续还会和腾讯文档、乐享…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -389,7 +411,7 @@
       "url": "https://www.ithome.com/1/016/687.htm",
       "summary": "IT之家 10 月 22 日消息，彭博社今日报道称，华为已从六家中资银行获得一笔总额为 150 亿元的离岸银团贷款。这笔贷款期限为 7 年，以离岸人民币计价，资金将用于一般企业用途。参与贷款的银行包括中国银行、中国建设银行和中国工商银行等。 知情人士透露，华为在最终确定贷款前，曾与国际银行进行初步接洽。华为及上述三家银行当时未立即回应置评请求。 这是华为自 2020 年以来首次进行离岸银团贷款融资。根据彭博社汇总的数据，华为在 2020 年曾筹集 118 亿港元（IT之家注：现汇率约合 100.6 亿元人民币）贷款。2019 年之前，华为也曾通过由欧洲、美国和亚洲银行组成的银团，在国际市场进行数十亿美元规模的离岸融资。 根据华为最新披露的 2026 年上半年财务数据，公司研发费用达到 1214 亿元同比增长约 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -411,7 +433,7 @@
       "url": "https://www.ithome.com/1/016/674.htm",
       "summary": "IT之家 10 月 22 日消息，米家热敷坐姿垫现已上架在小米有品开启众筹，支持久坐提醒、三挡恒温，活动时间为 10 月 21 日 10 点-10 月 28 日 10 点，众筹价 179 元（点击前往）。 IT之家从商品页面获悉，新品依据人体工学设计，环背、撑腰、裹臀、托腿四位一体，产品适配腰背曲线。新品配备红外感应组件，智能感知久坐状态，适时贴心提醒。 新品搭载 NTC 智能温控技术，实时精准控温，3 挡温感，随心调节。无线 / 有线自由切换随时随地，无线模式不受电源线和插座位置的限制，使用更灵活。 产品优选高韧性尼龙材质，一体成型，强支撑，高回弹，耐弯折；精选高品质回弹记忆棉，通过 50000 次受压回弹测试；底座设有两处透气孔，减少热量积聚。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -433,7 +455,7 @@
       "url": "https://www.ithome.com/1/016/670.htm",
       "summary": "IT之家 10 月 22 日消息，当地时间 10 月 20 日，德国经理人杂志（简称《经理人》）大篇幅刊发了奥迪将与华为合作在中国生产下一代 A8 的消息，同时透露包括奥迪在中国油电销量双双遇阻、更换中国市场管理层、希望通过与华为合作重振奥迪一汽工厂等重磅信息。 ▲ 图源：华为乾崑智能汽车解决方案官网 | 全新奥迪 A6L 《经理人》提到，现年 57 岁的奥迪股份公司全球 CEO 高德诺进行了一项用保时捷 Panamera 的 MSB 平台代替了 A8 最初的换代计划，并将于保时捷莱比锡工厂生产，而不是已经生产 A8 长达 34 年的奥迪内卡苏尔姆工厂。该计划在内部饱受争议。 此外，高德诺还为中国定制了一个大胆的计划，而该计划甚至未先告知集团高层 —— A8 中国版车型将不再从德国出口，而是在中国直接生产，其核…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -455,7 +477,7 @@
       "url": "https://www.ithome.com/1/016/669.htm",
       "summary": "IT之家 10 月 22 日消息，IT之家昨日报道，印度证书颁发机构 eMudhra 的 8 个中间证书私钥被发现在生成时存在严重缺陷，Mozilla、谷歌、微软以及多个开发工具链已紧急吊销相关证书或发布更新。 据 MacRumors 今日报道，苹果已于 10 月 19 日在旗下设备中屏蔽了存在安全问题的 eMudhra 中间证书，以防攻击者利用这些证书伪造网站身份。 Mozilla 加密工程师 Dennis Jackson 于当地时间 10 月 20 日公布了相关事件的调查进展。根据 Mozilla 安全报告，受影响的是印度证书颁发机构 eMudhra 签发的 8 张中间证书，其私钥均存在生成缺陷。研究人员发现，这些密钥的数值均小于 256，因此只需简单尝试就能完成破解。 中间证书用于建立网站证书的信任链。一…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -500,7 +522,7 @@
       "url": "https://www.ifanr.com/1685507",
       "summary": "大的还在后面 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -835,7 +857,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "summary": "What forward deployed engineering means at OpenAI",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1195,7 +1217,7 @@
       "url": "https://www.ifanr.com/1685251",
       "summary": "在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1218,7 +1240,7 @@
       "url": "http://www.geekpark.net/news/372710",
       "summary": "头图图片来源：极客公园 我在 iPhone Duo 上，把淘宝、高德、小红书、腾讯视频、飞书、WPS、XMind，还有篮球游戏 NBA 巅峰对决，这 8 个为它做过适配的 App 挨个用了一遍。淘宝从首页到客服消息，整条购物链路都动过；高德把路线和地图拆成了左右两半；小红书的笔记，变成了左边看图、右边看正文和评论。 这台手机的国行首批预订已经售罄。据环球时报 10 月 17 日的报道，苹果官网显示的预计交付时间，排到了明年二月，等货的这几个月，其实大家最关心答案的问题只有一个：除了更「阔」，它和我们用了这么多年的直板 iPhone，体验到底有什么不一样。 对 iPhone 来讲答案是，合上的时候，它最像一台普通 iPhone，区别只是程序坞、状态栏和灵动岛挪到了屏幕侧边，竖着排。真正的不同发生在另外两种状态里：…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1240,7 +1262,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1306,7 +1328,7 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1350,7 +1372,7 @@
       "url": "https://openai.com/index/att-legal",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1526,7 +1548,7 @@
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1662,7 +1684,7 @@
       "url": "https://www.ifanr.com/1685170",
       "summary": "只能说真的很爽 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1728,7 +1750,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1950,7 +1972,7 @@
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1972,7 +1994,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1994,7 +2016,7 @@
       "url": "https://www.ifanr.com/1685049",
       "summary": "小米汽车的新尝试。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -2106,7 +2128,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2242,7 +2264,7 @@
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2264,7 +2286,7 @@
       "url": "https://openai.com/index/cloudflare-cyber",
       "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2850,7 +2872,7 @@
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3074,7 +3096,7 @@
       "url": "https://openai.com/index/terminal-x",
       "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3234,7 +3256,7 @@
       "url": "https://www.ifanr.com/1684938",
       "summary": "马斯克：我朝你放个屁。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3322,7 +3344,7 @@
       "url": "https://www.ifanr.com/1684978",
       "summary": "真·高端局 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3344,7 +3366,7 @@
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3630,7 +3652,7 @@
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3718,7 +3740,7 @@
       "url": "https://www.ifanr.com/1684921",
       "summary": "给屏幕装上脖子 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3788,7 +3810,7 @@
       "url": "https://www.ifanr.com/1684880",
       "summary": "好用到原地「起飞」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3877,7 +3899,7 @@
       "url": "https://www.ifanr.com/1684608",
       "summary": "平台与伙伴并肩作战、克服困难，其中辛酸故事不为人知 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5232,7 +5254,7 @@
       "url": "http://www.geekpark.net/news/372509",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report",
       "alternate_sources": [
@@ -5465,7 +5487,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6025,7 +6047,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6391,7 +6413,7 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6413,7 +6435,7 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6435,7 +6457,7 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
+      "fetched_at": "2026-10-22T21:32:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6548,28 +6570,6 @@
       "fetched_at": "2026-10-16T00:22:18Z",
       "kind": "rss",
       "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-32165ee6af8945a5bd83",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "published": "2026-10-15T19:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-22T17:07:44Z",
-      "kind": "rss",
-      "report_type": "report"
     }
   ],
   "collection_status": "ok"
