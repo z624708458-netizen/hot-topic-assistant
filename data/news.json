@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-22T21:32:55Z",
-  "last_success_at": "2026-10-22T21:32:55Z",
+  "updated_at": "2026-10-23T00:38:32Z",
+  "last_success_at": "2026-10-23T00:38:32Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 13,
-      "skipped": 47,
-      "last_success_at": "2026-10-22T21:32:55Z",
-      "last_attempt_at": "2026-10-22T21:32:55Z"
+      "accepted": 18,
+      "skipped": 42,
+      "last_success_at": "2026-10-23T00:38:32Z",
+      "last_attempt_at": "2026-10-23T00:38:32Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 9,
-      "skipped": 11,
-      "last_success_at": "2026-10-22T21:32:55Z",
-      "last_attempt_at": "2026-10-22T21:32:55Z"
+      "accepted": 8,
+      "skipped": 12,
+      "last_success_at": "2026-10-23T00:38:32Z",
+      "last_attempt_at": "2026-10-23T00:38:32Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-22T21:32:55Z",
-      "last_attempt_at": "2026-10-22T21:32:55Z"
+      "last_success_at": "2026-10-23T00:38:32Z",
+      "last_attempt_at": "2026-10-23T00:38:32Z"
     },
     {
       "id": "openai",
@@ -69,10 +69,10 @@
       "publisher_id": "openai",
       "status": "ok",
       "feed_items": 1315,
-      "accepted": 19,
-      "skipped": 1296,
-      "last_success_at": "2026-10-22T21:32:55Z",
-      "last_attempt_at": "2026-10-22T21:32:55Z"
+      "accepted": 17,
+      "skipped": 1298,
+      "last_success_at": "2026-10-23T00:38:32Z",
+      "last_attempt_at": "2026-10-23T00:38:32Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 6,
       "skipped": 24,
-      "last_success_at": "2026-10-22T21:32:55Z",
-      "last_attempt_at": "2026-10-22T21:32:55Z"
+      "last_success_at": "2026-10-23T00:38:32Z",
+      "last_attempt_at": "2026-10-23T00:38:32Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,296 @@
   ],
   "news": [
     {
+      "id": "rss-aee7ac9f76aff4a743d6",
+      "title": "华为 Pura90 Plus 手机官宣：今起开启预订",
+      "published": "2026-10-23T00:36:00Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/786.htm",
+      "summary": "IT之家 10 月 23 日消息，@华为终端 刚刚宣布，华为 Pura90 Plus，10 月 23 日（今天）10:08 开启预订。 官微暂未披露新机更多的配置信息，IT之家将持续关注。 而在昨天，@数码闲聊站 曝光了新机部分配置：内部代号 Lucia，6.8 英寸 1.5K 大屏，左上角三角形三摄镜组，配色曜石黑 / 雪域白 / 晨曦金 / 霞光紫，“核心出装”将是今年唯一 50Mp 1 英寸 RYYB 可变光圈主摄。 今年 4 月，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东正式发布了 Pura 90 系列手机。 华为 Pura 90 标准版搭载海思麒麟 9010S 芯片，后置全新三角标 Deco，搭载 50MP 超聚光主摄 + 50MP 超聚光潜望长焦 + 12.5MP 超广角镜头，并…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-53fb8b65df3bd2152df2",
+      "title": "直击苹果首款折叠屏 iPhone Duo 发售现场，首发日黄牛加价千元回收手机",
+      "published": "2026-10-23T00:31:49Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/785.htm",
+      "summary": "IT之家 10 月 23 日现场消息，苹果首款折叠屏手机 iPhone Duo 于今天发售，国行定价 15999 元起，为了配合线下门店取货。今天多地 Apple Store 提早到 8 点开业供用户取货。 今年 iPhone Duo 采用了和 18 Pro Max 同样的“线上预购、线下取货”机制，IT之家在现场询问苹果 Apple Store 店员确认，门店没有提供可直接购买的现货，在门店 10 点正式开门前，仅有预约指定时段的用户可进店购买，未持有订单的用户只能在 10 点后前往店里体验展示机。 尽管先前有所谓“加价 5000 元”传言，但实际上门店门口回收手机的黄牛寥寥，大多还是在官网首发抢购者取货后在门口等候其他同行人。 IT之家以“找黄牛回收首发日机器”名义对其进行询问，其中 256GB 版本机型首…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1392aa56082e13ebdf47",
+      "title": "消息称 OpenAI 融资磋商进入尾声，估值目标下调至 1.25 万亿美元",
+      "published": "2026-10-23T00:21:18Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/782.htm",
+      "summary": "IT之家 10 月 23 日消息，据彭博社报道，知情人士透露，正在寻求在最新一轮融资中筹集约 300 亿美元（IT之家注：现汇率约合 2,006.8 亿元人民币）的 OpenAI，目前在谈判的最后阶段将目标估值定为 1.25 万亿美元（现汇率约合 8.36 万亿元人民币）。 知情人士称，OpenAI 在磋商中将此前讨论的估值从 1.4 万亿美元（现汇率约合 9.37 万亿元人民币）下调了 1,500 亿美元（现汇率约合 1 万亿元人民币）。上述人士同时表示，相关融资谈判仍在推进中，具体细节仍可能有变。 另据路透社此前报道，OpenAI 正争分夺秒地争取投资者承诺，力求在竞争对手 Anthropic 预计于 11 月中旬上市之前完成融资。 延伸阅读 OpenAI 的估值预期在此前几个月经历了多次变化。2026 年…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-ff6a9bdb0e8badb57848",
+      "title": "外部评估人员发现 OpenAI 内部监控系统漏洞：AI 智能体可绕过安全限制",
+      "published": "2026-10-23T00:19:40Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/781.htm",
+      "summary": "IT之家 10 月 23 日消息，今年早些时候，AI 安全评估机构 METR 和 Redwood Research 对 OpenAI 的内部监控系统进行了试点评估，发现多项新漏洞。其中一项漏洞可被 AI 智能体利用，使数百次操作逃过监控。 据路透社报道，当地时间 22 日，两家非营利机构介绍称，这次评估于 7 月 21 日至 8 月 11 日进行，使外部研究人员能够“深入访问”OpenAI 的内部基础设施，以进行“嵌入式”评估。 METR 和 Redwood Research 各派出一名研究员，获准查阅 OpenAI 的内部代码和文档，并与部分技术人员交流。两人在现场始终有人陪同，使用的设备均由 OpenAI 提供，且不得带离办公场所。 OpenAI 告知两家机构，影响实际运行系统安全防护措施的漏洞均已修复，但…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8e8ccaf5aa93a992aafd",
+      "title": "【视频】iPhone Duo 上手体验：相比硬件，软件才是折叠屏的真考题",
+      "published": "2026-10-23T00:05:39Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/778.htm",
+      "summary": "iPhone Duo 上手体验：相比硬件，软件才是折叠屏的真考题。 点击关注IT之家B站账号",
+      "summary_status": "source",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0ae9f7d069faaebd0a3c",
+      "title": "【视频】IT之家 App 是如何适配苹果 iPhone Duo 的？有彩蛋哦",
+      "published": "2026-10-23T00:04:48Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/777.htm",
+      "summary": "IT之家 App 是如何适配苹果 iPhone Duo 的？有彩蛋哦。 点击关注IT之家B站账号",
+      "summary_status": "source",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6210b06db301adbb41e4",
+      "title": "【视频】iPhone Duo & 磁吸双面夹开箱，卖 999 元的手机壳体验如何？",
+      "published": "2026-10-23T00:03:40Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/776.htm",
+      "summary": "苹果iPhone Duo & 磁吸双面夹开箱，全新机折痕控制堪称惊艳。不过……卖 999 元的手机壳体验如何？ 点击关注IT之家B站账号",
+      "summary_status": "source",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0282b8d3dc25200b20ee",
+      "title": "OpenAI 宣布全面开放决策 API：基于 GPT‑6 Luna，每百万 token 输入 0.1 美元",
+      "published": "2026-10-22T23:48:13Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/771.htm",
+      "summary": "IT之家 10 月 23 日消息，当地时间 10 月 22 日，OpenAI 宣布全面开放决策 API（Decisions API）。 据介绍，该 API 基于 GPT‑6 Luna 构建，将 Luna 的模型智能聚焦于具有限定答案（bounded answers）的问题，协助应用程序与智能体基于文本、图像及结构化输入做出准实时决策 —— 其响应速度比通过 Responses API 调用 GPT‑6 Luna 提升了高达 10 倍。 定价方面，决策 API 输入每百万 token 收费 0.1 美元（IT之家注：现汇率约合 0.67 元人民币），命中缓存的输入每百万 token 收费 0.01 美元（现汇率约合 0.067 元人民币）。该 API 仅按输入 Token 计费，输出 Token 免费。在整个 O…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0b9eba6798f7a0c8e739",
+      "title": "特斯拉要为 Optimus 建“学校”，马斯克称训练机器人就像育儿",
+      "published": "2026-10-22T23:38:12Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/769.htm",
+      "summary": "IT之家 10 月 23 日消息，特斯拉打算把人形机器人 Optimus 送进“学校”，让机器人通过练习掌握更多技能。 据《商业内幕》报道，当地时间 21 日，特斯拉 CEO 埃隆 · 马斯克在财报电话会议上将训练 Optimus 比作养育幼儿。他解释，特斯拉的自动驾驶系统可以从庞大车队积累的数据中学习，但 Optimus 没有这样的条件，只能通过观察人类工作，再亲自练习来掌握技能，与人类学习的方式相似。 马斯克告诉投资者：“看看小孩子就知道了。刚学走路时，他们摇摇晃晃，什么都不会，后来终于学会自己擦屁股，这可是个重要的进步。接着，他们学会读书，学会做各种各样的事情，这些本领都是在玩耍中学会的。我们也得让 Optimus 大规模地进行这样的训练，才能让它真正胜任现实中的各种工作。” 特斯拉还在建设一座名为“Op…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-36c350e22fb2a94cc712",
+      "title": "充分调动 iPhone Duo 体验：苹果给适配 App 发“身份证”，《绝区零》等首批支持",
+      "published": "2026-10-22T23:37:42Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/768.htm",
+      "summary": "IT之家 10 月 23 日消息，苹果公司昨日（10 月 22 日）发布博文，宣布将会在 App Store 应用商店内，引入全新的 Made for iPhone Duo 标志，用于标识已适配苹果首款折叠 iPhone Duo 的应用和游戏。 该标识将于 10 月 23 日，即 iPhone Duo 在部分市场正式发售当天，出现在相关应用的 App Store 产品页面上。 苹果表示，获得标识的应用代表不只是“能在大屏上运行”，更能充分利用 iPhone Duo 的内外双屏、更大显示区域以及折叠形态。 开发者可通过 iOS 27.1 SDK、SwiftUI 和 UIKit 等工具，让应用在展开、半折叠和切换内外屏时自动调整布局；Xcode 27.1 也新增了 iPhone Duo 模拟器，便于开发者在不同折叠…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9450af804815a794f6c3",
+      "title": "OpenAI 奥尔特曼：面对 AI，数学家们起初会觉得“我们完蛋了”，最终却还是接受现实",
+      "published": "2026-10-22T23:25:40Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/766.htm",
+      "summary": "IT之家 10 月 23 日消息，据《商业内幕》今天（23 日）报道，近日，在斯坦福大学，OpenAI CEO 萨姆 · 奥尔特曼面向台下数百名担忧未来职业前景的学生发表演讲。 奥尔特曼认为，面对 AI 大举进军数学研究领域，数学家经历了类似“哀悼”的几个阶段。起初是难以置信，随后陷入痛苦。“第一天，大家的反应大概是：‘我们完蛋了，数学这个领域也完了。’‘还是去劝研究生转专业吧。’” 接着，痛苦转化成了愤怒。“到了第三天，大家可能开始觉得：‘OpenAI 这么干实在太过分了。’” 按照奥尔特曼的描述，到了第五天，数学家开始接受现实：在数学研究和证明工作中，AI 正成为不可或缺的工具。“我们看到很多人开始觉得，‘我今后作为数学家的职业道路会有所不同，但希望能比以前更好。’” 图源：Pixabay IT之家从报道中…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6730ccffdfa59f0ce2ba",
+      "title": "马斯克大胆预测：只要不受监管限制，特斯拉终将主导全球客运市场",
+      "published": "2026-10-22T23:12:30Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/763.htm",
+      "summary": "IT之家 10 月 23 日消息，据《商业内幕》报道，特斯拉 CEO 埃隆 · 马斯克长期相信，自动驾驶汽车将取代人类司机，承担载客出行任务。 当地时间 21 日的特斯拉财报电话会议上，马斯克提出了更加大胆的预测：只要不受监管限制，特斯拉最终将主导全球客运市场。“我认为，凡是允许特斯拉自由运营的国家，特斯拉最终都将承担当地超过一半的乘客出行里程。大家以后可以检验这个预测，我对此很有信心。” 他同时认为，特斯拉实现这一目标的最大障碍，是外国政府为了保护本国产业而限制自动驾驶技术。 马斯克的这番话，比他此前有关自动驾驶的预测更加大胆。今年 1 月，马斯克曾在财报电话会议上预测，未来“绝大多数出行里程”将由自动驾驶汽车完成，人类手动驾驶的里程占比可能不到 5%。按照当时的设想，Waymo、Zoox、福特、通用汽车、R…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e80f67b55336b74831df",
+      "title": "苹果更新 iWork 生产力套件 15.4.1：引入 AI 智能助理，适配 iPhone Duo",
+      "published": "2026-10-22T23:03:02Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/016/762.htm",
+      "summary": "IT之家 10 月 23 日消息，苹果公司今天（10 月 23 日）更新其 iWork 生产力套件，为 Keynote、Numbers 和 Pages 添加了“智能助理”（Intelligent Assistant）功能，以测试版邀请 Apple 创作坊（Apple Creator Studio）订阅用户体验。 虽然发布说明中没有提及，但此次更新还为这三款应用添加适配 iPhone Duo。 IT之家附上 Pages 15.4.1 更新内容如下： 适用于 Apple 创作坊订阅用户： “智能助理”（Intelligent Assistant）功能，该功能目前仅限美式英语，需要搭载 iOS 27、iPadOS 27 或更高版本且支持 Apple Intelligence 的设备： 先写初稿，然后借助一位了解您文档…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-23T00:38:32Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-891b7e0bbf66f86d27b7",
       "title": "Build more responsive apps with the Decisions API",
       "published": "2026-10-22T19:00:00Z",
@@ -189,7 +479,7 @@
       "url": "https://openai.com/index/decisions-api",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +501,7 @@
       "url": "https://www.ithome.com/1/016/755.htm",
       "summary": "IT之家 10 月 22 日消息，华为官方今日发布图文，详细介绍了 HarmonyOS 7 系统的超空间存储 + 超空间内存技术，称其是方舟引擎的技术新突破。 据介绍，运行内存（RAM）决定了手机能同时运行多少 App，可用运行内存耗尽时，系统就会触发“杀后台”，牺牲应用使用进度来保障前台流畅度；存储空间（ROM）决定了手机可以存储多少数据，可用存储空间不足时，手机不仅不能存储更多数据，还会在运行时卡顿。 超空间内存技术提升了内存压缩率，帮助应用“瘦身”，进而提升应用保活率，手机内存更耐用，让 60+ 款机型保活体验全面升级，16GB 运行内存最多增加 3GB，可以保活的应用更多。 超空间存储技术会把不同 App 间的相同文件无感去重，全盘只留一份源文件，不同 App 保留原来的入口和“快捷方式”，大大节省了手…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -235,7 +525,7 @@
       "url": "https://www.ithome.com/1/016/754.htm",
       "summary": "IT之家 10 月 22 日消息，荣耀手表 Fit 6 已现身官网开启预订，主打“军规品质 & 高亮大屏、专业健身模式、心脏健康守护、强劲续航”，价格暂未公布、上市时间待定。 据介绍，荣耀手表 Fit 6 提供苔原绿、峡湾蓝、破晓橙、碳索黑、岩壁黑 5 种配色，尺寸为 47.5×40.73×11.39mm，适配 130-200mm 手腕尺寸；内置 620mAh 大容量电池，号称“告别电量焦虑”。 新表配备 1.97 英寸 AMOLED 彩色全面屏，支持全屏触摸操作，拥有 1.82mm 超窄边框（屏占比 81.2%），分辨率为 410*502，拥有 332 PPI、60Hz 高刷。荣耀手表 Fit 6 重约 31.8g（不含表带的重量），中框和底壳采用增强型聚合纤维材质，配备 TPU 材质表带。 荣耀手表 Fit…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -257,7 +547,7 @@
       "url": "https://www.ithome.com/1/016/749.htm",
       "summary": "IT之家 10 月 22 日消息，华为乾崑智能汽车解决方案迎来更新，公开了华为乾崑智驾 ADS 5 各版本的差异。 IT之家整理华为乾崑智驾 ADS 5 各版本配置及对应核心功能如下： 硬件配置华为乾崑智驾 ADS 5 ADS MaxADS ProADS SE激光雷达 896 线双光路图像级激光雷达舱内激光视觉 Limera—摄像头11 个11 个10 个毫米波雷达3 个 / 5 个（含 1 套分布式毫米波雷达）3 个3 个高精度固态激光雷达 0 / 3 个 / 4 个——超声波雷达12 个12 个12 个核心功能华为乾崑智驾 ADS 5 ADS MaxADS ProADS SE核心功能六维安全六维安全基础安全高速领航辅助 NCA高速领航辅助 NCA高速领航辅助 NCA 城区领航辅助 NCA 城区领航辅助 NC…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -279,7 +569,7 @@
       "url": "https://www.ithome.com/1/016/740.htm",
       "summary": "IT之家 10 月 22 日消息，北京越野昨日正式发布“星钽”品牌，首款车型星钽 5X 同步开启预售，13.99 万元起。此次共推出 7 款车型，其中纯电版本是首款搭载华为乾崑智驾 ADS5 Pro 的纯电方盒子车型。 据多位博主今日分享，北汽星钽 5X 预售 24 小时订单突破 17,876 台。 北京越野将星钽 5X 的动力方案概括为“一台方盒子，三种动力”，除插混与纯电外，还提供 2.0T 燃油版（已申报，暂未发布）。这款车型尺寸为 4865×2000×1910mm、轴距 2875mm，选装外挂备胎后车长延伸至 5005mm。 座舱有效高度 1307mm，官方公布的得房率为 88.6%；前排座椅一键放倒可形成 1.75 米贯通平面，二排拓展后达到 1.8 米，座椅放倒后装载容积 2231L。纯电版额外提供…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -301,7 +591,7 @@
       "url": "https://www.ithome.com/1/016/707.htm",
       "summary": "IT之家 10 月 22 日消息，华为官网最新信息显示，HUAWEI WATCH Ultimate 2 非凡探索、WATCH GT 6 等穿戴设备的鸿蒙 HarmonyOS 7 系统从公测版转为正式版，不限量升级开启。 ▲ IT之家评测室：华为 WATCH Ultimate 2 非凡探索体验 IT之家附华为鸿蒙 HarmonyOS 7 最新适配机型清单如下： 正式版 HUAWEI Mate 80 系列 HUAWEI Mate 70 系列 HUAWEI Mate 60 系列 HUAWEI Mate X7 系列 HUAWEI Mate X6 系列 HUAWEI Mate X5 系列 HUAWEI Mate XTs 非凡大师 HUAWEI Mate XT 非凡大师 HUAWEI Pura 90 系列 HUAWEI P…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -522,7 +812,7 @@
       "url": "https://www.ifanr.com/1685507",
       "summary": "大的还在后面 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -857,7 +1147,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "summary": "What forward deployed engineering means at OpenAI",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1217,7 +1507,7 @@
       "url": "https://www.ifanr.com/1685251",
       "summary": "在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1240,7 +1530,7 @@
       "url": "http://www.geekpark.net/news/372710",
       "summary": "头图图片来源：极客公园 我在 iPhone Duo 上，把淘宝、高德、小红书、腾讯视频、飞书、WPS、XMind，还有篮球游戏 NBA 巅峰对决，这 8 个为它做过适配的 App 挨个用了一遍。淘宝从首页到客服消息，整条购物链路都动过；高德把路线和地图拆成了左右两半；小红书的笔记，变成了左边看图、右边看正文和评论。 这台手机的国行首批预订已经售罄。据环球时报 10 月 17 日的报道，苹果官网显示的预计交付时间，排到了明年二月，等货的这几个月，其实大家最关心答案的问题只有一个：除了更「阔」，它和我们用了这么多年的直板 iPhone，体验到底有什么不一样。 对 iPhone 来讲答案是，合上的时候，它最像一台普通 iPhone，区别只是程序坞、状态栏和灵动岛挪到了屏幕侧边，竖着排。真正的不同发生在另外两种状态里：…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1262,7 +1552,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1328,7 +1618,7 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1372,7 +1662,7 @@
       "url": "https://openai.com/index/att-legal",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1548,7 +1838,7 @@
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1684,7 +1974,7 @@
       "url": "https://www.ifanr.com/1685170",
       "summary": "只能说真的很爽 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1750,7 +2040,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1972,7 +2262,7 @@
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1994,7 +2284,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2016,7 +2306,7 @@
       "url": "https://www.ifanr.com/1685049",
       "summary": "小米汽车的新尝试。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -2128,7 +2418,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2264,7 +2554,7 @@
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2286,7 +2576,7 @@
       "url": "https://openai.com/index/cloudflare-cyber",
       "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2872,7 +3162,7 @@
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3096,7 +3386,7 @@
       "url": "https://openai.com/index/terminal-x",
       "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3256,7 +3546,7 @@
       "url": "https://www.ifanr.com/1684938",
       "summary": "马斯克：我朝你放个屁。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3344,7 +3634,7 @@
       "url": "https://www.ifanr.com/1684978",
       "summary": "真·高端局 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3366,7 +3656,7 @@
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3652,7 +3942,7 @@
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3740,7 +4030,7 @@
       "url": "https://www.ifanr.com/1684921",
       "summary": "给屏幕装上脖子 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3810,7 +4100,7 @@
       "url": "https://www.ifanr.com/1684880",
       "summary": "好用到原地「起飞」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5254,7 +5544,7 @@
       "url": "http://www.geekpark.net/news/372509",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report",
       "alternate_sources": [
@@ -5487,7 +5777,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6047,7 +6337,7 @@
       "url": "http://www.geekpark.net/news/372458",
       "summary": "没有永远的敌人，只有永远的 AI 焦虑。 10 月 2 日，苹果做了一件很少见的事，因为一个第三方 App，宣布要调整系统规则。 起因是《Inc.》杂志的科技专栏作者 Jason Aten 公开指控，Meta 的 AI 智能体 Muse 在他的 Mac 上读取了私人消息。Muse 是 Meta 力推的「能替你办事」的 Agent，会帮你退订闲置会员，甚至替你砍价。 苹果随即表态，今后 AI 请求读取 Mac 数据时，系统会主动提示用户。 这几乎就是苹果和 Meta 过去五年关系的缩影，Meta 想拿数据，苹果出面拦着。 然而仅仅两周后，故事发生了反转。 当地时间 10 月 15 日，Meta 发布开放权重模型 Muse Spark Open，扎克伯格在 X 上发帖，感谢「John Ternus 和苹果」的合作，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6413,163 +6703,9 @@
       "url": "http://www.geekpark.net/news/372435",
       "summary": "头图来源：Chatgpt 生成 短剧正在成为互联网行业最吸金的时长黑洞。 QuestMobile 数据显示，2026 年 7 月，红果短剧日活达到 1.68 亿，超过腾讯视频、爱奇艺、优酷、芒果 TV 四大长视频平台的日活总和，用户人均单日刷剧时长达到 125 分钟，甚至一度超过抖音主站同期的人均使用时长。 而据第三方监测数据，到 10 月其日活规模已攀升至 2.2 亿上下，半年时间净增超 5000 万，增速依然没有放缓的迹象。 从三年前上线，到如今字节跳动旗下实打实的现金牛，红果短剧把免费广告（IAA）短剧的商业模式彻底跑通，也成了字节拉动用户时长的核心引擎。 腾讯不是没做短剧，但在红果一路狂奔的同时，前者的短剧布局却始终慢了半拍。此前在 2021 年，腾讯就上线了十分剧场主打精品横屏短剧，走会员分账路线；微…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-22T21:32:55Z",
+      "fetched_at": "2026-10-23T00:38:32Z",
       "kind": "rss",
       "report_type": "report"
-    },
-    {
-      "id": "rss-b6756c0a180ee554226c",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "published": "2026-10-16T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9e63539289a31c8631b6",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "published": "2026-10-16T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-22T21:32:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f5b8e45a11c5fc9ff888",
-      "title": "苹果首款触控 MacBook Pro 有望本月登场，配 M7 Pro / Max 的完全体需等 2027 年",
-      "published": "2026-10-15T23:53:50Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/013/709.htm",
-      "summary": "IT之家 10 月 16 日消息，在最新一期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）再次表示苹果公司“已基本停止”研发 M6 芯片，目前正集中资源推进 M7 系列芯片。 古尔曼表示 M6 芯片研发“基本已经完成”，苹果公司后续基本上不会推出 M6 Pro、M6 Max 或 M6 Ultra 等高端版本。M6 将主要应用于 Mac mini、iMac 以及入门级 14 英寸 MacBook Pro；即将发布的 OLED MacBook Pro 则会先搭载现有 M5 Pro 和 M5 Max 芯片。 古尔曼称目前苹果公司已将研发重心放在 M7 系列芯片方面，其中标准版 M7 芯片会装备在常规 MacBook Pro 产品线中，有望在 2027 年发布。 而 M7 Pro 和…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T00:22:18Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-88930d17332bbb2f7a8f",
-      "title": "灵动岛添新技能：苹果 Sports 升级，赛事中场休息自动触发“核心数据”",
-      "published": "2026-10-15T23:35:55Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/013/705.htm",
-      "summary": "IT之家 10 月 16 日消息，苹果公司今天（10 月 16 日）更新体育（Apple Sports）应用，最新 4.5 版本大幅优化了 “实时活动”（Live Activities） 功能，当用户关注的赛事进入中场休息或暂停阶段后，iPhone 的锁定屏幕和灵动岛将自动呈现最关键的“核心数据统计”（Key Stats）。 IT之家附上 Apple Sports 4.5 版本官方更新日志如下： 实时活动的新更新，助你一览即可更贴近比赛。现在你可以在各联赛比赛暂停期间查看关键统计数据。 足球阵容继续壮大，包括巴西足球乙级联赛、英格兰足球甲级联赛、英格兰足球乙级联赛、挪威足球超级联赛和欧洲国家联赛。 除了人机交互体验的升级，Apple Sports 4.5 还在内容生态上持续发力，进一步扩大了其足球赛事的覆盖版图…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T00:22:18Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b60651e4717fab1f62b7",
-      "title": "iPad mini 8 悬念再起，苹果已测试 60Hz 与 120Hz 两种 OLED 屏幕",
-      "published": "2026-10-15T23:25:04Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/013/704.htm",
-      "summary": "IT之家 10 月 16 日消息，在最新一期 Power On 播客节目中，针对 iPad mini 8 屏幕刷新率爆料差别，彭博社的马克 · 古尔曼（Mark Gurman）表示，苹果公司内部测试了 60Hz 和 120Hz 两种 ProMotion 显示屏。 关于 iPad mini 8 屏幕的刷新率，目前爆料存在两种说法，一种是升级到 120Hz，而另一种由消息人士 yeux1122 爆料，称这款平板将配备一块 8.4 英寸的 LTPS 混合 OLED 面板，刷新率为 60Hz。 此前消息称 iPad mini 8 将向成本妥协、继续锁定在 60Hz 刷新率，但古尔曼的最新爆料无疑为期待“小屏高刷”的硬核玩家重新燃起了希望。 作为时隔两年的重大换代，iPad mini 8 的看点远不止于屏幕刷新率。IT之…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T00:22:18Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9d22f684e1268bd90080",
-      "title": "OpenAI 智能体 dots 负责人：有了 AI，人们可以选择更努力工作，也可以选择少干点活",
-      "published": "2026-10-15T23:24:50Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/013/703.htm",
-      "summary": "IT之家 10 月 16 日消息，据《商业内幕》报道，AI 领域的激烈竞争让科技从业者加班加点，但 OpenAI 企业产品负责人、旗下新款 AI 智能体 dots 负责人亚历山大 · 恩比里科斯认为，AI 也可以帮助人们大幅减少工作时间。 当地时间 15 日，恩比里科斯在 TechCrunch Disrupt 大会上指出，随着 AI 能力不断提升，人们可以选择更加努力地工作，也可以把部分工作交给 AI，让自己轻松一些。“我们有了更多选择。” 此前，一名记者问他，AI 究竟什么时候才能真正让人们拥有更多空闲时间。记者提到，一名 OpenAI 员工利用 ChatGPT 的手机端功能，在车上和飞机上照样工作，根本谈不上因新技术而减轻负担。 恩比里科斯认为，人们完全可以让 AI 代劳，减少自己的工作量。但也有人看好 A…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T00:22:18Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e8188e0abba9c461f090",
-      "title": "苹果史上最颠覆变动：乔布斯曾坚决反对的触屏 MacBook 有望 11 月 6 日开卖",
-      "published": "2026-10-15T23:11:15Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/013/701.htm",
-      "summary": "IT之家 10 月 16 日消息，在最新一期播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）透露称苹果公司首款配备 OLED 屏幕的 MacBook Pro 有望 10 月 27 日或 28 日发布，并于 11 月 6 日（星期五）开售。 IT之家附上相关截图如下： 名称方面，古尔曼此前称该产品可能名为 MacBook Ultra，但他最近又收回了这一说法，并暗示它们会属于 MacBook Pro 产品线。 产品方面，新款 MacBook Pro 预计提供 14 英寸和 16 英寸版本，最大亮点是首次在 Mac 笔记本上采用 OLED 触控屏。若消息属实，这将结束苹果长期坚持“Mac 不配触控屏”的产品策略，此外切换到 OLED 面板后，有望提升屏幕显示素质、色彩表现。 触控方面，“Mac 永远不…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-16T00:22:18Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
     }
   ],
   "collection_status": "ok"
