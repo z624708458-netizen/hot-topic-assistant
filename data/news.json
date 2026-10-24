@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-24T15:54:35Z",
-  "last_success_at": "2026-10-24T15:54:35Z",
+  "updated_at": "2026-10-24T18:46:32Z",
+  "last_success_at": "2026-10-24T18:46:32Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 14,
       "skipped": 46,
-      "last_success_at": "2026-10-24T15:54:35Z",
-      "last_attempt_at": "2026-10-24T15:54:35Z"
+      "last_success_at": "2026-10-24T18:46:32Z",
+      "last_attempt_at": "2026-10-24T18:46:32Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 6,
       "skipped": 14,
-      "last_success_at": "2026-10-24T15:54:35Z",
-      "last_attempt_at": "2026-10-24T15:54:35Z"
+      "last_success_at": "2026-10-24T18:46:32Z",
+      "last_attempt_at": "2026-10-24T18:46:32Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-24T15:54:35Z",
-      "last_attempt_at": "2026-10-24T15:54:35Z"
+      "last_success_at": "2026-10-24T18:46:32Z",
+      "last_attempt_at": "2026-10-24T18:46:32Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1318,
       "accepted": 19,
       "skipped": 1299,
-      "last_success_at": "2026-10-24T15:54:35Z",
-      "last_attempt_at": "2026-10-24T15:54:35Z"
+      "last_success_at": "2026-10-24T18:46:32Z",
+      "last_attempt_at": "2026-10-24T18:46:32Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 3,
       "skipped": 27,
-      "last_success_at": "2026-10-24T15:54:35Z",
-      "last_attempt_at": "2026-10-24T15:54:35Z"
+      "last_success_at": "2026-10-24T18:46:32Z",
+      "last_attempt_at": "2026-10-24T18:46:32Z"
     }
   ],
   "disabled_sources": [
@@ -189,7 +189,7 @@
       "url": "https://www.ithome.com/1/017/519.htm",
       "summary": "IT之家 10 月 24 日消息，小米 REDMI Book 2027 系列笔记本已经官宣将于 10 月 27 日发布。这款笔记本搭载第三代英特尔酷睿平台，内置 72Wh 电池，提供多彩配色，质感全面升级，主打移动办公。 小米产品行销总监、数码博主马志宇表示，REDMI Book 16 2027 在外观焕新的同时，还将加入用户长期反复提及的诉求 —— 数字小键盘。 当然，对于 16 英寸笔记本而言，数字小键盘并非技术难题，也不能严格称为优点或缺点，更多是产品定义上的取舍。 结合此前爆料，REDMI Book 16 2027 将搭载酷睿 5 320 处理器，并配备可自主更换的 DDR5 内存，不再延续前代内存板载的设计。 其他已确认或接近确认的信息包括：14 英寸版本采用 2.8K 分辨率屏幕，保留双 USB-A…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +211,7 @@
       "url": "https://www.ithome.com/1/017/501.htm",
       "summary": "IT之家 10 月 24 日消息，小米 REDMI 首款耳夹耳机 Clip Neo 将于 10 月 27 日上市，官方现已公布部分配置信息。 IT之家从官方介绍获悉，新品采用 12mm 高性能双磁设计，类金刚石镀膜，支持低音增强算法、动态补偿、EQ 自定义调节、动态 AI 通话降噪等。 此外，该产品还支持小米澎湃智联多功能实体按键，长按唤醒端侧语音助手，支持沉浸聊天、连续对话、智能控车控家等。 该产品单耳轻至 5.3g，佩戴回仓不区分左右耳；亲肤液态硅胶，0.6mm 耐弯记忆钛丝；仿生曲面设计，3.4mm 黄金夹距。 目前尚不清楚这款新品的具体价格信息，而小米首款耳夹式耳机于今年 5 月 21 日发布，首销 799 元。作为参考，小米首款耳夹式耳机单只耳机重量 5.5g，采用仿生曲线设计及高性能记忆钛丝；搭载 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +233,7 @@
       "url": "https://www.ithome.com/1/017/498.htm",
       "summary": "IT之家 10 月 24 日消息，小米 REDMI 显示器 G25 300Hz 2027 已经上架京东并开售，售价显示为 799 元。 京东小米 REDMI 显示器 G25 2027 原生 280Hz 高刷 1ms Fast IPS HDR400 硬件低蓝光 799 元直达链接 IT之家从商品页面获悉，这款显示器采用了 24.5 英寸 1080P IPS 快速液晶屏，支持原生 300Hz 高刷、1ms GTG 响应时间，支持 FreeSync Premium 自适应刷新率，典型亮度 400nits，覆盖 100% sRGB、93% DCI-P3 色域，支持硬件级低蓝光，通过 DisplayHDR 400 认证，提供两个 DP 1.4 接口和两个 HDMI 2.0 接口，符合二级能效标准。 京东 11.11 无门…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +255,7 @@
       "url": "https://www.ithome.com/1/017/497.htm",
       "summary": "IT之家 10 月 24 日消息，小米米家钛保温杯茶水分离版 500ml 现已在京东发售，新品主打茶水分离设计，可选月光银、深空灰两种配色，定价 219 元。 京东米家钛保温杯 茶水分离版 219 元直达链接 据介绍，该产品的杯体、滤网和杯盖内衬片均为纯钛材质。用户倒置杯体即可让水流入茶仓；回正杯体茶水随即分离，随心掌控浓淡。 IT之家注意到，该产品配备可拆卸滤网，杯体不含双酚 A，拆下即可清洗。茶仓可拆下作为日常保温杯使用。可选深空灰、月光银两种配色，搭配 500ml 实用容量，兼顾泡茶和日常饮水。 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 11.11 无门槛红包 面额至高 26888 元，每天抽 1 次：点此抽红包。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +277,7 @@
       "url": "https://www.ithome.com/1/017/492.htm",
       "summary": "IT之家 10 月 24 日消息，倍思现已在京东上架一款卡片磁吸 Air 移动电源，该产品最大的特点是适配了苹果 iPhone Duo 尺寸，其内置 5000mAh 电芯，定价为 374 元。 京东倍思卡片磁吸 Air 移动电源券后 374 元点此访问 该机尺寸为 85x81x7.9mm，整体重量 120g，支持 7.5W 无线输出和 25W USB-C 有线输出，电芯通过新国标认证，可通过手机 NFC 查看电芯健康度信息。 IT之家附产品参数： 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 11.11 无门槛红包 面额至高 26888 元，每天抽 1 次：点此抽红包。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -299,7 +299,7 @@
       "url": "https://www.ithome.com/1/017/489.htm",
       "summary": "IT之家 10 月 24 日消息，随着苹果首款折叠屏手机 iPhone Duo 上市，许多产品制造商陆续为该机推出各种外设。例如 PITAKA 便为相应机型推出了一款“壳膜一体”外屏保护壳，单外屏保护壳首发价为 374 元，套装定价为 749 元。 京东 PITAKA iPhone Duo 外屏保护壳券后 374 元起领 25 元券 IT之家获悉，相应“壳膜一体”外屏保护壳结合了 9H+ 钢化玻璃膜和芳纶纤维外框，前盖整体厚度约 1mm，其中钢化膜约 0.6mm，整体重量约 17 克，提供日落、加州旧梦 1 号、阑夜、黑灰配色可选。 不过也有消息指出，这种“壳膜一体”外屏保护壳存在清灰问题，需要消费者隔一段时间更换，否则可能导致 iPhone Duo 的抛光边框因积压灰尘摩擦而刮花，因此消费者应根据自身需要购买…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +321,7 @@
       "url": "https://www.ithome.com/1/017/480.htm",
       "summary": "IT之家 10 月 24 日消息，据 36 氪今日报道，字节跳动内部近期完成了一次业务整合，AI 短剧创作平台小云雀并入智能创作平台即梦，产品仍保留独立入口。 此次调整以资源整合为主，即梦已经接入小云雀的短剧相关能力。调整后，小云雀的运营由即梦运营和市场负责人陈欣然负责，产品团队没有变化。 小云雀和即梦均出自字节剪映团队。小云雀定位为一站式 AI 内容创作平台，今年 3 月上线短剧 Agent，支持上传最多 10 万字剧本、一键生成视频成片，搭载了字节自研的 Seedance 2.0 模型，在短剧、漫剧的标准化生产场景中具备从剧本解析到分镜生成的完整流程能力。 即梦 AI 于 2024 年 5 月推出，最初覆盖文生图、文生视频等生成能力，此后逐步向智能画布、首尾帧控制等偏专业创作的 Agent 编辑工具延伸，用…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -343,7 +343,7 @@
       "url": "https://www.ithome.com/1/017/446.htm",
       "summary": "IT之家 10 月 24 日消息，多名网友今日在社交平台反映，带有安克创新、耐克、盒马、CATLINK 等品牌认证标识的企业微信客服账号在今日凌晨向客户发送了多种疑似色情引流信息，引发关注。 当日下午，企业微信安全团队发布公告，对事件原因作出说明。公告称，经排查，少量企业微信账号向客户发送疑似色情引流信息，确认为某第三方外挂软件服务被攻破，导致使用该外挂服务的账号受到影响。企业微信已将受影响的账号强制下线，并封禁了相关引流链接。微信官方暗指这部分企业用户使用了“账号多开”“群控”类外挂工具。 微信官方公告同时警告，此类外挂软件存在“账号被他人操控、企业数据和客户信息泄露”的风险，企业微信将加大对外挂软件的排查和处置力度，并视情节对使用外挂的账号采取处理措施。 品牌方的反应并不一致。安克客服在回应媒体时称，涉事账…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -366,7 +366,7 @@
       "url": "https://www.ithome.com/1/017/430.htm",
       "summary": "IT之家 10 月 24 日消息，今日，华为 Mate X7、Mate80、Mate70、Pura80 等机型推送鸿蒙 HarmonyOS 7.0.0.111 SP12 版本更新。以华为 Mate X7 为例，安装包体积为 7.31GB。 IT之家附主要更新内容如下（以华为 Mate X7 为例）： 华为分享 隔空传送新玩法，握拳抓取内容后，旋转拳头背对屏幕可触发“仅一次查看”功能，分享内容接收方仅可查看一次。 通信共享 通信共享功能再升级，手机与搭载 HarmonyOS7 的手机、平板、鸿蒙电脑之间支持多人互助通信共享，通过碰一碰或者登录同一华为账号共享网络建立互助网络，在移动网络信号弱或网络负载大等场景下可获得更快、更稳的网络体验。 畅连 畅连实时对讲支持查找好友功能，在实时对讲位置共享的过程中，当好友在附…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -389,7 +389,7 @@
       "url": "https://www.ithome.com/1/017/429.htm",
       "summary": "IT之家 10 月 24 日消息，随着 AI 技术突飞猛进，许多开发者在大模型辅助加持之下对各种老旧机型进行折腾，先前便有开发者为小米 Redmi Note 12 4G 手机刷入 iOS 系统，并开源了项目。 IT之家注意到，目前又有开发者 Yanei 发布视频，展示其成功为一部小米 8 手机刷入 iOS 16.5 系统，参考其发布的视频，可以看到该开发者将设备机型伪装为 iPhone X，系统元素在小米 8 手机上呈现良好。 该网友在视频简介和评论区中表示，小米 8 和当年的 iPhone X 真的太像了，运行起来颇有当年的感觉，最初 GPU 存在卡顿情况，后续经过修复后流畅了不少。 目前，系统桌面显示和动画已经比较流畅，不过项目整体仍处于早期移植阶段，很多硬件驱动还需要继续适配，暂时不能作为日常系统使用。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -411,7 +411,7 @@
       "url": "https://www.ithome.com/1/017/426.htm",
       "summary": "IT之家 10 月 24 日消息，苹果 iPhone Duo 手机昨日正式开售，其中 256GB 版本定价 15999 元、512GB 版本 17999 元，1TB 版本 21499 元，2TB 版本 26499 元。 而昨晚，博主“万维创芯-老罗”便晒出视频，称自己成功将该机扩容至 2TB，IT之家附视频如下： 参考IT之家先前报道，还有博主直播测试撕下了 iPhone Duo 的内屏磨砂膜，令其“屏幕秒变亮面屏”，引发网络热议。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -433,7 +433,7 @@
       "url": "https://www.ithome.com/1/017/425.htm",
       "summary": "IT之家 10 月 24 日消息，博主 @数码闲聊站 今日曝光华为 Pura90 Plus 手机配置，目前这款新机已经开启预订。 根据爆料，该机搭载的麒麟 9025 芯片是 9020 提频至 2.6GHz，正面配备 6.8 英寸 1.5K+120Hz LTPO 等深四曲屏，后置 50Mp 1 英寸 F1.6-F4.0 可变光圈主摄、40Mp 超广角镜头、48Mp F2.1 超微距潜望长焦镜头。此外，该机还内置 5700mAh 电池，支持 100W 有线充 +80W 无线充。 IT之家注意到，目前，这款新机已登陆官网，提供曜石黑、雪域白、霞光紫、晨曦金四款配色，可选 12GB+256GB、12GB+512GB、12GB+1TB 三种规格。 根据规划，10 月 23 日 10:08~10 月 28 日 14:30 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -455,7 +455,7 @@
       "url": "https://www.ithome.com/1/017/418.htm",
       "summary": "IT之家 10 月 24 日消息，平安银行发文，宣布旗下平安口袋银行 App 将全面适配苹果 iPhone Duo 手机。 参考官方预告，新版 App 深度适配内外屏，不存在其他 App 视觉割裂问题，在手机不同形态下能够灵活切换界面元素，还拥有独立小组件。 同时，App 还支持“待机显示（Stand By）”功能，可放在床头展示基金信息、还能够通过 AI 语音助理对话。 IT之家参考平安银行 2026 年第三季度业绩报告。财报显示，截至 9 月末，平安银行资产总额为 59523.54 亿元，较上年末增长 0.4%；其中，发放贷款和垫款本金总额为 34314.80 亿元，较上年末增长 1.2%。 从经营成果来看，前三季度，该行实现营业收入 1031.0 亿元，同比上升 2.42%；归母净利润为 391.86 亿…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -477,7 +477,7 @@
       "url": "https://www.ithome.com/1/017/414.htm",
       "summary": "IT之家 10 月 24 日消息，据华为日本官网消息，华为日本首家直营综合售后服务中心已于昨日正式开业，落地日本东京都千代田区神田须田町 1 丁目 3-1 须田町大楼 1 楼，紧邻秋叶原商圈。 据介绍，开业期间（10 月 23 日～10 月 31 日），前 100 名用户可享最高 5,500 日元（IT之家注：现汇率约合 234.4 元人民币）维修人工费减免。此外，华为计划从 11 月开始，将每月第一周的周五至周日（3 天）定为“华为服务日”，提供免费清洗产品、原创激光刻印服务等。 IT之家附该店营业时间及服务详情如下： 营业时间：10:00–19:00 休息时间：每周四 服务详情：提供华为产品的维修请求、产品相关咨询以及各种支持服务 延伸阅读 公开资料显示，华为进入日本市场可追溯至 2005 年，并于 200…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -742,7 +742,7 @@
       "url": "https://www.ifanr.com/1685714",
       "summary": "来了来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1206,7 +1206,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1582,7 +1582,7 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1605,7 +1605,7 @@
       "url": "https://www.ifanr.com/1685575",
       "summary": "微信终于适配 iPhone Duo ！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1759,7 +1759,7 @@
       "url": "http://www.geekpark.net/news/372801",
       "summary": "「很多人赚不到认知以外的钱。那消费者呢？我认为，买不到他认知以外的商品。」10 月 15 日下午，上海世博中心，2026 天猫双 11 发布会。天猫总裁家洛开场没多久，就抛出了这句话。 消费者的需求远比这些品类多，只是大部分还处在「沉睡」状态。过去的搜索解决不了这个问题。用户主动搜关键词、平台做精准匹配，在他看来，「更像一个统计学的概念」，搜的人越多、描述越准，匹配就越高效，「但这依然是存量和认知以内的东西」。 所以他给今年的 AI 定了一个很朴素的标准：「AI 最重要的，是他是不是更理解我们，以及是不是更理解我们的消费者。」 一个用户在飞猪上买了去看世界杯的机票，从没搜过任何和球迷有关的关键词，但他曾经是运动人群。把这两条线索组合成人群包推给运动品牌和足球品类，购买转化率比日常高出 3 倍以上。 「即使可能消…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2158,7 +2158,7 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2316,7 +2316,7 @@
       "url": "https://openai.com/index/decisions-api",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2649,7 +2649,7 @@
       "url": "https://www.ifanr.com/1685507",
       "summary": "大的还在后面 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2984,7 +2984,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "summary": "What forward deployed engineering means at OpenAI",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3344,7 +3344,7 @@
       "url": "https://www.ifanr.com/1685251",
       "summary": "在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3367,7 +3367,7 @@
       "url": "http://www.geekpark.net/news/372710",
       "summary": "头图图片来源：极客公园 我在 iPhone Duo 上，把淘宝、高德、小红书、腾讯视频、飞书、WPS、XMind，还有篮球游戏 NBA 巅峰对决，这 8 个为它做过适配的 App 挨个用了一遍。淘宝从首页到客服消息，整条购物链路都动过；高德把路线和地图拆成了左右两半；小红书的笔记，变成了左边看图、右边看正文和评论。 这台手机的国行首批预订已经售罄。据环球时报 10 月 17 日的报道，苹果官网显示的预计交付时间，排到了明年二月，等货的这几个月，其实大家最关心答案的问题只有一个：除了更「阔」，它和我们用了这么多年的直板 iPhone，体验到底有什么不一样。 对 iPhone 来讲答案是，合上的时候，它最像一台普通 iPhone，区别只是程序坞、状态栏和灵动岛挪到了屏幕侧边，竖着排。真正的不同发生在另外两种状态里：…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3389,7 +3389,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3455,7 +3455,7 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3499,7 +3499,7 @@
       "url": "https://openai.com/index/att-legal",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3675,7 +3675,7 @@
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3811,7 +3811,7 @@
       "url": "https://www.ifanr.com/1685170",
       "summary": "只能说真的很爽 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3877,7 +3877,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4099,7 +4099,7 @@
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4121,7 +4121,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4143,7 +4143,7 @@
       "url": "https://www.ifanr.com/1685049",
       "summary": "小米汽车的新尝试。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -4255,7 +4255,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4391,7 +4391,7 @@
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4413,7 +4413,7 @@
       "url": "https://openai.com/index/cloudflare-cyber",
       "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4999,7 +4999,7 @@
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5223,7 +5223,7 @@
       "url": "https://openai.com/index/terminal-x",
       "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5449,7 +5449,7 @@
       "url": "http://www.geekpark.net/news/372583",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5515,7 +5515,7 @@
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5801,7 +5801,7 @@
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T15:54:35Z",
+      "fetched_at": "2026-10-24T18:46:32Z",
       "kind": "rss",
       "report_type": "report"
     },
