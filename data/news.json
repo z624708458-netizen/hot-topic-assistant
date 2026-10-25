@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-24T22:27:42Z",
-  "last_success_at": "2026-10-24T22:27:42Z",
+  "updated_at": "2026-10-25T04:36:45Z",
+  "last_success_at": "2026-10-25T04:36:45Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 14,
-      "skipped": 46,
-      "last_success_at": "2026-10-24T22:27:42Z",
-      "last_attempt_at": "2026-10-24T22:27:42Z"
+      "accepted": 13,
+      "skipped": 47,
+      "last_success_at": "2026-10-25T04:36:45Z",
+      "last_attempt_at": "2026-10-25T04:36:45Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-10-24T22:27:42Z",
-      "last_attempt_at": "2026-10-24T22:27:42Z"
+      "accepted": 7,
+      "skipped": 13,
+      "last_success_at": "2026-10-25T04:36:45Z",
+      "last_attempt_at": "2026-10-25T04:36:45Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-24T22:27:42Z",
-      "last_attempt_at": "2026-10-24T22:27:42Z"
+      "last_success_at": "2026-10-25T04:36:45Z",
+      "last_attempt_at": "2026-10-25T04:36:45Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1318,
       "accepted": 19,
       "skipped": 1299,
-      "last_success_at": "2026-10-24T22:27:42Z",
-      "last_attempt_at": "2026-10-24T22:27:42Z"
+      "last_success_at": "2026-10-25T04:36:45Z",
+      "last_attempt_at": "2026-10-25T04:36:45Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 3,
       "skipped": 27,
-      "last_success_at": "2026-10-24T22:27:42Z",
-      "last_attempt_at": "2026-10-24T22:27:42Z"
+      "last_success_at": "2026-10-25T04:36:45Z",
+      "last_attempt_at": "2026-10-25T04:36:45Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,292 @@
   ],
   "news": [
     {
+      "id": "rss-7f179ea591ef3763294c",
+      "title": "卢伟冰再谈小米 18 Fold 手机折痕：采用新一代折叠架构，平均深度 ≤30μm",
+      "published": "2026-10-25T04:31:26Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/579.htm",
+      "summary": "IT之家 10 月 25 日消息，小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰今日发文，再度谈及了小米 18 Fold 中折叠手机的折痕情况： 采用新一代折叠架构，强度更高，更抗冲击 同时带来超强折痕控制，平均折痕深度 ≤30μm 据IT之家此前报道，小米 18 Fold 中折叠手机发布于 9 月 7 日，首发玄戒 O3 芯片，配备 5.38″ 外屏 +7.58″ 内屏，并后置徕卡专业三摄，售价 10999 元起。 小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰还在 9 月下旬的小米秋季新品发布会上宣布，小米 18 Fold 首销零售量同比上代大折叠增长 300%。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ecbf01b0df50651c0cb2",
+      "title": "苹果 iPhone Duo 拆解：双电池 4883mAh，无实体 SIM 卡槽",
+      "published": "2026-10-25T04:25:03Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/578.htm",
+      "summary": "IT之家 10 月 25 日消息，YouTube 频道 REWA Technology 与 Phone Repair Guru 放出了首批 iPhone Duo 的拆机视频，让外界得以看清这款折叠机型的内部构造。 IT之家注意到，iPhone Duo 采用双电芯设计，两块电池都依靠电控胶拆卸： 大容量电池：2962 mAh（11.56 Wh） 小容量电池：1921 mAh（7.5 Wh） 总容量：4883 mAh REWA 的视频给出了主板元件标注：板载 A20 Pro 芯片 + C2 蜂窝基带等核心组件。 维修难点与模块化设计 1. Touch ID 按键：理论上可以单独拆下维修，但拆解难度很高； 2. USB‑C 充电口：采用完全模块化设计，接口可以单独更换，维修更友好； 3. 网络制式：全球版本全部仅支持…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6815dddea334b656ab2f",
+      "title": "iPhone Duo 2 提前曝光：FaceID、操作按钮和长焦都要回来了？",
+      "published": "2026-10-25T04:10:44Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1685622",
+      "summary": "还没捂热呢 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-0e6ceaa4e47084d4c94d",
+      "title": "三名被解雇的 OpenAI 安全研究员否认泄密，怀疑因推动 AI 透明度被针对",
+      "published": "2026-10-25T03:28:57Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/563.htm",
+      "summary": "IT之家 10 月 25 日消息，三名因涉嫌泄密被解雇的 OpenAI 安全研究员道出了他们一方的说辞。托梅克 · 科尔巴克（Tomek Korbak）、米基塔 · 巴莱斯尼（Mikita Balesni）与王茉莉（Jasmine Wang）否认泄露机密信息，质疑解雇他们的官方理由，并猜测这件事和他们一直倡导提升 AI 系统透明度有关。 OpenAI 经过内部调查，认定三人违反敏感信息管理规定，将他们辞退。在被解雇之前，这三人都曾公开发表过关于 AI 风险的观点。 IT之家注意到，在接受《华尔街日报》采访时，几名研究员对官方说法提出反驳。OpenAI 向该报表示，解雇一事和他们提出的安全顾虑无关。但三名研究员称，公司从未以书面形式告知他们究竟是哪些信息被不当处理。他们还担心，这个事件会让独立安全审计人员不愿再和…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c7078487a0cbf4244944",
+      "title": "Block 推出全双工 AI 语音模型 Dessa：真人感拉满，支持苹果 MacBook 本地运行",
+      "published": "2026-10-25T02:29:30Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/557.htm",
+      "summary": "IT之家 10 月 25 日消息，Twitter 联合创始人杰克 · 多尔西（Jack Dorsey）旗下的 Block 公司推出了一款全新语音模型 Dessa，支持本地运行，能模拟笑声、停顿、哽咽等情绪表达，听感高度拟人。官方介绍，Dessa 完全基于人类语音数据训练，训练过程仅使用了一组英伟达 GPU 机架。 Dessa 属于全双工模型，和 OpenAI 今年早些时候发布的 GPT-Live 一样，可以一边说话一边收听用户语音。主流语音模型一般需要搭配大语言模型来调取知识；Block 称，Dessa 自身的知识来源于其训练所用的对话数据。 Block 表示，现有语音 AI 体验经常生硬、违和，根源在于生成链路要先转成文本，再由文本驱动语音合成。ElevenLabs v4、Fish Audio Drama 3…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-aea3b68a9bdad4b915bd",
+      "title": "华为 Mate 90 RS / Pro Max 典藏版推 HarmonyOS 7.0.0.111SP13 升级，优化与睿影 Z10 模块相机连接",
+      "published": "2026-10-25T02:23:04Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/555.htm",
+      "summary": "IT之家 10 月 25 日消息，华为 Mate 90 RS 非凡大师和 Mate 90 Pro Max 典藏版推送了鸿蒙 HarmonyOS 7.0.0.111SP13 版本升级。系统包大小约 722.38MB，智慧修图人像大片推荐能力升级，支持修图后二次调节精修效果，同时畅连支持当面快速建群。 ▲ IT之家实拍：华为 Mate 90 Pro Max 典藏版 IT之家附华为 Mate 90 RS 非凡大师和 Mate 90 Pro Max 典藏版此次更新内容如下： 图库 智慧修图人像大片主动推荐能力升级，支持修图后二次调节精修效果。 畅连 支持当面快速建群，和身边朋友选择相同进群口令或者通过碰一碰邀请，快速进入同一个群聊（参与方均需支持该功能）。 相机 优化相机在烟花拍摄、长焦等场景的拍摄稳定性，提升成像质量…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b2c11a8fe3fb8bb27e8a",
+      "title": "小米第一代员工住宅项目「光谷梦享家」今日开盘：共建 4 栋楼，三种户型全覆盖 297 户",
+      "published": "2026-10-25T02:00:10Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/553.htm",
+      "summary": "IT之家 10 月 25 日消息，小米生态链总经理陈波昨日发布视频，宣布小米员工住宅项目 ——「光谷梦享家」将在今日正式开盘。 据介绍，小米「光谷梦享家」项目距小米武汉科技园约 700 米，是武汉首个小米同学定制化住宅，面向小米集团正式员工销售。目前，项目营销中心、样板间、休闲会所实景开放。 项目位于高新四路以南、豹溪路以东，总建筑面积约 5.7 万平方米，共建 4 栋楼、297 套住房，拥有建面约 110 平方米、建面约 122-125 平方米的三室两厅两卫和建面约 143 平方米的四房两厅两卫三种户型。 ▲ 光谷梦享家四房两厅两卫户型样板间（毛坯交付） ▲ 光谷梦享家四房两厅两卫户型样板间（毛坯交付） 项目容积率 2.0，按第四代住宅标准设计，建有空中花园、风雨连廊，地势整体抬高约 5 米，园林分层布局。小…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8ef743c86f3719f5d272",
+      "title": "小米 18 Fold 中折叠手机官宣适配娱乐工作各类应用，网友热评“终于迎来最佳宣发期”",
+      "published": "2026-10-25T01:33:30Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/548.htm",
+      "summary": "IT之家 10 月 25 日消息，小米手机官方昨日发文，介绍 18 Fold 中折叠手机的应用适配情况： 适配爱奇艺、网易云音乐、高德、WPS 等各类应用 从休闲娱乐到日常工作，全面覆盖 有网友评论称：“终于迎来了最佳宣发期。” IT之家注意到，小米手机官方昨日还介绍了小米 18 Fold 的分屏功能，称日常应用也支持该模式： 可以一屏同时安排行程、查攻略、规划路线 支持三窗口应用分屏，至高六应用并排运行 还能调用超级小爱灵感球 查询、导航、修图，一句话搞定 据IT之家此前报道，小米 18 Fold 中折叠手机发布于 9 月 7 日，首发玄戒 O3 芯片，配备 5.38″ 外屏 +7.58″ 内屏，并后置徕卡专业三摄，售价 10999 元起。小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰还在 9 月…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-09088923f1a21b19ab86",
+      "title": "苹果 iPhone Duo 耐用性测试：反向弯折内屏开裂",
+      "published": "2026-10-25T01:05:42Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/545.htm",
+      "summary": "IT之家 10 月 25 日消息，千万别坐到展开状态下的 iPhone Duo 上，这条忠告来自这款苹果折叠新机开售第二天的实测。科技测评博主扎克 · 尼尔森在 YouTube 频道 JerryRigEverything 放出了该机的整机耐用性测试视频，测试了这款手机的抗刮性能与抗弯折能力。 IT之家注意到，博主全程语气平稳克制，但看着他一步步把这台新机折磨损坏，实在让人揪心。 他先后对外屏与内屏做了多轮划痕测试。尼尔森称赞苹果给外屏配备了第二代超瓷晶面板（Ceramic Shield 2）；但内屏即便做了纳米纹理磨砂处理，抗刮水平依然和三星 Galaxy Z Fold 8 哑光折叠屏之外的普通版本差不多，很容易留下划痕。 测试还远没有结束。尼尔森拿出中世纪锁子甲（无法证实是古物）、沙土、碎石继续考验机身。出乎…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-052b7888bac6089149ce",
+      "title": "苹果 iPhone Duo 内屏玩《王者荣耀》《原神》暂不支持全屏显示，大黑边被网友吐槽“公摊广告位”",
+      "published": "2026-10-25T00:25:16Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/538.htm",
+      "summary": "IT之家 10 月 25 日消息，据多位博主、网友分享，腾讯《王者荣耀》和米哈游的《原神》这两款热门游戏暂未适配苹果最新折叠屏手机 iPhone Duo。玩家使用该机内屏游玩上述两款游戏时，会出现无法全屏显示的问题。 两款热门游戏没适配的情况也引发网友吐槽，称内屏的黑边是“公摊广告位”、“公摊面积”。 不过，iPhone Duo 用户在内屏游玩《王者荣耀》和《原神》时，可以选择将应用等比放大。虽然上下依旧会保留有黑边，但整体游玩体验会好上不少。 参考IT之家此前报道，事实上，苹果 iPhone Duo 提供了 3 种兼容模式，可以让未适配应用也能运行： 面向 iOS 26 系统的应用采用默认兼容模式，系统将单一应用视图放入黑色背景包围的安全区域，从而保障在 iPhone Duo 上兼容运行旧应用。 面向 iOS…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-64e874ed9a6754d0a3a8",
+      "title": "PayPal 联合创始人彼得 · 蒂尔：后乔布斯时代的苹果“就没再拿出什么新东西”",
+      "published": "2026-10-25T00:23:21Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/537.htm",
+      "summary": "IT之家 10 月 25 日消息，据《商业内幕》今天（25 日）凌晨报道，PayPal 联合创始人、亿万富翁兼科技投资人彼得 · 蒂尔认为，自苹果创始人史蒂夫 · 乔布斯于 2011 年因癌症去世以来，苹果的大多数举措都没能让自己眼前一亮。 蒂尔接受作家沃尔特 · 艾萨克森采访时直言：“在我看来，乔布斯去世后，苹果就没再拿出什么新东西。事实证明，手机确实是一项了不起的发明，但之后也没多少事情可做了。接下来的 15 年左右，无非就是扩大规模、经营品牌，不断完善已有的产品。” 报道称，苹果一直受到“缺乏创新”的批评，尤其是在手机和平板电脑之外未能取得新的突破。进入 AI 时代后，苹果的 Siri 语音助手也落后于 OpenAI 和 Anthropic 的竞争产品。不过，苹果的产品依然广受欢迎。MacBook 是不少…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-36f58ed1078b25d03e75",
+      "title": "搭载冷气推进系统，特斯拉新款 Roadster 在洛杉矶彼得森汽车博物馆展出",
+      "published": "2026-10-24T23:48:40Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/534.htm",
+      "summary": "IT之家 10 月 25 日消息，如果你本周末身在洛杉矶，就有机会亲眼见到特斯拉新款 Roadster。特斯拉在 X 平台宣布，这辆 Roadster 正在彼得森汽车博物馆展出，展览时间为 10 月 24 日至 27 日，展出地点在主大厅。 这是继本月早些时候特斯拉在得克萨斯州麦格雷戈的 SpaceX 试验场首发新车之后，公众首次有机会近距离观赏新款 Roadster。展期只到周二，参观时间比较紧张。 彼得森博物馆将这辆展车标注为 2028 款特斯拉 Roadster 推力版原型车，它并不是首发仪式上最吸睛的版本 —— 当时亮相的火箭版可以倒置行驶，还完成了飞跃特斯拉全系车型的特技。 特斯拉规划了四个版本的 Roadster。标准版输出功率为 1 兆瓦，约合 1340 马力。性能版加装吸附风扇与自适应悬架，扭矩…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d6fa8d35e04853cee878",
+      "title": "李小龙：2.4G / 5G 频段同时工作是 Wi-Fi 7 特性，华为在 Wi-Fi 6 时代通过私有协议提前支持",
+      "published": "2026-10-24T23:34:50Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/530.htm",
+      "summary": "IT之家 10 月 25 日消息，博主 @不是郑小康 昨晚发文，谈及了华为鸿蒙 HarmonyOS 7 系统的使用感受。他称在华为 Pura X View 的鸿蒙 7 系统中，“貌似”不能 2.4G 和 5G Wi-Fi 一起连加速上网。 随后，华为终端 BG CTO 李小龙发文解答了上述问题： Pura X View 可以的，Wi-Fi 2.4G 和 Wi-Fi 5G 同时工作，已经是 Wi-Fi 7 的标准特性了。只要是 Wi-Fi 7 的手机，都应该支持这个特性。在 Wi-Fi 6 时代，华为是通过私有协议提前支持了这个特性。 据IT之家了解，Wi-Fi 6 是无线网络标准组织 Wi-Fi 联盟提出新的命名规则，将 802.11ax 标准命名为 Wi-Fi 6，于 2019 年发布。使用 Wi-Fi 6 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T04:36:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-e006f1a89beaac84011c",
       "title": "小米 REDMI Book 2027 预热：外观焕新，16 英寸机型标配数字小键盘",
       "published": "2026-10-24T14:53:44Z",
@@ -189,7 +475,7 @@
       "url": "https://www.ithome.com/1/017/519.htm",
       "summary": "IT之家 10 月 24 日消息，小米 REDMI Book 2027 系列笔记本已经官宣将于 10 月 27 日发布。这款笔记本搭载第三代英特尔酷睿平台，内置 72Wh 电池，提供多彩配色，质感全面升级，主打移动办公。 小米产品行销总监、数码博主马志宇表示，REDMI Book 16 2027 在外观焕新的同时，还将加入用户长期反复提及的诉求 —— 数字小键盘。 当然，对于 16 英寸笔记本而言，数字小键盘并非技术难题，也不能严格称为优点或缺点，更多是产品定义上的取舍。 结合此前爆料，REDMI Book 16 2027 将搭载酷睿 5 320 处理器，并配备可自主更换的 DDR5 内存，不再延续前代内存板载的设计。 其他已确认或接近确认的信息包括：14 英寸版本采用 2.8K 分辨率屏幕，保留双 USB-A…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -702,28 +988,6 @@
       "report_type": "report"
     },
     {
-      "id": "rss-6815dddea334b656ab2f",
-      "title": "iPhone Duo 2 提前曝光：FaceID、操作按钮都要回来了？",
-      "published": "2026-10-24T04:10:44Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1685622",
-      "summary": "还没捂热呢 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-24T04:32:02Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
       "id": "rss-956a6dfac4fcc32139d8",
       "title": "突发！iPhone Duo 支持微信平板登录，可与手机、电脑同时在线",
       "published": "2026-10-24T03:25:33Z",
@@ -742,7 +1006,7 @@
       "url": "https://www.ifanr.com/1685714",
       "summary": "来了来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1206,7 +1470,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1582,7 +1846,7 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1605,7 +1869,7 @@
       "url": "https://www.ifanr.com/1685575",
       "summary": "微信终于适配 iPhone Duo ！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1759,7 +2023,7 @@
       "url": "http://www.geekpark.net/news/372801",
       "summary": "「很多人赚不到认知以外的钱。那消费者呢？我认为，买不到他认知以外的商品。」10 月 15 日下午，上海世博中心，2026 天猫双 11 发布会。天猫总裁家洛开场没多久，就抛出了这句话。 消费者的需求远比这些品类多，只是大部分还处在「沉睡」状态。过去的搜索解决不了这个问题。用户主动搜关键词、平台做精准匹配，在他看来，「更像一个统计学的概念」，搜的人越多、描述越准，匹配就越高效，「但这依然是存量和认知以内的东西」。 所以他给今年的 AI 定了一个很朴素的标准：「AI 最重要的，是他是不是更理解我们，以及是不是更理解我们的消费者。」 一个用户在飞猪上买了去看世界杯的机票，从没搜过任何和球迷有关的关键词，但他曾经是运动人群。把这两条线索组合成人群包推给运动品牌和足球品类，购买转化率比日常高出 3 倍以上。 「即使可能消…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2158,7 +2422,7 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2316,7 +2580,7 @@
       "url": "https://openai.com/index/decisions-api",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2649,7 +2913,7 @@
       "url": "https://www.ifanr.com/1685507",
       "summary": "大的还在后面 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2984,7 +3248,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "summary": "What forward deployed engineering means at OpenAI",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3344,7 +3608,7 @@
       "url": "https://www.ifanr.com/1685251",
       "summary": "在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3367,7 +3631,7 @@
       "url": "http://www.geekpark.net/news/372710",
       "summary": "头图图片来源：极客公园 我在 iPhone Duo 上，把淘宝、高德、小红书、腾讯视频、飞书、WPS、XMind，还有篮球游戏 NBA 巅峰对决，这 8 个为它做过适配的 App 挨个用了一遍。淘宝从首页到客服消息，整条购物链路都动过；高德把路线和地图拆成了左右两半；小红书的笔记，变成了左边看图、右边看正文和评论。 这台手机的国行首批预订已经售罄。据环球时报 10 月 17 日的报道，苹果官网显示的预计交付时间，排到了明年二月，等货的这几个月，其实大家最关心答案的问题只有一个：除了更「阔」，它和我们用了这么多年的直板 iPhone，体验到底有什么不一样。 对 iPhone 来讲答案是，合上的时候，它最像一台普通 iPhone，区别只是程序坞、状态栏和灵动岛挪到了屏幕侧边，竖着排。真正的不同发生在另外两种状态里：…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3389,7 +3653,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3455,7 +3719,7 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3499,7 +3763,7 @@
       "url": "https://openai.com/index/att-legal",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3675,7 +3939,7 @@
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3811,7 +4075,7 @@
       "url": "https://www.ifanr.com/1685170",
       "summary": "只能说真的很爽 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3877,7 +4141,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4099,7 +4363,7 @@
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4121,7 +4385,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4143,7 +4407,7 @@
       "url": "https://www.ifanr.com/1685049",
       "summary": "小米汽车的新尝试。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -4255,7 +4519,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4391,7 +4655,7 @@
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4413,7 +4677,7 @@
       "url": "https://openai.com/index/cloudflare-cyber",
       "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4999,7 +5263,7 @@
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5223,7 +5487,7 @@
       "url": "https://openai.com/index/terminal-x",
       "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5449,7 +5713,7 @@
       "url": "http://www.geekpark.net/news/372583",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5515,7 +5779,7 @@
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5801,7 +6065,7 @@
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "summary_status": "source",
-      "fetched_at": "2026-10-24T22:27:42Z",
+      "fetched_at": "2026-10-25T04:36:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6716,320 +6980,6 @@
       "fetched_at": "2026-10-18T10:59:46Z",
       "kind": "rss",
       "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-9929d224852d492ff606",
-      "title": "中奖者并非随机选出，马斯克就百万美元选民抽奖欺诈诉讼达成和解",
-      "published": "2026-10-18T02:53:29Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/467.htm",
-      "summary": "IT之家 10 月 18 日消息，2024 年，埃隆・马斯克承诺每天向摇摆州一名随机抽选的登记选民发放 100 万美元（IT之家注：现汇率约合 670.3 万元人民币）奖金。该活动引发了多项法律争议，其合法性受到质疑，还有两名亚利桑那州居民提起诉讼，称这场抽奖属于欺诈。目前马斯克已同意和解这两起在得州奥斯汀立案的诉讼，不过和解协议的细节并未对外公开。 原告方主张，马斯克在宣布这项抽奖活动时，谎称奖金会随机抽取。费城市地方检察官也曾提起诉讼，要求叫停该抽奖活动，指控马斯克在运营非法彩票。在一场听证会上，马斯克旗下“美国政治行动委员会（America PAC）”代表克里斯・戈贝尔（Chris Gober）向法官表示：“这 100 万美元奖金获得者并非随机选出…… 我们完全清楚今天、明天将要公布的百万美元得主是谁。”…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T10:59:46Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7a3c8322d1d20faabc83",
-      "title": "DOOGEE Note60 W 系列手机亮相：6.38 英寸 90Hz 阔面屏设计，撞脸华为 Pura X View",
-      "published": "2026-10-18T02:34:47Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/464.htm",
-      "summary": "IT之家 10 月 18 日消息，据 DOOGEE 公众号最新消息，其全新阔面屏手机 Note60 W 于第 140 届广交会正式首发。 ▲ DOOGEE Note60 W 据介绍，DOOGEE Note60 W 系列手机采用 6.38 英寸 90Hz 阔面屏设计，打破传统屏幕比例；机身厚度约 8.4mm，内置 6500mAh 大容量电池；同时预装最新 Android 17 系统。 值得一提的是，从官方公布的宣传海报来看，DOOGEE Note60 W 的外观与华为 Pura X View 极为相似，包括背部的相机模组造型、摄像头排布、条纹设计、品牌 LOGO 位置和机型壁纸。不过 DOOGEE 新机的正面下巴会更宽，同时缺失了鸿蒙系统标志性的系统导航小白条。 ▲ 图源：华为官网 | HUAWEI Pura X…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2f646ce93e5e890b80ba",
-      "title": "华为 nova 12 / 13 系列手机推 HarmonyOS 7 花粉 Beta 尝鲜升级，新增远程分享、直连供电等功能",
-      "published": "2026-10-18T01:41:46Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/453.htm",
-      "summary": "IT之家 10 月 18 日消息，华为官网在 10 月 16 日更新了鸿蒙 7 系统最新适配清单，华为 nova 12 系列、nova 13 系列手机开启了 HarmonyOS 7 花粉 Beta 尝鲜升级。 IT之家注意到，华为官方宣布，华为 nova 12 系列、nova 13 系列手机已开启 HarmonyOS 7 花粉 Beta 尝鲜版本的升级推送，新增远程分享、智能录音等功能。 适配机型 HUAWEI nova 13（BLK-AL80） HUAWEI nova 13 Pro（MIS-AL00） HUAWEI nova 12（BLK-AL00） HUAWEI nova 12 Pro（ADA-AL00） HUAWEI nova 12 Ultra（ADA-AL00U） HUAWEI nova 12 Ultr…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ed9639e90ac402af1310",
-      "title": "华为 WATCH FIT 5 系列智能手表 HarmonyOS 7 版本 7.0.0.107SP10 发布，支持同步手机地震预警等",
-      "published": "2026-10-18T01:08:02Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/447.htm",
-      "summary": "IT之家 10 月 18 日消息，华为官方宣布，HUAWEI WATCH FIT 5 系列智能手表的鸿蒙 HarmonyOS 7 版本 7.0.0.107SP10 已开始分批推送给公测版升级尝鲜报名入选成功的用户。 IT之家附华为 WATCH FIT 5 系列智能手表此次更新内容如下： 适配机型 HUAWEI WATCH FIT 5 （NKI-B19） HUAWEI WATCH FIT 5 Pro（NKI-B29） 版本更新日志 6.1.0.116SP11 / 6.1.0.116SP12 / 6.1.0.125SP15 → 7.0.0.107SP10 更新点： 【新增】 1. 系统界面焕新升级，表盘及多任务列表等新增光影效果，锻炼记录及计算器等页面更具层次感，为您呈现更舒适的交互体验 2. 新增 Harmony…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f1915f22a10e9bbc6bc8",
-      "title": "新款特斯拉 Roadster 将搭载受限版 FSD，极端设计成主要限制因素",
-      "published": "2026-10-18T01:05:13Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/446.htm",
-      "summary": "IT之家 10 月 18 日消息，新款特斯拉 Roadster 无法搭载完整的 FSD 全套功能。在 MotorTrend 对 Roadster 的实车讲解环节中，主持人指出车辆配备常规摄像头套件，前保险杠（车头）位置设有一枚镜头，并向特斯拉首席设计师弗朗茨 · 冯 · 霍尔茨豪森（Franz von Holzhausen）询问该车是否支持 FSD。 “这款车会搭载受限版本的 FSD。”冯 · 霍尔茨豪森如此回应。他没有详细说明具体存在哪些限制，或是哪些功能会被砍掉。 被问及背后原因时，冯 · 霍尔茨豪森提到了“倾斜角度极大的前挡风玻璃，以及这台车本身作为性能驾驶座驾的定位”。硬件本身并不是障碍，按他的说法：“摄像头和硬件都已配齐。” 根源很大程度来自 Roadster 的特殊设计。大倾角前挡风、低矮楔形车身与…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-cea0ba7da84c1d8c466b",
-      "title": "特斯拉延长奥斯汀 Robotaxi 运营时间至午夜，FSD v15 将支持全天候运营",
-      "published": "2026-10-18T00:56:40Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/444.htm",
-      "summary": "IT之家 10 月 18 日消息，特斯拉再次延长奥斯汀地区自动驾驶出租车（Robotaxi）的运营时间。X 平台用户伊桑 · 麦肯纳（ethanmckanna）发文称，目前运营时段延长至午夜，服务时间调整为早 6 点至午夜 12 点。 自动驾驶出租车应用也向乘客推送了变更通知，告知用户乘车服务可预约至午夜，该消息由亚伦 · 卡什（aaronjcash）在 X 平台分享。 这是一系列小幅延长运营时间举措中的最新一步。今年 8 月，特斯拉将奥斯汀 Robotaxi 运营时间扩展为早 6 点至晚 10 点。大约两周前，夜间结束时间推迟至晚 11 点，同时车队新增 100 多台 Cybercab，目前奥斯汀车队规模已经超过 300 台，下一站计划在达拉斯开放这项乘车服务。 据IT之家了解，特斯拉的终极目标是实现全天候不…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b2643017eec6bb083951",
-      "title": "消息称苹果要求零售店员工劝退无预约顾客：iPhone Duo 首发日基本不卖现货",
-      "published": "2026-10-18T00:25:46Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/437.htm",
-      "summary": "IT之家 10 月 18 日消息，据 MacRumors 报道，苹果部分直营店员工接到通知：需提醒顾客 10 月 23 日周五发售当天，若无预约，不要专程到店购买 iPhone Duo。 员工透露，公司明确告知：首发当日门店基本不会留给无预约顾客现货；工作人员需要主动劝阻没有预订单的到店客人，提醒他们此行大概率会空手而归。 苹果线上商城提示顾客，可以在 10 月 24 日周六再查询门店自提名额。预购开启时，线下到店自提预约曾短暂开放，随后就被直接关闭。 官方这条 10 月 24 日的提示，并不保证届时一定有货。目前还不清楚这项门店指引是否为全球统一执行。如果该要求严格落地，想买现货、绕开线上漫长排队周期的渠道就被堵死了（至少直营店如此）。 IT之家注意到，早在 iPhone Duo 正式发布前，供应链产能紧张的…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-f0fcfea7fc132962378f",
-      "title": "OpenCode 遭攻击：部分用户 OpenAI、Anthropic 等 API 密钥外泄",
-      "published": "2026-10-18T00:19:10Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/434.htm",
-      "summary": "IT之家 10 月 18 日消息，OpenCode 宣布，昨晚（当地时间 10 月 16 日）发生了一起安全事件，涉及大规模“蒸馏攻击”，影响了 1.4% 的 OpenCode Console 用户。 我们已于今天上午（当地时间 10 月 17 日）通过电子邮件通知了所有受影响用户。如果您未收到邮件，则说明您未受此事件影响；受影响的仅为关联了外部服务提供商的部分用户。 由于事件仍在处理中，目前我们无法透露更多细节，但我们正与 Anthropic、OpenAI 和谷歌合作，共同采取补救措施。 网友分享的邮件显示，OpenCode 称有人未经授权访问了该公司正处于停用流程中的一个旧系统。 该公司提醒称，存储在用户工作区中的 API 密钥（如 OpenAI、Anthropic 的密钥）可能已经泄露。一旦有人获取了这些…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8b5dcf9065cb25614214",
-      "title": "OpenAI 将研发人形机器人，奥尔特曼称核心是打造“大脑”",
-      "published": "2026-10-18T00:11:12Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/433.htm",
-      "summary": "IT之家 10 月 18 日消息，尽管 OpenAI 已经忙于开发人工智能模型和全新消费级硬件，但首席执行官萨姆 · 奥尔特曼（Sam Altman）及其团队显然还有精力推进另一个项目：人形机器人。 奥尔特曼在《Sources》播客节目中解释，选择人形具备合理性，原因是“这个世界本身就是为人类设计的”。门、键盘和各类工具，都是按照特定人体形态打造。一台要在同类空间内活动的机器人，采用相近外形会是合适的选择。正如奥尔特曼所说：“匹配这种外形是个不错的思路。” 被问到 OpenAI 是否会亲自制造人形机器人时，他的回答十分简洁：“我们会。”不过奥尔特曼并不十分在意机器人外观这类细碎细节。他称，这些问题“远不如真正研发出驱动机器人运转的‘大脑’重要”。简单来讲，如果一台机器不知道如何运用四肢，就算给它装上双臂双腿，也…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e30feed63f6adbc845ca",
-      "title": "曝华为 Pura X Max 阔折叠手机销量已破百万台，标准版成功“赶超”典藏版",
-      "published": "2026-10-17T23:56:47Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/428.htm",
-      "summary": "IT之家 10 月 18 日消息，长期关注国内手机市场份额的博主 @RD观测 分享了华为折叠屏手机的销量情况：截至 2026 W40（IT之家注：9 月 28 日-10 月 4 日），华为 Pura X Max 约 52.9 万台、Pura X Max 典藏版约 49.31 万台。 从数据来看，华为 Pura X Max 系列横向阔折叠手机的总销量已突破百万台。值得一提的是，普通版终于实现了对典藏版的销量“赶超”，并拉开了约 3.59 万台的差距（此前典藏版的销量长期高于普通版）。 参考IT之家此前报道，行业首款横向阔折叠手机 —— 华为 Pura X Max 已于今年 4 月 25 日 10:08 开售，全系搭载麒麟 9030 Pro 旗舰处理器，售价 10999 元起。 标准版 12GB+256GB：定价 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-63960bbaadbb98209717",
-      "title": "韩国半导体工程师指控特斯拉：施压三星压低 AI 芯片报价、索要敏感信息并挖角其人才",
-      "published": "2026-10-17T23:38:12Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/422.htm",
-      "summary": "IT之家 10 月 18 日消息，据 Tweaktown 报道，一名韩国半导体工程师指控，特斯拉在与三星签订芯片代工协议时，试图争取极为优厚的条款：既要获取敏感的制造工艺信息、审计权限，同时还要求压低报价。这位在 X 平台账号 @TTHUEONE 发文的工程师还称，特斯拉的 Terafab 项目从三星位于得州泰勒的工厂挖走了大量员工。 这些指控出现前，埃隆 · 马斯克（Elon Musk）刚度过事务繁忙的一周。他公开称赞美光科技，称其“对未来存储芯片定价态度理性，其他厂商则存在漫天要价的行为”，这番话普遍被解读为暗指三星。他还暗示台积电有可能参与 Terafab 项目 —— 这是特斯拉与 SpaceX 合作的宏大半导体项目，但同时排除了台积电持有股权或参与运营的可能性。 IT之家注意到，关于人才被挖角的说法并非…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-88cecad500c230b8a1e7",
-      "title": "WPS 官宣「抢鲜」适配 iPhone Duo，支持伴随式 AI 全新布局",
-      "published": "2026-10-17T23:36:49Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/421.htm",
-      "summary": "IT之家 10 月 18 日消息，金山办公 WPS 官方微博宣布，WPS 已「抢鲜」适配 iPhone Duo。官方宣称“手机新形态，办公也有新玩法”。 据介绍，WPS Office for iPhone Duo 支持横屏看表格视野更开阔、竖屏看文章长文更好读、伴随式 AI 全新布局等特性和功能。 IT之家注意到，苹果首款折叠屏手机 iPhone Duo 于 10 月 16 日开启预购，国行定价 15999 元起。手机内屏规格为 7.6 英寸 1878 x 2670 分辨率 120Hz（采用屏下摄像头），外屏规格为 5.4 英寸 1398 x 2034 分辨率 120Hz，两块屏幕均支持全天候显示，以及最高 3000 尼特的户外峰值亮度。 该机搭载 A20 Pro 处理器，拥有大尺寸 VC 均热板，号称相对 i…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-864a53e29b8a2d9c6708",
-      "title": "曝小米 18 Fold 中折叠手机销量突破十万台：首搭玄戒 O3、后置徕卡三摄，10999 元起",
-      "published": "2026-10-17T23:20:56Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/417.htm",
-      "summary": "IT之家 10 月 18 日消息，据长期关注国内手机市场份额的数码博主 @RD观测 爆料，截至 2026 年第 40 周（9 月 28 日-10 月 4 日），小米 18 Fold 中折叠手机的销量约 10.47 万台。 IT之家注意到，在 9 月 23 日的小米秋季新品发布会上，小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰宣布，小米 18 Fold 中折叠手机首销零售量同比上代大折叠增长 300%。 小米 18 Fold 中折叠手机发布于 9 月 7 日，首发玄戒 O3 芯片，配备 5.38″ 外屏 +7.58″ 内屏，并后置徕卡专业三摄，售价 10999 元起： 12GB+256GB：10999 元 12GB+512GB：11999 元 16GB+512GB：12999 元 16GB+1TB（…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a9ee2ace280dde0c210b",
-      "title": "马斯克：新款特斯拉 Roadster 可自主完成特技动作，得州总部将建环形赛道",
-      "published": "2026-10-17T23:08:08Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/416.htm",
-      "summary": "IT之家 10 月 18 日消息，埃隆 · 马斯克（Elon Musk）表示，新款特斯拉 Roadster 车主可以指令车辆完成特斯拉在发布活动上演示的特技动作，全程由车辆自主驾驶。马斯克于当地时间周六在 X 平台回复科技博主罗伯特 · 斯科布尔（Robert Scoble）时发表了该言论，他还承诺将在特斯拉得州总部建造一条环形赛道。 斯科布尔此前提出观点，坐在 Roadster 车内的人并不算真正在驾驶。按他的描述，驾驶员操作一台计算机，由这台计算机向另一台计算机下发指令，转向、制动和加速全部通过线控系统完成。马斯克回复：“没错。你可以指令 Roadster 自主完成现场展示的任意特技，因为这辆车将具备感知能力。另外，我们会在得州总部打造一条极具挑战性的环形赛道（甚至比风火轮赛道还要疯狂），你可以在那里试驾你…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T04:27:25Z",
-      "kind": "rss",
-      "report_type": "report"
     }
   ],
   "collection_status": "ok"
