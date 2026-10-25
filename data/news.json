@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-25T04:36:45Z",
-  "last_success_at": "2026-10-25T04:36:45Z",
+  "updated_at": "2026-10-25T11:21:07Z",
+  "last_success_at": "2026-10-25T11:21:07Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 13,
-      "skipped": 47,
-      "last_success_at": "2026-10-25T04:36:45Z",
-      "last_attempt_at": "2026-10-25T04:36:45Z"
+      "accepted": 12,
+      "skipped": 48,
+      "last_success_at": "2026-10-25T11:21:07Z",
+      "last_attempt_at": "2026-10-25T11:21:07Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 7,
       "skipped": 13,
-      "last_success_at": "2026-10-25T04:36:45Z",
-      "last_attempt_at": "2026-10-25T04:36:45Z"
+      "last_success_at": "2026-10-25T11:21:07Z",
+      "last_attempt_at": "2026-10-25T11:21:07Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-25T04:36:45Z",
-      "last_attempt_at": "2026-10-25T04:36:45Z"
+      "last_success_at": "2026-10-25T11:21:07Z",
+      "last_attempt_at": "2026-10-25T11:21:07Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1318,
       "accepted": 19,
       "skipped": 1299,
-      "last_success_at": "2026-10-25T04:36:45Z",
-      "last_attempt_at": "2026-10-25T04:36:45Z"
+      "last_success_at": "2026-10-25T11:21:07Z",
+      "last_attempt_at": "2026-10-25T11:21:07Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 3,
       "skipped": 27,
-      "last_success_at": "2026-10-25T04:36:45Z",
-      "last_attempt_at": "2026-10-25T04:36:45Z"
+      "last_success_at": "2026-10-25T11:21:07Z",
+      "last_attempt_at": "2026-10-25T11:21:07Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,273 @@
   ],
   "news": [
     {
+      "id": "rss-390ef03f99cef25321e4",
+      "title": "阿里千问蒋冠军谈个人 AI 智能体技术框架：需要模型、记忆与生态协同推进",
+      "published": "2026-10-25T10:38:49Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/669.htm",
+      "summary": "IT之家 10 月 25 日消息，在 10 月 22 日的 2026 中国计算机大会上，阿里巴巴千问事业部 AI 算法负责人蒋冠军分享了千问打造个人 AI 智能体的技术实践过程。他认为，真正的个人智能体阶段，应该带来增量价值的创造和个性化的主动服务，模型、记忆与生态是共同构建这一核心能力的三要素。 蒋冠军将 AI 应用的发展分为对话、代理和助理三个阶段。当前，AI 应用正加速迈向助理阶段，在交付具体任务的基础上，开始结合专业经验和个人上下文，围绕用户目标自主规划与执行，并进一步发现用户尚未注意到或有所疏忽的需求。 他表示，个人 AI 智能体解决日常工作、学习、生活问题的理论上限接近 100%，释放这一潜力的关键，在于让系统能力与问题解决路径更好地匹配，通过模型、记忆与生态能力的高效协同，为不同问题找到最优解决路…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d3ce837fee432d6a4064",
+      "title": "苹果 iPhone Duo 京东原价开放购买，15999 元次日送货上门",
+      "published": "2026-10-25T09:46:31Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/645.htm",
+      "summary": "【京东每天 10:00~17:55 开售，小伙伴们可等明天 10:00 开抢哦。】 京东自营部分地区 iPhone Duo 已支持开放购买次日达，实付 15999 元起 + 12 期免息 *。 * 12 期免息需每天 20:00 蹲点抢券：点此抢新品免息券。 京东 11.11 红包至高 26888 元无门槛可用，每天可领 1 次：点此抽取。 京东 Apple iPhone Duo 需签收激活 仅支持 eSIM15999 元起直达链接 以山东青岛为例，小编 10 月 25 日 17:43 实测黑色 256G 版已支持次日达。 小伙伴们可点击上方卡片，测试下本地库存哦。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-dfa64a24f4078435b367",
+      "title": "比亚迪腾势 D9 预计 2027 年 Q2 推出苹果 CarPlay 功能",
+      "published": "2026-10-25T09:34:14Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/643.htm",
+      "summary": "IT之家 10 月 25 日消息，针对大家关心的腾势 D9 CarPlay 上线时间，官方今日回应称第二代腾势 D9 纯电版、第二代腾势 D9 插混版的 Apple CarPlay 功能预计将于 2027 年第二季度推出，具体进度请以官方后续通知为准。 IT之家注意到，第二代腾势 D9 于今年 4 月开启交付，该车于 4 月 27 日正式上市，共推出 6 款车型，售价区间 35.98-45.98 万元。新车长宽高分别为 5250mm、1960mm、1900mm，轴距达 3110mm。 内饰方面，第二代腾势 D9 采用经典 T 字形布局，第二排配备航空座椅及小桌板，并在座椅后方增设两块液晶显示屏，同时提供二排娱乐屏幕，满足商务与家庭场景的多元需求。 动力方面，第二代腾势 D9 提供插电混动与纯电两种动力形式。插混…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-41154e3751a5cf98824a",
+      "title": "美运营商 Verizon 为苹果 iPhone Duo 预购延迟发货致歉，向受影响顾客赠送 100 美元礼品卡",
+      "published": "2026-10-25T09:30:34Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/641.htm",
+      "summary": "IT之家 10 月 25 日消息，据科技媒体 macrumors 昨天报道，美国运营商 Verizon 最近向部分客户表示，由于意外的运输延误，部分客户可能需要等多一会儿才能收到苹果 iPhone Duo 手机。 为了弥补这段等待，该运营商决定向客户赠送 100 美元（IT之家注：现汇率约合 668.9 元人民币）礼品卡，可在线上 / 线下门店支付账单或购买商品。 Verizon 表示：“我们欠您一个道歉，感谢您耐心等待，也感谢您给予我们弥补问题的机会。您将在下周收到礼品卡的电子邮件，我们正尽快处理订单。排队顺序没有发生变化，我们团队将争取尽快把设备送到您手中。” 一位 10 月 16 日在 Verizon 预购 iPhone Duo 的用户表示，他最初看到手机预计 10 月 23 日（发售当日）送达，但后来预…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-fa08ca6860532df8442c",
+      "title": "东风猛士 X700 上市：华为乾崑智驾 ADS 5 + 鸿蒙座舱 HarmonySpace 6，限时焕新价 20.98 万元起",
+      "published": "2026-10-25T08:26:29Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/629.htm",
+      "summary": "IT之家 10 月 25 日消息，东风猛士汽车全新 X 序列的首款车型 —— 猛士 X700 今日上市，新车共推出 3 款车型，限时焕新价 20.98 万元起，搭载华为乾崑智驾 ADS 5 及鸿蒙座舱 HarmonySpace 6。 IT之家附价格信息如下： 325KM 后驱 Pro 上市指导价 21.98 万元，限时焕新价 20.98 万元 285KM 四驱 Max 上市指导价 23.98 万元，限时焕新价 22.98 万元 285KM 四驱 Max+ 上市指导价 25.98 万元，限时焕新价 24.98 万元 360KM 四驱 Ultra 上市指导价 27.98 万元，限时焕新价 26.98 万元 猛士 X700 长宽高为 5035×1999×1910mm，轴距 2920mm，提供林芝蓝、荔波绿、墨石灰、乌…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7949cd6fe883eb1a40e0",
+      "title": "阿里 AI 智能体“千问 Go！”上线“我的应用”功能：可帮助用户搭建长期、可分享的专属应用",
+      "published": "2026-10-25T08:05:26Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/625.htm",
+      "summary": "IT之家 10 月 25 日消息，阿里宣布旗下 AI 智能体“千问 Go！”上线“我的应用”功能。用户无需编程，只要说出需求，就能搭建用于生活、工作和学习等场景的应用。生成的应用支持对外分享、持续更新数据。 据悉，“我的应用”接入阿里云 AI 应用生产平台 Meoo（秒悟），可自动完成应用搭建、数据库配置和部署上线。结合千问 Go 的云端 Pro 能力，还能在授权后调用用户在淘宝、高德、大麦、夸克网盘等平台的个人数据，让新搭建的应用直接利用已有的购物、出行、学习等生活记录，生成更个性化的专属工具。例如，用户可以调用自己在大麦的历史订单，将其打造为一本电子票根册，将过去看过的演出整理成可随时翻阅的个人回忆。 目前，“我的应用”及支持操作云手机、云电脑的云端 Pro 均处于邀测阶段，用户可前往千问 App 内邀测页…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2f4b646858f92296c996",
+      "title": "华为 HarmonyOS 7.0.0.111 版本暗藏新特性：“智慧场景服务”上线，集成鸿蒙座舱车辆自动化能力",
+      "published": "2026-10-25T07:40:53Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/617.htm",
+      "summary": "IT之家 10 月 25 日消息，华为昨日面向 Mate X7、Mate80、Mate70、Pura80 等系列机型推送了最新的鸿蒙 HarmonyOS 7.0.0.111 SP12 版本升级，带来了与 iPhone 双机互联，实况窗分享等功能。 ▲ IT之家开箱：华为 Mate 80 Pro Max 风驰版图赏 IT之家实测发现，新版本还“暗藏”新特性，未在更新日志中进行说明。在“设置-华为账号”中新增了“智慧场景服务”功能，支持创建自定义操作，联动全场景设备以及 App，帮助完成日常任务。 相比于华为智慧生活 App 的场景功能，此次新增的“智慧场景服务”功能集成了鸿蒙车机场景，可设置的条件与任务也更加丰富，支持创建个人、车辆、家庭三大自动化服务。 目前尚不知晓“智慧场景服务”是否会与智慧生活 App 的场…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-06e16642af9b53116eee",
+      "title": "腾讯《王者荣耀》暂未开放 iPhone Duo 机型 120 帧模式，Air 用户苦等一年也仍未解锁",
+      "published": "2026-10-25T07:17:46Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/609.htm",
+      "summary": "IT之家 10 月 25 日消息，腾讯《王者荣耀》、米哈游《原神》等热门游戏尚未适配 iPhone Duo 这两天引发了网友热议。玩家使用该机内屏游玩上述两款游戏时，会出现无法全屏显示的问题。 IT之家注意到，腾讯《王者荣耀》除了暂未适配 iPhone Duo 的内屏显示外，还没有开放该机型的 120 帧模式。这意味着玩家在使用 iPhone Duo 游玩时，只能以最高 60 帧运行这款竞技 MOBA 游戏。 作为参考，iPhone Air 也未解锁《王者荣耀》的 120 帧模式。该机发布于 2025 年 9 月，距今也有一年时间。据部分机主反馈，在 Air 上游玩该游戏时，能明显感觉到不如其他手机的 60 帧流畅。 ▲ IT之家今日截图：《王者荣耀》仍未提供 iPhone Air 机型 120 帧模式 值得一…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0dc45dc6fad75f003750",
+      "title": "特斯拉确认正自研 AI 地图，将随 FSD v15 逐步推送",
+      "published": "2026-10-25T06:34:47Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/597.htm",
+      "summary": "IT之家 10 月 25 日消息，在最新的特斯拉财报电话会议上，特斯拉副总裁阿肖克 · 埃卢斯瓦米（Ashok Elluswamy）宣布，特斯拉正在自研一套基于 AI 的地图导航系统。这套全新地图方案将随 FSD v15 上线，融合车队采集数据、个性化路线规划，同时支持 FSD 语音控制。 据IT之家了解，特斯拉目前的导航是第三方地图内容搭配自研软件。此前“偏好路线”功能上线时就有报道说明：谷歌通过 API 提供底图瓦片、街道数据、卫星影像、兴趣点以及路况信息；特斯拉自己开发导航应用、计算路线，因此可以把超充站点、用户偏好纳入路线决策。 财报会上，一位股东提问，提到 FSD 在限速识别、泊车、路线选择上存在问题。埃卢斯瓦米对此表示认同：“你说得完全没错，我们本就不该依赖外部厂商的地图。” 他随后确认，特斯拉正在…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1c54ee41661d0b57d300",
+      "title": "苹果 iPhone Duo 部分区域破发，王腾称相比小米、华为阔折叠手机没有特别领先的地方",
+      "published": "2026-10-25T06:21:02Z",
+      "company": "小米",
+      "companies": [
+        "小米",
+        "华为",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/594.htm",
+      "summary": "IT之家 10 月 25 日消息，今日宜休科技公司创始人王腾今日发文，谈及了 iPhone Duo 破发这一话题。他表示： 上手体验了下 iPhone Duo，整体还是挺精致的，但相比小米、华为的阔折叠并没有什么特别领先的地方。 今天依托优秀的工程师团队和强大的产业链资源，中国的科技团队，在大多数领域都能做出不逊于海外友商，甚至是更好的产品，手机是这样，睡眠科技产品也会是如此。 据IT之家早些时候报道，综合各大平台网友反馈，苹果 iPhone Duo 在国内部分区域出现“破发”情况，同时当下拼多多已将该机上架百亿补贴频道（注：仅部分地区能看到），相对于上市价格便宜约 200-300 元。 作为参考，苹果首款折叠屏手机 iPhone Duo 已于 10 月 23 日发售，国行定价 15,999 元起。该机采用书本…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-229e3eae74405b5cc867",
+      "title": "苹果 iPhone Duo 在部分区域破发：已加入电商平台“百亿补贴”，相对上市价便宜约 200-300 元",
+      "published": "2026-10-25T06:17:36Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/593.htm",
+      "summary": "IT之家 10 月 25 日消息，综合各大平台网友反馈，苹果 iPhone Duo 在国内部分区域出现“破发”情况，同时当下拼多多已将该机上架百亿补贴频道（注：仅部分地区能看到），相对于上市价格便宜约 200-300 元。 虽然苹果 iPhone Duo 首发日被加价到 1500-2000 元，然而该机在发售 2 天后的当下就迎来了“破发”局面。尽管如此，目前苹果 Apple Store 全国多家门店依然没有提供可直接购买的现货，官网购买手机选择“送货”选项时，显示仍要等到明年 1 月。 行业研究机构 IDC 此前预计，苹果首款折叠屏 iPhone 首年出货量将超过 1000 万部，并可能在 2027 年拿下全球折叠屏手机市场约 40% 的份额。高盛则维持对 iPhone Duo 的乐观判断，预计其 2026 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-49cd5aa35462f3b9b6b9",
+      "title": "鸿蒙智行智界 RX 轿跑 SUV 整装发运：今日同步开启全国大规模交付，赛车手谢欣哲成首批车主",
+      "published": "2026-10-25T05:34:04Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/017/587.htm",
+      "summary": "IT之家 10 月 25 日消息，鸿蒙智行智界 RX 轿跑 SUV 今日宣布整装发运，加速驶向首批车主。 参考IT之家此前报道，智界 RX 今日会在上海国际赛车场举办首批车主交付仪式，全国大规模交付也将同步开启。官方透露，后续车辆将按照锁单顺序陆续推进排产和交付，预计交付周期为 4-6 周。 据博主 @爱叨叨的Steven 分享的现场情况，赛车手谢欣哲成为智界 RX 首批车主。公开资料显示，谢欣哲 1991 年 8 月 23 日出生于湖北十堰，曾获 2007 年全国卡丁车锦标赛贵州站 NCJ-B 组冠军、2009 年 AGF 亚洲方程式国际公开赛年度季军、2010 年中国方程式大奖赛北京站冠军、2015 年 CTCC 中国房车锦标赛北京站冠军、2023 年超级杯-TCR 中国系列赛株洲站首回合 / 次回合亚军等…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-25T11:21:07Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-7f179ea591ef3763294c",
       "title": "卢伟冰再谈小米 18 Fold 手机折痕：采用新一代折叠架构，平均深度 ≤30μm",
       "published": "2026-10-25T04:31:26Z",
@@ -233,7 +500,7 @@
       "url": "https://www.ifanr.com/1685622",
       "summary": "还没捂热呢 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -1006,7 +1273,7 @@
       "url": "https://www.ifanr.com/1685714",
       "summary": "来了来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1470,7 +1737,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1846,7 +2113,7 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1869,7 +2136,7 @@
       "url": "https://www.ifanr.com/1685575",
       "summary": "微信终于适配 iPhone Duo ！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2023,7 +2290,7 @@
       "url": "http://www.geekpark.net/news/372801",
       "summary": "「很多人赚不到认知以外的钱。那消费者呢？我认为，买不到他认知以外的商品。」10 月 15 日下午，上海世博中心，2026 天猫双 11 发布会。天猫总裁家洛开场没多久，就抛出了这句话。 消费者的需求远比这些品类多，只是大部分还处在「沉睡」状态。过去的搜索解决不了这个问题。用户主动搜关键词、平台做精准匹配，在他看来，「更像一个统计学的概念」，搜的人越多、描述越准，匹配就越高效，「但这依然是存量和认知以内的东西」。 所以他给今年的 AI 定了一个很朴素的标准：「AI 最重要的，是他是不是更理解我们，以及是不是更理解我们的消费者。」 一个用户在飞猪上买了去看世界杯的机票，从没搜过任何和球迷有关的关键词，但他曾经是运动人群。把这两条线索组合成人群包推给运动品牌和足球品类，购买转化率比日常高出 3 倍以上。 「即使可能消…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2422,7 +2689,7 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2580,7 +2847,7 @@
       "url": "https://openai.com/index/decisions-api",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2913,7 +3180,7 @@
       "url": "https://www.ifanr.com/1685507",
       "summary": "大的还在后面 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3248,7 +3515,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "summary": "What forward deployed engineering means at OpenAI",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3608,7 +3875,7 @@
       "url": "https://www.ifanr.com/1685251",
       "summary": "在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3631,7 +3898,7 @@
       "url": "http://www.geekpark.net/news/372710",
       "summary": "头图图片来源：极客公园 我在 iPhone Duo 上，把淘宝、高德、小红书、腾讯视频、飞书、WPS、XMind，还有篮球游戏 NBA 巅峰对决，这 8 个为它做过适配的 App 挨个用了一遍。淘宝从首页到客服消息，整条购物链路都动过；高德把路线和地图拆成了左右两半；小红书的笔记，变成了左边看图、右边看正文和评论。 这台手机的国行首批预订已经售罄。据环球时报 10 月 17 日的报道，苹果官网显示的预计交付时间，排到了明年二月，等货的这几个月，其实大家最关心答案的问题只有一个：除了更「阔」，它和我们用了这么多年的直板 iPhone，体验到底有什么不一样。 对 iPhone 来讲答案是，合上的时候，它最像一台普通 iPhone，区别只是程序坞、状态栏和灵动岛挪到了屏幕侧边，竖着排。真正的不同发生在另外两种状态里：…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3653,7 +3920,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3719,7 +3986,7 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3763,7 +4030,7 @@
       "url": "https://openai.com/index/att-legal",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3939,7 +4206,7 @@
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4075,7 +4342,7 @@
       "url": "https://www.ifanr.com/1685170",
       "summary": "只能说真的很爽 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4141,7 +4408,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4363,7 +4630,7 @@
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4385,7 +4652,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4407,7 +4674,7 @@
       "url": "https://www.ifanr.com/1685049",
       "summary": "小米汽车的新尝试。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -4519,7 +4786,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4655,7 +4922,7 @@
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4677,7 +4944,7 @@
       "url": "https://openai.com/index/cloudflare-cyber",
       "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5263,7 +5530,7 @@
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5487,7 +5754,7 @@
       "url": "https://openai.com/index/terminal-x",
       "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5713,7 +5980,7 @@
       "url": "http://www.geekpark.net/news/372583",
       "summary": "人们已经很多年没见过，苹果的新品被这样抢了。 10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。 大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。 几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格高出 1800 美元。 这不是中国市场独有的狂热，而是一场苹果新品全球同步的抢购。 iPhone Duo 卖爆的背后，真…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5779,7 +6046,7 @@
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6065,7 +6332,7 @@
       "url": "https://openai.com/index/low-resource-programming-languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "summary_status": "source",
-      "fetched_at": "2026-10-25T04:36:45Z",
+      "fetched_at": "2026-10-25T11:21:07Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6738,248 +7005,6 @@
       "fetched_at": "2026-10-18T22:24:35Z",
       "kind": "rss",
       "report_type": "report"
-    },
-    {
-      "id": "rss-b0785a17fe3b846f7c3e",
-      "title": "开源项目 Husk 2.0 公布：利用自研翻译层让苹果 iPhone 运行 Android 游戏，兼容超 150 款应用",
-      "published": "2026-10-18T11:06:57Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/576.htm",
-      "summary": "IT之家 10 月 18 日消息，独立开发者 Leviidev 近期公布了 Husk 2.0 开源项目，利用自研翻译层，让部分 Android 应用自带的 64 位原生代码能够直接在 iPhone 处理器上运行，相应项目无需越狱 iPhone，支持 iOS 16 及以上系统，目前已兼容超过 150 款应用。 IT之家获悉，Husk 2.0 与传统 Android 模拟器有所不同。以 QEMU 等方案为例，传统模拟器通常需要模拟完整的 Android 系统，包括启动系统、加载内核和运行系统服务。而 Husk 则通过翻译层绕过完整系统环境，将游戏的 DEX 文件及 .so 动态库加载到普通 iOS 应用进程中，再由自身提供游戏所需的 Android 运行环境。 具体而言，Husk 会提供 C 函数库、游戏调用的 J…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T22:24:35Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-720491b47c014b31e74b",
-      "title": "奕境 X9 在华为松山湖开启交付，限时优惠价 27.98 万元起",
-      "published": "2026-10-18T10:01:25Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/553.htm",
-      "summary": "IT之家 10 月 18 日消息，今日，奕境汽车在华为松山湖园区开启奕境 X9 全国批量交付，郭富城成为奕境 001 号车主。 奕境 X9 于 9 月 24 日上市，限时优惠价 27.98 万-35.98 万元，号称满配华为乾崑全栈智能，拥有华为乾崑智驾、鸿蒙座舱、华为乾崑赤兔平台、华为乾崑车载光、华为乾崑车云、华为鲸鳍通信加持。 奕境 X9 长 5301mm、宽 2015mm、高 1820mm，轴距为 3120mm。首发搭载鸿蒙座舱 HarmonySpace 6，配备双 17.2 英寸 3.4K 蝶羽双联屏，采用 21:10 比例设计，分辨率达到 3.4K，并支持柔光技术。 该车还搭载 896 线双光路图像级激光雷达，最高采用华为乾崑四激光方案，拥有 140 亿公里累计智能辅助驾驶里程，号称行业第一。奕境 X…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T22:24:35Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4b3832cb48b5f26ed412",
-      "title": "小米大家电空调能效技术交流会 10 月 26 日举行，招募 5 名用户",
-      "published": "2026-10-18T09:32:14Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/545.htm",
-      "summary": "IT之家 10 月 18 日消息，小米集团大家电部总经理单联瑜昨日宣布，小米大家电空调能效技术交流会将于 10 月 26 日在小米武汉科技园举行，围绕“空调能效突破 APF6.0，背后究竟有哪些核心科技？”好好聊一聊。 IT之家附活动信息： 报名时间：10 月 16 日 19:00-10 月 21 日 24:00 活动时间：10 月 26 日 15:00-17:00 活动地点：小米武汉科技园 招募对象：5 人 活动流程：用户交流下午茶 活动须知显示，具体活动时间和详细地点，将在活动开始前于活动群通知，请米粉朋友们报名前知悉。本报名渠道共计筛选 5 位米粉获得活动入场资格，其中内容不包括路费、住宿，以及路途产生的餐饮费用。 参考 报名链接",
-      "summary_status": "source",
-      "fetched_at": "2026-10-18T22:24:35Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-566948548987108407bf",
-      "title": "王腾分享“从小米离职一年以来心路历程”：还是非常感谢小米、感谢雷总",
-      "published": "2026-10-18T08:32:45Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/529.htm",
-      "summary": "IT之家 10 月 18 日消息，王腾创立的 ISHO 今日宜休 AI 健康科学团队近期正式对外亮相。借此契机，王腾接受媒体“界面新闻”采访，分享了从小米离职一年以来的心路历程。 IT之家注意到，在谈及离开小米一年的感受时，王腾坦言：“去年离开（小米）的那段时间肯定是一个低谷。人生第一次连续一周上热搜，还是有很大的挫折感。但我调整得还算快，大概两三个星期，就慢慢和自己和解了，之后开始找新的方向。” 对于在小米的九年，王腾表示：还是非常感谢小米，尤其感谢雷总，也确实学到了非常多东西。第一个大的收获，是站在一个经营者的角度，获得了一条完整产品线的全貌，而且这是在一家头部科技公司，操盘接近千亿元规模的业务，这样的机会在全球范围内也不多。第二个收获，是把小米尤其是雷总讲的那套方法论，从学习变成了实践。经历了怎么做爆品，…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T22:24:35Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9272dea58d2365bff734",
-      "title": "何刚重阳节分享华为手机实用功能：拦截诈骗电话、远程协助长辈",
-      "published": "2026-10-18T08:25:22Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/528.htm",
-      "summary": "IT之家 10 月 18 日消息，今天是重阳节，华为终端 BG CEO 何刚发文分享华为手机使用功能，含一键调大显示、拦截骚扰诈骗电话、快速修图等等。 关怀模式： 星盾防诈： 亲密圈： 小艺修图： 客服小艺： IT之家注意到，鸿蒙 HarmonyOS 7 拥有新升级的亲密圈，支持共享屏幕远程协助。即使人不在身边，也能协助长辈简单快速解决问题。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-18T22:24:35Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d496648c905746d9ef9f",
-      "title": "米哈游《绝区零》游戏 3.3 版本将适配苹果 iPhone Duo",
-      "published": "2026-10-18T07:47:36Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/520.htm",
-      "summary": "IT之家 10 月 18 日消息，米哈游前天宣布，官方将在《绝区零》游戏 3.3 版期间推出苹果 iPhone Duo 机型相关适配。 值得注意的是，Apple 执行董事长 Tim Cook（蒂姆 · 库克）最近现身上海米哈游总部，米哈游创始人、总裁刘伟（大伟哥）亲自接待。 IT之家注意到，这是库克时隔 3 年再次公开前往米哈游总部。库克曾在 2023 年 3 月进行了一次中国行，受邀来参加 3 月 25 日至 27 日在北京举行的中国发展高层论坛。除了商务会谈等必要工作外，库克还频繁探店、开会、与各种人合影留念。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-18T10:59:46Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b6d44cb1124e3b4ab4bc",
-      "title": "苹果 iPhone Duo 京东尊享权益套装上线，20998 元起 20:00 开抢",
-      "published": "2026-10-18T07:24:18Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/513.htm",
-      "summary": "iPhone Duo 定价 15999 元起，京东支持 12 期免息，以旧换新至高补贴 700 元：点此预约京东新品。 今日京东上线“尊享权益套装”，定价 20998 元起，每晚 20:00 开抢。 较裸机版加价 4999 元，套装内含： 本机 15999 元起 苹果 40W 充电器 329 元 摩可 · 肖特 UTG 钢化膜 929 元 1 年京东全面保修服务 1800 元（含意外故障） 5 年电池不限次换新服务 999 元（需电池健康低于 80%） 90 天全保换新服务 1200 元 复购补贴 999 元 京东 iPhone Duo 尊享权益套装 需签收激活 20998 元起直达链接 另外加价 7999 元的“臻享权益套装”也在售卖中，较“尊享套装”主要增加 999 元官方壳 + 399 元充电宝，也是每晚…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T10:59:46Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3133d517536a6f352618",
-      "title": "华为路由 X2 Pro 官宣接入智慧生活 App，新品上市时间待定",
-      "published": "2026-10-18T06:18:45Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/490.htm",
-      "summary": "IT之家 10 月 18 日消息，华为智慧生活 App 显示，鸿蒙智联基础服务迎来了 17.0.4.335 版本升级。此次版本升级又一次超前曝光了华为新品的存在。 更新说明显示，鸿蒙智联基础服务将新增支持路由 X2 Pro 接入。这表明华为接下来将推出一款路由新品（上市时间待定），预计其定位在 X3 Pro 和 X1 Pro 之间。 作为参考，华为路由 X 系列定位“创新旗舰”，目前已推出 X1 / X1 Pro 和 X3 Pro 日照金山三款产品。 遗憾的是，虽然此次鸿蒙智联基础服务升级预告了新品的存在，但华为智慧生活 App 却并未像往常一样公开新品配对步骤（华为此前的 IoT 新品常在智慧生活 App 提前“剧透”，并曝光外观和部分功能信息）。IT之家也将持续关注新品信息，并在第一时间带来产品最新情报。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-18T10:59:46Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b6829820569eccfab410",
-      "title": "华为鸿蒙星河互联 AirPods 适配型号公布，覆盖初代至 Max 等主流机型",
-      "published": "2026-10-18T06:05:31Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/489.htm",
-      "summary": "IT之家 10 月 18 日消息，在今年 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，华为终端 BG CEO 何刚宣布，华为鸿蒙星河互联升级，支持连接苹果 AirPods 无线耳机。 IT之家注意到，华为官网现公布了鸿蒙星河互联 AirPods 适配机型。据介绍，当前支持与 AirPods 4、AirPods Pro 3、AirPods 3、AirPods Pro 2、AirPods 2、AirPods Pro 1、AirPods 1、AirPods Max、AirPods 5 等主流型号 AirPods 进行互联。 华为手机升级 HarmonyOS 7.0 及以上版本与 AirPods 连接后，可实现 AirPods 连接提醒及电量显示功能，具体如下：…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T10:59:46Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-24631d113958b7c4665c",
-      "title": "鸿蒙智行尚界 Z9 新车再曝：消息称属于 2027 年车型，上市时间为明年 4-5 月份",
-      "published": "2026-10-18T05:22:25Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/487.htm",
-      "summary": "IT之家 10 月 18 日消息，工信部 16 日发布第 412 批《道路机动车辆生产企业及产品公告》新产品公示，尚界 Z9 纯电动 SUV 完成申报，定位纯电动运动型乘用车，尺寸为 5139×2005×1776mm、轴距 3086mm，额定载客含驾驶员为 5 人（双电机版可选 6 座版本）。 博主 @未来的学习笔记 今日发文，曝光了这款新车的更多信息。据称，按照鸿蒙智行 SUV 的尺寸矩阵，尚界 Z9 大于 6-7 系、小于 8-9 系。考虑到它运动的造型搭配 5-6 座的座椅布局，从尺寸的角度把它看成是 8 系产品的一个运动版可能更加适合。 博主透露，尚界 Z9 上市的时间是明年的 4-5 月份，属于 2027 年的车型，虽然具体配置还没确定，但 27 年的车型配置大概率是要好于目前 7-8 系车型。他表示…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T10:59:46Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-aef4d1312924b5ee144d",
-      "title": "华为 FreeClip 2 耳夹耳机潮玩拼色曝光，采用红黄蓝拼搭撞色设计",
-      "published": "2026-10-18T04:51:49Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/014/484.htm",
-      "summary": "IT之家 10 月 18 日消息，据多位网友 / 博主分享，华为 FreeClip 2 耳夹耳机将迎新配色发布。从曝光的海报来看，新配色并非固定的单一配色，而是主打“自在鲜活”的潮玩拼色。 画面显示，华为 FreeClip 2 的潮玩拼色采用红黄蓝拼接撞色设计。同时，耳机舱的外壳为黄色，内饰为黑色。还有网友分享了新配色的实拍图。 据IT之家了解，华为 FreeClip 2 采用了华为全新第三代自研低功耗芯片，首次引入 NPU AI 处理器，算力提升 10 倍；新增鸿蒙 AI 耳边助手，支持头动播报、智慧播报、小艺唤醒、小艺翻译。 这款耳机采用了 φ10.8mm 开放式双振膜声学单元，响度提升 100%，低频动力提升 100%；配备 60mAh 电池，单次续航 9 小时，搭配充电仓（537mAh 电池）38 小时…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-18T10:59:46Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
     }
   ],
   "collection_status": "ok"
