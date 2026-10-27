@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-27T17:58:15Z",
-  "last_success_at": "2026-10-27T17:58:15Z",
+  "updated_at": "2026-10-27T22:10:27Z",
+  "last_success_at": "2026-10-27T22:10:27Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 15,
       "skipped": 45,
-      "last_success_at": "2026-10-27T17:58:15Z",
-      "last_attempt_at": "2026-10-27T17:58:15Z"
+      "last_success_at": "2026-10-27T22:10:27Z",
+      "last_attempt_at": "2026-10-27T22:10:27Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 4,
       "skipped": 16,
-      "last_success_at": "2026-10-27T17:58:15Z",
-      "last_attempt_at": "2026-10-27T17:58:15Z"
+      "last_success_at": "2026-10-27T22:10:27Z",
+      "last_attempt_at": "2026-10-27T22:10:27Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-27T17:58:15Z",
-      "last_attempt_at": "2026-10-27T17:58:15Z"
+      "last_success_at": "2026-10-27T22:10:27Z",
+      "last_attempt_at": "2026-10-27T22:10:27Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1327,
-      "accepted": 24,
+      "feed_items": 1328,
+      "accepted": 25,
       "skipped": 1303,
-      "last_success_at": "2026-10-27T17:58:15Z",
-      "last_attempt_at": "2026-10-27T17:58:15Z"
+      "last_success_at": "2026-10-27T22:10:27Z",
+      "last_attempt_at": "2026-10-27T22:10:27Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 4,
       "skipped": 26,
-      "last_success_at": "2026-10-27T17:58:15Z",
-      "last_attempt_at": "2026-10-27T17:58:15Z"
+      "last_success_at": "2026-10-27T22:10:27Z",
+      "last_attempt_at": "2026-10-27T22:10:27Z"
     }
   ],
   "disabled_sources": [
@@ -189,7 +189,7 @@
       "url": "https://www.ithome.com/1/018/692.htm",
       "summary": "IT之家 10 月 27 日消息，彭博社记者马克 · 古尔曼今日在 X 平台发文称，苹果明天发布的 OLED 触控 MacBook Pro 将带来几项改进：机身厚度略微降低、屏幕边框进一步收窄、机身重量明显减轻。 古尔曼还提到，这款 OLED MacBook Pro 将配备重新设计的转轴，更加稳定，因此用户使用触摸屏幕时，屏幕不会晃动。 据IT之家此前援引古尔曼消息，这款 MacBook Pro 将首次采用 Tandem OLED 面板，并且是苹果首款支持触控屏的 MacBook。预计采用 M5 Pro 或 M5 Max 芯片，苹果选择跳过 M6 系列的高端版本，以此加快 M7 芯片的推出进度。",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -211,7 +211,7 @@
       "url": "https://www.ithome.com/1/018/674.htm",
       "summary": "IT之家 10 月 27 日消息，据韩联社，韩国首尔警察厅今日通报将 80 名涉嫌非法破解从而在原本无法使用 FSD 的特斯拉车型上擅自激活 FSD 功能的车主移送检方，并查扣了 21 台未经授权的激活设备。 警方指控，这些车主涉嫌违反韩国《汽车管理法》，涉案车主通过欧洲、中国等地的渠道购买破解设备，或自行制作相关工具，以绕过特斯拉的软件限制。 部分媒体报道称，这些车主仅花了约 3 万韩元（IT之家注：现汇率约合 151.4 元人民币）购买到了破解设备，从而解锁了在中国市场售价高达 6.4 万元人民币的辅助驾驶套件。 韩国纽西斯通讯社报道称，部分设备由海外购买，也有从事 IT 相关工作的涉案人员利用海外开发者平台 GitHub 上的开源代码，结合车辆电子控制系统相关技术信息，自行制作激活设备。 警方还发现，部分…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +233,7 @@
       "url": "https://www.ithome.com/1/018/668.htm",
       "summary": "IT之家 10 月 27 日消息，今晚，抖音集团副总裁李亮发文称，随着红果短剧内容质量不断提升，越来越受到用户喜爱。他表示，同时不断有关于红果短剧的不实信息传出，这些信息甚至影响到一些有权威的专家学者，一位其非常尊重的学者居然提出“中国互联网的字节时间”，这个定性极不严谨，纯属瞎扯。他认为，互联网竞争激烈，没有哪家公司成为“中国互联网的 xx 时间”。 李亮在文中提到，互联网产品中，只有即时通讯因为有关系链这个护城河，市场格局相对稳定。短剧、短视频这类产品属于充分竞争行业，市场竞争激烈，市场格局变动快，没有哪家公司能稳居市场第一，真实情况是，腾讯公司短剧、短视频增长速度，远远超过抖音和红果，而且在互联网应用中，即时通讯，游戏、电商、音乐都占据用户非常多的“时间”。 IT之家注意到，红果短剧官方账号今日早些时候发…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +255,7 @@
       "url": "https://www.ithome.com/1/018/666.htm",
       "summary": "IT之家 10 月 27 日消息，苹果公司今日宣布为 Apple 创作坊带来重大更新，为创作者带来专业级工具。Mac 版 Final Cut Pro 现内置 MotionVFX，集成视觉特效、插件、转场、模板和运动图形工具等功能。同时 Pixelmator Pro、Keynote 讲演、Pages 文稿和 Numbers 表格推出多项全新 AI 功能 Beta。 Apple 创作坊将于今年 11 月以免费更新的形式通过 App Store 推出。 视频工作流 IT之家了解到，Mac 与 iPad 版 Final Cut Pro 为视频剪辑师、内容创作者和电影工作者提供了一系列新功能。Mac 版 FCP 现在将 MotionVFX 直接整合进 App，剪辑师可使用数千种元素，包括模板、图形、标题字和转场，以及转描…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +277,7 @@
       "url": "https://www.ithome.com/1/018/661.htm",
       "summary": "IT之家 10 月 27 日消息，在 2023 年 4 月的 nova 11 系列及全场景新品发布会上，问界推出了 M5 智驾版车型，首发华为 ADS 2.0 智能辅助驾驶系统，满油满电续航 1425km。 随着该车一起发布的还有 HUAWEI MagLink 魔吸车载接口，HarmonyOS 4.X 系统的平板（如 MatePad Pro 13.2 英寸等）在使用相关磁吸配件后，可通过座椅靠背后的接口与车辆进行连接，并支持与鸿蒙座舱智能联动，如控制平板观看内容、前后排组队游戏、双屏接入会议等。 ▲ 图源：问界官网 | HUAWEI MagLink 魔吸车载接口宣传图 该功能在 HarmonyOS NEXT 短暂下线，后随 5.1.0.128 版本更新回归。但当时系统设置等无法找到相关功能入口，仅可以通过超级终…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -299,7 +299,7 @@
       "url": "https://www.ithome.com/1/018/660.htm",
       "summary": "IT之家 10 月 27 日消息，苹果现已为旗下 24 英寸 iMac 推出 M6 版本（点此访问），这款 iMac 相比上一代主要就是例行更换新款芯片，设计上保持不变，国行 12499 元起，产品将于 10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售。 M6 芯片（两个雷雳端口、10 核中央处理器、10 核图形处理器、双 16 核神经网络引擎） RMB 12,499 起 M6 芯片（四个雷雳端口、12 核中央处理器、12 核图形处理器、双 16 核神经网络引擎） RMB 13,999 起 在设计方面，IT之家获悉 M6 款 iMac 继承了上一代外观，提供多种配色可选。其依然沿用 24 英寸 4480 x 2520 分辨率 60Hz 显示屏，支持 P3 广色域，拥有 500 尼特亮度，配…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +321,7 @@
       "url": "https://www.ithome.com/1/018/657.htm",
       "summary": "IT之家 10 月 27 日消息，苹果现已为旗下 14 英寸 MacBook Pro 推出 M6 版本（点此访问），该笔记本主要是更换新款芯片，设计上保持不变，国行售价为 15999 元起，产品将于 10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售。 新款 M6 芯片的 14 英寸 MacBook Pro 继承了上一代外观，可选深空黑色和银色两种配色，配备 3024 x 1964 分辨率 120Hz 显示屏。该机搭载 M6 芯片，为 12 核中央处理器、12 核图形处理器、双 16 核神经网络引擎规格，官方称该机设备端 AI 性能相对于 13 英寸 M1 机型最高提速至 13 倍。 同时，新款 M6 芯片的 14 英寸 MacBook Pro 机型内存带宽达 170GB/s，比 M5 机型…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -343,7 +343,7 @@
       "url": "https://www.ithome.com/1/018/654.htm",
       "summary": "10 月 27 日晚间，REDMI 举办了新品发布会，正式推出 K 系列最新一代产品 REDMI K100，新机主打“双芯魔王，万级续航”，标准版首次搭载游戏独显，同时 10000mAh 小米金沙江电池带来强劲续航，从而带来全面高能体验。现在，IT之家拿到了黑色款的 REDMI K100 真机，先为大家带来一波开箱图赏。 REDMI K100 包装盒依然保持了过往一贯的包装设计风格，淡淡的灰白色为主色调，正面为一大块亮银色的矩形视窗，搭配黑色的粗体“K100”文字，亮银色块下方才是 REDMI 的字样，整个包装是文字和图形组合的时尚设计。 REDMI K 系列在过去几代形成了相对统一的设计语言，直边机身，后面是标志性的横向纯平相机 Deco。具体来看，相机 Deco 为圆角矩形的模块，垂直凸起于机身背板，整个模…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -365,7 +365,7 @@
       "url": "https://www.ithome.com/1/018/650.htm",
       "summary": "IT之家 10 月 27 日消息，深蓝汽车今日宣布，深蓝 S09 OTA V5.4 版本重磅上线，首批搭载华为乾崑 ADS Max V5.0.2 车型，带来 4 大维度进化、20+ 项功能新增。 IT之家附主要内容如下： 新增城区场景漫游巡航辅助功能 新增园区无导航漫游功能 新增领航辅助 (NCA) 激活场景拓展 新增同园区导航到充电车位功能 新增充电车位忙闲可视化功能 新增自动防追尾 (ARCP) 功能 新增自动打转向灯功能 新增自动开启哨兵模式功能 新增千悟大模型功能 新增 AI 语音大模型功能 新增双地图切换功能 新增领航者勋章版块 新增亲密双人位模式语音提示 延伸阅读 深蓝 S09 是深蓝汽车的旗舰大型六座 SUV，于 2025 年 5 月 22 日深蓝汽车品牌之夜上正式上市并开启交付，官方指导价 23…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -387,7 +387,7 @@
       "url": "https://www.ithome.com/1/018/640.htm",
       "summary": "IT之家 10 月 27 日消息，博主 @有没有搞措 发文，透露苹果昨晚发布的 iPad mini（A20 Pro）配备的 OLED 面板实为 120Hz 刷新率锁 60Hz。 对此，博主 @Kang 认为苹果此举可能是为了照顾平板续航能力。 IT之家参考官网设备详情获悉，苹果 iPad mini（A20 Pro）搭载 8.5 英寸 2316 x 1512 分辨率 OLED 面板，其中 256GB 和 512GB 机型可选配纳米纹理显示屏玻璃。该机将于 10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售，定价 5499 元起。",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -409,7 +409,7 @@
       "url": "https://www.ithome.com/1/018/639.htm",
       "summary": "IT之家 10 月 27 日消息，小米 REDMI 品牌首款耳夹式耳机 Clip Neo 现已开售，定价为 399 元，叠加国补后 359.15 元，京东补贴后 339.15 元。 REDMI Clip Neo 采用跑道形 C 桥与同色系一体化设计，搭配立式充电盒以及云隙光灯效 2.0，提供零度黑、珍珠白两种配色。 佩戴方面，其单耳仅重 5.3g，采用仿生曲面设计与水滴发声球，结合 3.4mm 黄金夹持间距温柔贴合耳廓；C 桥内部搭载 0.6mm 高弹力记忆钛丝，通过 25000 次弯折测试，外部包覆亲肤液态硅胶，柔软舒适且不易过敏；耳机取出即用，不区分左右耳，并支持佩戴检测，取下自动暂停、戴上继续聆听。 音质部分，耳机内置 12mm 超大尺寸双磁动圈单元，采用双 N52 铷磁铁，相较单磁路动圈磁通量提升 20…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -431,7 +431,7 @@
       "url": "https://www.ithome.com/1/018/637.htm",
       "summary": "IT之家 10 月 27 日消息，小米 REDMI Book 2027 正式发布，11 月 3 日 10:00 正式开售，首销赠送 20000mAh 充电宝。IT之家汇总价格如下： REDMI Book 14 酷睿 5 320、16GB+512GB 版本：6799 元，国补价 5779.15 元 酷睿 7 350、16GB+1TB 版本：7999 元，国补价 6799.15 元 REDMI Book 16 酷睿 5 320、16GB+512GB 版本：6999 元，国补价 5949.15 元 酷睿 7 350、16GB+1TB 版本：8199 元，国补价 6969.15 元 这款笔记本电脑 A/C/D 面采用全金属铝合金机身，提供多种配色，14 英寸版本重约 1.28kg，厚 13.95mm；16 英寸机型约 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -453,7 +453,7 @@
       "url": "https://www.ithome.com/1/018/635.htm",
       "summary": "IT之家 10 月 27 日消息，小米 REDMI K100 手机今日发布，限时特惠到手价 2999 元起。即刻开始预售，10 月 31 号 10 点正式开售。 IT之家附价格如下： 12GB+256GB 版建议零售价 3499 元，双 11 限时特惠 2999 元，国补价 2549.15 元 12GB+512GB 版建议零售价 4099 元，双 11 限时特惠 3499 元，国补价 2999 元 16GB+512GB 版建议零售价 4499 元，双 11 限时特惠 3899 元，国补价 3399 元 据介绍，K100 搭载 6.83 英寸直屏，极窄边框；1.3mm 金属反包中框，手感圆润舒适；纯平金属相机 Deco，横握不硌手；黑色、雪岩白、流萤绿，三色可选。 K100 搭载狂暴双芯，高通骁龙 8 至尊版旗舰…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -475,7 +475,7 @@
       "url": "https://www.ithome.com/1/018/634.htm",
       "summary": "IT之家 10 月 27 日消息，微信今晚发布了 Windows 与 Mac 双平台的 4.2.0 正式版更新，官方更新依然为“修复一些已知问题”。当然，目前包括鸿蒙版在内的所有平台清一色都是“修复一些已知问题”。 根据此前曝光的内测信息，4.2.0 版本在基础聊天场景中做出了几项实质改动（不排除正式版撤回的可能）： 翻译功能从“整条消息右键翻译”升级为支持在文字消息中选中任意片段进行精准翻译，最小翻译单位由一条气泡缩小到用户实际选中的字句。 表情面板新增了剪刀石头布和骰子，补齐了手机端早已具备的互动玩法。 通话相关交互也配套调整：来电界面增加了轻量化悬浮提示，用户在使用其他应用时不再被全屏弹窗强制打断；通话过程中新增快捷消息入口，无需挂断即可发送文字或图片；视频通话的自画面小窗支持拖拽到屏幕任意角落。 有需要…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -497,7 +497,7 @@
       "url": "https://www.ithome.com/1/018/610.htm",
       "summary": "IT之家 10 月 27 日消息，据科技媒体 Notebookcheck 今天报道，意大利零售商 Epto 最近提前公开了小米 18 Pro 系列手机全球版定价，起售价为 1,549 欧元（IT之家注：现汇率约合 11,574 元人民币）。 据介绍，小米 18 Pro 和 18 Pro Max 在全球市场将提供黑色、白色和酒红色，其中酒红色是全球版独有的配色。IT之家附具体零售价如下： 小米 18 Pro 256GB：原价 1,549 欧元（现汇率约合 11,574 元人民币） 小米 18 Pro 512GB：原价 1,761 欧元（现汇率约合 13,158 元人民币） 小米 18 Pro Max 512GB：1,974 欧元（现汇率约合 14,750 元人民币） 此外该网站列出的参数信息还显示，小米 18 P…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -608,7 +608,7 @@
       "url": "http://www.geekpark.net/news/373008",
       "summary": "头图图片来源：iFixit 2011 年 9 月 30 日，苹果递交了一份名为「Flexible electronic devices」的专利申请。 它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着。 这份专利 2015 年 1 月获得授权，发明人一共六位，其中一位叫特努斯（John Ternus）。 苹果 2011 年递交的折叠设备专利附图｜图片来源：Apple 十五年后，2026 年 9 月 9 日，当年署名的这位工程师，第一次以苹果 CEO 的身份走上发布会舞台，发布的正是一台可以对折的 iPhone：iPhone Duo。 巧的是，十二年前的同一天，2014 年 9 月 9 日，库克也在后台等着上台。 那是他接任 CEO 三年后，第一次发布全新品类的产品 Apple W…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -674,7 +674,7 @@
       "url": "http://www.geekpark.net/news/373002",
       "summary": "Shopify AI 交易订单增长了 13 倍。 10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。 这一次抢首发的，不只是守在屏幕前的人。 今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple 在 MacRumors 论坛上，一位没抢到的用户愤愤不平地吐槽，Reddit 上有人在炫耀自己设置的 Muse 机器人一口气拿下了好几台，真人还没来得及点，库存就被 AI 扫走了。 Muse 是 Meta 在 9 月 8 日推出的个人 Agent，上线后一度登顶美区 App Store 免费榜，下载量很快超过 250 万。Meta 方面表示，购物已经成为 Muse 最主要的使用场景之一。就…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -696,7 +696,7 @@
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -855,7 +855,7 @@
       "url": "https://www.ifanr.com/1685935",
       "summary": "自己动手修折叠屏，需要勇气和实力 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1058,6 +1058,28 @@
       "report_type": "report"
     },
     {
+      "id": "rss-c44dc9ed271ff418b14a",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "published": "2026-10-27T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-27T22:10:27Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-5c40684bcc7d4fcadc37",
       "title": "OpenAI 宣布斩获三项重大科学突破，涉及数学猜想、计算机算法及千禧年难题",
       "published": "2026-10-26T23:37:17Z",
@@ -1141,7 +1163,7 @@
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1405,7 +1427,7 @@
       "url": "https://www.ifanr.com/1685961",
       "summary": "好消息：OLED 坏消息：60Hz #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1449,7 +1471,7 @@
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1515,7 +1537,7 @@
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
       "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1758,7 +1780,7 @@
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
       "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1890,7 +1912,7 @@
       "url": "https://openai.com/index/fanatics-streamline-fan-experience",
       "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1912,7 +1934,7 @@
       "url": "https://openai.com/index/openai-cut-incident-investigation",
       "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2313,7 +2335,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
       "summary": "Bringing fast and capable computer use to everyone",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2866,7 +2888,7 @@
       "url": "https://www.ifanr.com/1685622",
       "summary": "还没捂热呢 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -3639,7 +3661,7 @@
       "url": "https://www.ifanr.com/1685714",
       "summary": "来了来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4103,7 +4125,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4479,7 +4501,7 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4656,7 +4678,7 @@
       "url": "http://www.geekpark.net/news/372801",
       "summary": "「很多人赚不到认知以外的钱。那消费者呢？我认为，买不到他认知以外的商品。」10 月 15 日下午，上海世博中心，2026 天猫双 11 发布会。天猫总裁家洛开场没多久，就抛出了这句话。 消费者的需求远比这些品类多，只是大部分还处在「沉睡」状态。过去的搜索解决不了这个问题。用户主动搜关键词、平台做精准匹配，在他看来，「更像一个统计学的概念」，搜的人越多、描述越准，匹配就越高效，「但这依然是存量和认知以内的东西」。 所以他给今年的 AI 定了一个很朴素的标准：「AI 最重要的，是他是不是更理解我们，以及是不是更理解我们的消费者。」 一个用户在飞猪上买了去看世界杯的机票，从没搜过任何和球迷有关的关键词，但他曾经是运动人群。把这两条线索组合成人群包推给运动品牌和足球品类，购买转化率比日常高出 3 倍以上。 「即使可能消…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5055,7 +5077,7 @@
       "url": "https://openai.com/index/anima",
       "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5077,7 +5099,7 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5235,7 +5257,7 @@
       "url": "https://openai.com/index/decisions-api",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5903,7 +5925,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "summary": "What forward deployed engineering means at OpenAI",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6286,7 +6308,7 @@
       "url": "http://www.geekpark.net/news/372710",
       "summary": "头图图片来源：极客公园 我在 iPhone Duo 上，把淘宝、高德、小红书、腾讯视频、飞书、WPS、XMind，还有篮球游戏 NBA 巅峰对决，这 8 个为它做过适配的 App 挨个用了一遍。淘宝从首页到客服消息，整条购物链路都动过；高德把路线和地图拆成了左右两半；小红书的笔记，变成了左边看图、右边看正文和评论。 这台手机的国行首批预订已经售罄。据环球时报 10 月 17 日的报道，苹果官网显示的预计交付时间，排到了明年二月，等货的这几个月，其实大家最关心答案的问题只有一个：除了更「阔」，它和我们用了这么多年的直板 iPhone，体验到底有什么不一样。 对 iPhone 来讲答案是，合上的时候，它最像一台普通 iPhone，区别只是程序坞、状态栏和灵动岛挪到了屏幕侧边，竖着排。真正的不同发生在另外两种状态里：…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6308,7 +6330,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6374,7 +6396,7 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6418,7 +6440,7 @@
       "url": "https://openai.com/index/att-legal",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6594,7 +6616,7 @@
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6796,7 +6818,7 @@
       "url": "https://openai.com/index/openai-models-google-cloud",
       "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7018,7 +7040,7 @@
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7040,7 +7062,7 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7174,7 +7196,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7310,7 +7332,7 @@
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7332,7 +7354,7 @@
       "url": "https://openai.com/index/cloudflare-cyber",
       "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
       "summary_status": "source",
-      "fetched_at": "2026-10-27T17:58:15Z",
+      "fetched_at": "2026-10-27T22:10:27Z",
       "kind": "rss",
       "report_type": "report"
     },
