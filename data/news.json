@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-28T16:36:22Z",
-  "last_success_at": "2026-10-28T16:36:22Z",
+  "updated_at": "2026-10-28T22:31:55Z",
+  "last_success_at": "2026-10-28T22:31:55Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 15,
-      "skipped": 45,
-      "last_success_at": "2026-10-28T16:36:22Z",
-      "last_attempt_at": "2026-10-28T16:36:22Z"
+      "accepted": 29,
+      "skipped": 31,
+      "last_success_at": "2026-10-28T22:31:55Z",
+      "last_attempt_at": "2026-10-28T22:31:55Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 3,
-      "skipped": 17,
-      "last_success_at": "2026-10-28T16:36:22Z",
-      "last_attempt_at": "2026-10-28T16:36:22Z"
+      "accepted": 4,
+      "skipped": 16,
+      "last_success_at": "2026-10-28T22:31:55Z",
+      "last_attempt_at": "2026-10-28T22:31:55Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-10-28T16:36:22Z",
-      "last_attempt_at": "2026-10-28T16:36:22Z"
+      "last_success_at": "2026-10-28T22:31:55Z",
+      "last_attempt_at": "2026-10-28T22:31:55Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1333,
-      "accepted": 21,
-      "skipped": 1312,
-      "last_success_at": "2026-10-28T16:36:22Z",
-      "last_attempt_at": "2026-10-28T16:36:22Z"
+      "feed_items": 1334,
+      "accepted": 20,
+      "skipped": 1314,
+      "last_success_at": "2026-10-28T22:31:55Z",
+      "last_attempt_at": "2026-10-28T22:31:55Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 4,
-      "skipped": 26,
-      "last_success_at": "2026-10-28T16:36:22Z",
-      "last_attempt_at": "2026-10-28T16:36:22Z"
+      "accepted": 5,
+      "skipped": 25,
+      "last_success_at": "2026-10-28T22:31:55Z",
+      "last_attempt_at": "2026-10-28T22:31:55Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,468 @@
   ],
   "news": [
     {
+      "id": "rss-9ad466090752de9dc9bd",
+      "title": "打破乔布斯时代的硬件禁忌：特努斯谈苹果首款触控 MacBook Pro，键盘 / 触控板仍是核心",
+      "published": "2026-10-28T21:04:22Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/262.htm",
+      "summary": "IT之家 10 月 29 日消息，《连线》（Wired）昨日（10 月 28 日）发布博文，报道称针对苹果打破“Mac 不做触屏”立场，现任首席执行官约翰 · 特努斯（John Ternus）表示，键盘和触控板仍是 Mac 的核心交互方式，触控只是“在合适场景下更舒适、更方便”的补充。 图源：苹果 IT之家注：“Mac 永远不该做触屏”曾是史蒂夫 · 乔布斯（Steve Jobs）最坚决的标志性原则之一。乔布斯早在 2010 年就曾公开明确抨击触屏笔记本，称其在人体工程学上是“一场灾难”。 乔布斯认为长时间抬手触摸屏幕会导致手臂疲劳，即所谓的“大猩猩手臂（Gorilla Arm）效应”。然而 16 年过去，随着 PC 与移动端生态的深度融合，苹果似乎终于决定打破这道思维枷锁。 而伴随着搭载 PROLED XDR…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f08f06c4ccb6f3ee7baf",
+      "title": "初探苹果 macOS 27 触控体验：窗口“红绿灯”按钮会变大",
+      "published": "2026-10-28T20:10:58Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/259.htm",
+      "summary": "IT之家 10 月 29 日消息，科技媒体 AppleInsider 今天（10 月 29 日）发布博文，在现场体验配备 PROLED XDR 显示屏的首款触控 MacBook Pro 后，认为苹果并未把 macOS 改成 iPad 式界面，而是为触控操作做了局部适配。 现场演示的苹果首款触控 MacBook Pro 运行 macOS 27 系统，仍保留键盘和触控板。在界面上最直观的变化是窗口左上角的红、黄、绿控制按钮，用户手指触碰后会放大，更容易准确点按。IT之家附上相关演示视频如下： 在官方新闻稿中，苹果称在这款触控 MacBook Pro 上，还支持滑动滚动、双指缩放、拖动幻灯片等常见手势，用户也可双击窗口进入全屏，或滑动窗口让其平铺排列。 在触控细节方面，Safari 的标签页在拖动排序时会抬起并放大，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-76be55572d9695e19510",
+      "title": "Mac 进入触屏时代：苹果铺路软件生态，11 月开启在线研讨",
+      "published": "2026-10-28T19:52:57Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/256.htm",
+      "summary": "IT之家 10 月 29 日消息，科技媒体 9to5Mac 今天（10 月 29 日）发布博文，苹果官方开发者网站已上线“为 Mac 触控做好准备”（Get ready for Touch on Mac）专题页面，为首批触屏 Mac 的软件生态做准备。 IT之家附上相关视频如下： Mac 触控设计 为 Mac 应用带来触控体验 将实时活动引入 Mac 苹果目前上线了三段视频，分别聚焦“Mac 触控设计”、“为 Mac 应用带来触控体验”以及“将实时活动引入 Mac”。这些内容旨在指导开发者重新思考光标、手势、界面层级与多任务场景，让应用在键盘、触控板和触屏之间都能保持自然、高效的体验。 苹果公司还计划开放两场“与苹果见面”（Meet with Apple）在线小组实验室。开发者可与苹果工程师和设计师实时交流，就…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3865b4f2f28cb0a50605",
+      "title": "续航未打折扣：苹果首款触控 MacBook Pro 最长连续播放 24 小时视频",
+      "published": "2026-10-28T19:38:17Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/255.htm",
+      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动中，苹果公司发布配备 PROLED XDR 显示屏的首款触控 MacBook Pro，不过满电续航并未因此打折扣。 图源：苹果 根据苹果官网公示信息，配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 续航如下： 16 英寸 M5 Max 机型：满电续航最长可连续播放 22 小时视频，最长可连续上网 16 小时 16 英寸 M5 Pro 机型：满电续航最长可连续播放 24 小时视频，最长可连续上网 17 小时 14 英寸 M5 Max 机型：满电续航最长可连续播放 20 小时视频，最长可连续上网 13 小时 14 英寸 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-74e3a2616371345a640f",
+      "title": "iPad mini 首发上手：体验无可替代，刀法无人能及",
+      "published": "2026-10-28T19:27:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1686487",
+      "summary": "算力越级，高刷缺席，一款让人爱恨交织的产品 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3e9534ea1d40a1356b04",
+      "title": "苹果公布其首款触控 MacBook Pro 官方设计素材",
+      "published": "2026-10-28T19:23:29Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/254.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）更新其“Apple 设计资源”门户网站，为首款配备 PROLED XDR 显示屏、支持触控的全新 MacBook Pro 提供官方设计素材。 UI / UX 设计师、开发者及内容创作者无需等待第三方模板，即可在官方素材基础上制作适配新机的界面演示、宣传图和应用展示内容。 IT之家援引博文介绍，此次新增的可下载 .dmg 文件包含新款 MacBook Pro 的透明 PNG 图像，覆盖不同配色与尺寸；同时提供 PSD 文件，已精确遮罩显示屏区域。 设计师可以直接将自家的界面、网页布局或应用画面置入屏幕区域，快速生成高保真的产品效果图。 苹果的设计资源门户长期为开发者与设计师提供覆盖苹果平台、产品和技术的设计指南，以及 Figma、Sketch、K…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-867dd5665e1508344e0b",
+      "title": "苹果首款触控 MacBook Pro 低音下潜增强 50%，首次调教合盖场景音频",
+      "published": "2026-10-28T19:15:27Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/253.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）发布新闻稿，宣布在其搭载 PROLED XDR 显示屏的首款触控 MacBook Pro 上，并重点升级其音频系统。 官方表示这款 MacBook Pro 采用 6 扬声器音频系统，采用全新低音单元设计，低音下潜增强 50%，声音更深沉、更丰富。而全新高音单元可塑造声音扩散方式，让音质格外清晰、通透。 这款 MacBook Pro 支持杜比全景声空间音频，用户在听音乐和看电影时营造沉浸式空间声场。苹果还引入录音棚级麦克风，提升通话、录音和语音命令的清晰度与干净度。 IT之家援引博文介绍，MacBook Pro 还首次针对合上盖子时的使用场景进行了音频调教，在连接外接显示器时可呈现卓越音质，让用户无论以何种方式工作，都能享受高品质音频体验。",
+      "summary_status": "source",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-cdd0ff0ecad5e0430d3f",
+      "title": "苹果上架 70W/140W 新款 Mac 电源适配器，采用交流电源接口 2 方案",
+      "published": "2026-10-28T19:06:18Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/252.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）发布配备 PROLED XDR 显示屏的首款触控 MacBook Pro 外，还更新推出了 70W 充电器、全球旅行转换器套件等多款配件产品。 一、70W 电源适配器（点此前往苹果官网选购） 该产品售价为 449 元，IT之家附上官方介绍如下： 无论是在家中、办公室还是旅行途中，这款 70W 电源适配器都能让你快速而高效地充电。它兼容多款 USB-C 设备和充电线。 Apple 建议将它用于 14 英寸 MacBook Pro 或者 13 英寸或 15 英寸 MacBook Air，并搭配 USB-C 转 MagSafe 3 连接线或 USB-C 充电线。用这款电源适配器给 MacBook Air 充电，能充分发挥快充优势，约 30 分钟最多可…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e0be373c4ed34ffbee00",
+      "title": "最高 128GB 统一内存：苹果首款触控 MacBook Pro 可本地运行数千亿参数 AI 模型",
+      "published": "2026-10-28T18:42:43Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/251.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）发布配备 PROLED XDR 显示屏的首款触控 MacBook Pro，其核心卖点之一是配备最高 128GB 统一内存，M5 Max 芯片版可本地运行数千亿参数的大语言模型。 IT之家附上官方公告内容如下： 依托 M5 Max，专业人士可在设备端直接运行具有数千亿参数的大语言模型，并为精细视觉特效、3D 动画项目、电影配乐和 8K 视频后期制作等高强度工作流加速。 苹果表示，M5 Pro 与 M5 Max 的每个 GPU 核心均内置神经网络加速器，可加速本地 AI 推理，并支持运行编程智能体、处理图形密集型 AI 任务等场景。 苹果称依托 MacBook Pro 的强大 AI 性能，创意技术人员、3D 艺术家和动效设计师可在 LM Studi…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e8b30d4d99719fca7ceb",
+      "title": "外媒现场上手苹果首款触控 MacBook Pro (PROLED XDR 显示屏) 笔记本",
+      "published": "2026-10-28T18:27:25Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/250.htm",
+      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动中，包括 9to5Mac 在内的多家媒体现场体验了苹果首款触控 MacBook Pro (PROLED XDR 显示屏) 笔记本。 IT之家附上部分海外媒体的现场上手视频如下： 官方称，新款 MacBook Pro 采用“业界领先”的双 OLED 显示屏，支持完整多点触控，同时保持 MacBook 系列一贯的键盘与触控板操作方式。 现场体验显示，新款 MacBook Pro 的触控操作流畅，OLED 屏幕在色彩表现与对比度方面具有较强竞争力。不过，触控功能的加入也引发讨论：部分用户认为它将提升创意工作与演示交互的灵活性；也有观点认为，在桌面使…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f96e8c12b871047022dd",
+      "title": "「推翻」乔布斯的触屏 MacBook 来了，22999 元起",
+      "published": "2026-10-28T18:27:03Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "极客公园",
+      "source_id": "geekpark",
+      "publisher_id": "geekpark",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "http://www.geekpark.net/news/373084",
+      "summary": "搭载 PROLED XDR 显示屏的 MacBook Pro｜图片来源：Apple 2010 年 10 月 20 日，乔布斯在苹果「Back to the Mac」发布会上，给触屏笔记本下过一个结论：「我们做过大量用户测试，结果证明这行不通。触控表面不该竖着放。演示效果很好，但用一会儿你就会累，用久了，胳膊都要掉下来。这行不通，人体工学上糟透了。」 16 年后的今天凌晨，苹果发布了第一台带触屏的 Mac：搭载 PROLED XDR 显示屏的 MacBook Pro，14 英寸和 16 英寸两个尺寸，芯片是 M5 Pro 和 M5 Max。国行 14 英寸 22999 元起，16 英寸 27999 元起，10 月 30 日上午 9 点开始预购，比美国晚一天多，11 月 6 日发售。 14 英寸和 16 英寸两个尺…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-81c1000492a8aa79999f",
+      "title": "苹果触屏 MacBook Pro 应用适配情况：Lightroom、达芬奇、C4D、Office 等今年晚些时候支持",
+      "published": "2026-10-28T18:24:35Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/249.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果今日推出首款触控屏 MacBook Pro，定价 22,999 元起。该产品采用双层串联 OLED 面板，HDR 峰值亮度可达 2,000 nits。 如今苹果已经公布了这款 MacBook Pro 的第三方应用触控适配情况，IT之家附未来支持名单如下： 办公与协作： Notion、Canva、Zoom、Microsoft Word、Excel、PowerPoint、Outlook（Microsoft Office） 照片与视频： Adobe Lightroom、DaVinci Resolve 3D 与动画： Blender、Maxon Cinema 4D、Maxon ZBrush、Shapr3D 音乐： Algoriddim djay Pro 需要注意的是，上述应用的触控…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-05f6baf6793f1332f317",
+      "title": "苹果 CEO 特努斯：MacBook Pro PROLED XDR 显示屏有多出色，亲手一触就知道",
+      "published": "2026-10-28T18:21:53Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/248.htm",
+      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动中，苹果公司正式推出首款支持触控操作的 MacBook Pro（PROLED XDR 显示屏），国行起售价 22999 元。 苹果公司前首席执行官、现任执行董事长蒂姆 · 库克（Tim Cook）发布微博，表示： 我们把触控带到了 Mac！从全新 iPad mini，到 14 英寸 MacBook Pro 和 iMac，再到配备 PROLED XDR 显示屏并支持屏幕触控的 MacBook Pro，创作者们有了全新的工具，尽情发挥才华，达到创意新高度。 We brought Touch to the Mac! From the all-new…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d959c8d32753bf3776f7",
+      "title": "苹果新 MacBook Pro 最高可选 16TB 存储空间：相比此前 8TB 翻倍，得加 5.25 万元",
+      "published": "2026-10-28T18:09:16Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/247.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果首款触控屏 MacBook Pro 最高可选 16TB 存储空间，相比此前 MacBook Pro 最高 8TB 翻倍。 需要注意的是，新款 MacBook Pro 仅有 M5 Max 机型支持选择 16TB 硬盘。而且要升级这么高的容量，您需要支付 52,500 元（以 2TB → 16TB 计）。 硬件方面，新款 MacBook Pro 采用双层串联 OLED 1Hz-120Hz 自适应刷新率触控屏，支持 1,000 尼特持续全屏亮度、2,000 尼特 HDR 和 SDR 峰值亮度，覆盖 P3 + Adobe RGB 广色域。该机还带有“灵动岛”（1,200 万像素 Center Stage 摄像头）。 此外，该机搭载重新设计的六扬声器系统，低音下潜增强 50%。配备三…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2df0607f885d99c0b93a",
+      "title": "苹果上架 512GB 内存版 Mac Studio：较 96GB 配置贵 116250 元",
+      "published": "2026-10-28T17:54:05Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/246.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果今天（10 月 29 日）正式公布配备 512GB 统一内存的 Mac Studio 售价。该配置仅面向搭载 M5 Ultra 芯片（ 36 核 CPU 与 80 核 GPU）的顶配机型，相比较 96GB 版本价格上涨 116,250 元。 IT之家注：512GB 内存版目前仅适用于 M5 Ultra 芯片（36 核 CPU 与 80 核 GPU）顶配，用户如果选择 M5 Ultra（30 核 CPU 与 64 核 GPU）会跳出相关提示： 在内存配置选项，苹果 Mac Studio 从 96GB 升级到 512GB 需要加价 116,250 元人民币。 在存储搭配方面，如果用户选择 M5 Ultra 芯片 + 512GB 内存 +1TB 存储，售价为 172,999 元。…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c4018789504967b6a7e5",
+      "title": "苹果首度为 Mac 引入灵动岛：支持显示音乐播放、实时活动等，Siri AI 多了个入口",
+      "published": "2026-10-28T17:53:16Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/245.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果公司今日推出首款触控屏 MacBook Pro，提供 14 英寸和 16 英寸两种型号。值得注意的是，这款笔记本支持灵动岛，可将实时活动、聚焦搜索和 Siri AI 整合到屏幕上方交互，这也是苹果首次为 Mac 电脑引入灵动岛。 IT之家了解到，苹果公司最早在 2022 年 9 月的 iPhone 14 Pro 系列推出灵动岛。它在苹果手机中取代了刘海设计，摄像头开孔相比原来更小，还能够通过软件界面显示实时活动、音乐播放、计时器等各类控件。 而 Mac 上的灵动岛支持接听电话、控制音乐播放，以及显示隔空投送请求等，还能够作为聚焦搜索和 Siri AI 的交互入口。 不过新款 MacBook Pro 仍然采用触控 ID，并配备 1200 万像素 Center Stage 摄像…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-03731de707d64b5b97e1",
+      "title": "时隔 10 年发光 Logo 回归：苹果首款触控屏 MacBook Pro“苹果标”又会亮了",
+      "published": "2026-10-28T17:48:23Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/244.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果在今天的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro），值得一提的是，该机重新为 A 面带回了发光苹果 Logo。 回顾历史，苹果从 1999 年 PowerBook G3 系列开始为笔记本 A 面引入发光苹果 Logo，相应 Logo 并没有配备任何独立的 LED 光源，而是直接“借用”了屏幕自身的背光。 具体而言，苹果在 CNC 切割铝合金 A 面时，会在正中央镂空切出苹果 Logo 的形状，并在该孔位嵌入一块高透光率、表面经过磨砂雾面处理的白色聚碳酸酯（塑料）导光板。在屏幕面板内部的反光遮罩层上，苹果也精确对应 Logo 的位置预留了一个没有反光材料的透光区域。 当用户打开电脑、屏幕背光亮起时，背…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5d0c67761bf62863966d",
+      "title": "15999 元起，苹果 M6 芯片版 14 英寸 MacBook Pro 开启预购",
+      "published": "2026-10-28T17:41:18Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/243.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果公司 2026 款 MacBook Pro 已于今天（10 月 29 日）凌晨 1 点 10 分开启预购，起售价 15,999 元，最快 11 月 6 日送达。 京东苹果 2026 款 14 英寸 MacBook Pro M6 15999 元直达链接 机型芯片起售价14 英寸 M6RMB 15,999 起14 英寸 M5 ProRMB 20,999 起14 英寸 M5 MaxRMB 28,499 起16 英寸 M5 ProRMB 24,999 起16 英寸 M5 MaxRMB 32,499 起 新款 M6 芯片的 14 英寸 MacBook Pro 继承了上一代外观，可选深空黑色和银色两种配色，配备 3024 x 1964 分辨率 120Hz 显示屏。 该机搭载 M6 芯片…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1892331560a6496341ae",
+      "title": "22999 元起：苹果首款触屏 MacBook Pro 价格公布",
+      "published": "2026-10-28T17:15:57Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/239.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果公司现已公布 MacBook Pro (PROLED XDR 显示屏) 笔记本的价格：22,999 元起。 IT之家从苹果官网获悉，MacBook Pro (PROLED XDR 显示屏) 支持触控，提供 14 英寸和 16 英寸两个尺寸，可选 M5 Pro 和 M5 Max 芯片。各版本售价详情如下： 14 英寸 M5 Pro（15 核 CPU、16 核 GPU），24GB 统一内存，1TB 硬盘，70W 电源适配器，标准玻璃：22,999 元 M5 Pro（18 核 CPU、20 核 GPU），24GB 统一内存，1TB 硬盘，70W 电源适配器，标准玻璃：25,499 元 M5 Max（18 核 CPU、32 核 GPU），36GB 统一内存，2TB 硬盘，140W …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d4f0729f66846fce3df1",
+      "title": "苹果首款触控屏 MacBook Pro 正式发布：双层串联 OLED、低至 1.38 千克重量，22,999 元起",
+      "published": "2026-10-28T17:10:12Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/238.htm",
+      "summary": "IT之家 10 月 29 日消息，苹果在今天的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro），系列产品 10 月 30 日 9 点接受预购，11 月 6 日发售，22,999 元起，IT之家随附官方商店地址（点此访问）。 系列笔记本可选 14.2/16.3 英寸版本，前者尺寸为 21.63 厘米 x31.08 厘米 x1.50 厘米，重 1.38 千克；后者尺寸为 24.42 厘米 x35.55 厘米 x1.60 厘米，重 1.82 千克。笔记本 C 面仍配备指纹识别触控 ID，笔记本可选 M5 Pro/M5 Max 芯片（至高可选 M5 Max：18 核中央处理器、16 核神经网络引擎版本），提供至高 24 小时续航。 IT之家获悉，相应…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6426745cf2a11696cc3e",
+      "title": "苹果线上商城下线维护，预估迎接其首款触控 MacBook Pro",
+      "published": "2026-10-28T16:59:03Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/019/236.htm",
+      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动开始前几分钟，苹果官网在线商店已临时下线维护，这一动作通常被视为新品即将上架的信号。 IT之家访问苹果中国官网在线商店，已经显示为“稍等一下，我们正在更新 Apple Store，请稍后再来。” 根据目前曝光的信息和线索，苹果公司计划推出其首款触控屏 MacBook Pro。新款 MacBook Pro 有望首次配备支持触控的 OLED 显示屏，取消传统刘海屏并改用“灵动岛”设计；机身将更轻、更薄，铰链与散热系统也会重新设计。产品预计搭载 M5 Pro 与 M5 Max 芯片，而新版 macOS Golden Gate 则可能针对触控输入进行…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-b9d52fe201435f552541",
       "title": "华为 Mate 90 系列手机十大黑科技汇总，影像、屏幕、性能与通信多重突破",
       "published": "2026-10-28T15:59:07Z",
@@ -189,7 +651,7 @@
       "url": "https://www.ithome.com/1/019/234.htm",
       "summary": "IT之家 10 月 28 日消息，在今天的华为双十一焕新季 · 全场景新品发布会上，华为董事、终端 BG CEO 何刚登台主讲，揭秘了 Mate 90 系列手机的十大黑科技，实现影像、屏幕、性能与通信多重突破。 设计方面，华为 Mate 90 Pro Max 典藏版采用钇晶宝石匠心工艺：稀土配方（45% 钇元素含量）、超高硬度（1800°C 高温 + 180MPa 高压烧结）、高折射率（折射率 1.8 高于蓝宝石）。 性能方面，Mate 90 系列全新搭载旗舰 τ 芯片。其中，标准版手机搭载麒麟 9030，整机性能提升 27%；Mate 90 Pro 手机首发麒麟 9035，整机性能提升 20%；Mate 90 Pro Max 典藏版及 RS 非凡大师则搭载首款逻辑折叠 τ 芯片 —— 麒麟 9050 Pro。…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +673,7 @@
       "url": "https://www.ithome.com/1/019/231.htm",
       "summary": "IT之家 10 月 28 日消息，据央视财经今日报道，深圳华强北二手手机市场均价 4000 元以上产品的占比已超过 68%。 一位业内人士对央视记者表示，热销机型一年内降价 20% 本是常态，但受内存涨价影响，今年二手手机价格普遍坚挺，部分热门机型甚至出现加价。他以 iPhone 15 Pro Max 举例：这款机型去年在二手市场的价格一度跌至 3000 多元，目前回涨至 4300 至 4400 元区间，回升幅度约 500 元。 这一价格走势与存储芯片的供需结构直接相关。从 2025 年暑假开始，内存芯片进入涨价通道，新机芯片缺货涨价后，下游中小手机厂商和维修商家转而向拆机芯片市场寻求替代供给。旧手机的价值因此不再只由整机成色和型号决定，机身内部的 DRAM 和 NAND 本身获得了独立的回收定价。 Trend…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +695,7 @@
       "url": "https://www.ithome.com/1/019/224.htm",
       "summary": "IT之家 10 月 28 日消息，在今天下午的华为双十一焕新季 · 全场景新品发布会上，华为董事、终端 BG CEO 何刚宣布，手机最后一块玻璃也“昆仑”了：Mate 90 Pro 系列首发光学昆仑玻璃 —— 对比 Mate 80 Pro Max，摄像头盖板玻璃耐摔能力提升 20 倍。 何刚提到，华为 Mate 90 Pro 和 Pro Max 采用全昆仑玄武架构设计：搭载第三代昆仑玻璃（耐摔能力提升 50%）和玄武机身，后盖则采用锦纤材质，同时光学昆仑玻璃的耐摔能力也提升了 20%。 IT之家注：昆仑玻璃首次搭载于 2022 年 9 月发布的华为 Mate50 Pro 手机，获得全球首个瑞士 SGS 五星级玻璃耐摔认证，官方称相较于普通玻璃版，整机耐摔能力提升至 10 倍。 官方介绍称，昆仑玻璃是一种纳米微晶…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -259,7 +721,7 @@
       "url": "https://www.ithome.com/1/019/222.htm",
       "summary": "IT之家 10 月 28 日消息，据《卫报》今日报道，埃隆 · 马斯克旗下 xAI 正通过子公司 MZX Tech 向美国密西西比州南海文市（Southaven）部分居民提出房屋收购邀约。 根据居民收到的信件，房主接受收购后，需要签署协议，放弃与当地发电厂噪声相关的索赔权利，包括参与针对该公司的集体诉讼的权利。 一名房地产经纪人在当地挨家挨户接洽居民时提到，xAI 的收购目标为 418 套房屋，目前已有至少 18 名房主同意出售。 密西西比自由新闻（Mississippi Free Press）9 月报道称，部分居民收到了 MZX Tech 发出的收购信。MZX 在信中否认针对公司的所有指控，同时通过房地产经纪人提出收购房产的方案。 信件明确指出，签署相关协议后，房主将无法再就南海文发电厂相关问题提出索赔，也不…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -281,7 +743,7 @@
       "url": "https://www.ithome.com/1/019/220.htm",
       "summary": "IT之家 10 月 28 日消息，特斯拉招聘人员 Ricky Ip 今天在 X 平台宣布，特斯拉正式进军越南市场，现正招聘销售经理、开发人员、采购经理等职位。 据IT之家此前援引外媒消息，特斯拉已于今年 9 月在越南注册实体公司“Tesla Motors Vietnam”，注册资本约为 777 亿越南盾（IT之家注：现汇率约合 2,004.7 万元人民币），经营范围涵盖汽车进口、批发和零售。 值得注意的是，越南的电动汽车市场并非空白，该国的电动汽车生态长期由本土巨头 VinFast 主导。2026 年，VinFast 售出的新车约占越南新车总销量的 36%，销量甚至超过了排名其后的五家车企总和。 并且，VinFast 已通过关联公司 V-Green 运营着越南最大的充电网络，并计划今年投入约 3.8 亿美元（现…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -303,7 +765,7 @@
       "url": "https://www.ithome.com/1/019/219.htm",
       "summary": "IT之家 10 月 28 日消息，在今天下午的华为双十一焕新季 · 全场景新品发布会上，华为董事、终端 BG CEO 何刚揭秘了 Mate 90 Pro 系列手机第二代灵珑屏的技术亮点。核心有三，分别是：双层 OLED 架构、AI Pixel 逐屏逐像素校准，以及麒麟朱雀双芯协同。 据介绍，第二代灵珑屏采用双层 OLED 架构，和普通屏幕的最大区别在于其串联了两组发光单元：在相同亮度下，屏幕寿命基本可以翻番；在相同功耗下，可以实现更高的亮度。 IT之家注意到，第二代灵珑屏支持麒麟朱雀双芯协同保障屏幕清晰透亮，并可以实现双引擎无缝交接： 麒麟芯片：低亮度下实现更高精度校准； 朱雀显示芯片：高亮度下实现更低功耗校准。 另外，华为 Mate 90 Pro Max 所搭载的全彩灵珑屏支持 BT.2020 色域（覆盖度 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -325,7 +787,7 @@
       "url": "https://www.ithome.com/1/019/208.htm",
       "summary": "IT之家 10 月 28 日消息，苹果于当地时间 10 月 26 日发布了最新的 iOS 27.2，为 iPhone 照片应用带来两项新改进，涉及共享相簿功能和 AI 生成或编辑图像的识别能力。 据 9to5mac 今日报道，用户现在可以编辑共享相簿中的照片说明和评论、避免重复添加照片，并在相簿即将到期前收到提醒；系统还新增了对 SynthID 数字水印的支持，以帮助识别使用生成式 AI 创建或修改的图像。 共享相簿是苹果照片应用中的照片和视频分享功能。升级至 iOS 27.2 后，用户可以修改已发布照片和视频的说明文字，也可以编辑评论。 此外，系统能够帮助用户避免向相簿重复添加相同照片，并在共享相簿即将到期时显示提醒，让参与者有机会提前保存其中的照片和视频。要使用这些功能，共享相簿需要升级至适用于 iOS 2…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -347,7 +809,7 @@
       "url": "https://www.ithome.com/1/019/203.htm",
       "summary": "IT之家 10 月 28 日消息，苹果已在美国官网的教育商店调整 MacBook Neo 笔记本售价，从 599 美元（IT之家注：现汇率约合 4,002 元人民币）涨到 649 美元（现汇率约合 4,336 元人民币）。 IT之家注意到，美国高校生、教职人员现在购买这款笔记本仅可享受 50 美元（现汇率约合 334.1 元人民币）折扣，低于此前的 100 美元（现汇率约合 668.1 元人民币）。 此外，苹果于今年 6 月调整多款笔记本、平板产品定价，MacBook Neo 从 599 美元（现汇率约合 4,002 元人民币）涨至 699 美元（现汇率约合 4,670 元人民币）。苹果将此次涨价归因于内存芯片短缺，公司正在竭尽全力寻找解决方案。",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -369,7 +831,7 @@
       "url": "https://www.ithome.com/1/019/200.htm",
       "summary": "IT之家 10 月 28 日消息，今日，小米 REDMI 产品经理胡馨心透露，过去 12 个月，内存成本持续走高，涨价约 5.5 倍，仅 12+256 规格的价格就逼近 2000 元（第三方机构公开数据），所以今天在手机产品上做对取舍，要求更高、难度更大。 IT之家注意到，小米 REDMI K100 手机于昨晚发布，限时特惠到手价 2999 元起。具体价格如下： 12GB+256GB 版建议零售价 3499 元，双 11 限时特惠 2999 元，国补价 2549.15 元 12GB+512GB 版建议零售价 4099 元，双 11 限时特惠 3499 元，国补价 2999 元 16GB+512GB 版建议零售价 4499 元，双 11 限时特惠 3899 元，国补价 3399 元 据博主 @数码闲聊站 此前爆料…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -391,7 +853,7 @@
       "url": "https://www.ithome.com/1/019/192.htm",
       "summary": "IT之家 10 月 28 日消息，TikTok 今日宣布推出“必吃”（Must Eat）餐厅指南，整合平台内餐饮相关的 4000 万条帖子和评论，为消费者推荐本地优秀餐厅，意图挑战 Yelp 和 Google Maps 等点评平台。 据介绍，“必吃”的定位介于 Yelp 和 The Infatuation 之间，分为“日常美食”和“高端餐饮”两个板块。用户可以按照评分、距离、菜系和营业时间等条件进行筛选，还可以对餐厅进行评价、拨打电话和预定座位。并且餐厅主页还会附上 TikTok 相关视频。 TikTok 美国区 CEO Adam Presser 表示，“必吃”汇聚了平台创作者、餐厅经营者和普通用户，消费者可在此查看全面的评价。 IT之家注意到，该功能当前仅在纽约、洛杉矶、旧金山湾区等地区推出。TikTok 表…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -414,6 +876,28 @@
       "summary": "IT之家 10 月 28 日消息，《星闪 SLE3.0 技术标准演进蓝皮书》已在国际星闪联盟官网正式上线。 据介绍，该蓝皮书由国家级标准与研究机构、芯片企业、生态企业、高校等 60 余家单位共同编制，系统梳理星闪技术发展历程，描绘星闪技术演进路线与未来发展蓝图。 星闪 3.0 阶段将围绕“高速可靠通信、高效测量、高质量组网、高品质音频”四大方向进化，为万物智联时代打造“更快、更远、更稳、更准”的短距无线通信新底座。 据IT之家了解，截至目前，星闪 SLE 标准演进三阶段： 从 2020 年到 2022 年为星闪 SLE 1.0 标准阶段，属于起步阶段，奠定了 SLE 接入层的基础架构和主要技术； 从 2023 年到 2025 年为星闪 SLE 2.0 标准阶段，属于快速发展阶段，支持 SLE 窄带高精定位，定义…",
       "summary_status": "excerpt",
       "fetched_at": "2026-10-28T16:36:22Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a395c7da350b5086cc15",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "published": "2026-10-28T13:15:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -506,6 +990,28 @@
       "report_type": "report"
     },
     {
+      "id": "rss-e2ed7680c50ae3f074e0",
+      "title": "The future of the firm",
+      "published": "2026-10-28T10:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "summary_status": "source",
+      "fetched_at": "2026-10-28T22:31:55Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-709cc8e2bd467b791689",
       "title": "Legora is building the agentic operating system for legal work",
       "published": "2026-10-28T09:30:00Z",
@@ -523,16 +1029,9 @@
       "url": "https://openai.com/index/legora",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
-      "report_type": "report",
-      "alternate_sources": [
-        {
-          "source": "OpenAI 官方新闻",
-          "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-          "published": "2026-10-28T09:30:00Z"
-        }
-      ]
+      "report_type": "report"
     },
     {
       "id": "rss-6af0acc42a7256c17aba",
@@ -1126,7 +1625,7 @@
       "url": "https://www.ifanr.com/1686157",
       "summary": "众生苦摇一摇广告久矣 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1302,7 +1801,7 @@
       "url": "https://openai.com/index/retell-ai",
       "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1721,7 +2220,7 @@
       "url": "http://www.geekpark.net/news/373008",
       "summary": "头图图片来源：iFixit 2011 年 9 月 30 日，苹果递交了一份名为「Flexible electronic devices」的专利申请。 它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着。 这份专利 2015 年 1 月获得授权，发明人一共六位，其中一位叫特努斯（John Ternus）。 苹果 2011 年递交的折叠设备专利附图｜图片来源：Apple 十五年后，2026 年 9 月 9 日，当年署名的这位工程师，第一次以苹果 CEO 的身份走上发布会舞台，发布的正是一台可以对折的 iPhone：iPhone Duo。 巧的是，十二年前的同一天，2014 年 9 月 9 日，库克也在后台等着上台。 那是他接任 CEO 三年后，第一次发布全新品类的产品 Apple W…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1787,7 +2286,7 @@
       "url": "http://www.geekpark.net/news/373002",
       "summary": "Shopify AI 交易订单增长了 13 倍。 10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。 这一次抢首发的，不只是守在屏幕前的人。 今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple 在 MacRumors 论坛上，一位没抢到的用户愤愤不平地吐槽，Reddit 上有人在炫耀自己设置的 Muse 机器人一口气拿下了好几台，真人还没来得及点，库存就被 AI 扫走了。 Muse 是 Meta 在 9 月 8 日推出的个人 Agent，上线后一度登顶美区 App Store 免费榜，下载量很快超过 250 万。Meta 方面表示，购物已经成为 Muse 最主要的使用场景之一。就…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1809,7 +2308,7 @@
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1968,7 +2467,7 @@
       "url": "https://www.ifanr.com/1685935",
       "summary": "自己动手修折叠屏，需要勇气和实力 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2188,7 +2687,7 @@
       "url": "https://openai.com/index/check-point-daybreak",
       "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2276,7 +2775,7 @@
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2540,7 +3039,7 @@
       "url": "https://www.ifanr.com/1685961",
       "summary": "好消息：OLED 坏消息：60Hz #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2584,7 +3083,7 @@
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2650,7 +3149,7 @@
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
       "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2893,7 +3392,7 @@
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
       "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3025,7 +3524,7 @@
       "url": "https://openai.com/index/fanatics-streamline-fan-experience",
       "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3047,7 +3546,7 @@
       "url": "https://openai.com/index/openai-cut-incident-investigation",
       "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3448,7 +3947,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
       "summary": "Bringing fast and capable computer use to everyone",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5238,7 +5737,7 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5614,7 +6113,7 @@
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5791,7 +6290,7 @@
       "url": "http://www.geekpark.net/news/372801",
       "summary": "「很多人赚不到认知以外的钱。那消费者呢？我认为，买不到他认知以外的商品。」10 月 15 日下午，上海世博中心，2026 天猫双 11 发布会。天猫总裁家洛开场没多久，就抛出了这句话。 消费者的需求远比这些品类多，只是大部分还处在「沉睡」状态。过去的搜索解决不了这个问题。用户主动搜关键词、平台做精准匹配，在他看来，「更像一个统计学的概念」，搜的人越多、描述越准，匹配就越高效，「但这依然是存量和认知以内的东西」。 所以他给今年的 AI 定了一个很朴素的标准：「AI 最重要的，是他是不是更理解我们，以及是不是更理解我们的消费者。」 一个用户在飞猪上买了去看世界杯的机票，从没搜过任何和球迷有关的关键词，但他曾经是运动人群。把这两条线索组合成人群包推给运动品牌和足球品类，购买转化率比日常高出 3 倍以上。 「即使可能消…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6190,7 +6689,7 @@
       "url": "https://openai.com/index/anima",
       "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6212,7 +6711,7 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6370,7 +6869,7 @@
       "url": "https://openai.com/index/decisions-api",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7038,7 +7537,7 @@
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "summary": "What forward deployed engineering means at OpenAI",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7421,7 +7920,7 @@
       "url": "http://www.geekpark.net/news/372710",
       "summary": "头图图片来源：极客公园 我在 iPhone Duo 上，把淘宝、高德、小红书、腾讯视频、飞书、WPS、XMind，还有篮球游戏 NBA 巅峰对决，这 8 个为它做过适配的 App 挨个用了一遍。淘宝从首页到客服消息，整条购物链路都动过；高德把路线和地图拆成了左右两半；小红书的笔记，变成了左边看图、右边看正文和评论。 这台手机的国行首批预订已经售罄。据环球时报 10 月 17 日的报道，苹果官网显示的预计交付时间，排到了明年二月，等货的这几个月，其实大家最关心答案的问题只有一个：除了更「阔」，它和我们用了这么多年的直板 iPhone，体验到底有什么不一样。 对 iPhone 来讲答案是，合上的时候，它最像一台普通 iPhone，区别只是程序坞、状态栏和灵动岛挪到了屏幕侧边，竖着排。真正的不同发生在另外两种状态里：…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7443,7 +7942,7 @@
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
+      "fetched_at": "2026-10-28T22:31:55Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -7488,72 +7987,6 @@
       "summary": "IT之家 10 月 22 日消息，Anthropic 昨日（10 月 21 日）宣布以研究预览版形式，推出全新应用 Claude Duet，定位为可主动工作的 AI 智能体（agent），加入由 Meta 的 Muse、以及 OpenAI 的 Dots 领衔的“全天候主动型 AI 助理”大战。 技能方面，该应用会每天整理跨应用的重要事项、主动提醒需要处理的问题，并在用户离开后继续在后台完成被委托的任务。IT之家附上演示视频如下： Claude Duet 基于 Claude Opus 5.5 构建，提供 iOS、Android 独立应用及 claude.ai 网页版。首批面向美国 Pro 和 Max 订阅用户开放候补名单；预览阶段与 Claude 其他功能共享套餐用量限制。 不同于普通聊天机器人，Claude D…",
       "summary_status": "excerpt",
       "fetched_at": "2026-10-21T23:16:40Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3f1a11956436b1673800",
-      "title": "Broad access through consistent standards",
-      "published": "2026-10-21T21:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ffccfae625b924d3100f",
-      "title": "特斯拉 2026 财年第三财季归母净利润 7.87 亿美元，同比下降 43%",
-      "published": "2026-10-21T20:46:24Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/016/167.htm",
-      "summary": "IT之家 10 月 22 日消息，特斯拉今日发布 2026 财年（2026 年 1 月～2026 年 12 月）第三财季（2026 年 7 月～2026 年 9 月）报告： 营业总收入：280.04 亿美元，同比基本持平 毛利润：54.94 亿美元，同比增长 8.7% 毛利率：19.6%，同比增长 1.6 个百分点 归母净利润：7.87 亿美元，同比下降 43% 经营现金流：62.63 亿美元 自由现金流：15.3 亿美元 稀释每股收益：0.22 美元，同比下降 44% AI 解读 特斯拉 2026 财年第三季度财报超市场预期，核心营收、利润、现金流均表现稳健 公司主营业务与财报亮点 特斯拉是全球领先的新能源汽车与清洁能源企业，主营电动汽车生产销售、能源存储与光伏发电、自动驾驶软件服务等业务。2026Q3 核心…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-21T23:16:40Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-39cad894cdd240fbe2db",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "published": "2026-10-21T17:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/att-legal",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
       "kind": "rss",
       "report_type": "report"
     }
