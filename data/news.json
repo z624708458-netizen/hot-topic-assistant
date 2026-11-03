@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-03T06:59:14Z",
-  "last_success_at": "2026-11-03T06:59:14Z",
+  "updated_at": "2026-11-03T16:12:36Z",
+  "last_success_at": "2026-11-03T16:12:36Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 17,
-      "skipped": 43,
-      "last_success_at": "2026-11-03T06:59:14Z",
-      "last_attempt_at": "2026-11-03T06:59:14Z"
+      "accepted": 12,
+      "skipped": 48,
+      "last_success_at": "2026-11-03T16:12:36Z",
+      "last_attempt_at": "2026-11-03T16:12:36Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 8,
-      "skipped": 12,
-      "last_success_at": "2026-11-03T06:59:14Z",
-      "last_attempt_at": "2026-11-03T06:59:14Z"
+      "accepted": 9,
+      "skipped": 11,
+      "last_success_at": "2026-11-03T16:12:36Z",
+      "last_attempt_at": "2026-11-03T16:12:36Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-03T06:59:14Z",
-      "last_attempt_at": "2026-11-03T06:59:14Z"
+      "last_success_at": "2026-11-03T16:12:36Z",
+      "last_attempt_at": "2026-11-03T16:12:36Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1348,
-      "accepted": 19,
-      "skipped": 1329,
-      "last_success_at": "2026-11-03T06:59:14Z",
-      "last_attempt_at": "2026-11-03T06:59:14Z"
+      "feed_items": 1349,
+      "accepted": 18,
+      "skipped": 1331,
+      "last_success_at": "2026-11-03T16:12:36Z",
+      "last_attempt_at": "2026-11-03T16:12:36Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 4,
-      "skipped": 26,
-      "last_success_at": "2026-11-03T06:59:14Z",
-      "last_attempt_at": "2026-11-03T06:59:14Z"
+      "accepted": 2,
+      "skipped": 28,
+      "last_success_at": "2026-11-03T16:12:36Z",
+      "last_attempt_at": "2026-11-03T16:12:36Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,336 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-7f4a4ae001fd012cc9a7",
+      "title": "iPad mini 8 首发评测：本该是一台完美的平板电脑",
+      "published": "2026-11-03T15:18:46Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1687473",
+      "summary": "全网最细的iPad mini 8 评测，屏幕到底锁没锁帧，我们挖出了超多细节。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8a1791626ed3bdf398e5",
+      "title": "小米 17 Ultra 手机“徕卡一瞬”功能页现文字乱码，产品经理回应称问题已修复",
+      "published": "2026-11-03T15:17:30Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/843.htm",
+      "summary": "IT之家 11 月 3 日消息，据小米 17 Ultra 用户反馈，在更新澎湃 HyperOS 4.0.6.0.XPACNXM.D01 版本后，“徕卡一瞬”功能的页面顶部会出现文字乱码“!盙望樀拾逨拈”。 小米相机部产品经理 @Bao_小李 今日晚间发文回应了此次事件，并表示：“问题已修复。需要大家在应用商店里面更新一下「相机」应用的版本。” 据IT之家了解，小米在去年 12 月发布的小米 17 Ultra 徕卡版上，带来了专属「徕卡一瞬」模式，由小米与徕卡合作开发。该模式包含 LEICA M3 和 LEICA M9 两种模式： 徕卡 M9 画质，还原传奇 CCD 质感，色彩浓郁； 徕卡 M3 + MONOPAN 50 画质，黑白胶片质感； 经典 3:2 全画幅，源自徕卡第一代胶片比例。 ▲ IT之家评测室：小…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6482b84a598c292968dd",
+      "title": "iPadOS 和 macOS 会合并吗？苹果 CEO 特努斯称没有计划做根本性改变",
+      "published": "2026-11-03T15:04:02Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/839.htm",
+      "summary": "IT之家 11 月 3 日消息，多年以来，苹果一直没有计划将 iPadOS 和 macOS 合并为一个操作系统。新 CEO 约翰 · 特努斯上任后，这种立场是否会发生改变？ 在苹果 2026 财年第四季度报告电话会议中，有分析师询问苹果是否会一统 iPadOS 和 macOS，特努斯作出了回应。 IT之家附相关问答全文如下： Arete Research 分析师理查德 · 克拉默：新款 MacBook Pro 加入了许多 iOS 功能，例如触控操作、灵动岛，还有 Siri AI。我们是否应该期待 macOS 和 iOS 的功能进一步融合，甚至未来某个阶段形成统一操作系统，以此降低成本？ 约翰 · 特努斯：我们为 Mac 和 iPad 两条产品线感到非常自豪。我认为大家多年来已经看到，我们很乐于将生态系统中的功能…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8a213e8a72d2a31567d6",
+      "title": "小米汽车官宣明日将继续启程前往德国纽博格林北环",
+      "published": "2026-11-03T14:35:19Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/834.htm",
+      "summary": "IT之家 11 月 3 日消息，小米汽车官方刚刚宣布，2026 年 11 月 4 日，将继续启程前往德国纽博格林北环。 据IT之家此前报道，今年 10 月，小米创办人、董事长兼 CEO 雷军转发了小米集团副总裁、汽车部 CTO 胡峥楠的微博，并宣布小米纽北 Workshop 已经启用。 据胡峥楠介绍，小米在纽北刚启用不久的 Workshop 位于 GT 赛道旁，比之前租用附近的 Workshop 面积大了不少，设施也完全鸟枪换炮，员工的办公工作条件也大为改善，有了自己的停车场、快充站、进入赛道的专用入口、给车手的浴室等，最意外的是还有专属的观赛 VIP Lounge。 有消息称新款小米 SU7 Ultra 预计在 2027 年上市。知情人士透露，新车将对外观造型进行调整升级，整套空气动力学套件全面优化，并搭载 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0fcadfb2c9b1584568a5",
+      "title": "【视频】苹果把 OLED 塞进 mini 但还留了一手，iPad mini ( A20 Pro ) 首发体验",
+      "published": "2026-11-03T14:12:05Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/828.htm",
+      "summary": "标准版 255 克，能泡水，声音直接从屏幕里出来——苹果三年没管的 iPad mini，这次一口气补了三个短板。这块 OLED 值不值得换机，一次说清。 点击关注IT之家B站账号",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-853a40c53eacd19a33a6",
+      "title": "【IT之家开箱】苹果 iPad mini 8 图赏：升级 OLED 屏、A20 Pro 芯片，机身薄至 5.4mm",
+      "published": "2026-11-03T14:11:37Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/827.htm",
+      "summary": "IT之家 11 月 3 日消息，10 月 26 日，苹果正式发布新一代 iPad mini 8 平板电脑。新机配备 8.5 英寸 OLED 显示屏，搭载 A20 Pro 芯片，同时对机身设计、影像系统和无线连接能力进行了升级，机身厚度相比上一代减少 14%，重量减轻 13%。 IT之家上手视频： 外观方面，iPad mini 8 提供午夜色、星光色两种配色，延续了系列小尺寸平板的设计风格。新机机身厚度为 5.4mm，相比 iPad mini 7 薄了 14%，重量减轻 13%，进一步提升了便携性。 IT之家此次实拍的为 iPad mini 8 午夜色（纳米纹理玻璃版本）。 屏幕方面，iPad mini 8 配备 8.5 英寸超视网膜 XDR 显示屏，采用 OLED 技术，屏幕边框宽度相比上一代收窄 24%。该屏…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3a45719e6a2ebd2d07f6",
+      "title": "价格不低！消息称华为子品牌星芒新品配置对标旗舰产线",
+      "published": "2026-11-03T13:53:49Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/825.htm",
+      "summary": "IT之家 11 月 3 日消息，博主 @数码闲聊站 刚刚最新爆料，称华为子品牌星芒新品配置对标旗舰产线，价格不低。 该博主最新爆料内容“价格不低”与此前透露的“主攻线上渠道，相对有性价比”存在一定出入，目前尚不知晓是品牌已规划的新品价格不低，还是新品牌产品价格都不低。关于华为子品牌星芒产品规划及价格还有待官方进一步披露。 “星芒”这一名称并非首次出现在公众视野。IT之家查询公开商标信息获悉，华为技术有限公司早在 2023 年 2 月便申请注册了“华为星芒”商标，并于 2023 年 9 月完成注册公告。 2026 年 7 月，华为再次提交“星芒”商标申请，覆盖智能手机与芯片品类，目前状态为“注册申请中”。不过，商标布局本身并不等同于产品落地，此前多年市场上也曾出现过“星耀手机”等子品牌传闻，最终迟迟未兑现。 目前…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-cd6e47f068acffddb0d2",
+      "title": "华为乾崑 10 月安全出行报告发布：辅助驾驶里程破 170 亿公里、月活用户占比超 95%",
+      "published": "2026-11-03T13:19:32Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/817.htm",
+      "summary": "IT之家 11 月 3 日消息，华为智能汽车解决方案 BU 官方微博今日发布了华为乾崑 10 月安全出行报告。 据介绍，华为乾崑智驾 ADS 辅助驾驶状态下，发生一次严重碰撞前的平均安全行驶里程，是国人驾平均值（推算）的 6.02 倍。 数据显示，华为乾崑智驾 ADS 累计辅助驾驶里程超 172.7 亿公里、辅助驾驶月活用户占比 95.2%。另外，人驾状态下月度防御性驾驶触发次数 4.54 万次、月度车位到车位使用 1740.04 万次。 IT之家查询华为乾崑官网获悉，乾崑智驾累计辅助驾驶里程截至目前已突破 174 亿公里，搭载乾崑智驾车辆累计行驶总里程也已突破 486 亿公里。 延伸阅读 关于报告中的“严重碰撞前平均安全行驶里程”，华为乾崑此次给出的对比为：ADS 辅助驾驶状态下为 1082.7 万公里，是中…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e07c6970a129cb668086",
+      "title": "用 AI 教 AI 开车，百度 Apollo World 世界模型亮相",
+      "published": "2026-11-03T12:55:18Z",
+      "company": "百度",
+      "companies": [
+        "百度"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/808.htm",
+      "summary": "IT之家 11 月 3 日消息，今天，在深圳举行的百度 AI Day·Apollo 专场上，百度 Apollo 首次披露面向物理 AI 的智能体驱动全模态世界模型 Apollo World，并提出世界模型“2+3”判断标准。 Apollo World 可以生成一段相对真实的视频 让虚拟世界遵循现实规律、回应无人车的动作，并支持驾驶系统从起点出发，一路开到目的地 据IT之家了解，用于无人驾驶的 Apollo World 不仅要生成逼真的画面，还要准确推演现实世界如何变化。百度 Apollo 提出了世界模型“2+3”判断标准： “2”是基础门槛： 因果性：世界模型应当遵循时间的单向性，由过去决定未来，基于当前状态预测下一刻，而不是拼凑画面、反推过去。 交互性：能动态响应外部干预，注入动作影响未来世界状态。 “3”是…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-37a493f67656602d84b1",
+      "title": "消息称三星显示和 LG Display 正为苹果产品 OLED 面板开发新工艺，有望提高屏幕整体亮度表现",
+      "published": "2026-11-03T12:52:40Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/806.htm",
+      "summary": "IT之家 11 月 3 日消息，据韩媒 The Elec 报道，苹果显示屏供应商三星显示（Samsung Display）和 LG Display 正在研发新型 OLED 面板制造工艺。 消息人士透露，苹果目前优先考虑采用现有的溅射工艺，生产基于高迁移率氧化物（HMO，High Mobility Oxide）技术的显示面板。为此，三星显示和 LG Display 正分别开发新的原子层沉积（ALD）及溅射工艺方案，以便将相关技术应用于实际生产线。 据报道，这项制造工艺升级有望带来多方面改进，其中一项重要变化是提升 OLED 面板单个像素的发光亮度，从而提高屏幕整体亮度表现，同时也有望改善显示对比度。若相关技术顺利实现量产，未来 iPhone 和 iPad 的屏幕显示效果或将进一步提升。 如今，苹果正在将旗下所有产…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-b9082928b3c3b2761f62",
+      "title": "古尔曼：苹果首款折叠屏手机 iPhone Duo 原计划 11 月发布，最终“仓促提前至 10 月”致库存严重短缺",
+      "published": "2026-11-03T11:50:02Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/793.htm",
+      "summary": "IT之家 11 月 3 日消息，据彭博社记者 Mark Gurman（马克・古尔曼）报道，苹果首款折叠屏手机 iPhone Duo 实际上是“仓促推出”。 古尔曼表示，苹果最初计划于今年 11 月率先美国和中国市场发布这款产品，但最终将上市时间提前至 10 月 23 日，相应机型同步在全球 70 多个国家和地区同步开售。这一决定导致产品上市初期库存严重短缺，许多消费者不得不四处寻找现货。 同时，苹果仓促调整 iPhone Duo 上市计划也可能导致了近期曝光的硬件问题。部分首批用户反映，iPhone Duo 屏幕在铰链折叠区域出现破裂问题。由于目前替换设备同样十分紧缺，遭遇屏幕故障的用户想要申请换机也面临不小困难。苹果目前需要同时应对供应链库存不足以及首批产品屏幕质量争议等问题。 Mark Gurman 表示，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c0e78025dcb8a51471dd",
+      "title": "华为畅享 100 标准版手机实况窗效果优化，独占“灵动刘海”显示方案",
+      "published": "2026-11-03T11:37:24Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/788.htm",
+      "summary": "IT之家 11 月 3 日消息，在 10 月 28 日的华为双十一焕新季 · 全场景新品发布会上，华为董事、终端 BG CEO 何刚正式发布了畅享 100 系列手机。其中，标准版配备一块 6.56 英寸 LCD 水滴屏，售价 1399 元起。 华为此前在鸿蒙 HarmonyOS 4 系统上带来了实况窗功能，支持将同一应用的多条通知聚合在单张动态卡片，并以时间轴的方式呈现。该功能随后在 HarmonyOS NEXT 系统上升级，可在挖孔居中的设备上进行软硬结合的显示。 ▲ 图源：华为官网 | Pura 80 Ultra 手机 AI 防窥保护，顶部为新版实况窗 而华为畅享 100 标准版机型罕见地采用水滴屏设计，因此不少网友好奇该机的实况窗功能具体表现形式。据B站 UP 主“莫何出发”分享，华为畅享 100 手机拥…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0b5d491393bcb6b64483",
+      "title": "华为鸿蒙电脑应用数突破 2.1 万款，覆盖办公、AI、娱乐、创作等核心场景",
+      "published": "2026-11-03T11:16:03Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/782.htm",
+      "summary": "IT之家 11 月 3 日消息，华为官方账号“智慧办公产品经理”宣布，鸿蒙电脑应用数突破 2.1 万款。从宣传海报来看，鸿蒙电脑应用已覆盖办公、AI、教育、娱乐、创作等核心场景。 据IT之家此前报道，2026 鸿蒙办公产业峰会已定档 11 月 5 日在武汉 · 中国光谷科技会展中心举行。根据华为擎云官方活动预热信息，此次 2026 鸿蒙办公产业峰会将介绍产品最新品类动向，并提到了首款鸿蒙台式机和鸿蒙电脑企业版，预计届时会在活动现场介绍新品更多信息。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-fc87a45dcfbf03d41725",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "published": "2026-11-03T08:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/heimstaden",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f199b21c292fcd12949e",
+      "title": "GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨",
+      "published": "2026-11-03T07:22:57Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1687285",
+      "summary": "我「编程」我自己 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T16:12:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-55736a195d5d3c1c53a4",
       "title": "华为 Pura 100 系列影像旗舰阔直板机被曝测试 BOE 新开屏，Pro Max 有望采用双层 OLED 技术",
@@ -387,7 +717,7 @@
       "url": "https://www.ifanr.com/1687259",
       "summary": "赚得多，花得更狠 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -720,7 +1050,7 @@
       "url": "https://www.ifanr.com/1686623",
       "summary": "让特努斯引领一个全新的时代，全盘「拥有」这些新产品，无论它们最终的评价是好是坏。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -940,7 +1270,7 @@
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -962,7 +1292,7 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1006,7 +1336,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1028,7 +1358,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1144,7 +1474,7 @@
       "url": "https://www.ifanr.com/1687178",
       "summary": "来看奔驰很清楚他们的短板所在。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1234,7 +1564,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1300,7 +1630,7 @@
       "url": "https://www.ifanr.com/1687113",
       "summary": "内卷见顶，出海将是下一站。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1322,7 +1652,7 @@
       "url": "https://www.ifanr.com/1686832",
       "summary": "或许《Her》描绘的世界已经到来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1476,7 +1806,7 @@
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1498,7 +1828,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2912,7 +3242,7 @@
       "url": "https://www.ifanr.com/1687012",
       "summary": "等了好久终于等到今天 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3245,7 +3575,7 @@
       "url": "https://www.ifanr.com/1686969",
       "summary": "苹果国行 AI 终于迈出关键一步 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3268,7 +3598,7 @@
       "url": "http://www.geekpark.net/news/373238",
       "summary": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话。现在页面顶部写的是：「Apple 智能的首批核心功能将于今年稍晚推出。」 从 2024 年 6 月在 WWDC 上亮相算起，国行 iPhone 等了整整两年半。 今年 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3776,7 +4106,7 @@
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3798,7 +4128,7 @@
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4044,7 +4374,7 @@
       "url": "https://openai.com/index/fair-use-benefits-everyone",
       "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4176,7 +4506,7 @@
       "url": "https://openai.com/index/updated-model-spec",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4620,7 +4950,7 @@
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4664,7 +4994,7 @@
       "url": "https://openai.com/index/ropes-gray-ai-diligence",
       "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4907,7 +5237,7 @@
       "url": "https://openai.com/index/credit-saison",
       "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5193,7 +5523,7 @@
       "url": "http://www.geekpark.net/news/373084",
       "summary": "搭载 PROLED XDR 显示屏的 MacBook Pro｜图片来源：Apple 2010 年 10 月 20 日，乔布斯在苹果「Back to the Mac」发布会上，给触屏笔记本下过一个结论：「我们做过大量用户测试，结果证明这行不通。触控表面不该竖着放。演示效果很好，但用一会儿你就会累，用久了，胳膊都要掉下来。这行不通，人体工学上糟透了。」 16 年后的今天凌晨，苹果发布了第一台带触屏的 Mac：搭载 PROLED XDR 显示屏的 MacBook Pro，14 英寸和 16 英寸两个尺寸，芯片是 M5 Pro 和 M5 Max。国行 14 英寸 22999 元起，16 英寸 27999 元起，10 月 30 日上午 9 点开始预购，比美国晚一天多，11 月 6 日发售。 14 英寸和 16 英寸两个尺…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5681,7 +6011,7 @@
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5791,7 +6121,7 @@
       "url": "https://openai.com/index/the-future-of-the-firm",
       "summary": "How AI might enter the org chart—beneath, beside, and between us.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5813,7 +6143,7 @@
       "url": "https://openai.com/index/legora",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
+      "fetched_at": "2026-11-03T16:12:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6544,557 +6874,6 @@
       "fetched_at": "2026-10-28T01:18:26Z",
       "kind": "rss",
       "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-919a1c3c1796edf5638c",
-      "title": "古尔曼爆料苹果 OLED MacBook Pro：边框收窄、转轴重新设计，触摸屏幕时不会晃动",
-      "published": "2026-10-27T15:13:29Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/692.htm",
-      "summary": "IT之家 10 月 27 日消息，彭博社记者马克 · 古尔曼今日在 X 平台发文称，苹果明天发布的 OLED 触控 MacBook Pro 将带来几项改进：机身厚度略微降低、屏幕边框进一步收窄、机身重量明显减轻。 古尔曼还提到，这款 OLED MacBook Pro 将配备重新设计的转轴，更加稳定，因此用户使用触摸屏幕时，屏幕不会晃动。 据IT之家此前援引古尔曼消息，这款 MacBook Pro 将首次采用 Tandem OLED 面板，并且是苹果首款支持触控屏的 MacBook。预计采用 M5 Pro 或 M5 Max 芯片，苹果选择跳过 M6 系列的高端版本，以此加快 M7 芯片的推出进度。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-28T01:18:26Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-1e3ebf94e41ebe19793b",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "published": "2026-10-27T15:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/retell-ai",
-      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b9f19884d0b391110968",
-      "title": "80 名特斯拉韩国车主因非法破解激活 FSD 而被移送检方，查扣 21 台设备",
-      "published": "2026-10-27T13:59:59Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/674.htm",
-      "summary": "IT之家 10 月 27 日消息，据韩联社，韩国首尔警察厅今日通报将 80 名涉嫌非法破解从而在原本无法使用 FSD 的特斯拉车型上擅自激活 FSD 功能的车主移送检方，并查扣了 21 台未经授权的激活设备。 警方指控，这些车主涉嫌违反韩国《汽车管理法》，涉案车主通过欧洲、中国等地的渠道购买破解设备，或自行制作相关工具，以绕过特斯拉的软件限制。 部分媒体报道称，这些车主仅花了约 3 万韩元（IT之家注：现汇率约合 151.4 元人民币）购买到了破解设备，从而解锁了在中国市场售价高达 6.4 万元人民币的辅助驾驶套件。 韩国纽西斯通讯社报道称，部分设备由海外购买，也有从事 IT 相关工作的涉案人员利用海外开发者平台 GitHub 上的开源代码，结合车辆电子控制系统相关技术信息，自行制作激活设备。 警方还发现，部分…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T01:18:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f2fa8732ea15f38957cd",
-      "title": "抖音集团副总裁李亮回应“中国互联网进入字节时间”：极不严谨，纯属瞎扯",
-      "published": "2026-10-27T13:23:45Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/668.htm",
-      "summary": "IT之家 10 月 27 日消息，今晚，抖音集团副总裁李亮发文称，随着红果短剧内容质量不断提升，越来越受到用户喜爱。他表示，同时不断有关于红果短剧的不实信息传出，这些信息甚至影响到一些有权威的专家学者，一位其非常尊重的学者居然提出“中国互联网的字节时间”，这个定性极不严谨，纯属瞎扯。他认为，互联网竞争激烈，没有哪家公司成为“中国互联网的 xx 时间”。 李亮在文中提到，互联网产品中，只有即时通讯因为有关系链这个护城河，市场格局相对稳定。短剧、短视频这类产品属于充分竞争行业，市场竞争激烈，市场格局变动快，没有哪家公司能稳居市场第一，真实情况是，腾讯公司短剧、短视频增长速度，远远超过抖音和红果，而且在互联网应用中，即时通讯，游戏、电商、音乐都占据用户非常多的“时间”。 IT之家注意到，红果短剧官方账号今日早些时候发…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T01:18:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b75b4c2cbf59b9b691aa",
-      "title": "苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线",
-      "published": "2026-10-27T13:19:40Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/666.htm",
-      "summary": "IT之家 10 月 27 日消息，苹果公司今日宣布为 Apple 创作坊带来重大更新，为创作者带来专业级工具。Mac 版 Final Cut Pro 现内置 MotionVFX，集成视觉特效、插件、转场、模板和运动图形工具等功能。同时 Pixelmator Pro、Keynote 讲演、Pages 文稿和 Numbers 表格推出多项全新 AI 功能 Beta。 Apple 创作坊将于今年 11 月以免费更新的形式通过 App Store 推出。 视频工作流 IT之家了解到，Mac 与 iPad 版 Final Cut Pro 为视频剪辑师、内容创作者和电影工作者提供了一系列新功能。Mac 版 FCP 现在将 MotionVFX 直接整合进 App，剪辑师可使用数千种元素，包括模板、图形、标题字和转场，以及转描…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T01:18:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-83c099ac796342fbb258",
-      "title": "华为 MatePad Pro 13.2 等平板超级车载屏功能“回归”，支持与鸿蒙智行车辆座舱智能联动",
-      "published": "2026-10-27T13:10:15Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/661.htm",
-      "summary": "IT之家 10 月 27 日消息，在 2023 年 4 月的 nova 11 系列及全场景新品发布会上，问界推出了 M5 智驾版车型，首发华为 ADS 2.0 智能辅助驾驶系统，满油满电续航 1425km。 随着该车一起发布的还有 HUAWEI MagLink 魔吸车载接口，HarmonyOS 4.X 系统的平板（如 MatePad Pro 13.2 英寸等）在使用相关磁吸配件后，可通过座椅靠背后的接口与车辆进行连接，并支持与鸿蒙座舱智能联动，如控制平板观看内容、前后排组队游戏、双屏接入会议等。 ▲ 图源：问界官网 | HUAWEI MagLink 魔吸车载接口宣传图 该功能在 HarmonyOS NEXT 短暂下线，后随 5.1.0.128 版本更新回归。但当时系统设置等无法找到相关功能入口，仅可以通过超级终…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-eeb8582d15667a477260",
-      "title": "苹果为 24 英寸 iMac 推出 M6 芯片版本，国行 12499 元起",
-      "published": "2026-10-27T13:06:04Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/660.htm",
-      "summary": "IT之家 10 月 27 日消息，苹果现已为旗下 24 英寸 iMac 推出 M6 版本（点此访问），这款 iMac 相比上一代主要就是例行更换新款芯片，设计上保持不变，国行 12499 元起，产品将于 10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售。 M6 芯片（两个雷雳端口、10 核中央处理器、10 核图形处理器、双 16 核神经网络引擎） RMB 12,499 起 M6 芯片（四个雷雳端口、12 核中央处理器、12 核图形处理器、双 16 核神经网络引擎） RMB 13,999 起 在设计方面，IT之家获悉 M6 款 iMac 继承了上一代外观，提供多种配色可选。其依然沿用 24 英寸 4480 x 2520 分辨率 60Hz 显示屏，支持 P3 广色域，拥有 500 尼特亮度，配…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-82553468dc0105389b35",
-      "title": "苹果为 14 英寸 MacBook Pro 推出 M6 芯片版本，15999 元起",
-      "published": "2026-10-27T13:02:18Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/657.htm",
-      "summary": "IT之家 10 月 27 日消息，苹果现已为旗下 14 英寸 MacBook Pro 推出 M6 版本（点此访问），该笔记本主要是更换新款芯片，设计上保持不变，国行售价为 15999 元起，产品将于 10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售。 新款 M6 芯片的 14 英寸 MacBook Pro 继承了上一代外观，可选深空黑色和银色两种配色，配备 3024 x 1964 分辨率 120Hz 显示屏。该机搭载 M6 芯片，为 12 核中央处理器、12 核图形处理器、双 16 核神经网络引擎规格，官方称该机设备端 AI 性能相对于 13 英寸 M1 机型最高提速至 13 倍。 同时，新款 M6 芯片的 14 英寸 MacBook Pro 机型内存带宽达 170GB/s，比 M5 机型…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-77cecba75bb719eee571",
-      "title": "REDMI K100 黑色版开箱图赏：时尚挺阔，比前代更简洁",
-      "published": "2026-10-27T12:41:41Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/654.htm",
-      "summary": "10 月 27 日晚间，REDMI 举办了新品发布会，正式推出 K 系列最新一代产品 REDMI K100，新机主打“双芯魔王，万级续航”，标准版首次搭载游戏独显，同时 10000mAh 小米金沙江电池带来强劲续航，从而带来全面高能体验。现在，IT之家拿到了黑色款的 REDMI K100 真机，先为大家带来一波开箱图赏。 REDMI K100 包装盒依然保持了过往一贯的包装设计风格，淡淡的灰白色为主色调，正面为一大块亮银色的矩形视窗，搭配黑色的粗体“K100”文字，亮银色块下方才是 REDMI 的字样，整个包装是文字和图形组合的时尚设计。 REDMI K 系列在过去几代形成了相对统一的设计语言，直边机身，后面是标志性的横向纯平相机 Deco。具体来看，相机 Deco 为圆角矩形的模块，垂直凸起于机身背板，整个模…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f8ff2825f5a81c3d5f6d",
-      "title": "深蓝 S09 车型 OTA V5.4 版本上线：首批搭载华为乾崑 ADS Max V5.0.2",
-      "published": "2026-10-27T12:15:28Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/650.htm",
-      "summary": "IT之家 10 月 27 日消息，深蓝汽车今日宣布，深蓝 S09 OTA V5.4 版本重磅上线，首批搭载华为乾崑 ADS Max V5.0.2 车型，带来 4 大维度进化、20+ 项功能新增。 IT之家附主要内容如下： 新增城区场景漫游巡航辅助功能 新增园区无导航漫游功能 新增领航辅助 (NCA) 激活场景拓展 新增同园区导航到充电车位功能 新增充电车位忙闲可视化功能 新增自动防追尾 (ARCP) 功能 新增自动打转向灯功能 新增自动开启哨兵模式功能 新增千悟大模型功能 新增 AI 语音大模型功能 新增双地图切换功能 新增领航者勋章版块 新增亲密双人位模式语音提示 延伸阅读 深蓝 S09 是深蓝汽车的旗舰大型六座 SUV，于 2025 年 5 月 22 日深蓝汽车品牌之夜上正式上市并开启交付，官方指导价 23…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a6e46fb504065ae4ad2b",
-      "title": "消息称苹果 iPad mini（A20 Pro）的 OLED 面板实为 120Hz 刷新率锁 60Hz",
-      "published": "2026-10-27T11:34:52Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/640.htm",
-      "summary": "IT之家 10 月 27 日消息，博主 @有没有搞措 发文，透露苹果昨晚发布的 iPad mini（A20 Pro）配备的 OLED 面板实为 120Hz 刷新率锁 60Hz。 对此，博主 @Kang 认为苹果此举可能是为了照顾平板续航能力。 IT之家参考官网设备详情获悉，苹果 iPad mini（A20 Pro）搭载 8.5 英寸 2316 x 1512 分辨率 OLED 面板，其中 256GB 和 512GB 机型可选配纳米纹理显示屏玻璃。该机将于 10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售，定价 5499 元起。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-3558cec0c9a576ee0bcb",
-      "title": "小米 REDMI 首款耳夹式耳机 Clip Neo 开售：单耳 5.3g 重，国补价 359.15 元",
-      "published": "2026-10-27T11:34:35Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/639.htm",
-      "summary": "IT之家 10 月 27 日消息，小米 REDMI 品牌首款耳夹式耳机 Clip Neo 现已开售，定价为 399 元，叠加国补后 359.15 元，京东补贴后 339.15 元。 REDMI Clip Neo 采用跑道形 C 桥与同色系一体化设计，搭配立式充电盒以及云隙光灯效 2.0，提供零度黑、珍珠白两种配色。 佩戴方面，其单耳仅重 5.3g，采用仿生曲面设计与水滴发声球，结合 3.4mm 黄金夹持间距温柔贴合耳廓；C 桥内部搭载 0.6mm 高弹力记忆钛丝，通过 25000 次弯折测试，外部包覆亲肤液态硅胶，柔软舒适且不易过敏；耳机取出即用，不区分左右耳，并支持佩戴检测，取下自动暂停、戴上继续聆听。 音质部分，耳机内置 12mm 超大尺寸双磁动圈单元，采用双 N52 铷磁铁，相较单磁路动圈磁通量提升 20…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-725fe2ad23835e0045b6",
-      "title": "小米 REDMI Book 2027 笔记本电脑发布：6799 元起，首销赠送 20000mAh 充电宝",
-      "published": "2026-10-27T11:27:28Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/637.htm",
-      "summary": "IT之家 10 月 27 日消息，小米 REDMI Book 2027 正式发布，11 月 3 日 10:00 正式开售，首销赠送 20000mAh 充电宝。IT之家汇总价格如下： REDMI Book 14 酷睿 5 320、16GB+512GB 版本：6799 元，国补价 5779.15 元 酷睿 7 350、16GB+1TB 版本：7999 元，国补价 6799.15 元 REDMI Book 16 酷睿 5 320、16GB+512GB 版本：6999 元，国补价 5949.15 元 酷睿 7 350、16GB+1TB 版本：8199 元，国补价 6969.15 元 这款笔记本电脑 A/C/D 面采用全金属铝合金机身，提供多种配色，14 英寸版本重约 1.28kg，厚 13.95mm；16 英寸机型约 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-262180353f6e8850687b",
-      "title": "小米 REDMI K100 手机发布：骁龙 8 至尊版旗舰芯，限时特惠价 2999 元起",
-      "published": "2026-10-27T11:22:47Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/635.htm",
-      "summary": "IT之家 10 月 27 日消息，小米 REDMI K100 手机今日发布，限时特惠到手价 2999 元起。即刻开始预售，10 月 31 号 10 点正式开售。 IT之家附价格如下： 12GB+256GB 版建议零售价 3499 元，双 11 限时特惠 2999 元，国补价 2549.15 元 12GB+512GB 版建议零售价 4099 元，双 11 限时特惠 3499 元，国补价 2999 元 16GB+512GB 版建议零售价 4499 元，双 11 限时特惠 3899 元，国补价 3399 元 据介绍，K100 搭载 6.83 英寸直屏，极窄边框；1.3mm 金属反包中框，手感圆润舒适；纯平金属相机 Deco，横握不硌手；黑色、雪岩白、流萤绿，三色可选。 K100 搭载狂暴双芯，高通骁龙 8 至尊版旗舰…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-5680bddec1ebf1dbf3da",
-      "title": "微信 Windows / macOS PC 版 4.2.0 发布，修复一些已知问题",
-      "published": "2026-10-27T11:20:49Z",
-      "company": "腾讯",
-      "companies": [
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/634.htm",
-      "summary": "IT之家 10 月 27 日消息，微信今晚发布了 Windows 与 Mac 双平台的 4.2.0 正式版更新，官方更新依然为“修复一些已知问题”。当然，目前包括鸿蒙版在内的所有平台清一色都是“修复一些已知问题”。 根据此前曝光的内测信息，4.2.0 版本在基础聊天场景中做出了几项实质改动（不排除正式版撤回的可能）： 翻译功能从“整条消息右键翻译”升级为支持在文字消息中选中任意片段进行精准翻译，最小翻译单位由一条气泡缩小到用户实际选中的字句。 表情面板新增了剪刀石头布和骰子，补齐了手机端早已具备的互动玩法。 通话相关交互也配套调整：来电界面增加了轻量化悬浮提示，用户在使用其他应用时不再被全屏弹窗强制打断；通话过程中新增快捷消息入口，无需挂断即可发送文字或图片；视频通话的自画面小窗支持拖拽到屏幕任意角落。 有需要…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-75da76892b2af289bb55",
-      "title": "小米 18 Pro 系列全球版机型定价曝光：1549 欧元起",
-      "published": "2026-10-27T11:08:03Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/610.htm",
-      "summary": "IT之家 10 月 27 日消息，据科技媒体 Notebookcheck 今天报道，意大利零售商 Epto 最近提前公开了小米 18 Pro 系列手机全球版定价，起售价为 1,549 欧元（IT之家注：现汇率约合 11,574 元人民币）。 据介绍，小米 18 Pro 和 18 Pro Max 在全球市场将提供黑色、白色和酒红色，其中酒红色是全球版独有的配色。IT之家附具体零售价如下： 小米 18 Pro 256GB：原价 1,549 欧元（现汇率约合 11,574 元人民币） 小米 18 Pro 512GB：原价 1,761 欧元（现汇率约合 13,158 元人民币） 小米 18 Pro Max 512GB：1,974 欧元（现汇率约合 14,750 元人民币） 此外该网站列出的参数信息还显示，小米 18 P…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T22:10:27Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-ee77f32e41b2e99ab325",
-      "title": "为避免在韩国市场引发争议，苹果悄悄移除当地官网 iPad mini（A20 Pro）海报中的手部",
-      "published": "2026-10-27T10:08:51Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/589.htm",
-      "summary": "IT之家 10 月 27 日消息，有网友发现，苹果在韩国官网展示的 iPad mini（A 20 Pro）宣传海报中去掉了手部，仅保留设备本体。 IT之家注意到，访问苹果中国 iPad mini（A20 Pro）产品详情页时，可以看到第二页展示一只手捏住平板电脑的画面，以此突出新款 iPad mini 的 5.4mm 纤薄机身。不过，韩国官网对应宣传海报却没有出现手部。 事实上，在韩国市场，用食指和拇指比出类似「C」的手势具有冒犯意味的动作，极易引发舆论风波。曾经《冒险岛》就因宣传动画中出现疑似相关手势而陷入争议，导致开发商 Nexon 最终不得不出面道歉。而苹果在 iPhone Air 时期就在官网进行了类似的差异性海报设计。 苹果宣传图中，手指捏住 iPad 的姿势恰好与上述争议手势存在一定相似之处。尽管多…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T12:06:22Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7289a58bf125af4cb8cc",
-      "title": "百度网盘 11.11 年内探底：SVIP 超级会员 13 元 / 月、157 元 / 年",
-      "published": "2026-10-27T09:57:50Z",
-      "company": "百度",
-      "companies": [
-        "百度"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/570.htm",
-      "summary": "百度网盘超级会员年卡官方售价 298 元，今日券后直降至 196 元年内好价，限时加赠 3 个月。 到手共 15 个月，折合 13.1 元 / 月、157 元 / 年： 京东百度网盘 SVIP 超级会员 15 月卡券后 196 元领 10 元券 百度网盘超级会员年卡 + B站大会员季卡 + 网易云音乐月卡今日折后仅需 176 元，也是好价。 如果把百度年卡算作 157 元，B站季卡 + 网易云音乐月卡仅需 19 元： 京东百度网盘 SVIP 超级会员年卡加赠B站季卡 + 网易云音乐月卡券后 176 元领 10 元券 注：现购买权益时长 + 已有权益时长，不能超过 5 年，否则会充值失败。 购买前需在百度网盘开启手机号登录再下单。 百度网盘 SVIP 特权： 京东百度网盘 SVIP 超级会员 15 月卡券后 19…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c263ff34965059533203",
-      "title": "2027 款零跑 B10/B01 车型 OTA 更新：支持华为 HiCar4.0 手机互联、腾讯云游戏等",
-      "published": "2026-10-27T09:33:13Z",
-      "company": "华为",
-      "companies": [
-        "华为",
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/542.htm",
-      "summary": "IT之家 10 月 27 日消息，2027 款零跑 B10/B01 车型推送 OTA 更新，带来 8 项功能新增 +10 项体验深度优化，覆盖手机互联、离线提醒、腾讯云游戏等。B01 版本号为 4.2762.020，B10 为 4.2700.020。 IT之家整理新增内容如下： 新增 HiCar4.0 (舒享版、悦享版、激光雷达版)：车辆系统增加支持华为 HiCar4.0 手机互联，用车更便捷。 新增 360 影像后视镜调节入口 (舒享版、悦享版、激光雷达版)：360 全景影像界面新增后视镜调节快捷按键，无需退出全景页面即可调节左右后视镜角度。 新增汽水音乐应用 (舒享版、悦享版、激光雷达版)：应用商店新增上架汽水音乐应用。 新增腾讯云游戏应用 (舒享版、悦享版、激光雷达版)：应用商店现已上线腾讯云游戏，支持触…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T12:06:22Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-33ca8caacc4f1d3e2f00",
-      "title": "品丘联合魅族 PANDAER 推出 Power Duo 磁吸移动电源：可当苹果 iPhone Duo 支架，众筹价 1499 元",
-      "published": "2026-10-27T09:26:37Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/534.htm",
-      "summary": "IT之家 10 月 27 日消息，初创公司品丘宣布联合魅族 PANDAER 推出一款 Power Duo 磁吸移动电源，官方称零售价 1999 元，众筹价为 1499 元。 该产品折叠尺寸为 9 x 8.2 x 1.04cm，内置两组磁体，采用硅胶磁吸面，号称“适配 iPhone Duo 全部交互姿态”，同时“铰链经过 20 万次测试”。 该产品内置 5000mAh 电芯，提供 25W 无线输出和 30W 有线输出。IT之家注意到，官方并未在介绍中称该产品为双电芯，这意味着该产品很有可能只是业界常见的磁吸移动电源加了个支架。作为参考，可提供 25W 无线输出的 5000mAh 磁吸电源均价在 200-300 元左右。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-27T12:06:22Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d238a10935f7d21fd86c",
-      "title": "iPhone Duo 裂屏，是苹果新 CEO 接班后第一次「大考」",
-      "published": "2026-10-27T09:24:34Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "极客公园",
-      "source_id": "geekpark",
-      "publisher_id": "geekpark",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "http://www.geekpark.net/news/373008",
-      "summary": "头图图片来源：iFixit 2011 年 9 月 30 日，苹果递交了一份名为「Flexible electronic devices」的专利申请。 它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着。 这份专利 2015 年 1 月获得授权，发明人一共六位，其中一位叫特努斯（John Ternus）。 苹果 2011 年递交的折叠设备专利附图｜图片来源：Apple 十五年后，2026 年 9 月 9 日，当年署名的这位工程师，第一次以苹果 CEO 的身份走上发布会舞台，发布的正是一台可以对折的 iPhone：iPhone Duo。 巧的是，十二年前的同一天，2014 年 9 月 9 日，库克也在后台等着上台。 那是他接任 CEO 三年后，第一次发布全新品类的产品 Apple W…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T06:59:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-31012c2d26d248aff1e0",
-      "title": "消息称某厂新机影像实验室出现双潜望长焦方案，预计华为旗下",
-      "published": "2026-10-27T09:14:58Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/530.htm",
-      "summary": "IT之家 10 月 27 日消息，据博主 @数码闲聊站 今日爆料，某厂新机影像实验室出现了双潜望长焦方案，一颗 50Mp RYYB 小底，一颗 200Mp 1/1.3″ RYYB 超大底，焦段配置上新。结合该博主此前的爆料习惯，预计该机为华为旗下。 IT之家注意到，该博主此前爆料某厂 2027H1 影像旗舰在评估阔屏，据工程机信息，标准版继续用 6.6 英寸中屏，Pro / Pro Max 换阔屏，尺寸还是 6.39 英寸左右，定义全能阔屏影像旗舰。目前尚不清楚，本次曝光的影像方案是否与阔屏新机相关。 目前，市面上多数旗舰机型采用了潜望长焦方案，但是支持双潜望长焦方案并不多。如果爆料属实，该机有望给看重影像规格的用户提供更多选择。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-27T12:06:22Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-47f9801cfe4a63408dab",
-      "title": "小米米家直流变频冷暖两季扇新增灰色 / 黑色版本：冬夏可用，799 元",
-      "published": "2026-10-27T08:46:48Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/518.htm",
-      "summary": "IT之家 10 月 27 日消息，小米宣布为旗下米家直流变频冷暖两季扇新增黑色和灰色版本（点此访问），两款配色定价均为 799 元。 IT之家从商品页面获悉，该产品采用专利 PTC 旋转结构，闭合时吹暖风，打开时吹凉风。冬夏两季可用，换季无需收纳。圆柱形设计，底盘直径仅 30cm，不占空间。整机约 6.9kg。高品质铜线直流变频无刷电机，恒定转速送风更平稳，实测最低挡工作噪音 38.4dB(A)。 新品支持直吹风模式、自然风模式、睡眠风模式，采用旋涡灌流风道设计，超长风道实现强风力。通过米家 App 可设置 30° 至 150° 不同送风角度，覆盖更大范围；2200W 半导体陶瓷发热体，开机即有热风，通过米家 App 支持 100 挡暖风调节，寒冷冬季快速送暖。 IT之家附产品参数：",
-      "summary_status": "source",
-      "fetched_at": "2026-10-27T12:06:22Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-54eff82cd860ad727d2c",
-      "title": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
-      "published": "2026-10-27T08:42:40Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "极客公园",
-      "source_id": "geekpark",
-      "publisher_id": "geekpark",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "http://www.geekpark.net/news/373002",
-      "summary": "Shopify AI 交易订单增长了 13 倍。 10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。 这一次抢首发的，不只是守在屏幕前的人。 今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple 在 MacRumors 论坛上，一位没抢到的用户愤愤不平地吐槽，Reddit 上有人在炫耀自己设置的 Muse 机器人一口气拿下了好几台，真人还没来得及点，库存就被 AI 扫走了。 Muse 是 Meta 在 9 月 8 日推出的个人 Agent，上线后一度登顶美区 App Store 免费榜，下载量很快超过 250 万。Meta 方面表示，购物已经成为 Muse 最主要的使用场景之一。就…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T06:59:14Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c417f8e3d39d0b893c07",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "published": "2026-10-27T07:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-03T06:59:14Z",
-      "kind": "rss",
-      "report_type": "report"
     }
   ],
   "collection_status": "ok"
