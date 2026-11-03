@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-03T16:12:36Z",
-  "last_success_at": "2026-11-03T16:12:36Z",
+  "updated_at": "2026-11-03T21:45:45Z",
+  "last_success_at": "2026-11-03T21:45:45Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 12,
-      "skipped": 48,
-      "last_success_at": "2026-11-03T16:12:36Z",
-      "last_attempt_at": "2026-11-03T16:12:36Z"
+      "accepted": 22,
+      "skipped": 38,
+      "last_success_at": "2026-11-03T21:45:45Z",
+      "last_attempt_at": "2026-11-03T21:45:45Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 9,
       "skipped": 11,
-      "last_success_at": "2026-11-03T16:12:36Z",
-      "last_attempt_at": "2026-11-03T16:12:36Z"
+      "last_success_at": "2026-11-03T21:45:45Z",
+      "last_attempt_at": "2026-11-03T21:45:45Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-03T16:12:36Z",
-      "last_attempt_at": "2026-11-03T16:12:36Z"
+      "last_success_at": "2026-11-03T21:45:45Z",
+      "last_attempt_at": "2026-11-03T21:45:45Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1349,
-      "accepted": 18,
+      "feed_items": 1352,
+      "accepted": 21,
       "skipped": 1331,
-      "last_success_at": "2026-11-03T16:12:36Z",
-      "last_attempt_at": "2026-11-03T16:12:36Z"
+      "last_success_at": "2026-11-03T21:45:45Z",
+      "last_attempt_at": "2026-11-03T21:45:45Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 2,
       "skipped": 28,
-      "last_success_at": "2026-11-03T16:12:36Z",
-      "last_attempt_at": "2026-11-03T16:12:36Z"
+      "last_success_at": "2026-11-03T21:45:45Z",
+      "last_attempt_at": "2026-11-03T21:45:45Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,293 @@
   ],
   "news": [
     {
+      "id": "rss-3c49339d6120b079c4fc",
+      "title": "iPhone 11 也有份：苹果 iOS 27.3 开发者预览版 Beta 带来 4 项“待机显示”功能",
+      "published": "2026-11-03T21:23:53Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/872.htm",
+      "summary": "IT之家 11 月 4 日消息，科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称在今天推送的 iOS 27.3 首个 Beta 开发者预览版中，苹果下放 iPhone Duo 上的多项“待机显示”（StandBy）模式，覆盖 iPhone 11 以及后续机型。 IT之家注：“待机显示”可以把手机变成桌面时钟、电子相框，或显示小组件和实时活动的信息屏。此次更新并非首次向旧 iPhone 机型开放“待机显示”模式，主要增加显示内容与个性化选择，将此前在 iPhone Duo 上推出的界面功能带到更多设备。 本次功能下放适用于 iPhone 11 等后续机型，主要扩展以下 4 项功能： 模拟与数字时钟界面增加颜色及附加信息的自定义选项； 照片界面支持选择共享相册； 新增日历、天气等界面； 同一类…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-10b71ad855b48aadb935",
+      "title": "苹果向 AirPods 5 等耳机推送 Beta 测试固件 9B5045a 更新",
+      "published": "2026-11-03T21:05:21Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/870.htm",
+      "summary": "IT之家 11 月 4 日消息，科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称苹果面向开发者和公开测试用户，推送适用于 AirPods 5 等耳机产品的 Beta 测试版本，固件版本号为 9B5045a。 IT之家援引博文介绍，本次 Beta 测试版本固件适用于以下 AirPods 耳机： AirPods Pro 2 AirPods Pro 3 AirPods 4 AirPods 5 AirPods Max 2 更新内容方面，苹果惯例没有为 AirPods 测试版固件提供更新日志，因此暂时无法确认新版是否加入新功能，或针对哪些问题进行了修复。 安装流程方面，用户需要将符合条件的 AirPods 连接到运行 iOS 26、iPadOS 26、macOS 26 或更高版本系统的 iPhone…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ab42c1e89af24a425bef",
+      "title": "Siri AI 将实现跨 App 办事：苹果开放“应用技能”，一句话串联多个应用任务",
+      "published": "2026-11-03T20:59:17Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/869.htm",
+      "summary": "IT之家 11 月 4 日消息，科技媒体 9to5Mac 今天（11 月 4 日）发布博文，报道称苹果宣布向第三方开发者开放 Siri AI 的全新“应用技能”（App Skills），让应用能够指导 Siri 执行更复杂的多步骤任务。相关功能将随 iOS 27.3、macOS 27.3 及同期系统更新推出，目前新版系统仍处于开发者测试阶段。 该媒体指出本次 Siri 升级主要扩展应用协调能力，Siri 不仅要理解用户想做什么，还能根据应用提供的技能，调用相应的应用操作并串联执行。相比早期仅支持有限预设模式的 Siri AI，新机制进一步扩大了第三方应用的接入范围，也让复杂请求有了更清晰的执行路径。 报道援引开发者文档举例，用户可以要求 Siri“通过某款聊天应用，把我收藏的运动鞋发给我的伴侣”。Siri 随后…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0af38f39da046c88444e",
+      "title": "外屏太宽够不着？苹果 iOS 27.3 测试版改善 iPhone Duo 单手操作体验",
+      "published": "2026-11-03T20:46:13Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/868.htm",
+      "summary": "IT之家 11 月 4 日消息，科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称在 iOS 27.3 首个 Beta 开发者预览版中，苹果为其首款折叠 iPhone Duo，引入了“便捷访问”（Reachability）功能。用户可通过横向滑动，将屏幕内容向左或向右移动，让原本难以触及的界面区域靠近拇指，改善单手操作体验。 该媒体指出 iPhone Duo 于 10 月 23 日发售后，部分评测者反映，超宽外屏增加了单手使用的难度。苹果随后表示，将通过软件更新引入便捷访问功能，如今这一承诺已在测试版中落地。 与其他 iPhone 通过下移界面方便用户触及屏幕上方不同，iPhone Duo 的便捷访问采用横向移屏方案。用户在“设置 → 辅助功能 → 便捷访问”中开启后，向屏幕侧边短促滑动，即…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-31540de03cd515d30a85",
+      "title": "国行 Apple 智能首批上线核心功能汇总：AirPods 实时翻译登场，iPhone 可联手千问实现更多功能",
+      "published": "2026-11-03T20:31:34Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/867.htm",
+      "summary": "IT之家 11 月 4 日消息，苹果今日凌晨面向 iPhone 推送了首个 iOS 27.3 开发者预览版，如约为国行用户带来了「Apple 智能与 Siri」。 IT之家在第一时间上手体验了国行 Apple 智能首批上线的核心功能，现为大家汇总亮点如下： 新增 Siri 呼出灯效 感知最为明显的变化就是长按电源键呼出 Siri，屏幕会出现一圈跑马灯特效。 实时翻译 实时翻译功能已整合到信息、FaceTime 通话和电话 App 中，支持用户在通话及消息场景中获得翻译体验。同时，在面对面交流场景中，实时翻译还将扩展至 AirPods（需安装最新固件并与启用 Apple 智能的 iPhone 配对），用户佩戴适配耳机后，可在跨语言交流中获得实时翻译能力。 该功能对设备有明确要求：用户需使用 iPhone 16 及…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8b619ce1c0e1d7264f48",
+      "title": "苹果 iOS 27.3 扩展 Siri AI：支持繁体中文、覆盖 15 款 App 操作，能管理文件 / 定时发送信息等",
+      "published": "2026-11-03T20:27:56Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/866.htm",
+      "summary": "IT之家 11 月 4 日消息，科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称在今天推送的 iOS 27.3 首个 Beta 开发者预览版中，苹果公司进一步扩展 Siri AI 在应用内及跨应用执行任务的能力。 IT之家注：伴随着 iOS 27.3 发布，国行“Apple 智能与 Siri”如期上线，但下文介绍的相关功能 / 特性国内暂未上线。 在语言支持方面，Siri AI 上线初期仅支持英语，在 iOS 27.2 更新中上线法语、日语、韩语、葡萄牙语和西班牙语。而在本次更新中，苹果公司进一步扩展支持繁体中文、挪威语、土耳其语以及越南语，让总支持语言数量达到 10 种。 在日历、文件、Finder、日记、邮件、地图、信息、音乐、备忘录、照片、预览、提醒事项、Safari 浏览器、快捷指…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-abece07852e5d0312d14",
+      "title": "苹果 Fitness+ 进军健身房：推出 4 周个性化力量训练计划",
+      "published": "2026-11-03T20:09:40Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/865.htm",
+      "summary": "IT之家 11 月 4 日消息，科技媒体 9to5Mac 今天（11 月 4 日）发布博文，报道称苹果 Fitness+ 推出 Gym Strength 力量训练功能，目前已开放测试。新功能面向健身房及居家训练场景，根据用户的目标、经验、时间安排和可用器材，生成四周渐进式计划，并根据每周记录的训练次数与重量，调整下一周内容。 用户可选择训练日期和重点部位，每次安排 5 个或 7 个动作，预计分别耗时 20~30 分钟、45~60 分钟，实际时长取决于个人节奏。计划会推荐动作、组数、次数及重量，并提供教练示范视频，支持从三个角度查看动作。 据苹果介绍，该功能涵盖超过 350 个动作、适配 30 多类力量训练器材，最低只需配备哑铃。遇到器械被占用或更换场地时，用户可替换器材、选择相近动作，也能增加组数或跳过动作。 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-44ad2e7ef607eea68828",
+      "title": "苹果 watchOS 27.3 首个开发者预览版 Beta 上线音频智能功能：支持全天谈话划重点 / 回顾 15 秒对话",
+      "published": "2026-11-03T20:01:49Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/864.htm",
+      "summary": "IT 之家 11 月 4 日消息，苹果公司今天（11 月 4 日）面向开发者，推送 watchOS 27.3 首个开发者测试版，为 Apple Watch Series 12 和 Apple Watch Ultra 4 带来 Siri 回顾（Siri Recap）与 Live Rewind 两项音频智能功能。 在苹果官方支持页面上，显示上述两项功能适用于 Apple Watch Series 12 和 Apple Watch Ultra 4，目前仅支持英语，且需要 Apple 智能和 Siri AI（Beta 版）。 IT 之家此前报道，Siri Recap 定位类似自动化的对话备忘录，通过“环境聆听”（ambient listening），从日常对话中记录概括性信息，帮助用户回顾可能遗漏的事项或重点。 而 L…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9517805cf9f31daadbc7",
+      "title": "苹果 Safari 27.3 测试版浏览器上线：适配 iPhone Duo，引入垂直标签、Siri 帮你管网页",
+      "published": "2026-11-03T19:39:29Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/863.htm",
+      "summary": "IT之家 11 月 4 日消息，苹果公司今天（11 月 4 日）推送 iOS / iPadOS / macOS 27.3 首个 Beta 开发者预览版，升级 Safari 27.3 测试版，引入垂直标签页、自适应深色模式，以及扩展 Siri AI 支持三项体验。 本次 Safari 27.3 测试版最大的亮点，在于引入垂直标签页让用户更方便地浏览完整页面标题，减少打开大量网页后难以辨认的问题。Mac 和 iPad 用户可通过“视图”菜单开启，iPhone 用户则需前往 Safari 设置启用，而且已适配苹果首款折叠 iPhone Duo。IT之家附上相关截图如下： 图源：@开坦克的贝塔 图源：@开坦克的贝塔 在 iPhone Duo 上的设置选项 在 iPad 上的垂直标签页选项 自适应深色模式主要面向尚未提供…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-08f6a9923c0473c27dff",
+      "title": "苹果推送 macOS 27.3 首个开发者预览版：Siri AI 有望扩展支持繁体中文",
+      "published": "2026-11-03T19:17:04Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/862.htm",
+      "summary": "IT之家 11 月 4 日消息，苹果公司今天推送 macOS 27.3 Golden Gate 首个开发者测试版，内部版本号为 26C5035r，距离上周推出 macOS 27.2 仅约一周。 科技媒体 9to5Mac 称本次更新主要亮点在于扩展 Siri AI 语言支持，不过目前该信息依然有待验证。苹果 Siri AI 上线初期仅支持英语，在 macOS 27.2 更新中上线法语、日语、韩语、葡萄牙语和西班牙语。 苹果公司此前承诺在 2026 年年底之前，在上述语言支持基础上，再扩展支持繁体中文、挪威语、土耳其语以及越南语。上述语言支持可能已在 macOS 27.3 Golden Gate 首个开发者测试版中上线，并于 12 月随 macOS 27.3 正式版上线普及。 此外针对国行 Apple 智能，苹果公…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-ee78cbccb6f311aa9017",
+      "title": "国行「Apple 智能与 Siri」如约而至，iPhone 15 Pro 及更新机型升级 iOS 27.3 开发者预览版可用",
+      "published": "2026-11-03T19:08:12Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/861.htm",
+      "summary": "IT之家 11 月 4 日消息，苹果官方今日面向 iPhone 发布了最新的 iOS 27.3 开发者预览版。 IT之家实测，在最新的 iOS 27.3 开发者预览版上，国行「Apple 智能与 Siri」如约而至，用户在更新最新版 iOS 系统后可以在设置中找到该功能设置页面。 参考IT之家此前报道，国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。 苹果用户登录千问账户，或通过“通过 Apple 登录”，即可在系统内访问千问，无需跳转至独立应用。阿里巴巴方面此前曾确认，千问的集成范围将延伸至 iOS、iPadOS、macOS 和 visionOS。 首批向中国用户开放的功能以基础高频场景为主。实时翻译集成在信…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3388c863eab187a477c4",
+      "title": "支持中文：苹果 iOS 27.3 首个 Beta 开发者预览版上线新版“健康”应用，已覆盖 11 种语言",
+      "published": "2026-11-03T18:59:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/860.htm",
+      "summary": "IT之家 11 月 4 日消息，苹果公司今天（11 月 4 日）发布新闻稿，宣布扩展重新设计的“健康”应用支持的语言，涵盖中文、法语、日语、韩语、葡萄牙语、西班牙语、土耳其语和越南语等，目前支持总数达到 11 种。 IT之家援引博文介绍，附上新版“健康”应用支持的语言如下： 英语 简体中文 繁体中文 法语 日语 韩语 挪威语 葡萄牙语 西班牙语 土耳其语 越南语 官方介绍称重新设计的“健康”App 以 Apple 智能技术为核心，能够动态适应用户在 iPhone 和 iPad 上的各项健康指标，提供优化日常活动的洞察，并全面展现用户的长期健康状况。 功能方面，更新后的体验新增了“洞察”标签页，可实时提供涵盖心脏、睡眠、准备状态、健身、生命体征和生理周期追踪等数据的全面概览。 专属的“为你推荐”版块则根据用户的日…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-07388fc65340e37941fe",
+      "title": "iOS 27.3 首个开发者预览版推送，国行 iPhone 苹果 Apple 智能将至",
+      "published": "2026-11-03T18:14:39Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/859.htm",
+      "summary": "IT之家 11 月 4 日闪讯速报，苹果今日凌晨面向 iPhone 推送了 iOS 27.3 系统首个测试版本。 据IT之家此前报道，苹果智能（Apple Intelligence）及相关阿里千问大模型获得批准。苹果官方已宣布一系列 Apple 智能功能将自 11 月 4 日起随最新的 iOS 开发者 Beta 版开放测试，并将于 12 月 iOS 27.3 正式发布时面向中国用户推出。其他平台的支持将在获得必要审批后推出。 以下是 Apple 即将在支持的 iPhone 上向中国用户推出的首批功能： 实时翻译功能帮助用户在发送信息或交谈时跨特定语言进行交流，并无缝整合在信息、FaceTime 通话和电话 App 中。用户还可通过支持主动降噪的 AirPods 4，以及 AirPods Pro 2 及后续机型使…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-7f4a4ae001fd012cc9a7",
       "title": "iPad mini 8 首发评测：本该是一台完美的平板电脑",
       "published": "2026-11-03T15:18:46Z",
@@ -189,7 +476,7 @@
       "url": "https://www.ifanr.com/1687473",
       "summary": "全网最细的iPad mini 8 评测，屏幕到底锁没锁帧，我们挖出了超多细节。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +498,7 @@
       "url": "https://www.ithome.com/1/021/843.htm",
       "summary": "IT之家 11 月 3 日消息，据小米 17 Ultra 用户反馈，在更新澎湃 HyperOS 4.0.6.0.XPACNXM.D01 版本后，“徕卡一瞬”功能的页面顶部会出现文字乱码“!盙望樀拾逨拈”。 小米相机部产品经理 @Bao_小李 今日晚间发文回应了此次事件，并表示：“问题已修复。需要大家在应用商店里面更新一下「相机」应用的版本。” 据IT之家了解，小米在去年 12 月发布的小米 17 Ultra 徕卡版上，带来了专属「徕卡一瞬」模式，由小米与徕卡合作开发。该模式包含 LEICA M3 和 LEICA M9 两种模式： 徕卡 M9 画质，还原传奇 CCD 质感，色彩浓郁； 徕卡 M3 + MONOPAN 50 画质，黑白胶片质感； 经典 3:2 全画幅，源自徕卡第一代胶片比例。 ▲ IT之家评测室：小…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +520,7 @@
       "url": "https://www.ithome.com/1/021/839.htm",
       "summary": "IT之家 11 月 3 日消息，多年以来，苹果一直没有计划将 iPadOS 和 macOS 合并为一个操作系统。新 CEO 约翰 · 特努斯上任后，这种立场是否会发生改变？ 在苹果 2026 财年第四季度报告电话会议中，有分析师询问苹果是否会一统 iPadOS 和 macOS，特努斯作出了回应。 IT之家附相关问答全文如下： Arete Research 分析师理查德 · 克拉默：新款 MacBook Pro 加入了许多 iOS 功能，例如触控操作、灵动岛，还有 Siri AI。我们是否应该期待 macOS 和 iOS 的功能进一步融合，甚至未来某个阶段形成统一操作系统，以此降低成本？ 约翰 · 特努斯：我们为 Mac 和 iPad 两条产品线感到非常自豪。我认为大家多年来已经看到，我们很乐于将生态系统中的功能…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +542,7 @@
       "url": "https://www.ithome.com/1/021/834.htm",
       "summary": "IT之家 11 月 3 日消息，小米汽车官方刚刚宣布，2026 年 11 月 4 日，将继续启程前往德国纽博格林北环。 据IT之家此前报道，今年 10 月，小米创办人、董事长兼 CEO 雷军转发了小米集团副总裁、汽车部 CTO 胡峥楠的微博，并宣布小米纽北 Workshop 已经启用。 据胡峥楠介绍，小米在纽北刚启用不久的 Workshop 位于 GT 赛道旁，比之前租用附近的 Workshop 面积大了不少，设施也完全鸟枪换炮，员工的办公工作条件也大为改善，有了自己的停车场、快充站、进入赛道的专用入口、给车手的浴室等，最意外的是还有专属的观赛 VIP Lounge。 有消息称新款小米 SU7 Ultra 预计在 2027 年上市。知情人士透露，新车将对外观造型进行调整升级，整套空气动力学套件全面优化，并搭载 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +564,7 @@
       "url": "https://www.ithome.com/1/021/828.htm",
       "summary": "标准版 255 克，能泡水，声音直接从屏幕里出来——苹果三年没管的 iPad mini，这次一口气补了三个短板。这块 OLED 值不值得换机，一次说清。 点击关注IT之家B站账号",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -299,7 +586,7 @@
       "url": "https://www.ithome.com/1/021/827.htm",
       "summary": "IT之家 11 月 3 日消息，10 月 26 日，苹果正式发布新一代 iPad mini 8 平板电脑。新机配备 8.5 英寸 OLED 显示屏，搭载 A20 Pro 芯片，同时对机身设计、影像系统和无线连接能力进行了升级，机身厚度相比上一代减少 14%，重量减轻 13%。 IT之家上手视频： 外观方面，iPad mini 8 提供午夜色、星光色两种配色，延续了系列小尺寸平板的设计风格。新机机身厚度为 5.4mm，相比 iPad mini 7 薄了 14%，重量减轻 13%，进一步提升了便携性。 IT之家此次实拍的为 iPad mini 8 午夜色（纳米纹理玻璃版本）。 屏幕方面，iPad mini 8 配备 8.5 英寸超视网膜 XDR 显示屏，采用 OLED 技术，屏幕边框宽度相比上一代收窄 24%。该屏…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +608,7 @@
       "url": "https://www.ithome.com/1/021/825.htm",
       "summary": "IT之家 11 月 3 日消息，博主 @数码闲聊站 刚刚最新爆料，称华为子品牌星芒新品配置对标旗舰产线，价格不低。 该博主最新爆料内容“价格不低”与此前透露的“主攻线上渠道，相对有性价比”存在一定出入，目前尚不知晓是品牌已规划的新品价格不低，还是新品牌产品价格都不低。关于华为子品牌星芒产品规划及价格还有待官方进一步披露。 “星芒”这一名称并非首次出现在公众视野。IT之家查询公开商标信息获悉，华为技术有限公司早在 2023 年 2 月便申请注册了“华为星芒”商标，并于 2023 年 9 月完成注册公告。 2026 年 7 月，华为再次提交“星芒”商标申请，覆盖智能手机与芯片品类，目前状态为“注册申请中”。不过，商标布局本身并不等同于产品落地，此前多年市场上也曾出现过“星耀手机”等子品牌传闻，最终迟迟未兑现。 目前…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -343,7 +630,7 @@
       "url": "https://www.ithome.com/1/021/817.htm",
       "summary": "IT之家 11 月 3 日消息，华为智能汽车解决方案 BU 官方微博今日发布了华为乾崑 10 月安全出行报告。 据介绍，华为乾崑智驾 ADS 辅助驾驶状态下，发生一次严重碰撞前的平均安全行驶里程，是国人驾平均值（推算）的 6.02 倍。 数据显示，华为乾崑智驾 ADS 累计辅助驾驶里程超 172.7 亿公里、辅助驾驶月活用户占比 95.2%。另外，人驾状态下月度防御性驾驶触发次数 4.54 万次、月度车位到车位使用 1740.04 万次。 IT之家查询华为乾崑官网获悉，乾崑智驾累计辅助驾驶里程截至目前已突破 174 亿公里，搭载乾崑智驾车辆累计行驶总里程也已突破 486 亿公里。 延伸阅读 关于报告中的“严重碰撞前平均安全行驶里程”，华为乾崑此次给出的对比为：ADS 辅助驾驶状态下为 1082.7 万公里，是中…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -365,7 +652,7 @@
       "url": "https://www.ithome.com/1/021/808.htm",
       "summary": "IT之家 11 月 3 日消息，今天，在深圳举行的百度 AI Day·Apollo 专场上，百度 Apollo 首次披露面向物理 AI 的智能体驱动全模态世界模型 Apollo World，并提出世界模型“2+3”判断标准。 Apollo World 可以生成一段相对真实的视频 让虚拟世界遵循现实规律、回应无人车的动作，并支持驾驶系统从起点出发，一路开到目的地 据IT之家了解，用于无人驾驶的 Apollo World 不仅要生成逼真的画面，还要准确推演现实世界如何变化。百度 Apollo 提出了世界模型“2+3”判断标准： “2”是基础门槛： 因果性：世界模型应当遵循时间的单向性，由过去决定未来，基于当前状态预测下一刻，而不是拼凑画面、反推过去。 交互性：能动态响应外部干预，注入动作影响未来世界状态。 “3”是…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -387,9 +674,31 @@
       "url": "https://www.ithome.com/1/021/806.htm",
       "summary": "IT之家 11 月 3 日消息，据韩媒 The Elec 报道，苹果显示屏供应商三星显示（Samsung Display）和 LG Display 正在研发新型 OLED 面板制造工艺。 消息人士透露，苹果目前优先考虑采用现有的溅射工艺，生产基于高迁移率氧化物（HMO，High Mobility Oxide）技术的显示面板。为此，三星显示和 LG Display 正分别开发新的原子层沉积（ALD）及溅射工艺方案，以便将相关技术应用于实际生产线。 据报道，这项制造工艺升级有望带来多方面改进，其中一项重要变化是提升 OLED 面板单个像素的发光亮度，从而提高屏幕整体亮度表现，同时也有望改善显示对比度。若相关技术顺利实现量产，未来 iPhone 和 iPad 的屏幕显示效果或将进一步提升。 如今，苹果正在将旗下所有产…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-25493a43cba550c7fe81",
+      "title": "Accelerating engineering for the physical world",
+      "published": "2026-11-03T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
     },
     {
       "id": "rss-b9082928b3c3b2761f62",
@@ -475,7 +784,29 @@
       "url": "https://openai.com/index/heimstaden",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-34e7d62615202d0de65f",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "published": "2026-11-03T08:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/cisco-cyber",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -497,7 +828,7 @@
       "url": "https://www.ifanr.com/1687285",
       "summary": "我「编程」我自己 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -717,7 +1048,7 @@
       "url": "https://www.ifanr.com/1687259",
       "summary": "赚得多，花得更狠 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1050,7 +1381,7 @@
       "url": "https://www.ifanr.com/1686623",
       "summary": "让特努斯引领一个全新的时代，全盘「拥有」这些新产品，无论它们最终的评价是好是坏。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1073,6 +1404,28 @@
       "summary": "IT之家 11 月 3 日消息，科技媒体 9to5Mac 昨日（11 月 2 日）发布博文，报道称在 Apple TV 4K（第四代）11 月 13 日上市开售之前，苹果悄然为其推送专属 tvOS 27.2 更新。 版本号方面，该版本内部代号为 24K154，而上周面向现有 Apple TV 设备推出的 tvOS 27.2 版本号为 24K122，意味着新款 Apple TV 4K 上市后将预装更新的系统版本。 在更新内容方面，苹果公司尚未单独公布 24K154 内容，不过开发者 @itspdfu 指出，在该版本中，苹果为新款 Apple TV 4K 适配启用 Siri AI。 在模拟 Apple TV 4K（第四代）的 Siri 设置中，相关说明写道：“Siri 比以往任何时候都更加强大，它结合了个人背景和世…",
       "summary_status": "excerpt",
       "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-019edb616369c3322f4c",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "published": "2026-11-03T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1270,7 +1623,7 @@
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1292,7 +1645,7 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1336,7 +1689,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1358,7 +1711,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1474,7 +1827,7 @@
       "url": "https://www.ifanr.com/1687178",
       "summary": "来看奔驰很清楚他们的短板所在。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1564,7 +1917,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1630,7 +1983,7 @@
       "url": "https://www.ifanr.com/1687113",
       "summary": "内卷见顶，出海将是下一站。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1652,7 +2005,7 @@
       "url": "https://www.ifanr.com/1686832",
       "summary": "或许《Her》描绘的世界已经到来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1806,7 +2159,7 @@
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1828,7 +2181,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3242,7 +3595,7 @@
       "url": "https://www.ifanr.com/1687012",
       "summary": "等了好久终于等到今天 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3575,7 +3928,7 @@
       "url": "https://www.ifanr.com/1686969",
       "summary": "苹果国行 AI 终于迈出关键一步 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3598,7 +3951,7 @@
       "url": "http://www.geekpark.net/news/373238",
       "summary": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话。现在页面顶部写的是：「Apple 智能的首批核心功能将于今年稍晚推出。」 从 2024 年 6 月在 WWDC 上亮相算起，国行 iPhone 等了整整两年半。 今年 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4106,7 +4459,7 @@
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4128,7 +4481,7 @@
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4374,7 +4727,7 @@
       "url": "https://openai.com/index/fair-use-benefits-everyone",
       "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4506,7 +4859,7 @@
       "url": "https://openai.com/index/updated-model-spec",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4950,7 +5303,7 @@
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4994,7 +5347,7 @@
       "url": "https://openai.com/index/ropes-gray-ai-diligence",
       "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5237,7 +5590,7 @@
       "url": "https://openai.com/index/credit-saison",
       "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5523,7 +5876,7 @@
       "url": "http://www.geekpark.net/news/373084",
       "summary": "搭载 PROLED XDR 显示屏的 MacBook Pro｜图片来源：Apple 2010 年 10 月 20 日，乔布斯在苹果「Back to the Mac」发布会上，给触屏笔记本下过一个结论：「我们做过大量用户测试，结果证明这行不通。触控表面不该竖着放。演示效果很好，但用一会儿你就会累，用久了，胳膊都要掉下来。这行不通，人体工学上糟透了。」 16 年后的今天凌晨，苹果发布了第一台带触屏的 Mac：搭载 PROLED XDR 显示屏的 MacBook Pro，14 英寸和 16 英寸两个尺寸，芯片是 M5 Pro 和 M5 Max。国行 14 英寸 22999 元起，16 英寸 27999 元起，10 月 30 日上午 9 点开始预购，比美国晚一天多，11 月 6 日发售。 14 英寸和 16 英寸两个尺…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6011,7 +6364,7 @@
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6121,7 +6474,7 @@
       "url": "https://openai.com/index/the-future-of-the-firm",
       "summary": "How AI might enter the org chart—beneath, beside, and between us.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6143,7 +6496,7 @@
       "url": "https://openai.com/index/legora",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-03T16:12:36Z",
+      "fetched_at": "2026-11-03T21:45:45Z",
       "kind": "rss",
       "report_type": "report"
     },
