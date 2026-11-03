@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-02T23:28:39Z",
-  "last_success_at": "2026-11-02T23:28:39Z",
+  "updated_at": "2026-11-03T06:43:36Z",
+  "last_success_at": "2026-11-03T06:43:36Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 16,
-      "skipped": 44,
-      "last_success_at": "2026-11-02T23:28:39Z",
-      "last_attempt_at": "2026-11-02T23:28:39Z"
+      "accepted": 20,
+      "skipped": 40,
+      "last_success_at": "2026-11-03T06:43:36Z",
+      "last_attempt_at": "2026-11-03T06:43:36Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-11-02T23:28:39Z",
-      "last_attempt_at": "2026-11-02T23:28:39Z"
+      "accepted": 8,
+      "skipped": 12,
+      "last_success_at": "2026-11-03T06:43:36Z",
+      "last_attempt_at": "2026-11-03T06:43:36Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-02T23:28:39Z",
-      "last_attempt_at": "2026-11-02T23:28:39Z"
+      "last_success_at": "2026-11-03T06:43:36Z",
+      "last_attempt_at": "2026-11-03T06:43:36Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1344,
-      "accepted": 16,
-      "skipped": 1328,
-      "last_success_at": "2026-11-02T23:28:39Z",
-      "last_attempt_at": "2026-11-02T23:28:39Z"
+      "feed_items": 1348,
+      "accepted": 19,
+      "skipped": 1329,
+      "last_success_at": "2026-11-03T06:43:36Z",
+      "last_attempt_at": "2026-11-03T06:43:36Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 4,
       "skipped": 26,
-      "last_success_at": "2026-11-02T23:28:39Z",
-      "last_attempt_at": "2026-11-02T23:28:39Z"
+      "last_success_at": "2026-11-03T06:43:36Z",
+      "last_attempt_at": "2026-11-03T06:43:36Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,493 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-ea8f0225b1e0fb1a4332",
+      "title": "特斯拉 Robotaxi 又下一城：沃斯堡突袭上线",
+      "published": "2026-11-03T06:41:51Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/538.htm",
+      "summary": "IT之家 11 月 3 日消息，特斯拉的自动驾驶出租车（Robotaxi）网络新增一座落地城市。Robotaxi 官方账号在 X 平台发文宣布，这项服务现已在沃斯堡上线，乘车服务于美国中部时间 11 月 2 日早 6 点正式开启。和特斯拉在得州的其他投放城市一样，沃斯堡的自动驾驶出租车全程无安全员，车内不配备人工监管人员。 这是特斯拉近三个月来新增的首个自动驾驶出租车落地城市（上一次开放是 7 月末的奥兰多与坦帕），至此沃斯堡与奥斯汀、达拉斯、休斯顿、迈阿密、奥兰多、坦帕并列，成为第七个开通无安全员自动驾驶乘车服务的城市。 143 平方英里的服务范围 沃斯堡的电子围栏服务区域约 143 平方英里（IT之家注：约 370.4 平方公里）。从服务范围地图来看，区域以沃斯堡市中心为核心，向西延伸至怀特塞特尔门特，向南…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-165edca5c19bc06b160a",
+      "title": "华为云 openPangu-2.0-Flash / Pro 两款模型 11 月 6 日停售：11 月 30 日正式下线，盘古系列新模型已在规划中",
+      "published": "2026-11-03T06:07:46Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/526.htm",
+      "summary": "IT之家 11 月 3 日消息，华为云 11 月 1 日发布公告，MaaS 模型即服务平台将于 2026 年 11 月 6 日 00:00（北京时间）停止销售 openPangu-2.0-Flash 和 openPangu-2.0-Pro 两款模型服务，并于 11 月 30 日 00:00 正式下线。 华为云建议用户在正式下线前完成迁移。另外，openPangu 系列新版本模型已在规划中，后续将逐步推出上线。截至IT之家发稿，华为云暂未披露新版本的具体型号与时间表。 按照华为云安排，11 月 6 日停售后，新用户将无法购买和开通这两款模型服务，已购买的用户仍可继续使用；11 月 30 日下线后，新老用户均无法继续调用。 华为云同时给出了替代方案：openPangu-2.0-Flash 建议替换为 DeepSee…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-08f15772bcfb2bd36f49",
+      "title": "小米机器人“双线突破”：成功挑战工厂 8 小时作业、家庭长程任务",
+      "published": "2026-11-03T06:01:46Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/525.htm",
+      "summary": "IT之家 11 月 3 日消息，据“小米技术”公众号，小米集团获得 2026 世界互联网大会“杰出贡献奖”创新突破类奖项，小米机器人业务获大会“领先科技奖”。峰会期间，小米还对外披露了机器人业务在工业制造和家庭场景的两项最新落地进展。 IT之家从官方介绍获悉，在工厂场景，小米人形机器人在中控台侧盖板排序工站中首次挑战 8 小时作业任务，满足工站全天生产需求，并实现作业过程异常自主纠偏与产线系统级协同，初步完成产线级作业能力验证。 在家庭场景，小米具身基座模型在小米青年公寓正式启动“试运营”，基于 Xiaomi-Robotics-1 预训练模型搭建 Agent 系统，已在小米青年公寓完成连续超 30 分钟、覆盖 3 个房间、包含 50+ 任务的长程任务验证。 根据介绍，小米机器人 VLA 大模型 Xiaomi-R…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d77fb43547bc445ce36f",
+      "title": "报告称红果免费短剧用户量超越豆包，成为抖音集团第二大应用",
+      "published": "2026-11-03T05:24:15Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/502.htm",
+      "summary": "IT之家 11 月 3 日消息，QuestMobile 今日发布 2026 中国移动互联网秋季大报告，截止到 2026 年 9 月，移动互联网月活用户规模达到 12.81 亿，同比增长 0.9%。 从用户结构上看，46 岁以上用户突破四成，同比增加了 2.6%（其中，51 岁以上用户已经逼近三成），相比之下，25 至 45 岁区间用户规模为 39%，已经跌至四成以下，这种逆转，显示出移动互联网用户“银发化”的趋势仍在延续。 报告称，在用户使用时长上，短剧视频、短视频的增长贡献率达到 111.5%（吞噬了在线视频、综合资讯等领域时长）。 在终端设备上，苹果凭借 20.92% 的活跃占比登上首位，超过了华为的 20.87%，不过二者同比均呈下降态势，分别下降了 0.3%、1.7%；OPPO、vivo、小米活跃占比分…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1486bd54d73c95ebb299",
+      "title": "阿里蔡崇信：只有开源才能推动 AI 普及，千问开源模型已超 470 款",
+      "published": "2026-11-03T04:37:29Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/495.htm",
+      "summary": "IT之家 11 月 3 日消息，2026 年世界互联网大会于今日（11 月 3 日）在浙江乌镇开幕。 据界面新闻报道，阿里巴巴集团联合创始人及董事会主席蔡崇信在开幕式上表示，AI 需求持续攀升，算力供不应求。他认为“只有开源才能普及”，开源能够有效降低中小企业研发成本，对发展中国家尤其重要。 蔡崇信透露，目前阿里千问已开源超过 470 款模型，全球累计下载量突破 40 亿，衍生模型超过 33 万。 据彭博社今年 10 月报道，蔡崇信表示，欧洲要在技术上摆脱对中美的依赖，最佳选择是开源 AI。他呼吁欧洲建设自己的算力基础设施，用于训练和运行 AI 模型。 IT之家注意到，蔡崇信曾预判，未来 AI 将从显性话题转为隐性基础设施。“五年后，人们可能不再单独讨论 AI，因为它将像今天的互联网一样，融入业务的每个环节。相…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f3fe33a31ff67e2915ae",
+      "title": "苹果的一切都在变贵，全怪 AI",
+      "published": "2026-11-03T04:09:46Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1687259",
+      "summary": "赚得多，花得更狠 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-914ed5f779c89a719088",
+      "title": "内存危机冲击苹果：Mac 与 iPad 供应紧张将持续至 2026 年底",
+      "published": "2026-11-03T04:07:24Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/489.htm",
+      "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财季电话会议上，苹果确认内存供应危机影响，Mac 和 iPad 产品线的供货将持续紧张，至少延续至 2026 年年底。 苹果方面表示，全球内存短缺不仅推高了零部件价格，也直接压缩了生产线的物料供应。由于内存是 Mac、iPad 等设备的关键元器件，供应不足使苹果难以按正常节奏满足市场需求。 IT之家援引博文介绍，缺货和延迟目前已经体现在苹果官网及渠道订单上。例如，Mac Studio M5 Ultra 版的等待时间约为 7 至 8 周；配备 512GB 内存的版本，等待时间更是达到 10 至 12 周。部分配备纳米纹理显示屏的 14 英寸 MacBook Pro，交货周期也达到 10 个工作日。 对…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-312c11ab94e4039db116",
+      "title": "特努斯：全球内存涨价“前所未有”，苹果已竭尽所能消化成本",
+      "published": "2026-11-03T03:36:33Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/482.htm",
+      "summary": "IT之家 11 月 3 日消息，在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）当前内存价格上涨“前所未有”，且预计 12 月季度成本还会更高，后续采购价格恐将继续上升。 IT之家援引博文介绍，在 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）财报电话会议上，特努斯表示相比较第三财季（2026 年 3 月 28 日 ~2026 年 6 月 27 日），第四财季的内存成本已经上升，只是部分被提前备货、库存结转以及部分非内存零部件降价所抵消。 对于 2027 财年第一财季（2026 年 9 月 27 日到 2026 年 12 月 26 日），特努斯预估内存成本将进一步走高。苹果此前已在 6 月底上调 Mac 和 iPad 价格，并在 9 月上调…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4d5cdb8dee753acb46d8",
+      "title": "印度信实集团董事长安巴尼净资产升至 888 亿美元，超越字节跳动张一鸣重夺亚洲首富",
+      "published": "2026-11-03T03:30:40Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "张一鸣"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/479.htm",
+      "summary": "IT之家 11 月 3 日消息，印度信实工业集团（Reliance Industries）董事长穆克什・安巴尼（Mukesh Ambani）于 11 月 2 日超越字节跳动联合创始人张一鸣，重新成为亚洲首富。 据《福布斯》当地时间 11 月 2 日公布的实时亿万富豪榜，安巴尼净资产升至 888 亿美元（IT之家注：现汇率约合 5,918.87 亿元人民币），张一鸣身家约为 840 亿美元（现汇率约合 5,598.93 亿元人民币），双方相差约 48 亿美元。 此次财富增长主要得益于信实工业股价大幅上涨。11 月 2 日，信实工业在孟买市场盘中涨幅一度接近 12%，市值单日增加超过 190 亿美元，创下九个月来最大单日涨幅。 市场反应的触发点是该公司上周五盘后公布的季报：9 月季度净利润同比增长逾 40%，达到 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-551edae180b3def7b22e",
+      "title": "1581.8 亿美元！苹果 2027 财年最赚钱季度营收有望同比增 10%，刷新单季营收纪录",
+      "published": "2026-11-03T03:26:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/476.htm",
+      "summary": "IT之家 11 月 3 日消息，在最新财报电话会议上，苹果首席财务官凯万 · 帕雷克（Kevan Parekh）预测 2027 财年（2026 年 9 月 27 日周日到 2027 年 9 月 25 日周六）第一财季（2026 年 9 月 27 日周日到 2026 年 12 月 26 日）营收将达到 1,581.8 亿美元（IT之家注：现汇率约合 1.05 万亿元人民币），同比增长 10%，刷新苹果单季营收纪录。 IT之家查询公开资料，目前苹果单季营收纪录由 2026 财年第一财季（2025 年 9 月 28 日至 2025 年 12 月 27 日）创造，该财季营收为 1,437.56 亿美元（现汇率约合 9,581.9 亿元人民币），同比增长 16%。 在最新财报电话会议上，帕雷克表示在把“供应受限”纳入考量…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-128d66e1f9e3105a1e3a",
+      "title": "小米 REDMI Book 2027 今日开售：6799 元起，国补价 5779.15 元起",
+      "published": "2026-11-03T03:12:19Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/448.htm",
+      "summary": "IT之家 11 月 3 日消息，小米 REDMI Book 2027 今日 10:00 正式开售，首销赠送 20000mAh 充电宝。IT之家汇总价格如下： REDMI Book 14 酷睿 5 320、16GB+512GB 版本：6799 元，国补价 5779.15 元 酷睿 7 350、16GB+1TB 版本：7999 元，国补价 6799.15 元 REDMI Book 16 酷睿 5 320、16GB+512GB 版本：6999 元，国补价 5949.15 元 酷睿 7 350、16GB+1TB 版本：8199 元，国补价 6969.15 元 这款笔记本电脑 A/C/D 面采用全金属铝合金机身，提供多种配色，14 英寸版本重约 1.28kg，厚 13.95mm；16 英寸机型约 1.56kg，厚 14.…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1d94cf26b7ea89df857b",
+      "title": "苹果 CEO 特努斯：Siri 每日处理超过 25 亿次请求，部分高级 AI 功能将收费",
+      "published": "2026-11-03T03:05:16Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/400.htm",
+      "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）重申 Siri 每天处理超过 25 亿次请求，部分高级 AI 功能将收费。 IT之家注：这并非苹果公司首次宣布该数据，在 9 月召开的 iPhone 18 Pro 系列以及其首款折叠 iPhone Duo 发布活动中，苹果公司人工智能产品营销副总裁莉莲 · 林孔（Lilian Rincon）首次披露了该数据。 相比 2024 年 WWDC 公布的“每天 15 亿次语音请求”，最新数字高出逾 10 亿次，不过苹果并未说明两次统计口径是否一致。 苹果正借这一庞大用户基础推进 Siri 的 AI 化改造。新版 Siri 已随 iOS …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b449abf080f62de82604",
+      "title": "美国“最年轻”前陆军部长德里斯科尔加入 OpenAI，出任国家安全与现代化事务高级顾问",
+      "published": "2026-11-03T02:57:51Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/382.htm",
+      "summary": "IT之家 11 月 3 日消息，OpenAI 聘请美国前陆军部长丹尼尔 · 德里斯科尔担任顾问，协助推动人工智能在国家安全和网络安全领域的应用。 德里斯科尔今年 8 月辞去陆军部长职务，此前曾与美国国防部长皮特 · 赫格塞思多次发生冲突。他将在 OpenAI 担任国家安全与现代化事务高级顾问。 当地时间 2 日，OpenAI 通过声明宣布，德里斯科尔将与公司及政府、学术界、产业界等各方负责人合作，推动具体的现代化改革措施，促进符合民主原则的 AI 技术发展。 OpenAI CEO 萨姆 · 奥尔特曼在文章中说：“美国迎来了难得的机遇，可以与其他国家携手，推动符合民主原则的 AI 技术得到更广泛的应用。” 根据 OpenAI 的介绍，德里斯科尔还将为公司在公共和私营领域的合作伙伴提供咨询，辅助利用 AI 提升国家…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3bd47457683b9ad37b4b",
+      "title": "苹果新掌门首秀：特努斯定调“苹果仍是全球最伟大公司”",
+      "published": "2026-11-03T02:55:21Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/374.htm",
+      "summary": "IT之家 11 月 3 日消息，苹果公司新任首席执行官约翰 · 特努斯（John Ternus）于 9 月 1 日接掌公司后，在其主持的首次财报电话会议上，向分析师与股东释放出强烈信心信号。 在 2026 财年（2025 年 9 月 28 日～2026 年 9 月 26 日）年报及第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）财报电话会议上，特努斯宣称苹果是“世界上最伟大的公司”，并表示公司刚刚经历了历史上最密集、最具创新性的新品发布周期之一。 IT之家翻译特努斯的开场白内容如下： 首次能够以苹果公司首席执行官的身份与各位见面，我深感荣幸。我非常荣幸能够代表我们的团队，向你们介绍和展示他们每天所做的工作。苹果正处于一个激动人心的时期，我们刚刚结束了公司历史上最辉煌的新品发布期之一。 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-aa7dd0effe7e096bd068",
+      "title": "苹果全球活跃设备超 25 亿台，2026 财年第四财季服务收入再创新高",
+      "published": "2026-11-03T02:42:30Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/353.htm",
+      "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）重申，苹果全球活跃设备装机量已超过 25 亿台。 IT之家援引博文介绍，该数据统计口径为“设备数”而非独立用户数，涵盖 iPhone、iPad、Mac、Apple Watch 等主要产品，且在所有主要产品类别和地区均实现增长。 该数据并非首次公布，在 2026 年 1 月召开的财报会议上，苹果宣布截至 2026 年 1 月，其全球活跃设备安装量已超过 25 亿台。 该媒体指出这一庞大的设备基数，正成为苹果服务业务最重要的增长引擎。iCloud、Apple Music、Apple TV、App Store 等订阅和数字服务，能够在…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-73b9277f657da643ee5f",
+      "title": "OpenAI 下一代 GPT-6.2 Astra 正灰度测试，Codex 用量统计中已单独列出",
+      "published": "2026-11-03T02:32:47Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/352.htm",
+      "summary": "IT之家 11 月 3 日消息，经大量用户反馈，OpenAI 下一代模型 GPT-6.2 Astra 疑似已进入小范围测试，部分 Codex 用户的使用量统计中已经出现独立模型标识「gpt-6.2-astra」。 不过，截至目前，OpenAI 官方 API 模型目录、更新日志及公开公告均未确认这一型号，OpenAI 也没有确认其发布时间。 据科技媒体 TestingCatalog 昨日报道，多个 Codex 用户在使用量分析页面发现了这一新模型标识。不同用户分享的截图显示，GPT-6.2 Astra 已经占据部分账户的模型调用量，IT之家注意到其中一个账户的占比达到 19.8%（相关记录主要出现在 10 月 31 日的使用统计中）。 TestingCatalog 认为，这些记录可能意味着 OpenAI 正在进行…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8332c02bf6d3d479bf83",
+      "title": "豪掷 457.65 亿美元：苹果 2026 财年研发费用同比增 32% 创历史新高，加码 AI 投入",
+      "published": "2026-11-03T02:30:58Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/351.htm",
+      "summary": "IT之家 11 月 3 日消息，科技媒体 9to5Mac 今天（11 月 3 日）发布博文，报道称基于官方披露数据，2026 财年（2025 年 9 月 28 日～2026 年 9 月 26 日）第四财季（2026 年 6 月 28 日–9 月 26 日）苹果研发费用为 117.30 亿美元（IT之家注：现汇率约合 781.85 亿元人民币），上年同期为 88.66 亿美元（现汇率约合 590.95 亿元人民币），同比增长约 32.3%；2026 全财年研发费用为 457.65 亿美元（现汇率约合 3,050.42 亿元人民币），上年为 345.50 亿美元（现汇率约合 2,302.89 亿元人民币），同比增长 32.46%，并创历史新高。 注：上图源自 9to5Mac，最末应该是 Q4，第三财季（3 月 28…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f68be633c7689d1b0ff0",
+      "title": "全国放心消费平台正式上线：可扫码查看附近放心消费商家，百度地图、美团外卖、淘宝闪购、京东外卖已接入",
+      "published": "2026-11-03T02:21:27Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴",
+        "百度"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/346.htm",
+      "summary": "IT之家 11 月 3 日消息，市场监管总局今日官宣，按照《优化消费环境三年行动方案（2025—2027 年）》《扩大消费“十五五”规划》等明确部署，市场监管总局正在全面推进放心消费单元和集聚区培育，在全国打造一批放心消费新场景、新地标、新品牌，改善消费体验、提振消费信心。 为了全面支撑和规范全国放心消费主体培育工作，为广大经营者和消费者提供一站式服务，市场监管总局创新建设了全国放心消费平台（微信搜索“消费查”小程序即可登录），于 11 月 3 日正式上线。 平台集成《全国放心消费单元和集聚区培育指引（试行）》的放心消费培育全流程。商家在平台上注册、在线承诺并经核验公示后即可参与放心消费承诺。 平台将为商家生成“一店一码”的放心消费码和全国统一的放心消费标识，供商家在经营场所广泛宣传，以更优承诺带动更多消费。 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3a5b282ed3616ef179ca",
+      "title": "应对服务业务增长压力，苹果有意通过第三方应用寻找“新商机”",
+      "published": "2026-11-03T02:17:47Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/344.htm",
+      "summary": "IT之家 11 月 3 日消息，据外媒 TechCrunch 报道，苹果服务业务规模仍处于历史高位，增长压力同时也在不断加大。作为服务业务的核心，App Store 受到监管趋严和手游市场低迷的双重影响，拖累了整体业务增长。 不过，苹果在北京时间今天（3 日）早间的财报电话会议上透露，公司有意通过第三方应用寻找新的服务业务收入来源。 苹果 CFO 凯文 · 帕雷克在谈及 AI 未来可能带来的收入增长时提到：“从产品层面来看，我们认为 AI 能够吸引消费者升级设备或转投苹果产品，以体验最新功能。此外，第三方应用、合作业务以及苹果自有业务也都有发展机会。” 帕雷克没有具体说明第三方应用能够带来哪些商机。根据路透社 2 日的报道，投资者关心苹果能否通过 App Store 分发第三方 AI 智能体，并从中抽取佣金。 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ebefee34ab8bb8dea737",
+      "title": "OpenAI Tibo“28 天更新挑战”以两次重置收尾，共 14 天发放 Codex / ChatGPT Work 额度重置",
+      "published": "2026-11-03T02:15:40Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/343.htm",
+      "summary": "IT之家 11 月 3 日消息，OpenAI Codex 与 ChatGPT Work 团队负责人 Thibault Sottiaux（Tibo）发起的「28 天更新挑战」已于 11 月 2 日正式结束。 这项挑战最终以 11 月 1 日、11 月 2 日连续两天发放“额度重置卡”收尾，分别对应挑战第 27 天和第 28 天。 Tibo 于北京时间 10 月 5 日在 X 上宣布开启“28 天挑战”，在未来 28 天内每天推出一项对大多数 Codex / ChatGPT Work 用户而言具有实际意义的明显改进，否则就向用户发放一次完整额度重置。 IT之家注：最后两天重置并不代表整个 28 天挑战期间只发放过两次额度重置。第三方追踪网站 Did Codex Reset 显示此期间有 14 天提供重置（部分天数里…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-81c2b6c24dc4a37b2cbd",
+      "title": "乔布斯的「祖训」和触屏 MacBook，何以同时成立？｜硬哲学",
+      "published": "2026-11-03T02:09:08Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1686623",
+      "summary": "让特努斯引领一个全新的时代，全盘「拥有」这些新产品，无论它们最终的评价是好是坏。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-027f7b1a6d11e92626d8",
+      "title": "苹果为第四代 Apple TV 4K 推送专属 24K154 更新，可启用 Siri AI",
+      "published": "2026-11-03T02:07:03Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/021/342.htm",
+      "summary": "IT之家 11 月 3 日消息，科技媒体 9to5Mac 昨日（11 月 2 日）发布博文，报道称在 Apple TV 4K（第四代）11 月 13 日上市开售之前，苹果悄然为其推送专属 tvOS 27.2 更新。 版本号方面，该版本内部代号为 24K154，而上周面向现有 Apple TV 设备推出的 tvOS 27.2 版本号为 24K122，意味着新款 Apple TV 4K 上市后将预装更新的系统版本。 在更新内容方面，苹果公司尚未单独公布 24K154 内容，不过开发者 @itspdfu 指出，在该版本中，苹果为新款 Apple TV 4K 适配启用 Siri AI。 在模拟 Apple TV 4K（第四代）的 Siri 设置中，相关说明写道：“Siri 比以往任何时候都更加强大，它结合了个人背景和世…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-f97c6f53332104874427",
       "title": "OpenAI 喊话 2028 美大选候选人：AI 将是重要的必答题",
@@ -348,6 +835,50 @@
       "report_type": "report"
     },
     {
+      "id": "rss-bca108e4c77bd86b238b",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "published": "2026-11-02T18:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0d297090385ad5a72451",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "published": "2026-11-02T18:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-6ce075f14b7876d3fc81",
       "title": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
       "published": "2026-11-02T15:40:02Z",
@@ -370,6 +901,28 @@
       "report_type": "unconfirmed"
     },
     {
+      "id": "rss-277870ffc8d71544c046",
+      "title": "Scaling Git at OpenAI",
+      "published": "2026-11-02T15:30:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-5d33ed0c66ace544e65f",
       "title": "Introducing the Grid Protectors Program",
       "published": "2026-11-02T15:00:00Z",
@@ -387,7 +940,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -486,6 +1039,28 @@
       "report_type": "report"
     },
     {
+      "id": "rss-c439ac669be58882bab5",
+      "title": "全面支持华为手机！奔驰发布新款长轴距 E 级，42.38 万元起",
+      "published": "2026-11-02T12:18:09Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1687178",
+      "summary": "来看奔驰很清楚他们的短板所在。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-ff619d3bbb453ed5f320",
       "title": "小米雷军到海尔总部参观，送董事长周云杰车模",
       "published": "2026-11-02T11:29:39Z",
@@ -571,7 +1146,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -637,7 +1212,7 @@
       "url": "https://www.ifanr.com/1687113",
       "summary": "内卷见顶，出海将是下一站。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -659,7 +1234,7 @@
       "url": "https://www.ifanr.com/1686832",
       "summary": "或许《Her》描绘的世界已经到来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -796,6 +1371,28 @@
       "report_type": "report"
     },
     {
+      "id": "rss-945f879ef3a469b4aebe",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "published": "2026-11-02T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-03T06:43:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-4094d4340f9e66f9e2fc",
       "title": "Qodo builds context into AI code review with Codex",
       "published": "2026-11-02T00:00:00Z",
@@ -813,7 +1410,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2227,7 +2824,7 @@
       "url": "https://www.ifanr.com/1687012",
       "summary": "等了好久终于等到今天 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2560,7 +3157,7 @@
       "url": "https://www.ifanr.com/1686969",
       "summary": "苹果国行 AI 终于迈出关键一步 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2583,7 +3180,7 @@
       "url": "http://www.geekpark.net/news/373238",
       "summary": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话。现在页面顶部写的是：「Apple 智能的首批核心功能将于今年稍晚推出。」 从 2024 年 6 月在 WWDC 上亮相算起，国行 iPhone 等了整整两年半。 今年 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3025,7 +3622,7 @@
       "url": "https://www.ifanr.com/1686901",
       "summary": "刀法、刀法，还是刀法 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3091,7 +3688,7 @@
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3113,7 +3710,7 @@
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3359,7 +3956,7 @@
       "url": "https://openai.com/index/fair-use-benefits-everyone",
       "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3491,7 +4088,7 @@
       "url": "https://openai.com/index/updated-model-spec",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3935,7 +4532,7 @@
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3979,7 +4576,7 @@
       "url": "https://openai.com/index/ropes-gray-ai-diligence",
       "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4222,7 +4819,7 @@
       "url": "https://openai.com/index/credit-saison",
       "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4508,7 +5105,7 @@
       "url": "http://www.geekpark.net/news/373084",
       "summary": "搭载 PROLED XDR 显示屏的 MacBook Pro｜图片来源：Apple 2010 年 10 月 20 日，乔布斯在苹果「Back to the Mac」发布会上，给触屏笔记本下过一个结论：「我们做过大量用户测试，结果证明这行不通。触控表面不该竖着放。演示效果很好，但用一会儿你就会累，用久了，胳膊都要掉下来。这行不通，人体工学上糟透了。」 16 年后的今天凌晨，苹果发布了第一台带触屏的 Mac：搭载 PROLED XDR 显示屏的 MacBook Pro，14 英寸和 16 英寸两个尺寸，芯片是 M5 Pro 和 M5 Max。国行 14 英寸 22999 元起，16 英寸 27999 元起，10 月 30 日上午 9 点开始预购，比美国晚一天多，11 月 6 日发售。 14 英寸和 16 英寸两个尺…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4996,7 +5593,7 @@
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5106,7 +5703,7 @@
       "url": "https://openai.com/index/the-future-of-the-firm",
       "summary": "How AI might enter the org chart—beneath, beside, and between us.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5128,7 +5725,7 @@
       "url": "https://openai.com/index/legora",
       "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5900,7 +6497,7 @@
       "url": "https://openai.com/index/retell-ai",
       "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6319,7 +6916,7 @@
       "url": "http://www.geekpark.net/news/373008",
       "summary": "头图图片来源：iFixit 2011 年 9 月 30 日，苹果递交了一份名为「Flexible electronic devices」的专利申请。 它描述的是一台屏幕可以对折的设备，合起来能揣进口袋，靠传感器判断自己是开着还是合着。 这份专利 2015 年 1 月获得授权，发明人一共六位，其中一位叫特努斯（John Ternus）。 苹果 2011 年递交的折叠设备专利附图｜图片来源：Apple 十五年后，2026 年 9 月 9 日，当年署名的这位工程师，第一次以苹果 CEO 的身份走上发布会舞台，发布的正是一台可以对折的 iPhone：iPhone Duo。 巧的是，十二年前的同一天，2014 年 9 月 9 日，库克也在后台等着上台。 那是他接任 CEO 三年后，第一次发布全新品类的产品 Apple W…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6385,7 +6982,7 @@
       "url": "http://www.geekpark.net/news/373002",
       "summary": "Shopify AI 交易订单增长了 13 倍。 10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。 这一次抢首发的，不只是守在屏幕前的人。 今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple 在 MacRumors 论坛上，一位没抢到的用户愤愤不平地吐槽，Reddit 上有人在炫耀自己设置的 Muse 机器人一口气拿下了好几台，真人还没来得及点，库存就被 AI 扫走了。 Muse 是 Meta 在 9 月 8 日推出的个人 Agent，上线后一度登顶美区 App Store 免费榜，下载量很快超过 250 万。Meta 方面表示，购物已经成为 Muse 最主要的使用场景之一。就…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-02T23:28:39Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6407,408 +7004,7 @@
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
       "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c2faf661107fc30d3b69",
-      "title": "小米官宣 21 自由度仿生灵巧手：26 电机混合驱动、1500 点高密度全掌触觉",
-      "published": "2026-10-27T04:26:33Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/345.htm",
-      "summary": "IT之家 10 月 27 日消息，据小米技术官微，小米今天（27 日）正式披露面向工业场景的仿生灵巧手探索成果，挖掘了高自由度仿生手在制造场景通用性的价值与收益。 根据介绍，基于小米汽车-智能制造部中试中心的 1827 个真实作业 SOP，并延续极致仿生路线，小米设计了一款 21 自由度、26 电机混合驱动、1500 点高密度全掌触觉的高自由度仿生手。 该仿生手以柔性制造真实场景作为设计原点，小米机器人团队从汽车工厂 16 个典型工段 2579 个 SOP 中，选择 1827 个进行数据采集和分析验证。其采用混合驱动设计 + 腱绳张力控制实现精准抓握力控、提升灵巧手可靠性和可维护性，并对散热体系、全掌触觉进行系统性优化。 IT之家从小米官方获悉，该数据集覆盖 70.8% 以上典型工段的人工作业工序。团队对采集的…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-64b03fa1bcc3d3631689",
-      "title": "华为 Mate 80 系列、Pura X 等机型游戏助手上新，实装弹幕通知、防误触范围自定义等功能",
-      "published": "2026-10-27T04:22:40Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/342.htm",
-      "summary": "IT之家 10 月 27 日消息，华为近日面向 Mate 80 / 70 / 60、Pura 80 / 70 / X 等系列机型推送了最新的鸿蒙 HarmonyOS 7.0.0.111 版本升级，带来了与 iPhone 双机互联，实况窗分享等功能。 ▲ IT之家开箱：华为 Pura 70 Pro+「光织银」图赏 IT之家实测，部分机型（Mate 80 系列、Pura X 等）更新后的游戏助手上新，实装了 Mate 90 同款弹幕通知、防误触范围自定义等功能。其中，弹幕通知支持自定义速度、大小等，同时还可以管理通知应用（目前已支持 QQ、微信、信息、畅连 App、钉钉）等。 防误触：包含屏蔽指关节、缩短系统导航触发区域等。 1、屏蔽指关节：实现对于所有指关节截屏与录屏的屏蔽，进入游戏后默认开启。 2、缩短系统导航…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-634b71000620369563ab",
-      "title": "微信鸿蒙版 App 获 8.0.23.16 邀测升级：公众号图标对齐其他端、新增铃声设置入口等",
-      "published": "2026-10-27T04:04:15Z",
-      "company": "华为",
-      "companies": [
-        "华为",
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/336.htm",
-      "summary": "IT之家 10 月 27 日消息，微信鸿蒙版 App 已在华为应用市场（App Gallery）开启了 8.0.23.16 (8394512) 版本邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/10/26-2026/11/25。 和往常一样，本次更新的说明依旧为“修复了一些已知问题”。据博主 @伤心萨摩耶Ciuciu 反馈，8.0.23 版本的微信新增了如下特性： 部分 Flutter 跨端页面（如朋友圈、听一听、表情管理等页面）响应系统字体粗细； 更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐； 发表视频号内容时新增添加标注； 发现-直播-更多直播新增搜索按钮； 听一听主页面右下角新增小微分支入口浮窗，并根据当前页面内容弹出对应提示词，可快速使用听一听相关问小微功能…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-995f7298ece7bfdb49b9",
-      "title": "阿里巴巴起诉美国国防部取得初步胜利，法院叫停相关禁令",
-      "published": "2026-10-27T03:45:09Z",
-      "company": "阿里巴巴",
-      "companies": [
-        "阿里巴巴"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/327.htm",
-      "summary": "IT之家 10 月 27 日消息，据彭博社报道，阿里巴巴集团在美国法院赢得了一项裁决，该公司此前对美国国防部将其列为“中国军方关联企业”的黑名单提出了异议。 美国加州圣何塞的一名联邦法官于当地时间周一下达裁定，要求特朗普政府停止执行一项禁令，该禁令禁止五角大楼与任何为阿里巴巴集团进行“游说活动”的公司开展业务往来。 IT之家注意到，6 月 8 日，美国国防部更新“中国军事企业名单”，将阿里巴巴、百度、比亚迪等中国企业列入其中。随后，阿里巴巴等多家公司发表声明表示强烈反对。 阿里巴巴 6 月 9 日在港交所公告，公司注意到美国国防部已将阿里巴巴集团列入中国军工企业名单。美国国防部不得直接或间接从中国军工企业名单上实体采购商品、服务或技术。 阿里巴巴当时表示，本公司认为将其纳入中国军工企业名单是一个错误。将阿里巴巴…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e807e5b05cb319a3ce05",
-      "title": "2026 胡润百富榜发布：张一鸣 6700 亿元刷新中国首富财富纪录、DeepSeek 梁文锋首次上榜位列第七",
-      "published": "2026-10-27T03:00:44Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "张一鸣"
-      ],
-      "associated_companies": [
-        "字节跳动"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/268.htm",
-      "summary": "IT之家 10 月 27 日消息，胡润研究院发布《2026 胡润百富榜》。今年共有 1529 位个人财富 50 亿元以上的企业家登上胡润百富榜，较去年增加 95 位，创历史新高。上榜企业家总财富 32 万亿元，同比增长 7%（2.1 万亿元）。 另外，千亿级企业家增加 2 位，达到 43 位；百亿级企业家增加 69 位，达到 819 位。 字节跳动创始人张一鸣以 6700 亿元第二次成为中国首富，刷新中国首富的财富纪录；农夫山泉创始人钟睒睒财富缩水 1200 亿元，以 4100 亿元退居第二，让出首富头衔。 值得关注的是，DeepSeek 的梁文锋首次上榜便以 2800 亿元财富，进入榜单前十（位列第七）。其次是宇树科技 36 岁的王兴兴，以 695 亿元上榜；半导体显示面板企业惠科 56 岁的王智勇以 645…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7fa707b2459e39010098",
-      "title": "20 分钟压力测试：苹果 iPhone Duo 驾驭散热能力比三星 Galaxy Z Fold8 手机更强",
-      "published": "2026-10-27T02:57:38Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/267.htm",
-      "summary": "IT之家 10 月 27 日消息，科技媒体 Tom's Guide 于 10 月 25 日发布实验室测试博文，对比了苹果 iPhone Duo 和三星 Galaxy Z Fold8 两款折叠手机的散热表现。 本次测试使用 3DMark Wild Life Extreme 压力测试，持续约 20 分钟。测试结果来看，iPhone Duo 虽然机身表面温度更高，但持续性能明显领先，在稳定性、最高分和最低分三项指标上均胜出。 测试采用 FLIR One 热成像摄像头记录机身背面温度。结果显示，Galaxy Z Fold8 的热量集中在靠近 CPU 的顶部区域，并逐渐扩散至背板和右侧屏幕。 运行压力测试前背面机身温度情况，图源：Tom's Guide 运行压力测试后背面机身温度情况，图源：Tom's Guide 而 i…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-79ec0703e18158d4a68e",
-      "title": "iPhone Duo 拆解：最好修的折叠 iPhone，就是别撕膜",
-      "published": "2026-10-27T02:30:40Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1685935",
-      "summary": "自己动手修折叠屏，需要勇气和实力 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-efd82fc7e03e57b9d68a",
-      "title": "报告称豆包对抖音的引用权重飙升：每引用 3 条内容，就有 1 条来自抖音",
-      "published": "2026-10-27T02:22:34Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/259.htm",
-      "summary": "IT之家 10 月 27 日消息，据新榜智汇本月发布的报告，豆包对抖音的引用权重从 5 月的 10.79% 飙升至 8 月的 31.8%；百度在 6 月首次将B站和好看视频纳入信源库，且二者权重之和达到 12%。 报告称，视频不再是 AI 引用的“边缘补充”，而是正在成为“主力信源”。 IT之家从报告了解到，今年 6 月，抖音首次登顶豆包的引用权重名单，8 月达 31.8%，3 个月翻近 3 倍。豆包每引用 3 条内容，就有 1 条来自抖音。 报告提到，对于视频标题，主要看贴不贴合用户提问、有没有踩中关键词、还有最重要的语义相似度。标题与提问词的语义相似度，和引用次数呈现明确的正相关： 抖音平均引用从最低档（2.29 次）到最高档（3.46 次），涨幅 51%； B站平均引用从 2.54 次到 3.67 次，涨…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b6ecab6e56c610457ee1",
-      "title": "小米米家高速吹风机 Mini 开售：11 万转 / 分钟高速电机，首销 199.7 元",
-      "published": "2026-10-27T02:13:02Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/256.htm",
-      "summary": "IT之家 10 月 27 日消息，今天（27 日）上午，小米米家高速吹风机 Mini 正式开售，建议零售价 299 元，首销到手价 199.7 元。 京东小米高速吹风机 Mini 券后 199.66 元领 0.9 元券 这款新品整机重 270g（不含电源线），适配居家日常、差旅出行、健身通勤等多种场景；搭载 11 万转 / 分钟全新微型高速无刷电机，风速可达 62 米 / 秒；升级正负等离子双离子系统，实现护发 + 头皮洁净双重效果。 这款新品支持 2 挡风速可调，支持 4 挡风温可调，此外还有儿童模式；拥有粉色、紫色、米白色三种颜色可选，搭载磁吸进风过滤罩，电源线自带束线带方便收纳。 IT之家附这款新品详细参数如下： 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此抽红包。 淘宝 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-1bf2c041af77dae39e6e",
-      "title": "特斯拉为 Cybercab 电池包预留大量空间，未来兼容磷酸铁锂电池",
-      "published": "2026-10-27T02:04:22Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/251.htm",
-      "summary": "IT之家 10 月 27 日消息，磷酸铁锂电池在全球市场迅速普及，去年成为最受欢迎的电池类型。成本更低、耐用性更强的磷酸铁锂电池，未来甚至可能用于特斯拉无人驾驶出租车 Cybercab。 特斯拉电池模组及电池包机械设计工程总监罗伯特 · 桑普夫在接受 YouTube 频道 Munro Live 采访时透露，Cybercab 从设计之初就为采用磷酸铁锂电池做好了准备。新车电池包内留有大量空间，电池模组的侧面和下方都没有完全填满。“我们在设计电池包时特意预留了空间，以便未来扩大生产规模后，能够在这个平台上使用能量密度更低的磷酸铁锂电池。” 特斯拉汽车工程副总裁拉斯 · 莫拉维还给出了另一个原因：“我们发现，实际需要的电池数量比原先预计的少。” Cybercab 采用特斯拉自主设计的 4680 电芯，电池类型为镍锰钴…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-194ca9c0a4b9027bab6f",
-      "title": "扩展稳定版微软 Edge 浏览器明年登陆苹果 macOS：最长 8 周延后部署更新",
-      "published": "2026-10-27T01:46:16Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/243.htm",
-      "summary": "IT之家 10 月 27 日消息，科技媒体 Windows Central 昨日（10 月 26 日）发布博文，报道称微软计划明年在苹果 macOS 平台上，为 Microsoft Edge 浏览器扩展引入“扩展稳定”（Extended Stable）更新通道。 IT之家援引博问你介绍，该通道目前已经在 Windows 10、Windows 11 平台上线，企业和组织可以通过该通道版本，增强控制 Edge 浏览器功能更新节奏。 不同于常规 Edge 浏览器稳定版（每隔 2 周快节奏更迭），“扩展稳定”版 Edge 浏览器可延后部署版本更新，最长可以达到 8 周。 对于企业而言，这意味着在部署浏览器前，有更充足的时间完成兼容性测试、内部验证和员工培训，从而降低因界面或功能变动带来的运维风险。 值得注意的是，更新节…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-74293a9b77e33fd4e082",
-      "title": "苹果 iOS 27.2 正式版国行“最重要专属功能”，可禁止 App 摇一摇跳转",
-      "published": "2026-10-27T01:41:37Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/241.htm",
-      "summary": "IT之家 10 月 27 日消息，苹果公司今天面向 iPhone 18 Pro 等机型推送 iOS 27.2 正式版更新（内部版本号：24B119），并为其首款折叠 iPhone Duo 推送专属 iOS 27.2 更新（内部版本号：24B91020）。 本次更新带来了增强 Siri AI（国内暂未上线）、更新 Apple Music 品牌视觉等，还有一项对于国内比较重要的细节更新 —— 可禁止 App 摇一摇跳转。 这项功能名为“限制动作数据”。用户需进入“设置”>“隐私与安全”>“运动与健身”，找到“限制动作数据”选项，然后点击右上角“编辑”，就可以将需要屏蔽摇一摇跳转的 App 添加至限制名单中。 据IT之家此前报道，这项功能在北京时间 9 月 23 日的 iOS 27.2 Beta 2 更新中首次出现，…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9f3b12d09b5f38fab37b",
-      "title": "苹果首款折叠 iPhone Duo 确认缺失 FaceTime“眼神交流”功能",
-      "published": "2026-10-27T01:34:11Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/238.htm",
-      "summary": "IT之家 10 月 27 日消息，科技媒体 MacRumors 昨日（10 月 26 日）发布博文，指出在苹果首款折叠 iPhone Duo 机型上，其 FaceTime 设置中缺少“眼神交流”（Eye Contact）选项，用户在视频通话时无法获得该功能带来的视线校正效果。 图源：苹果 IT之家援引博文介绍，“眼神交流”功能最早随 iOS 14 推出，主要针对视频通话场景，依靠机器学习调整用户眼部画面，让对方感觉用户正注视摄像头。 该功能此前已广泛覆盖多款 iPhone，包括 iPhone SE 机型（采用 Touch ID 指纹识别认证、没有面容 ID）。 该媒体最新确认 iPhone Duo 不提供该设置。最初由论坛用户 TwoBytes 发现，在 FaceTime 通话中感觉自己的眼神“有些不对劲”，随…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c2d8a999d4a7b237134c",
-      "title": "苹果 Siri AI 即日起支持法语、日语、韩语等语言，繁体中文得等到年底前",
-      "published": "2026-10-27T01:04:05Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/229.htm",
-      "summary": "IT之家 10 月 27 日消息，苹果今天（27 日）通过新闻稿宣布，今天发布的 27.2 版本软件更新，进一步扩大新一代 Siri AI 的使用范围，新增支持法语、日语、韩语、葡萄牙语和西班牙语。 Siri AI 是全面升级的 Siri，不仅功能更强大，对话也更加自然，还能提供更个性化的服务。根据介绍，其基于 Apple 智能打造，在保护用户隐私的同时，大幅提升了 Siri 的能力。新版本能够理解用户的个人情况，从信息、邮件、照片等内容中查找所需资料，还可以执行更多系统级应用操作。借助屏幕感知能力，Siri AI 可以理解屏幕上显示的内容，回答用户的问题或完成相应操作。此外，Siri AI 还能利用广泛的知识获取“几乎任何话题”的最新信息。 新闻稿提到，苹果计划继续增加 Siri AI 支持的语言，繁体中文、…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-180b9f5204b9dd2df783",
-      "title": "造型像火箭！特斯拉休斯顿 Robotaxi 服务范围扩至 10 倍，面积是 Waymo 的 5 倍",
-      "published": "2026-10-27T00:54:00Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/226.htm",
-      "summary": "IT之家 10 月 27 日消息，特斯拉在休斯顿的 Robotaxi 自动驾驶出租车服务范围刚刚大幅扩容。特斯拉 Robotaxi 官方账号在 X 平台宣布了这次扩张，确认新版更大的服务区域已经正式上线。 这次电子围栏划定的运营面积大约扩大至原来的十倍，从约 25 平方英里增加到 254 平方英里（IT之家注：约 657.9 平方公里），增幅达到 916%。这是特斯拉自今年 4 月在休斯顿推出无安全员 Robotaxi 载客服务之后，首次扩大当地运营范围。该区域内的乘车服务全程无人，目前使用经过改装的 Model Y 自动驾驶出租车运营。 火箭造型的服务区域 新的电子围栏范围从西北部科珀菲尔德、泽西村附近，一路向南覆盖休斯顿市中心和贝莱尔，西南端抵达密苏里城附近，东侧到帕萨迪纳和南休斯顿边缘为止。现在这片区域覆…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e7c041305b1c096489e2",
-      "title": "拉脱维亚批准特斯拉 FSD 上路，成为第十个欧盟批准国",
-      "published": "2026-10-27T00:40:06Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/224.htm",
-      "summary": "IT之家 10 月 27 日消息，拉脱维亚已正式批准特斯拉 FSD（监督版）在本国道路使用。特斯拉欧洲分部在 X 平台公布了这一消息，并表示相关功能很快就会推送上线。 IT之家注意到，拉脱维亚由此成为第十个独立批准该系统的欧盟成员国，也是全球第 18 个批准该系统的国家。波罗的海另外两个邻国立陶宛、爱沙尼亚早在今年 5 月就已批准 FSD。在欧洲地区，特斯拉为了推进欧盟全域审批，已经把 FSD 更名，新名称为特斯拉辅助驾驶（Tesla Assisted Driving）。 截至目前，这些欧盟国家已独立批准 FSD 在公共道路使用：荷兰、立陶宛、爱沙尼亚、丹麦、比利时、斯洛文尼亚、捷克、克罗地亚、斯洛伐克、拉脱维亚。 这些国家的许可大多是通过本国豁免机制发放，各国认可荷兰监管机构最先搭建的规范框架。在斯洛伐克成为…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-27T04:59:10Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c44dc9ed271ff418b14a",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "published": "2026-10-27T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-5c40684bcc7d4fcadc37",
-      "title": "OpenAI 宣布斩获三项重大科学突破，涉及数学猜想、计算机算法及千禧年难题",
-      "published": "2026-10-26T23:37:17Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/018/203.htm",
-      "summary": "IT之家 10 月 27 日消息，OpenAI 宣布，其 AI 模型在数学、计算机科学和物理学领域取得三项重大突破，展现出 AI 独立发现并证明复杂科学理论的能力，而不只是回答问题或辅助研究。 在数学领域，AI 证明了适用于所有维度的局部光滑猜想，并由此解决局部光滑猜想与挂谷猜想。 在计算机科学领域，AI 推翻了长期被广泛接受的指数时间假设，意味着未来可能找到速度更快的算法。 在物理学领域，AI 提出量子色动力学及杨–米尔斯理论的严格数学存在性证明，涉及世界七大千禧年数学难题之一。 OpenAI 表示，数学和计算机科学成果已通过 Lean 数学验证工具进行形式化验证，并公开证明材料；物理学成果正由诺贝尔物理学奖得主等专家参与审查。相关成果仍需学术界进一步独立确认。 IT之家附上 OpenAI 官方的声明大意如下…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-26T23:51:08Z",
+      "fetched_at": "2026-11-03T06:43:36Z",
       "kind": "rss",
       "report_type": "report"
     }
