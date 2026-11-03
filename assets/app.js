@@ -112,13 +112,15 @@ function renderStatus() {
 function renderAll(preserve=false) {renderStatus();renderList(preserve);renderSaved();renderSources();}
 function setView(next,preserve=false) {
   view=next;
-  $('.notice').hidden=next==='brain';
-  ['recommend','saved','brain','sources'].forEach(id=>$('#'+id+'-view').hidden=id!==next);
+  $('.notice').hidden=['brain','blogger'].includes(next);
+  ['recommend','saved','brain','sources','blogger'].forEach(id=>$('#'+id+'-view').hidden=id!==next);
   document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.view===next));
-  $('#view-label').textContent={recommend:'选题推荐',saved:'我的收藏',sources:'来源与评分',brain:'第二大脑'}[next];
-  $('#page-title').textContent={recommend:'好选题，让创作先一步。',saved:'把好灵感，留下来。',sources:'有依据，才值得讲。',brain:'把自己的积累，连成第二大脑。'}[next];
-  $('#page-subtitle').textContent={recommend:'关注钱袋子、饭碗与生活选择，找到普通人愿意停下来听的故事。',saved:'收藏保留原文快照，不把旧新闻当新热点。',sources:'公开评分规则、RSS 状态与更新时间。',brain:'让今天的新闻，遇见你的经历、观点与作品。'}[next];
+  $('#view-label').textContent={recommend:'选题推荐',saved:'我的收藏',sources:'来源与评分',brain:'第二大脑',blogger:'博主雷达'}[next];
+  $('#page-title').textContent={recommend:'好选题，让创作先一步。',saved:'把好灵感，留下来。',sources:'有依据，才值得讲。',brain:'把自己的积累，连成第二大脑。',blogger:'把值得研究的创作者，放进你的雷达。'}[next];
+  $('#page-subtitle').textContent={recommend:'关注钱袋子、饭碗与生活选择，找到普通人愿意停下来听的故事。',saved:'收藏保留原文快照，不把旧新闻当新热点。',sources:'公开评分规则、RSS 状态与更新时间。',brain:'让今天的新闻，遇见你的经历、观点与作品。',blogger:'官方授权发现与手动关注管理，来源、字段与缺失信息都看得见。'}[next];
   $('#add-news').innerHTML=next==='brain'?'＋ 添加素材':'<span>＋</span> 录入一条新闻';
+  $('#add-news').hidden=next==='blogger';
+  if(next==='blogger')window.BloggerUI?.render();
   if(next==='brain')window.BrainUI?.render();
   if(next==='recommend')renderList(preserve);if(next==='saved')renderSaved();if(next==='sources')renderSources();
 }

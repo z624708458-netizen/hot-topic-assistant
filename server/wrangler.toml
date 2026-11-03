@@ -5,10 +5,12 @@ workers_dev = true
 
 [vars]
 MODEL_ENABLED = "false"
+DOUYIN_ENABLED = "false"
+DOUYIN_DATA_POLICY_CONFIRMED = "false"
 ALLOWED_ORIGIN = "https://z624708458-netizen.github.io"
 OPENAI_MODEL = "gpt-4.1-mini"
 
-# OPENAI_API_KEY and APP_ACCESS_TOKEN are secrets, configured only on the server.
+# DOUYIN_CLIENT_KEY, DOUYIN_CLIENT_SECRET, OPENAI_API_KEY and APP_ACCESS_TOKEN are secrets, configured only on the server.
 # Never add secret values here or to browser assets. No account is created by this file.
 [observability]
 enabled = false

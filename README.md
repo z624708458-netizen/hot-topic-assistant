@@ -1,8 +1,18 @@
-# 热点雷达 V5.1 · 每日选题、第二大脑与口播生成器
+# 热点雷达 V5.2 · 每日选题、第二大脑、口播与博主雷达
 
 在已有 V3 的 GitHub Pages 页面与 UI 上增加第二大脑，保留新闻、评分与现有UI，免费公开 RSS + GitHub Actions 定时采集 + 静态 JSON。新闻评分和第二大脑继续免费。V5.1口播改为服务端LLM，未连接时不生成；Cloudflare 后端可先无 Key 部署，模型默认关闭；部署步骤见 [后端说明](server/README.md)。开通 OpenAI API 后再启用模型。
 
 网站：https://z624708458-netizen.github.io/hot-topic-assistant/
+
+## V5.2 博主雷达 V1
+
+左侧新增独立「博主雷达」：今日候选 / 我的关注 / 忽略列表、多领域筛选、手动添加博主与作品链接、发现依据、作品详情、JSON备份与恢复。只新增 `radar-blogger-v1`，不迁移或清空旧模块数据。
+
+当前**真实自动发现0位**：没有抖音应用凭据和已验证权限，不展示假博主。热门视频榜适配与候选规则已实现模拟测试，官方文档被环境网络403拦截，真实接口尚未接通；热点词、上升词与通用搜索保持未启用。热门榜仅为最近24小时离线统计，不是实时搜索。API授权成功也不保证发现30人。
+
+无API时手动关注管理可用；无模型时可以粘贴文本，AI拆解明确未连接。模型已连接时，拆解走现有OpenAI服务端架构，需模型API额度；没有真实评论内容时不分析评论区需求。官方作品只在当前会话展示，关注池不等于全账号监控权限。
+
+完整使用、申请权限、评分、字段缺失、保留规则与Worker手动更新步骤见 **[博主雷达说明](docs/blogger-radar.md)**。Worker新增 `/douyin/status`、`/douyin/discover`、`/douyin/hot-words`、`/douyin/hot-videos` 和 `/blogger/analyze`，不改变 `/health`、`/generate`。目前未在用户Cloudflare账号部署更新。
 
 ## 最简单的免费架构
 
@@ -181,10 +191,12 @@ node scripts/compare_scores.js
 
 ```sh
 python3 -m unittest discover -s tests -p 'test_collector.py' -v
-node --test tests/rules.test.js tests/brain.test.js tests/brain41.test.js tests/speech.test.js tests/speech-server.test.mjs
+node --test tests/rules.test.js tests/brain.test.js tests/brain41.test.js tests/speech.test.js tests/speech-server.test.mjs tests/blogger.test.js tests/blogger-server.test.mjs
 python3 tests/test_demo.py
 python3 -m unittest discover -s tests -p 'test_brain*.py' -v
 python3 -m unittest discover -s tests -p 'test_speech.py' -v
+python3 -m unittest discover -s tests -p 'test_blogger.py' -v
+node server/build-worker.mjs --check
 ```
 
 `tests/` 内的新闻仅是测试夹具，运行时通过 mock 提供，不会写入生产新闻 JSON。生产页面没有历史演示数据回退。网站无追踪脚本，录入与收藏仅保存在浏览器；源新闻 JSON 是公开内容。

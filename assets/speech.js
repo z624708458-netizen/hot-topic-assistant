@@ -97,7 +97,7 @@
  window.addEventListener('storage',event=>{if(event.key!==KEY)return;blocked='';readSafe();renderLibrary();});
 
  el('#speech-connect-close').addEventListener('click',()=>el('#speech-connect-dialog').close());
- el('#speech-connect-dialog').addEventListener('close',()=>{renderDetail();if(draftSession&&el('#speech-drafts-dialog').open)el('#speech-draft-body').innerHTML=workspaceHTML(draftSession,'draft');});
+ el('#speech-connect-dialog').addEventListener('close',()=>{window.dispatchEvent(new Event('radar-model-change'));renderDetail();if(draftSession&&el('#speech-drafts-dialog').open)el('#speech-draft-body').innerHTML=workspaceHTML(draftSession,'draft');});
  el('#speech-connect-form').addEventListener('submit',async event=>{
   event.preventDefault();const button=el('#speech-connect-submit');button.disabled=true;
   try{const endpoint=L.endpoint(el('#speech-endpoint').value.trim()),accessToken=el('#speech-access-token').value.trim();if(accessToken.startsWith('sk-'))throw new Error('请填应用访问码，不是OpenAI API Key');
@@ -108,5 +108,5 @@
    el('#speech-access-token').value='';el('#speech-connect-dialog').close();renderDetail();if(draftSession&&el('#speech-drafts-dialog').open)el('#speech-draft-body').innerHTML=workspaceHTML(draftSession,'draft');
   }catch(error){connection.verified=false;connection.backendReady=false;connection.accessToken='';el('#speech-connect-status').textContent='连接未完成：'+error.message;}finally{button.disabled=false;}
  });
- window.SpeechUI={render};renderLibrary();renderDetail();
+ window.SpeechUI={render,modelConnection:()=>({...connection,verified:connected()})};renderLibrary();renderDetail();
 })();
