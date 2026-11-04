@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-04T12:04:27Z",
-  "last_success_at": "2026-11-04T12:04:27Z",
+  "updated_at": "2026-11-04T19:42:47Z",
+  "last_success_at": "2026-11-04T19:42:47Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 10,
-      "skipped": 50,
-      "last_success_at": "2026-11-04T12:04:27Z",
-      "last_attempt_at": "2026-11-04T12:04:27Z"
+      "accepted": 15,
+      "skipped": 45,
+      "last_success_at": "2026-11-04T19:42:47Z",
+      "last_attempt_at": "2026-11-04T19:42:47Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 8,
-      "skipped": 12,
-      "last_success_at": "2026-11-04T12:04:27Z",
-      "last_attempt_at": "2026-11-04T12:04:27Z"
+      "accepted": 9,
+      "skipped": 11,
+      "last_success_at": "2026-11-04T19:42:47Z",
+      "last_attempt_at": "2026-11-04T19:42:47Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-04T12:04:27Z",
-      "last_attempt_at": "2026-11-04T12:04:27Z"
+      "last_success_at": "2026-11-04T19:42:47Z",
+      "last_attempt_at": "2026-11-04T19:42:47Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1354,
+      "feed_items": 1356,
       "accepted": 20,
-      "skipped": 1334,
-      "last_success_at": "2026-11-04T12:04:27Z",
-      "last_attempt_at": "2026-11-04T12:04:27Z"
+      "skipped": 1336,
+      "last_success_at": "2026-11-04T19:42:47Z",
+      "last_attempt_at": "2026-11-04T19:42:47Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 2,
-      "skipped": 28,
-      "last_success_at": "2026-11-04T12:04:27Z",
-      "last_attempt_at": "2026-11-04T12:04:27Z"
+      "accepted": 1,
+      "skipped": 29,
+      "last_success_at": "2026-11-04T19:42:47Z",
+      "last_attempt_at": "2026-11-04T19:42:47Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,273 @@
   ],
   "news": [
     {
+      "id": "rss-ed29f47a57215908ac86",
+      "title": "实测 iPhone 国行 AI：有亮点有槽点，还有一个惊喜点",
+      "published": "2026-11-04T17:30:04Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1687733",
+      "summary": "这次你一定要用上 Apple 智能！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-d9aebafa21bc5147f45d",
+      "title": "华为小艺 Work 率先上线 openPangu-2.1-Pro 模型，主打“鸿蒙任务增强”",
+      "published": "2026-11-04T16:39:40Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/472.htm",
+      "summary": "IT之家 11 月 5 日消息，华为云 11 月 1 日发布公告，MaaS 模型即服务平台将于 2026 年 11 月 6 日停止销售 openPangu-2.0-Flash 和 openPangu-2.0-Pro 两款模型服务，并于 11 月 30 日 00:00 正式下线。不过华为官方表示，openPangu 系列新版本模型已在规划中，后续将逐步推出上线。 IT之家实测发现，小艺 Work 率先上线了 openPangu-2.1-Pro 模型，主打“鸿蒙任务增强”。 华为官方暂未公布该模型的具体能力，同时 openPangu-2.1-Pro 模型的具体参数规格（参数量、激活量、上下文、训练数据等）也尚无公开资料。这说明 2.1-Pro 是非常新且尚未对外公开发布的型号，目前仅在小艺 Work 中提供支持。 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8fe17c234f08c34d8740",
+      "title": "微信鸿蒙版 App 推 8.0.23.34 正式版更新，更多用户灰度合并发图功能",
+      "published": "2026-11-04T15:56:19Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/470.htm",
+      "summary": "IT之家 11 月 4 日消息，微信鸿蒙版 App 今晚在华为应用市场（App Gallery）发布了 8.0.23.34 正式版更新。 和往常一样，本次更新的说明依旧为“修复了一些已知问题”。据用户反馈，8.0.23 版本的微信新增了如下特性： 部分 Flutter 跨端页面（如朋友圈、听一听、表情管理等页面）响应系统字体粗细； 更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐； 发表视频号内容时新增添加标注，视频号已发布的内容点击分享同步新增添加标注； 发现-直播-更多直播新增搜索按钮； 听一听主页面右下角新增小微分支入口浮动按钮，并根据当前页面内容弹出对应提示词，可快速使用听一听相关问小微功能，播放页面点击分享新增问小微（主页面右下角浮动按钮为逐步开放）； 公众号图标焕新，对齐其他端；…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3c14baebe62d6f49e047",
+      "title": "真 · 互通：国行 Apple 智能创作内容、问询结果会同步至千问 App",
+      "published": "2026-11-04T14:49:55Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/459.htm",
+      "summary": "IT之家 11 月 4 日消息，苹果今日凌晨面向 iPhone 推送了 iOS 27.3 系统首个开发者预览版，为国行用户带来了「Apple 智能与 Siri」。 国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。 IT之家实测发现，国行 Apple 智能问询结果也会同步至千问 App，后者可提供语音播报、分享、复制、收藏、重新生成等功能。 不仅是视觉智能，用千问完成的文字创作内容，也会同步至千问 App。 关于 Apple 智能国行版本更多内容，小伙伴们可移步至IT之家最新实测，了解更多信息。 点击关注IT之家视频号",
+      "summary_status": "source",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1be4fdd8e6ca80f0ec01",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "published": "2026-11-04T14:30:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-85c6732e64fcb0c27527",
+      "title": "华为 MatePad Mini 小平板获 HarmonyOS 7.0.0.111 SP16 升级，互助通信共享功能下放",
+      "published": "2026-11-04T14:28:10Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/447.htm",
+      "summary": "IT之家 11 月 4 日消息，据用户反馈，华为 MatePad Mini 小平板今日开启了鸿蒙 HarmonyOS 7.0.0.111 SP16 版本升级，系统包大小约 657.43MB。 据介绍，新版本升级通信共享功能，与搭载 HarmonyOS 7 系统的手机、平板、鸿蒙电脑之间支持多人互助通信共享，通过碰一碰或者登录同一账号共享网络建立互助网络，在移动网络信号弱或网络负载大等场景下可获得更稳定的网络。 IT之家从华为官网了解到，手机与平板间通信共享支持共享手机双卡通话、短信、网络能力（含 eSIM），支持手机双卡网络切换时，平板网络跟随切换。但手机与手机间通信共享只支持共享手机网络能力（含 eSIM）。 另外，共享端手机和接收端手机需同时为 HarmonyOS 7 及以上版本，且单台设备最多可同时为 3…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-566cbfcfae950a12bbaa",
+      "title": "小米 WorldCast 3D 运镜在 REDMI K100 上线：平面照片还原成三维场景，并虚拟出真实相机轨迹",
+      "published": "2026-11-04T13:53:25Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/433.htm",
+      "summary": "IT之家 11 月 4 日消息，小米 REDMI K100 手机已于 10 月 27 日正式发布。据小米技术官方今日介绍，该机在影像上新增了 3D 运镜的 AI 玩法 —— 从相册选一张静态照片，AI 就能生成一段大角度 3D 运镜视频，镜头可以环绕、推拉、倾斜，而画面中人物的五官、发型、衣着始终保持一致。 IT之家从小米技术官方了解到，支撑这项功能的，是小米在近期公开论文里带来的视觉生成框架 WorldCast：它通过解读画面的深度结构，把平面照片还原成三维场景，并在其中虚拟出一条真实相机轨迹，让镜头像被真实拍摄一样运动，能够在镜头运动过程中持续保持主角外观的一致性。 ▲ WorldCast 框架总览：轨迹对齐的几何引导 × 几何对齐的多视角角色记忆 小米技术官方称，WorldCast 是小米在可控视觉生成方…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4f7dc07668eb6bed85ec",
+      "title": "字节旗下 AI 开发平台“扣子”：推进企业级服务产品整合升级，现售企业版将先暂停新售",
+      "published": "2026-11-04T13:40:14Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/432.htm",
+      "summary": "IT之家 11 月 4 日消息，字节跳动旗下 AI 开发平台“扣子（Coze）”发布公告，正在推进企业级服务的产品整合升级，并规划后续可供企业客户选择的产品和套餐方案。配合本次整合，现售扣子企业版将先暂停新售。 IT之家注：官网显示，“扣子”是面向 Agent 时代的新一代 AI 团队协作平台。用户可以一个人调度多个 Agent，也可以和团队成员一起协同多个 Agent，在同一个项目里完成办公、编程、视频创作、文件处理、行业研究等复杂任务。 8 月 24 日，据智能涌现消息，字节跳动对旗下的办公 AI 产品完成了一轮团队整合：TRAE、扣子团队将整体并入豆包体系，其中 TRAE Work、扣子将与豆包在工作场景的产品能力进行整合。 8 月 25 日，字节跳动发布“豆包工作”。作为豆包面向生产力场景推出的全新 A…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b53d2a0de59b77c31b8c",
+      "title": "中兴手机官方微信公众号账号迁移，主体变更为上海申启纪元智能终端有限责任公司",
+      "published": "2026-11-04T13:18:29Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/428.htm",
+      "summary": "IT之家 11 月 4 日消息，中兴手机公众号今日发布《关于账号进行迁移的说明》。 因运营需要，你所关注的账号“中兴手机”将进行账号迁移。届时本账号的业务、功能将转移至新账号“中兴终端”。迁移详情如下： 旧账号名称：中兴手机 旧账号主体：中兴通讯股份有限公司 新账号名称：中兴终端 新账号主体：上海申启纪元智能终端有限责任公司 IT之家查询获悉，上海申启纪元智能终端有限责任公司由中兴通讯全资持股，董事长为王喜瑜，倪飞任董事。2025 年 9 月 4 日，该公司完成经营范围变更，变更后经营范围包含移动终端设备制造、软件开发、移动通信设备制造等。 今年 7 月，网信部门会同有关部门按照《生成式人工智能服务管理暂行办法》要求，开展生成式人工智能服务备案工作，并将新增的“Apple 智能”等 7 款提供手机端侧生成式人工…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-428bcf4a04cb46fed5a9",
+      "title": "网易云音乐官宣鸿蒙版适配碰一碰、隔空传送等华为鸿蒙专属特色功能",
+      "published": "2026-11-04T13:01:47Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/426.htm",
+      "summary": "IT之家 11 月 4 日消息，网易云音乐官方今日宣布，鸿蒙版适配碰一碰、隔空传送等鸿蒙专属特色功能。 碰一碰：两台设备碰一碰就能分享网易云音乐在播歌曲或歌单，无需加好友，无需数据流量。 隔空传送：还可以使用手势抓取隔空将网易云音乐在播歌曲或歌单，传送至周围其他鸿蒙设备。 据IT之家此前报道，鸿蒙版 App 由网易云音乐与鸿蒙深度合作联合开发，8 月底上线尝鲜内测版，并在 9 月底推出正式版。 10 月 20 日，网易云音乐宣布鸿蒙版完成主流终端全适配，覆盖手机、折叠屏、平板、运动手表、电脑与华为 HiCar 等，支持跨端无缝续播等功能。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ac52dc8b1c553c36b5e3",
+      "title": "魔芯科技发布基于华为昇腾原生的 4D 世界模型 MoWorld 2.0，场景可互动、编辑、调用",
+      "published": "2026-11-04T12:53:54Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/424.htm",
+      "summary": "IT之家 11 月 4 日消息，在今日举行的世界互联网大会“发展新质生产力强劲增量看 AI”主题论坛上，魔芯科技正式发布基于华为昇腾原生的 4D 世界模型 MoWorld 2.0。 官方表示，继今年 7 月 MoWorld 1.0 发布后，MoWorld 2.0 实现模型能力跃升：将重力、弹力、浮力、光照、热力，以及刚体、柔体、流体、形塑体等物理要素与对象特性融入空间建模和交互能力，输出可用于仿真、可实时渲染、可反复调用的 4D 高斯资产。 据介绍，基于对多重物理要素的建模，MoWorld 2.0 不仅生成空间和物体外观，也对物体之间的交互关系、外力作用和环境变化进行实时推理。 例如，模拟微风吹动书页、书签掉落地面的过程，需要同时考虑风的力度与方向、纸张的柔性、书签的重量，以及地板的刚性和接触关系。 ▲ 模拟微…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-086f1355b48a4087edb8",
+      "title": "微信鸿蒙电脑版 App 发布 4.1.13.4 版本邀测升级，已支持图片视频发送后可合并展示等功能",
+      "published": "2026-11-04T12:12:27Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/022/416.htm",
+      "summary": "IT之家 11 月 4 日消息，据用户反馈，微信鸿蒙电脑版 App 在华为应用市场（App Gallery）发布了 4.1.13.4 (269572) 版本邀测升级。 测试说明显示，当前版本为测试版，部分功能会受到限制或者不可用。IT之家目前主要功能如下： 支持语音输入文字； 可发送语音消息； 图片视频发送后可合并展示； 支持群接龙； 表情可以预览动态效果； 在单聊中邀请人时可分享聊天记录； 在发消息时，支持边写边译为指定的语言； 消息可连续翻译； 一次发出的多条消息可以同时撤回； 删除联系人时可保留聊天记录； 在视频或语音通话中，可以接听新的通话； 朋友圈评论可使用表情和图片； 自己的朋友圈相册可以跳转到指定日期； 可滚动截图等。 需要注意的是，测试版本可能存在体验缺陷，需承担一定风险。测试阶段版本将持续更新…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-9c14532aadd256ebbd70",
       "title": "首个：华为云智果 AgentArts 获中国信通院最高等级评级",
       "published": "2026-11-04T11:46:44Z",
@@ -189,13 +456,13 @@
       "url": "https://www.ithome.com/1/022/406.htm",
       "summary": "IT之家 11 月 4 日消息，华为官方今日宣布，华为云智果 AgentArts 智能体平台近日顺利通过中国信通院组织的可信 AI 企业级智能体平台评估，是首个通过该项测评，并获得当前最高等级（4+ 级）的产品。 据介绍，本次评估依据《企业级智能体技术要求》，围绕企业级智能体平台的技术能力、应用能力和服务能力三方面展开，全面考察平台在智能体认知、规划、执行、业务集成、知识管理、运行维护及安全合规等方面的综合能力。 IT之家查询获悉，云智果（AgentArts）智能体平台是华为面向企业核心业务场景打造的智能体平台，支持多种框架（LangChain / LangGraph 或自研框架等）和模型，并拥有四大核心能力：生产级长程任务、企业级安全环境、行业知识深度和全链路可观测。AgentArts 使用方式如下： Man…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
     {
       "id": "rss-502b364dba3ea650d88d",
-      "title": "OpenAI CEO 奥尔特曼回应内存言论争议：称遭断章取义，希望扩大内存产能",
+      "title": "OpenAI CEO 奥尔特曼回应内存言论争议：遭断章取义，希望扩大内存产能",
       "published": "2026-11-04T11:28:33Z",
       "company": "OpenAI",
       "companies": [
@@ -211,7 +478,7 @@
       "url": "https://www.ithome.com/1/022/385.htm",
       "summary": "IT之家 11 月 4 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）近日回应了外界对其一番言论的强烈批评。此前，他在一次采访中表示，个人电脑中配备内存，而不是将内存集中放在数据中心供人使用，这种做法在他看来“很糟糕”。 在接受 YouTube 博主 Cheeky Pint 采访时，奥尔特曼表示：“从全球资源分配的角度来看，让每个人的电脑里都存放着大量全球供应有限的 DRAM，而且这些内存 95% 的时间都处于闲置状态，实际上是相当糟糕的。如果要应对当前这种供应极其紧张的局面，就应该让云端资源得到最大程度的利用。但不知为何，很多人的直觉恰恰与此相反。” 这番言论迅速引发广泛嘲讽。不少人认为，无论奥尔特曼本意如何，他的表态听起来都像是希望剥夺个人拥有内存的权利，迫使整个社会将资源集中起…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -234,7 +501,7 @@
       "url": "https://www.ithome.com/1/022/376.htm",
       "summary": "苦等两年，终于来了：Apple 智能国行版本实测，千问撑起了一片天 点击关注IT之家视频号",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -256,7 +523,7 @@
       "url": "https://www.ithome.com/1/022/374.htm",
       "summary": "IT之家 11 月 4 日消息，在今年 10 月 1 日发布的华为 Mate 90 系列旗舰手机上，「智感旋转」功能正式回归。已经购买到 Mate 90 的用户可在设置中搜索「智感旋转」跳转至如下页面，并开启该功能。 开启自动旋转开关，将手机水平放置后打开图库照片。如果照片能随人脸朝向自动切换横竖屏，则功能正常，否则异常。在游戏、导航、暗光等场景中，屏幕旋转基于重力传感器，不会根据人脸朝向自动旋转。 IT之家注意到，华为官方今日发文，详细介绍了这一能力。据称，「智感旋转」是华为在 HarmonyOS 7.0 及以上版本推出了系统级创新能力，通过「重力传感器 + 智感传感器」双感知协同，实现用户意图感知。 此外，「智感旋转」还新增智感传感器识别人脸朝向，结合设备重力角度综合计算最优显示方向，让屏幕贴合用户真实观看…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -278,7 +545,7 @@
       "url": "https://www.ithome.com/1/022/309.htm",
       "summary": "全网 11.11 秒杀狂促继续，有需求的小伙伴可以蹲点抢哦。 京东 无门槛红包至高 26888 元，每天抽 3 次：点此抽取。 淘宝 无门槛红包至高 26888 元，每天直接领 200 淘金币：点此抽取。 淘宝 4 日 20:00 额外加抽 1 次，发放 50 万个 3 元起红包，拼手气限量抢，中奖率 60%，先到先得，领完即止。 一键保价 京东一键保价没事就点点：点此保价。 20:00 秒杀 京东 11.11 月黑风高夜都是好价：点此前往主会场。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -411,7 +678,29 @@
       "url": "https://www.ifanr.com/1687613",
       "summary": "国产开源模型的竞争白热化时刻 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a3433e936d2c04bfa772",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "published": "2026-11-04T07:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -433,7 +722,7 @@
       "url": "https://www.ifanr.com/1687585",
       "summary": "后来者总有机会。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -501,7 +790,7 @@
       "url": "https://www.ifanr.com/1687538",
       "summary": "奕派用自研换低价。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -986,7 +1275,7 @@
       "url": "https://www.ifanr.com/1687473",
       "summary": "全网最细的iPad mini 8 评测，屏幕到底锁没锁帧，我们挖出了超多细节。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1206,7 +1495,7 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1294,7 +1583,7 @@
       "url": "https://openai.com/index/heimstaden",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1316,7 +1605,7 @@
       "url": "https://openai.com/index/cisco-cyber",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1338,7 +1627,7 @@
       "url": "https://www.ifanr.com/1687285",
       "summary": "我「编程」我自己 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1558,7 +1847,7 @@
       "url": "https://www.ifanr.com/1687259",
       "summary": "赚得多，花得更狠 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1891,7 +2180,7 @@
       "url": "https://www.ifanr.com/1686623",
       "summary": "让特努斯引领一个全新的时代，全盘「拥有」这些新产品，无论它们最终的评价是好是坏。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1935,7 +2224,7 @@
       "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2133,7 +2422,7 @@
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2155,7 +2444,7 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2199,7 +2488,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2221,7 +2510,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2337,7 +2626,7 @@
       "url": "https://www.ifanr.com/1687178",
       "summary": "来看奔驰很清楚他们的短板所在。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2427,7 +2716,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2669,7 +2958,7 @@
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2691,7 +2980,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4461,7 +4750,7 @@
       "url": "http://www.geekpark.net/news/373238",
       "summary": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话。现在页面顶部写的是：「Apple 智能的首批核心功能将于今年稍晚推出。」 从 2024 年 6 月在 WWDC 上亮相算起，国行 iPhone 等了整整两年半。 今年 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4969,7 +5258,7 @@
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4991,7 +5280,7 @@
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5237,7 +5526,7 @@
       "url": "https://openai.com/index/fair-use-benefits-everyone",
       "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5369,7 +5658,7 @@
       "url": "https://openai.com/index/updated-model-spec",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5813,7 +6102,7 @@
       "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5857,7 +6146,7 @@
       "url": "https://openai.com/index/ropes-gray-ai-diligence",
       "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6100,7 +6389,7 @@
       "url": "https://openai.com/index/credit-saison",
       "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
       "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
+      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6211,714 +6500,6 @@
       "summary": "IT之家 10 月 29 日消息，科技媒体 9to5Mac 今天（10 月 29 日）发布博文，苹果官方开发者网站已上线“为 Mac 触控做好准备”（Get ready for Touch on Mac）专题页面，为首批触屏 Mac 的软件生态做准备。 IT之家附上相关视频如下： Mac 触控设计 为 Mac 应用带来触控体验 将实时活动引入 Mac 苹果目前上线了三段视频，分别聚焦“Mac 触控设计”、“为 Mac 应用带来触控体验”以及“将实时活动引入 Mac”。这些内容旨在指导开发者重新思考光标、手势、界面层级与多任务场景，让应用在键盘、触控板和触屏之间都能保持自然、高效的体验。 苹果公司还计划开放两场“与苹果见面”（Meet with Apple）在线小组实验室。开发者可与苹果工程师和设计师实时交流，就…",
       "summary_status": "excerpt",
       "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-16681fd606d5f6994d06",
-      "title": "Evernote turns AI-driven discovery into paid subscriptions",
-      "published": "2026-10-28T19:40:49Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/ads/customers/evernote",
-      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3865b4f2f28cb0a50605",
-      "title": "续航未打折扣：苹果首款触控 MacBook Pro 最长连续播放 24 小时视频",
-      "published": "2026-10-28T19:38:17Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/255.htm",
-      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动中，苹果公司发布配备 PROLED XDR 显示屏的首款触控 MacBook Pro，不过满电续航并未因此打折扣。 图源：苹果 根据苹果官网公示信息，配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 续航如下： 16 英寸 M5 Max 机型：满电续航最长可连续播放 22 小时视频，最长可连续上网 16 小时 16 英寸 M5 Pro 机型：满电续航最长可连续播放 24 小时视频，最长可连续上网 17 小时 14 英寸 M5 Max 机型：满电续航最长可连续播放 20 小时视频，最长可连续上网 13 小时 14 英寸 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-74e3a2616371345a640f",
-      "title": "iPad mini 首发上手：体验无可替代，刀法无人能及",
-      "published": "2026-10-28T19:27:06Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1686487",
-      "summary": "算力越级，高刷缺席，一款让人爱恨交织的产品 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-30T23:43:31Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3e9534ea1d40a1356b04",
-      "title": "苹果公布其首款触控 MacBook Pro 官方设计素材",
-      "published": "2026-10-28T19:23:29Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/254.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）更新其“Apple 设计资源”门户网站，为首款配备 PROLED XDR 显示屏、支持触控的全新 MacBook Pro 提供官方设计素材。 UI / UX 设计师、开发者及内容创作者无需等待第三方模板，即可在官方素材基础上制作适配新机的界面演示、宣传图和应用展示内容。 IT之家援引博文介绍，此次新增的可下载 .dmg 文件包含新款 MacBook Pro 的透明 PNG 图像，覆盖不同配色与尺寸；同时提供 PSD 文件，已精确遮罩显示屏区域。 设计师可以直接将自家的界面、网页布局或应用画面置入屏幕区域，快速生成高保真的产品效果图。 苹果的设计资源门户长期为开发者与设计师提供覆盖苹果平台、产品和技术的设计指南，以及 Figma、Sketch、K…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-867dd5665e1508344e0b",
-      "title": "苹果首款触控 MacBook Pro 低音下潜增强 50%，首次调教合盖场景音频",
-      "published": "2026-10-28T19:15:27Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/253.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）发布新闻稿，宣布在其搭载 PROLED XDR 显示屏的首款触控 MacBook Pro 上，并重点升级其音频系统。 官方表示这款 MacBook Pro 采用 6 扬声器音频系统，采用全新低音单元设计，低音下潜增强 50%，声音更深沉、更丰富。而全新高音单元可塑造声音扩散方式，让音质格外清晰、通透。 这款 MacBook Pro 支持杜比全景声空间音频，用户在听音乐和看电影时营造沉浸式空间声场。苹果还引入录音棚级麦克风，提升通话、录音和语音命令的清晰度与干净度。 IT之家援引博文介绍，MacBook Pro 还首次针对合上盖子时的使用场景进行了音频调教，在连接外接显示器时可呈现卓越音质，让用户无论以何种方式工作，都能享受高品质音频体验。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-cdd0ff0ecad5e0430d3f",
-      "title": "苹果上架 70W/140W 新款 Mac 电源适配器，采用交流电源接口 2 方案",
-      "published": "2026-10-28T19:06:18Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/252.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）发布配备 PROLED XDR 显示屏的首款触控 MacBook Pro 外，还更新推出了 70W 充电器、全球旅行转换器套件等多款配件产品。 一、70W 电源适配器（点此前往苹果官网选购） 该产品售价为 449 元，IT之家附上官方介绍如下： 无论是在家中、办公室还是旅行途中，这款 70W 电源适配器都能让你快速而高效地充电。它兼容多款 USB-C 设备和充电线。 Apple 建议将它用于 14 英寸 MacBook Pro 或者 13 英寸或 15 英寸 MacBook Air，并搭配 USB-C 转 MagSafe 3 连接线或 USB-C 充电线。用这款电源适配器给 MacBook Air 充电，能充分发挥快充优势，约 30 分钟最多可…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e0be373c4ed34ffbee00",
-      "title": "最高 128GB 统一内存：苹果首款触控 MacBook Pro 可本地运行数千亿参数 AI 模型",
-      "published": "2026-10-28T18:42:43Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/251.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果公司今天（10 月 29 日）发布配备 PROLED XDR 显示屏的首款触控 MacBook Pro，其核心卖点之一是配备最高 128GB 统一内存，M5 Max 芯片版可本地运行数千亿参数的大语言模型。 IT之家附上官方公告内容如下： 依托 M5 Max，专业人士可在设备端直接运行具有数千亿参数的大语言模型，并为精细视觉特效、3D 动画项目、电影配乐和 8K 视频后期制作等高强度工作流加速。 苹果表示，M5 Pro 与 M5 Max 的每个 GPU 核心均内置神经网络加速器，可加速本地 AI 推理，并支持运行编程智能体、处理图形密集型 AI 任务等场景。 苹果称依托 MacBook Pro 的强大 AI 性能，创意技术人员、3D 艺术家和动效设计师可在 LM Studi…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e8b30d4d99719fca7ceb",
-      "title": "外媒现场上手苹果首款触控 MacBook Pro (PROLED XDR 显示屏) 笔记本",
-      "published": "2026-10-28T18:27:25Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/250.htm",
-      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动中，包括 9to5Mac 在内的多家媒体现场体验了苹果首款触控 MacBook Pro (PROLED XDR 显示屏) 笔记本。 IT之家附上部分海外媒体的现场上手视频如下： 官方称，新款 MacBook Pro 采用“业界领先”的双 OLED 显示屏，支持完整多点触控，同时保持 MacBook 系列一贯的键盘与触控板操作方式。 现场体验显示，新款 MacBook Pro 的触控操作流畅，OLED 屏幕在色彩表现与对比度方面具有较强竞争力。不过，触控功能的加入也引发讨论：部分用户认为它将提升创意工作与演示交互的灵活性；也有观点认为，在桌面使…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f96e8c12b871047022dd",
-      "title": "「推翻」乔布斯的触屏 MacBook 来了，22999 元起",
-      "published": "2026-10-28T18:27:03Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "极客公园",
-      "source_id": "geekpark",
-      "publisher_id": "geekpark",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "http://www.geekpark.net/news/373084",
-      "summary": "搭载 PROLED XDR 显示屏的 MacBook Pro｜图片来源：Apple 2010 年 10 月 20 日，乔布斯在苹果「Back to the Mac」发布会上，给触屏笔记本下过一个结论：「我们做过大量用户测试，结果证明这行不通。触控表面不该竖着放。演示效果很好，但用一会儿你就会累，用久了，胳膊都要掉下来。这行不通，人体工学上糟透了。」 16 年后的今天凌晨，苹果发布了第一台带触屏的 Mac：搭载 PROLED XDR 显示屏的 MacBook Pro，14 英寸和 16 英寸两个尺寸，芯片是 M5 Pro 和 M5 Max。国行 14 英寸 22999 元起，16 英寸 27999 元起，10 月 30 日上午 9 点开始预购，比美国晚一天多，11 月 6 日发售。 14 英寸和 16 英寸两个尺…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T12:04:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-81c1000492a8aa79999f",
-      "title": "苹果触屏 MacBook Pro 应用适配情况：Lightroom、达芬奇、C4D、Office 等今年晚些时候支持",
-      "published": "2026-10-28T18:24:35Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/249.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果今日推出首款触控屏 MacBook Pro，定价 22,999 元起。该产品采用双层串联 OLED 面板，HDR 峰值亮度可达 2,000 nits。 如今苹果已经公布了这款 MacBook Pro 的第三方应用触控适配情况，IT之家附未来支持名单如下： 办公与协作： Notion、Canva、Zoom、Microsoft Word、Excel、PowerPoint、Outlook（Microsoft Office） 照片与视频： Adobe Lightroom、DaVinci Resolve 3D 与动画： Blender、Maxon Cinema 4D、Maxon ZBrush、Shapr3D 音乐： Algoriddim djay Pro 需要注意的是，上述应用的触控…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-05f6baf6793f1332f317",
-      "title": "苹果 CEO 特努斯：MacBook Pro PROLED XDR 显示屏有多出色，亲手一触就知道",
-      "published": "2026-10-28T18:21:53Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/248.htm",
-      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动中，苹果公司正式推出首款支持触控操作的 MacBook Pro（PROLED XDR 显示屏），国行起售价 22999 元。 苹果公司前首席执行官、现任执行董事长蒂姆 · 库克（Tim Cook）发布微博，表示： 我们把触控带到了 Mac！从全新 iPad mini，到 14 英寸 MacBook Pro 和 iMac，再到配备 PROLED XDR 显示屏并支持屏幕触控的 MacBook Pro，创作者们有了全新的工具，尽情发挥才华，达到创意新高度。 We brought Touch to the Mac! From the all-new…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d959c8d32753bf3776f7",
-      "title": "苹果新 MacBook Pro 最高可选 16TB 存储空间：相比此前 8TB 翻倍，得加 5.25 万元",
-      "published": "2026-10-28T18:09:16Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/247.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果首款触控屏 MacBook Pro 最高可选 16TB 存储空间，相比此前 MacBook Pro 最高 8TB 翻倍。 需要注意的是，新款 MacBook Pro 仅有 M5 Max 机型支持选择 16TB 硬盘。而且要升级这么高的容量，您需要支付 52,500 元（以 2TB → 16TB 计）。 硬件方面，新款 MacBook Pro 采用双层串联 OLED 1Hz-120Hz 自适应刷新率触控屏，支持 1,000 尼特持续全屏亮度、2,000 尼特 HDR 和 SDR 峰值亮度，覆盖 P3 + Adobe RGB 广色域。该机还带有“灵动岛”（1,200 万像素 Center Stage 摄像头）。 此外，该机搭载重新设计的六扬声器系统，低音下潜增强 50%。配备三…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2df0607f885d99c0b93a",
-      "title": "苹果上架 512GB 内存版 Mac Studio：较 96GB 配置贵 116250 元",
-      "published": "2026-10-28T17:54:05Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/246.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果今天（10 月 29 日）正式公布配备 512GB 统一内存的 Mac Studio 售价。该配置仅面向搭载 M5 Ultra 芯片（ 36 核 CPU 与 80 核 GPU）的顶配机型，相比较 96GB 版本价格上涨 116,250 元。 IT之家注：512GB 内存版目前仅适用于 M5 Ultra 芯片（36 核 CPU 与 80 核 GPU）顶配，用户如果选择 M5 Ultra（30 核 CPU 与 64 核 GPU）会跳出相关提示： 在内存配置选项，苹果 Mac Studio 从 96GB 升级到 512GB 需要加价 116,250 元人民币。 在存储搭配方面，如果用户选择 M5 Ultra 芯片 + 512GB 内存 +1TB 存储，售价为 172,999 元。…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c4018789504967b6a7e5",
-      "title": "苹果首度为 Mac 引入灵动岛：支持显示音乐播放、实时活动等，Siri AI 多了个入口",
-      "published": "2026-10-28T17:53:16Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/245.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果公司今日推出首款触控屏 MacBook Pro，提供 14 英寸和 16 英寸两种型号。值得注意的是，这款笔记本支持灵动岛，可将实时活动、聚焦搜索和 Siri AI 整合到屏幕上方交互，这也是苹果首次为 Mac 电脑引入灵动岛。 IT之家了解到，苹果公司最早在 2022 年 9 月的 iPhone 14 Pro 系列推出灵动岛。它在苹果手机中取代了刘海设计，摄像头开孔相比原来更小，还能够通过软件界面显示实时活动、音乐播放、计时器等各类控件。 而 Mac 上的灵动岛支持接听电话、控制音乐播放，以及显示隔空投送请求等，还能够作为聚焦搜索和 Siri AI 的交互入口。 不过新款 MacBook Pro 仍然采用触控 ID，并配备 1200 万像素 Center Stage 摄像…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-03731de707d64b5b97e1",
-      "title": "时隔 10 年发光 Logo 回归：苹果首款触控屏 MacBook Pro“苹果标”又会亮了",
-      "published": "2026-10-28T17:48:23Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/244.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果在今天的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro），值得一提的是，该机重新为 A 面带回了发光苹果 Logo。 回顾历史，苹果从 1999 年 PowerBook G3 系列开始为笔记本 A 面引入发光苹果 Logo，相应 Logo 并没有配备任何独立的 LED 光源，而是直接“借用”了屏幕自身的背光。 具体而言，苹果在 CNC 切割铝合金 A 面时，会在正中央镂空切出苹果 Logo 的形状，并在该孔位嵌入一块高透光率、表面经过磨砂雾面处理的白色聚碳酸酯（塑料）导光板。在屏幕面板内部的反光遮罩层上，苹果也精确对应 Logo 的位置预留了一个没有反光材料的透光区域。 当用户打开电脑、屏幕背光亮起时，背…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-5d0c67761bf62863966d",
-      "title": "15999 元起，苹果 M6 芯片版 14 英寸 MacBook Pro 开启预购",
-      "published": "2026-10-28T17:41:18Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/243.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果公司 2026 款 MacBook Pro 已于今天（10 月 29 日）凌晨 1 点 10 分开启预购，起售价 15,999 元，最快 11 月 6 日送达。 京东苹果 2026 款 14 英寸 MacBook Pro M6 15999 元直达链接 机型芯片起售价14 英寸 M6RMB 15,999 起14 英寸 M5 ProRMB 20,999 起14 英寸 M5 MaxRMB 28,499 起16 英寸 M5 ProRMB 24,999 起16 英寸 M5 MaxRMB 32,499 起 新款 M6 芯片的 14 英寸 MacBook Pro 继承了上一代外观，可选深空黑色和银色两种配色，配备 3024 x 1964 分辨率 120Hz 显示屏。 该机搭载 M6 芯片…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-1892331560a6496341ae",
-      "title": "22999 元起：苹果首款触屏 MacBook Pro 价格公布",
-      "published": "2026-10-28T17:15:57Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/239.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果公司现已公布 MacBook Pro (PROLED XDR 显示屏) 笔记本的价格：22,999 元起。 IT之家从苹果官网获悉，MacBook Pro (PROLED XDR 显示屏) 支持触控，提供 14 英寸和 16 英寸两个尺寸，可选 M5 Pro 和 M5 Max 芯片。各版本售价详情如下： 14 英寸 M5 Pro（15 核 CPU、16 核 GPU），24GB 统一内存，1TB 硬盘，70W 电源适配器，标准玻璃：22,999 元 M5 Pro（18 核 CPU、20 核 GPU），24GB 统一内存，1TB 硬盘，70W 电源适配器，标准玻璃：25,499 元 M5 Max（18 核 CPU、32 核 GPU），36GB 统一内存，2TB 硬盘，140W …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d4f0729f66846fce3df1",
-      "title": "苹果首款触控屏 MacBook Pro 正式发布：双层串联 OLED、低至 1.38 千克重量，22,999 元起",
-      "published": "2026-10-28T17:10:12Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/238.htm",
-      "summary": "IT之家 10 月 29 日消息，苹果在今天的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro），系列产品 10 月 30 日 9 点接受预购，11 月 6 日发售，22,999 元起，IT之家随附官方商店地址（点此访问）。 系列笔记本可选 14.2/16.3 英寸版本，前者尺寸为 21.63 厘米 x31.08 厘米 x1.50 厘米，重 1.38 千克；后者尺寸为 24.42 厘米 x35.55 厘米 x1.60 厘米，重 1.82 千克。笔记本 C 面仍配备指纹识别触控 ID，笔记本可选 M5 Pro/M5 Max 芯片（至高可选 M5 Max：18 核中央处理器、16 核神经网络引擎版本），提供至高 24 小时续航。 IT之家获悉，相应…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-6426745cf2a11696cc3e",
-      "title": "苹果线上商城下线维护，预估迎接其首款触控 MacBook Pro",
-      "published": "2026-10-28T16:59:03Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/236.htm",
-      "summary": "IT之家 10 月 29 日消息，太平洋时间 10 月 28 日上午 10 点（北京时间 10 月 29 日凌晨 1 点）在洛杉矶举行的“Pro and Tell”体验活动开始前几分钟，苹果官网在线商店已临时下线维护，这一动作通常被视为新品即将上架的信号。 IT之家访问苹果中国官网在线商店，已经显示为“稍等一下，我们正在更新 Apple Store，请稍后再来。” 根据目前曝光的信息和线索，苹果公司计划推出其首款触控屏 MacBook Pro。新款 MacBook Pro 有望首次配备支持触控的 OLED 显示屏，取消传统刘海屏并改用“灵动岛”设计；机身将更轻、更薄，铰链与散热系统也会重新设计。产品预计搭载 M5 Pro 与 M5 Max 芯片，而新版 macOS Golden Gate 则可能针对触控输入进行…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b9d52fe201435f552541",
-      "title": "华为 Mate 90 系列手机十大黑科技汇总，影像、屏幕、性能与通信多重突破",
-      "published": "2026-10-28T15:59:07Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/234.htm",
-      "summary": "IT之家 10 月 28 日消息，在今天的华为双十一焕新季 · 全场景新品发布会上，华为董事、终端 BG CEO 何刚登台主讲，揭秘了 Mate 90 系列手机的十大黑科技，实现影像、屏幕、性能与通信多重突破。 设计方面，华为 Mate 90 Pro Max 典藏版采用钇晶宝石匠心工艺：稀土配方（45% 钇元素含量）、超高硬度（1800°C 高温 + 180MPa 高压烧结）、高折射率（折射率 1.8 高于蓝宝石）。 性能方面，Mate 90 系列全新搭载旗舰 τ 芯片。其中，标准版手机搭载麒麟 9030，整机性能提升 27%；Mate 90 Pro 手机首发麒麟 9035，整机性能提升 20%；Mate 90 Pro Max 典藏版及 RS 非凡大师则搭载首款逻辑折叠 τ 芯片 —— 麒麟 9050 Pro。…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7e59c713db44c1057831",
-      "title": "内存涨价致旧手机价格坚挺：99 新二手机成华强北抢手货，苹果 iPhone 15 Pro Max 从去年 3000 多元回涨至 4300 元以上",
-      "published": "2026-10-28T15:40:36Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/231.htm",
-      "summary": "IT之家 10 月 28 日消息，据央视财经今日报道，深圳华强北二手手机市场均价 4000 元以上产品的占比已超过 68%。 一位业内人士对央视记者表示，热销机型一年内降价 20% 本是常态，但受内存涨价影响，今年二手手机价格普遍坚挺，部分热门机型甚至出现加价。他以 iPhone 15 Pro Max 举例：这款机型去年在二手市场的价格一度跌至 3000 多元，目前回涨至 4300 至 4400 元区间，回升幅度约 500 元。 这一价格走势与存储芯片的供需结构直接相关。从 2025 年暑假开始，内存芯片进入涨价通道，新机芯片缺货涨价后，下游中小手机厂商和维修商家转而向拆机芯片市场寻求替代供给。旧手机的价值因此不再只由整机成色和型号决定，机身内部的 DRAM 和 NAND 本身获得了独立的回收定价。 Trend…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7554dda18cf551f9c8cb",
-      "title": "手机最后一块玻璃也“昆仑”：华为 Mate 90 Pro 系列首发光学昆仑玻璃，耐摔能力提升 20%",
-      "published": "2026-10-28T15:13:18Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/224.htm",
-      "summary": "IT之家 10 月 28 日消息，在今天下午的华为双十一焕新季 · 全场景新品发布会上，华为董事、终端 BG CEO 何刚宣布，手机最后一块玻璃也“昆仑”了：Mate 90 Pro 系列首发光学昆仑玻璃 —— 对比 Mate 80 Pro Max，摄像头盖板玻璃耐摔能力提升 20 倍。 何刚提到，华为 Mate 90 Pro 和 Pro Max 采用全昆仑玄武架构设计：搭载第三代昆仑玻璃（耐摔能力提升 50%）和玄武机身，后盖则采用锦纤材质，同时光学昆仑玻璃的耐摔能力也提升了 20%。 IT之家注：昆仑玻璃首次搭载于 2022 年 9 月发布的华为 Mate50 Pro 手机，获得全球首个瑞士 SGS 五星级玻璃耐摔认证，官方称相较于普通玻璃版，整机耐摔能力提升至 10 倍。 官方介绍称，昆仑玻璃是一种纳米微晶…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ab86407631ef9566a6ad",
-      "title": "马斯克动用钞能力：美国居民起诉数据中心噪声后，xAI 准备直接收购其房产",
-      "published": "2026-10-28T15:12:05Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/222.htm",
-      "summary": "IT之家 10 月 28 日消息，据《卫报》今日报道，埃隆 · 马斯克旗下 xAI 正通过子公司 MZX Tech 向美国密西西比州南海文市（Southaven）部分居民提出房屋收购邀约。 根据居民收到的信件，房主接受收购后，需要签署协议，放弃与当地发电厂噪声相关的索赔权利，包括参与针对该公司的集体诉讼的权利。 一名房地产经纪人在当地挨家挨户接洽居民时提到，xAI 的收购目标为 418 套房屋，目前已有至少 18 名房主同意出售。 密西西比自由新闻（Mississippi Free Press）9 月报道称，部分居民收到了 MZX Tech 发出的收购信。MZX 在信中否认针对公司的所有指控，同时通过房地产经纪人提出收购房产的方案。 信件明确指出，签署相关协议后，房主将无法再就南海文发电厂相关问题提出索赔，也不…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-da23090c19e90a87ad90",
-      "title": "特斯拉宣布进军越南市场，将与本土巨头 VinFast 展开竞争",
-      "published": "2026-10-28T15:03:00Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/220.htm",
-      "summary": "IT之家 10 月 28 日消息，特斯拉招聘人员 Ricky Ip 今天在 X 平台宣布，特斯拉正式进军越南市场，现正招聘销售经理、开发人员、采购经理等职位。 据IT之家此前援引外媒消息，特斯拉已于今年 9 月在越南注册实体公司“Tesla Motors Vietnam”，注册资本约为 777 亿越南盾（IT之家注：现汇率约合 2,004.7 万元人民币），经营范围涵盖汽车进口、批发和零售。 值得注意的是，越南的电动汽车市场并非空白，该国的电动汽车生态长期由本土巨头 VinFast 主导。2026 年，VinFast 售出的新车约占越南新车总销量的 36%，销量甚至超过了排名其后的五家车企总和。 并且，VinFast 已通过关联公司 V-Green 运营着越南最大的充电网络，并计划今年投入约 3.8 亿美元（现…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7aa3a20a3d7a4f6bb49a",
-      "title": "华为 Mate 90 Pro 系列手机第二代灵珑屏技术揭秘：双层 OLED 架构、支持麒麟朱雀双芯协同",
-      "published": "2026-10-28T14:58:17Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/219.htm",
-      "summary": "IT之家 10 月 28 日消息，在今天下午的华为双十一焕新季 · 全场景新品发布会上，华为董事、终端 BG CEO 何刚揭秘了 Mate 90 Pro 系列手机第二代灵珑屏的技术亮点。核心有三，分别是：双层 OLED 架构、AI Pixel 逐屏逐像素校准，以及麒麟朱雀双芯协同。 据介绍，第二代灵珑屏采用双层 OLED 架构，和普通屏幕的最大区别在于其串联了两组发光单元：在相同亮度下，屏幕寿命基本可以翻番；在相同功耗下，可以实现更高的亮度。 IT之家注意到，第二代灵珑屏支持麒麟朱雀双芯协同保障屏幕清晰透亮，并可以实现双引擎无缝交接： 麒麟芯片：低亮度下实现更高精度校准； 朱雀显示芯片：高亮度下实现更低功耗校准。 另外，华为 Mate 90 Pro Max 所搭载的全彩灵珑屏支持 BT.2020 色域（覆盖度 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-db07bb276ddb9eab8bb4",
-      "title": "苹果 iOS 27.2 更新照片应用：共享相簿新增四项功能",
-      "published": "2026-10-28T14:48:26Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/208.htm",
-      "summary": "IT之家 10 月 28 日消息，苹果于当地时间 10 月 26 日发布了最新的 iOS 27.2，为 iPhone 照片应用带来两项新改进，涉及共享相簿功能和 AI 生成或编辑图像的识别能力。 据 9to5mac 今日报道，用户现在可以编辑共享相簿中的照片说明和评论、避免重复添加照片，并在相簿即将到期前收到提醒；系统还新增了对 SynthID 数字水印的支持，以帮助识别使用生成式 AI 创建或修改的图像。 共享相簿是苹果照片应用中的照片和视频分享功能。升级至 iOS 27.2 后，用户可以修改已发布照片和视频的说明文字，也可以编辑评论。 此外，系统能够帮助用户避免向相簿重复添加相同照片，并在共享相簿即将到期时显示提醒，让参与者有机会提前保存其中的照片和视频。要使用这些功能，共享相簿需要升级至适用于 iOS 2…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-370de38c3a2b1178a46e",
-      "title": "599 美元 → 649 美元，苹果 MacBook Neo 在美国官网教育商店涨价",
-      "published": "2026-10-28T14:30:59Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/203.htm",
-      "summary": "IT之家 10 月 28 日消息，苹果已在美国官网的教育商店调整 MacBook Neo 笔记本售价，从 599 美元（IT之家注：现汇率约合 4,002 元人民币）涨到 649 美元（现汇率约合 4,336 元人民币）。 IT之家注意到，美国高校生、教职人员现在购买这款笔记本仅可享受 50 美元（现汇率约合 334.1 元人民币）折扣，低于此前的 100 美元（现汇率约合 668.1 元人民币）。 此外，苹果于今年 6 月调整多款笔记本、平板产品定价，MacBook Neo 从 599 美元（现汇率约合 4,002 元人民币）涨至 699 美元（现汇率约合 4,670 元人民币）。苹果将此次涨价归因于内存芯片短缺，公司正在竭尽全力寻找解决方案。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-70d215d168e86f83439b",
-      "title": "小米 REDMI 产品经理胡馨心：内存成本持续走高，过去 12 个月涨了约 5.5 倍",
-      "published": "2026-10-28T14:12:57Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/200.htm",
-      "summary": "IT之家 10 月 28 日消息，今日，小米 REDMI 产品经理胡馨心透露，过去 12 个月，内存成本持续走高，涨价约 5.5 倍，仅 12+256 规格的价格就逼近 2000 元（第三方机构公开数据），所以今天在手机产品上做对取舍，要求更高、难度更大。 IT之家注意到，小米 REDMI K100 手机于昨晚发布，限时特惠到手价 2999 元起。具体价格如下： 12GB+256GB 版建议零售价 3499 元，双 11 限时特惠 2999 元，国补价 2549.15 元 12GB+512GB 版建议零售价 4099 元，双 11 限时特惠 3499 元，国补价 2999 元 16GB+512GB 版建议零售价 4499 元，双 11 限时特惠 3899 元，国补价 3399 元 据博主 @数码闲聊站 此前爆料…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b5440cfdafb08a6bb6d8",
-      "title": "TikTok 推出“必吃”餐厅指南，意图挑战 Yelp 和谷歌地图等点评平台",
-      "published": "2026-10-28T13:45:25Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/192.htm",
-      "summary": "IT之家 10 月 28 日消息，TikTok 今日宣布推出“必吃”（Must Eat）餐厅指南，整合平台内餐饮相关的 4000 万条帖子和评论，为消费者推荐本地优秀餐厅，意图挑战 Yelp 和 Google Maps 等点评平台。 据介绍，“必吃”的定位介于 Yelp 和 The Infatuation 之间，分为“日常美食”和“高端餐饮”两个板块。用户可以按照评分、距离、菜系和营业时间等条件进行筛选，还可以对餐厅进行评价、拨打电话和预定座位。并且餐厅主页还会附上 TikTok 相关视频。 TikTok 美国区 CEO Adam Presser 表示，“必吃”汇聚了平台创作者、餐厅经营者和普通用户，消费者可在此查看全面的评价。 IT之家注意到，该功能当前仅在纽约、洛杉矶、旧金山湾区等地区推出。TikTok 表…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T22:31:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-fb8adfbd749d106439a8",
-      "title": "“硬总线”能力升级：《星闪 SLE 3.0 技术标准演进蓝皮书》正式上线，华为、海思等参编",
-      "published": "2026-10-28T13:40:01Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/191.htm",
-      "summary": "IT之家 10 月 28 日消息，《星闪 SLE3.0 技术标准演进蓝皮书》已在国际星闪联盟官网正式上线。 据介绍，该蓝皮书由国家级标准与研究机构、芯片企业、生态企业、高校等 60 余家单位共同编制，系统梳理星闪技术发展历程，描绘星闪技术演进路线与未来发展蓝图。 星闪 3.0 阶段将围绕“高速可靠通信、高效测量、高质量组网、高品质音频”四大方向进化，为万物智联时代打造“更快、更远、更稳、更准”的短距无线通信新底座。 据IT之家了解，截至目前，星闪 SLE 标准演进三阶段： 从 2020 年到 2022 年为星闪 SLE 1.0 标准阶段，属于起步阶段，奠定了 SLE 接入层的基础架构和主要技术； 从 2023 年到 2025 年为星闪 SLE 2.0 标准阶段，属于快速发展阶段，支持 SLE 窄带高精定位，定义…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-28T16:36:22Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a395c7da350b5086cc15",
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "published": "2026-10-28T13:15:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-04T12:04:27Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-729364bee76f1375b5c8",
-      "title": "特努斯预热苹果首款触控屏 MacBook Pro，最快明日凌晨发布",
-      "published": "2026-10-28T13:04:59Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/186.htm",
-      "summary": "IT之家 10 月 28 日消息，苹果 CEO 约翰 · 特努斯刚刚发布了一条仅有 5 秒的视频，为苹果即将发布的首款触控 MacBook Pro 机型进行预热宣传。 在这段视频中，一束聚光灯慢慢照在 MacBook Pro 形状的墙壁上，并映射出苹果 logo。 苹果将于太平洋时间 10 月 28 日上午 10 时（IT之家注：北京时间次日凌晨 1 时）举办面向受邀记者的「Pro and Tell」体验活动，开始，包含一场简短的主题演讲，届时有望公布全新 MacBook Pro 及妙控鼠标等产品。 与以往清晨发布不同，此次活动新闻稿将在媒体活动结束后才发布。敬请期待。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-28T16:36:22Z",
       "kind": "rss",
       "report_type": "report"
     }
