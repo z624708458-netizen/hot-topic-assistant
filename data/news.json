@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-06T15:53:48Z",
-  "last_success_at": "2026-11-06T15:53:48Z",
+  "updated_at": "2026-11-06T21:28:13Z",
+  "last_success_at": "2026-11-06T21:28:13Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 15,
       "skipped": 45,
-      "last_success_at": "2026-11-06T15:53:48Z",
-      "last_attempt_at": "2026-11-06T15:53:48Z"
+      "last_success_at": "2026-11-06T21:28:13Z",
+      "last_attempt_at": "2026-11-06T21:28:13Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 4,
       "skipped": 16,
-      "last_success_at": "2026-11-06T15:53:48Z",
-      "last_attempt_at": "2026-11-06T15:53:48Z"
+      "last_success_at": "2026-11-06T21:28:13Z",
+      "last_attempt_at": "2026-11-06T21:28:13Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-06T15:53:48Z",
-      "last_attempt_at": "2026-11-06T15:53:48Z"
+      "last_success_at": "2026-11-06T21:28:13Z",
+      "last_attempt_at": "2026-11-06T21:28:13Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1366,
-      "accepted": 23,
+      "feed_items": 1368,
+      "accepted": 25,
       "skipped": 1343,
-      "last_success_at": "2026-11-06T15:53:48Z",
-      "last_attempt_at": "2026-11-06T15:53:48Z"
+      "last_success_at": "2026-11-06T21:28:13Z",
+      "last_attempt_at": "2026-11-06T21:28:13Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 1,
       "skipped": 29,
-      "last_success_at": "2026-11-06T15:53:48Z",
-      "last_attempt_at": "2026-11-06T15:53:48Z"
+      "last_success_at": "2026-11-06T21:28:13Z",
+      "last_attempt_at": "2026-11-06T21:28:13Z"
     }
   ],
   "disabled_sources": [
@@ -189,7 +189,7 @@
       "url": "https://www.ithome.com/1/023/600.htm",
       "summary": "IT之家 11 月 6 日消息，华为官方账号“智慧办公产品经理”今日宣布，MatePad Edge 二合一平板电脑已开启鸿蒙 HarmonyOS 7.0.0.111SP16 版本升级，带来了 3D 空间壁纸等功能。 IT之家注意到，华为 MatePad Edge 此次更新后，还将预置“融合开发引擎”应用，支持电脑模式下直接运行 Linux 环境。完整更新内容如下： IT之家注：由华为终端开发的融合开发引擎已于今年 4 月登陆华为鸿蒙 PC 电脑端应用市场（App Gallery）应用尝鲜专区，支持运行 Linux 环境。 融合开发引擎是一款轻量级虚拟化开发环境，让 Linux 开发体验像原生应用一样流畅。无需繁琐配置，一键启动，允许开发人员直接运行 Linux 环境（包括大多数命令行工具、应用程序等）。",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +211,7 @@
       "url": "https://www.ithome.com/1/023/596.htm",
       "summary": "IT之家 11 月 6 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼（IT之家注：Sam Altman）最近出席 Raj Shamani 播客时表示，人工智能可能通过两种方式走向失控：一是人类逐步将控制权交给自主式 AI，二是某个人或实体垄断 AI 技术。 针对第一种情况，奥尔特曼警告称：“AI 会逐渐失去控制，我们可能有意或无意地将控制权交给能力远超人类的系统，最终再也无法夺回。” 第二种情况的风险在于巨头垄断，奥尔特曼解释称：“另一种情况是，某个人、公司或国家相对于其他所有人来说过于强大。让多个不同路线的 AI 实验室相互竞争，比所有人依赖一家企业安全得多。” 这种对过度集权的担忧，解释了马斯克以及 OpenAI 的前高管等知名人士会选择离开，创办与之竞争的公司。奥尔特曼指出：“很多人的思维中都会出现…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -234,7 +234,7 @@
       "url": "https://www.ithome.com/1/023/562.htm",
       "summary": "IT之家 11 月 6 日消息，据用户反馈，微信鸿蒙版 App 今晚在华为应用市场（App Gallery）发布了 8.0.23.35 (8394531) 版本邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/11/6-2026/12/6。 和往常一样，本次更新的说明依旧为“修复了一些已知问题”。据用户反馈，8.0.23 版本的微信新增了如下特性： 部分 Flutter 跨端页面（如朋友圈、听一听、表情管理等页面）响应系统字体粗细； 更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐； 发表视频号内容时新增添加标注，视频号已发布的内容点击分享同步新增添加标注； 发现-直播-更多直播新增搜索按钮； 听一听主页面右下角新增小微分支入口浮动按钮，并根据当前页面内容弹出对应提示词，可…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -256,7 +256,7 @@
       "url": "https://www.ithome.com/1/023/560.htm",
       "summary": "IT之家 11 月 6 日消息，据科技媒体 The Verge 今天报道，欧盟委员会表示，TikTok 通过推荐算法制造信息茧房，违反欧盟在线平台相关规定。 欧盟监管机构今日表示，TikTok 的算法可能通过让用户无休止地反复接触与悲伤、孤独或身体形象相关的内容，对用户造成伤害。 该调查结果公布前的几个月，欧盟委员会就认为 TikTok 产品设计过于容易让人上瘾，尽管 TikTok 已经推出相关控制措施，试图减轻算法带来的“信息茧房”效应，但欧盟委员会表示，初步调查结果显示，这些措施并未取得实际效果。 欧盟委员会认为，TikTok 必须调整“为你推荐”页面设计，否则可能面临最高相当于其全球年营业额 6% 的罚款。 自 2023 年出台《数字服务法》（IT之家注：DSA）以来，欧盟已经对 X、Meta、Temu …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -278,7 +278,7 @@
       "url": "https://www.ithome.com/1/023/559.htm",
       "summary": "IT之家 11 月 6 日消息，华为终端今日放出了 2026 年中国金鸡百花电影节宣传片暨开幕短片《完美婚礼》及幕后特辑。 据介绍，短片《完美婚礼》由黄建新监制、章笛沙执导，吴磊、庄达菲等全明星阵容参演，并使用华为 Mate 90 系列手机进行拍摄。 IT之家注意到，这也是华为 Mate 系列手机已连续三年拍摄金鸡百花电影节宣传片。去年的第 38 届中国金鸡百花电影节宣传片暨开幕短片《奔赴光影》由 Mate 80 系列拍摄。《奔赴光影》首播时，华为官方并未公布拍摄机型，直到 Mate 80 系列官宣、预热，短片的拍摄机型才得以揭秘。 IT之家小伙伴记得用最会买购买电影票，享受折扣价的同时还可以获得返利，预计每张票可以节省 5~15 元！",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -300,7 +300,7 @@
       "url": "https://www.ithome.com/1/023/552.htm",
       "summary": "IT之家 11 月 6 日消息，字节旗下 TRAE 宣布，自 2026 年 11 月 18 日起，TRAE 账号将自动升级为豆包飞书账号。 IT之家注：TRAE 是由字节跳动开发并推出的 AI 原生集成开发环境（IDE）工具。10 月 9 日，TraeWork 和 TraeCode 正式合并，融合为全新的 TRAE，升级为全链路开发平台。 TRAE 数据和权益： 使用数据完全保留：代码、项目、历史记录等全部数据； 会员权益完全保留：会员身份、会员享有权益、各类积分； 账号其他能力：同一账号可登录豆包 App、飞书、PICO、火山引擎、豆包输入法等所有豆包飞书账号支持的产品； 头像、昵称：如果您在豆包中设置过头像、昵称，TRAE 将同步更新为豆包资料；如果您尚无豆包飞书账号、或豆包飞书账号使用默认资料，将保留目前…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -322,7 +322,7 @@
       "url": "https://www.ithome.com/1/023/550.htm",
       "summary": "IT之家 11 月 6 日消息，国家市场监督管理总局今日公布 2026 年 10 月 26 日至 11 月 1 日无条件批准经营者集中案件列表。 IT之家注意到，沙特电子游戏控股公司收购沐瞳控股有限公司等两家公司股权案获无条件批准，审结时间为 10 月 29 日。 该批准为中国反垄断审查环节，交易最终交割仍需满足协议约定的其他条件。 此前，字节跳动已与沙特公共投资基金（PIF）旗下 Savvy Games Group 达成最终协议，出售沐瞳科技交易价格超过 60 亿美元（IT之家注：现汇率约合 400.95 亿元人民币）。 沐瞳成立于 2014 年。公司总部位于上海，在新加坡、秘鲁、马来西亚、菲律宾、印尼等地设有分支机构。 字节跳动 2021 年通过其游戏部门“朝夕光年”收购沐瞳，当时估值约 40 亿美元（现汇…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -344,7 +344,7 @@
       "url": "https://www.ithome.com/1/023/546.htm",
       "summary": "IT之家 11 月 6 日消息，国际星闪联盟今日宣布，11 月 6 日，《星闪短距与具身智能技术需求蓝皮书》已在国际星闪联盟官网正式上线。 据介绍，蓝皮书由星闪具身智能 SIG 三十余家核心成员单位（包括中国移动通信有限公司研究院、华为技术有限公司、中兴通讯股份有限公司、鼎桥技术有限公司等）共同编制，聚焦星闪技术与具身智能的融合发展，梳理行业真实技术需求，构建完整的全栈技术与网络架构，进而为产业共建提供指引。 ▲ 《星闪短距与具身智能技术需求蓝皮书》参编单位 蓝皮书明确了星闪三大核心应用场景：单机本体内部互联、多设备协同交互和端‑边‑云协同调度。 ▲ 《星闪短距与具身智能技术需求蓝皮书》| 机器人外部通信 国际星闪联盟官方表示，具身智能的浪潮正在重塑无线短距通信的价值坐标。2026 星闪生态创新展期间，智慧机器…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -366,7 +366,7 @@
       "url": "https://www.ithome.com/1/023/542.htm",
       "summary": "IT之家 11 月 6 日消息，博主 @刹那数码 今日发文透露，苹果 Action Button 操作按钮，将在明年下半年的新款 iPhone 上正式退幕。 博主称，该按键将与相机按钮进行整合 —— 单击进入相机，长按 Action Button 操作。 IT之家注：苹果公司自 2007 年推出初代 iPhone 以来，过去的硬件产品更迭中，始终保留了静音拨片，而在 2023 年发布的 iPhone 15 Pro 系列中，静音拨片退出舞台，改用操作按钮。苹果官方对这项功能的描述如下： 在 iPhone 15 Pro 和 iPhone 15 Pro Max 上，操作按钮取代了响铃 / 静音开关。你可以选取按下操作按钮时想要其执行的功能。由于该按钮触手可及，将其用于经常执行的操作会十分有用。（操作按钮的位置如下所示…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -388,7 +388,7 @@
       "url": "https://www.ithome.com/1/023/539.htm",
       "summary": "IT之家 11 月 6 日消息，据“大厂青年”消息，小米公关部近期组织架构调整，张永生任中国区公关部总经理，曾洋任集团公关部公关媒介部负责人。 IT之家附部分通知原文如下： 一、集团战略市场部 1.集团公关部成立中国区公关部，任命张永生担任中国区公关部总经理，向集团公关部总经理徐洁云和集团高级副总裁、中国区总裁王晓雁双线汇报。 2.任命曾洋担任集团公关部公关媒介部负责人，向集团公关部总经理徐洁云汇报。 公开信息显示，张永生曾是新京报深度调查部副主编，从事调查记者多年；2012 年，进入互联网领域，创立微明互动；后入职阿里巴巴，负责淘宝打假等安全方面的工作；2024 年 8 月，出任 360 集团副总裁，负责市场营销和公关传播工作；2026 年 5 月，以顾问身份加入小米公司，负责除汽车业务外的全部舆情工作。 曾…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -410,7 +410,7 @@
       "url": "https://www.ithome.com/1/023/537.htm",
       "summary": "IT之家 11 月 6 日消息，苹果 Apple Music 古典乐 App 今日发布适用于 iPhone、iPad 的 4.1 版本更新，同步升级 Apple Music 品牌视觉，图标变为黑白。 ▲ 新图标 ▲ 旧图标 Apple Music 古典乐是一款专为古典乐设计的独立 App，包含在 Apple Music 订阅中。 IT之家实测发现，Apple Music 古典乐 App 也同步调整了应用内配色，当前选中的标签页以蓝色主题色突出显示。 相关阅读： 《苹果公布 Apple Music 全新品牌标识，创作灵感来自声音振动、声波实拍》",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -432,7 +432,7 @@
       "url": "https://www.ithome.com/1/023/536.htm",
       "summary": "IT之家 11 月 6 日消息，据多位博主今日分享，问界业务联合团队誓师大会今日在重庆举行。 据称，赛力斯汽车公司董事长、张兴海之子张正萍与华为董事、终端 BG CEO 何刚共同出席了大会的授旗仪式。 参考IT之家此前报道，鸿蒙智行今年 9 月发布声明称，问界将在鸿蒙智行合作框架下探索新合作模式：产品定义、产品设计、品牌营销、渠道零售、服务体系由赛力斯主导，华为终端参与赋能。问界仍然是鸿蒙智行大家庭的成员之一。 今年 10 月，鸿蒙智行官方宣布华为与赛力斯达成新的五年合作。在 9 月 30 日，鸿蒙智行问界业务升级战略合作签约仪式在深圳举行。华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东，赛力斯集团董事长张兴海等出席。",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -454,7 +454,7 @@
       "url": "https://www.ithome.com/1/023/533.htm",
       "summary": "IT之家 11 月 6 日消息，今日宜休科技公司创始人今日发文，称今日宜休鸿蒙版的适配进度落后。不过他透露，华为开发团队特意拉了小群来支持今日宜休。 王腾表示，目前今日宜休在华为手机上卓易通版本已经上线，而纯血鸿蒙版正在开发中。 有网友询问今日宜休准备什么时候接入米家智能？王腾表示：“我们会开放 MCP，各家的 AI 都可以调用。”还有网友询问如果实物到手后尺寸不合适是否可以申请换货？王腾回复称：“7 天无理由退换货。” 据IT之家此前报道，今年 9 月，今日宜休 ISHO 睡眠记录 App 开启内测，首期内测仅支持苹果 iOS，并且需要佩戴苹果 Apple Watch。今年 10 月底，王腾宣布 ISHO App 正式上线，支持睡眠数据查看、精力评分、个性化睡眠建议与生态设备联动。",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -476,7 +476,7 @@
       "url": "https://www.ithome.com/1/023/521.htm",
       "summary": "IT之家 11 月 6 日消息，据 1818 黄金眼近日报道，冷先生在杭州经营一家服装工作室。9 月 18 日苹果新机首发，他抢到 3 台 iPhone 18 Pro Max（均为 1TB 版本，两个黑色、一个红色），随即挂上二手交易平台“闲鱼”。 冷先生表示，他把手机挂上闲鱼后很快有人询问，双方全程通过平台沟通，买家提出“叫人过来取，面交”。这三台苹果手机原价各 16,499 元，卖出价每台 17,250 元，每台赚了 750 元。这名买家当时说，手机是公司用，不是个人买。 冷先生透露，交易当天首先来了个小伙子取手机，称公司财务还没打钱就离开了。后面是一名女生上来取，并通过转账支付 51,750 元。因为是面交，他当时并没有起疑心。 收到钱后的第二天，冷先生接到了银行电话，他的银行卡被冻结。反诈中心还给他银行…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -498,7 +498,29 @@
       "url": "https://www.ithome.com/1/023/476.htm",
       "summary": "IT之家 11 月 6 日消息，据易车消息，北汽星钽 5X 将于 11 月 12 日正式上市。 据IT之家此前报道，北汽星钽 5X 于 10 月 21 日开启预售，共推出 7 款车型，预售价区间 13.99-18.49 万元。 纯电版： 625km 标准版：13.99 万元 625km 乾崑智驾版：15.99 万元 625km 乾崑智驾舒享版：16.99 万元 插混版： 310km 两驱版：14.49 万元 285km 四驱版：15.49 万元 310km 两驱乾崑智驾版：16.49 万元 285km 四驱乾崑智驾版：18.49 万元 据悉，除插混与纯电外，这款车型还提供 2.0T 燃油版（已申报，暂未发布）。这款车型长 4865mm、宽 2000mm、高 1910mm，轴距 2875mm，选装外挂备胎后车长延…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a0a44ed09dc9a1089b4e",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "published": "2026-11-06T08:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -705,6 +727,28 @@
       "report_type": "report"
     },
     {
+      "id": "rss-5f721228af3682c2417b",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "published": "2026-11-06T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-06T21:28:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-7e7066979cf1efea71a1",
       "title": "OpenAI 最强网安 AI 模型：GPT-6 Cyber 登场，性能提高 51%、发现火狐 Firefox 浏览器 81 个新漏洞",
       "published": "2026-11-05T23:22:55Z",
@@ -854,7 +898,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -876,7 +920,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1096,7 +1140,7 @@
       "url": "https://www.ifanr.com/1687989",
       "summary": "触控向左，算力向右 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1273,7 +1317,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1427,7 +1471,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1738,7 +1782,7 @@
       "url": "https://www.ifanr.com/1687805",
       "summary": "机器人是帮助人的，不是替代人的。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1760,7 +1804,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1804,7 +1848,7 @@
       "url": "https://openai.com/ads/customers/flipsnack",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1936,7 +1980,7 @@
       "url": "https://openai.com/index/franklin-templeton",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2113,7 +2157,7 @@
       "url": "https://www.ifanr.com/1687733",
       "summary": "这次你一定要用上 Apple 智能！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2203,7 +2247,7 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2602,7 +2646,7 @@
       "url": "https://www.ifanr.com/1687613",
       "summary": "国产开源模型的竞争白热化时刻 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2624,7 +2668,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2646,7 +2690,7 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2868,7 +2912,7 @@
       "url": "https://openai.com/index/devrev-enterprise-self-service",
       "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2890,7 +2934,7 @@
       "url": "https://openai.com/index/introducing-images-2-6",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3485,7 +3529,7 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3573,7 +3617,7 @@
       "url": "https://openai.com/index/heimstaden",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3595,7 +3639,7 @@
       "url": "https://openai.com/index/cisco-cyber",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4214,7 +4258,7 @@
       "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4412,7 +4456,7 @@
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4434,7 +4478,7 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4478,7 +4522,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4500,7 +4544,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4706,7 +4750,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4948,7 +4992,7 @@
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4970,7 +5014,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-06T15:53:48Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6740,30 +6784,7 @@
       "url": "http://www.geekpark.net/news/373238",
       "summary": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话。现在页面顶部写的是：「Apple 智能的首批核心功能将于今年稍晚推出。」 从 2024 年 6 月在 WWDC 上亮相算起，国行 iPhone 等了整整两年半。 今年 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-06T15:53:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f7d896e08d0b194b6cf4",
-      "title": "苹果 Apple 智能国行版官宣落地：接入阿里千问，11 月 4 日随 iOS 开发者 Beta 版开放测试",
-      "published": "2026-10-30T21:02:33Z",
-      "company": "阿里巴巴",
-      "companies": [
-        "阿里巴巴",
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/020/389.htm",
-      "summary": "IT之家 10 月 31 日消息，苹果今日宣布首批 Apple 智能功能即将在中国推出，并与阿里巴巴达成合作，在部分体验中接入千问。这是 Apple 智能自 2024 年发布以来，国行版本首次获得实质性落地进展。 这一系列 Apple 智能功能将自 11 月 4 日起随最新的 iOS 开发者 Beta 版开放测试，并将于 12 月 iOS 27.3 正式发布时面向中国用户推出。其他平台的支持将在获得必要审批后推出。 根据苹果公布的信息，中国用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。 苹果用户登录千问账户，或通过“通过 Apple 登录”，即可在系统内访问千问，无需跳转至独立应用。阿里巴巴方面此前曾确认，千问的集成范围将延伸至 iOS、iPadOS、macOS 和 visi…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T23:43:31Z",
+      "fetched_at": "2026-11-06T21:28:13Z",
       "kind": "rss",
       "report_type": "report"
     }
