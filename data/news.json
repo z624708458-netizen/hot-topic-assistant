@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-05T23:36:48Z",
-  "last_success_at": "2026-11-05T23:36:48Z",
+  "updated_at": "2026-11-06T06:36:36Z",
+  "last_success_at": "2026-11-06T06:36:36Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 19,
-      "skipped": 41,
-      "last_success_at": "2026-11-05T23:36:48Z",
-      "last_attempt_at": "2026-11-05T23:36:48Z"
+      "accepted": 9,
+      "skipped": 51,
+      "last_success_at": "2026-11-06T06:36:36Z",
+      "last_attempt_at": "2026-11-06T06:36:36Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-11-05T23:36:48Z",
-      "last_attempt_at": "2026-11-05T23:36:48Z"
+      "accepted": 5,
+      "skipped": 15,
+      "last_success_at": "2026-11-06T06:36:36Z",
+      "last_attempt_at": "2026-11-06T06:36:36Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-05T23:36:48Z",
-      "last_attempt_at": "2026-11-05T23:36:48Z"
+      "last_success_at": "2026-11-06T06:36:36Z",
+      "last_attempt_at": "2026-11-06T06:36:36Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1362,
-      "accepted": 22,
-      "skipped": 1340,
-      "last_success_at": "2026-11-05T23:36:48Z",
-      "last_attempt_at": "2026-11-05T23:36:48Z"
+      "feed_items": 1366,
+      "accepted": 25,
+      "skipped": 1341,
+      "last_success_at": "2026-11-06T06:36:36Z",
+      "last_attempt_at": "2026-11-06T06:36:36Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 1,
       "skipped": 29,
-      "last_success_at": "2026-11-05T23:36:48Z",
-      "last_attempt_at": "2026-11-05T23:36:48Z"
+      "last_success_at": "2026-11-06T06:36:36Z",
+      "last_attempt_at": "2026-11-06T06:36:36Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,208 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-bf251d24851392692903",
+      "title": "雷军：小米汽车无忧服务包上线两年，订单量超 75 万份",
+      "published": "2026-11-06T06:35:25Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "雷军"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/319.htm",
+      "summary": "IT之家 11 月 6 日消息，小米创办人，董事长兼 CEO 雷军今日发文宣布，小米汽车无忧服务包上线两年，订单量超 75 万份。 免费喷漆 25.3 万面 免费基础保养 22.3 万次 免费上门补胎 19.1 万次 免费维保取送里程 1224 万公里 + IT之家注意到，雷军还表示，11.11 活动期间锁单现车福利加码，价值 1299 元无忧服务包免费送。 参与条件：11 月 6 日 - 11 月 15 日完成锁单，11 月 30 日 24 点前提车 适用车型：小米汽车全系现车（含澎程 N70 / 小米 YU7 / SU7 / SU7 Ultra） 服务权益：车窗玻璃无忧、免费维保取送、免费上门补胎、免费喷漆、免费车载网络升级",
+      "summary_status": "source",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-99419d15d75501d2ad52",
+      "title": "Caviar 推出“十二星座”版 iPhone Duo，可定制陨石、鳄鱼皮等装饰",
+      "published": "2026-11-06T05:16:47Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/223.htm",
+      "summary": "IT之家 11 月 6 日消息，奢侈定制厂商 Caviar 上月（2026 年 10 月）推出“世界珍宝”（World Treasures）系列后，本月（11 月）再次推出“十二星座”（Zodiac）系列，同样基于苹果首款折叠 iPhone Duo 上改造，将其变为可按星座、材质与工艺自由搭配的奢华收藏品。 Caviar 表示“十二星座”系列并非固定成品，潜在用户可以通过在线配置，先选择十二星座之一，再对边框、后盖、星座图案及中央徽章等部位进行个性化定制。 这里的 Cancer 是指巨蟹座，并非机翻的癌症 这里的 Pisces 是指双鱼座 在材质方面，Caviar 提供银色、镀金以及黑色 PVD 涂层钛金属边框；后盖则可选锻造碳纤维，或小牛皮、蟒蛇皮、鳄鱼皮等多种皮革。星座图案和背景装饰还可加入施华洛世奇水晶、…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5717e07209ca9dfdaf6c",
+      "title": "淘宝 MNN 团队开源 0.3B 手机模型，苹果 iPhone 18 Pro 离线跑出 350 token/s",
+      "published": "2026-11-06T03:50:20Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/212.htm",
+      "summary": "IT之家 11 月 6 日消息，淘宝旗下 MNN 团队今日发布了 MNN-Pocket-0.3B 模型，面向手机应用的任务需求与资源预算，在有限算力、内存和能耗下，兼顾任务能力、响应速度与持续运行体验。 围绕淘宝等综合型手机应用，团队将“手机应用原生大模型”落实为四个维度的设计目标： 速度上，在指定设备与上下文配置下，解码吞吐超过 200token/s。这一目标参考高速云端模型服务的生成吞吐，力求在本地提供流畅的生成体验。 内存上，在指定测试条件下，峰值内存低于 300MB。即使手机拥有 8～16GB 内存，也需要由系统与多个应用共享。以约 500MB 的模型模块预算为例，将推理峰值控制在 300MB 以下，可以为上下文增长和集成开销保留余量。 功耗上，在典型推理负载（输入 512~1024token、输出 1…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9156a61bb4174653e6eb",
+      "title": "苹果 2026 财年 Mac 销量创历史新高，CEO 特努斯称“充分证明其卓越品质”",
+      "published": "2026-11-06T03:45:57Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/210.htm",
+      "summary": "IT之家 11 月 6 日消息，在 11 月 3 日召开的 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）财报电话会议上，苹果新任首席执行官约翰 · 特努斯（John Ternus）宣布 2026 财年（2025 年 9 月 28 日～2026 年 9 月 26 日）Mac 销量创历史新高。 特努斯在会上宣布，苹果在 2026 财年销售的 Mac 数量超过以往任何一个财年，创下公司历史最高纪录。他表示：“我们从没有在一个财年卖出过这么多 Mac，这充分证明了这些产品的卓越品质。” 苹果首席财务官凯文 · 帕雷克（Kevan Parekh）表示，Mac 的销量主要得益于 MacBook Neo 和 MacBook Pro 近期的火爆销售。 科技媒体 MacRumors 解…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-db8e4ab7f6a2ce217226",
+      "title": "F1 CEO 放话：若有机会苹果将在更多市场竞标 F1 赛事直播权",
+      "published": "2026-11-06T03:28:10Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/204.htm",
+      "summary": "IT之家 11 月 6 日消息，科技媒体 9to5Mac 今天（11 月 6 日）发布博文，报道称一级方程式赛事（F1）母公司 Liberty Media 最新财报电话会议上，F1 首席执行官斯特凡诺 · 多梅尼卡利（Stefano Domenicali）表示，苹果与美国 F1 的独家流媒体合作反响积极，一旦其他市场的版权机会出现，苹果预计将参与竞标。 自今年起，苹果已获得 F1 在美国的独家流媒体转播权，所有分站赛均可通过 Apple TV 观看直播和点播。多梅尼卡利明确表示，双方对美国合作感到高兴，并预计苹果会在机会开放时进入更多市场。 不过 F1 并不打算把全球版权交给单一平台。该联盟此前表示，更倾向于在不同地区选择最合适的媒体伙伴，形成组合式授权。 Liberty Media 首席执行官 Derek C…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4920afc0044621d88803",
+      "title": "营收创纪录后苹果拟发 70 亿美元债券，时隔一年半重返债市",
+      "published": "2026-11-06T03:14:04Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/182.htm",
+      "summary": "IT之家 11 月 6 日消息，根据美国证券交易委员会 11 月 5 日披露的初步招股说明书，苹果计划发行七期债券，市场预计融资规模约为 70 亿美元（IT之家注：现汇率约合 467.78 亿元人民币）。 彭博社昨日曾爆料苹果时隔一年半重返债券市场，所得资金将用于回购股票、派发股息等，而目前该消息已得到确认。这将是该公司自 2025 年 5 月融资 45 亿美元（现汇率约合 300.71 亿元人民币）以来首次发行债券，若最终规模达到 70 亿美元（现汇率约合 467.78 亿元人民币），将比上一轮多出 25 亿美元（现汇率约合 167.06 亿元人民币）。 此次拟发行债券包括两只浮动利率票据和五只固定利率票据，到期时间从 2028 年一直延伸至 2036 年。浮动利率票据的利率与担保隔夜融资利率（SOFR）挂钩…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9809ddcf4a672b5e7a21",
+      "title": "首款折叠 iPhone Duo 发售约 2 周后：苹果发起问卷调查，询问折痕、成像质量等核心体验",
+      "published": "2026-11-06T02:55:33Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/165.htm",
+      "summary": "IT之家 11 月 6 日消息，科技媒体 MacRumors 今天（11 月 6 日）发布博文，报道称苹果首款折叠屏手机 iPhone Duo 发售约两周（10 月 23 日发售）后，公司已开始向部分购买者发送电子邮件调查，收集其对新机屏幕尺寸、折痕、屏下摄像头及其他功能的真实反馈。 调查首先询问用户为何选择此时购买 iPhone Duo，可选理由包括“想尝试苹果首款折叠屏手机”“冲动购买”以及“预期智能手机价格将上涨”。 后续问卷围绕外屏尺寸、内屏折痕是否明显、屏下摄像头是否令人分心，以及摄像头成像质量等核心体验展开，最后还设置了开放式问题，邀请用户提出希望增加或改进之处。IT之家附上相关图片如下： 从产品设计看，iPhone Duo 合上后的外屏为 5.4 英寸，尺寸接近此前已停产的 iPhone mini…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a8ed10f140de9da42a43",
+      "title": "苹果首款触控 MacBook Pro 教程：一条终端命令关闭发光 LOGO",
+      "published": "2026-11-06T02:44:55Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/132.htm",
+      "summary": "IT之家 11 月 6 日消息，苹果公司昨日（11 月 5 日）更新支持文档，指出在配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 上，用户可以通过终端（Terminal）命令，彻底关闭 A 面的苹果发光 LOGO。 苹果表示，只要 Mac 处于唤醒状态，内置显示屏背后的苹果 LOGO 就会亮起，其亮度会根据屏幕亮度以及环境光传感器检测到的光线自动调节。在用户感知中，在昏暗房间中这个 LOGO 会更暗，在明亮环境中则会更亮。 开发者和媒体评测还发现，该标志由软件控制，采用 25kHz PWM 调光，并针对每台设备进行校准，系统会依据屏幕与标志亮度的关系，以及不同机身颜色，分别调整发光效果。 IT之家援引博文介绍，如果用户希望彻底关闭发光 Apple 标志，可在“终端”中运行以下命令，并…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bcb37ab5ff256776b3b7",
+      "title": "理想汽车 OTA 9.2.0 开启推送：新增苹果 CarPlay、华为 HiCar、ICCOA Carlink 手车互联",
+      "published": "2026-11-06T02:41:59Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/023/125.htm",
+      "summary": "IT之家 11 月 6 日消息，理想汽车今日发布 OTA 9.2.0 版本，推送车型包含新一代理想 MEGA Home、全新理想 i9 Home、26 年款理想 L9 Livis、全新理想 L8 Livis、26 年款理想 L9 Ultra、全新理想 L8 Ultra、新一代理想 L6 Ultra、2026 款理想 i6。本次更新于今日开启正式推送，预计开始后一周内分批完成推送。 IT之家附主要更新内容如下： 新一代理想 MEGA Home、全新理想 i9 Home 高级辅助驾驶 VLA 驾驶 / 全场景导航辅助驾驶（NOA） 新增校车、水泥搅拌车、市政清洁车的感知与渲染 新增动态换挡能力，三点调头时未完全刹停即可切换挡位，提升调头效率 优化 ETC 通道跟车起步体验，可以踩油门解除速度抑制，提升通行效率 新增…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-7e7066979cf1efea71a1",
       "title": "OpenAI 最强网安 AI 模型：GPT-6 Cyber 登场，性能提高 51%、发现火狐 Firefox 浏览器 81 个新漏洞",
@@ -300,6 +502,50 @@
       "summary": "IT之家 11 月 6 日消息，苹果今日宣布为 Apple Arcade 库新增四款游戏，分别为《Crossy Road Rush》《NBA 2K27 Arcade Edition》《KAMI 2+》和《Food Stylist - Design Game+》。 其中，《NBA 2K27 Arcade Edition》首次在 Arcade 版本中加入 WNBA（美国女子职业篮球联赛）内容。 《Crossy Road Rush》是《Crossy Road》系列的最新作品。玩家需要穿越一座布满障碍的岛屿赛道，在躲避各种障碍、完成挑战的过程中解锁不同角色。游戏支持单人游玩，也支持最多 4 名玩家通过本地或在线多人模式共同游玩。 《NBA 2K27 Arcade Edition》支持 iPhone、iPad、Mac 和…",
       "summary_status": "excerpt",
       "fetched_at": "2026-11-05T23:36:48Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bbd492caba72ca544b8b",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "published": "2026-11-05T20:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-616c68177b707eae60eb",
+      "title": "Australian universities are creating AI-native graduates",
+      "published": "2026-11-05T17:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -519,7 +765,7 @@
       "url": "https://www.ifanr.com/1687989",
       "summary": "触控向左，算力向右 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -696,7 +942,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -850,7 +1096,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1161,7 +1407,7 @@
       "url": "https://www.ifanr.com/1687805",
       "summary": "机器人是帮助人的，不是替代人的。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1183,7 +1429,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1206,6 +1452,28 @@
       "summary": "IT之家 11 月 5 日消息，苹果昨日（11 月 4 日）发布博文，宣布将于 2026 年 11 月 13 日星期五全球首播《史努比特辑：史努比的 12 天》（Snoopy Presents: 12 Days of Snoopy）圣诞特辑。 IT之家援引博文介绍，本片延续“史努比特辑”系列的温暖喜剧风格：花生漫画的孩子们都在为圣诞节努力表现，唯独史努比意外登上了圣诞老人的“淘气名单”。距离圣诞节仅剩 12 天，史努比决定用实际行动证明自己并不坏，并在过程中重新理解节日真正的意义。 音乐阵容是本片的重要看点。节目由艾美奖提名作曲家杰夫 · 莫罗配乐，并邀请多位知名音乐人参与原创曲目：EGOT 得主约翰 · 传奇献唱《Get Ready》，由拉斐尔 · 萨迪克制作；格莱美奖得主卡马西 · 华盛顿与莱昂 · 布里奇…",
       "summary_status": "excerpt",
       "fetched_at": "2026-11-05T00:53:23Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2d1d326185a62641bed0",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "published": "2026-11-05T00:45:15Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1318,6 +1586,28 @@
       "fetched_at": "2026-11-05T00:53:23Z",
       "kind": "rss",
       "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-a8e215d1c3fca63aee0f",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "published": "2026-11-05T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/franklin-templeton",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-06T06:36:36Z",
+      "kind": "rss",
+      "report_type": "report"
     },
     {
       "id": "rss-2c012c443315f5a07d28",
@@ -1492,7 +1782,7 @@
       "url": "https://www.ifanr.com/1687733",
       "summary": "这次你一定要用上 Apple 智能！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1582,7 +1872,7 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1981,7 +2271,7 @@
       "url": "https://www.ifanr.com/1687613",
       "summary": "国产开源模型的竞争白热化时刻 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2003,7 +2293,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2025,7 +2315,7 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2047,7 +2337,7 @@
       "url": "https://www.ifanr.com/1687585",
       "summary": "后来者总有机会。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2247,7 +2537,7 @@
       "url": "https://openai.com/index/devrev-enterprise-self-service",
       "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2269,7 +2559,7 @@
       "url": "https://openai.com/index/introducing-images-2-6",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2864,7 +3154,7 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2952,7 +3242,7 @@
       "url": "https://openai.com/index/heimstaden",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2974,7 +3264,7 @@
       "url": "https://openai.com/index/cisco-cyber",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3593,7 +3883,7 @@
       "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3791,7 +4081,7 @@
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3813,7 +4103,7 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3857,7 +4147,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3879,7 +4169,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4085,7 +4375,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4327,7 +4617,7 @@
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4349,7 +4639,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6119,7 +6409,7 @@
       "url": "http://www.geekpark.net/news/373238",
       "summary": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。9 月 iPhone 18 和 iPhone Duo 发布时，国行产品页上 Apple 智能后面跟着的是一句「推出时间依监管部门审批情况而定」，到这周新款 MacBook Pro 发布，国行页面还是这句话。现在页面顶部写的是：「Apple 智能的首批核心功能将于今年稍晚推出。」 从 2024 年 6 月在 WWDC 上亮相算起，国行 iPhone 等了整整两年半。 今年 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6627,7 +6917,7 @@
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6649,253 +6939,7 @@
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
       "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
       "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7f39acaa5d71706f47cd",
-      "title": "QQ 鸿蒙版 App 获 9.2.80 邀测升级，新增支持简洁模式",
-      "published": "2026-10-30T03:26:23Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/969.htm",
-      "summary": "IT之家 10 月 30 日消息，QQ 鸿蒙版 App 今日在华为应用市场（App Gallery）开启 9.2.80 (3570) 版本邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/10/30-2026/11/20。 IT之家附 QQ 鸿蒙版 App 本次测试版本新特性如下： 空间说说新增查看浏览量 群通知体验升级 纯文本消息支持部分选中 空间相册新增支持 AI 修复 群禁言支持定时和单独成员禁言 聊天新增支持号码识别 QQ 群文件功能体验优化 新增支持简洁模式 目前 QQ 鸿蒙版获 5 万个评分（评分 2.4），已支持单聊、群聊、多人语音或视频通话、抢红包，刷空间好友动态、短视频、频道、扫一扫、手机 / 平板双端登录等功能。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-73155d72bc6c72a96677",
-      "title": "苹果 CarPlay 现接入 Claude，用户开车也能语音问 AI",
-      "published": "2026-10-30T03:19:48Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/966.htm",
-      "summary": "IT之家 10 月 30 日消息，Anthropic 官方 @claudeai 账号昨日（10 月 29 日）在 X 平台发布系列推文，宣布升级其移动应用，覆盖 iPhone、iPad、Android、Chromebook 及网页与桌面端。 其中最受关注的是 iPhone 版 Claude 的语音模式现已支持 Apple CarPlay，用户无需双手离开方向盘，可在驾驶途中直接向 Claude 提问。IT之家附上相关截图如下： Anthropic 还预告，iPhone 和 iPad 端即将支持下拉搜索功能，用户可快速查找历史对话或项目、跳转设置，并直接在搜索结果中操作对话。 在 iPad 和 iPhone Duo 上，Claude 生成的内容不再覆盖聊天窗口，可以实现并排展示，需要细看时，用户可将其切换为全屏。…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c48dbe11a29772aa58e2",
-      "title": "马斯克旗下脑机公司 Neuralink 新突破：渐冻症患者植入首周实现每分钟 75 词输出，接近正常对话",
-      "published": "2026-10-30T03:07:28Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/960.htm",
-      "summary": "IT之家 10 月 30 日消息，全球首富埃隆 · 马斯克旗下脑机接口公司 Neuralink 于 10 月 28 日发布博文，公开语音恢复项目 VOICE 的早期可行性研究，让肌萎缩侧索硬化症（ALS，俗称“渐冻症”）参与者以接近对话的速度，将大脑信号转换为文字和语音输出。 IT之家援引推文介绍，一名参与者在使用的第一周即达到每分钟 75 个单词（WPM）的输出速度；在 12.5 万词的大词库下，词错误率（WER）为 5.8%，即大约每 17 个词中有 1 个出错。 公司表示，研究负责人 Nader Pouratian 博士已在 2026 年 NEALS 年会上介绍相关数据；该研究计划招募约 6 名因 ALS、脊髓损伤或中风等原因失去沟通能力的参与者，首要评估指标为植入后 12 个月内的设备或手术相关不良事件…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-57f18b116da9aafde025",
-      "title": "欣旺达：小米全资子公司拟 17 亿元增资欣旺达动力，持股 5.34%",
-      "published": "2026-10-30T03:01:47Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/959.htm",
-      "summary": "IT之家 10 月 30 日消息，欣旺达昨晚公告，欣旺达电子股份有限公司（以下简称“欣旺达”）子公司欣旺达动力引入小米科技有限责任公司全资子公司瀚星创业投资有限公司（以下简称“小米”）作为股东。 小米出资 17 亿元人民币向欣旺达动力增资，认购欣旺达动力 89,780.5204 万元新增注册资本，对应本次增资完成后欣旺达动力 5.34% 的股份。 同时欣旺达动力将进行董事会换届选举，本次增资扩股及选举完成后，欣旺达在欣旺达动力的董事会席位将不超过半数。欣旺达将不再对欣旺达动力拥有控制权，欣旺达动力将由控股子公司变为参股子公司。 据IT之家此前报道，9 月 4 日，小米举行龙甲电池战略合作发布会，该款产品由小米联合中创新航和欣旺达打造。小米一同推出“小米龙甲电池安心保障计划”： 电池自燃终身保障，因原厂电池质量原…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b0ad377616040bb03b43",
-      "title": "酷态科推出 15 号电能基站“万象屏套装”：首次支持华为 66W 有线快充，单体版 329 元、套装版 399 元",
-      "published": "2026-10-30T02:48:53Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/957.htm",
-      "summary": "IT之家 10 月 30 日消息，酷态科今日宣布推出 15 号电能基站“万象屏套装”，将于今日 20:00 开售。其中单体版售价 329 元、套装版售价 399 元。 据介绍，该产品首次支持华为 66W 有线超级快充，兼容小米 120W 澎湃秒充、苹果 AVS 动态快充等多种主流快充协议。 该产品拥有 4AC 插口（2500W Max）和 3C+1A 接口，其中 C1/C2 接口单口可达 140W；采用磁吸 Pogo Pin 模块化设计；拥有 2.8 英寸多能万象屏，可显示充电数据 / 生活信息。官方暂未公布详细参数。 IT之家获悉，这款新品已接入米家 App，支持小米澎湃智联，还支持 OTA 端云持续升级。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-6a51c13248c0f389b430",
-      "title": "小米米家车载吸尘器便携版开售：20000Pa 大吸力，售价 269 元",
-      "published": "2026-10-30T02:22:10Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/909.htm",
-      "summary": "IT之家 10 月 30 日消息，小米米家车载吸尘器便携版已开售，售价 269 元，此前众筹价为 189 元。作为一款主打“强劲吸净、折叠随行”的车载清洁新品，该产品凭借 20000Pa 大吸力、轻巧折叠机身与丰富配件，瞄准车内及日常多场景清洁需求。 IT之家注意到，米家车载吸尘器便携版搭载转速高达 150000 转 / 分钟的 35mm 高速无刷电机，在纤巧机身内迸发澎湃动力，可提供 20000Pa 大吸力。 新品采用机身折叠设计，整机重量仅 446g，单手可轻松握持，减轻长时间清洁的手部负担；折叠后体积更加紧凑，日常收纳不占空间。机身展开后呈现纤长形态，握持顺手，清理车内座椅底部、后备箱等低处积尘区域无需弯腰，轻吸即净。 产品内置 3 节 2500mAh 大容量锂电池，满电状态下节能挡续航可达 40 分钟，…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2f3632d98e938a99450e",
-      "title": "OpenAI 更新 AI 模型规范，将忠于人类意图作为核心准则",
-      "published": "2026-10-30T02:16:46Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/898.htm",
-      "summary": "IT之家 10 月 30 日消息，OpenAI 于当地时间周四更新了其模型规范（Model Spec）文档，这是一份用于明确其 AI 模型行为准则的公开路线图。随着 AI 系统能力持续增强，OpenAI 围绕五大核心价值对该框架进行了重构。 OpenAI 将模型规范重新归纳为五项准则：忠于人类意图、降低伤害、诚实透明、保障人的自主选择权、审慎尽责。 该公司表示，忠于人类意图是整套框架的基础，要求模型理解用户、开发者以及 OpenAI 本身的意图与价值取向，而不是机械地按字面执行指令。 OpenAI 称，本次更新属于 AI 对齐工作的一环，目的是让模型在陌生场景下践行人类价值观，同时始终接受人类监督。 修订后的框架提出，模型应当尽可能减少危害，如实说明自身知道和不知道的内容，辅助用户自主做决定、追寻自身目标。 公…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-748a6c0145ded6a95bbb",
-      "title": "腾讯云：全球已部署超 200 万台服务器",
-      "published": "2026-10-30T02:16:12Z",
-      "company": "腾讯",
-      "companies": [
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/896.htm",
-      "summary": "IT之家 10 月 30 日消息，在昨日（29 日）举行的腾讯全球数字生态大会上，腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生表示，会加快全球数据中心建设。 据介绍，腾讯云海外开区速度长期保持行业领先，全球已部署超过 200 万台服务器。 IT之家获悉，过去一年，腾讯云在法兰克福、马来西亚、墨西哥、大阪、利雅得和泰国，新增或扩容了数据中心。未来一年，腾讯云还将进一步拓展亚洲、中东、欧洲和美洲的布局。 官方表示，面对存储成本的上涨，腾讯云为许多客户设计分层存储方案；当前 COS 磁带存储累计超 2000PB，帮助全球客户低成本归档“极冷数据”。 对于拥有自己数据中心，并要从虚拟化技术升级到云原生基座的客户，专有云 TCE 最小部署规模，从 14 台降到 8 台，进一步降低部署门槛与成本。",
-      "summary_status": "source",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-f7d451be2a6757568f43",
-      "title": "小米澎湃 OS 4 第二批正式版开启推送，覆盖小米 17 Max、17T 系列等机型",
-      "published": "2026-10-30T02:11:45Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/019/891.htm",
-      "summary": "IT之家 10 月 30 日消息，小米澎湃 OS 官方宣布，小米澎湃 OS 4 正式版覆盖更多机型，本次升级覆盖机型将从即日起开始陆续推送。 手机 Xiaomi 17 Max Xiaomi 17T Pro Xiaomi 17T REDMI K90 Max REDMI K90 至尊版 REDMI Turbo 5 Max REDMI Turbo 5 平板 REDMI K Pad 2 电视 小米电视 S Pro Mini LED 2026 系列 小米电视 S Pro Mini LED 2025 系列 小米电视 S Mini LED 2026 至尊版系列 小米电视 S Mini LED 2026 系列 小米澎湃 OS 4 是小米新一代操作系统，在 AI 能力、跨设备协同和基础流畅度方面实现全面升级，融合了超级小爱 2.…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-10-30T05:42:21Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c99aa2c0e6028b489757",
-      "title": "刚刚，ChatGPT Pro 额度官宣翻倍，但免费重置可能要没了",
-      "published": "2026-10-30T00:29:45Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1686830",
-      "summary": "Plus 用户：为我发声 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-02T23:28:39Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-574dbaf7fc8731e40575",
-      "title": "Fair use benefits everyone",
-      "published": "2026-10-30T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
+      "fetched_at": "2026-11-06T06:36:36Z",
       "kind": "rss",
       "report_type": "report"
     }
