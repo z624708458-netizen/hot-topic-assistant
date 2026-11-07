@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-07T16:24:14Z",
-  "last_success_at": "2026-11-07T16:24:14Z",
+  "updated_at": "2026-11-07T21:46:47Z",
+  "last_success_at": "2026-11-07T21:46:47Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 14,
       "skipped": 46,
-      "last_success_at": "2026-11-07T16:24:14Z",
-      "last_attempt_at": "2026-11-07T16:24:14Z"
+      "last_success_at": "2026-11-07T21:46:47Z",
+      "last_attempt_at": "2026-11-07T21:46:47Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 3,
       "skipped": 17,
-      "last_success_at": "2026-11-07T16:24:14Z",
-      "last_attempt_at": "2026-11-07T16:24:14Z"
+      "last_success_at": "2026-11-07T21:46:47Z",
+      "last_attempt_at": "2026-11-07T21:46:47Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-07T16:24:14Z",
-      "last_attempt_at": "2026-11-07T16:24:14Z"
+      "last_success_at": "2026-11-07T21:46:47Z",
+      "last_attempt_at": "2026-11-07T21:46:47Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1368,
       "accepted": 25,
       "skipped": 1343,
-      "last_success_at": "2026-11-07T16:24:14Z",
-      "last_attempt_at": "2026-11-07T16:24:14Z"
+      "last_success_at": "2026-11-07T21:46:47Z",
+      "last_attempt_at": "2026-11-07T21:46:47Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 1,
       "skipped": 29,
-      "last_success_at": "2026-11-07T16:24:14Z",
-      "last_attempt_at": "2026-11-07T16:24:14Z"
+      "last_success_at": "2026-11-07T21:46:47Z",
+      "last_attempt_at": "2026-11-07T21:46:47Z"
     }
   ],
   "disabled_sources": [
@@ -190,7 +190,7 @@
       "url": "https://www.ithome.com/1/023/828.htm",
       "summary": "IT之家 11 月 7 日消息，B站网友 @0x535A 发布视频，分享了自己的最新刷机成果 —— 为一台苹果 MacBook Pro 成功刷入了鸿蒙 HarmonyOS 6 系统，实现在 Mac 物理机上把鸿蒙系统跑了起来。 视频画面显示，这台苹果 MacBook Pro 刷入的是鸿蒙 HarmonyOS 6 系统，机型显示为华为擎云 L410，应用小窗、全屏等功能正常。网友表示，还有很多问题没有解决，但嫁接 Linux 内核是非常好做法。 据IT之家此前报道，今年 10 月，陆续有网友为第三方设备刷入了华为鸿蒙 HarmonyOS 系统，包括一台一加 Ace 5 和一台小米平板 6S Pro。此外，本月初，还有网友成功将华为二合一平板电脑 —— MateBook E Go 2023 刷入了 iOS 16 系…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -216,7 +216,7 @@
       "url": "https://www.ithome.com/1/023/822.htm",
       "summary": "IT之家 11 月 7 日消息，据 RT今日俄罗斯报道，当地时间 11 月 6 日，特斯拉 CEO 埃隆 · 马斯克接受投资者罗恩 · 巴伦采访时表示，他热爱中国，并高度评价中国汽车工业的竞争力。 “中国令人惊叹。顺便说一句，我爱中国。去那里旅行令人深受鼓舞，”马斯克在采访中说。他同时指出，在上海生产的特斯拉 Model Y 是中国最畅销的电动汽车，但强调实现这一成绩“并不容易”。 马斯克特别补充道：“中国汽车公司非常厉害。” 据IT之家此前报道，今年 9 月，马斯克接受了央视财经专访。当谈及 AI，他表示中国的 AI 大模型整体而言非常出色，单位算力产出的性能几乎全球顶尖。他认为，中国解决算力问题的速度会比大多数人预想更快。粗略估计，大概两到三年内，中国就能依靠光刻技术与芯片制造补齐算力缺口。 图源：Pexe…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -238,7 +238,7 @@
       "url": "https://www.ithome.com/1/023/818.htm",
       "summary": "IT之家 11 月 7 日消息，据美联社报道，欧盟初步调查结果显示，TikTok 违反了其《数字服务法》，称其算法向用户不间断推荐个性化视频流，其中包含欧盟认为可能损害心理健康与身材形象的内容。 欧盟委员会于当地时间周五表示，TikTok 必须更改其“为你推荐”（For You）信息流的算法设计，让用户在拒绝接收特定内容时拥有更多自主控制权。 监管机构表示，该平台未能评估其推荐机制如何诱使用户陷入危害身心健康的“兔子洞效应”（rabbit holes）。即便某些视频容易诱发负面心理反应（例如有关节食减肥或心理困境的内容），算法仍会基于用户此前的浏览与点赞记录持续推送同类片段。 TikTok 坚决否认相关指控，称欧盟委员会的调查结果“从根本上失实，歪曲了我们平台的架构以及我们对用户安全的承诺”。 TikTok 在…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -261,7 +261,7 @@
       "url": "https://www.ithome.com/1/023/806.htm",
       "summary": "IT之家 11 月 7 日消息，据用户反馈，微信鸿蒙版 App 今晚在华为应用市场（App Gallery）发布了 8.0.23.36 (8394532) 版本邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/11/7-2026/12/7。 和往常一样，本次更新的说明依旧为“修复了一些已知问题”。据博主 @伤心萨摩耶Ciuciu ，8.0.23 版本的微信新增了如下特性： 部分 Flutter 跨端页面（如朋友圈、听一听、表情管理等页面）响应系统字体粗细； 更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐； 发表视频号内容时新增添加标注，视频号已发布的内容点击分享同步新增添加标注； 发现 > 直播 > 更多直播新增搜索按钮； 听一听主页面右下角新增小微分支入口浮动按钮，并根…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -283,7 +283,7 @@
       "url": "https://www.ithome.com/1/023/798.htm",
       "summary": "IT之家 11 月 7 日消息，长期关注国内手机市场份额的数码博主 @RD观测 今日曝光了苹果 iPhone Duo 折叠屏手机的首周销量数据，10 月 19 日-10 月 25 日期间合计约 12.46 万台。 需要注意的是，苹果 iPhone Duo 是在 10 月 23 日开售，因此该数据仅包含了 23 日、24 日和 25 日的销量数据。该机型首销期（首销日 + 后三天）销量接近 20 万台。 据IT之家此前报道，苹果在 2026 年秋季发布会上发布了旗下首款折叠屏手机 iPhone Duo，10 月 23 日正式发售，售价 15,999 元起。 iPhone Duo 采用可折叠设计，配备了苹果迄今面积最大的 iPhone 显示屏。展开状态下，它是迄今最薄的 iPhone，内置显示屏面积比 iPhone…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -305,7 +305,7 @@
       "url": "https://www.ithome.com/1/023/796.htm",
       "summary": "IT之家 11 月 7 日消息，全新红旗 H9 今天起正式开启预售，新车共推出 4 款配置，预售先享价 32.98 万-41.98 万元。新车全系标配鸿蒙座舱、华为乾崑 ADS 5 高阶版智能辅助驾驶、896 线双光路图像级激光雷达等配置，配有 62L 油箱、2.0T 混动发动机、800V 高压碳化硅平台及 40.4 度三元锂电池。 IT之家汇总新车主要信息如下： 豪华 MAX：32.98 万元 尊贵 Ultra：35.98 万元 旗舰 Ultra：38.98 万元 四驱旗舰 Ultimate：41.98 万元 新车定位 C+ 级智慧豪华旗舰轿车，搭载华为乾崑智驾 ADS 5 高阶版与鸿蒙座舱 HarmonySpace，标配 896 线双光路图像级激光雷达，全车配备 40 颗高感知传感器。据官方数据，该系统可在…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -327,7 +327,7 @@
       "url": "https://www.ithome.com/1/023/795.htm",
       "summary": "IT之家 11 月 7 日消息，特斯拉 CEO 埃隆 · 马斯克昨天（6 日）宣布，公司计划在 2027 年年中左右逐步停产 Cybertruck。这款造型前卫、采用不锈钢车身的纯电皮卡，从发布会上车窗意外开裂开始便风波不断，最终将在上市仅三年半后告别市场。 Cybertruck 从首次亮相到正式交付花了四年时间，但到明年停产时，实际销售时间却只有三年半。 路透社今天（7 日）发表的文章回顾了 Cybertruck 的发展历程。其中指出，有五件事尤其值得关注： 发布当天，车窗就被砸裂 2019 年 11 月 21 日，马斯克在加州霍桑的特斯拉设计工作室首次发布 Cybertruck。 为了证明车窗玻璃不会碎裂，马斯克安排了金属球撞击测试，没想到两块车窗玻璃都被砸出了裂纹，现场演示的视频迅速在网上疯传。 马斯克事…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -353,7 +353,7 @@
       "url": "https://www.ithome.com/1/023/792.htm",
       "summary": "IT之家 11 月 7 日消息，据《商业内幕》今天（7 日）凌晨报道，马斯克经常聘请的知名律师、昆鹰律师事务所纽约办公室合伙人亚历克斯 · 斯皮罗认为，AI 有望大幅精简法律行业的冗余诉讼程序，让更多案件迅速和解，或直接走上法庭。 斯皮罗指出，AI 工具可以帮助律师更快判断一起案件是否值得打官司。“我认为，AI 能省去许多工作中不必要的环节，连我的工作也不例外。省掉这些环节，就能更快查清事实、梳理信息。有了这些信息，我们就能尽早判断，案件究竟应该和解，还是坚持打到底。” 斯皮罗曾为演员亚历克 · 鲍德温、说唱歌手 Jay-Z、新英格兰爱国者队老板罗伯特 · 克拉夫特，以及前纽约市长埃里克 · 亚当斯担任代理律师。 他认为，AI 有望减少案件长期陷入诉讼、耗费大量时间和金钱的情况，“或许大量繁琐的中间程序都会被省…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -376,7 +376,7 @@
       "url": "https://www.ithome.com/1/023/790.htm",
       "summary": "IT之家 11 月 7 日消息，百度地图官方今日宣布，鸿蒙专属室内导航功能上新。 据介绍，百度地图鸿蒙专属室内导航功能基于华为星迹定位技术，可从进商场到找店铺，精准定位目的地；首批上线全国 22 个城市、覆盖 106 家大型商业体 / 热门商场；支持自动切换楼层，找入口、坐电梯，室内室外不切换。 据IT之家此前报道，今年 10 月 12 日，在华为终端创新技术沟通会，华为终端 BG CTO、华为终端 BG 硬件工程与产品开发管理部部长李小龙分享了华为星迹定位技术的核心亮点。 随着隧道、跑步、地库、滑雪、室内、高架 / 运动场等场景的拓展，李小龙表示，传统定位技术已无法满足消费者复杂场景需求，因此华为首发了星迹定位技术。 针对高架行驶时没有高精度导航无法及时变道这一痛点，华为采用海思短距芯片 + GNSS 载波相…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -398,7 +398,7 @@
       "url": "https://www.ithome.com/1/023/780.htm",
       "summary": "IT之家 11 月 7 日消息，华为畅享 100 系列手机于 10 月 28 日发布，10 月 31 日 10:08 首销，售价 1399 元起。 ▲ 华为畅享 100 Pro Max 博主 @RD观测 今日曝光了系列新机的首销情况，以首销当日（10:08 开售）+ 后三天为标准，华为畅享 100 系列的总量约 215K（21.5 万）。 其中： 华为畅享 100 Pro Max 约占 60% 华为畅享 100 Pro 约占 10% 华为畅享 100 约占 30% PS：第三方数据源，仅供参考。 IT之家附新机主要参数如下： 相关阅读： 《华为畅享 100 手机发布：搭载麒麟 8000S 芯片，1399 元起》 《华为畅享 100 Pro 手机发布：定位“轻盈小直屏”、麒麟 8020A 加持，1799-2699…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -421,7 +421,7 @@
       "url": "https://www.ithome.com/1/023/768.htm",
       "summary": "IT之家 11 月 7 日消息，华为在海外推出了 FreeBuds SE 5 MAX 无线耳机，主打 80 小时综合续航、52dB 多模降噪和高解析度音频。 据介绍，华为 FreeBuds SE 5 MAX 无线耳机采用全新赛道椭圆形设计，耳机舱将磨砂哑光质感与通透外壳进行了结合。耳机本体单耳仅重 4.3g，提供 S / M / L 三种尺寸硅胶耳塞可选，方便不同用户佩戴。耳机拥有蓝、黑、白三色可选。 这款无线耳机单耳拥有 41mAh 电池，充电舱还有 920mAh 电池（使用 USB Type-C 有线充电），宣称一次充电最多可听 10 小时，搭配充电盒使用最长可实现 80 小时续航，辅以快充技术支持充电 10 分钟，听歌 4 小时。 华为 FreeBuds SE 5 MAX 无线耳机还支持主动降噪，最大降噪…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -444,7 +444,7 @@
       "url": "https://www.ithome.com/1/023/767.htm",
       "summary": "IT之家 11 月 7 日消息，当地时间 11 月 4 日，苹果研究团队在预印本平台 arXiv 提交论文《Perceptive Humanoid Motion from Simulation》，披露了人形机器人自主控制系统 HALO。 研究团队还公开了数据生成、模型训练和部署代码，涵盖动作生成、动作跟踪、任务编排以及仿真和真实机器人运行等环节。 在落地阶段，研究团队采用宇树科技 G1 人形机器人，背部加装了专用 3D 打印保护外壳，内置一台 Mac mini（M4 Pro 芯片，64GB 统一内存），Mac mini 负责在机载端实时推理计算开销较大的 Orchestrator（VLM）与 Motion Generator（DiT）；G1 自带的板载芯片则专注高频运行 Tracker（RL 策略网络）。 执行…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -466,7 +466,7 @@
       "url": "https://www.ithome.com/1/023/760.htm",
       "summary": "IT之家 11 月 7 日消息，小米员工昨日在小米社区发布了澎湃 HyperOS 4 近期的修复进展汇总。据介绍，修复将随后续版本推送逐步生效，具体时间因机型及应用版本不同，以实际更新为准。其中提到，Xiaomi 17 系列手机多个问题优化。 ▲ IT之家开箱：小米 17 Pro / Pro Max 手机图赏 IT之家附小米澎湃 HyperOS 4 系统最新优化进展如下： Xiaomi 17 Pro Max 4.0.5.0 版本部分场景下自动任务执行异常的问题 Xiaomi 17 Pro Max 4.0.4.0 版本部分场景下小米视频横屏播放显示异常的问题 Xiaomi 17 Pro Max 4.0.4.0 版本部分场景下全局搜索界面显示异常的问题 Xiaomi 17 Pro Max 4.0.4.0 版本部分场…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -488,7 +488,7 @@
       "url": "https://www.ithome.com/1/023/755.htm",
       "summary": "IT之家 11 月 7 日消息，华为官网最新信息显示，鸿蒙 HarmonyOS 7 系统更多机型从花粉 Beta 转为公测，覆盖 nova 12 / 13 系列、畅享 70X、MatePad Pro 13.2 英寸 2023 系列等。 IT之家附华为鸿蒙 HarmonyOS 7 最新适配机型清单如下： 正式版 HUAWEI Mate 80 系列 HUAWEI Mate 70 系列 HUAWEI Mate 60 系列 HUAWEI Mate X7 系列 HUAWEI Mate X6 系列 HUAWEI Mate X5 系列 HUAWEI Mate XTs 非凡大师 HUAWEI Mate XT 非凡大师 HUAWEI Pura 90 系列 HUAWEI Pura 80 系列 HUAWEI Pura 70 系列 H…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -756,7 +756,7 @@
       "url": "http://www.geekpark.net/news/373643",
       "summary": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1315,7 +1315,7 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1539,7 +1539,7 @@
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1693,7 +1693,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1715,7 +1715,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1935,7 +1935,7 @@
       "url": "https://www.ifanr.com/1687989",
       "summary": "触控向左，算力向右 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2112,7 +2112,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2266,7 +2266,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2577,7 +2577,7 @@
       "url": "https://www.ifanr.com/1687805",
       "summary": "机器人是帮助人的，不是替代人的。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2599,7 +2599,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2643,7 +2643,7 @@
       "url": "https://openai.com/ads/customers/flipsnack",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2775,7 +2775,7 @@
       "url": "https://openai.com/index/franklin-templeton",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2952,7 +2952,7 @@
       "url": "https://www.ifanr.com/1687733",
       "summary": "这次你一定要用上 Apple 智能！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3042,7 +3042,7 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3463,7 +3463,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3485,7 +3485,7 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3707,7 +3707,7 @@
       "url": "https://openai.com/index/devrev-enterprise-self-service",
       "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3729,7 +3729,7 @@
       "url": "https://openai.com/index/introducing-images-2-6",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4324,7 +4324,7 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4412,7 +4412,7 @@
       "url": "https://openai.com/index/heimstaden",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4434,7 +4434,7 @@
       "url": "https://openai.com/index/cisco-cyber",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5053,7 +5053,7 @@
       "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5251,7 +5251,7 @@
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5273,7 +5273,7 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5317,7 +5317,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5339,7 +5339,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5545,7 +5545,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5787,7 +5787,7 @@
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5809,7 +5809,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-07T16:24:14Z",
+      "fetched_at": "2026-11-07T21:46:47Z",
       "kind": "rss",
       "report_type": "report"
     },
