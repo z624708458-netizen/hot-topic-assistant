@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-06T21:28:19.349Z",
+  "generated_at": "2026-11-07T01:53:53.766Z",
   "date_china": "2026-11-07",
   "period": "48h",
   "scoring": "transparent-keyword-rules-v3",
@@ -12,6 +12,6 @@
     "maxPerSource": 2
   },
   "selection_explanation": "仅推荐≥60分且标题停留判断不低于中等的候选；同公司最多2条，同一媒体最多2条；不足5条不补编。",
-  "source_updated_at": "2026-11-06T21:28:13Z",
+  "source_updated_at": "2026-11-07T01:53:49Z",
   "top5": []
 }
