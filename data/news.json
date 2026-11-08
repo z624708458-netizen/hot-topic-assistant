@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-08T16:38:58Z",
-  "last_success_at": "2026-11-08T16:38:58Z",
+  "updated_at": "2026-11-08T21:59:36Z",
+  "last_success_at": "2026-11-08T21:59:36Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 10,
       "skipped": 50,
-      "last_success_at": "2026-11-08T16:38:58Z",
-      "last_attempt_at": "2026-11-08T16:38:58Z"
+      "last_success_at": "2026-11-08T21:59:36Z",
+      "last_attempt_at": "2026-11-08T21:59:36Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 3,
       "skipped": 17,
-      "last_success_at": "2026-11-08T16:38:58Z",
-      "last_attempt_at": "2026-11-08T16:38:58Z"
+      "last_success_at": "2026-11-08T21:59:36Z",
+      "last_attempt_at": "2026-11-08T21:59:36Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-08T16:38:58Z",
-      "last_attempt_at": "2026-11-08T16:38:58Z"
+      "last_success_at": "2026-11-08T21:59:36Z",
+      "last_attempt_at": "2026-11-08T21:59:36Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1368,
       "accepted": 25,
       "skipped": 1343,
-      "last_success_at": "2026-11-08T16:38:58Z",
-      "last_attempt_at": "2026-11-08T16:38:58Z"
+      "last_success_at": "2026-11-08T21:59:36Z",
+      "last_attempt_at": "2026-11-08T21:59:36Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 1,
       "skipped": 29,
-      "last_success_at": "2026-11-08T16:38:58Z",
-      "last_attempt_at": "2026-11-08T16:38:58Z"
+      "last_success_at": "2026-11-08T21:59:36Z",
+      "last_attempt_at": "2026-11-08T21:59:36Z"
     }
   ],
   "disabled_sources": [
@@ -189,7 +189,7 @@
       "url": "https://www.ithome.com/1/024/014.htm",
       "summary": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今晚更新的《Power On》时事通讯中爆料，曾主导 Vision Pro 头显开发、同时负责新版 Siri AI 项目的迈克 · 罗克韦尔，仍在认真考虑离开现有岗位。 古尔曼披露，罗克韦尔或将于明年卸任 Siri 工程副总裁，甚至彻底离开苹果。新版 Siri 跳票了两年才得以上市，考虑到罗克韦尔在其中发挥的作用，他的离开将给苹果造成重大损失。 IT之家获悉，如果罗克韦尔最终离职，或在苹果内部转任其他岗位，更多工作预计将交给两名高管：去年从谷歌加入苹果、负责加强 AI 业务的阿马尔 · 苏布拉马尼亚，以及费德里吉的副手塞巴斯蒂安 · 马里诺。 苹果内部一些人认为，马里诺未来有望接替费德里吉出任软件工程主管，而且他对 AI 发展的态度更加积极。据悉，马里…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -211,7 +211,7 @@
       "url": "https://www.ithome.com/1/024/013.htm",
       "summary": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今天（8 日）晚间更新的《Power On》时事通讯中披露，苹果新任 CEO 约翰 · 特努斯敦促软件工程主管克雷格 · 费德里吉加快 AI 业务发展，采取更大胆的策略，目标是将 Siri 升级为能够自主替用户完成任务的 AI 智能体。 上周的财报电话会议上，特努斯对苹果的 AI 业务表现得相当乐观。谈及新版 Siri 时特努斯更是自信十足：苹果终于实现了多年来的设想，公司 AI 业务迎来了新篇章。“我们对收到的评价和反馈非常满意，也非常高兴看到越来越多的用户能够体验到它。” 但在苹果内部，特努斯的态度却截然不同。他深知苹果仍远远落后于竞争对手。最近几周，特努斯与去年接替原 AI 负责人、掌管苹果 AI 业务的费德里吉举行了一次闭门会议。 特努斯希望苹…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -235,7 +235,7 @@
       "url": "https://www.ithome.com/1/024/011.htm",
       "summary": "IT之家 11 月 8 日消息，特斯拉计划对 Cybercab 进行多项重大升级，带来能效提升和新的车身配色。今天（8 日）凌晨，特斯拉 CEO 马斯克在 X 上透露，公司还将进一步改进 Cybercab。“我们会进一步提高能效，让 Cybercab 用上 40kWh 电池组。我们还会推出液态银色，免得车身颜色太单调。” 据IT之家了解，本周早些时候，特斯拉宣布将取消得州超级工厂的 Cybertruck 生产线，把产能腾出来生产更多 Cybercab。 能效更高的新款 Cybercab 有望帮助特斯拉提高盈利能力和利润率。从商业角度来看，也让停产 Cybertruck 的主张更有说服力。 目前在得克萨斯州奥斯汀投入 Robotaxi 运营的 Cybercab 配备 48kWh 电池组。从马斯克的表态来看，特斯拉…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -257,7 +257,7 @@
       "url": "https://www.ithome.com/1/023/993.htm",
       "summary": "IT之家 11 月 8 日消息，据彭博社 7 日报道，字节跳动考虑扩大在巴西东北部的数据中心项目，以进一步巩固其在拉丁美洲算力基础设施建设领域的领先地位。 知情人士透露，字节跳动正物色开发商，负责巴西塞阿拉州佩森工业港数据中心项目的二期建设。该项目可通过向境外输出数据享受税收优惠。 与此同时，智利、阿根廷等国纷纷推出优惠政策、完善基础设施，争取吸引数据中心投资，巴西也希望在这场竞争中保持优势。 知情人士称，佩森港数据中心二期的建设规模将超过塞阿拉州目前在建的 100 亿美元（IT之家注：现汇率约合 669.08 亿元人民币）、300MW 项目。 部分人士还透露，字节跳动正与开发商初步洽谈，考虑在佩森港区外另建一座规模相近的数据中心，专门服务巴西本地客户。相比之下，港区内的数据中心必须向境外输出数据，才能享受税收…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -279,7 +279,7 @@
       "url": "https://www.ithome.com/1/023/991.htm",
       "summary": "IT之家 11 月 8 日消息，据第一财经报道，在 2026 未来科学大奖的一场对话中，清华大学讲席教授、中国工程院外籍院士张亚勤向腾讯首席 AI 科学家姚顺雨抛出了一个尖锐的商业问题，模型公司的护城河究竟是什么？ 姚顺雨的回答是，AI 护城河更多存在于产品层，而不是模型层。真正难以替代的，不一定是最聪明的模型，而是能够理解用户背景、利用专有数据和上下文，并获得用户信任的 AI 产品。 姚顺雨以微信为例，如果用户可以直接在微信中使用 AI，这个 AI 未必需要拥有最强大的模型能力，但它了解用户的日程安排、朋友关系和各种活动信息。这些信息能够帮助 AI 更好地理解用户需要什么，也使其他模型难以直接替代它。即使竞争对手推出了一个更聪明的模型，也不意味着它能够提供同样的服务，因为后者未必知道用户是谁。 听完这一回答，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -301,7 +301,7 @@
       "url": "https://www.ithome.com/1/023/971.htm",
       "summary": "IT之家 11 月 8 日消息，得物 App 宣布接入国行苹果 Apple 智能，用户通过 iPhone 相机拍摄感兴趣的商品，即可在得物搜索相关商品，并进一步查看商品详情、历史价格走势、AI 解读及真实用户评价等信息，为购买决策提供参考。 得物表示，安装 App 后，用户只需在支持该功能的 iPhone 上唤起视觉智能，对准感兴趣的商品拍摄，在搜索服务中选择得物，即可查看平台在售的相关商品及价格。点击搜索结果后，便可直接进入得物 App 对应的商品详情页。 以一双跑鞋为例，进入得物商品详情页后，用户能够查看材质、功能参数，还可以通过 AI 解读了解鞋款的性能特点 / 用户反馈，通过得物价格趋势图查看历史价格变化。帮助消费者判断商品是否适合自己，并在充分了解商品后直接完成购买。",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -323,7 +323,7 @@
       "url": "https://www.ithome.com/1/023/935.htm",
       "summary": "IT之家 11 月 8 日消息，发行商 Feral Interactive 宣布《黑道圣徒 3（Saints Row: The Third）》已正式登陆苹果 iOS / 谷歌 Android 平台，以苹果 App Store 美区为例，游戏定价为 19.99 美元（IT之家注：现汇率约合 133.7 元人民币），IT之家附游戏商品页（https://apps.apple.com/us/app/saints-row-the-third/id6480453979?l=zh-Hans-CN）。 官方表示，移动版完整移植了主机版重制作品的画面升级效果，并利用 Feral Interactive 的技术优化，为玩家提供流畅的移动端游戏体验。游戏支持自定义触控 / 手柄操作，玩家可以根据个人习惯调整控制方式。 内容方面，《…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -345,7 +345,7 @@
       "url": "https://www.ithome.com/1/023/932.htm",
       "summary": "‏华为 Mate 70 Air 2025 年 12 月开售，12GB + 512GB 定价 4699 元，采用麒麟 9020B 芯片。 今日京东 PLUS 超级补贴后直降至 2748 元，支持 12 期免息，折合每月仅需约 229 元： 京东 HUAWEI Mate 70 Air12GB+512GB 国补后 2748 元直达链接 京东 11.11 红包至高 26888 元无门槛可用，每天可抽一次：点此抽取。 Mate 70 Air 为双卡双待双通（实体卡），即两张 SIM 卡同时待机，能够同时接通而互不干扰。 Air 与标准版主要区别如下： 华为 Mate 70 上市价 5599 元起 重量 203g，6.7 寸屏（第二代昆仑玻璃），5300 mAh + 66W 有线快充 + 50W 无线充电，USB 3.1 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -368,7 +368,7 @@
       "url": "https://www.ithome.com/1/023/929.htm",
       "summary": "IT之家 11 月 8 日消息，北汽极狐贝塔 S3 获推 OTA 升级，获 6 项新增功能与 1 项优化。 IT之家附主要更新内容： 胎压监测：支持胎压百分比数值显示 手机互联：增加 CarPlay、华为 HiCar 手机互联功能 智能转向灯：完成变道后，转向灯会自动关闭，无需手动回拨 爆胎稳定控制功能记忆：开启 / 关闭后状态将自动保存，无需重复设置 蓝牙遥控钥匙：S3 实体钥匙功能已上线，可在极狐商城购买后使用 逗娃模式：新增通过手机遥控车辆低速行驶，同时联动儿歌、灯光，让车辆化身遥控玩具车 优化车道保持辅助：提升偏离识别精度与纠正平顺性，减少无意识偏离风险 相关阅读： 《北汽极狐贝塔 S3 上市：充电版 7.98 万元起，换电版电池租用 5.98 万元起》",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -390,7 +390,7 @@
       "url": "https://www.ithome.com/1/023/923.htm",
       "summary": "IT之家 11 月 8 日消息，博主 @Kang 在微博发布爆料，称 iPhone Duo 的铰链问题已经基本查清，根源“在于两家供应商中的其中一家提供的原材料存在问题”。他表示，苹果可以通过设备序列号识别可能受到影响的产品批次，但目前尚不清楚苹果是否会开放序列号查询工具，以及是否会主动为用户更换设备。 IT之家获悉，iPhone Duo 的铰链总成主要供应商为美厂安费诺（Amphenol）和台厂新日兴，液态金属铰链轴则由宜安科技（Yian Technology）供应，铰链 / 金属支撑片由 Fine M-Tec 供应，其中 Fine M-Tec 于 10 月 26 日发布声明，否认产品质量问题与该公司供应的零部件存在质量缺陷有关。 此外，先前有所谓“富士康员工”向媒体“界面新闻”透露，由于此前生产产能紧张，苹…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -1271,7 +1271,7 @@
       "url": "http://www.geekpark.net/news/373643",
       "summary": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1830,7 +1830,7 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2054,7 +2054,7 @@
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2208,7 +2208,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2230,7 +2230,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2450,7 +2450,7 @@
       "url": "https://www.ifanr.com/1687989",
       "summary": "触控向左，算力向右 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2627,7 +2627,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2781,7 +2781,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3092,7 +3092,7 @@
       "url": "https://www.ifanr.com/1687805",
       "summary": "机器人是帮助人的，不是替代人的。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3114,7 +3114,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3158,7 +3158,7 @@
       "url": "https://openai.com/ads/customers/flipsnack",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3290,7 +3290,7 @@
       "url": "https://openai.com/index/franklin-templeton",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3467,7 +3467,7 @@
       "url": "https://www.ifanr.com/1687733",
       "summary": "这次你一定要用上 Apple 智能！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3557,7 +3557,7 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3978,7 +3978,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4000,7 +4000,7 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4222,7 +4222,7 @@
       "url": "https://openai.com/index/devrev-enterprise-self-service",
       "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4244,7 +4244,7 @@
       "url": "https://openai.com/index/introducing-images-2-6",
       "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4839,7 +4839,7 @@
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4927,7 +4927,7 @@
       "url": "https://openai.com/index/heimstaden",
       "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4949,7 +4949,7 @@
       "url": "https://openai.com/index/cisco-cyber",
       "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5568,7 +5568,7 @@
       "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
       "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5766,7 +5766,7 @@
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5788,7 +5788,7 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5832,7 +5832,7 @@
       "url": "https://openai.com/index/scaling-git-at-openai",
       "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5854,7 +5854,7 @@
       "url": "https://openai.com/index/grid-protectors-program",
       "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6060,7 +6060,7 @@
       "url": "https://openai.com/index/lifeval",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6302,7 +6302,7 @@
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6324,7 +6324,7 @@
       "url": "https://openai.com/index/qodo-codex-plugin",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "summary_status": "source",
-      "fetched_at": "2026-11-08T16:38:58Z",
+      "fetched_at": "2026-11-08T21:59:36Z",
       "kind": "rss",
       "report_type": "report"
     },
