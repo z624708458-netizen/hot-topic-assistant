@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-11T09:19:55Z",
-  "last_success_at": "2026-11-11T09:19:55Z",
+  "updated_at": "2026-11-11T17:52:44Z",
+  "last_success_at": "2026-11-11T17:52:44Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 15,
-      "skipped": 45,
-      "last_success_at": "2026-11-11T09:19:55Z",
-      "last_attempt_at": "2026-11-11T09:19:55Z"
+      "accepted": 10,
+      "skipped": 50,
+      "last_success_at": "2026-11-11T17:52:44Z",
+      "last_attempt_at": "2026-11-11T17:52:44Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 8,
-      "skipped": 12,
-      "last_success_at": "2026-11-11T09:19:55Z",
-      "last_attempt_at": "2026-11-11T09:19:55Z"
+      "accepted": 7,
+      "skipped": 13,
+      "last_success_at": "2026-11-11T17:52:44Z",
+      "last_attempt_at": "2026-11-11T17:52:44Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-11T09:19:55Z",
-      "last_attempt_at": "2026-11-11T09:19:55Z"
+      "last_success_at": "2026-11-11T17:52:44Z",
+      "last_attempt_at": "2026-11-11T17:52:44Z"
     },
     {
       "id": "openai",
@@ -69,10 +69,10 @@
       "publisher_id": "openai",
       "status": "ok",
       "feed_items": 1380,
-      "accepted": 21,
-      "skipped": 1359,
-      "last_success_at": "2026-11-11T09:19:55Z",
-      "last_attempt_at": "2026-11-11T09:19:55Z"
+      "accepted": 20,
+      "skipped": 1360,
+      "last_success_at": "2026-11-11T17:52:44Z",
+      "last_attempt_at": "2026-11-11T17:52:44Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 3,
       "skipped": 27,
-      "last_success_at": "2026-11-11T09:19:55Z",
-      "last_attempt_at": "2026-11-11T09:19:55Z"
+      "last_success_at": "2026-11-11T17:52:44Z",
+      "last_attempt_at": "2026-11-11T17:52:44Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,252 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-864d729abe50d956c5a5",
+      "title": "保时捷 CEO 骆明楷批评特斯拉 Roadster 发布会：我们不想搞任何特效或表演",
+      "published": "2026-11-11T15:01:31Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/820.htm",
+      "summary": "IT之家 11 月 11 日消息，据彭博社今天（11 日）晚间报道，保时捷 CEO 骆明楷（Michael Leiters）批评特斯拉 Roadster 发布会过于追求噱头，并指出特斯拉展示的飞行汽车与保时捷 Mission S 概念车面向不同的消费群体。 骆明楷在柏林出席一场会议时直言：“我们不想搞任何特效或表演。”同时，他强调，保时捷希望通过新车展示真正的技术创新。 特斯拉与保时捷都在当地时间 10 月 15 日（IT之家注：北京时间均为 16 日上午）发布新车，但两场活动的风格截然不同。 特斯拉主打炫目的展示效果，配备压缩空气推进器的 Roadster 从斜坡腾空跃起，在空中翻转后稳稳落地。 骆明楷称，全新的中置发动机超跑 Mission S 发布以来获得了客户“极其热烈”的反响。作为保时捷进一步向高端市…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-54c807a20b6217e7bea3",
+      "title": "马斯克旗下 Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
+      "published": "2026-11-11T13:56:44Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/809.htm",
+      "summary": "IT之家 11 月 11 日消息，据彭博社报道，简 · 多伊（Jane Doe）已经多年没有想起过自己的初中毕业典礼，直到一名执法调查人员拿出当年庆祝活动的一张照片，开始向她询问相关情况。 照片中的她当时只有 14 岁，身穿黄色碎花连衣裙，面带笑容，双臂搭在几名朋友的肩膀上。其中一些朋友，她如今已经很少联系。 调查人员告诉她，照片中一名同学的成年哥哥，曾利用埃隆 · 马斯克（Elon Musk）旗下的人工智能聊天机器人 Grok，将这张原本再普通不过的照片篡改成儿童性虐待材料（CSAM）。生成的图片中，正值初二年级的简 · 多伊全身赤裸，以性挑逗姿势出现。这些图片随后被发布到了互联网上。 她在针对马斯克旗下生成式 AI 公司、Grok 开发商 xAI 提起的一起集体诉讼中，以简 · 多伊 5 号的身份参与案件。…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-de4004d0502007b431c7",
+      "title": "11.11 倒数 20 分钟：会员年卡狂促汇总，bilibili 爱奇艺 QQ 音乐腾讯视频 WPS 剪映皆年内好价",
+      "published": "2026-11-11T13:40:42Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/805.htm",
+      "summary": "11.11 会员狂促倒数 2 小时，皆为年内好价。 京东 无门槛红包至高 26888 元，每天抽 3 次：点此抽取。 淘宝 无门槛红包至高 26888 元，每天抽 1 次：点此抽取。 京东 WPS 超级会员 3 年卡赠京东 PLUS 会员年卡 177 元（单会员单年 44 元）领 30 元券天猫 QQ 音乐 豪华绿钻双年卡折合 138 元 / 年 11.5 元 / 月折后 276 元直达链接天猫B站京东 PLUS 联名年卡详情页淘金币抵扣券后 134.75 元领 85 元券天猫哔哩哔哩大会员 双年卡折合 89.9 元 / 年券后 179.87 元领 115 元券京东百度网盘 SVIP 超级会员 15 月卡 196 元（约 157 元 / 年）领 10 元券京东百度网盘 SVIP 超级会员年卡加赠B站季卡 + 网…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5fb6b7b7f1aad0867821",
+      "title": "不止小米 18 Pro 系列：卢伟冰官宣穿戴、米家智能新品同步亮相 11 月 17 日巴黎发布会",
+      "published": "2026-11-11T13:37:16Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/804.htm",
+      "summary": "IT之家 11 月 11 日消息，本月 9 日晚间，小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰宣布，小米 18 Pro 系列将于巴黎时间 11 月 17 日 14 时发布，届时将面向国际首次发布全新“百变背屏”。此外，多款科技新品也将同场亮相。 卢伟冰刚刚再次发文预热，宣布此次发布会不只有小米 18 Pro 系列手机，穿戴、米家智能新品也会同步亮相，覆盖智能手表 / 手环、耳机、智能家居全新生态阵容。 从预热海报可以看到，此次新品还有小米 Clip 耳夹耳机、小米手环 11、小米 Watch S5 41mm，以及米家三筒洗衣机洗烘版 12kg、扫地机器人 6 Max、米家无线吸尘器 4 Max 和米家多门冰箱 Pro 546L 等。 据IT之家此前报道，小米 18 Pro 系列手机已于 9 月 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-abd8598f90a21e88a6c0",
+      "title": "2027 年第八届华为睿影 XMAGE 金鸡手机电影计划全球征片开启：设 7 项荣誉共 19 部荣誉作品",
+      "published": "2026-11-11T13:25:41Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/799.htm",
+      "summary": "IT之家 11 月 11 日消息，华为官方今日宣布，2027 年第八届华为睿影 XMAGE 金鸡手机电影计划全球征片开启，面向个人与创作团体征集手机电影作品。 计划设 7 项荣誉共 19 部荣誉作品，结果将于 2027 年中国金鸡百花电影节期间揭晓。 参考IT之家此前报道，第七届华为睿影 XMAGE 金鸡手机电影计划入围名单已于今年 10 月正式揭晓。本届投稿作品达 6728 部，63 部作品成功突围。本月早些时候（11 月 9 日），13 部荣誉作品揭晓。 IT之家小伙伴记得用最会买购买电影票，享受折扣价的同时还可以获得返利，预计每张票可以节省 5~15 元！ 延伸阅读 金鸡手机电影计划由中国金鸡百花电影节与华为手机于 2019 年共同设立，是国内手机电影的独立评选单元；2020 年起该计划逐年举办，2026…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-88861a42cf4dd1f369eb",
+      "title": "华为通报 WATCH 5 系列 HarmonyOS 7 花粉 Beta 版本升级进展：待充分测试验证后，将尽快分批推送",
+      "published": "2026-11-11T13:13:58Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/795.htm",
+      "summary": "IT之家 11 月 11 日消息，华为花粉俱乐部官方团队账号“智能穿戴”今日发布《HUAWEI WATCH 5 系列 HarmonyOS 7 花粉 Beta 版本升级进展通报》。 针对大家反馈的高端精致类、特性体验优化类、系统稳定性等问题，我们已收到，研发团队正在紧急攻关打磨质量，力求为大家呈现更优质的使用体验。 处于审核中的用户，请您耐心等待。待版本充分测试验证后，我们将尽快分批推送，具体升级时间请以实际为准。 未报名 HarmonyOS 7 花粉 Beta 版招募活动的用户，请耐心等待预计 2026 年 12 月 HUAWEI WATCH 5 / ULTIMATE DESIGN 星钻绽放款 HarmonyOS 7 公测版招募活动，具体活动时间请以最终招募帖和公告为准。 据IT之家此前报道，今年 10 月底，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b244c5347f50dbbc8ca1",
+      "title": "仅面向开发者开放：华为鸿蒙 HarmonyOS 7 (API 26.0.1) Developer Beta 版本推送",
+      "published": "2026-11-11T12:41:48Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/782.htm",
+      "summary": "IT之家 11 月 11 日消息，华为开发者联盟今日开启了 HarmonyOS 7 (API 26.0.1) Developer Beta 定向招募。目前新版本已开启推送，包体大小约 5.55GB，此次更新供开发者开发调测新版本 API 应用使用。 作为参考，26.0.1 Beta1 在 26.0.0 的基础上，开发能力进一步增强：Ability Kit 新增子进程信息查询能力；ArkTS 容器集 Map 类新增多个更新 Map 映射关系的接口；ArkUI 新增预加载 NavDestination 页面、扩展动画组件的 C API 等能力；Basic Services Kit 新增 USB 管理、板级硬件查询；Core File Kit 新增卷管理能力；MDM Kit 新增打印机白名单、精确定时器等能力；新增车…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-24409e5295658d3205bc",
+      "title": "涉及关键词“花呗”，蚂蚁集团、蚂蚁消金起诉易小满、百度网讯",
+      "published": "2026-11-11T12:38:53Z",
+      "company": "百度",
+      "companies": [
+        "百度"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/781.htm",
+      "summary": "IT之家 11 月 11 日消息，据人民法院公告网，北京市海淀区人民法院发布公告，该院受理原告蚂蚁科技集团股份有限公司（下称蚂蚁集团）、重庆蚂蚁消费金融有限公司（下称蚂蚁消金）与被告深圳市易小满投资咨询有限公司（下称易小满）、北京百度网讯科技有限公司（下称百度网讯）侵害商标权及不正当竞争纠纷一案，现向易小满公告送达起诉状副本、证据材料、应诉通知书、举证通知书、权利义务须知、廉政监督卡及开庭传票。 IT之家从公告获悉，蚂蚁集团、蚂蚁消金的诉讼请求包括： 1. 判令被告一立即停止涉案商标侵权及不正当竞争行为，即立即停止将蚂蚁集团、蚂蚁消金“花呗”注册商标作为搜索关键词并进行广告投放的行为； 2. 判令被告二立即停止在其运营的百度搜索引擎（baidu.com）中将“花呗”以及与“花呗”近似的词语，例如“花贝”“呗花”…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-42d7d3a7585573cdbb26",
+      "title": "多名用户反馈苹果 iPhone Duo 更新 QQ iOS 最新 9.3.85 版本后无法打开 App：卡在启动页或直接黑屏",
+      "published": "2026-11-11T12:26:17Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/777.htm",
+      "summary": "IT之家 11 月 11 日消息，综合各大平台用户反馈并经IT之家测试，苹果 iPhone Duo 在更新腾讯 QQ 最新 9.3.85 版本后便无法打开相应 App，内外屏均卡在 QQ 启动页或直接黑屏，同时手机异常发烫，重启手机 / 卸载重装 App 均无用。 ▲ IT之家测试（下同） IT之家注意到，目前这一出现问题的 9.3.85 包版本于今天 11 点推送，但并未提供具体更新内容，日志中仅提及“近期更新”： 聊天精灵秋秋人上线，与好友即刻合养，关系成长看得见； QQ 闪传文件有效期新增支持 90 天 / 180 天； QQ 闪传支持添加或删除已分享的文件，灵活调整分享内容； 宠物功能上线，支持多种养宠互动玩法，解锁社交新体验； 输入状态个性装扮上线，让好友等待回复的时刻也变得有趣。 综合IT之家先前报…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-64790e31ca4241880136",
+      "title": "曝字节要做「中国版 Muse」，给豆包造个「超级大脑」",
+      "published": "2026-11-11T11:52:16Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1689016",
+      "summary": "豆包走出屏幕 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-667d8916ea36e0bb6957",
+      "title": "【21:00~21:15】蹲点领京东淘宝 1 元起大红包，11.11 巅峰狂促倒数 3 小时",
+      "published": "2026-11-11T10:18:39Z",
+      "company": "阿里巴巴",
+      "companies": [
+        "阿里巴巴"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/695.htm",
+      "summary": "全网 11.11 高潮狂促今晚 20:00 再来一波，有需求的小伙伴可以蹲点抢哦。 京东 无门槛红包至高 26888 元，每天抽 3 次：点此抽取。 21:00~21:15 加抽 1 次，领不限量 1.18 元起大红包。 淘宝 无门槛红包至高 26888 元，每天直接领 200 淘金币：点此抽取。 21:00~21:15 加抽 1 次，领不限量 1.1 元起大红包，还有 6.6 元随机掉落。 唯品会 无门槛红包至高 1111 元津贴，每天抽 3 次：点此抽取。 一键保价 京东一键保价没事就点点：点此保价。 20:00 秒杀 京东 11.11 月黑风高夜都是好价：点此前往主会场。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-11T17:52:44Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-b1f968fc1570520236a4",
       "title": "华为鸿蒙 HarmonyOS 7 (API 26.0.1)Developer Beta 开启定向招募，Mate 80 Pro 等机型可报名",
@@ -325,7 +571,7 @@
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1031,7 +1277,7 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1119,7 +1365,7 @@
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
       "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1163,7 +1409,7 @@
       "url": "https://www.ifanr.com/1688570",
       "summary": "油门焊死 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1229,7 +1475,7 @@
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1251,7 +1497,7 @@
       "url": "https://openai.com/index/singapore-airlines-travel-work",
       "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1273,7 +1519,7 @@
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1295,7 +1541,7 @@
       "url": "http://www.geekpark.net/news/373760",
       "summary": "作者｜Cynthia 编辑｜郑玄 传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。 这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也采取了行动，却仍然自欺欺人，把一次次看似成功的演示，当成了问题已经解决的证明。 2026 年上半年的企业级 Agent 市场，也曾有过这样的笃定。 每一场发布会上，AI 写方案、做表格、敲代码、生成海报的单任务能力都会轮番刷新上限。台上演示环节的百发百中，带动台下掌声雷动，所有人都觉得——企业级 AI 已经成熟了。 但年中效率复盘，所有…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1537,7 +1783,7 @@
       "url": "https://www.ifanr.com/1688639",
       "summary": "长得像未来，但没能活到未来。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1559,7 +1805,7 @@
       "url": "https://openai.com/index/cogent-security",
       "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1581,7 +1827,7 @@
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1669,7 +1915,7 @@
       "url": "https://openai.com/index/control-room",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1757,7 +2003,7 @@
       "url": "https://www.ifanr.com/1688447",
       "summary": "还有改图 100 轮都不糊 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1933,7 +2179,7 @@
       "url": "https://www.ifanr.com/1688514",
       "summary": "AI 版 PS 的时代来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2065,7 +2311,7 @@
       "url": "https://openai.com/index/kuken",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2087,7 +2333,7 @@
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
       "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2136,7 +2382,7 @@
       "url": "https://www.ifanr.com/1688485",
       "summary": "终于不是后空翻、跳舞、跑步了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2270,7 +2516,7 @@
       "url": "https://www.ifanr.com/1688410",
       "summary": "又能摸鱼了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2292,7 +2538,7 @@
       "url": "http://www.geekpark.net/news/373644",
       "summary": "头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是——首次跻身最强开源模型之列。 过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，是腾讯在模型这条线上的身位。 从榜单表现来看，在开源模型里，Hy4 已经站进第一梯队；放到全球，和顶尖闭源模型的差距仍然清晰。 而根据国家数据局最近公布的一组数据，我国日均 Token 调用量已经从 2024 年初的 1000 亿，增长到今年 7 月的超 500 万亿，两年增长超 5000 倍。Token 消耗狂飙的背后，Agent 正在从一个技术概念变成新的生产力形态。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3576,7 +3822,7 @@
       "url": "http://www.geekpark.net/news/373643",
       "summary": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4135,7 +4381,7 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4359,7 +4605,7 @@
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4513,7 +4759,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4535,7 +4781,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4932,7 +5178,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5086,7 +5332,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5441,7 +5687,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5485,7 +5731,7 @@
       "url": "https://openai.com/ads/customers/flipsnack",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5617,7 +5863,7 @@
       "url": "https://openai.com/index/franklin-templeton",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
       "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
+      "fetched_at": "2026-11-11T17:52:44Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5773,384 +6019,6 @@
       "summary": "IT之家 11 月 5 日消息，高通今日发布 2026 财年（2025 年 9 月 29 日～2026 年 9 月 27 日）年报及第四财季（2026 年 6 月 29 日～2026 年 9 月 27 日）报告： 2026 财年年报 营业总收入：431.2 亿美元，同比下降 3% 毛利润：228.98 亿美元，同比下降 6.71% 毛利率：53.1%，同比下降 2.33 个百分点 归母净利润：136.28 亿美元，同比增长 146% 经营现金流：111.45 亿美元 基本每股收益：12.81 美元 稀释每股收益：12.7 美元 资产负债率：50.02%，同比下降 7.69 个百分点 2026 财年第四财季 营业总收入：103.22 亿美元，同比下降 8% 毛利润：52.38 亿美元，同比下降 16.02% 毛利…",
       "summary_status": "excerpt",
       "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ed29f47a57215908ac86",
-      "title": "实测 iPhone 国行 AI：有亮点有槽点，还有一个惊喜点",
-      "published": "2026-11-04T17:30:04Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1687733",
-      "summary": "这次你一定要用上 Apple 智能！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-09T01:42:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d9aebafa21bc5147f45d",
-      "title": "华为小艺 Work 率先上线 openPangu-2.1-Pro 模型，主打“鸿蒙任务增强”",
-      "published": "2026-11-04T16:39:40Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/472.htm",
-      "summary": "IT之家 11 月 5 日消息，华为云 11 月 1 日发布公告，MaaS 模型即服务平台将于 2026 年 11 月 6 日停止销售 openPangu-2.0-Flash 和 openPangu-2.0-Pro 两款模型服务，并于 11 月 30 日 00:00 正式下线。不过华为官方表示，openPangu 系列新版本模型已在规划中，后续将逐步推出上线。 IT之家实测发现，小艺 Work 率先上线了 openPangu-2.1-Pro 模型，主打“鸿蒙任务增强”。 华为官方暂未公布该模型的具体能力，同时 openPangu-2.1-Pro 模型的具体参数规格（参数量、激活量、上下文、训练数据等）也尚无公开资料。这说明 2.1-Pro 是非常新且尚未对外公开发布的型号，目前仅在小艺 Work 中提供支持。 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8fe17c234f08c34d8740",
-      "title": "微信鸿蒙版 App 推 8.0.23.34 正式版更新，更多用户灰度合并发图功能",
-      "published": "2026-11-04T15:56:19Z",
-      "company": "华为",
-      "companies": [
-        "华为",
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/470.htm",
-      "summary": "IT之家 11 月 4 日消息，微信鸿蒙版 App 今晚在华为应用市场（App Gallery）发布了 8.0.23.34 正式版更新。 和往常一样，本次更新的说明依旧为“修复了一些已知问题”。据用户反馈，8.0.23 版本的微信新增了如下特性： 部分 Flutter 跨端页面（如朋友圈、听一听、表情管理等页面）响应系统字体粗细； 更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐； 发表视频号内容时新增添加标注，视频号已发布的内容点击分享同步新增添加标注； 发现-直播-更多直播新增搜索按钮； 听一听主页面右下角新增小微分支入口浮动按钮，并根据当前页面内容弹出对应提示词，可快速使用听一听相关问小微功能，播放页面点击分享新增问小微（主页面右下角浮动按钮为逐步开放）； 公众号图标焕新，对齐其他端；…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3c14baebe62d6f49e047",
-      "title": "真 · 互通：国行 Apple 智能创作内容、问询结果会同步至千问 App",
-      "published": "2026-11-04T14:49:55Z",
-      "company": "阿里巴巴",
-      "companies": [
-        "阿里巴巴",
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/459.htm",
-      "summary": "IT之家 11 月 4 日消息，苹果今日凌晨面向 iPhone 推送了 iOS 27.3 系统首个开发者预览版，为国行用户带来了「Apple 智能与 Siri」。 国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。 IT之家实测发现，国行 Apple 智能问询结果也会同步至千问 App，后者可提供语音播报、分享、复制、收藏、重新生成等功能。 不仅是视觉智能，用千问完成的文字创作内容，也会同步至千问 App。 关于 Apple 智能国行版本更多内容，小伙伴们可移步至IT之家最新实测，了解更多信息。 点击关注IT之家视频号",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-1be4fdd8e6ca80f0ec01",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "published": "2026-11-04T14:30:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-11T09:19:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-85c6732e64fcb0c27527",
-      "title": "华为 MatePad Mini 小平板获 HarmonyOS 7.0.0.111 SP16 升级，互助通信共享功能下放",
-      "published": "2026-11-04T14:28:10Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/447.htm",
-      "summary": "IT之家 11 月 4 日消息，据用户反馈，华为 MatePad Mini 小平板今日开启了鸿蒙 HarmonyOS 7.0.0.111 SP16 版本升级，系统包大小约 657.43MB。 据介绍，新版本升级通信共享功能，与搭载 HarmonyOS 7 系统的手机、平板、鸿蒙电脑之间支持多人互助通信共享，通过碰一碰或者登录同一账号共享网络建立互助网络，在移动网络信号弱或网络负载大等场景下可获得更稳定的网络。 IT之家从华为官网了解到，手机与平板间通信共享支持共享手机双卡通话、短信、网络能力（含 eSIM），支持手机双卡网络切换时，平板网络跟随切换。但手机与手机间通信共享只支持共享手机网络能力（含 eSIM）。 另外，共享端手机和接收端手机需同时为 HarmonyOS 7 及以上版本，且单台设备最多可同时为 3…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-566cbfcfae950a12bbaa",
-      "title": "小米 WorldCast 3D 运镜在 REDMI K100 上线：平面照片还原成三维场景，并虚拟出真实相机轨迹",
-      "published": "2026-11-04T13:53:25Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/433.htm",
-      "summary": "IT之家 11 月 4 日消息，小米 REDMI K100 手机已于 10 月 27 日正式发布。据小米技术官方今日介绍，该机在影像上新增了 3D 运镜的 AI 玩法 —— 从相册选一张静态照片，AI 就能生成一段大角度 3D 运镜视频，镜头可以环绕、推拉、倾斜，而画面中人物的五官、发型、衣着始终保持一致。 IT之家从小米技术官方了解到，支撑这项功能的，是小米在近期公开论文里带来的视觉生成框架 WorldCast：它通过解读画面的深度结构，把平面照片还原成三维场景，并在其中虚拟出一条真实相机轨迹，让镜头像被真实拍摄一样运动，能够在镜头运动过程中持续保持主角外观的一致性。 ▲ WorldCast 框架总览：轨迹对齐的几何引导 × 几何对齐的多视角角色记忆 小米技术官方称，WorldCast 是小米在可控视觉生成方…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4f7dc07668eb6bed85ec",
-      "title": "字节旗下 AI 开发平台“扣子”：推进企业级服务产品整合升级，现售企业版将先暂停新售",
-      "published": "2026-11-04T13:40:14Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/432.htm",
-      "summary": "IT之家 11 月 4 日消息，字节跳动旗下 AI 开发平台“扣子（Coze）”发布公告，正在推进企业级服务的产品整合升级，并规划后续可供企业客户选择的产品和套餐方案。配合本次整合，现售扣子企业版将先暂停新售。 IT之家注：官网显示，“扣子”是面向 Agent 时代的新一代 AI 团队协作平台。用户可以一个人调度多个 Agent，也可以和团队成员一起协同多个 Agent，在同一个项目里完成办公、编程、视频创作、文件处理、行业研究等复杂任务。 8 月 24 日，据智能涌现消息，字节跳动对旗下的办公 AI 产品完成了一轮团队整合：TRAE、扣子团队将整体并入豆包体系，其中 TRAE Work、扣子将与豆包在工作场景的产品能力进行整合。 8 月 25 日，字节跳动发布“豆包工作”。作为豆包面向生产力场景推出的全新 A…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b53d2a0de59b77c31b8c",
-      "title": "中兴手机官方微信公众号账号迁移，主体变更为上海申启纪元智能终端有限责任公司",
-      "published": "2026-11-04T13:18:29Z",
-      "company": "腾讯",
-      "companies": [
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/428.htm",
-      "summary": "IT之家 11 月 4 日消息，中兴手机公众号今日发布《关于账号进行迁移的说明》。 因运营需要，你所关注的账号“中兴手机”将进行账号迁移。届时本账号的业务、功能将转移至新账号“中兴终端”。迁移详情如下： 旧账号名称：中兴手机 旧账号主体：中兴通讯股份有限公司 新账号名称：中兴终端 新账号主体：上海申启纪元智能终端有限责任公司 IT之家查询获悉，上海申启纪元智能终端有限责任公司由中兴通讯全资持股，董事长为王喜瑜，倪飞任董事。2025 年 9 月 4 日，该公司完成经营范围变更，变更后经营范围包含移动终端设备制造、软件开发、移动通信设备制造等。 今年 7 月，网信部门会同有关部门按照《生成式人工智能服务管理暂行办法》要求，开展生成式人工智能服务备案工作，并将新增的“Apple 智能”等 7 款提供手机端侧生成式人工…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-428bcf4a04cb46fed5a9",
-      "title": "网易云音乐官宣鸿蒙版适配碰一碰、隔空传送等华为鸿蒙专属特色功能",
-      "published": "2026-11-04T13:01:47Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/426.htm",
-      "summary": "IT之家 11 月 4 日消息，网易云音乐官方今日宣布，鸿蒙版适配碰一碰、隔空传送等鸿蒙专属特色功能。 碰一碰：两台设备碰一碰就能分享网易云音乐在播歌曲或歌单，无需加好友，无需数据流量。 隔空传送：还可以使用手势抓取隔空将网易云音乐在播歌曲或歌单，传送至周围其他鸿蒙设备。 据IT之家此前报道，鸿蒙版 App 由网易云音乐与鸿蒙深度合作联合开发，8 月底上线尝鲜内测版，并在 9 月底推出正式版。 10 月 20 日，网易云音乐宣布鸿蒙版完成主流终端全适配，覆盖手机、折叠屏、平板、运动手表、电脑与华为 HiCar 等，支持跨端无缝续播等功能。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ac52dc8b1c553c36b5e3",
-      "title": "魔芯科技发布基于华为昇腾原生的 4D 世界模型 MoWorld 2.0，场景可互动、编辑、调用",
-      "published": "2026-11-04T12:53:54Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/424.htm",
-      "summary": "IT之家 11 月 4 日消息，在今日举行的世界互联网大会“发展新质生产力强劲增量看 AI”主题论坛上，魔芯科技正式发布基于华为昇腾原生的 4D 世界模型 MoWorld 2.0。 官方表示，继今年 7 月 MoWorld 1.0 发布后，MoWorld 2.0 实现模型能力跃升：将重力、弹力、浮力、光照、热力，以及刚体、柔体、流体、形塑体等物理要素与对象特性融入空间建模和交互能力，输出可用于仿真、可实时渲染、可反复调用的 4D 高斯资产。 据介绍，基于对多重物理要素的建模，MoWorld 2.0 不仅生成空间和物体外观，也对物体之间的交互关系、外力作用和环境变化进行实时推理。 例如，模拟微风吹动书页、书签掉落地面的过程，需要同时考虑风的力度与方向、纸张的柔性、书签的重量，以及地板的刚性和接触关系。 ▲ 模拟微…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-086f1355b48a4087edb8",
-      "title": "微信鸿蒙电脑版 App 发布 4.1.13.4 版本邀测升级，已支持图片视频发送后可合并展示等功能",
-      "published": "2026-11-04T12:12:27Z",
-      "company": "华为",
-      "companies": [
-        "华为",
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/416.htm",
-      "summary": "IT之家 11 月 4 日消息，据用户反馈，微信鸿蒙电脑版 App 在华为应用市场（App Gallery）发布了 4.1.13.4 (269572) 版本邀测升级。 测试说明显示，当前版本为测试版，部分功能会受到限制或者不可用。IT之家目前主要功能如下： 支持语音输入文字； 可发送语音消息； 图片视频发送后可合并展示； 支持群接龙； 表情可以预览动态效果； 在单聊中邀请人时可分享聊天记录； 在发消息时，支持边写边译为指定的语言； 消息可连续翻译； 一次发出的多条消息可以同时撤回； 删除联系人时可保留聊天记录； 在视频或语音通话中，可以接听新的通话； 朋友圈评论可使用表情和图片； 自己的朋友圈相册可以跳转到指定日期； 可滚动截图等。 需要注意的是，测试版本可能存在体验缺陷，需承担一定风险。测试阶段版本将持续更新…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9c14532aadd256ebbd70",
-      "title": "首个：华为云智果 AgentArts 获中国信通院最高等级评级",
-      "published": "2026-11-04T11:46:44Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/406.htm",
-      "summary": "IT之家 11 月 4 日消息，华为官方今日宣布，华为云智果 AgentArts 智能体平台近日顺利通过中国信通院组织的可信 AI 企业级智能体平台评估，是首个通过该项测评，并获得当前最高等级（4+ 级）的产品。 据介绍，本次评估依据《企业级智能体技术要求》，围绕企业级智能体平台的技术能力、应用能力和服务能力三方面展开，全面考察平台在智能体认知、规划、执行、业务集成、知识管理、运行维护及安全合规等方面的综合能力。 IT之家查询获悉，云智果（AgentArts）智能体平台是华为面向企业核心业务场景打造的智能体平台，支持多种框架（LangChain / LangGraph 或自研框架等）和模型，并拥有四大核心能力：生产级长程任务、企业级安全环境、行业知识深度和全链路可观测。AgentArts 使用方式如下： Man…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T19:42:47Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-502b364dba3ea650d88d",
-      "title": "OpenAI CEO 奥尔特曼回应内存言论争议：遭断章取义，希望扩大内存产能",
-      "published": "2026-11-04T11:28:33Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/385.htm",
-      "summary": "IT之家 11 月 4 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）近日回应了外界对其一番言论的强烈批评。此前，他在一次采访中表示，个人电脑中配备内存，而不是将内存集中放在数据中心供人使用，这种做法在他看来“很糟糕”。 在接受 YouTube 博主 Cheeky Pint 采访时，奥尔特曼表示：“从全球资源分配的角度来看，让每个人的电脑里都存放着大量全球供应有限的 DRAM，而且这些内存 95% 的时间都处于闲置状态，实际上是相当糟糕的。如果要应对当前这种供应极其紧张的局面，就应该让云端资源得到最大程度的利用。但不知为何，很多人的直觉恰恰与此相反。” 这番言论迅速引发广泛嘲讽。不少人认为，无论奥尔特曼本意如何，他的表态听起来都像是希望剥夺个人拥有内存的权利，迫使整个社会将资源集中起…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T19:42:47Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-fa45098bc78687d1d310",
-      "title": "【视频】苦等两年，终于来了：Apple 智能国行版本实测，千问撑起了一片天",
-      "published": "2026-11-04T10:56:24Z",
-      "company": "阿里巴巴",
-      "companies": [
-        "阿里巴巴",
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/376.htm",
-      "summary": "苦等两年，终于来了：Apple 智能国行版本实测，千问撑起了一片天 点击关注IT之家视频号",
-      "summary_status": "source",
-      "fetched_at": "2026-11-04T19:42:47Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7763c40ebf1063773444",
-      "title": "重力 + 智感传感器双感知协同，华为详解鸿蒙 HarmonyOS 7.0「智感旋转」系统级能力",
-      "published": "2026-11-04T10:54:06Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/374.htm",
-      "summary": "IT之家 11 月 4 日消息，在今年 10 月 1 日发布的华为 Mate 90 系列旗舰手机上，「智感旋转」功能正式回归。已经购买到 Mate 90 的用户可在设置中搜索「智感旋转」跳转至如下页面，并开启该功能。 开启自动旋转开关，将手机水平放置后打开图库照片。如果照片能随人脸朝向自动切换横竖屏，则功能正常，否则异常。在游戏、导航、暗光等场景中，屏幕旋转基于重力传感器，不会根据人脸朝向自动旋转。 IT之家注意到，华为官方今日发文，详细介绍了这一能力。据称，「智感旋转」是华为在 HarmonyOS 7.0 及以上版本推出了系统级创新能力，通过「重力传感器 + 智感传感器」双感知协同，实现用户意图感知。 此外，「智感旋转」还新增智感传感器识别人脸朝向，结合设备重力角度综合计算最优显示方向，让屏幕贴合用户真实观看…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T19:42:47Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-5acf769ef56752233478",
-      "title": "【20:00 开抢】淘宝加抽 50 万个 3 元起大红包，蹲点 1 元抢倍思 PD 45W 充电器",
-      "published": "2026-11-04T09:51:12Z",
-      "company": "阿里巴巴",
-      "companies": [
-        "阿里巴巴"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/309.htm",
-      "summary": "全网 11.11 秒杀狂促继续，有需求的小伙伴可以蹲点抢哦。 京东 无门槛红包至高 26888 元，每天抽 3 次：点此抽取。 淘宝 无门槛红包至高 26888 元，每天直接领 200 淘金币：点此抽取。 淘宝 4 日 20:00 额外加抽 1 次，发放 50 万个 3 元起红包，拼手气限量抢，中奖率 60%，先到先得，领完即止。 一键保价 京东一键保价没事就点点：点此保价。 20:00 秒杀 京东 11.11 月黑风高夜都是好价：点此前往主会场。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-04T19:42:47Z",
       "kind": "rss",
       "report_type": "report"
     }
