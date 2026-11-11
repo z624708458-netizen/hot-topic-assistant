@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-10T20:48:30Z",
-  "last_success_at": "2026-11-10T20:48:30Z",
+  "updated_at": "2026-11-11T01:54:43Z",
+  "last_success_at": "2026-11-11T01:54:43Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 11,
-      "skipped": 49,
-      "last_success_at": "2026-11-10T20:48:30Z",
-      "last_attempt_at": "2026-11-10T20:48:30Z"
+      "accepted": 13,
+      "skipped": 47,
+      "last_success_at": "2026-11-11T01:54:43Z",
+      "last_attempt_at": "2026-11-11T01:54:43Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 8,
       "skipped": 12,
-      "last_success_at": "2026-11-10T20:48:30Z",
-      "last_attempt_at": "2026-11-10T20:48:30Z"
+      "last_success_at": "2026-11-11T01:54:43Z",
+      "last_attempt_at": "2026-11-11T01:54:43Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-10T20:48:30Z",
-      "last_attempt_at": "2026-11-10T20:48:30Z"
+      "last_success_at": "2026-11-11T01:54:43Z",
+      "last_attempt_at": "2026-11-11T01:54:43Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1376,
-      "accepted": 22,
-      "skipped": 1354,
-      "last_success_at": "2026-11-10T20:48:30Z",
-      "last_attempt_at": "2026-11-10T20:48:30Z"
+      "feed_items": 1377,
+      "accepted": 20,
+      "skipped": 1357,
+      "last_success_at": "2026-11-11T01:54:43Z",
+      "last_attempt_at": "2026-11-11T01:54:43Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 3,
       "skipped": 27,
-      "last_success_at": "2026-11-10T20:48:30Z",
-      "last_attempt_at": "2026-11-10T20:48:30Z"
+      "last_success_at": "2026-11-11T01:54:43Z",
+      "last_attempt_at": "2026-11-11T01:54:43Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +171,292 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-a978b87ad5ddb898834e",
+      "title": "小米推出米家落地灯新品：智能光影技术 + 1600 万色可调，众筹价 719 元",
+      "published": "2026-11-11T01:19:15Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/244.htm",
+      "summary": "IT之家 11 月 11 日消息，小米推出了一款全新的“米家落地灯”，青岛易来代工，建议零售价 999 元，11 月 11 日众筹价 719 元。 这款产品主打至简美学设计，自然融入家居环境；还支持智能光影技术，可提供多种氛围模式，支持 1600 万色可调；还有双光源独立可控，支持触控调光，接入米家 App 和澎湃智联。 据介绍，其底部圆环滑条支持单点触控开关灯、滑动调节亮度，长按可切换灯光效果。亮度可通过底部圆环滑动调节，也可在米家 App 中调节，亮度可调节范围为 1%-100%。色温可在米家 App 中调节，调节范围为 1800K-6500K。IT之家附参数详情如下：",
+      "summary_status": "source",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-477a38a641cda34d06ee",
+      "title": "终于低过 5000 元：iPhone 17 手机双重补贴后 4990 元近期好价",
+      "published": "2026-11-11T01:08:47Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/240.htm",
+      "summary": "iPhone 17 手机 256G 版官网售价 6799 元，11.11 大促期间，今日移动京东自营旗舰店补贴价 5799 元； 下单领取 200 元优惠券； 国补立减 500 元； PLUS 会员立减 28.99 元； PLUS 会员领取 800-80 元（需 2 积分 10 点、20 点抢）：点此查看。 到手价为 4990.01 元： 京东 iPhone 17 手机 256GB 白色券后 4990.01 元领 200 元券 仅白色款此价。 京东发货 & 售后服务。 京东 11.11 红包至高 26888 元无门槛可用，每天可抽一次：点此抽取。 京东 iPhone 17 手机 256GB 白色券后 4990.01 元领 200 元券 京东 11.11 无门槛红包 面额至高 26888 元，每天抽 3 次：点此…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-949563a364be7a04d95a",
+      "title": "苹果团队赴印度工厂调查，3 名塔塔合同工在维护污水处理设施时遇难",
+      "published": "2026-11-11T00:55:45Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/231.htm",
+      "summary": "IT之家 11 月 11 日消息，路透社当地时间 11 月 10 日报道称，苹果公司正就印度塔塔电子（Tata Electronics）iPhone 零部件供应商工厂发生的致命事故进行调查。 该工厂位于泰米尔纳德邦霍苏尔（Hosur），有 3 名合同工在维护污水处理设施期间吸入气体后死亡。苹果、塔塔电子及当地政府均已启动调查。 据印度克里希纳吉里地区官员 Dinesh Kumar 介绍，事故发生在工厂污水处理厂的一座外部纳米过滤罐检查过程中。该污水处理设施由美国企业 Ecolab 旗下的 Nalco Water 运营，3 名工人当时正在进行维护工作。 Nalco Water 表示，3 名遇难者由其一家分包商雇用，事故发生在该公司运营的公用设施内，目前正配合当地政府开展调查。苹果方面已派团队前往工厂协助调查。 《…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-a5f4869511a9dbd97772",
+      "title": "鸿蒙智行享界 V8 及华为星芒品牌发布会定档 11 月 20 日",
+      "published": "2026-11-11T00:43:30Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/230.htm",
+      "summary": "IT之家 11 月 11 日消息，华为官方今日宣布，鸿蒙智行享界 V8 及星芒品牌发布会定档 2026 年 11 月 20 日 14:30。 全新享界 V8 是鸿蒙智行旗下享界品牌首款 MPV，已于 11 月 7 日开启全国试驾，预售价 32.98 万元起。参考IT之家此前报道，该车提供纯电与增程两种动力形式，全系标配 800V 高压平台、±12° 后轮转向和华为乾崑智驾系统。 华为官网显示，享界 V8 采用七座布局设计，分 Ultra+、Ultra、Max+ 和 Max 四个版本。除 Max+ 外，享界 V8 其余版本均可选 800V 增程或 800V 纯电动力。 享界 V8 Ultra+ 预售价：增程版 40.98 万元起 | 纯电版 44.98 万元起 四驱 + 双腔空簧 + 双阀连续可变阻尼减振器 四激…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-264227b53f665ef7ec90",
+      "title": "（更新：恢复正常）苹果 iCloud 服务全球性故障，影响注册登录、照片同步和查找 iPhone 等",
+      "published": "2026-11-11T00:31:09Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/227.htm",
+      "summary": "11 月 11 日 9:27 更新：服务已全部恢复正常。 11 月 11 日 9:02 更新：iCloud 联系人、iCloud 邮件、iCloud 日历、Game Center 和照片服务恢复，但 iCloud 账户与登录仍处于服务中断。 IT之家 11 月 11 日消息，苹果 iCloud 服务今早突发全球性故障。本次故障从北京时间清晨 06:49 左右开始，迄今接近两个小时。核心登录注册服务为瘫痪状态，购买 iPhone 18 Pro 或 iPhone Duo 新机的用户也将无法通过 iCloud 备份恢复来恢复数据。 IT之家查询苹果系统状态页面获悉，苹果 iCloud 账户登录 / 注册、iCloud 日历、iCloud 通讯录、iCloud 邮件、照片、Game Center 目前处于服务中断状态。…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6714d5fc4676b52e260a",
+      "title": "苹果子公司 Claris 正测试「Harbor」应用：将 Mac 变身本地 AI 服务器",
+      "published": "2026-11-11T00:25:48Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/225.htm",
+      "summary": "IT之家 11 月 11 日消息，苹果全资子公司 Claris 正在测试 Harbor 应用程序。这款 App 可以将苹果芯片的 Mac 变身本地 AI 服务器。 据介绍，Harbor 可以运行在单台苹果芯片 Mac，也可以使用雷雳 5 接口连接多台 Mac，运行规模更大的 AI 模型。苹果已在 macOS Tahoe 26.2 系统中加入雷雳 5 RDMA（IT之家注：远程直接内存访问）支持，使多台设备组成集群后的数据传输速度更快。 Harbor 能够自动检测雷雳 5 设备，并允许用户浏览、下载开放权重模型。这款应用主打易上手，用户无需进行手动配置，就能为 Mac 获得端侧 AI 运行能力。 此外，Harbor 当前仍处于早期体验阶段，尚未向公众开放。此前该应用曾出现在 App Store 中，但目前相关页面…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-c8aaf8339c543c3e1bf0",
+      "title": "经典塔防游戏回归：《植物大战僵尸：重植版》12 月 3 日登陆苹果 Apple Arcade",
+      "published": "2026-11-11T00:10:47Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/222.htm",
+      "summary": "IT之家 11 月 11 日消息，苹果公司昨日（11 月 10 日）发布公告，宣布其游戏服务 Apple Arcade 将于 12 月 3 日上线 4 款游戏，其中最值得关注的是经典塔防游戏《植物大战僵尸：高清重植版》（Plants vs. Zombies: Replanted）。 IT之家发稿前查询 App Store 页面，《植物大战僵尸：高清重植版》已经上线，显示 12 月 3 日发布，支持 iPhone、iPad、Mac、Apple TV 及 Apple Vision Pro 等苹果设备。 本次“重植版”基于 2009 年原作重制，由 PopCap Games 与 The Lost Pixels 合作开发，并由 Electronic Arts 发行。玩法上，该游戏在保留豌豆射手、僵尸、阳光收集和经典车道…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7b16d80f33ddb98a9157",
+      "title": "首次开放其全平台：苹果启动 2027 Swift 学生挑战赛，获奖者直通 WWDC27 大会",
+      "published": "2026-11-10T23:53:57Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/219.htm",
+      "summary": "IT之家 11 月 11 日消息，苹果公司于 11 月 10 日宣布启动 2027 年 Swift 学生挑战赛，面向全球年轻开发者征集创意应用作品。参赛者可在 2027 年 2 月 8 日至 2 月 28 日提交作品，使用 Xcode 或 Swift Playgrounds 构建的应用需在 3 分钟内完成演示。 与往年不同，本届比赛首次允许学生提交面向任意平台的应用，不再局限于 iOS 设备。这意味着参赛项目可覆盖 iPhone、iPad、Mac、Apple Watch、Apple TV，甚至 Vision Pro 等苹果生态产品，为学生的创意提供了更广阔的展示空间。 IT之家援引博文介绍，为帮助参赛者备赛，苹果将提供系列教程和“与苹果见面”线上活动，内容涵盖 SwiftUI、人工智能与机器学习、空间计算，以及…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-edf7dd2aef7097e8b37d",
+      "title": "iFixit 拆解苹果首款触控 MacBook Pro：发光 LOGO 组件难维修",
+      "published": "2026-11-10T23:41:10Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/215.htm",
+      "summary": "IT之家 11 月 11 日消息，国外维修团队 iFixit 今天（11 月 11 日）发布视频，拆解苹果配备 PROLED XDR 显示屏的首款触控 MacBook Pro，首次揭示了其背面发光苹果 LOGO 的实现方式。 IT之家附上相关拆解视频如下： 这款笔记本没有依靠屏幕背光点亮标志，而是内置四颗 LED，配合反射层和扩散层，让标志呈现均匀的发光效果；当灯光关闭后，双向镜面涂层则让它看起来像一块亮面金属。 维修方面，这枚“会发光的苹果”并不好修。由于标志位于显示屏背后，一旦损坏，维修人员必须拆下整块屏幕才能处理。即便是技术娴熟的 iFixit 团队成员也难以单独维修该发光 LOGO，拆解过程出现 OLED 面板损坏。 在整机设计上，苹果通过削减底壳铝材来减重：PROLED 机型的下壳重 364 克，而 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-aa41bc9b8a60d8051830",
+      "title": "再迎“iPhone X 时刻”：20 周年款苹果手机前瞻，整机如一块玻璃、按键将全固态",
+      "published": "2026-11-10T23:22:12Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/211.htm",
+      "summary": "IT之家 11 月 11 日消息，科技媒体 MacRumors 昨日（11 月 10 日）发布博文，梳理、验证和汇总多条供应链消息和可靠信源爆料，认为苹果为庆祝 iPhone 问世 20 周年，会在 2027 年 9 月推出 20 周年版 iPhone（上市后可能名为 iPhone 20 Pro），有望迎来外观、屏幕、交互、影像与芯片等全方位升级。 苹果 20 周年 iPhone 的 10 项主要变化： 四曲面全玻璃外观：屏幕玻璃向四边弯曲，视觉上弱化甚至隐藏金属边框。 更激进的全面屏：正面几乎无边界，呈现“一整块玻璃”的观感。 屏下 Face ID：人脸识别组件有望完全隐藏于屏幕下方。 屏下前置摄像头：取消屏幕开孔，实现真正无挖孔的正面设计。 固态按键：侧边、音量、操作及相机控制按键可能改为触觉反馈式设计。 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-30ada58a34aada4fb92e",
+      "title": "苹果为 AirPods 5/AirPods Pro 3 等耳机推送 9B47 固件更新",
+      "published": "2026-11-10T23:11:25Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/210.htm",
+      "summary": "IT之家 11 月 11 日消息，据科技媒体 MacRumors 今天报道，苹果现已为 AirPods Pro 2/Pro 3、AirPods 4/AirPods 5 以及 AirPods Max 2 耳机发布新固件，版本号为 9B47。 据报道，苹果过去几周一直在测试这款新固件的 Beta 版，但官方目前没有公布新固件的具体更新内容。苹果表示，后续将通过 AirPods 支持文档公布相关信息。 IT之家注：如果您需要更新 AirPods 的固件，请将您的 AirPods 连接到最新系统的 iPhone、iPad 或 Mac，然后将耳机放入充电盒后合上盖子，并连接上充电线，静置 30 分钟以上。由于苹果并没有给 AirPods 加上手动更新固件选项，因此固件更新可能需要数小时才能安装完成。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-645655827833cc3205ca",
+      "title": "OpenAI 扩展 ChatGPT 商业功能：企业可认领资料并创建 AI 智能体，为 Business Agent 投放广告",
+      "published": "2026-11-10T22:55:36Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/206.htm",
+      "summary": "IT之家 11 月 11 日消息，当地时间 11 月 10 日，OpenAI 宣布推出 ChatGPT Businesses 测试版，为企业提供商家信息认领、资料管理、用户互动数据分析以及 AI 智能体等服务，帮助企业通过 ChatGPT 接触潜在客户。 OpenAI 表示，目前全球每周有 12 亿人使用 ChatGPT。Businesses 功能将通过 Business Hub 提供，企业可以在其中认领自己在 ChatGPT 中的商家资料，并在完成身份验证后更新关键信息，还可以添加包含产品价格和库存情况的自助式产品数据源，让 ChatGPT 能够向用户提供更加准确、及时的商品和服务信息。 符合条件、所在地区支持 ChatGPT 的企业均可通过 Business Hub 认领商家资料。现有 OpenAI Ent…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7a78cd8f826da4977c38",
+      "title": "OpenAI 收购旅游初创公司 Odessia，探索 AI 旅行智能体业务",
+      "published": "2026-11-10T22:43:22Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/025/202.htm",
+      "summary": "IT之家 11 月 11 日消息，Odessia 创始人弗朗西斯 · 戴维森（Francis Davidson）今天宣布，OpenAI 已收购 AI 旅行智能体公司 Odessia，他本人也已经加入 OpenAI，帮助这家 AI 初创公司探索旅游业务发展方向。 据悉，Odessia 成立仅一年，就拿到了红杉资本领投的 600 万美元（IT之家注：现汇率约合 4,011.9 万元人民币）种子前融资，并在大约 5 个月前推出了 AI 旅游智能体服务，帮助早期用户规划价值数百万美元的旅行行程。 OpenAI 发言人证实了上述信息，并表示：“我们非常欢迎戴维森加入 OpenAI，他是一名经验丰富的从业者，曾创办多家帮助人们旅行的企业。我们很高兴看到他选择 OpenAI，共同开展新事业。” 不过，OpenAI 尚未公布任…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-11T01:54:43Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-2278fd451e567049d51a",
       "title": "QQ 鸿蒙版 App 获 9.2.83 邀测升级，新增支持查看历史头像等功能",
@@ -411,7 +697,7 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -499,7 +785,7 @@
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
       "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -543,7 +829,7 @@
       "url": "https://www.ifanr.com/1688570",
       "summary": "油门焊死 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -609,7 +895,7 @@
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -631,7 +917,7 @@
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -653,7 +939,7 @@
       "url": "http://www.geekpark.net/news/373760",
       "summary": "作者｜Cynthia 编辑｜郑玄 传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。 这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也采取了行动，却仍然自欺欺人，把一次次看似成功的演示，当成了问题已经解决的证明。 2026 年上半年的企业级 Agent 市场，也曾有过这样的笃定。 每一场发布会上，AI 写方案、做表格、敲代码、生成海报的单任务能力都会轮番刷新上限。台上演示环节的百发百中，带动台下掌声雷动，所有人都觉得——企业级 AI 已经成熟了。 但年中效率复盘，所有…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -895,7 +1181,7 @@
       "url": "https://www.ifanr.com/1688639",
       "summary": "长得像未来，但没能活到未来。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -917,7 +1203,7 @@
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1005,7 +1291,7 @@
       "url": "https://openai.com/index/control-room",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1093,7 +1379,7 @@
       "url": "https://www.ifanr.com/1688447",
       "summary": "还有改图 100 轮都不糊 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1269,7 +1555,7 @@
       "url": "https://www.ifanr.com/1688514",
       "summary": "AI 版 PS 的时代来了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1401,7 +1687,7 @@
       "url": "https://openai.com/index/kuken",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1423,7 +1709,7 @@
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
       "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1472,7 +1758,7 @@
       "url": "https://www.ifanr.com/1688485",
       "summary": "终于不是后空翻、跳舞、跑步了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1606,7 +1892,7 @@
       "url": "https://www.ifanr.com/1688410",
       "summary": "又能摸鱼了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1628,7 +1914,7 @@
       "url": "http://www.geekpark.net/news/373644",
       "summary": "头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是——首次跻身最强开源模型之列。 过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，是腾讯在模型这条线上的身位。 从榜单表现来看，在开源模型里，Hy4 已经站进第一梯队；放到全球，和顶尖闭源模型的差距仍然清晰。 而根据国家数据局最近公布的一组数据，我国日均 Token 调用量已经从 2024 年初的 1000 亿，增长到今年 7 月的超 500 万亿，两年增长超 5000 倍。Token 消耗狂飙的背后，Agent 正在从一个技术概念变成新的生产力形态。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1654,7 +1940,7 @@
       "url": "https://www.ifanr.com/1688626",
       "summary": "当创始人成为公司的代名词 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1676,7 +1962,7 @@
       "url": "https://www.ifanr.com/1688127",
       "summary": "苹果的下一座围城，是创作 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2912,7 +3198,7 @@
       "url": "http://www.geekpark.net/news/373643",
       "summary": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3471,7 +3757,7 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3695,7 +3981,7 @@
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3849,7 +4135,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3871,7 +4157,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4268,7 +4554,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4422,7 +4708,7 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4777,7 +5063,7 @@
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4821,7 +5107,7 @@
       "url": "https://openai.com/ads/customers/flipsnack",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4953,7 +5239,7 @@
       "url": "https://openai.com/index/franklin-templeton",
       "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5220,7 +5506,7 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5641,7 +5927,7 @@
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
       "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5663,7 +5949,7 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
+      "fetched_at": "2026-11-11T01:54:43Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5686,360 +5972,6 @@
       "summary": "后来者总有机会。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
       "fetched_at": "2026-11-06T06:36:36Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d2d2383c159b2523e573",
-      "title": "微信灰度测试「声音清晰度增强」选项：目前支持苹果 iOS 和安卓版，华为鸿蒙版仍在开发中",
-      "published": "2026-11-04T01:34:40Z",
-      "company": "华为",
-      "companies": [
-        "华为",
-        "腾讯",
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/925.htm",
-      "summary": "IT之家 11 月 4 日消息，近日有多个用户反馈，微信正在灰度测试“声音清晰度增强”功能，例如 iOS 客户端在“我-设置-更多”中新增独立入口，用户开启后可在听语音消息、音视频通话等场景获得更清晰的声音。 腾讯客服回应IT之家表示，这是微信为提升语音沟通体验推出的智能功能。当用户听不清对方说话时，系统会根据听力情况自动匹配合适的清晰度。 有测试权限的用户可以通过“我-设置-更多-声音清晰度增强-开始”找到对应入口。不过，该入口目前仅支持 iOS 和 Android 客户端灰度测试，鸿蒙客户端仍在开发中。 值得一提的是，该功能原本位于关怀模式中，只有开启关怀模式才能使用。现在微信为其设置专门入口，即使未开启关怀模式，也可单独开启。 在开启这一功能之前，用户还需进行声音听清测试。用户需要听几段音频，并选择是否可…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d45db483329a70ca94b5",
-      "title": "苹果 Apple Music 新增“自唱自拍”功能：一边 K 歌一边录制视频",
-      "published": "2026-11-04T01:25:38Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/918.htm",
-      "summary": "IT之家 11 月 4 日消息，@aaronp613 今日发现，苹果在 iOS 27.3 开发者测试版中为 Apple Music 上线了一项名为 Selfie Sing 的新功能，允许用户一边跟随屏幕滚动的歌词唱歌，一边使用 iPhone 前置摄像头录制视频，并在录制完成后调整人声效果、保存或分享视频。 Selfie Sing 是苹果对现有 Apple Music 卡拉 OK 功能的进一步扩展。此前，Apple Music 的 K 歌模式已支持降低歌曲原唱音量，并通过高亮显示的同步歌词帮助用户跟唱。新增的 Selfie Sing 则将视频录制功能整合进音乐播放界面。 升级到 iOS 27.3 测试版后，用户在 Apple Music 中播放支持 Selfie Sing 的歌曲后，可以在歌曲的人声音量控制下方找…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a9267b79ed2250f618ff",
-      "title": "15.98 万元起，东风奕派 M8 天元激光版上市，用自研智驾替换华为乾崑",
-      "published": "2026-11-04T01:25:24Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1687538",
-      "summary": "奕派用自研换低价。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b643ea2f411a931b8534",
-      "title": "曝字节将大面积限制员工在内部自费使用 Claude、Codex 等",
-      "published": "2026-11-04T01:12:30Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/917.htm",
-      "summary": "IT之家 11 月 4 日消息，据大厂日爆 11 月 3 日爆料，字节迎来新规，将大面积限制 Claude、Codex 等个人账号的内部使用。 爆料称，本月起，字节跳动将会对所有 L4 级别的代码仓库和飞书文档进行外部 AI 访问封禁，覆盖范围全公司，员工个人采买的 AI 账号不能再用。 爆料还称，通知自上周发出后，引起了内部一些讨论，字节跳动技术副总裁洪定坤还在内网进行了详细回应，比如“L3 及以上内容一旦有泄露，后果是非常严重的”、“推广产品不需要用这种禁掉其他选择强迫使用的方式，因为这样效果很差”。 据 The Information 今年 8 月报道，字节跳动创始人张一鸣在上个月的 Seed 团队全体会议上明确表示，即使意味着暂时落后于竞争对手，公司也不会依赖 AI 蒸馏技术来改进其模型。 延伸阅读 在…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-dc18afcd3ccfc60e7ae9",
-      "title": "MOFT 为苹果 iPhone Duo 推出新款手机壳：折纸式设计，能保护屏幕也能当握把",
-      "published": "2026-11-04T01:07:21Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/914.htm",
-      "summary": "IT之家 11 月 4 日消息，据外媒 The Verge 报道，MOFT 为苹果折叠屏手机 iPhone Duo 推出了一款多功能保护壳。其不仅能保护手机，还能折叠成不同角度的支架，方便用户免手持操作。其屏幕翻盖采用折纸式设计，改变折叠方式后，还能充当握把，方便握持手机。 新款 Dynamic Folio Case 保护壳已在 MOFT 官网开放预订，售价 89.99 美元（IT之家注：现汇率约合 601.5 元人民币），提供海军蓝和雾湾色配蓝宝石双拼色共 2 款外观，预计 12 月中旬开始发货。 相比售价 69.99 美元（现汇率约合 467.8 元人民币）的 Dynamic Folio，新款略贵一些。两者的主要区别在于固定方式和防护范围：原版通过磁吸固定在 iPhone Duo 背面，拆卸方便；新款改用卡…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4f29bdcd4b96b816fdbb",
-      "title": "#iPhone 天气下周五温差#冲上热搜：苹果自带天气 App 多地显示 13 日最低气温零下 32 度，网友调侃“极寒末日守好庇护所”",
-      "published": "2026-11-04T00:11:03Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/895.htm",
-      "summary": "IT之家 11 月 4 日消息，多名网友今天（11 月 4 日）社交平台上反馈，苹果 iPhone 自带的天气 App 出现明显异常，杭州、南京等地 11 月 13 日的最低气温被显示为 -32℃，上海则显示 -31℃，和实际气候预报相差悬殊。 IT之家发稿前，#iPhone天气下周五温差#已冲上微博热搜第四名，热度值为 857835，有用户调侃极寒末日赶紧造庇护所。 图源 @开舒克的贝塔 从网友晒出的截图看，异常并非局限于个别城市。北京、上海、青岛、河南等地也被曝出现-28℃ 至-32℃ 不等的“极寒”预报，部分页面还同时显示白天最高气温在 20℃ 左右，形成接近 50℃ 的昼夜温差，显得极不合理。 公开气象预报信息显示，杭州 11 月 13 日预计为阴天，气温约 15℃ 至 21℃，并非零下极端低温；中国气…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ab5a3de1497c77ff2840",
-      "title": "苹果限制员工参与预测市场：禁止利用公司内幕信息下注",
-      "published": "2026-11-04T00:07:20Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/894.htm",
-      "summary": "IT之家 11 月 4 日消息，苹果已向美国证券交易委员会（SEC）提交年度文件，更新了内幕交易政策，并将预测市场（Prediction Markets）交易单独列为禁止事项。 苹果要求员工不得利用工作中获取的苹果机密信息，在 Polymarket 等预测市场平台下注或交易，即使相关行为按照适用法律不构成内幕交易或证券交易，也同样违反公司政策。 苹果在新增条款中明确规定，员工不得利用工作期间获得的苹果机密信息，参与预测未来事件结果的市场活动，包括下注、交易、买卖合约等。限制范围不仅涉及苹果自身，还包括其他公司，以及苹果的供应商、制造商、销售商、客户和商业合作伙伴，例如移动网络运营商等。 苹果同时强调，员工不得向可能参与此类市场交易的其他人泄露相关机密信息。这里所指的苹果机密信息不仅包括尚未公开的重要信息（Mat…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-72ecc6417dcca4e1ef10",
-      "title": "OpenAI 高管会议室发现“窃听”设备后，知情人士称员工多年不断反映安全漏洞",
-      "published": "2026-11-04T00:00:32Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/892.htm",
-      "summary": "IT之家 11 月 4 日消息，今年 10 月，OpenAI 在一间高管会议室发现了被人偷偷安装的录音设备。多名前员工得知消息后却不觉得意外。 据路透社援引 5 名知情人士消息称，早在 2022 年底 ChatGPT 问世之前，就有员工对 OpenAI 的安全管理提出质疑，并向公司高层和董事会反映问题。部分员工在沟通后认为，管理层更关心如何追赶谷歌、Anthropic 等竞争对手，对安全问题的重视程度反倒不够。 这些员工认为，OpenAI 的安全管理十分松懈，外部人员甚至外国政府都能相对容易地获取公司的敏感技术信息。知情人士举例称，任何拥有代码访问权限的 OpenAI 员工，都可以查看公司大量项目的底层技术细节。 另据两名知情人士透露，OpenAI 目前已开始调整安全策略，由负责产品开发的高级主管蒂博 · 索蒂…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-981785a01550309d0739",
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "published": "2026-11-04T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/devrev-enterprise-self-service",
-      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-295354ff422b0d4db922",
-      "title": "Introducing Images 2.6",
-      "published": "2026-11-04T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-10T20:48:30Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-723192229c2cdda5b3be",
-      "title": "OpenAI 证实：ChatGPT 搜索查询量已达谷歌 20%",
-      "published": "2026-11-03T23:16:23Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/885.htm",
-      "summary": "IT之家 11 月 4 日消息，据《商业内幕》今天（4 日）凌晨报道，OpenAI 挑战谷歌搜索现已“初见成效”。ChatGPT 消费者产品负责人亚当 · 弗莱证实：ChatGPT 上的搜索类查询量，约相当于谷歌搜索查询量的 20%。 今年夏天，皮尤研究中心发布的一份调查报告显示，搜索信息是美国成年人最常见的 AI 使用场景，42% 的受访者曾用 AI 搜索信息。 工作用途排在第二位，38% 的受访在职成年人曾用 AI 处理工作任务。娱乐、获取新闻和寻求医疗建议等用途则相对少见。 这次调查并非专门针对 ChatGPT。报道指出，ChatGPT 在 AI 聊天机器人中最受欢迎。44% 的受访美国成年人使用过 ChatGPT，排名第二的 Gemini 则只有 24%。 据IT之家了解，去年，谷歌母公司 Alphab…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-cb7677349575cc006ade",
-      "title": "苹果 iPadOS 27.3 首个开发者预览版相机应用新增 Siri 入口：视觉智能触手可及",
-      "published": "2026-11-03T23:05:50Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/883.htm",
-      "summary": "IT之家 11 月 4 日消息，科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称在 iPadOS 27.3 首个开发者预览版中，苹果面向部分支持的 iPad 机型，在“相机”（Camera）应用中新增 Siri 标签页入口。 IT之家援引博文介绍，苹果公司此前通过 iOS 27 系统更新，为 iPhone 15 Pro 以及后续机型，在相机应用中新增 Siri 标签页。而在本次 iPadOS 27.3 Beta 1 开发者预览版中，苹果公司将其扩展到 iPad 机型上。 在适配支持设备上，该功能覆盖搭载 M1 及更新芯片的 iPad Pro 和 iPad Air，以及搭载 A17 Pro、A20 Pro 芯片的 iPad mini。 体验方面，用户在支持的 iPad 上打开相机并切换到 S…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4fc0285d424952c324f9",
-      "title": "OpenAI ChatGPT 最新数据：周活跃用户达 12 亿，两个月新增 2 亿",
-      "published": "2026-11-03T22:39:56Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/878.htm",
-      "summary": "IT之家 11 月 4 日消息，当地时间 11 月 2 日 OpenAI 消费者产品负责人 Adam Fry 在纽约举行的一场 OpenAI 活动期间接受了 Big Technology 的采访。他透露，ChatGPT 每周活跃用户数量已经达到 12 亿之高。 Fry 表示，ChatGPT 的用户增长速度正在进一步加快。过去 60 天内，ChatGPT 的周活跃用户从 10 亿增长至 12 亿，新增约 2 亿用户。他将这一增长速度概括为每 30 天增加约 1 亿用户。 搜索业务方面，Fry 透露，OpenAI 对 ChatGPT 内部的搜索类查询进行了统计，并与 Google 的搜索查询量进行比较，结果显示，ChatGPT 当前处理的搜索类查询量约为 Google 的五分之一，每周生成图片达到 15 亿张，语音…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3c49339d6120b079c4fc",
-      "title": "iPhone 11 也有份：苹果 iOS 27.3 开发者预览版 Beta 带来 4 项“待机显示”功能",
-      "published": "2026-11-03T21:23:53Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/872.htm",
-      "summary": "IT之家 11 月 4 日消息，科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称在今天推送的 iOS 27.3 首个 Beta 开发者预览版中，苹果下放 iPhone Duo 上的多项“待机显示”（StandBy）模式，覆盖 iPhone 11 以及后续机型。 IT之家注：“待机显示”可以把手机变成桌面时钟、电子相框，或显示小组件和实时活动的信息屏。此次更新并非首次向旧 iPhone 机型开放“待机显示”模式，主要增加显示内容与个性化选择，将此前在 iPhone Duo 上推出的界面功能带到更多设备。 本次功能下放适用于 iPhone 11 等后续机型，主要扩展以下 4 项功能： 模拟与数字时钟界面增加颜色及附加信息的自定义选项； 照片界面支持选择共享相册； 新增日历、天气等界面； 同一类…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-10b71ad855b48aadb935",
-      "title": "苹果向 AirPods 5 等耳机推送 Beta 测试固件 9B5045a 更新",
-      "published": "2026-11-03T21:05:21Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/870.htm",
-      "summary": "IT之家 11 月 4 日消息，科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称苹果面向开发者和公开测试用户，推送适用于 AirPods 5 等耳机产品的 Beta 测试版本，固件版本号为 9B5045a。 IT之家援引博文介绍，本次 Beta 测试版本固件适用于以下 AirPods 耳机： AirPods Pro 2 AirPods Pro 3 AirPods 4 AirPods 5 AirPods Max 2 更新内容方面，苹果惯例没有为 AirPods 测试版固件提供更新日志，因此暂时无法确认新版是否加入新功能，或针对哪些问题进行了修复。 安装流程方面，用户需要将符合条件的 AirPods 连接到运行 iOS 26、iPadOS 26、macOS 26 或更高版本系统的 iPhone…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ab42c1e89af24a425bef",
-      "title": "Siri AI 将实现跨 App 办事：苹果开放“应用技能”，一句话串联多个应用任务",
-      "published": "2026-11-03T20:59:17Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/021/869.htm",
-      "summary": "IT之家 11 月 4 日消息，科技媒体 9to5Mac 今天（11 月 4 日）发布博文，报道称苹果宣布向第三方开发者开放 Siri AI 的全新“应用技能”（App Skills），让应用能够指导 Siri 执行更复杂的多步骤任务。相关功能将随 iOS 27.3、macOS 27.3 及同期系统更新推出，目前新版系统仍处于开发者测试阶段。 该媒体指出本次 Siri 升级主要扩展应用协调能力，Siri 不仅要理解用户想做什么，还能根据应用提供的技能，调用相应的应用操作并串联执行。相比早期仅支持有限预设模式的 Siri AI，新机制进一步扩大了第三方应用的接入范围，也让复杂请求有了更清晰的执行路径。 报道援引开发者文档举例，用户可以要求 Siri“通过某款聊天应用，把我收藏的运动鞋发给我的伴侣”。Siri 随后…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-04T02:17:51Z",
       "kind": "rss",
       "report_type": "report"
     }
