@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T18:16:15Z",
-  "last_success_at": "2026-11-12T18:16:15Z",
+  "updated_at": "2026-11-12T23:40:02Z",
+  "last_success_at": "2026-11-12T23:40:02Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 8,
-      "skipped": 52,
-      "last_success_at": "2026-11-12T18:16:15Z",
-      "last_attempt_at": "2026-11-12T18:16:15Z"
+      "accepted": 10,
+      "skipped": 50,
+      "last_success_at": "2026-11-12T23:40:02Z",
+      "last_attempt_at": "2026-11-12T23:40:02Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 5,
-      "skipped": 15,
-      "last_success_at": "2026-11-12T18:16:15Z",
-      "last_attempt_at": "2026-11-12T18:16:15Z"
+      "accepted": 4,
+      "skipped": 16,
+      "last_success_at": "2026-11-12T23:40:02Z",
+      "last_attempt_at": "2026-11-12T23:40:02Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-12T18:16:15Z",
-      "last_attempt_at": "2026-11-12T18:16:15Z"
+      "last_success_at": "2026-11-12T23:40:02Z",
+      "last_attempt_at": "2026-11-12T23:40:02Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1383,
-      "accepted": 18,
-      "skipped": 1365,
-      "last_success_at": "2026-11-12T18:16:15Z",
-      "last_attempt_at": "2026-11-12T18:16:15Z"
+      "feed_items": 1385,
+      "accepted": 19,
+      "skipped": 1366,
+      "last_success_at": "2026-11-12T23:40:02Z",
+      "last_attempt_at": "2026-11-12T23:40:02Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 4,
       "skipped": 26,
-      "last_success_at": "2026-11-12T18:16:15Z",
-      "last_attempt_at": "2026-11-12T18:16:15Z"
+      "last_success_at": "2026-11-12T23:40:02Z",
+      "last_attempt_at": "2026-11-12T23:40:02Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,126 @@
   ],
   "news": [
     {
+      "id": "rss-730619a092a3fd67ab58",
+      "title": "马斯克回应网友喊话：若能聘请到黄仁勋，将是我的荣幸",
+      "published": "2026-11-12T23:05:25Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/458.htm",
+      "summary": "IT之家 11 月 13 日消息，在黄仁勋辞去英伟达公司总裁、首席执行官及董事会成员职务前夕，全球首富埃隆 · 马斯克（Elon Musk）公开表示，若能聘请到黄仁勋，将是自己的“荣幸”。 美国财经博客 Zerohedge 在 X 平台发文称“埃隆，请聘请黄仁勋”，马斯克随后回复：“那将是我的荣幸。” 马斯克今天还认同网友 @naval 的观点：“我们应该从史蒂夫 · 乔布斯和特拉维斯 · 卡兰尼克（Uber 联合创始人）的经历中吸取教训，那就是创始人不能简单地被替换掉……”IT之家附上相关截图如下： 延伸阅读 黄仁勋此次辞职的直接背景，是其此前公开承认婚外情，随后英伟达董事会成立了由独立董事组成的委员会，并聘请外部独立法律顾问对相关情况展开审查。 黄仁勋于 1993 年参与创立英伟达，此后长期担任公司首席执行…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T23:40:02Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-07169d6df82c0a87c9be",
+      "title": "超 740 亿美元砸向 AI：马斯克的 SpaceX 不光造火箭，还要建超级算力帝国",
+      "published": "2026-11-12T22:52:04Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/455.htm",
+      "summary": "IT之家 11 月 13 日消息，全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司昨日（11 月 12 日）宣布，计划在得克萨斯州和亚利桑那州投入超过 740 亿美元（IT之家注：现汇率约合 4,947.49 亿元人民币），建设两座面向人工智能的超级计算数据中心园区，标志着这家火箭公司正加速向 AI 算力基础设施扩张。 根据公告内容，SpaceX 计划投资超过 240 亿美元，在得克萨斯州星际基地（Starbase）附近建设超级计算设施，将建在 SpaceX 自有约 444 英亩土地上，用于训练前沿人工智能模型。SpaceX 表示，该设施将自建燃气发电能力，不依赖公共电网；项目已创造超过 3,000 个建筑岗位，建成后预计支持 500 多个长期岗位。 而另一个项目位于亚利桑那州科奇斯县，园…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T23:40:02Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e5f741478120119d7f18",
+      "title": "SAG 报告 2026Q3 全球折叠手机出货量：三星 69% 份额傲视群雄，预估苹果改变 2027 市场格局",
+      "published": "2026-11-12T22:43:27Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/453.htm",
+      "summary": "IT之家 11 月 13 日消息，市场调查机构 Smart Analytics Global（SAG）昨日（11 月 11 日）发布博文，报告显示，2026 年第三季度全球可折叠智能手机出货量超过 750 万部，同比下降 2%。 细分到品牌方面，三星以 69% 的出货量份额继续稳居全球第一，创下 2023 年以来最高水平；华为以约 14% 位居第二，联想摩托罗拉则巩固第三名位置。 三星本季度的表现尤为亮眼：出货量同比增长 13%，新发布的 Galaxy Z Fold8 贡献了全球折叠屏手机出货量的一半以上。该机型也被视为三星首款“宽屏折叠”产品，帮助其在韩国和欧洲市场实现两位数增长。 该机构认为苹果可能成为下一轮折叠屏市场洗牌的关键。SAG 认为，苹果折叠屏 iPhone 的产能爬坡和显示屏耐用性问题，拖累了 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T23:40:02Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-dfa70cea82041a0d3813",
+      "title": "曝马斯克推进 SpaceX 与特斯拉合并谈判：最快 12 月公布，有望成为全球规模最大企业合并交易之一",
+      "published": "2026-11-12T22:29:53Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/452.htm",
+      "summary": "IT之家 11 月 13 日消息，据彭博社当地时间 11 月 12 日报道，马斯克旗下的两家核心企业正在推进合并谈判，双方董事会及顾问团队目前正就交易条款、合并后公司的治理结构等事项进行磋商。 知情人士透露，SpaceX 与特斯拉的合并谈判正在取得进展，双方有望于 12 月宣布合并协议，最迟可能推迟至 2027 年初。如果交易最终达成，将成为全球规模最大的企业合并交易之一。 报道称，双方谈判内容还包括 SpaceX 需要向特斯拉现有股东发行多少股份，以完成交易。特斯拉和 SpaceX 的代表均未立即回应置评请求。 如果合并完成，新公司将整合电动汽车、储能电池、火箭、卫星及人工智能等业务。两家公司的业务整合与马斯克希望将 AI 技术应用于太空探索、无人驾驶汽车和人形机器人等领域的计划有关。 不过，这笔交易仍面临监…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T23:40:02Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-a491aa90d650ab2bf91e",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "published": "2026-11-12T20:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/index/amplitude",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-12T23:40:02Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-fb95f5e5821cbaef7be8",
       "title": "黄仁勋辞职后，特朗普呼吁苹果执行董事长库克接任英伟达 CEO",
       "published": "2026-11-12T15:57:36Z",
@@ -191,7 +311,7 @@
       "url": "https://www.ithome.com/1/026/439.htm",
       "summary": "IT之家 11 月 12 日消息，黄仁勋离任英伟达 CEO 后，美国总统特朗普随即呼吁苹果执行董事长蒂姆 · 库克接掌英伟达。 今天（12 日）晚间，特朗普在 Truth Social 发文称，能够接替黄仁勋的人“只有一个”—— 苹果公司的蒂姆 · 库克。“一位传奇来接替另一位传奇！” 据IT之家了解，卸任苹果 CEO 后，库克改任执行董事长。 黄仁勋辞去总裁、首席执行官及董事会成员职务后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）为临时 CEO。 在正式继任者确定之前，克雷斯在代行首席执行官职责的同时，将继续兼任执行副总裁兼首席财务官。董事会目前已启动正式首席执行官的遴选工作，并将统筹考虑内部及外部候选人。 相关阅读： 《黄仁勋辞任英伟达 CEO 重创全球 AI 概念股，…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -213,7 +333,7 @@
       "url": "https://www.ithome.com/1/026/429.htm",
       "summary": "IT之家 11 月 12 日消息，苹果现已在国内官网上架一款 ShiftCam SnapPocket Light 2 磁吸 LED 环形补光灯（点此访问），该产品支持 MagSafe 磁吸，主要面向手机摄影、视频通话及直播等场景，定价为 298 元。 该产品尺寸约为 6.7×5.7×1.4cm，重量仅 45g，可直接吸附在兼容 MagSafe 的 iPhone 或保护壳背部，无需额外夹具。补光灯支持 180° 翻转，可根据自拍、后置摄像头拍摄等不同场景灵活调整照明方向。 该产品支持五档亮度调节及五档色温选择，色温范围为 2500K 至 6000K，可根据不同环境调整冷暖光效果，产品内置 400mAh 电池，采用 USB-C 接口充电，无需外接电源即可独立使用。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -235,7 +355,7 @@
       "url": "https://www.ithome.com/1/026/385.htm",
       "summary": "IT之家 11 月 12 日消息，广汽宣布旗下埃安 Ray 7 车型现已正式上市，该车是 Ray 系列的首款中大型纯电轿车，车长近 5 米，采用低趴宽体设计，风阻系数低至 0.22Cd，面向年轻市场打造，定价为 12.38 万元起，上市限时价格 11.47 万元起，IT之家整理价格如下： 车型版本 原价 上市限时价 702 后驱驾趣宁德版 13.38 万元 12.47 万元 702 后驱激光宁德版 14.38 万元 13.47 万元 702 后驱 EMB 激光宁德版 15.38 万元 14.47 万元 530 后驱驾趣版 12.38 万元 11.47 万元 530 后驱激光版 13.38 万元 12.47 万元 定金膨胀礼：1000 元定金膨胀抵 2000 元购车款 Ray 尝鲜礼：限时尝鲜无门槛补贴 3000…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -259,7 +379,29 @@
       "url": "https://www.ithome.com/1/026/380.htm",
       "summary": "IT之家 11 月 12 日消息，北汽集团今日发文，11 月 10 日，北汽集团党委书记、董事长张建勇率队赴深圳，与华为创始人任正非及华为高层代表会谈，双方就进一步深化战略合作进行深入交流。 根据新闻稿，会谈中，双方回顾了北汽与华为多年来合作积淀的成果与经验，并表示，享界汽车融合了北汽豪华造车经验和华为在智能化方面的优势，已经取得了一定的成功。 IT之家获悉，双方表示要继续秉持“同甘共苦、并肩前行”的合作理念，进一步深化双方战略合作，围绕用户体验持续加大投入，为用户造好车，实现差异化突围，共同把享界汽车打造成中国的豪华品牌。双方还就其他战略合作事项进行了讨论。 据介绍，目前，享界品牌已率先完成轿车、旅行车、SUV、MPV 全领域市场的战略布局，进入多品类协同增长新阶段。此外，北汽旗下北汽极狐、北京越野品牌也一直…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b9840fd67063a36a400d",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "published": "2026-11-12T12:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -281,7 +423,7 @@
       "url": "https://www.ithome.com/1/026/365.htm",
       "summary": "IT之家 11 月 12 日消息，新加坡星展银行今天（12 日）宣布与蚂蚁国际及腾讯旗下跨境支付平台 TenPay Global 达成合作，超过 300 万名星展银行 PayLah! 电子钱包用户，现已可在中国境内超过 1 亿家支付宝与微信支付合作商户实现便捷消费。 IT之家从官方新闻稿获悉，PayLah! 用户在中国无需下载新应用，只需打开电子钱包，即可扫描商户的支付宝或微信支付收款码，或向商户出示自己的付款码完成支付。 结合此前已打通的银联（UnionPay）二维码网络，星展银行现已成为新加坡首家且唯一一家全面支持中国三大主流二维码支付生态的银行。 此外，DBS PayLah! 的服务版图不仅限于中国内地与中国香港市场，用户还可在澳大利亚、韩国以及欧洲、拉丁美洲和中东等全球的超过 7000 万家 Alipa…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -303,7 +445,7 @@
       "url": "https://www.ithome.com/1/026/363.htm",
       "summary": "IT之家 11 月 12 日消息，继不久前承认有过一段婚外情后，英伟达 CEO 黄仁勋又传出另一起婚外情的疑云，英伟达董事会因此考虑将他解职。 消息一出，科技界多位重量级人物在 X 上纷纷发声。这其中，Epic Games CEO 蒂姆 · 斯威尼的态度尤为鲜明。 斯威尼在推文中呼吁“救救黄仁勋”。“如果英伟达董事会真的这么做，那就跟当年苹果解雇史蒂夫 · 乔布斯一样愚蠢，还会严重损害美国的利益。从游戏 GPU 时代到 CUDA，再到 AI 超级计算机，老黄始终是一位富有远见、引领科技未来发展的人物。” 同一天，有 X 用户向埃隆 · 马斯克提议聘用黄仁勋。马斯克回应：“那将是我的荣幸。” 据IT之家此前报道，英伟达董事会召开了会议讨论黄仁勋的去留，不过最终决定尚未公布。 相关阅读： 《黄仁勋去留悬而未决，外媒…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -347,7 +489,7 @@
       "url": "https://www.ifanr.com/1688980",
       "summary": "这是一个更好的 Siri，但还不是一个合格的 Agent #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -391,7 +533,7 @@
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -435,7 +577,7 @@
       "url": "http://www.geekpark.net/news/373881",
       "summary": "头图来源：豆包工作官网 豆包工作也模型自由了。 11 月 12 日，豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，支持用户按需选型完成任务。同步在模型选择页面标注各模型额度消耗倍率，倍率越低消耗越少，便于用户结合任务需求与使用成本做决策。 同时平台推出两项限时优惠：一是工作日及节假日的指定时段内，使用活动模型可享受额度消耗折扣；二是豆包 2.1 Lite、DeepSeek V4.1 Flash 两款模型限时下调额度消耗倍率，同等任务消耗额度更少。 一、补全多模型，解决「有的选」 本轮更新中，豆包工作一次性接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 三款第三方模型，进一步补齐了模型能力矩阵。 具体…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -592,7 +734,7 @@
       "url": "https://www.ifanr.com/1689176",
       "summary": "国产大模型开始组团办公 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -614,7 +756,7 @@
       "url": "https://www.ifanr.com/1689129",
       "summary": "苹果终于听劝了？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -658,7 +800,7 @@
       "url": "https://openai.com/index/children-first-declaration",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -680,7 +822,7 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -992,7 +1134,7 @@
       "url": "https://www.ifanr.com/1689016",
       "summary": "豆包走出屏幕 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1172,7 +1314,7 @@
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1524,7 +1666,7 @@
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
       "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1900,7 +2042,7 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1988,7 +2130,7 @@
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
       "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2098,7 +2240,7 @@
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2120,7 +2262,7 @@
       "url": "https://openai.com/index/singapore-airlines-travel-work",
       "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2142,7 +2284,7 @@
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2164,7 +2306,7 @@
       "url": "http://www.geekpark.net/news/373760",
       "summary": "作者｜Cynthia 编辑｜郑玄 传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。 这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也采取了行动，却仍然自欺欺人，把一次次看似成功的演示，当成了问题已经解决的证明。 2026 年上半年的企业级 Agent 市场，也曾有过这样的笃定。 每一场发布会上，AI 写方案、做表格、敲代码、生成海报的单任务能力都会轮番刷新上限。台上演示环节的百发百中，带动台下掌声雷动，所有人都觉得——企业级 AI 已经成熟了。 但年中效率复盘，所有…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2428,7 +2570,7 @@
       "url": "https://openai.com/index/cogent-security",
       "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2450,7 +2592,7 @@
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2538,7 +2680,7 @@
       "url": "https://openai.com/index/control-room",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2934,7 +3076,7 @@
       "url": "https://openai.com/index/kuken",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2956,7 +3098,7 @@
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
       "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3161,7 +3303,7 @@
       "url": "http://www.geekpark.net/news/373644",
       "summary": "头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是——首次跻身最强开源模型之列。 过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，是腾讯在模型这条线上的身位。 从榜单表现来看，在开源模型里，Hy4 已经站进第一梯队；放到全球，和顶尖闭源模型的差距仍然清晰。 而根据国家数据局最近公布的一组数据，我国日均 Token 调用量已经从 2024 年初的 1000 亿，增长到今年 7 月的超 500 万亿，两年增长超 5000 倍。Token 消耗狂飙的背后，Agent 正在从一个技术概念变成新的生产力形态。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4445,7 +4587,7 @@
       "url": "http://www.geekpark.net/news/373643",
       "summary": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5004,7 +5146,7 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5228,161 +5370,7 @@
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7e7066979cf1efea71a1",
-      "title": "OpenAI 最强网安 AI 模型：GPT-6 Cyber 登场，性能提高 51%、发现火狐 Firefox 浏览器 81 个新漏洞",
-      "published": "2026-11-05T23:22:55Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/023/038.htm",
-      "summary": "IT之家 11 月 6 日消息，OpenAI 昨日（11 月 5 日）发布博文，宣布推出发布网络安全专用模型 GPT-6 Cyber，官方宣称在发现、验证和修复软件漏洞方面，比上一代 GPT-5.6 Cyber 实现显著提升，在 ExploitGym 测试中跑分相对提升 51%。 ExploitGym 基准主要检验模型能否利用指定远程漏洞，GPT-6 Cyber 得分为 48.5%，较 GPT-5.6 Cyber 的 32.1% 相对提升约 51%。OpenAI 还称，该模型在无部署安全提示时，99.93% 的测试避免攻击授权范围外的服务；启用提示后，这一比例达到 100%。 IT之家注：原文只有黑色背景 实际成效方面，OpenAI 研究人员利用 GPT-6 Cyber 复现了 1,724 个 Linux 内核…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d9dc0a8351748923f1a2",
-      "title": "苹果推出升级版“全球旅行转换器套件”：299 元，兼容 70W 和 140W 电源适配器",
-      "published": "2026-11-05T23:09:26Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/023/037.htm",
-      "summary": "IT之家 11 月 6 日消息，除了新 Mac 之外，苹果官网还上架了新版全球旅行转换器套装（World Travel Adapter Kit），售价 39 美元（IT之家注：现汇率约合 260.7 元人民币），国行 299 元（官网地址：点此购买）。 新版转换器套装包含 5 种可更换交流电插头，适配苹果最新款 70W 和 140W 电源适配器。 根据苹果官网信息，新款套装采用全新的交流电源接口 2（AC Connector 2），主要用于将兼容电源适配器的交流电插头转换为不同国家和地区使用的规格。套装内共有 5 种插头规格，分别为： Type A：适用于北美、日本。 Type C：适用于欧洲大陆、巴西。 Type D：适用于印度。 Type G：适用于英国、阿联酋、沙特阿拉伯、新加坡。 Type I：适用于澳…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-73f3fe4ceec522b01783",
-      "title": "苹果首款智能家居中枢 HomeView 确认配备 8GB 内存",
-      "published": "2026-11-05T22:59:55Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/023/036.htm",
-      "summary": "IT之家 11 月 6 日消息，据 MacRumors 今日报道，苹果 HomeView 智能家居中枢除了搭载 A18 芯片之外，还配备了 8GB 的运行内存。 IT之家注意到，这一配置与其他搭载 A18 芯片的苹果设备保持一致。MacRumors 指出，所有 iPhone 16 系列机型以及 MacBook Neo 均配备了 8GB 运行内存。 此前，苹果已为 HomeView 配备 A18 芯片，该设备定位为智能家居控制中枢。此次 8GB 运行内存信息得到确认，进一步补充了这款新品的硬件配置细节。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9df512c20ef9f2b7bd09",
-      "title": "微软 Xbox 云游戏支持手机变身虚拟手柄：支持 iOS 和安卓，无需下载应用",
-      "published": "2026-11-05T22:51:54Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/023/035.htm",
-      "summary": "IT之家 11 月 6 日消息，微软 Xbox 于当地时间 11 月 4 日宣布，为 Xbox Cloud Gaming 推出一项新功能，支持用户使用 iOS 或 Android 智能手机充当游戏手柄，在兼容智能电视上游玩云游戏时，无需额外连接实体手柄。 根据 Xbox 官方公告，该功能目前处于预览测试阶段，正在支持 Xbox Cloud Gaming 的国家和地区逐步推出。微软表示，用户可以通过手机浏览器加载虚拟游戏控制界面，无需额外下载手机应用。 使用时，用户需要在支持的智能电视上打开 Xbox 应用，进入「设置」中的「账户」，开启「预览功能」之后，在没有连接实体手柄的情况下启动游戏，电视屏幕便会显示使用手机作为控制器的选项。 用户选择该选项后，通过手机扫描电视显示的二维码，即可在手机浏览器中打开虚拟控制器…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e0826a4ba75d57029a8d",
-      "title": "三星 SM-U700 头戴式耳机通过 FCC 认证：疑为 Galaxy Studio，对标苹果 AirPods Max",
-      "published": "2026-11-05T22:36:21Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/023/033.htm",
-      "summary": "IT之家 11 月 6 日消息，三星正在研发一款高端头戴式无线耳机，可能命名为 Galaxy Studio，预计于 2027 年初与 Galaxy S27 系列一同发布。 当地时间 11 月 4 日，美国联邦通信委员会（FCC）认证网站出现了一款型号为 SM-U700 的三星蓝牙耳机。 据 SamMobile 报道，该设备正是此前曝光的 Galaxy Studio 头戴式耳机。相关认证文件包含一张监管标签位置示意图，从图片中可以看到耳机的部分外观设计。 从曝光信息来看，三星 Galaxy Studio 似乎采用可旋转耳罩设计，耳罩能够向内或向外转动至扁平状态，方便用户收纳和携带。此外，相关认证文件还显示，这款耳机预计提供黑色和米色两种配色。 相关阅读： 《对标苹果 AirPods Max：三星 Galaxy S…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d202d0261c82e927163d",
-      "title": "《NBA 2K27 Arcade Edition》上线 Apple Arcade，收录全部 15 支 WNBA 球队",
-      "published": "2026-11-05T22:24:40Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/023/031.htm",
-      "summary": "IT之家 11 月 6 日消息，苹果今日宣布为 Apple Arcade 库新增四款游戏，分别为《Crossy Road Rush》《NBA 2K27 Arcade Edition》《KAMI 2+》和《Food Stylist - Design Game+》。 其中，《NBA 2K27 Arcade Edition》首次在 Arcade 版本中加入 WNBA（美国女子职业篮球联赛）内容。 《Crossy Road Rush》是《Crossy Road》系列的最新作品。玩家需要穿越一座布满障碍的岛屿赛道，在躲避各种障碍、完成挑战的过程中解锁不同角色。游戏支持单人游玩，也支持最多 4 名玩家通过本地或在线多人模式共同游玩。 《NBA 2K27 Arcade Edition》支持 iPhone、iPad、Mac 和…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T23:36:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-bbd492caba72ca544b8b",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "published": "2026-11-05T20:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-12T18:16:15Z",
+      "fetched_at": "2026-11-12T23:40:02Z",
       "kind": "rss",
       "report_type": "report"
     }
