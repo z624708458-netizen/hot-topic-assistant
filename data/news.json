@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-12T00:38:29Z",
-  "last_success_at": "2026-11-12T00:38:29Z",
+  "updated_at": "2026-11-12T09:45:52Z",
+  "last_success_at": "2026-11-12T09:45:52Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 11,
-      "skipped": 49,
-      "last_success_at": "2026-11-12T00:38:29Z",
-      "last_attempt_at": "2026-11-12T00:38:29Z"
+      "accepted": 7,
+      "skipped": 53,
+      "last_success_at": "2026-11-12T09:45:52Z",
+      "last_attempt_at": "2026-11-12T09:45:52Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-11-12T00:38:29Z",
-      "last_attempt_at": "2026-11-12T00:38:29Z"
+      "accepted": 5,
+      "skipped": 15,
+      "last_success_at": "2026-11-12T09:45:52Z",
+      "last_attempt_at": "2026-11-12T09:45:52Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-12T00:38:29Z",
-      "last_attempt_at": "2026-11-12T00:38:29Z"
+      "last_success_at": "2026-11-12T09:45:52Z",
+      "last_attempt_at": "2026-11-12T09:45:52Z"
     },
     {
       "id": "openai",
@@ -69,10 +69,10 @@
       "publisher_id": "openai",
       "status": "ok",
       "feed_items": 1381,
-      "accepted": 21,
-      "skipped": 1360,
-      "last_success_at": "2026-11-12T00:38:29Z",
-      "last_attempt_at": "2026-11-12T00:38:29Z"
+      "accepted": 17,
+      "skipped": 1364,
+      "last_success_at": "2026-11-12T09:45:52Z",
+      "last_attempt_at": "2026-11-12T09:45:52Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 3,
-      "skipped": 27,
-      "last_success_at": "2026-11-12T00:38:29Z",
-      "last_attempt_at": "2026-11-12T00:38:29Z"
+      "accepted": 4,
+      "skipped": 26,
+      "last_success_at": "2026-11-12T09:45:52Z",
+      "last_attempt_at": "2026-11-12T09:45:52Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,229 @@
   ],
   "news": [
     {
+      "id": "rss-4a9e328b9389c5b18993",
+      "title": "特斯拉 Robotaxi 得州注册车辆数量反超 Waymo，Cybercab 已占近半",
+      "published": "2026-11-12T08:36:03Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/167.htm",
+      "summary": "IT之家 11 月 12 日消息，特斯拉 Robotaxi 的注册车辆数量首次超过 Waymo，成为美国得克萨斯州自动驾驶车辆登记名单中规模最大的车队。 根据得克萨斯州机动车辆管理局（TxDMV）的公开登记数据，截至 11 月 10 日，特斯拉旗下 Tesla Robotaxi, LLC 名下共有 1302 辆登记车辆，略高于 Waymo 的 1297 辆。 这次反超幅度虽然不大，但确实反映在官方登记记录中。经过 11 月 10 日的一轮扩充，特斯拉在得州的 Robotaxi 车队目前包括 729 辆 Model Y 和 573 辆专为自动驾驶出租车服务打造的 Cybercab。 Waymo 的车队则主要由捷豹 I-PACE 组成，同时正在增加基于极氪车型打造的 Ojai 小型厢式车。 上述数据均来自 TxDM…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8e80651b0ec42ea3765e",
+      "title": "接入多款第三方模型，豆包工作也模型自由了",
+      "published": "2026-11-12T08:24:17Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "极客公园",
+      "source_id": "geekpark",
+      "publisher_id": "geekpark",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "http://www.geekpark.net/news/373881",
+      "summary": "头图来源：豆包工作官网 豆包工作也模型自由了。 11 月 12 日，豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，支持用户按需选型完成任务。同步在模型选择页面标注各模型额度消耗倍率，倍率越低消耗越少，便于用户结合任务需求与使用成本做决策。 同时平台推出两项限时优惠：一是工作日及节假日的指定时段内，使用活动模型可享受额度消耗折扣；二是豆包 2.1 Lite、DeepSeek V4.1 Flash 两款模型限时下调额度消耗倍率，同等任务消耗额度更少。 一、补全多模型，解决「有的选」 本轮更新中，豆包工作一次性接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 三款第三方模型，进一步补齐了模型能力矩阵。 具体…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-47f112869e156eeb9d30",
+      "title": "Sensor Tower：腾讯、点点互动、柠檬微趣 10 月蝉联中国手游发行商全球收入排行榜前三",
+      "published": "2026-11-12T07:53:50Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/115.htm",
+      "summary": "IT之家 11 月 12 日消息，Sensor Tower 商店情报平台显示，2026 年 10 月共 37 个中国厂商入围全球手游发行商收入榜 TOP 100，合计吸金 20 亿美元（IT之家注：现汇率约合 133.72 亿元人民币），占本期全球 TOP 100 手游发行商收入的 39.7%。 本报告仅统计发行商收入，数据包含 App Store 与 Google Play 的综合预估值，不包含第三方 Android 应用商店数据，中国大陆市场仅统计 iOS 端，预估数据不代表发行商财务报表确认收入。 10 月，腾讯、点点互动、柠檬微趣和网易继续蝉联中国手游发行商 TOP 4，三七互娱排名上升 1 位跻身前 5。 重点产品更新带来显著增长，库洛游戏凭借《鸣潮》的亮眼表现排名提升至第 8 名；悠星网络旗下《明日…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0bd1350031a44a4140ae",
+      "title": "北汽星钽 5X 上市：方盒子 + 华为乾崑 ADS 5 Pro，限时焕新价 12.69 万元起",
+      "published": "2026-11-12T07:44:17Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/113.htm",
+      "summary": "IT之家 11 月 12 日消息，在今日下午举行的发布会上，北汽星钽 5X 上市，共推出 7 款车型，提供插混、纯电两种动力供选择，限时焕新价 12.69 万元起： 纯电版： 625km 标准版：上市指导价 12.99 万元，限时焕新价 12.69 万元 625km 乾崑智驾版：上市指导价 14.99 万元，限时焕新价 14.69 万元 625km 乾崑智驾舒享版：上市指导价 15.99 万元，限时焕新价 15.69 万元 插电混动版： 310km 两驱版：上市指导价 13.49 万元，限时焕新价 13.19 万元 285km 四驱版：上市指导价 14.49 万元，限时焕新价 14.19 万元 310km 两驱乾崑智驾版：上市指导价 15.49 万元，限时焕新价 15.19 万元 285km 四驱乾崑智驾版：上…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-dcf359178a51f40b4705",
+      "title": "关海涛欢迎华为推子品牌星芒：这件事最大的意义，就是让大家知道荣耀是荣耀",
+      "published": "2026-11-12T07:43:56Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/112.htm",
+      "summary": "IT之家 11 月 12 日消息，华为全新子品牌 OSTA 星芒将在 11 月 20 日 14:30 举行的“鸿蒙智行享界 V8 及星芒品牌发布会”上首次公开亮相。 有博主询问荣耀全球首席营销官关海涛，华为推出子品牌星芒会不会对荣耀有影响？ 关海涛对此回应称：欢迎星芒，一起荣耀！这件事最大的意义，就是让大家知道荣耀是荣耀，敢想敢不同的荣耀。 IT之家注意到，华为星芒官方账号的宣传语为“先锋不止设计，用创新探索更多方向，以技术连接无限可能”，并称星芒为一个“全新起点”。 荣耀于 2013 年 12 月作为华为子品牌创立，2020 年 11 月正式脱离华为独立运营。目前华为不再持有荣耀任何股份，双方在市场上已彻底分家。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-30d84adf70564f492866",
+      "title": "特斯拉柏林工厂扩建将生产新车型，不再建第二座 Model Y 工厂",
+      "published": "2026-11-12T07:15:30Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/096.htm",
+      "summary": "IT之家 11 月 12 日消息，特斯拉德国柏林超级工厂（Giga Berlin）未来的扩建计划可能带来新变化，不会只是简单地增加 Model Y 的产能。 据 Automobilwoche 报道，在柏林举行的 Automobilwoche 汽车行业大会上，工厂负责人安德烈 · 蒂里希（André Thierig）表示，如果特斯拉决定在现有厂区再建一座工厂，“我们不会再建一座 Model Y 工厂”。 不过，蒂里希并未透露新工厂将生产什么车型。目前，特斯拉尚未就建设第二座工厂或推出新产品作出最终决定。 不少特斯拉粉丝一直期待公司为欧洲市场推出一款价格更低、尺寸更紧凑的车型。不过，据报道，特斯拉早在 2024 年初就搁置了 Model 2 项目，转而将战略重心放在 Robotaxi 无人驾驶出租车上。作为替代方案…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4a545458b9cb19feb5ad",
+      "title": "微信鸿蒙版 App 获 8.0.23.37 尝鲜升级，小微 AI 助手更多功能灰度中",
+      "published": "2026-11-12T07:09:06Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/095.htm",
+      "summary": "IT之家 11 月 12 日消息，微信鸿蒙版 App 今日在华为应用市场（App Gallery）开启了 8.0.23.37 (8394533) 版本尝鲜升级，测试时间为 2026/11/12-2026/12/12。 微信鸿蒙版 App 尝鲜可能量少，有需要的朋友可通过应用市场-我的-应用尝鲜-点击搜索框搜索。 和往常一样，本次更新的说明依旧为“修复了一些已知问题”。据博主 @伤心萨摩耶Ciuciu 反馈，8.0.23 版本的微信新增了如下特性： 部分 Flutter 跨端页面（如朋友圈、听一听等页面）响应系统字体粗细； 更换铃声选择界面右上角新增铃声设置入口，支持启用或停用个性化内容推荐； 发表视频号内容时新增添加标注，视频号已发布的内容点击分享同步新增添加标注； 发现 > 直播 > 更多直播新增搜索按钮； …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0ac87697dad1ac5ba907",
+      "title": "消息称特斯拉取消基础版 Autopilot 是马斯克亲自拍板，意在增加 FSD 订阅量",
+      "published": "2026-11-12T06:57:39Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/026/085.htm",
+      "summary": "IT之家 11 月 12 日消息，今年早些时候，特斯拉停止在新车上免费提供基础版 Autopilot 时，许多车主就怀疑，此举是为了迫使更多消费者转向购买 Full Self-Driving（FSD）服务。如今，一位知情人士向媒体 Not a Tesla App 透露，事实确实如此，而且这一决定是由特斯拉 CEO 埃隆 · 马斯克（Elon Musk）亲自拍板的。 据报道，马斯克决定从新车中移除基础版 Autopilot，包括交通感知巡航控制（Traffic-Aware Cruise Control）和自动转向（Autosteer）功能，以推动 FSD 订阅量增长。值得注意的是，FSD 订阅量也是马斯克获得薪酬方案奖励所必须达成的业绩目标之一。 2025 年 11 月，在特斯拉年度股东大会上，股东批准了马斯克的…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-e3c4befb066bac56e472",
+      "title": "刚刚，豆包工作官宣接入 Kimi、DeepSeek，AI 模型自由来了",
+      "published": "2026-11-12T04:50:05Z",
+      "company": "字节跳动",
+      "companies": [
+        "字节跳动"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1689176",
+      "summary": "国产大模型开始组团办公 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-468c3b7a584b68d06e3e",
+      "title": "拆解触屏 MacBook Pro：点亮苹果 LOGO 的秘密，藏在这里",
+      "published": "2026-11-12T04:00:07Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1689129",
+      "summary": "苹果终于听劝了？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-12T09:45:52Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-cd4b55cde71eae560117",
       "title": "华为 WATCH Ultimate 2 新增滑雪登山模式，六大模式覆盖室内外与越野场景",
       "published": "2026-11-12T00:36:18Z",
@@ -211,7 +434,7 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -523,7 +746,7 @@
       "url": "https://www.ifanr.com/1689016",
       "summary": "豆包走出屏幕 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -703,7 +926,7 @@
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1055,7 +1278,7 @@
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
       "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1431,7 +1654,7 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1519,7 +1742,7 @@
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
       "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1563,7 +1786,7 @@
       "url": "https://www.ifanr.com/1688570",
       "summary": "油门焊死 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1629,7 +1852,7 @@
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1651,7 +1874,7 @@
       "url": "https://openai.com/index/singapore-airlines-travel-work",
       "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1673,7 +1896,7 @@
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1695,7 +1918,7 @@
       "url": "http://www.geekpark.net/news/373760",
       "summary": "作者｜Cynthia 编辑｜郑玄 传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。 这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也采取了行动，却仍然自欺欺人，把一次次看似成功的演示，当成了问题已经解决的证明。 2026 年上半年的企业级 Agent 市场，也曾有过这样的笃定。 每一场发布会上，AI 写方案、做表格、敲代码、生成海报的单任务能力都会轮番刷新上限。台上演示环节的百发百中，带动台下掌声雷动，所有人都觉得——企业级 AI 已经成熟了。 但年中效率复盘，所有…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1937,7 +2160,7 @@
       "url": "https://www.ifanr.com/1688639",
       "summary": "长得像未来，但没能活到未来。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1959,7 +2182,7 @@
       "url": "https://openai.com/index/cogent-security",
       "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1981,7 +2204,7 @@
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2069,7 +2292,7 @@
       "url": "https://openai.com/index/control-room",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2465,7 +2688,7 @@
       "url": "https://openai.com/index/kuken",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2487,7 +2710,7 @@
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
       "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2692,7 +2915,7 @@
       "url": "http://www.geekpark.net/news/373644",
       "summary": "头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是——首次跻身最强开源模型之列。 过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，是腾讯在模型这条线上的身位。 从榜单表现来看，在开源模型里，Hy4 已经站进第一梯队；放到全球，和顶尖闭源模型的差距仍然清晰。 而根据国家数据局最近公布的一组数据，我国日均 Token 调用量已经从 2024 年初的 1000 亿，增长到今年 7 月的超 500 万亿，两年增长超 5000 倍。Token 消耗狂飙的背后，Agent 正在从一个技术概念变成新的生产力形态。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3976,7 +4199,7 @@
       "url": "http://www.geekpark.net/news/373643",
       "summary": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4535,7 +4758,7 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4759,7 +4982,7 @@
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4913,7 +5136,7 @@
       "url": "https://openai.com/index/cultfit-builds-with-codex",
       "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4935,7 +5158,7 @@
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
+      "fetched_at": "2026-11-12T09:45:52Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5289,647 +5512,6 @@
       "summary": "IT之家 11 月 5 日消息，据汽车媒体 Teslarati 今天报道，特斯拉已在德国柏林启用全新工程中心 Cybaer，此处集中了特斯拉欧洲零部件设计和测试团队，可缩短开发与产能爬坡周期。 据介绍，这座工程中心将原本分散在 4 处的工程设施和 30 间实验室整合在同一园区，将材料、动力系统、整车工程和验证团队放入同一屋檐下。此工程中心原本是一座电缆工厂，目前约有 250 名工程师和技术人员开始工作。 同时，特斯拉已经向政府提交了工程中心二期建设申请，计划将员工人数增加至 500 人。特斯拉表示，该项目总投资额为 1 亿欧元（IT之家注：现汇率约合 7.5 亿元人民币）。 此外，该中心将为整个欧洲提供服务。特斯拉选址时考虑了靠近工厂的位置，这座旧工业建筑让公司能够迅速推进项目。",
       "summary_status": "source",
       "fetched_at": "2026-11-05T17:59:40Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a592b3b216160f411a58",
-      "title": "OpenAI 总裁布罗克曼：AI 或将能让死亡成为一种选择",
-      "published": "2026-11-05T09:16:16Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/901.htm",
-      "summary": "IT之家 11 月 5 日消息，自人类拥有自我意识以来，死亡始终是困扰人类思想的一大难题，犹如一个至今仍无法找到有效解法的复杂谜题。不过，人工智能（AI）或许能在不久的将来帮助人类实现某些形式的永生，甚至让死亡成为一种可以自主选择的事情。OpenAI 总裁格雷格 · 布罗克曼（Greg Brockman）近日发表了这一观点，而他的看法与埃隆 · 马斯克（Elon Musk）此前表达的类似观点不谋而合。 OpenAI 联合创始人兼总裁格雷格 · 布罗克曼近日在《华尔街日报》科技峰会（WSJ Tech）上发表演讲，谈到了 AI 即将在生物学领域推动的一系列创新。他指出，未来死亡或许真的会成为一种选择。 布罗克曼表示：“我认为，生物学领域的突破并非只与人类有关。我们都在承受各种痛苦，而死亡能否成为一种选择，本身就是一…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-14e90e72d3401ddf817f",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "published": "2026-11-05T09:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a3f61647b9a15b48e1e9",
-      "title": "首款鸿蒙台式机华为擎云 HM650 系列发布：搭载麒麟 X90 桌面处理器，实现 100% 国产化率",
-      "published": "2026-11-05T08:44:44Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/834.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会现场，华为终端平板与 PC 产品线总裁朱懂东正式发布了首款鸿蒙台式机 —— 华为擎云 HM650 系列。 据介绍，华为擎云 HM650 系列搭载鸿蒙电脑企业版 + 麒麟 X90 高性能桌面处理器。灵犀 CPU 10 核 20 线程，支持智能超线程调度；马良 GPU 支持 GPU 硬件加速；达芬奇架构 NPU 本地算力支持多尺寸模型入端。 华为擎云 HM650 系列预装鸿蒙 HarmonyOS 系统，支持 HyperSpace Memory 超空间内存技术，内存压缩效率提升 50%、大文件打开数量提升 40%。新机拥有新国标能耗 I 级认证，系统提供超低功耗待机模式，硬件支持芯片智能资源调度、主板采用高能效电源设计、接口可拒绝无效耗电…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7f8ec16a7d29f5dcd55c",
-      "title": "特斯拉得州超级工厂被曝增设夜班，实现全天候生产",
-      "published": "2026-11-05T08:36:39Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/814.htm",
-      "summary": "IT之家 11 月 5 日消息，特斯拉得州超级工厂（Gigafactory Texas）可能很快将进入全天候生产状态。长期以来一直通过无人机航拍记录该工厂建设进展的飞手乔 · 特格特迈耶（Joe Tegtmeyer）在最新一期得州超级工厂动态视频中透露，特斯拉正通过增设夜班，将奥斯汀工厂的产能提升一倍。 特格特迈耶在工厂外介绍称，此次调整意味着生产线将在夜间继续运转。同一期视频中的无人机画面显示，得州超级工厂的车辆交付区停满了一排排金色 Cybercab 无人驾驶出租车，等待驶出工厂。 不过，特斯拉尚未确认这一调整，也没有说明新增产能将用于生产哪些车型。 据特格特迈耶透露，得州超级工厂计划采用两班制，每班工作 12 小时。这样一来，工厂几乎可以不间断运转。不过，如果要实现全天候生产，安排三个 8 小时班次同样合…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-564a7bccdfa4faa4e9e3",
-      "title": "特斯拉已停产的 Model S 外观设计专利获批，保护期至 2041 年",
-      "published": "2026-11-05T08:22:14Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/793.htm",
-      "summary": "IT之家 11 月 5 日消息，特斯拉 Model S 虽然已经停产，但特斯拉仍在努力确保其他汽车制造商无法随意抄袭其外观。美国专利商标局近日向特斯拉授予了一项名为“汽车车身”的外观设计专利，其设计与最新款 Model S 高度吻合，而此时距离这款轿车停产已经过去数月。 这项专利编号为 US-D1156251-S，于当地时间 11 月 3 日正式获批。专利文件虽然没有直接提及 Model S，但其中的设计图已经清楚地表明了对应车型。 专利保护哪些设计？ 专利文件中的图纸展示了汽车的各个角度，包括前部、后部、左右两侧、顶部、底部，以及多个三维视图。 这些图纸呈现了 Model S 标志性的溜背式车顶线条，以及前唇、侧裙、后扰流板和后扩散器等设计元素。 特斯拉首席设计师弗朗茨 · 冯 · 霍尔茨豪森（Franz v…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9e9d829bfaa784976f2c",
-      "title": "华为擎云鸿图伙伴计划 2.0 落地，首批 HarmonyOS Inside 整机官宣即将同步上市",
-      "published": "2026-11-05T08:22:02Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/791.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会现场，华为终端平板与 PC 产品线总裁朱懂东宣布，华为擎云鸿图伙伴计划升级，将协同产业链伙伴深入合作。 据介绍，此次擎云鸿图伙伴计划 2.0 版本将主打 HarmonyOS Inside，目的是打造鸿蒙电脑技术路线。 IT之家在峰会现场了解到，首批 HarmonyOS Inside 整机即将同步上市，包括升腾资讯的升华 P270、航天七〇六的天煜 TR1860、湘江鲲鹏的兆瀚 D680x、百信信息的太行 270H 和软通华方的天曜 W600-K60/K44。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-3afc9f3d7b4f2d0cf850",
-      "title": "百度文心开源发布 ERNIE 5.5 Flash Base 高效基座模型，总参数 280B",
-      "published": "2026-11-05T08:21:01Z",
-      "company": "百度",
-      "companies": [
-        "百度"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/785.htm",
-      "summary": "IT之家 11 月 5 日消息，百度文心大模型今日发布 ERNIE-5.5-Flash-Base，开放 ERNIE 5.5 Flash 预训练终点的权重。 这是一个稀疏 MoE 语言模型，总参数 280B，每 token 激活 14B，在 33.5T tokens 上从零完成预训练；最长训练上下文为 128K，微调与推理支持 1M tokens 上下文。 本次发布的权重未经中训练与后训练，可作为领域适配、指令微调和强化学习研究的共同起点。 官方表示，Base 模型只是起点。经过后训练的 ERNIE 5.5 Flash 将随后推出。 ERNIE-5.5-Flash-Base 在 33.5T tokens 上从零完成预训练，采用 Muon 优化器与 FP8 混合精度。预训练语料覆盖广泛的领域与语言，并重点建设了三个…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-5f2d89657735bfafbf3b",
-      "title": "华为擎云鸿图伙伴计划升级，HarmonyOS Inside 打造鸿蒙电脑技术路线",
-      "published": "2026-11-05T08:06:25Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/780.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会现场，华为终端平板与 PC 产品线总裁朱懂东宣布，华为擎云鸿图伙伴计划升级，将协同产业链伙伴深入合作。 IT之家从峰会现场了解到，华为擎云鸿图伙伴计划在 2024 年推出了 1.0 版本，主打麒麟 SoC Inside，目的是加速自主终端产业发展。此次 2.0 版本将主打 HarmonyOS Inside，目的是打造鸿蒙电脑技术路线。 据介绍，鸿蒙主板模式全面就绪，可协同伙伴打造丰富机型，满足多元化客户需求。首批商业落地有 5 家合作伙伴实现产品开发，包括湘江鲲鹏、软通华方、升腾资讯、航天七〇六和百信信息。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-db9792e954d447010915",
-      "title": "Merge builds product and business tools with OpenAI technology",
-      "published": "2026-11-05T08:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/merge-builds-with-openai",
-      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d09d6422f5a65ab91249",
-      "title": "原生应用 +1：豆包工作鸿蒙电脑版本完成开发，已上架 AppGallery 应用市场",
-      "published": "2026-11-05T07:56:57Z",
-      "company": "华为",
-      "companies": [
-        "华为",
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/778.htm",
-      "summary": "IT之家 11 月 5 日消息，据博主 @Adak封狼居胥 今日分享，豆包工作鸿蒙电脑版本已经完成开发，现已上架鸿蒙电脑平台的 AppGallery 应用市场。 据IT之家了解，豆包工作是字节跳动的一款 Agent 产品，能够与飞书深度打通，让 Agent 基于企业上下文更准确地完成工作。 针对日常办公中最常见、也最花时间的工作，豆包工作提供了内容生成和编辑能力。无论是写方案、整理会议纪要、起草报告、做调研总结，还是做表格、分析数据，豆包工作都能交付任务结果。在更复杂的制作场景中，豆包工作还能生成和编辑图片、视频、网页甚至应用。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-b2f7a8d7e8f229d08985",
-      "title": "100% 国产电脑！华为擎云 HM650 系列首款鸿蒙台式机获业界首个国产化率 100% 认证",
-      "published": "2026-11-05T07:48:54Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/774.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会现场，华为终端平板与 PC 产品线总裁朱懂东宣布，华为擎云 HM650 系列首款鸿蒙台式机拿下业界首个国产化率 100% 认证。 朱懂东表示，通过核心器件的全栈自研、关键器件的联合开发、通用器件的产量促进的策略，最终实现了（国产化率 100%）这一目标，背后也离不开整个中国电脑产业链的协同发展。 他直言，如果不信的话，可以去拆。 IT之家在峰会现场了解到，华为擎云 HM650 系列台式机搭载了麒麟 X90 芯片，软硬协同整机性能提升 15%；首发搭载鸿蒙电脑企业版，支持鸿蒙 AI、小艺 Work、小艺深度研究、小艺慧记、小艺帮记等功能。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-12c236dcde4fcc7a8005",
-      "title": "华为余承东：鸿蒙电脑迈过百万台门槛，是新的起点",
-      "published": "2026-11-05T07:33:25Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "余承东"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/771.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会现场，华为终端平板与 PC 产品线总裁朱懂东宣布，鸿蒙电脑累计发货量破百万。 华为终端官方也转发了这一全新成就。IT之家注意到，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东随后发文，表示： 鸿蒙电脑迈过百万台门槛，是新的起点。感谢大家的选择和支持 [抱拳] 今天，面向企业办公的华为擎云 HM650 系列、鸿蒙电脑企业版也来了。未来我们会继续和伙伴们一起，不断丰富应用、打磨体验！ 延伸阅读 鸿蒙电脑于 2025 年 5 月 19 日在成都首次发布，首批产品为 HUAWEI MateBook Pro 与 HUAWEI MateBook Fold 非凡大师，两款产品均搭载基于开源鸿蒙打造的 HarmonyOS 5，是首个…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ca38d186c571c67e166f",
-      "title": "macOS 藏着“脏话识别系统”，苹果词典分级机制被曝光",
-      "published": "2026-11-05T07:29:57Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/770.htm",
-      "summary": "IT之家 11 月 5 日消息，挪威开发者 Helge Sverre 于 11 月 3 日发布博文，通过逆向分析 macOS 私有框架 Lexicon.framework，发现苹果输入法内置“脏话识别系统”。 开发者指出在 macOS 系统 ~/Library/Keyboard/ 目录下，存在名为 VulgarWordUsage.db 的本地数据库，其数据结构可按“应用、收件人、词语、读音”记录用户使用脏话的情况。IT之家附上相关截图如下： 开发者挖掘 macOS 15.6 的系统词典，发现苹果使用 Lexicon.framework 框架对词条进行分级和主题标注。在美式英语词典约 19.9 万个词条中，约 4,271 个词条配有分级标记，主要分为“粗俗”（vulgar）、“冒犯”（offensive）和“敏感…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-afc0c0e7e80cddd8dfa1",
-      "title": "华为鸿蒙 HarmonyOS 终端用户数预计 11 月下旬突破 1 亿大关",
-      "published": "2026-11-05T07:21:27Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/768.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会上，华为官方公布了 HarmonyOS 系统最新用户数据。 目前，华为 HarmonyOS 6&7 终端设备数已突破 9000 万、华为终端设备款 140+、可获取应用和服务数 45 万+。IT之家从峰会现场了解到，HarmonyOS 终端用户数即将突破 1 亿，预计会在 11 月下旬达成这一目标。 华为官网披露，截至 2026 年 6 月，全球鸿蒙开发者规模已超 1100 万，华为应用市场可获取的鸿蒙应用与服务数量突破 38 万。第三方数据显示，鸿蒙已稳居中国第二大智能手机操作系统，2026 年第一季度在中国智能手机市场份额达 19%。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-05eabe89f0e99261c9d7",
-      "title": "华为宁胜蓝：鸿蒙开发者数已突破 1100 万",
-      "published": "2026-11-05T07:12:34Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/762.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会上，华为终端 BG 全球生态发展总裁宁胜蓝登台分享了鸿蒙生态最新进展。 宁胜蓝提到，鸿蒙电脑生态加速向行业纵深发展，独立应用数突破 21000 款。 IT之家从峰会现场了解到，华为与合作伙伴正加速鸿蒙人才培养，每月培养 10 万+ 鸿蒙开发者。最新数据显示，鸿蒙开发者数已突破 1100 万。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-01be6111b26fe7650472",
-      "title": "OpenAI 宣布收购 Pierre，扩充 Codex 第一方代码编写、理解、审查工具",
-      "published": "2026-11-05T07:06:27Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/758.htm",
-      "summary": "IT之家 11 月 5 日消息，OpenAI 当地时间本月 4 日宣布将收购企业 Pierre。该公司开发了 Code Storage 大规模分布式存储系统，此外还有 Trees、Diffs 功能库以及 Highlights 实时更新高亮工具。 Pierre 的 Trees 让开发者能快速浏览和定位项目文件，Diffs 则让代码变更一目了然。这两款工具都能让开发者轻松审查和浏览大量代码，同时保持出色的性能。 OpenAI 希望与 Pierre 团队一道，为从智能体创建第一个分支到代码部署上线的现代软件开发树立标准。 OpenAI 表示，Pierre 的开源项目将继续保持开源，该企业也将继续为这些项目贡献力量。收购完成后，客户可以继续使用 Code Storage，同时 OpenAI 将着手将其各项功能整合到 C…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-21dc3045861d49f898f0",
-      "title": "华为朱懂东：鸿蒙电脑累计发货量破百万",
-      "published": "2026-11-05T06:52:57Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/752.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会现场，华为终端平板与 PC 产品线总裁朱懂东宣布，鸿蒙电脑累计发货量破百万。 据IT之家今日早些时候报道，朱懂东还在峰会上预告，称华为将推出一款新的颠覆性创新鸿蒙电脑产品，非常值得期待。 朱懂东表示，目前的小道消息说得也不那么完全正确，大家很快会看到这款产品，将于下周开始预热。“我可以跟大家保证，这是一款非常惊艳的产品，人见人爱。”",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8cf66f28fb3824e3394a",
-      "title": "苹果葛越：AI 不会取代 App，将推动应用生态进一步发展",
-      "published": "2026-11-05T06:51:52Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/751.htm",
-      "summary": "IT之家 11 月 5 日消息，据澎湃新闻报道，11 月 4 日，在 2026 年世界互联网大会乌镇峰会人工智能技术创新与治理论坛上，苹果公司副总裁、中华区董事总经理葛越表示，人工智能正在加速改变应用开发模式，但 AI 不会取代 App，而是将推动下一代 App 变得更强大、更具个性化，成为人们生活中更加不可或缺的工具。 葛越表示，苹果始终相信开发者和 App 的潜力。去年，中国 App Store 生态促成的开发者营业额与销售额达到 5,620 亿美元（IT之家注：现汇率约合 3.76 万亿元人民币），较上年增加 230 亿美元（现汇率约合 1,537.65 亿元人民币）。中国开发者的全球化步伐也在持续加快，四分之三的中国开发者业务已拓展至海外，且海外营收占比超过 50%。 谈及 AI 时代的人才培养，葛越认…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-40d85dec12b54bcd2105",
-      "title": "华为鸿蒙电脑官宣年内支持侧载，开放本地安装应用",
-      "published": "2026-11-05T06:49:15Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/741.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今日的 2026 鸿蒙办公产业峰会上，华为终端 BG 平板与 PC 产品线总裁朱懂东官宣，华为鸿蒙电脑将在今年内支持侧载，开放本地安装应用。 朱懂东表示，开放侧载并不是简单地去做一个安装入口，而是在安全可控的前提下，让用户拥有更加灵活的应用安装选择，让开发者们也可以实现多场景的高效分发，持续地激活鸿蒙办公生态。 IT之家在峰会现场了解到，鸿蒙电脑生态已拥有 21000+ 独立应用。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d69bc7f427b9527d97d3",
-      "title": "OpenAI 总裁布罗克曼：目前公司大部分营收来自企业客户，明年具备上市条件",
-      "published": "2026-11-05T06:46:53Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/734.htm",
-      "summary": "IT之家 11 月 5 日消息，OpenAI 总裁格雷格 · 布罗克曼（Greg Brockman）当地时间周三表示，公司目前的营收大部分来自企业客户业务，并且他认为 OpenAI 将在 2027 年具备上市条件。 布罗克曼表示，OpenAI 正在加大面向企业客户的销售力度，与竞争对手 Anthropic 展开竞争。后者预计将在今年年底前上市。OpenAI 正在积极推广旗下的 Codex 智能体等产品，以拓展企业市场。 IT之家注意到，布罗克曼在美国加利福尼亚州纳帕举行的《华尔街日报》科技大会上发表了上述言论。当被现场问及 OpenAI 是否已准备好在明年进行首次公开募股（IPO）时，他回答说：“我认为可以。” 据路透社此前报道，总部位于旧金山的 OpenAI 正在加快融资步伐。此前，该公司曾推迟上市计划，如今…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-45964ed6b0770315c91f",
-      "title": "华为鸿蒙电脑官宣开放升级 HarmonyOS 7 系统",
-      "published": "2026-11-05T06:46:19Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/732.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今天的华为擎云 2026 鸿蒙办公产业峰会上，华为终端平板与 PC 产品线总裁朱懂东宣布，鸿蒙电脑开放升级 HarmonyOS 7 系统。 IT之家从峰会现场了解到，HarmonyOS 系统持续演进，已经历 5 次大版本迭代、30+ 次小版本迭代。最新的鸿蒙 7.0 系统已演变成“全场景智能操作系统”。 最新数据显示，鸿蒙电脑生态已拥有 21000+ 独立应用。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8d4aa338145651ffa02d",
-      "title": "华为朱懂东预告：鸿蒙电脑颠覆性创新产品下周开始预热，非常惊艳、人见人爱",
-      "published": "2026-11-05T06:41:47Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/720.htm",
-      "summary": "IT之家 11 月 5 日现场消息，在今日的 2026 鸿蒙办公产业峰会上，华为终端 BG 平板与 PC 产品线总裁朱懂东预告，华为将推出一款新的颠覆性创新鸿蒙电脑产品，非常值得期待。 朱懂东表示，目前的小道消息说得也不那么完全正确，大家很快会看到这款产品，将于下周开始预热。“我可以跟大家保证，这是一款非常惊艳的产品，人见人爱。” IT之家在峰会现场看到，华为与合作伙伴共同展示了鸿蒙消费级电脑、鸿蒙商用电脑的全家族产品，首款 HarmonyOS 台式机 —— 华为擎云 HM650 系列也在现场迎来首秀。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-05T09:26:26Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-76fa96ef737ddf24fa86",
-      "title": "对话星尘智能来杰：机器人的「iPhone 4 时刻」还没到，但可能比想象中更近丨多样性公司",
-      "published": "2026-11-05T06:29:09Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1687805",
-      "summary": "机器人是帮助人的，不是替代人的。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-09T09:44:16Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-43e25232fea9f31d0660",
-      "title": "百度网盘 11.11 年内探底再来：SVIP 超级会员 13 元 / 月、157 元 / 年",
-      "published": "2026-11-05T05:56:55Z",
-      "company": "百度",
-      "companies": [
-        "百度"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/679.htm",
-      "summary": "百度网盘超级会员年卡官方售价 298 元，今日券后直降至 196 元年内好价，限时加赠 3 个月。 到手共 15 个月，折合 13.1 元 / 月、157 元 / 年： 京东百度网盘 SVIP 超级会员 15 月卡券后 196 元领 10 元券 百度网盘超级会员年卡 + B站大会员季卡 + 网易云音乐月卡今日折后仅需 176 元，也是好价。 如果把百度年卡算作 157 元，B站季卡 + 网易云音乐月卡仅需 19 元： 京东百度网盘 SVIP 超级会员年卡加赠B站季卡 + 网易云音乐月卡券后 176 元领 10 元券 注：现购买权益时长 + 已有权益时长，不能超过 5 年，否则会充值失败。 购买前需在百度网盘开启手机号登录再下单。 百度网盘 SVIP 特权： 京东百度网盘 SVIP 超级会员 15 月卡券后 19…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-25fa4dd18ec78a48a923",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "published": "2026-11-05T02:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-8faca56803a6b5080bec",
-      "title": "苹果 Apple TV 官宣下周五全球首播《史努比特辑：史努比的 12 天》圣诞特辑",
-      "published": "2026-11-05T00:52:47Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/504.htm",
-      "summary": "IT之家 11 月 5 日消息，苹果昨日（11 月 4 日）发布博文，宣布将于 2026 年 11 月 13 日星期五全球首播《史努比特辑：史努比的 12 天》（Snoopy Presents: 12 Days of Snoopy）圣诞特辑。 IT之家援引博文介绍，本片延续“史努比特辑”系列的温暖喜剧风格：花生漫画的孩子们都在为圣诞节努力表现，唯独史努比意外登上了圣诞老人的“淘气名单”。距离圣诞节仅剩 12 天，史努比决定用实际行动证明自己并不坏，并在过程中重新理解节日真正的意义。 音乐阵容是本片的重要看点。节目由艾美奖提名作曲家杰夫 · 莫罗配乐，并邀请多位知名音乐人参与原创曲目：EGOT 得主约翰 · 传奇献唱《Get Ready》，由拉斐尔 · 萨迪克制作；格莱美奖得主卡马西 · 华盛顿与莱昂 · 布里奇…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2d1d326185a62641bed0",
-      "title": "Flipsnack grows product signups with conversion optimization",
-      "published": "2026-11-05T00:45:15Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/ads/customers/flipsnack",
-      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-12T00:38:29Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-51ece6cc0a6609b69ce2",
-      "title": "华为宣布昇腾 0 Day 支持 Kimi K3.1 Pro 推理部署，2.8 万亿级 MoE 模型能力再进阶",
-      "published": "2026-11-05T00:45:14Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/502.htm",
-      "summary": "IT之家 11 月 5 日消息，据华为计算公众号，2026 年 11 月 4 日，月之暗面正式公布 Kimi K3.1 Pro 完整模型权重。昇腾基于 vLLM Ascend、SGLang 同步实现 0 Day 推理适配，支持昇腾 Atlas 800 A3、Atlas 900 A3 SuperPod 超节点以及昇腾 950 超节点系列产品进行 Kimi K3.1 Pro 的推理部署。 围绕模型新增的稀疏注意力、百万级上下文及推理服务需求，昇腾开展算子与框架协同优化，支持用户及开发者在模型发布首日开展部署与应用验证。 IT之家注意到，Kimi K3.1 Pro 是 K3.1 系列的首个模型，拥有 2.8 万亿参数，原生支持视觉理解，具备百万 token 上下文窗口。模型在 K3 基础上进一步扩大后训练规模，在代码…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c210dc01d9bedfedeff6",
-      "title": "单日大涨 5.31%：苹果股价昨日再创历史新高，报收 349.51 美元",
-      "published": "2026-11-05T00:40:16Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/022/500.htm",
-      "summary": "IT之家 11 月 5 日消息，科技媒体 AppleInsider 今天（11 月 5 日）发布博文，报道称受 2026 财年第四财季业绩超预期推动，苹果公司股价在美国当地时间 11 月 4 日再度刷新历史最高收盘价，报收 349.51 美元（现汇率约合 2,337 元人民币）。 根据美国东部时间 11 月 4 日 16 点（IT之家注：北京时间 11 月 5 日凌晨 5 点）美股收盘价格，苹果公司收盘价格为 349.51 美元（现汇率约合 2,337 元人民币），较前一交易日上涨 5.31%，盘中最高触及 354.50 美元（现汇率约合 2,370 元人民币），当前公司市值为 5.08 万亿美元（现汇率约合 33.96 万亿元人民币）。 IT之家查询公开资料，苹果此前的最高收盘价纪录是 348.91 美元（现…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-05T00:53:23Z",
       "kind": "rss",
       "report_type": "report"
     }
