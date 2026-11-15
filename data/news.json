@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-15T15:38:47Z",
-  "last_success_at": "2026-11-15T15:38:47Z",
+  "updated_at": "2026-11-15T21:01:12Z",
+  "last_success_at": "2026-11-15T21:01:12Z",
   "retention_days": 7,
   "sources": [
     {
@@ -18,8 +18,8 @@
       "feed_items": 60,
       "accepted": 5,
       "skipped": 55,
-      "last_success_at": "2026-11-15T15:38:47Z",
-      "last_attempt_at": "2026-11-15T15:38:47Z"
+      "last_success_at": "2026-11-15T21:01:12Z",
+      "last_attempt_at": "2026-11-15T21:01:12Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 6,
       "skipped": 14,
-      "last_success_at": "2026-11-15T15:38:47Z",
-      "last_attempt_at": "2026-11-15T15:38:47Z"
+      "last_success_at": "2026-11-15T21:01:12Z",
+      "last_attempt_at": "2026-11-15T21:01:12Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-15T15:38:47Z",
-      "last_attempt_at": "2026-11-15T15:38:47Z"
+      "last_success_at": "2026-11-15T21:01:12Z",
+      "last_attempt_at": "2026-11-15T21:01:12Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1387,
       "accepted": 19,
       "skipped": 1368,
-      "last_success_at": "2026-11-15T15:38:47Z",
-      "last_attempt_at": "2026-11-15T15:38:47Z"
+      "last_success_at": "2026-11-15T21:01:12Z",
+      "last_attempt_at": "2026-11-15T21:01:12Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 4,
       "skipped": 26,
-      "last_success_at": "2026-11-15T15:38:47Z",
-      "last_attempt_at": "2026-11-15T15:38:47Z"
+      "last_success_at": "2026-11-15T21:01:12Z",
+      "last_attempt_at": "2026-11-15T21:01:12Z"
     }
   ],
   "disabled_sources": [
@@ -189,7 +189,7 @@
       "url": "https://www.ithome.com/1/027/454.htm",
       "summary": "IT之家 11 月 15 日消息，汽车博主 @未来的学习笔记 昨日分享了鸿蒙智行尚界 Z7T 星野套装实车图。 尚界 Z7T 星野套装最明显的变化属车尾部分。从画面可以看到，该版本车型新增了银色行李架、银色后视镜外壳、全车跨界套件以及黑色尾翼。 参考IT之家此前报道，尚界 Z7T 是一款猎装车型，于今年 4 月上市，售价 22.98 万元起。尚界 Z7 全系标配华为乾崑智驾 ADS 4.1、华为巨鲸 800V 高压电池平台、华为乾崑 896 线双光路图像级激光雷达、华为鸿蒙座舱、华为途灵平台；全系标配鸿蒙 ALPS 健康座舱 2.0、随动屏、副驾零重力座椅、HUD 抬头显示、流媒体内后视镜、静音电吸门、连续可变阻尼减振器、Knock-Knock 电弹电吸前备箱。 根据规划，鸿蒙智行尚界 Z7T 星野套装将在 1…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -211,7 +211,7 @@
       "url": "https://www.ithome.com/1/027/450.htm",
       "summary": "IT之家 11 月 15 日消息，华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。 该模型围绕 Agent 开发、AI 编码和推理优化三大方向进行能力升级，在深度研究、鸿蒙系统操控、鸿蒙 App 开发、昇腾算子生成及推理链路优化等场景实现增强。 在 Agent 能力方面，openPangu-2.1-Pro 基于 10 万余条专项数据优化 Skills 触发、工具选择与调用能力，提升复杂任务规划和执行效果，在深度研究及鸿蒙系统操控等场景实现能力增强。 在代码能力方面，新模型重点面向鸿蒙 App 开发和昇腾算子生成进行优化适配。围绕鸿蒙 ArkTS 语言及相关开发任务，持续提升代码生成的准确性和应用可用性；针对昇腾算子开发流程进行专项优化，增强专业代码生成能…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -233,7 +233,7 @@
       "url": "https://www.ithome.com/1/027/419.htm",
       "summary": "IT之家 11 月 15 日消息，人工智能失控导致人类灭绝，听起来或许像科幻电影中的情节，但前 OpenAI 研究员保罗 · 克里斯蒂亚诺（Paul Christiano）认为，这可能成为当今在世人群最有可能面临的死亡原因。 当地时间周一，克里斯蒂亚诺在希尔顿讲座（The Hinton Lectures）上表示：“我认为，在座的大多数人，最有可能的死亡原因将是一次 AI 意外事故。” 克里斯蒂亚诺目前担任人工智能对齐研究中心（Alignment Research Center）负责人。他警告称，随着 AI 智能体的能力不断增强，它们可能学会欺骗负责监督它们的人类、破坏用于评估自身表现的系统，最终变得过于强大，以至于人类无法再对其进行有效控制。 他列举了今年早些时候 OpenAI 的 AI 智能体入侵开源代码托管…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -255,7 +255,7 @@
       "url": "https://www.ithome.com/1/027/414.htm",
       "summary": "IT之家 11 月 15 日消息，据 XDA 报道，一位 Reddit 用户 Frankynov 将自己的 Seeed Studio reTerminal Sticky“电子墨水屏便利贴”改造为了苹果 Apple TV 遥控器。 Frankynov 透露，整个项目基于 Home Assistant 构建，利用了 Claude 进行辅助编程，不仅能够控制 Apple TV 播放内容，还可以通过触摸屏调节家中的灯光等智能家居设备。 目前，相应项目仍处于初期阶段，开发者表示后续还需要进一步调整设计，并修复测试过程中发现的问题。不过，从目前展示的效果来看，该设备已经具备相当不错的实用性，兼具了触控操作和电子墨水屏低功耗的优势。 IT之家注意到，Frankynov 现已放出项目地址（点此访问），其还提供了一个无需实体设备…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -277,7 +277,7 @@
       "url": "https://www.ithome.com/1/027/411.htm",
       "summary": "IT之家 11 月 15 日消息，据长期关注国内手机市场份额的数码博主 @RD观测 今日爆料，截至 2026 年第 45 周（11 月 1 日至 11 月 7 日），苹果 iPhone 18 Pro 系列手机销量达到 782.87 万台。 参考IT之家此前报道，在 9 月 10 日的苹果 2026 年秋季发布会上，iPhone 18 Pro 系列正式发布，包括 18 Pro 和 18 Pro Max，起售价分别为 9999 元和 10999 元。 iPhone 18 Pro 系列首发搭载 2 纳米制程工艺 A20 Pro 芯片，其封装方式借鉴了 M 系列芯片，性能和能效均创 iPhone 新高。两款机型均配备更小的灵动岛，全新 4800 万像素融合式主摄配备可变光圈。",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -503,7 +503,7 @@
       "url": "https://www.ifanr.com/1689501",
       "summary": "再创历史 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1216,7 +1216,7 @@
       "url": "https://www.ifanr.com/1689432",
       "summary": "新 M8 的升级，主打「实用主义」。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1304,7 +1304,7 @@
       "url": "https://www.ifanr.com/1689409",
       "summary": "iPhone 20 会是一台伟大的产品吗？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -1348,7 +1348,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1595,7 +1595,7 @@
       "url": "https://openai.com/business/customer-stories/shield",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1825,7 +1825,7 @@
       "url": "http://www.geekpark.net/news/373937",
       "summary": "智能组织就是 AI 时代的新厂房，是生产力真正发生的地方——11 月 12 日，在百度世界 2026 上，百度创始人李彦宏抛出了贯穿本届大会的核心命题。 他在演讲中直言，当前 AI 没有产生预期的经济效益，本质是很多企业只更换了电机，却还没有重新设计工厂。 过去两年，大模型、智能体快速渗透到企业各个环节，从办公提效到业务辅助，AI 已从「尝鲜」变成很多企业的「标配」。但随着工具部署逐步完成，一个更核心的矛盾开始显现：AI 投入持续增加、Token 消耗不断增长，企业的利润增长却并未同步到来。 不少企业都遇到了相似的困境：员工个人效率提升了，单点试点也跑通了，但整个组织的运转方式并没有发生本质变化。 在李彦宏看来，这就像给旧工厂换上了新电机，生产线和厂房格局没有重构，生产力自然无法充分释放。 从十年前在同一场合提…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2165,7 +2165,7 @@
       "url": "https://openai.com/business/customer-stories/amplitude",
       "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2279,7 +2279,7 @@
       "url": "https://openai.com/business/customer-stories/gondola",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2367,7 +2367,7 @@
       "url": "https://www.ifanr.com/1688980",
       "summary": "这是一个更好的 Siri，但还不是一个合格的 Agent #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2411,7 +2411,7 @@
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2455,7 +2455,7 @@
       "url": "http://www.geekpark.net/news/373881",
       "summary": "头图来源：豆包工作官网 豆包工作也模型自由了。 11 月 12 日，豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，支持用户按需选型完成任务。同步在模型选择页面标注各模型额度消耗倍率，倍率越低消耗越少，便于用户结合任务需求与使用成本做决策。 同时平台推出两项限时优惠：一是工作日及节假日的指定时段内，使用活动模型可享受额度消耗折扣；二是豆包 2.1 Lite、DeepSeek V4.1 Flash 两款模型限时下调额度消耗倍率，同等任务消耗额度更少。 一、补全多模型，解决「有的选」 本轮更新中，豆包工作一次性接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 三款第三方模型，进一步补齐了模型能力矩阵。 具体…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2612,7 +2612,7 @@
       "url": "https://www.ifanr.com/1689176",
       "summary": "国产大模型开始组团办公 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2634,7 +2634,7 @@
       "url": "https://www.ifanr.com/1689129",
       "summary": "苹果终于听劝了？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2678,7 +2678,7 @@
       "url": "https://openai.com/index/children-first-declaration",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2700,7 +2700,7 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3192,7 +3192,7 @@
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3544,7 +3544,7 @@
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
       "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3920,7 +3920,7 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4008,7 +4008,7 @@
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
       "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4118,7 +4118,7 @@
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4140,7 +4140,7 @@
       "url": "https://openai.com/index/singapore-airlines-travel-work",
       "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4162,7 +4162,7 @@
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4184,7 +4184,7 @@
       "url": "http://www.geekpark.net/news/373760",
       "summary": "作者｜Cynthia 编辑｜郑玄 传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。 这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也采取了行动，却仍然自欺欺人，把一次次看似成功的演示，当成了问题已经解决的证明。 2026 年上半年的企业级 Agent 市场，也曾有过这样的笃定。 每一场发布会上，AI 写方案、做表格、敲代码、生成海报的单任务能力都会轮番刷新上限。台上演示环节的百发百中，带动台下掌声雷动，所有人都觉得——企业级 AI 已经成熟了。 但年中效率复盘，所有…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4448,7 +4448,7 @@
       "url": "https://openai.com/index/cogent-security",
       "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4470,7 +4470,7 @@
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
       "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4558,7 +4558,7 @@
       "url": "https://openai.com/index/control-room",
       "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4954,7 +4954,7 @@
       "url": "https://openai.com/index/kuken",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4976,7 +4976,7 @@
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
       "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
       "summary_status": "source",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5181,7 +5181,7 @@
       "url": "http://www.geekpark.net/news/373644",
       "summary": "头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是——首次跻身最强开源模型之列。 过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，是腾讯在模型这条线上的身位。 从榜单表现来看，在开源模型里，Hy4 已经站进第一梯队；放到全球，和顶尖闭源模型的差距仍然清晰。 而根据国家数据局最近公布的一组数据，我国日均 Token 调用量已经从 2024 年初的 1000 亿，增长到今年 7 月的超 500 万亿，两年增长超 5000 倍。Token 消耗狂飙的背后，Agent 正在从一个技术概念变成新的生产力形态。 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T15:38:47Z",
+      "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5360,28 +5360,6 @@
       "source_type": "media_rss",
       "url": "https://www.ithome.com/1/024/022.htm",
       "summary": "IT之家 11 月 9 日消息，腾讯元器平台今日正式停止服务，应用访问、数据读写、API 调用、控制台使用等所有面向公众的服务，不支持用户访问。通过元器平台发布到其他渠道（包括公众号、服务号、微信客服等）的智能体不支持响应用户对话。 从上个月 29 日起，腾讯元器已停止创建新的智能体、API Key 分发功能。用户目前可以通过数据导出控制台，提出导出任务申请。2027 年 01 月 09 日后不再受理数据导出申请，除法律法规规定须留存的日志等记录外，官方将删除全部用户数据，请您在此前完成备份。 如您曾通过旧版元器入口在腾讯云官网购买资源包，且截至正式停止服务日仍有未使用完的资源或账户余额，可在腾讯云官网申请退款。 此外，腾讯云智能体开发平台（ADP）和公众号智能回复提供了与元器平台相近的功能，用户可以选择上述替…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-09T01:42:48Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2364bda1f49ddbfdf2c3",
-      "title": "古尔曼称苹果 Siri AI 团队或迎大调整，工程副总裁罗克韦尔考虑明年走人",
-      "published": "2026-11-08T15:47:05Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/014.htm",
-      "summary": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今晚更新的《Power On》时事通讯中爆料，曾主导 Vision Pro 头显开发、同时负责新版 Siri AI 项目的迈克 · 罗克韦尔，仍在认真考虑离开现有岗位。 古尔曼披露，罗克韦尔或将于明年卸任 Siri 工程副总裁，甚至彻底离开苹果。新版 Siri 跳票了两年才得以上市，考虑到罗克韦尔在其中发挥的作用，他的离开将给苹果造成重大损失。 IT之家获悉，如果罗克韦尔最终离职，或在苹果内部转任其他岗位，更多工作预计将交给两名高管：去年从谷歌加入苹果、负责加强 AI 业务的阿马尔 · 苏布拉马尼亚，以及费德里吉的副手塞巴斯蒂安 · 马里诺。 苹果内部一些人认为，马里诺未来有望接替费德里吉出任软件工程主管，而且他对 AI 发展的态度更加积极。据悉，马里…",
       "summary_status": "excerpt",
       "fetched_at": "2026-11-09T01:42:48Z",
       "kind": "rss",
