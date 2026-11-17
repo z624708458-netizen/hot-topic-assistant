@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-16T20:25:32Z",
-  "last_success_at": "2026-11-16T20:25:32Z",
+  "updated_at": "2026-11-17T04:27:51Z",
+  "last_success_at": "2026-11-17T04:27:51Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 20,
-      "skipped": 40,
-      "last_success_at": "2026-11-16T20:25:32Z",
-      "last_attempt_at": "2026-11-16T20:25:32Z"
+      "accepted": 19,
+      "skipped": 41,
+      "last_success_at": "2026-11-17T04:27:51Z",
+      "last_attempt_at": "2026-11-17T04:27:51Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 6,
       "skipped": 14,
-      "last_success_at": "2026-11-16T20:25:32Z",
-      "last_attempt_at": "2026-11-16T20:25:32Z"
+      "last_success_at": "2026-11-17T04:27:51Z",
+      "last_attempt_at": "2026-11-17T04:27:51Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-16T20:25:32Z",
-      "last_attempt_at": "2026-11-16T20:25:32Z"
+      "last_success_at": "2026-11-17T04:27:51Z",
+      "last_attempt_at": "2026-11-17T04:27:51Z"
     },
     {
       "id": "openai",
@@ -68,11 +68,11 @@
       "enabled": true,
       "publisher_id": "openai",
       "status": "ok",
-      "feed_items": 1397,
+      "feed_items": 1398,
       "accepted": 25,
-      "skipped": 1372,
-      "last_success_at": "2026-11-16T20:25:32Z",
-      "last_attempt_at": "2026-11-16T20:25:32Z"
+      "skipped": 1373,
+      "last_success_at": "2026-11-17T04:27:51Z",
+      "last_attempt_at": "2026-11-17T04:27:51Z"
     },
     {
       "id": "geekpark",
@@ -84,12 +84,11 @@
       "type": "media_rss",
       "publisher_id": "geekpark",
       "enabled": true,
-      "status": "ok",
-      "feed_items": 30,
-      "accepted": 3,
-      "skipped": 27,
+      "status": "error",
+      "error": "The read operation timed out",
+      "accepted": 0,
       "last_success_at": "2026-11-16T20:25:32Z",
-      "last_attempt_at": "2026-11-16T20:25:32Z"
+      "last_attempt_at": "2026-11-17T04:27:51Z"
     }
   ],
   "disabled_sources": [
@@ -171,6 +170,424 @@
     }
   ],
   "news": [
+    {
+      "id": "rss-75fa4239ddb185255c8e",
+      "title": "【IT之家开箱】华为全新子品牌星芒 OSTA O1 Pro 手机实拍：渐变星芒紫，阔直板设计别具一格",
+      "published": "2026-11-17T04:13:40Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/209.htm",
+      "summary": "IT之家 11 月 17 日消息，华为全新子品牌 OSTA 星芒旗下首款产品 OSTA O1 Pro 现已上架华为商城，将于 11 月 20 日正式发布。新机采用颇具辨识度的阔直板形态，提供星芒紫、星云白、星空黑三款配色。 IT之家拿到了星芒 OSTA O1 Pro 主打的星芒紫配色，并且第一时间带来了开箱上手。 接下来，再让我们通过实拍图赏，一起看看这款新品的外观设计吧！ 与常见的修长直板手机不同，OSTA O1 Pro 采用了 16:9.5 比例的阔型屏幕，正面配备一块 6.39 英寸显示屏，四边黑边宽度均为 1.05mm，屏占比达到 96.1%。配合四边均匀的边框设计，整机正面显得十分规整，带来了与传统直板手机不同的视觉观感。 机身设计上，OSTA O1 Pro 采用黄金超大 R 角设计，圆润的四角能够更…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-faf6f660a11814dccfe4",
+      "title": "华为麒麟 9050 系列芯片配备新一代显示 DPU，支持全彩 AI-HDR2020",
+      "published": "2026-11-17T03:56:30Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/159.htm",
+      "summary": "IT之家 11 月 17 日消息，华为官方今日继续发文，揭秘首款「逻辑折叠」技术 τ 芯片麒麟 9050 系列的详细配置信息。据官方介绍，该系列芯片配备新一代显示 DPU（数据处理单元），支持全彩 AI-HDR2020，让普通 SDR 内容呈现更丰富的明暗层次与色彩表现。 据介绍，新一代显示 DPU 让麒麟 9050 系列能够实现高精度像素级显示控制。协同终端显示技术，实现防窥模式快速切换与画质优化。 据IT之家此前报道，今年 10 月，华为半导体业务无线终端芯片产品管理部部长徐松余表示，麒麟 9050 系列在中国半导体产业界的支持下成功量产。他呼吁半导体产业界和学术界的合作和支持，未来属于开放合作，没有一家企业可以独自解答所有答案。 相关阅读： 《华为麒麟 9050 系列芯片智能音视频处理情报公开：低延迟 A…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ee8f264e6cb667c5a7cb",
+      "title": "苹果中国区 App Store 开发者平台新增 AIGC 合规入口：现有应用须在 2027 年 1 月 31 日前补齐备案信息",
+      "published": "2026-11-17T03:46:45Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/158.htm",
+      "summary": "IT 之家 11 月 17 日消息，昨日有开发者反馈称，苹果在 App Store Connect 后台新增了两项面向中国大陆分发的合规必填项。 有开发者发现，在准备提交新版本时，后台要求补充“人工智能生成或合成内容（AIGC）服务声明与备案信息”，以及“已完成安全评估的证明”。 根据苹果提示，若 App 包含 AIGC 服务（如聊天机器人、图像或视频生成、语音或人脸编辑），需提交备案信息；若使用了第三方技术，还必须上传“第三方技术的授权或使用协议”。 安全评估方面，则要求提交在全国互联网安全管理服务平台通过的记录、报告以及评估报告副本。 IT 之家注意到，两项合规要求的截止时间一致：现有 App 须在 2027 年 1 月 31 日前完成，新 App 则需立即提交。 这意味着，国区 App Store 上所有…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1f00c6fd02ea444220fd",
+      "title": "小米汽车官方打假：网传“11 月 15 日开始召回”系诈骗短信，已取证并保留追责权利",
+      "published": "2026-11-17T03:33:39Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/144.htm",
+      "summary": "IT之家 11 月 17 日消息，针对网络上流传的“小米汽车 11 月 15 日起开始召回”的诈骗短信，小米公司官方辟谣账号发布声明，明确该消息纯属虚构，并非官方通知。 小米声明称，有不法分子冒充“小米汽车”发送诈骗短信，称“小米汽车 11 月 15 日起开始召回”，并要求车主尽快登录所附网址、提供相关个人信息。 小米提醒广大车主，官方不会通过短信链接索要个人信息、银行卡密码，也不会要求用户进行转账汇款。请提高警惕，谨防诈骗，不点击可疑链接。 同时，小米提醒用户不要向不明渠道提供身份证、银行卡等隐私信息。针对上述不法行为，小米汽车已进行取证，并保留追究相关方法律责任的权利。如有涉及上述侵权的线索及证据，可向小米汽车提供。 IT之家注：车企发布正式召回时，通常会通过国家市场监督管理总局备案，并通过官方 App 或…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-14392695a7aa718bc9ca",
+      "title": "苹果新规遏制 AI 应用“全盘接管”Mac，古尔曼称提前 2 年铺路自家 AI 智能体",
+      "published": "2026-11-17T03:19:40Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/116.htm",
+      "summary": "IT之家 11 月 17 日消息，苹果昨日（11 月 16 日）发布公告，宣布自今天发布的 macOS 27.3 Beta 2 开发者预览版开始，改革 Mac 的“完全磁盘访问”及“设备控制与数据访问”权限机制，重点防范 AI 智能体类应用过度获取用户数据或操控系统。 IT之家援引博文介绍，苹果提醒，部分应用若获得完全磁盘访问，可能读取文件、邮件、消息、浏览记录等敏感信息，带来隐私与安全风险。而在新机制下，原有的“设备控制与数据访问”设置将拆分为“系统与应用保护覆盖”和“辅助功能”两项，让用户更清楚地看到 AI 助手、自动化工具等应用到底能读取哪些文件、控制哪些程序，并可选择“每次询问”。 更重要的是，苹果鼓励用户不向应用开放整个磁盘，只开放完成特定工作所需的单个应用或文件夹。用户也可以设置应用“每次需要时再请…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-cfa1fe22d073a3cee741",
+      "title": "OpenAI 奥尔特曼重申：我真希望所有人都能有大量内存，自己在家折腾硬件很棒",
+      "published": "2026-11-17T03:11:46Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/114.htm",
+      "summary": "IT之家 11 月 17 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼今天在 Semafor 峰会重申，他希望所有人拥有大量内存。 奥尔特曼表示：“我想明确一点，我希望所有人都能有大量内存。我认为每个人都应该为自己的电脑买大量内存，我觉得自己在家动手折腾硬件是很棒的事。” 据IT之家此前报道，奥尔特曼接受 YouTube 博主 Cheeky Pint 采访时表示：“从全球资源分配的角度来看，让每个人的电脑里都存放着大量全球供应有限的 DRAM，而且这些内存 95% 的时间都处于闲置状态，实际上是相当糟糕的。如果要应对当前这种供应极其紧张的局面，就应该让云端资源得到最大程度的利用。但不知为何，很多人的直觉恰恰与此相反。” 这番言论从奥尔特曼口中说出后，全球网友和 PC 玩家开始用表情包和激烈言辞嘲讽这名 A…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7c4f8b695c6e2aa706e1",
+      "title": "腾讯 QQ 牧场玩法官宣回归",
+      "published": "2026-11-17T02:29:20Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/099.htm",
+      "summary": "IT之家 11 月 17 日消息，游戏焕新版《QQ 经典农场》于今年 2 月上线，用户使用 QQ 和微信搜索“QQ 经典农场”，即可打开小程序一键开玩。 腾讯 QQ 今日宣布，QQ 经典农场上线牧场玩法，种（tou）完菜来还能去牧场收（tou）蛋奶。 牛马羊驴猪鸡鸭鹅只是基础，在牧场里，连梅花鹿、狐狸、孔雀、浣熊都能养。 收获的鸡蛋、牛奶换成金币，还能一起搞基建，扩建牧场。 IT之家从公告了解到，QQ 牧场也支持好友串门，偷完菜来偷蛋奶。帮好友喂草、除虫、清理便便，还可以给好友的牧场加点料（蚊子）。 此外，农场种的牧草，可以直接在牧场喂养动物。 腾讯 QQ 官方表示，现在更新 QQ 到最新版本，在 QQ 动态 - QQ 经典农场，点击右上角入口即可进入牧场。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-becd77309eeff39b61ab",
+      "title": "【视频】华为\"悄悄\"出了个新品牌，首款手机长这样，OSTA星芒 O1 Pro 首发上手",
+      "published": "2026-11-17T02:26:54Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/096.htm",
+      "summary": "华为新出了个品牌，叫 OSTA 星芒。第一台 OSTA O1 Pro 阔直板，IT之家已经拿到了。开机第一眼不是桌面，而是一块 AI 屏；往上一滑，才是大家熟悉的传统界面。还有只叫 \" 小星芒 \" 的小家伙，摇一下冒火星星，长按就开心。星芒紫这个配色，实拍挺耐看。这个新品牌，你觉得怎么样？评论区聊聊。 点击关注IT之家B站账号",
+      "summary_status": "source",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8c0a4db613823b582f1e",
+      "title": "苹果 tvOS 27.3 Beta 2 新增 Siri AI 引导界面，用户可选新旧版本",
+      "published": "2026-11-17T02:18:53Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/094.htm",
+      "summary": "IT之家 11 月 17 日消息，消息源 @itspdfu 今天（11 月 17 日）在 X 平台发布推文，报道称在 tvOS 27.3 Beta 2 更新中，苹果为 Siri AI 带来全新引导设置界面，用户可以选择尝试新版助手，也可以继续使用经典版 Siri（Siri Classic）。 IT之家此前报道，苹果此前已通过 tvOS 27.2.1，为第二代和第三代 Apple TV 4K 扩展带来 Siri AI 支持，而第四代 Apple TV 4K 则在上市时便已支持 Siri AI。而本次 iOS 27.3 Beta 2 更新中，苹果公司进一步补全用户体验，方便用户根据自身需求，切换新旧版本 Siri。 延伸阅读 Siri AI 是苹果在 2026 年 6 月 8 日 WWDC26 上预览的全新版本 S…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-93263827b8d251fbc015",
+      "title": "小米米家床头灯 3 发售：低饱和百变淡彩光效、顶部全区域触控感应，国补价 269.28 元",
+      "published": "2026-11-17T02:15:09Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/091.htm",
+      "summary": "IT之家 11 月 17 日消息，米家床头灯 3 今日正式在电商平台开售，京东首发到手价为 299 元起，叠加国补后 269.28 元。 京东米家小米床头灯 3 夜灯全光谱百变光影卧室睡眠喂奶柔光智能氛围台灯券后 269.28 元领 0.9 折券 米家床头灯 3 搭载升级全光谱灯珠，太阳光谱拟合度 GFC>0.98，光线接近自然光，最高光通量可达 570lm 满足日常照明，最低光通量可低于 1lm，柔光伴睡不刺眼，同时拥有 Ra90 高显色指数，可真实还原自然肤色、书本色彩、家具质感等物体本真色彩。 产品内置 18 种低饱和自然淡彩光效，包含 11 款动态灯效与 7 款静态灯效，支持 1600 万色彩可调，预设蓝调、落日、晴空、雪山、森林、月晕等自然景观光效，可自由切换营造不同家居氛围。 灯具采用扩散器叠加内、…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-80582c83e83644506133",
+      "title": "华为星芒 OSTA O1 Pro 阔直板手机主要配置曝光：麒麟 9030S，保留无线充电，不带充电头",
+      "published": "2026-11-17T02:14:08Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/090.htm",
+      "summary": "IT之家 11 月 17 日消息，华为全新子品牌星芒的首款产品 —— OSTA O1 Pro 阔直板手机现已上架华为商城，将于 11 月 20 日正式发布。 据博主 @数码闲聊站 今日爆料，OSTA O1 Pro 搭载 6.39 英寸 1.5K LTPS 直屏，16:9.5 比例，1.05mm 极窄四等边，机身厚度 6.68mm、重量 200g。 新机配备麒麟 9030S 处理器，顶配 16GB+1TB 存储，还有 7000mAh 电池 +66W 有线充 + 无线充，侧边指纹。 影像方面，OSTA O1 Pro 有望搭载 200Mp 1/1.28\" RYYB 主摄 + 50Mp 3.7X RYYB 潜望长焦 + 红枫镜头，没有超广角。 IT之家已经拿到了这款手机，为大家带来第一时间开箱，OSTA O1 Pro …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-1cbb07ea42e889cb2384",
+      "title": "苹果 2027 新品前瞻：iPhone Duo 2 等 18 款在列，首款 AI 眼镜有望亮相",
+      "published": "2026-11-17T02:05:26Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/088.htm",
+      "summary": "IT之家 11 月 17 日消息，科技媒体 MacRumors 今天（11 月 17 日）报道，综合彭博社记者马克 · 古尔曼（Mark Gurman）及其他消息来源，苹果 2027 年可能推出至少 18 款新品，覆盖手机、平板、电脑、手表及智能家居设备。 iPhone 方面：共计约 6 款 iPhone 18e：A20 芯片，9GB 内存，电池续航更长。 iPhone 18：A20 芯片，9GB 内存，更长的电池续航。 iPhone Air 2：搭载 A20 Pro 芯片、超广角摄像头、更小的动态岛、更长的电池续航，以及苹果 C2 调制解调器，美国版本支持毫米波，相较于当前型号的 C1X 调制解调器上传速度“显著更快”。 iPhone 20 Pro：A21 Pro 芯片，采用“所有角落和边缘的弧形玻璃”，屏幕…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-f98d02ed09a8211a1c1b",
+      "title": "酷态科 11 月 20 日推出苹果 iPhone 磁吸充电宝新品",
+      "published": "2026-11-17T02:05:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/087.htm",
+      "summary": "IT之家 11 月 17 日消息，酷态科官方今日宣布，将于 11 月 20 日推出一款适用于苹果 iPhone 的磁吸充电宝新品。 根据官方公布的海报及预热视频，该产品采用了与 iPhone 同款的白色外观。 其海报展示了一只手握持该充电宝的画面，产品上半部分预留了硕大的多摄开孔区域，整体呈现类似手机壳的包裹形态。 目前，酷态科官方尚未公布该产品的具体电池容量、充电功率以及官方售价等详细参数，IT之家将跟进后续报道。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1397c2e676d6c8d6482b",
+      "title": "鸿蒙智行享界 V8 开启全国首个 120km/h 的 L3 跨城高速路测",
+      "published": "2026-11-17T01:55:46Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/073.htm",
+      "summary": "IT之家 11 月 17 日消息，享界汽车今日宣布，享界 V8 率先开启全国首个 120km/h L3 自动驾驶跨城高速路测。从单城测试到跨城通行，享界称这标志着其 L3 测试能力进入新阶段。 享界 V8 是鸿蒙智行旗下享界品牌的首款 MPV，定于 11 月 20 日正式发布上市，预售价 32.98 万元起。IT之家届时将为大家带来详细报道。 享界 V8 Ultra 与 Ultra+ 版本搭载华为乾崑智驾 ADS 5，配备 896 线双光路图像级激光雷达在内的四激光雷达方案，全车传感器总数 38 个，按 L3 级自动驾驶架构设计。 据介绍，此次跨城路测以全链路 8 大冗余设计为硬件基础。享界方面表示，在路测前已完成大量模拟仿真场景，并针对静止车辆占道、前车缓行、前车制动等典型工况开展封闭场地实测，覆盖常规工况、…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b8ce80e182bf05f4f819",
+      "title": "华为星芒 OSTA O1 Pro 阔直板手机上架：三款配色外观公布，紫色独占 16GB 内存",
+      "published": "2026-11-17T01:50:22Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/067.htm",
+      "summary": "IT之家 11 月 17 日消息，华为全新子品牌星芒的首款产品 —— OSTA O1 Pro 阔直板手机现已上架华为商城，将于 11 月 20 日正式发布。 IT之家从商店页面了解到，OSTA O1 Pro 可选星空黑、星云白、星芒紫三款配色，其中： 星空黑、星云白可选 12GB + 256GB、12GB + 512GB 星芒紫可选 16GB + 512GB、16GB + 1TB 新机采用直角中框设计，电源键特别染成了紫色，IT之家附更多外观图如下： 博主 @数码闲聊站 发文透露，新机配备了一块 6.39\"1.5K LTPS 的 16:9.5 阔屏，搭载麒麟 9030S 处理器，顶配为 16GB+1TB 规格，采用双摄影像设计，定位是 AI 手机。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ac930d974018f1a2c8b5",
+      "title": "OpenAI 推出儿童性虐待内容检测工具，加强儿童网络安全防护",
+      "published": "2026-11-17T01:49:31Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/066.htm",
+      "summary": "IT之家 11 月 17 日消息，OpenAI 昨天宣布推出儿童性虐待内容（CSAM）检测工具。该产品可中断有害行为，同时提供干预措施，并为负责儿童安全案件的执法调查人员提供支持。该工具将通过 OpenAI API，向经过审核的机构免费开放。 据介绍，OpenAI 已推出全新的图像分类器，用于检测潜在的儿童性虐待内容。该分类器会寻找虐待行为的视觉特征，帮助审核团队识别未曾见过的新图像，同时提供评分功能，帮助审核人员判断哪些图像可能需要优先处理。 美国国家失踪与受剥削儿童中心（NCMEC）在该工具的开发过程中提供支持，协助 OpenAI 完成训练、评估和实际部署工作。 同时该工具相比现有保护措施，可减少 48% 误标记图像数量。在标记的图像中，实际包含性虐待内容的可能性约为原来的两倍。invideo AI 测试显…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-cb7a7d6429539f1b24b8",
+      "title": "华为星芒 OSTA O1 Pro 定位“鸿蒙 AI 手机”：全新图标、铃声，搭载专属 AI 伙伴",
+      "published": "2026-11-17T01:24:33Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/059.htm",
+      "summary": "IT之家 11 月 17 日消息，华为星芒 OSTA O1 Pro 阔直板手机将于 11 月 20 日发布，官方今日预热，OSTA O1 Pro 定位“鸿蒙 AI 手机”。 从预热视频可以看到，华为星芒手机在软件层面进行了特殊设计，采用全新图标设计、壁纸全域共色，还有全新来电铃声。 IT之家注意到，作为一款“鸿蒙 AI 手机”，OSTA O1 Pro 搭载了“个性小星芒”专属 AI 伙伴，还有一个专属对话界面。 相关阅读： 《华为星芒 OSTA O1 Pro 阔直板手机外观公布，主打紫色渐变》",
+      "summary_status": "source",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f1d9ca933f8218c69780",
+      "title": "华为星芒 OSTA O1 Pro 阔直板手机外观公布，主打紫色渐变",
+      "published": "2026-11-17T01:12:09Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/057.htm",
+      "summary": "IT之家 11 月 17 日消息，华为全新品牌 OSTA 星芒手机今日官宣了 OSTA O1 Pro 阔直板手机，并公布了新机的外观。 从预热视频可以看到，星芒 OSTA O1 Pro 采用了类似 Pura X View 的机身屏幕比例，后置镜头模组同样为横向跑道形，不过看起来像是砍掉了一颗镜头。 新机以紫色渐变为主打色，正面为顶部居中挖孔屏，画面中还特别提到的华为小艺，看来可能要主打 AI 功能。 据IT之家昨日报道，星芒 OSTA O1 Pro 真机谍照已在互联网平台曝光，还有纯色背板的版本。 博主 @数码闲聊站 发文称，华为星芒 OSTA O1 Pro 真机已经流出，鉴定为真。他透露，新机配备了一块 6.39\"1.5K LTPS 的 16:9.5 阔屏，搭载麒麟 9030S 处理器，顶配为 16GB+1T…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-16583ee4ebcc2f3639e0",
+      "title": "OpenAI 奥尔特曼谈黄仁勋离职：我也被解雇过，相信 AI 行业能平稳度过",
+      "published": "2026-11-17T01:03:01Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/052.htm",
+      "summary": "IT之家 11 月 17 日消息，据彭博社今天报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，即使英伟达前 CEO 黄仁勋不再掌舵，AI 行业依然会“运转良好”。 当被问及是否认为黄仁勋应该重返英伟达时，奥尔特曼表示：“我认为自己掌握的信息不足以回答这个问题。” 不过他对黄仁勋的处境表示同情，并提到了自己 2023 年被 OpenAI 董事会罢免的经历。奥尔特曼表示：“很难想象如果没有黄仁勋和他创办的公司，AI 革命会变成什么样子。” 奥尔特曼将黄仁勋比喻成“英雄”，但承认英雄也会有缺点。 过去十年间，OpenAI 与英伟达一直保持着密切关系。双方的关系已经超越简单的合作，逐渐演变成可循环的融资模式，即英伟达出钱帮客户买自家芯片。英伟达近期同意提供最高 1,050 亿美元（IT之家注：现汇率约合 7,01…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
     {
       "id": "rss-ceda10da318f95693cd9",
       "title": "苹果 watchOS 27.3 开发者预览版 Beta 2 发布",
@@ -299,7 +716,7 @@
       "url": "https://openai.com/index/strengthening-online-child-safety",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -321,7 +738,7 @@
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -609,7 +1026,7 @@
       "url": "https://openai.com/index/science-at-the-frontier",
       "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -653,7 +1070,7 @@
       "url": "https://www.ifanr.com/1689712",
       "summary": "这不会是苹果真正想带给这个时代的答案 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -675,7 +1092,7 @@
       "url": "https://www.ifanr.com/1689653",
       "summary": "比 DeepSeek V4.1 Flash 性价比更高 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -873,7 +1290,7 @@
       "url": "https://openai.com/index/lvmh-media-division-partnership",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -917,7 +1334,7 @@
       "url": "https://www.ifanr.com/1689616",
       "summary": "真正认真对待软件的人，应该自己去制造硬件。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -963,7 +1380,7 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1169,7 +1586,7 @@
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1191,7 +1608,7 @@
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "summary": "",
       "summary_status": "missing",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1389,7 +1806,29 @@
       "url": "https://openai.com/index/the-kings-trust-and-openai",
       "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3d4aeac88b69acfaa9cd",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "published": "2026-11-16T00:00:00Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "OpenAI 官方新闻",
+      "source_id": "openai",
+      "publisher_id": "openai",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "official_source",
+      "source_type": "official_rss",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "summary_status": "source",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1459,7 +1898,7 @@
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
       "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1481,7 +1920,7 @@
       "url": "https://openai.com/index/our-new-blog-for-science",
       "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1817,7 +2256,7 @@
       "url": "https://www.ifanr.com/1689501",
       "summary": "再创历史 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2530,7 +2969,7 @@
       "url": "https://www.ifanr.com/1689432",
       "summary": "新 M8 的升级，主打「实用主义」。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2618,7 +3057,7 @@
       "url": "https://www.ifanr.com/1689409",
       "summary": "iPhone 20 会是一台伟大的产品吗？ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -2662,7 +3101,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2909,7 +3348,7 @@
       "url": "https://openai.com/business/customer-stories/shield",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3479,7 +3918,7 @@
       "url": "https://openai.com/business/customer-stories/amplitude",
       "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3593,7 +4032,7 @@
       "url": "https://openai.com/business/customer-stories/gondola",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3725,7 +4164,7 @@
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3992,7 +4431,7 @@
       "url": "https://openai.com/index/children-first-declaration",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4014,7 +4453,7 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4506,7 +4945,7 @@
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4858,7 +5297,7 @@
       "url": "https://openai.com/index/jiostar-vijay-seshadri",
       "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5234,7 +5673,7 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5322,7 +5761,7 @@
       "url": "https://openai.com/index/introducing-businesses-chatgpt",
       "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5432,7 +5871,7 @@
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5454,7 +5893,7 @@
       "url": "https://openai.com/index/singapore-airlines-travel-work",
       "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5476,7 +5915,7 @@
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
+      "fetched_at": "2026-11-17T04:27:51Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5501,271 +5940,7 @@
       "fetched_at": "2026-11-16T20:25:32Z",
       "kind": "rss",
       "report_type": "report"
-    },
-    {
-      "id": "rss-4402d54f2fa65b3e8448",
-      "title": "全新深蓝 G318 四驱畅行乾崑版 11 月 11 日上市，搭载华为乾崑技术与鸿蒙座舱",
-      "published": "2026-11-10T04:04:01Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/744.htm",
-      "summary": "IT之家 11 月 10 日消息，深蓝汽车今日宣布全新深蓝 G318 四驱畅行乾崑版将于 11 月 11 日上市，搭载华为乾崑技术与鸿蒙座舱。 IT之家注意到，全新深蓝 G318 于今年 8 月在成都车展上市，限时优惠价 19.68 万元起。该车搭载华为乾崑 ADS 5 Pro，配备包含 1 颗舱内激光雷达在内的 27 个高感知传感器，覆盖城区通勤、高速行驶以及智能泊车等多种场景。 作为参考，全新深蓝 G318 搭载鸿蒙座舱 Harmony Space 5，并配备车载大模型能力。该系统支持 10 种方言混说，可实现自然语言交互；同时加入导航 Agent 功能，用户可通过模糊语音指令完成路线规划。此外，新车还支持 3D 智控桌面、手机与车机无缝流转等功能。 此外，全新深蓝 G318 搭载 35.07kWh 磷酸铁…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c3459d772f5c3c544ea6",
-      "title": "华为 MateBook Fold S 鸿蒙小折叠电脑三色外观公布：搭载 Live 小方屏，11 月 14 日预订",
-      "published": "2026-11-10T03:54:24Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/742.htm",
-      "summary": "IT之家 11 月 10 日消息，华为官方今日宣布全新鸿蒙小折叠电脑 —— MateBook Fold S 将于 11 月 14 日 10:08 开启预订。 官方预热海报显示，新机搭载 Live 小方屏，提供云海蓝、天际白、幻夜黑三款配色。IT之家注意到，目前华为官方已公开新品三色官图。 ▲ 云海蓝 ▲ 天际白 ▲ 幻夜黑 华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东此前已经发布预告视频，新品采用了类似手机产品的全新背屏设计，预计将支持信息显示。此外，该产品展开后是一块 14.7 英寸显示屏。目前，关于这款新品的配置及价格信息还未公布，感兴趣的朋友可以关注IT之家后续报道。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-fc19bd358c16afed5ef8",
-      "title": "华境 S 大六座 SUV 累计交付突破 4 万台，标配华为乾崑智驾 ADS 5 Pro",
-      "published": "2026-11-10T03:50:02Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/739.htm",
-      "summary": "IT之家 11 月 10 日消息，华境汽车官方今日宣布，华境 S 拿下插电式混动大型 SUV 销量四连冠，累计交付达成 40,000 台。 据IT之家此前报道，本月初，华境汽车官方宣布，旗下华境 S 在 10 月交付 7507 台，实现连续 6 个月增长。该车是上汽通用五菱与华为合作的首款搭载华为乾崑科技的旗舰大六座 SUV，2026 年 9 月交付 7416 台、8 月交付 7306 台、7 月交付 7203 台、6 月交付 5689 台。 华境 S 全系标配华为乾崑智驾 ADS Pro 增强版与鸿蒙座舱。该车已于 5 月 8 日正式上市，长 5235mm / 宽 1999mm / 高 1800mm，轴距 3105mm。9 月 12 日，华境 S 宣布新增 4 款配置（主要在鸿蒙座舱方面迎来升级），全系超级置…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-36917400cd9cb55a6884",
-      "title": "消息称某厂子系 2nm 旗舰测试 10000mAh± 电池，预计为小米 REDMI 旗下",
-      "published": "2026-11-10T02:54:33Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/707.htm",
-      "summary": "IT之家 11 月 10 日消息，博主 @数码闲聊站 今日爆料，某厂子系 2nm 旗舰的工程机搭载 10000mAh± 电池，支持 100W 闪充 +50W 无线充，定制单电芯，支持低压放电，全局旁路充电。 结合该博主此前的爆料习惯，预计这款机型为小米 REDMI 旗下，有网友在评论区推测新机为 REDMI K100 至尊版或 REDMI K100 Max 至尊版等等。 本月早些时候，该博主曾爆料某厂子系 2nm 旗舰新机的潜望镜测试 50Mp 1/1.95 英寸中底传感器，支持 3X± 光变。当时，该机也被认为是小米 REDMI 旗下。 ▲ IT之家开箱：REDMI K100 Pro 系列图赏 作为参考，小米现款 REDMI K100 系列手机发布于今年 8 月。其中 Pro Max 机型采用 6.9 英寸 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-a6f9492035b6ee1eae62",
-      "title": "35 秒内“叫停”失控的 AI 智能体，OpenAI 部署“控制室”系统",
-      "published": "2026-11-10T02:05:45Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/631.htm",
-      "summary": "IT之家 11 月 10 日消息，OpenAI 今天宣布，公司已在内部研究设施中部署“控制室”系统，用于停止可能存在风险的 AI 任务，可在 35 秒内“叫停”失控的 AI 智能体。 据介绍，这套系统将智能体训练、评估和数据处理任务等负载接入中央服务，然后由系统负责决定任务能否继续输出。 IT之家了解到，这套系统与负责标记可疑行为的传统监控不同，它可以主动阻止风险研究任务进一步请求输出。当研究员启用某一项任务时，需要向控制室请求唯一任务 ID。然后该标识符会附加到发送给推理引擎的请求中。接着引擎会咨询控制室，确认相关任务是否可以运行。 如果研究员或监控系统下令停止指示，控制室服务就会拒绝下一次推理请求，让推理引擎不再为任务声称任何模型输出。 OpenAI 表示，这套系统从收到停止指令，到阻止任务进一步继续的最长…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-83027c43c65455ceffab",
-      "title": "6999 元，“第二代豆包手机”努比亚 NaviX Ultra 星空典藏版开启预售",
-      "published": "2026-11-10T02:02:40Z",
-      "company": "字节跳动",
-      "companies": [
-        "字节跳动"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/624.htm",
-      "summary": "IT之家 11 月 10 日消息，努比亚今日宣布 NaviX Ultra 星空典藏版将于 10:00 开启预售，11 月 16 日 10:00 正式开售。IT之家查询获悉，新品售价 6999 元，仅提供 16GB+512GB 一个版本。 据此前官方介绍，努比亚 NaviX Ultra 手机的“星空典藏版”采用微纳米浮雕工艺，灵感源自梵高《星空》。官方表示，也是努比亚星空影像基因的一次传承。 IT之家注意到，被称为“第二代豆包手机”的努比亚 NaviX Ultra 于 9 月 16 日发布，号称“全球首款 AI 智能体手机”，由中兴通讯努比亚全链路主导打造，实现一句话让 AI 跨应用执行复杂任务，豆包手机助手主导 AI 助手体验，售价 5999 元起。 努比亚 NaviX Ultra 搭载行业首个集成指纹识别的独…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-21a5184bcb91a2ded355",
-      "title": "腾讯首款专属 AI 游戏陪伴 Agent“鹅次元”开启内测，支持实时陪聊、手机 QQ 陪伴聊天等",
-      "published": "2026-11-10T01:43:25Z",
-      "company": "腾讯",
-      "companies": [
-        "腾讯"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/620.htm",
-      "summary": "IT之家 11 月 10 日消息，腾讯首款专属 AI 游戏陪伴 Agent“鹅次元”今日开启内测。这款产品面向 PC 玩家，提供拟人化的 AI 陪伴和实时语音互动。 IT之家了解到，“鹅次元”主打游戏场景实时陪伴，AI 能够看到用户的游戏画面，并根据画面信息与人互动。如果玩家在游戏中遇到不懂的东西，可以随时向这款 AI 陪伴提问。 同时，这款产品支持 PC / 手机 QQ 陪伴聊天，还具备桌宠、一键更换壁纸、嘴替 / 变声等功能（即将上线）。 此外，官网显示“鹅次元”目前提供的角色有“夏夏”“沈露白”“谷雨”“贝拉”，擅长《无畏契约》《英雄联盟》《反恐精英》等游戏。 参考： 腾讯《鹅次元》官网-你的专属 AI 游戏伙伴（元气首测开启） 相关阅读： 《曝腾讯秘密内测 AI 游戏搭子“鹅次元”，可选择不同陪玩人物》",
-      "summary_status": "source",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a3fd9d2df112d4cd9c16",
-      "title": "华为官宣 MateBook Fold S 鸿蒙小折叠电脑 11 月 14 日开启预订",
-      "published": "2026-11-10T01:36:47Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/618.htm",
-      "summary": "IT之家 11 月 10 日消息，华为刚刚官宣全新鸿蒙小折叠电脑登场，MateBook Fold S 将于 11 月 14 日 10:08 开启预订。 官方海报显示，新机提供云海蓝、天际白、幻夜黑三款配色。 华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东此前已经发布预告视频，新品采用了类似手机产品的全新背屏设计，预计将支持信息显示。此外，该产品展开后是一块 14.7 英寸显示屏。 目前，关于这款新品的配置及价格信息还未公布，感兴趣的朋友可以关注IT之家后续报道。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4a3b1fe2289a6b010ce0",
-      "title": "首位英国艺人：Olivia Dean 当选苹果 2026 Apple Music 年度艺人",
-      "published": "2026-11-10T01:29:21Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/615.htm",
-      "summary": "IT之家 11 月 10 日消息，苹果公司昨日（11 月 9 日）发布博文，宣布英国唱作歌手奥莉薇娅 · 迪恩（Olivia Dean）当选 Apple Music 2026 年度艺人，她也是该奖项设立以来首位获此殊荣的英国艺人。 Apple Music 表示，Olivia Dean 在 2026 年实现了“星途飞跃”。她于 2025 年底推出的专辑《The Art of Loving》在年内取得广泛成功，其中热门单曲《Man I Need》自 2025 年 8 月 29 日首次进入 Apple Music 每日热门 100 首排行榜后，至今持续留在榜单之上。 除流媒体成绩外，Olivia Dean 的巡演表现同样亮眼。她先是在纽约麦迪逊广场花园为 Sabrina Carpenter 担任开场嘉宾，随后于不到一…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7f116976cffda34b53e9",
-      "title": "部分用户反馈苹果 HomePod mini 2“当 Mac 扬声器”失灵",
-      "published": "2026-11-10T01:11:50Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/024/608.htm",
-      "summary": "IT之家 11 月 10 日消息，科技媒体 MacRumors 昨日（11 月 9 日）发布博文，报道称苹果 HomePod mini 2 刚上市便遭遇口碑危机，部分用户因为 Mac 扬声器功能故障选择退货。 根据用户反馈的问题，主要聚焦在 2 个问题上： 一是即使设备满足官方要求，设置界面中也不出现“持久连接”或持续输出选项； 二是连接起初可用，但 Mac 在睡眠、重启，甚至播放一次通知音后，就会自动切回内置扬声器或显示器扬声器。有用户表示，一对 HomePod mini 2 在一分钟内便被 Mac “遗忘”，音频输出重新回到 Studio Display。 在 MacRumors 论坛上，至少有 5 名用户描述了相似故障，至少 2 人表示正在退货。有用户称，苹果零售店工作人员表示并非首次接到同类反馈，但支持…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-10T04:05:45Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-d3bab6309ef208173727",
-      "title": "曾号称订单超百万，累计仅卖 6.3 万辆，量产不到四年的特斯拉 Cybertruck 官宣停产",
-      "published": "2026-11-10T00:45:56Z",
-      "company": "特斯拉",
-      "companies": [
-        "特斯拉"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1688639",
-      "summary": "长得像未来，但没能活到未来。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-12T09:45:52Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-37e4452e64c861cffe83",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "published": "2026-11-10T00:00:00Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "OpenAI 官方新闻",
-      "source_id": "openai",
-      "publisher_id": "openai",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "official_source",
-      "source_type": "official_rss",
-      "url": "https://openai.com/index/cogent-security",
-      "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "summary_status": "source",
-      "fetched_at": "2026-11-16T20:25:32Z",
-      "kind": "rss",
-      "report_type": "report"
     }
   ],
-  "collection_status": "ok"
+  "collection_status": "partial"
 }
