@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-18T03:14:30Z",
-  "last_success_at": "2026-11-18T03:14:30Z",
+  "updated_at": "2026-11-18T07:22:13Z",
+  "last_success_at": "2026-11-18T07:22:13Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 10,
-      "skipped": 50,
-      "last_success_at": "2026-11-18T03:14:30Z",
-      "last_attempt_at": "2026-11-18T03:14:30Z"
+      "accepted": 18,
+      "skipped": 42,
+      "last_success_at": "2026-11-18T07:22:13Z",
+      "last_attempt_at": "2026-11-18T07:22:13Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 6,
-      "skipped": 14,
-      "last_success_at": "2026-11-18T03:14:30Z",
-      "last_attempt_at": "2026-11-18T03:14:30Z"
+      "accepted": 5,
+      "skipped": 15,
+      "last_success_at": "2026-11-18T07:22:13Z",
+      "last_attempt_at": "2026-11-18T07:22:13Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-18T03:14:30Z",
-      "last_attempt_at": "2026-11-18T03:14:30Z"
+      "last_success_at": "2026-11-18T07:22:13Z",
+      "last_attempt_at": "2026-11-18T07:22:13Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1406,
       "accepted": 26,
       "skipped": 1380,
-      "last_success_at": "2026-11-18T03:14:30Z",
-      "last_attempt_at": "2026-11-18T03:14:30Z"
+      "last_success_at": "2026-11-18T07:22:13Z",
+      "last_attempt_at": "2026-11-18T07:22:13Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 5,
       "skipped": 25,
-      "last_success_at": "2026-11-18T03:14:30Z",
-      "last_attempt_at": "2026-11-18T03:14:30Z"
+      "last_success_at": "2026-11-18T07:22:13Z",
+      "last_attempt_at": "2026-11-18T07:22:13Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,316 @@
   ],
   "news": [
     {
+      "id": "rss-d42b17a3fb0ee1aef1da",
+      "title": "华为智选车产品总监彭磊：享界 G9 截止到昨天，11 月用户端交付量达 3316 辆",
+      "published": "2026-11-18T07:09:15Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/828.htm",
+      "summary": "IT之家 11 月 18 日消息，华为智选车产品总监（享界系列）彭磊今日发文，分享了鸿蒙智行享界 G9 的最新交付动态。 享界 G9 交付持续上量，截止到昨天 11.17，在 11 月用户端的交付量达到了 3316 辆，现在每天用户侧销量接近 200 辆，感谢大家的喜欢，本月目标不变，突破 5000 辆！ 据IT之家此前报道，鸿蒙智行首款科技豪华硬派 SUV 享界 G9 已于今年 8 月上市发布。该车首发搭载鸿蒙智行智能全地形系统、800V 全主动可断开稳定杆、自适应牙嵌式差速锁等硬核配置，去露营还能升起电动顶帐、打开尾门厨房，售价 42.98 万元起。 本月早些时候，彭磊表示，随着享界超级工厂生产爬坡上量，享界 G9 在 11 月第一周完成 ToC 交付 1435 辆，均价超过了 50 万。享界 G9 在 9…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-b84d56b51892f795d764",
+      "title": "全国首个昇腾 950DT 词元出海算力集群在汕头启用：华为、中国电信、天亿马三方合作",
+      "published": "2026-11-18T06:22:06Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/811.htm",
+      "summary": "IT之家 11 月 18 日消息，汕头市人民政府门户网站 11 月 16 日宣布全国首个基于华为昇腾 950DT 芯片的词元出海算力集群 11 月 13 日在广东汕头正式启用。 据介绍，该算力集群由中国电信汕头分公司、广东天亿马信息产业股份有限公司和华为技术有限公司联合建设，依托中国电信汕头国际海缆登陆站提供跨境网络连接，面向全球提供智能算力服务。 该集群是全国首个采用昇腾 950DT 自主创新芯片、面向「词元出海」的智能算力集群，标志着汕头打通了从国产算力部署到跨境智能服务交付的完整链路。 该项目采用三方协同模式：中国电信提供网络通信资源和机房基础设施，华为提供国产高性能算力设备，广东天亿马负责项目投资建设与市场化运营。华为智算项目经理王鼎轩表示，该集群承载面向全球的商用算力服务，是自主创新算力出海的关键一步…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-630b66f8fb07f15d1c90",
+      "title": "苹果订阅版 Final Cut Pro 加入 MotionVFX，视频特效更省事",
+      "published": "2026-11-18T05:29:34Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/749.htm",
+      "summary": "IT之家 11 月 18 日消息，科技媒体 MacRumors 昨日（11 月 17 日）发布博文，报道称苹果面向 Apple 创作坊（Apple Creator Studio）用户，升级视频剪辑软件 Final Cut Pro，新增集成 MotionVFX 功能。 IT之家曾于今年 3 月报道，苹果收购 Final Cut Pro 插件公司 MotionVFX，在本次更新后，该公司的素材库被直接纳入 FCP，涵盖模板、标题、主题、特效、版式和转场等创作者常用资源。 功能方面，用户可将 MotionVFX 图形和特效直接拖入视频时间轴，也能在场景中添加 3D 标题和图形。新功能支持将 3D 元素放置在移动表面，或依据镜头运动匹配自然景深，从而提升视频的立体感与真实感。 新版还改进遮罩功能，创作者可以更快为视频中…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-7561524ffff7d3e5d8e8",
+      "title": "第 69 届格莱美奖提名名单公布：苹果《寡妇湾》《音乐魔法镇！》拿下入场券",
+      "published": "2026-11-18T05:26:30Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/744.htm",
+      "summary": "IT之家 11 月 18 日消息，录音学院（NARAS）于 11 月 16 日公布第 69 届格莱美奖提名名单，苹果 Apple TV 旗下《音乐魔法镇！》（Schmigadoon!）和《寡妇湾》（Widow's Bay）获得 2027 年格莱美提名。 IT之家注：《音乐魔法镇！》是 Apple TV 的音乐喜剧剧集，第一季于 2021 年播出，第二季于 2023 年播出，苹果 Apple TV 在 2024 年 1 月宣布不再续订。而本次获得提名的是百老汇舞台音乐剧改编版的原声专辑。 该剧舞台版于 2026 年在百老汇上演，并在今年托尼奖中获得包括“最佳音乐剧”在内的四项大奖；其原声专辑由此进入格莱美“最佳音乐剧专辑”提名名单。 另一部入围作品为恐怖喜剧《寡妇湾》作曲家大卫 · 弗莱明（David Flemi…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-59516d79e16acea8abb1",
+      "title": "苹果推进 iPhone 双卡新功能：第三方应用可识别工作 / 生活号码",
+      "published": "2026-11-18T05:02:31Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/705.htm",
+      "summary": "IT之家 11 月 18 日消息，科技媒体 MacRumors 昨日（11 月 17 日）发布博文，报道称苹果公司正在推进一项改进，未来 iPhone 用户有望在第三方通话、联系人应用中更方便地使用“工作号”和“私人号”两张 SIM 卡。 这项改进主要增强 iPhone 应用的双 SIM 支持，由开发者 Airelec Clima 于今年 8 月 9 日提交，目标是让第三方通话和联系人应用，能够更好地调用 iOS 中已有的双卡信息，目前已进入“第三阶段”。 IT之家查询公开资料，苹果的互操作性请求流程总共分为 3 个阶段：Phase I（资格评估）、Phase II（设计 / 项目计划）、Phase III（实施与发布）。其中第三阶段也是最后阶段，苹果会根据项目计划开发互操作性解决方案，并在未来的预发布版本或软…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8512860ce0be330f5116",
+      "title": "比亚迪王传福、美团王兴、小米雷军 APEC 2026 并排就坐，拒绝透露聊天内容",
+      "published": "2026-11-18T04:54:12Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "雷军"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/704.htm",
+      "summary": "IT之家 11 月 18 日消息，2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办。 中国新闻网今日晒出采访视频，比亚迪股份有限公司董事长兼总裁王传福、美团 CEO 王兴、小米创办人兼董事长兼 CEO 雷军并排就坐。 当记者提问三人具体聊了什么内容，王传福摆手称“不好意思”，王兴也摆手拒绝表示不能透露。 综合IT之家此前报道，王传福在 2026 年 APEC 工商领导人峰会上表示，可持续发展是一个全球目标，而中国在这方面做得卓有成效。 面对主持人提问：“可持续发展对于比亚迪来说是什么定位？”王传福直言：“只有可持续发展才能实现长期发展，‘我赢你输’的路子走不远。” 雷军在 17 日的峰会上表示，过去四年，AI 大模型技术突飞猛进，给我们的生活和工作带来了巨大的变化。但 AI 能够…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-1808a6d77943c3a18df3",
+      "title": "消息称华为 Mate 90 Air、Nova 17 系列新机年底前发布，MatePad Mini 2 小平板预计也有",
+      "published": "2026-11-18T04:47:17Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/703.htm",
+      "summary": "IT之家 11 月 18 日消息，微博博主 @数码闲聊站 今日透露，除了 Mate X8、星芒 OSTA O1 Pro 外，华为年底前还有 Mate 90 Air、Nova 17 系列新机发布，覆盖大折叠、阔直板、轻薄大屏、轻薄拍照全品类机型。 该博主还表示，华为平板产品线还有大家期待的“mini2 5A 通信小平板”，预计是 MatePad Mini 2。 后续有用户在评论区询问：“绿厂阔直板春节前能发吗？”，博主回复称：“不能嗷”；另一名用户则询问道：“16:9 和 16:9.5 的阔直板有啥区别啊战哥”，博主回复道：“16:9 更窄一点。” 据IT之家此前援引博主消息，华为 MatePad Mini 二代小平板已查到备案信息，预计年前也会发布，支持 5G 通信。配色有霞光紫 / 曜石黑 / 雪域白 / 极…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-8470824f1effb10ddc47",
+      "title": "腾讯混元 Hy4 flash 模型官宣开源",
+      "published": "2026-11-18T04:36:17Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/701.htm",
+      "summary": "IT之家 11 月 18 日消息，腾讯混元今日宣布开源 Hy4 flash 模型，包含 Hy4 flash、Hy4 flash-FP8 和 Hy4 flash Base，开发者可在 GitHub、 Hugging Face、ModelScope 和 GitCode 下载部署。 腾讯混元官方预告，正在加速开源 Hy4 模型，敬请期待。 Hy4 flash 定位迄今性价比最高的 Hy 模型，总参数量 224B，其中包含 64B Engram 参数，每个 token 激活 12B 参数，支持多模态输入与 100 万 token 上下文长度，API 价格较 Hy4 大幅降低。 Hy4 flash 已在腾讯云 TokenHub、WorkBuddy、元宝、企业微信、QQ、ima、Marvis 等产品上线。 IT之家附 Hy…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e6dd21eafd297de162a1",
+      "title": "229 元小米智能 4G 摄像机 3 开售：中国电信联通双不限 4G 免费流量，500 万像素 3K 看护 + 双向实时语音",
+      "published": "2026-11-18T04:25:02Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/698.htm",
+      "summary": "IT之家 11 月 18 日消息，小米智能 4G 摄像机 3 今日正式开启抢购，京东显示为 229 元。 京东小米智能 4G 摄像机 3 AI 灵敏检测 双向实时语音 229 元直达链接 这款摄像机主打无网室内智能看护能力，内置电信、联通双 SIM 卡，搭载免费 4G 流量且不限量不限速，无需额外充值、不依赖家中 Wi-Fi 网络即可直接联网使用，即使是乡村老家、偏远商铺、临时装修等没有有线宽带的场景也能稳定工作，同时支持智能切换运营商信号，避免单一运营商信号盲区导致设备离线。 影像配置方面，该机搭载 500 万像素高清镜头，支持 2880 × 1620 分辨率的 3K 级影像录制，搭配大进光量光学镜片，白天画面通透细腻，微光环境下也能保留丰富色彩细节。 夜视能力上，小米智能 4G 摄像机 3 配备增强红外夜视…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-f82cdc5741f23e3a45f8",
+      "title": "苹果首款折叠 iPhone Duo 铰链风波升级，韩媒称供应商受压撤回声明",
+      "published": "2026-11-18T03:39:06Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/692.htm",
+      "summary": "IT之家 11 月 18 日消息，韩国媒体 The Elec 昨日（11 月 17 日）发布博文，报道称苹果向零部件供应商 Fine M-Tec 施压，要求其撤回 10 月 26 日发表在官网的相关声明，让苹果首款折叠 iPhone Duo 铰链故障风波再起波澜。 IT之家曾于 10 月 24 日报道，苹果首款折叠 iPhone Duo 开售首日（10 月 23 日），在社交媒体上就开始流传多张内屏出现裂纹的照片。 ▲ Fine M-Tec 铰链产品示例 零部件供应商 Fine M-Tec 于 10 月 26 日在其官网发布《关于客户新产品质量问题的官方立场》的声明，表示客户近期部分产品出现质量问题并非由该企业提供的零部件的质量缺陷导致。 由于该公司同时也向三星供应铰链组件，且未点名客户，不过从时间节点来看，外…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-6c577b04a6235d8ca987",
+      "title": "如何在苹果 macOS 27.3 Beta 2 关闭菜单栏“蓝色药丸”提示",
+      "published": "2026-11-18T03:16:35Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/687.htm",
+      "summary": "IT之家 11 月 18 日消息，科技媒体 9to5Mac 主编扎克 · 霍尔（Zac Hall）昨日（11 月 17 日）在 X 平台发布推文，分享了一个终端命令，可以在 macOS 27.3 Beta 2 更新中，关闭菜单栏“蓝色药丸”提示。 IT之家援引博文介绍，在 macOS 27.3 Beta 2 更新中，苹果在菜单中引入“透明度指示器”，当某个应用正在控制另一个应用时，屏幕顶部会出现蓝色提示。 苹果称，该功能旨在让用户更清楚地了解系统与应用保护覆盖（System & App Protection Override）的使用情况，从而提升自动化操作的透明度。 该媒体指出对于经常使用自动化工具、窗口管理器或系统增强软件的 Mac 用户而言，这个蓝色“药丸”状指示器可能长期占据菜单栏空间，带来视觉干扰。 霍…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-dc4667487104532b3649",
+      "title": "换电脑不用重来：腾讯 WorkBuddy 现已支持跨设备数据迁移",
+      "published": "2026-11-18T03:11:18Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/684.htm",
+      "summary": "IT之家 11 月 18 日消息，腾讯昨天宣布，WorkBuddy 已经支持跨设备数据迁移。用户现在可以在新电脑的 WorkBuddy 里一键导入原电脑任务数据。 IT之家了解到，跨设备数据迁移支持导入任务、对话记录、产物记录、WorkBuddy 托管目录下的产物文件，以及任务分组、分组内的记忆和本地 Skill 和定时任务等。MCP 配置、日志，以及全局下发的内容（如 Skill、专家、全局记忆）不在迁移范围内。 同时，该功能要求两台电脑更新到最新版本 WorkBuddy，并登录同一账号。文件将保存在“~/WorkBuddy/{设备名}/”下，不同设备的文件各自独立，文件名与原设备保持一致。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-790110c7c1ec3e1b7320",
+      "title": "苹果首款折叠 iPhone Duo 开放自助维修：原厂零件、工具与手册上线",
+      "published": "2026-11-18T03:04:38Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/683.htm",
+      "summary": "IT之家 11 月 18 日消息，科技媒体 9to5Mac 昨日（11 月 17 日）发布博文，报道称苹果扩展“自助维修计划”（Self Service Repair），现已面向 iPhone Duo 提供原厂替换零件、专用工具和官方维修手册。 对于有动手能力、且“自助维修计划”覆盖地区（主要为美国、加拿大和欧洲）的用户而言，如果使用 iPhone Duo 过程中出现故障，不需要前往苹果 Genius Bar，可以直接从苹果官方自助维修商店购买原厂替换零件，并租用或购买维修工具，按照官方手册自行完成设备维修。 IT之家援引博文介绍，用户可选购的零件涵盖内外显示屏、双电池、后盖玻璃、摄像头、FaceTime 前置摄像头、逻辑板、USB-C 接口、扬声器、麦克风、触感引擎、音量键，以及 Touch ID 与相机控制…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-ec5b3a8afa8f92078124",
+      "title": "难修：iFixit 拆解苹果首款智能家居中枢 HomeView，壁挂 / 桌面版内部差异曝光",
+      "published": "2026-11-18T02:56:14Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/028/678.htm",
+      "summary": "IT之家 11 月 18 日消息，维修团队 iFixit 今天（11 月 18 日）发布博文，拆解了苹果首款智能家居中枢 HomeView，并指出桌面版和壁挂版在扬声器配置与内部结构方面存在差异，但两款产品同样“难修”，如果出现故障恐怕只能弃用。 在可维修方面，iFixit 团队表示苹果 HomeView 被大量胶水、热黏合剂和极短连接线“锁死”，维修难度极高。在视频中该机构并未给出直接得分，Shahram Mokhtari 开玩笑说他会给 HomeView 一个“BEEP this thing / 10”（言外之意是没法修）。IT之家附上相关图片如下： 拆解显示，HomeView 的显示屏、扬声器、天线和逻辑板均被胶水或黏合剂固定。维修人员不仅要使用热风、撬片等工具，而且维修过程中相关部件一碰就断，扬声器在拆…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-18T07:22:13Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
       "id": "rss-06b243776690cc469110",
       "title": "诺兰电影《奥德赛》登陆 Apple TV、Prime Video 等点播平台，支持数字租赁和购买",
       "published": "2026-11-18T02:48:19Z",
@@ -189,7 +499,7 @@
       "url": "https://www.ithome.com/1/028/672.htm",
       "summary": "IT之家 11 月 18 日消息，克里斯托弗 · 诺兰执导的电影《奥德赛》于当地时间 11 月 17 日登陆数字点播平台，观众可以通过 Apple TV、亚马逊 Prime Video、Fandango、YouTube 等平台观看。 需要区分的是，此次上线属于数字租赁和购买发行，并非 Netflix 等订阅制流媒体平台正式上线。 除了数字发行外，环球影业同时推出《奥德赛》4K Ultra HD 和蓝光实体版，具体价格和供应情况因地区而异。 以美国区为例，Prime Video 数字购买价格为 19.99 美元（IT之家注：现汇率约合 133.5 元人民币），用户无需订阅 Amazon Prime 会员也可以购买。 数字版还附赠了由诺兰亲自参与制作的幕后特别内容，共有 12 部专题，总时长超过 90 分钟，涉及影…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -213,7 +523,7 @@
       "url": "https://www.ithome.com/1/028/669.htm",
       "summary": "IT之家 11 月 18 日消息，小米创办人、董事长兼 CEO 雷军 11 月 17 日出席 APEC 工商领导人峰会。今日（11 月 18 日），雷军接受了人民日报采访。 谈及人工智能，雷军坦言，人工智能浪潮席卷各行各业，作为 AI 从业者能感受到一些焦虑。 雷军认为，“AI+ 手机”“AI+ 具身智能机器人”等领域有很大的想象空间，未来三四年会有颠覆性时刻的诞生。 综合IT之家此前报道，雷军在 17 日的峰会上表示，过去四年，AI 大模型技术突飞猛进，给我们的生活和工作带来了巨大的变化。但 AI 能够落地的场景非常有限，能够真正实现商业闭环、能够挣到钱的公司，相对比较少。 他认为，AI 是一个全新的时代，一定会带来非常多的商业机会，尤其是 AI 走向物理世界、跟终端和各种应用场景深度结合以后，会有巨大的机会…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -235,7 +545,7 @@
       "url": "https://www.ithome.com/1/028/642.htm",
       "summary": "IT之家 11 月 18 日消息，小米官方今日宣布，小米对讲机 2S 全新橙色版本正式开售，到手价 299 元。 据小米官方介绍，这款对讲机主要有以下四大卖点： 轻薄高颜值，兼顾手感与质感； 4W 发射功率，小巧机身澎湃性能； 120 小时超长待机，充沛动力时刻就绪； 1.77 英寸彩色大屏，清晰直观又好看。 小米对讲机 2S 采用了 1.77 英寸的彩色大屏以及 36mm 大尺寸扬声器单元，机身厚度仅为 15mm，整机重量也只有 130 克，而且还提供了 Type-C 和 3.5mm 接口。 IT之家提醒，小米为其提供了多种自定义功能，你可以根据自己的需求设置蓝牙（连接蓝牙耳机）、方位以及 FM 收音机模式。闲暇时间听一听收音机，享受 FM87-108MHz 的快乐。 除了最常见的 20 个远距离频道外，小米…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -257,7 +567,7 @@
       "url": "https://www.ithome.com/1/028/633.htm",
       "summary": "IT之家 11 月 18 日消息，据《科创板日报》今日报道，摩根士丹利（大摩）将小米目标价上调 6% 至 35 港元（IT之家注：现汇率约合 29.8 元人民币），并维持“增持”评级。 摩根士丹利指出，小米集团多元化产品组合将有助于抵御智能手机行业的低迷。该机构分析师认为，在安卓手机制造商中，小米的表现有望优于同行。这得益于其庞大的非智能手机业务敞口，这将有助于其实现具有韧性的盈利表现。",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -461,7 +771,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -776,7 +1086,7 @@
       "url": "https://www.ifanr.com/1689832",
       "summary": "AI 越自由，人越麻烦 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -822,7 +1132,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-for-sales",
       "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -844,7 +1154,7 @@
       "url": "http://www.geekpark.net/news/374083",
       "summary": "作者｜Cynthia 编辑｜郑玄 过日子的风，还是吹到了大模型行业。 2026 年之前，一款模型能不能刷屏，往往取决于它又做到了什么。GPT-4o 的实时语音交互、Claude 的编程能力、DeepSeek R1 的推理表现，一度轮番成为讨论焦点。一款新模型发布，大家首先关心的是它超过了谁，又做到了什么过去做不到的事。 但到了 2026 年，Agent 真正流行起来之后，风向开始变了。SOTA 模型的领先能力开始以季度为单位被轮番刷新，变得不再新鲜。而模型能力能不能用得起、等得起，成为了新的议题。 毕竟，让模型回答一个问题，和让 Agent 接手一项工作，对应的资源消耗模式完全不同。在 Agent 场景中，一次指令背后，可能是几十轮模型调用。读材料、查代码、调用工具、处理报错，每一步都会增加大量上下文和调用次数…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -866,7 +1176,7 @@
       "url": "http://www.geekpark.net/news/374079",
       "summary": "作者｜桦林舞王 编辑｜靖宇 底座架构重写，单任务成本暴降近六成，阿里把旗舰模型拉进了真实排班表。 终于，一款国产旗舰模型现身了。 11 月 16 日，阿里千问正式发布新一代旗舰模型 Qwen4-Max。就在五天前，它的预览版 qwen4-max-preview 刚在 Token Plan 里低调露过面，今天正式版直接亮出了完整底牌。 新模型依然维持着 2.4 万亿（2.4T）的主干总参数规模，原生支持文本、图像和视频输入，上下文窗口拉到了 100 万 Token。不过比参数表更显眼的，是官方同时给出的一笔账单：在模拟真实工作场景的评测里，千问 4 Max 跑完单个任务的平均费用，从上一代的 26.58 元降到了 11.16 元，直接砍掉 58%。 千问团队这次释放的信号很明确，旗舰大模型单纯拼纸面考分的阶段翻篇…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -888,7 +1198,7 @@
       "url": "http://www.geekpark.net/news/374075",
       "summary": "作者｜桦林舞王 编辑｜靖宇 Agent 能进门了，也能付钱了。 Agent 替用户「消费」的时代，终于到来了。 美国时间 2026 年 11 月 13 日，两家公司两场发布会同天发生。一边是企业级对话式智能体公司 Sierra 联合 Meta 正式发布个人代理协议 Poppy v1.0，解决助手怎么「进门」的问题；另一边是 OpenAI 推出面向个人助手 dots 的 ChatGPT Wallet，解决助手怎么「付钱」的问题。 同一天打通进门和结账，本身就足够耐人寻味。更值得留意的，是站在两套方案背后的同一批名字。Visa 和 Mastercard 同时出现在两边的名单里，Shopify、Stripe 这些掌管电商与支付基础设施的公司，则站在 Poppy 的核心伙伴之列。 Agent 的下一场竞争，表面上看是巨…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -932,7 +1242,7 @@
       "url": "https://www.ifanr.com/1690009",
       "summary": "那我缺的实体 SIM 卡这一块谁给我补啊 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1350,7 +1660,7 @@
       "url": "https://openai.com/index/astra-law-6-2",
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1372,7 +1682,7 @@
       "url": "https://openai.com/index/introducing-openai-for-chile",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1394,7 +1704,7 @@
       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1526,7 +1836,7 @@
       "url": "https://openai.com/index/strengthening-online-child-safety",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1548,7 +1858,7 @@
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1836,7 +2146,7 @@
       "url": "https://openai.com/index/science-at-the-frontier",
       "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1880,7 +2190,7 @@
       "url": "https://www.ifanr.com/1689712",
       "summary": "这不会是苹果真正想带给这个时代的答案 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1902,7 +2212,7 @@
       "url": "https://www.ifanr.com/1689653",
       "summary": "比 DeepSeek V4.1 Flash 性价比更高 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1946,7 +2256,7 @@
       "url": "https://openai.com/business/customer-stories/revolut",
       "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2122,7 +2432,7 @@
       "url": "https://openai.com/index/lvmh-media-division-partnership",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2166,7 +2476,7 @@
       "url": "https://www.ifanr.com/1689616",
       "summary": "真正认真对待软件的人，应该自己去制造硬件。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "unconfirmed"
     },
@@ -2212,7 +2522,7 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2418,7 +2728,7 @@
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2440,7 +2750,7 @@
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "summary": "",
       "summary_status": "missing",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2638,7 +2948,7 @@
       "url": "https://openai.com/index/the-kings-trust-and-openai",
       "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2660,7 +2970,7 @@
       "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
       "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2730,7 +3040,7 @@
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
       "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2752,7 +3062,7 @@
       "url": "https://openai.com/index/our-new-blog-for-science",
       "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3933,7 +4243,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4180,7 +4490,7 @@
       "url": "https://openai.com/business/customer-stories/shield",
       "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4410,7 +4720,7 @@
       "url": "http://www.geekpark.net/news/373937",
       "summary": "智能组织就是 AI 时代的新厂房，是生产力真正发生的地方——11 月 12 日，在百度世界 2026 上，百度创始人李彦宏抛出了贯穿本届大会的核心命题。 他在演讲中直言，当前 AI 没有产生预期的经济效益，本质是很多企业只更换了电机，却还没有重新设计工厂。 过去两年，大模型、智能体快速渗透到企业各个环节，从办公提效到业务辅助，AI 已从「尝鲜」变成很多企业的「标配」。但随着工具部署逐步完成，一个更核心的矛盾开始显现：AI 投入持续增加、Token 消耗不断增长，企业的利润增长却并未同步到来。 不少企业都遇到了相似的困境：员工个人效率提升了，单点试点也跑通了，但整个组织的运转方式并没有发生本质变化。 在李彦宏看来，这就像给旧工厂换上了新电机，生产线和厂房格局没有重构，生产力自然无法充分释放。 从十年前在同一场合提…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4750,7 +5060,7 @@
       "url": "https://openai.com/business/customer-stories/amplitude",
       "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4864,7 +5174,7 @@
       "url": "https://openai.com/business/customer-stories/gondola",
       "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4996,7 +5306,7 @@
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5040,7 +5350,7 @@
       "url": "http://www.geekpark.net/news/373881",
       "summary": "头图来源：豆包工作官网 豆包工作也模型自由了。 11 月 12 日，豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，支持用户按需选型完成任务。同步在模型选择页面标注各模型额度消耗倍率，倍率越低消耗越少，便于用户结合任务需求与使用成本做决策。 同时平台推出两项限时优惠：一是工作日及节假日的指定时段内，使用活动模型可享受额度消耗折扣；二是豆包 2.1 Lite、DeepSeek V4.1 Flash 两款模型限时下调额度消耗倍率，同等任务消耗额度更少。 一、补全多模型，解决「有的选」 本轮更新中，豆包工作一次性接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 三款第三方模型，进一步补齐了模型能力矩阵。 具体…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5263,7 +5573,7 @@
       "url": "https://openai.com/index/children-first-declaration",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5285,7 +5595,7 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5307,7 +5617,7 @@
       "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
       "summary": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5799,7 +6109,7 @@
       "url": "https://openai.com/index/chatgpt-plus-for-veterans",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
+      "fetched_at": "2026-11-18T07:22:13Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5886,94 +6196,6 @@
       "source_type": "media_rss",
       "url": "https://www.ithome.com/1/025/548.htm",
       "summary": "IT之家 11 月 11 日消息，纽约州正准备实施美国最重要的人工智能安全法规之一。该州周二正式开放了一个监管登记平台，Anthropic、OpenAI 等大型前沿 AI 开发商必须在 2027 年 1 月 1 日前完成注册。 这项名为《负责任人工智能安全与教育法案》（RAISE Act）的法规，是纽约州推出的一项 AI 安全与透明度法案，将于 2027 年初正式生效。根据规定，年营收超过 5 亿美元（IT之家注：现汇率约合 33.44 亿元人民币）的大型前沿 AI 开发商必须在各自网站上公布安全框架，在发生重大安全事故后 72 小时内向监管部门报告，并公开模型透明度报告。 新成立的数字创新、治理、诚信与信任办公室（DIGIT）将负责落实 RAISE Act，并监督大型前沿 AI 实验室的运营情况。违反法规的企…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-c11107e97ea73a4f3180",
-      "title": "华为 MateBook Fold S 鸿蒙小折叠电脑配件曝光：实体键盘也可折，左边按键右边触控板",
-      "published": "2026-11-11T07:18:36Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/025/503.htm",
-      "summary": "IT之家 11 月 11 日消息，华为官方昨日宣布全新鸿蒙小折叠电脑 —— MateBook Fold S 将于 11 月 14 日 10:08 开启预订。 博主 @爱叨叨的Steven 今日曝光了这款电脑的键盘设计：延续了正代旗舰的虚拟键盘 + 实体键盘双方案 —— 虚拟键盘拥有专属适配和设计，做了单独延展虚拟触控板；实体键盘也做了折叠设计，左边按键、右边触控板，可以收纳进女士挎包。 据IT之家此前报道，官方预热海报显示，华为 MateBook Fold S 鸿蒙小折叠电脑搭载 Live 小方屏，提供云海蓝、天际白、幻夜黑三款配色。 华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东此前已经发布预告视频，新品采用了类似手机产品的全新背屏设计，预计将支持信息显示。此外，该产品展开后是一块 14.7 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-35a49df75f74f1de4bbe",
-      "title": "苹果计划限制 Apple Intelligence 云端 AI 使用额度：可订阅 iCloud+ 套餐扩容，Logic Pro 已单独售卖用量包",
-      "published": "2026-11-11T07:18:35Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/025/502.htm",
-      "summary": "IT之家 11 月 11 日消息，苹果计划对部分 Apple Intelligence 云端 AI 功能实施使用额度限制，用户未来可以付费获得更多使用额度。 根据苹果发布的支持文档，部分依赖服务器端模型的 Apple Intelligence 功能将受到使用限制，涉及 Siri AI、图乐园、照片应用中的智能编辑工具，以及「快捷指令」中的 AFM 3 Cloud 和 AFM 3 Cloud Pro 模型等功能。 此外，使用苹果私有云计算系统中 Apple Foundation Models 的第三方开发者应用也可能受到限制。 在此之前，苹果已经在专业音乐制作软件 Logic Pro 中推出额外 AI 用量包，美区售价为 49.99 美元（IT之家注：现汇率约合 334.3 元人民币）。 具体而言，照片应用中的相…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7be559ec40c90ea73a7d",
-      "title": "币安示警 iPhone 18 Pro 等用户：苹果 iOS 27.2 等存在漏洞，恶意 App 可越界读取隐私文件",
-      "published": "2026-11-11T07:13:16Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/025/484.htm",
-      "summary": "IT之家 11 月 11 日消息，币安（Binance）昨日（11 月 10 日）在 X 平台发出安全警告，称苹果 iOS 26.7.1、iOS 27.0.1 和 iOS 27.2 系统存在安全风险，恶意应用可能读取其它应用保存的本地文件，涉及加密货币钱包助记词、私钥及登录凭证。 IT之家附上相关截图如下： 影响范围上，币安强调这是操作系统层面的问题，并非仅影响币安应用。科技媒体 bleepingcomputer 指出，目前没有查询到有用户反馈因该风险而导致加密货币损失的报道。 漏洞细节方面，该风险涉及名为“worse_query”的沙箱逃逸技术，可突破应用之间的数据隔离。相关概念验证工具 WQ Files 已公开，无需越狱即可浏览、导出、修改或删除其他应用的数据。 该媒体指出攻击需要先在目标 iPhone 上…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-11T09:19:55Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2b4c4cc28b9f8d928584",
-      "title": "台积电押注 AI：批准对 Anthropic、OpenAI 最高 10 亿美元的投资计划",
-      "published": "2026-11-11T07:02:01Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/025/481.htm",
-      "summary": "IT之家 11 月 11 日消息，全球最大晶圆代工厂台积电（TSMC）批准了一项最高 10 亿美元（IT之家注：现汇率约合 66.88 亿元人民币）的投资计划，分别向人工智能公司 Anthropic 和 OpenAI 投资最多 5 亿美元（现汇率约合 33.44 亿元人民币）。在人工智能投资热潮显露疲态之际，此举无疑为市场注入了一剂强心针。 台积电周二表示，公司董事会已批准两项投资计划：分别以 Anthropic 首次公开募股（IPO）的发行价认购最多 5 亿美元（现汇率约合 33.44 亿元人民币）普通股，以及投资最多 5 亿美元（现汇率约合 33.44 亿元人民币）认购 OpenAI 的优先股。 Anthropic 周二宣布，计划以每股 70 至 78 美元（现汇率约合 468.1 至 521.6 元人民币…",
       "summary_status": "excerpt",
       "fetched_at": "2026-11-11T09:19:55Z",
       "kind": "rss",
