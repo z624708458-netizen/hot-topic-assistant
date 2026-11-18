@@ -3,6 +3,11 @@ import '../assets/speech-contract.js';
 import '../assets/blogger-rules.js';
 import '../assets/blogger-contract.js';
 import './douyin-provider.js';
+import '../assets/intel-rules.js';
+import './socialdatax.js';
+import './intel-service.js';
+import './intel-model.js';
+import './intel-api.js';
 const C=globalThis.RadarSpeechContract;
 const API='https://api.openai.com/v1/responses';
 const buckets=new Map();
@@ -47,9 +52,10 @@ export async function handle(request,env,fetcher=fetch){
  const url=new URL(request.url),origin=request.headers.get('Origin'),allowed=env.ALLOWED_ORIGIN||'https://z624708458-netizen.github.io';
  // Public readiness checks never invoke a model or read personal materials.
  const health=url.pathname==='/health'&&request.method==='GET';
- const publicStatus=url.pathname==='/douyin/status'&&request.method==='GET';
+ const publicStatus=['/intel/status','/douyin/status'].includes(url.pathname)&&request.method==='GET';
  if((origin&&origin!==allowed)||(!origin&&!health&&!publicStatus))return reply({error:'访问来源不允许'},403);
  if(request.method==='OPTIONS')return new Response(null,{status:204,headers:{'Access-Control-Allow-Origin':origin,'Access-Control-Allow-Methods':'POST, GET, OPTIONS','Access-Control-Allow-Headers':'Authorization, Content-Type','Access-Control-Max-Age':'600','Vary':'Origin'}});
+ if(url.pathname.startsWith('/intel/'))return globalThis.RadarIntelAPI.handle(request,env,fetcher,{reply,equal,readBounded,throttled});
  if(url.pathname.startsWith('/douyin/'))return douyinRoute(request,env,fetcher,origin||'',url);
  const enabled=env.MODEL_ENABLED==='true'&&!!env.OPENAI_API_KEY;
  const tokenReady=typeof env.APP_ACCESS_TOKEN==='string'&&env.APP_ACCESS_TOKEN.length>=24;
@@ -73,4 +79,4 @@ export async function handle(request,env,fetcher=fetch){
   return reply({error:messages[error.message]||messages[error.name]||'请求或模型输出未通过格式/来源校验，旧稿保留'},error.message==='INPUT_TOO_LARGE'?413:error.message?.startsWith('MODEL_')||error.name==='TimeoutError'?502:400,origin);
  }
 }
-export default {fetch:handle};
+export default {fetch:handle,scheduled:(event,env,ctx)=>ctx.waitUntil(globalThis.RadarIntelService.scheduled(env))};

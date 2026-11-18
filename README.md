@@ -1,8 +1,24 @@
-# 热点雷达 V5.2 · 每日选题、第二大脑、口播与博主雷达
+# 热点雷达 V6.0 · 爆款内容情报系统
 
 在已有 V3 的 GitHub Pages 页面与 UI 上增加第二大脑，保留新闻、评分与现有UI，免费公开 RSS + GitHub Actions 定时采集 + 静态 JSON。新闻评分和第二大脑继续免费。V5.1口播改为服务端LLM，未连接时不生成；Cloudflare 后端可先无 Key 部署，模型默认关闭；部署步骤见 [后端说明](server/README.md)。开通 OpenAI API 后再启用模型。
 
 网站：https://z624708458-netizen.github.io/hot-topic-assistant/
+
+## V6.0：从作品证据到原创选题
+
+新增默认首页「今日爆款」、跨平台博主监测、爆款研究、趋势分析、我的选题库和数据源设置。SocialDataX通过独立Adapter支持抖音/B站/小红书，作品存入私有D1（本地为SQLite），不写公开新闻JSON。V3/V4.1/V5.1/V5.2旧入口、存储键、评分和草稿全部保留；`/#recommend`直接打开旧新闻推荐。
+
+**当前没有真实第三方Key及Cloudflare部署授权：真实采集/模型质量尚未验收，不展示假作品。** 代码支持来源/缓存/预算/分页/异步转写，缺播放或历史样本不计算倍数；AI未连接无模板替代稿。DeepSeek作为V6显式可选Provider，原OpenAI口播接口不变。
+
+开始使用、完整升级方案、数据库增量迁移、API/费用开关、定时采集与真实验收限制见 **[V6完整说明](docs/v6.md)**。
+
+本地无需安装依赖（Node24）：
+
+```sh
+node server/dev.mjs
+```
+
+在**自己电脑**打开 `http://127.0.0.1:8876/`，访问码与部署说明见上面的V6文档。线上Pages只更新前端；Worker、D1和Cron需要在自己的Cloudflare账号单独配置，不能把GitHub推送当作后端更新。
 
 ## V5.2 博主雷达 V1
 
@@ -191,11 +207,12 @@ node scripts/compare_scores.js
 
 ```sh
 python3 -m unittest discover -s tests -p 'test_collector.py' -v
-node --test tests/rules.test.js tests/brain.test.js tests/brain41.test.js tests/speech.test.js tests/speech-server.test.mjs tests/blogger.test.js tests/blogger-server.test.mjs
+node --test tests/*.test.js tests/*.test.mjs
 python3 tests/test_demo.py
 python3 -m unittest discover -s tests -p 'test_brain*.py' -v
 python3 -m unittest discover -s tests -p 'test_speech.py' -v
 python3 -m unittest discover -s tests -p 'test_blogger.py' -v
+python3 -m unittest discover -s tests -p 'test_intel.py' -v
 node server/build-worker.mjs --check
 ```
 

@@ -112,14 +112,15 @@ function renderStatus() {
 function renderAll(preserve=false) {renderStatus();renderList(preserve);renderSaved();renderSources();}
 function setView(next,preserve=false) {
   view=next;
-  $('.notice').hidden=['brain','blogger'].includes(next);
-  ['recommend','saved','brain','sources','blogger'].forEach(id=>$('#'+id+'-view').hidden=id!==next);
+  $('.notice').hidden=['brain','blogger','viral','creators','research','trends','library','intel-settings'].includes(next);
+  ['recommend','saved','brain','sources','blogger','viral','creators','research','trends','library','intel-settings'].forEach(id=>$('#'+id+'-view').hidden=id!==next);
   document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.view===next));
-  $('#view-label').textContent={recommend:'选题推荐',saved:'我的收藏',sources:'来源与评分',brain:'第二大脑',blogger:'博主雷达'}[next];
-  $('#page-title').textContent={recommend:'好选题，让创作先一步。',saved:'把好灵感，留下来。',sources:'有依据，才值得讲。',brain:'把自己的积累，连成第二大脑。',blogger:'把值得研究的创作者，放进你的雷达。'}[next];
-  $('#page-subtitle').textContent={recommend:'关注钱袋子、饭碗与生活选择，找到普通人愿意停下来听的故事。',saved:'收藏保留原文快照，不把旧新闻当新热点。',sources:'公开评分规则、RSS 状态与更新时间。',brain:'让今天的新闻，遇见你的经历、观点与作品。',blogger:'官方授权发现与手动关注管理，来源、字段与缺失信息都看得见。'}[next];
+  $('#view-label').textContent={recommend:'选题推荐',saved:'我的收藏',sources:'来源与评分',brain:'第二大脑',blogger:'博主雷达',viral:'今日爆款',creators:'博主监测',research:'爆款研究',trends:'趋势分析',library:'我的选题库','intel-settings':'数据源设置'}[next];
+  $('#page-title').textContent={recommend:'好选题，让创作先一步。',saved:'把好灵感，留下来。',sources:'有依据，才值得讲。',brain:'把自己的积累，连成第二大脑。',blogger:'把值得研究的创作者，放进你的雷达。',viral:'从爆款证据，到原创选题。',creators:'跟踪作品，而不是只看粉丝。',research:'把传播结构，拆成可研究的证据。',trends:'看见多个博主之间的共同变化。',library:'把研究，变成自己的作品。','intel-settings':'让每次采集，来源清楚、消耗可控。'}[next];
+  $('#page-subtitle').textContent={recommend:'关注钱袋子、饭碗与生活选择，找到普通人愿意停下来听的故事。',saved:'收藏保留原文快照，不把旧新闻当新热点。',sources:'公开评分规则、RSS 状态与更新时间。',brain:'让今天的新闻，遇见你的经历、观点与作品。',blogger:'官方授权发现与手动关注管理，来源、字段与缺失信息都看得见。',viral:'V6内容情报 · 指标与评分透明，缺失不补，优质选题不足不凑数。',creators:'跨平台关注、暂停和历史作品；实际覆盖以已授权的数据源为准。',research:'字幕、评论、原始指标、AI分析与事实核对分开展示。',trends:'规则线索不冒充语义理解，样本不足不预测趋势。',library:'待创作、创作中、已完成、已发布与暂不考虑。','intel-settings':'服务端Secret、关键词、频率、上限、缓存和调用状态。'}[next];
   $('#add-news').innerHTML=next==='brain'?'＋ 添加素材':'<span>＋</span> 录入一条新闻';
-  $('#add-news').hidden=next==='blogger';
+  $('#add-news').hidden=['blogger','viral','creators','research','trends','library','intel-settings'].includes(next);
+  if(['viral','creators','research','trends','library','intel-settings'].includes(next))window.IntelUI?.render(next);
   if(next==='blogger')window.BloggerUI?.render();
   if(next==='brain')window.BrainUI?.render();
   if(next==='recommend')renderList(preserve);if(next==='saved')renderSaved();if(next==='sources')renderSources();
@@ -195,6 +196,7 @@ $('#news-form').addEventListener('submit',event=>{
     custom.unshift(news);persist();$('#news-dialog').close();event.target.reset();$('#include-manual').checked=true;resetFilters();selectedId=news.id;tab='overview';setView('recommend',true);notify('已保存未核验内容；已开启「包含手动录入」。');
   } catch(error){$('#form-error').textContent=error.message;}
 });
-renderChips();renderAll();loadNews();
+renderChips();renderAll();setView(location.hash==='#recommend'?'recommend':['viral','creators','research','trends','library','intel-settings','brain','saved','blogger','sources'].includes(location.hash.slice(1))?location.hash.slice(1):'viral');loadNews();
+window.addEventListener('hashchange',()=>{const next=location.hash.slice(1);if(['recommend','viral','creators','research','trends','library','intel-settings','brain','saved','blogger','sources'].includes(next))setView(next);});
 // Refresh published JSON only; the browser never scrapes third-party feeds.
 setInterval(()=>{if(!document.hidden&&!$('#news-dialog').open)loadNews();},300000);

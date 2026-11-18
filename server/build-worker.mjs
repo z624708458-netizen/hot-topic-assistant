@@ -3,9 +3,9 @@ import {readFileSync,writeFileSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url);
 export function build(){
- const parts=['assets/speech-contract.js','assets/blogger-rules.js','assets/blogger-contract.js','server/douyin-provider.js'];
+ const parts=['assets/speech-contract.js','assets/blogger-rules.js','assets/blogger-contract.js','server/douyin-provider.js','assets/intel-rules.js','server/socialdatax.js','server/intel-service.js','server/intel-model.js','server/intel-api.js'];
  let worker=readFileSync(new URL('server/worker.mjs',root),'utf8');
- for(const dep of ['../assets/speech-contract.js','../assets/blogger-rules.js','../assets/blogger-contract.js','./douyin-provider.js']){
+ for(const dep of ['../assets/speech-contract.js','../assets/blogger-rules.js','../assets/blogger-contract.js','./douyin-provider.js','../assets/intel-rules.js','./socialdatax.js','./intel-service.js','./intel-model.js','./intel-api.js']){
   const line="import '"+dep+"';";if(worker.split(line).length!==2)throw new Error('Unexpected Worker dependency: '+dep);worker=worker.replace(line,'');
  }
  if(/^import /m.test(worker))throw new Error('Unbundled dependency');

@@ -6,3 +6,8 @@ data/*.tmp
 .wrangler/
 node_modules/
 server/.env*
+
+.local/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

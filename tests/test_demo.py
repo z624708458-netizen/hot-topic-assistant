@@ -53,7 +53,7 @@ class DemoTest(unittest.TestCase):
         self.page=self.context.new_page();self.errors=[];self.data=dataset()
         self.page.on('pageerror',lambda e:self.errors.append(str(e)))
         self.page.route('**/data/news.json',lambda route:route.fulfill(json=self.data))
-        self.page.goto(self.url);self.page.wait_for_selector('#topic-list .topic-card')
+        self.page.goto(self.url+'/#recommend');self.page.wait_for_selector('#topic-list .topic-card')
 
     def tearDown(self):
         self.assertEqual(self.errors,[],'Browser JavaScript exceptions');self.context.close()

@@ -67,3 +67,7 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 ## V5.2 博主雷达增量更新
 
 单文件现在同时包含抖音官方适配和模型文本拆解，需在控制台重新粘贴完整代码并Deploy，保留已有Secrets。GitHub推送不会自动更新这个Worker。新增抖音设置独立于模型，默认关闭；没有凭据时 `/douyin/status` 正常返回未开通，不伪造候选。**先核对当前官方文档、应用实际权限、字段与展示/保留规则，再启用**；本次环境对抖音文档返回网络403，尚未实际接通。所需Secret与接口限制见 [博主雷达部署说明](../docs/blogger-radar.md)。
+
+## V6作品库与DeepSeek
+
+V6新增D1绑定 `INTEL_DB` 和幂等迁移 `migrations/0001_intel.sql`，不改动旧浏览器存储。V6 Provider与配置开关独立；DeepSeek是可选适配，原 `/health`、`/generate` 仍兼容。SocialDataX需要Secret、权限/使用条款和费用确认，默认全部关闭。API Key不在网页输入或保存。控制台粘贴bundle后还须单独绑定D1、运行迁移、配置Secret和可选Cron；没有自动替用户开户或部署。完整步骤见 [V6部署与验收说明](../docs/v6.md)。
