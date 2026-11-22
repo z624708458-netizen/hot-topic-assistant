@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-21T23:11:17Z",
-  "last_success_at": "2026-11-21T23:11:17Z",
+  "updated_at": "2026-11-22T06:41:16Z",
+  "last_success_at": "2026-11-22T06:41:16Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 10,
-      "skipped": 50,
-      "last_success_at": "2026-11-21T23:11:17Z",
-      "last_attempt_at": "2026-11-21T23:11:17Z"
+      "accepted": 15,
+      "skipped": 45,
+      "last_success_at": "2026-11-22T06:41:16Z",
+      "last_attempt_at": "2026-11-22T06:41:16Z"
     },
     {
       "id": "ifanr",
@@ -33,10 +33,10 @@
       "publisher_id": "ifanr",
       "status": "ok",
       "feed_items": 20,
-      "accepted": 4,
-      "skipped": 16,
-      "last_success_at": "2026-11-21T23:11:17Z",
-      "last_attempt_at": "2026-11-21T23:11:17Z"
+      "accepted": 5,
+      "skipped": 15,
+      "last_success_at": "2026-11-22T06:41:16Z",
+      "last_attempt_at": "2026-11-22T06:41:16Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-21T23:11:17Z",
-      "last_attempt_at": "2026-11-21T23:11:17Z"
+      "last_success_at": "2026-11-22T06:41:16Z",
+      "last_attempt_at": "2026-11-22T06:41:16Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1421,
       "accepted": 32,
       "skipped": 1389,
-      "last_success_at": "2026-11-21T23:11:17Z",
-      "last_attempt_at": "2026-11-21T23:11:17Z"
+      "last_success_at": "2026-11-22T06:41:16Z",
+      "last_attempt_at": "2026-11-22T06:41:16Z"
     },
     {
       "id": "geekpark",
@@ -86,10 +86,10 @@
       "enabled": true,
       "status": "ok",
       "feed_items": 30,
-      "accepted": 6,
-      "skipped": 24,
-      "last_success_at": "2026-11-21T23:11:17Z",
-      "last_attempt_at": "2026-11-21T23:11:17Z"
+      "accepted": 7,
+      "skipped": 23,
+      "last_success_at": "2026-11-22T06:41:16Z",
+      "last_attempt_at": "2026-11-22T06:41:16Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,365 @@
   ],
   "news": [
     {
+      "id": "rss-a64cff4f517eceb9bbb1",
+      "title": "特斯拉在韩连续 9 个月位居进口车销量第一，大多产自上海超级工厂",
+      "published": "2026-11-22T05:46:43Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/569.htm",
+      "summary": "IT之家 11 月 22 日消息，据韩联社报道，今年 1 至 10 月韩国对华汽车贸易逆差达 42.36 亿美元（IT之家注：现汇率约合 283.53 亿元人民币），较去年同期增长 92.7%，已超过 2025 年全年逆差额，创历史最高。 韩国贸易协会与产业通商部数据显示，1 至 10 月韩国对华汽车出口额为 1.6877 亿美元（现汇率约合 11.3 亿元人民币），同比下降 34.9%；进口额为 43.9033 亿美元（现汇率约合 293.86 亿元人民币），同比增长 79.2%，进口规模达到出口的 26 倍。对华汽车贸易收支自 2017 年起已连续 10 年逆差，逆差额从 2022 年的 4,660.5 万美元（现汇率约合 3.12 亿元人民币）扩大至 2024 年的 1.7298 亿美元（现汇率约合 11…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5c43ec1ca879960a9b16",
+      "title": "智能手环销量全球 No.1：小米手环官宣累计出货超 2.4 亿只，连续 35 个季度拿下第一",
+      "published": "2026-11-22T05:24:52Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/568.htm",
+      "summary": "IT之家 11 月 22 日消息，小米官方昨晚宣布，小米智能手环销量位居世界第一，截至目前全球出货量已超过 2.4 亿只。 市场调研机构 Omdia 数据显示，从 2017 年第四季度至 2026 年第二季度，小米及 REDMI 在全球基础手环市场连续 35 个季度位居出货量榜首。 IT之家注：小米在国内市场最新的手环产品为 9 月上市的小米手环 11，提供标准版、NFC 版、陶瓷版 / 全金属版。其重点升级了睡眠监测、系统生态和佩戴体验，首发搭载小米澎湃 OS 4，上市价格 289 元起。 延伸阅读 需要说明的是，Omdia 的上述排名仅针对全球「基础手环（basic band）」这一细分品类，统计口径为面向渠道的出货量（sell-in）估算，并不涵盖整个可穿戴设备市场。据小米官方标注，该数据核验日期为 20…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-337b87649380d3a30d10",
+      "title": "鸿蒙智行问界新 M7 无伪装实车上路，新增银色车漆款",
+      "published": "2026-11-22T04:54:11Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/566.htm",
+      "summary": "IT之家 11 月 22 日消息，据博主 @Ark咔嚓一下 分享，鸿蒙智行问界新 M7 无伪装实车已现身街头，新增银色车漆款。 据IT之家此前报道，工信部今年 10 月发布的第 412 批《道路机动车辆生产企业及产品公告》新产品公示，鸿蒙智行问界新款 M7 完成申报。申报信息显示，新车提供纯电 + 增程可选，拥有五 / 六座两种布局方案。 纯电版提供双电机四驱和单电机后驱版本可选，外观尺寸为 5080×1999×1780mm，轴距 3030mm，前轮距 1716mm、后轮距 1727mm，整备质量分别为 2660、2715kg（四驱版）和 2545、2605kg（后驱版），额定载客包含驾驶员为 5 、6 座可选，最高车速 200km/h。 增程版同样提供四驱和后驱选项，外观尺寸与纯电版本保持一致，整备质量分别为…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-4e8ffd9072fd1921444e",
+      "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
+      "published": "2026-11-22T04:18:50Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/563.htm",
+      "summary": "IT之家 11 月 22 日消息，特斯拉今日宣布在美国市场推出 FSD v15，带来了全新可视化界面 ——“Tesla Reality View”（特斯拉实景视图）。 随后全新的“Tesla Reality View”迅速引发网友热议。博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建。他称自己今天仔细检查了一下特斯拉 FSD 2 代芯片的规格，发现不如很多新势力的自研芯片。 IT之家注意到，马斯克今日也发文对该功能进行了说明。他透露，FSD v15 的“Tesla Reality View”是由实时 AI 视频生成，无需游戏引擎！且仅动用了 AI4 芯片一个 TRIP 加速器一半的算力。 相关阅读： 《特斯拉 FSD v15 全新可视化 UI 引热议，消息称是在硬件劣势的情况做了 3…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8a172ea95d5027045ce7",
+      "title": "终抵千万里程碑：曝华为 Mate 80 系列手机终端销量破 1000 万台，标准版占比近 58%",
+      "published": "2026-11-22T03:56:29Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/560.htm",
+      "summary": "IT之家 11 月 22 日消息，据博主 @智慧芯片案内人 透露，截至 W46（11 月 9 日-11 月 15 日），某厂 M80 系列手机销量已突破 1000 万台，其中标准版占比接近 58%。 从评论区讨论来看，M80 预计指的是华为 Mate 80 系列手机。 华为 Mate 80 / Pro / Pro Max / RS 手机已于 2025 年 11 月 25 日发布，搭载麒麟 9020 / 9030 / 9030 Pro 处理器，首发鸿蒙 Harmony OS 6 系统，定价 4699 元起，涨价后 5499 元起（后增加了一款 Pro Max 风驰版机型）。 ▲ IT之家开箱：华为 Mate 80 Pro Max 风驰版图赏华为 Mate 80 配色：晨曦金、云杉绿、雪域白、曜石黑 处理器：麒麟 …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e83991a6e2fb6bf9eccc",
+      "title": "特斯拉 FSD v15 全新可视化 UI 引热议，消息称是在硬件劣势的情况做了 3D 高斯全场景重建",
+      "published": "2026-11-22T03:12:53Z",
+      "company": "特斯拉",
+      "companies": [
+        "特斯拉"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/555.htm",
+      "summary": "IT之家 11 月 22 日消息，特斯拉今日宣布在美国市场推出 FSD v15，目前已向早期体验计划（EAP）成员推送首批版本。官方宣称，本次更新对安全关键场景的处理能力提升了 25 倍，并带来了全新可视化界面 ——“Tesla Reality View”。 随后，特斯拉 FSD v15 的全新可视化 UI 的实测视频在各大平台传出，引发了网友热议。从画面可以看到，“Tesla Reality View”使用摄像头实时图像，在汽车周围构建出真实的世界模型。 据博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建。他称自己今天仔细检查了一下特斯拉 FSD 2 代芯片的规格，发现不如很多新势力的自研芯片。 博主认为“这不是什么好事”，因为特斯拉现在居然能抽调多余的算力和带宽，去做全场景的 3…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "unconfirmed"
+    },
+    {
+      "id": "rss-b4140afd1c4d01da8c9a",
+      "title": "OSTA O1 Pro 为何搭载麒麟 9030S？华为星芒刘赫总结三大原因，价格考虑也是关键",
+      "published": "2026-11-22T02:33:08Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/548.htm",
+      "summary": "IT之家 11 月 22 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 4999 元起。华为星芒品牌总经理刘赫也已开通微博，透露最受欢迎的 16G 版本已经在全平台售罄。 ▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手机实拍 该机与华为 Pura X View 一样，搭载了麒麟 9030S 处理器。关于为何选用这枚芯片，刘赫给出了三大理由，并透露星芒和当年荣耀 Magic 的思路有异曲同工之处。 确实和 Magic 的思路有异曲同工之处！选 9030S 有原因的，第一这个平台在 NPU 上对 AI 有深度优化，第二这个平台功耗控制非常优异，第三还是有一定的价格考虑的，我们在努力的贴近 4999 这个国补后的价格，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-cdd6678258940bfde501",
+      "title": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
+      "published": "2026-11-22T01:58:48Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "极客公园",
+      "source_id": "geekpark",
+      "publisher_id": "geekpark",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "http://www.geekpark.net/news/374302",
+      "summary": "头图来源：腾讯 腾讯的 AI 故事，正在进入一个有些沉重的阶段。 11 月 18 日，腾讯发布 2026 年第三季度财报。本季度营收 2073.4 亿元，同比增长 8%；Non-IFRS 经营利润 681 亿元，同比下降 6%；Non-IFRS 归母净利润 665 亿元，同比下降 6%。 图片来源：腾讯财报 本季度，腾讯资本开支达到 814 亿元，同比增长 527%，单季支出已经超过 2025 年全年；研发投入 323.6 亿元，同比增长 42%。大规模算力采购和预付款之下，自由现金流为负 691 亿元；若剔除算力采购预付款，自由现金流仍有 169 亿元。 单看收入，这依旧是一份稳健的财报。但把 AI 拆出来，曲线的分叉比上一季度更明显：若剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI …",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-25533c7b42481638a2e1",
+      "title": "网易 UU 远程鸿蒙版 App（移动端）邀测开启，手机 / 平板原生适配",
+      "published": "2026-11-22T01:47:42Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/541.htm",
+      "summary": "IT之家 11 月 22 日消息，据多位用户反馈，网易 UU 远程鸿蒙版 App 已开启邀请测试（手机 / 平板原生适配），获得资格的用户可在收到短信后点击对应链接跳转至华为应用市场 App Gallery 下载使用。 测试说明显示，本次测试为 UU 远程 HarmonyOS 版本的用户体验测试，面向 HarmonyOS 手机及平板用户，主要验证应用在真实设备和网络环境下的功能可用性、连接稳定性及交互体验。 IT之家附测试内容如下： 1.登录、退出登录、账号信息及基础设置； 2.首页设备列表、设备刷新、设备详情、设备管理及设备重命名； 3.对已安装 UU 远程且在线的设备发起远程控制，体验连接建立、远程画面、基础触控和输入操作、断开及重新连接； 4.文件传输及远程文件浏览； 5.磁吸键盘和蓝牙键鼠、手柄直连功能…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-9df50b5b41abee3d3b06",
+      "title": "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就",
+      "published": "2026-11-22T01:35:14Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "爱范儿",
+      "source_id": "ifanr",
+      "publisher_id": "ifanr",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ifanr.com/1690820",
+      "summary": "AI 恐怖如斯 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "summary_status": "source",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8ece273a37305348c2b6",
+      "title": "李小龙预热华为史上最薄智能手表 WATCH Air：对男性穿西装衬衣非常友好",
+      "published": "2026-11-22T01:10:17Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/534.htm",
+      "summary": "IT之家 11 月 22 日消息，华为史上最薄智能手表 —— 华为WATCH Air 将于 11 月 24 日 14:30 登场。该产品拥有 6.9 毫米机身，号称“薄，且强”。 11 月 20 日，华为终端 BG CTO 李小龙对这款新品进行了预热。他表示，这款表又轻又薄，佩戴舒适性非常好，尤其对男性穿西装衬衣非常友好，不会和衬衣袖子干涉。他还提到：“因为非常轻，运动时佩戴也非常稳定，心率数据准确性很好，是一个全能型选手。” 据此前官方公布信息，新机采用 6.9mm 超薄设计，提供 1.4mm 超窄四等边、蓝宝石玻璃表镜，高亮钛合金一体化机身搭配三款机身配色。 IT之家注意到，数码博主 @数码闲聊站 此前已发文透露华为 WATCH Air 的屏幕、材质与机身参数，华为史上最薄机身、最窄黑边、最大屏占比，集齐三…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-e113ea1e6477be49d2c3",
+      "title": "华为 WATCH GT 6 发布 HarmonyOS 7.0.0.108 SP8 版本，表端支持微信来电接听和挂断",
+      "published": "2026-11-22T00:34:03Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/527.htm",
+      "summary": "IT之家 11 月 22 日消息，华为官方宣布，HUAWEI WATCH GT 6 系列手表推出鸿蒙 HarmonyOS 7.0.0.108 SP8 版本升级，开始分批推送给 6.1.0.117 SP6 / 6.1.0.118 SP10 / 7.0.0.107 SP7 / 7.0.0.107 SP10 / 7.0.0.107 SP13 版本上的用户。 IT之家附 HUAWEI WATCH GT 6 系列 HarmonyOS 7 版本 7.0.0.108 SP8 完整更新日志如下： 适配机型 HUAWEI WATCH GT 6 41mm （KSU-B19） HUAWEI WATCH GT 6 46mm（ATM-B19） HUAWEI WATCH GT 6 Pro（ATM-B29） 版本更新日志 7.0.0.107…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2d0e92b4db5ea5ce8bc6",
+      "title": "腾讯《怪物猎人：旅人》PC 版本首次亮相，游戏移动端预计年内上线",
+      "published": "2026-11-22T00:23:27Z",
+      "company": "腾讯",
+      "companies": [
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/526.htm",
+      "summary": "IT之家 11 月 22 日消息，腾讯《怪物猎人：旅人》官方微博昨日发布视频，首次公开了本作的 PC 版本。 这支视频展示的是《怪物猎人：旅人》开发中画面，呈现了主角冒险家狩猎融光种火龙的实机片段与村庄场景。游戏官方表示，PC 版本正在紧锣密鼓开发中，更多进展将陆续公布。 IT之家注：《怪物猎人：旅人》是由卡普空正版授权、腾讯天美工作室群开发的《怪物猎人》系列新作，将于 2026 年内登陆 iOS 与 Android 平台。 本作保留了系列经典的 14 种武器类型，并加入独特的“特殊技”系统。在多人玩法方面，游戏支持最多 4 名玩家共斗，同时首次引入最多 16 名玩家参与的“突袭模式”，挑战超巨大怪物。 相关阅读： 《腾讯游戏〈怪物猎人：旅人〉8 月 7 日开启“启明测试”，限骁龙 845 及以上安卓机型》 《…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-0699af7a0bf02f7d6bdc",
+      "title": "全球首款星闪音箱因科美 SL10 通过 OpenHarmony 兼容性测评，搭载开源鸿蒙 5.1 系统",
+      "published": "2026-11-22T00:07:01Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/525.htm",
+      "summary": "IT之家 11 月 22 日消息，开源鸿蒙官网显示，来自深圳市因科美通信有限公司的 SL10 已通过 OpenHarmony 测评，搭载了 Hi3372GBCV100 芯片，预装基于 OpenHarmony 5.1.0 Release 版本的轻量系统。 参考IT之家此前报道，星闪联盟官网认证信息显示，这款设备为一款音箱设备，测试集显示，EACOME SL10 音箱通过了 SLE 射频一致性测试、基础服务层协议一致性测试、高清音频协议一致性测试。这意味着，这款音箱将支持 NearLink E2.0（即星闪音频）。 这也将是全球首款星闪音箱。 根据华为官网描述，星闪音频物理层传输速率可达 16Mbps，带宽能力超传统技术，充足的通道容量就能够承载 48kHz/24bit Hi-Fi 音频无损传输。IT之家注：目前支…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-2eff4adfd2ee55dfd526",
+      "title": "华为星芒首款手机 OSTA O1 Pro 维修备件价格出炉：屏幕 899 元起，主板 3449 元起",
+      "published": "2026-11-21T23:37:16Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/520.htm",
+      "summary": "IT之家 11 月 22 日消息，华为全新子品牌星芒于 11 月 20 日发布首款机型 OSTA O1 Pro，12GB+256GB 版本首发价 5499 元，顶配 16GB+1TB 首发 8799 元。随着新机上市，华为官网也公布了该机维修备件价格。 ▲ IT之家开箱：华为星芒首款手机 OSTA O1 Pro ▲ IT之家开箱：华为星芒首款手机 OSTA O1 Pro 先来看屏幕方面，OSTA O1 Pro 全新屏幕主体（不含中框和电池）的价格为 899 元，更换下来的原装旧件，官方将无偿回收。 屏幕组件（含屏幕单体、中框、电池）的正常价为 1499 元，使用全新屏幕并现场更换；优惠价 1299 元，更换下来的原装旧件，将无偿回收。 主板方面，12GB+256GB 版本主板正常价为 4249 元，优惠价 34…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-bb4ca30f1fac3c804c89",
+      "title": "OSTA 新特性放开：华为鸿蒙 HarmonyOS 7 系统更多机型小艺助理上线“小艺星芒”音色",
+      "published": "2026-11-21T23:35:28Z",
+      "company": "华为",
+      "companies": [
+        "华为"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/030/519.htm",
+      "summary": "IT之家 11 月 22 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 4999 元起。华为星芒品牌总经理刘赫开通微博，透露最受欢迎的 16G 版本已经在全平台售罄。 ▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手机实拍 据介绍，华为星芒 OSTA O1 Pro 首搭 HarmonyOS 7 AI 先锋版系统，支持全新 AI 交互、系统主动智能和长期陪伴成长；该机还拥有业界首个系统级 AI 屏，内含个性化 AI 形象（专属小星芒）、场景化 AI 推荐和 AI 快捷对话栏等。 刘赫曾透露，华为星芒的开山之作 —— OSTA O1 Pro 的全新设计图标、AI 屏和小星芒为独占特性。但IT之家注意到，华为其他系列机型…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-22T06:41:16Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-7e6539c4757e91729e3e",
       "title": "特斯拉海外推出 FSD v15：安全关键场景处理能力提升 25 倍，全新可视化 UI",
       "published": "2026-11-21T22:53:43Z",
@@ -189,7 +548,7 @@
       "url": "https://www.ithome.com/1/030/512.htm",
       "summary": "IT之家 11 月 22 日消息，特斯拉今日宣布在美国市场推出 FSD v15，目前已向早期体验计划（EAP）成员推送首批版本。官方宣称，本次更新对安全关键场景的处理能力提升了 25 倍。 IT之家了解到，本次更新还带来了“Tesla Reality View”全新可视化界面，车机屏幕上可显示摄像头画面叠加 FSD 行驶规划，支持全屏显示、地图或分屏视图，也可以选择使用安静模式。导航可以将转弯等信息叠加在可视化界面中，转向灯提示音将变得更轻柔，并在闪烁数次后逐渐减弱直至消失。 此外，本次更新还提升了坑洼、碎片、坑洞等恶劣路况的行驶体验，车辆在学校和恶劣天气下的速度控制也将更加自然。特斯拉还新增了“自行车架模式”，可在车辆安装自行车架或其他拖车钩配件时使用 FSD。",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -857,7 +1216,7 @@
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -947,7 +1306,7 @@
       "url": "https://www.ifanr.com/1690642",
       "summary": "在手机里打开了一个关于 AI 的「平行宇宙」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1145,7 +1504,7 @@
       "url": "http://www.geekpark.net/news/374282",
       "summary": "作者｜宇航猿 编辑｜靖宇 AI 吞掉了软件，现在，它要吞掉工业了。 卸任亚马逊 CEO 五年后，杰夫·贝佐斯没忍住，又给自己找了个班上。 当地时间 2026 年 11 月 17 日，加州门洛帕克的 Semafor「硅谷与世界」峰会现场，贝佐斯和物理学家维克·巴贾杰（Vik Bajaj）罕见同台。他现在的最新头衔，是 AI 初创公司 Prometheus 的联合创始人兼联席 CEO。这是自 2021 年交出亚马逊帅印后，这位商业巨头首次重回一线担任 CEO。 早在 2024 年底种子期就掏钱投资的贝佐斯，在台上毫不掩饰自己的兴奋，直言项目进展太快，自己根本「没法坐在场边干看着」。 能让贝佐斯重返战场的，是个大赌局。 点开 Prometheus 的官网首页，目前只有极简的品牌标识与暖色光晕背景，几乎看不到任何公开的…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1397,7 +1756,7 @@
       "url": "https://www.ifanr.com/1690404",
       "summary": "触屏不是她的全部 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1441,7 +1800,7 @@
       "url": "https://www.ifanr.com/1690510",
       "summary": "苹果急了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1619,7 +1978,7 @@
       "url": "https://openai.com/index/introducing-medchembench",
       "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -1641,7 +2000,7 @@
       "url": "https://openai.com/business/customer-stories/hebbia",
       "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2333,7 +2692,7 @@
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2423,7 +2782,7 @@
       "url": "http://www.geekpark.net/news/374196",
       "summary": "作者｜Wildcard 编辑｜靖宇 谷歌，这次是真的回来了。 11 月 18 日，Google DeepMind 点亮了Gemini 4 Neon的霓虹灯牌。 这是 Gemini 4 系列在短短 7 周内甩出的第 4 款元素模型。如果看一眼官方放出的基准跑分长表和社区实测反馈，你会发现它精准卡在了一个极其舒服的「甜点」位上，既有接近、甚至局部反超旗舰的硬核智商，又把单任务成本砍到了竞争对手的一半左右。 在 Reddit 技术社区里，挑剔的开发者们罕见地给出了一边倒的好评，直呼它「便宜得离谱又强得可怕」。每月花 19.99 美元订阅 Google AI Pro 的普通用户更是喜出望外，不用咬牙上 Ultra 档位，就能在 Gemini App 里直接用上准旗舰水准的模型。加上整个 11 月密集落地的模型与工具矩阵…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2445,7 +2804,7 @@
       "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2467,7 +2826,7 @@
       "url": "https://openai.com/business/learn/deploying-daybreak-red",
       "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2489,7 +2848,7 @@
       "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2511,7 +2870,7 @@
       "url": "https://openai.com/business/learn/pr-scans-demo",
       "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2826,7 +3185,7 @@
       "url": "http://www.geekpark.net/news/374175",
       "summary": "作者｜Techno 之王 编辑｜靖宇 「基本不可用，不推荐」。 OpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上扔下一句毫不留情的评价。 紧接着，拥有大批开发者拥趸的 Theo Browne，发了一篇长文《我为什么讨厌 GPT-6.2 Astra》。向来对前沿模型保持温和耐心的沃顿商学院教授 Ethan Mollick，测完后也给出了罕见的严厉定调，「非常不稳定且古怪」，直言这是「自 GPT-4.5 以来 OpenAI 前沿发布首次未见明显进步」。 这原本该是 OpenAI 是一场漂亮的反击战。 北京时间 11 月 18 日凌晨，OpenAI 正式推出新一代旗舰 GPT-6.2 Astra 与日常主力 GPT-6.2 Sol。官方把 Astra 的 API 单价直接…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3024,7 +3383,7 @@
       "url": "https://www.ifanr.com/1690168",
       "summary": "有想法就是入场券。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3046,7 +3405,7 @@
       "url": "https://openai.com/index/the-silent-consensus",
       "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3068,7 +3427,7 @@
       "url": "https://openai.com/index/inside-the-codex-sandbox",
       "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3090,7 +3449,7 @@
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
       "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3112,7 +3471,7 @@
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3178,7 +3537,7 @@
       "url": "https://openai.com/index/managing-frontier-ai-risk",
       "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3650,7 +4009,7 @@
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
       "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3672,7 +4031,7 @@
       "url": "https://openai.com/index/advancing-chip-design-with-our-models",
       "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3782,7 +4141,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
       "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4143,7 +4502,7 @@
       "url": "https://openai.com/index/introducing-chatgpt-for-sales",
       "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4165,7 +4524,7 @@
       "url": "http://www.geekpark.net/news/374083",
       "summary": "作者｜Cynthia 编辑｜郑玄 过日子的风，还是吹到了大模型行业。 2026 年之前，一款模型能不能刷屏，往往取决于它又做到了什么。GPT-4o 的实时语音交互、Claude 的编程能力、DeepSeek R1 的推理表现，一度轮番成为讨论焦点。一款新模型发布，大家首先关心的是它超过了谁，又做到了什么过去做不到的事。 但到了 2026 年，Agent 真正流行起来之后，风向开始变了。SOTA 模型的领先能力开始以季度为单位被轮番刷新，变得不再新鲜。而模型能力能不能用得起、等得起，成为了新的议题。 毕竟，让模型回答一个问题，和让 Agent 接手一项工作，对应的资源消耗模式完全不同。在 Agent 场景中，一次指令背后，可能是几十轮模型调用。读材料、查代码、调用工具、处理报错，每一步都会增加大量上下文和调用次数…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4187,7 +4546,7 @@
       "url": "http://www.geekpark.net/news/374079",
       "summary": "作者｜桦林舞王 编辑｜靖宇 底座架构重写，单任务成本暴降近六成，阿里把旗舰模型拉进了真实排班表。 终于，一款国产旗舰模型现身了。 11 月 16 日，阿里千问正式发布新一代旗舰模型 Qwen4-Max。就在五天前，它的预览版 qwen4-max-preview 刚在 Token Plan 里低调露过面，今天正式版直接亮出了完整底牌。 新模型依然维持着 2.4 万亿（2.4T）的主干总参数规模，原生支持文本、图像和视频输入，上下文窗口拉到了 100 万 Token。不过比参数表更显眼的，是官方同时给出的一笔账单：在模拟真实工作场景的评测里，千问 4 Max 跑完单个任务的平均费用，从上一代的 26.58 元降到了 11.16 元，直接砍掉 58%。 千问团队这次释放的信号很明确，旗舰大模型单纯拼纸面考分的阶段翻篇…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4209,7 +4568,7 @@
       "url": "http://www.geekpark.net/news/374075",
       "summary": "作者｜桦林舞王 编辑｜靖宇 Agent 能进门了，也能付钱了。 Agent 替用户「消费」的时代，终于到来了。 美国时间 2026 年 11 月 13 日，两家公司两场发布会同天发生。一边是企业级对话式智能体公司 Sierra 联合 Meta 正式发布个人代理协议 Poppy v1.0，解决助手怎么「进门」的问题；另一边是 OpenAI 推出面向个人助手 dots 的 ChatGPT Wallet，解决助手怎么「付钱」的问题。 同一天打通进门和结账，本身就足够耐人寻味。更值得留意的，是站在两套方案背后的同一批名字。Visa 和 Mastercard 同时出现在两边的名单里，Shopify、Stripe 这些掌管电商与支付基础设施的公司，则站在 Poppy 的核心伙伴之列。 Agent 的下一场竞争，表面上看是巨…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4671,7 +5030,7 @@
       "url": "https://openai.com/index/astra-law-6-2",
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4693,7 +5052,7 @@
       "url": "https://openai.com/index/introducing-openai-for-chile",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4715,7 +5074,7 @@
       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4847,7 +5206,7 @@
       "url": "https://openai.com/index/strengthening-online-child-safety",
       "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4869,7 +5228,7 @@
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
       "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5157,7 +5516,7 @@
       "url": "https://openai.com/index/science-at-the-frontier",
       "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5267,7 +5626,7 @@
       "url": "https://openai.com/business/customer-stories/revolut",
       "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5443,7 +5802,7 @@
       "url": "https://openai.com/index/lvmh-media-division-partnership",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5533,7 +5892,7 @@
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5739,7 +6098,7 @@
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5761,7 +6120,7 @@
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "summary": "",
       "summary_status": "missing",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5959,7 +6318,7 @@
       "url": "https://openai.com/index/the-kings-trust-and-openai",
       "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -5981,7 +6340,7 @@
       "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
       "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6051,7 +6410,7 @@
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
       "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6073,7 +6432,7 @@
       "url": "https://openai.com/index/our-new-blog-for-science",
       "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
       "summary_status": "source",
-      "fetched_at": "2026-11-21T23:11:17Z",
+      "fetched_at": "2026-11-22T06:41:16Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -6186,424 +6545,6 @@
       "fetched_at": "2026-11-15T21:01:12Z",
       "kind": "rss",
       "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-33a67d2ce77e9c472e21",
-      "title": "华为星芒 OSTA O1 Pro 新机包装盒曝光，新品牌 11 月 20 日首秀",
-      "published": "2026-11-15T06:09:43Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/317.htm",
-      "summary": "IT之家 11 月 15 日消息，博主 @宁静的哲理 今日曝光了华为星芒 OSTA O1 Pro 新机的包装盒。 画面显示，包装盒印有 OSTA 的英文标识和华为图形 LOGO，并揭示新机预装了鸿蒙 HarmonyOS 系统。博主还透露，新机不支持无线充电和卫星通信，采用普通双卡设计。 据IT之家此前报道，华为旗下全新品牌“OSTA 星芒手机”官方微博账号 11 月 12 日发布了其第一条内容，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东不久后转发了这条微博。 余承东表示：“欢迎“星”朋友！看到大家对 OSTA 星芒#的关注和期待，我们希望通过这个全新品牌，探索更多 AI 新可能！11 月 20 日发布会，我们接着聊！” 相关阅读： 《关海涛欢迎华为推子品牌星芒：这件事最大的意义，就是让大家知…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-6fef04fb82bca8d81de9",
-      "title": "华为更多机型鸿蒙 HarmonyOS 7 系统“转正”，含 nova 12 / 13 系列、畅享 70X 等",
-      "published": "2026-11-15T05:59:34Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/312.htm",
-      "summary": "IT之家 11 月 15 日消息，华为官网最新信息显示，鸿蒙 HarmonyOS 7 系统更多机型从公测转为正式版，覆盖 nova 12 / 13 系列、畅享 70X 等手机。 ▲ IT之家开箱：华为 nova 12 Ultra「12 号色」图赏 IT之家附华为鸿蒙 HarmonyOS 7 最新适配机型清单如下： 正式版 HUAWEI Mate 80 系列 HUAWEI Mate 70 系列 HUAWEI Mate 60 系列 HUAWEI Mate X7 系列 HUAWEI Mate X6 系列 HUAWEI Mate X5 系列 HUAWEI Mate XTs 非凡大师 HUAWEI Mate XT 非凡大师 HUAWEI Pura 90 系列 HUAWEI Pura 80 系列 HUAWEI Pura 7…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-9030277744de65fe202f",
-      "title": "华为鸿蒙 HarmonyOS 7 游戏秒级启动开关上线，支持提前加载本机热度最高两款游戏",
-      "published": "2026-11-15T05:34:02Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/310.htm",
-      "summary": "IT之家 11 月 15 日消息，华为在 10 月底面向 Mate 80 / 70 / 60、Pura 80 / 70 等系列机型推送了最新的鸿蒙 HarmonyOS 7.0.0.111 版本升级，带来了与 iPhone 双机互联，实况窗分享等功能。 IT之家注意到，华为还为升级 HarmonyOS 7 系统的用户带来了“游戏秒级启动”功能的开关（入口较深：呼出游戏中心 → 设置 → “游戏秒级启动”开关，需升级至最新的 111 版本）。 系统将在 CPU、温度及内存等条件满足时，根据用户习惯提前加载本机热度最高的 2 款游戏以缩短启动时间。 当前仅支持部分游戏。更多游戏适配中，敬请期待。 该功能适配机型范围较为宽泛，IT之家实测，新麒麟中最早一批发布的机型，如 Mate 60 等确认支持该功能。同时，近期开放…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-6d6aca076f645f49432f",
-      "title": "华为 Mate X8 大折叠手机今日亮相，消息称典藏版本支持睿影 Z10 模块相机",
-      "published": "2026-11-15T04:52:14Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/304.htm",
-      "summary": "IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发布视频，回顾了华为 Mate X 系列折叠屏手机走过的岁月，并宣布 Mate X8 新机“就要来了”。 余承东还在视频的结尾公开了 Mate X8 折叠屏手机外观，他表示，新机在屏幕、拍照、性能等方面又有新的突破。 据博主 @RuryRen 透露，华为 Mate X8 大折叠手机将分普通版和典藏版，其中典藏版会支持睿影 Z10 模块相机。 据IT之家了解，华为睿影 Z10 模块相机代号“金刚”，集成红枫等多种传感器，支持与手机 SoC 协同，通过软硬芯 AI 协同 + 智能融合对焦，实现对焦快、准、稳；拥有独立光学防抖模块，与麒麟芯片协同，可实现旗舰级防抖体验。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "unconfirmed"
-    },
-    {
-      "id": "rss-c028cf8abb3d9a2f0fac",
-      "title": "华为何刚：鸿蒙生态用户数已达 9980 万，预计再过几天就能突破 1 亿",
-      "published": "2026-11-15T04:25:40Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/302.htm",
-      "summary": "IT之家 11 月 15 日消息，据爱范儿报道，华为终端 BG CEO 何刚在南京大学透露，截至当天，鸿蒙生态用户数已经达到 9980 万，距离 1 亿大关仅差 20 万。他预计，再过几天就能突破 1 亿。 报道提到，何刚当天出席了 2026 中国高校计算机大赛人工智能创意赛全国总决赛，这也是华为首次赞助该赛事。 华为官网披露，截至 2026 年 6 月，全球鸿蒙开发者规模已超 1100 万，华为应用市场可获取的鸿蒙应用与服务数量突破 38 万。第三方数据显示，鸿蒙已稳居中国第二大智能手机操作系统，2026 年第一季度在中国智能手机市场份额达 19%。 据IT之家此前报道，在 11 月 5 日的华为擎云 2026 鸿蒙办公产业峰会上，华为官方公布了 HarmonyOS 系统最新用户数据。HarmonyOS 终端…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2c262a6d269b89d3f97b",
-      "title": "华为余承东自曝是 Mate X 系列第一位用户，称大折叠已成千万用户主力机",
-      "published": "2026-11-15T04:13:21Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "余承东"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/299.htm",
-      "summary": "IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东在其个人社交平台表示，今年是华为 Mate X 系列走过的第八年，现在大折叠已成为千万用户的主力机型。 余承东透露，自己应该是华为 Mate X 系列的第一位用户。他表示，8 年前，华为就想做一个不一样的产品，合上是一个普通的手机，展开是一个平板。现在回头看，当时华为很多技术都没有人做过，只能靠自己研究。 据IT之家今日早些时候报道，余承东宣布 Mate X8 新机“就要来了”，并公开了新机的外观。余承东称，华为 Mate X8 在屏幕、拍照、性能等方面又有新的突破。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-cc5dd33b7c01a02a488e",
-      "title": "小米海外公布 18 Pro 系列手机背屏适配：支持谷歌地图、Spotify、Gemini 等应用",
-      "published": "2026-11-15T03:45:13Z",
-      "company": "小米",
-      "companies": [
-        "小米"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/295.htm",
-      "summary": "IT之家 11 月 15 日消息，小米现已在海外公布 18 Pro 系列手机的背屏适配进展：支持谷歌地图、Gemini、Spotify、YouTube Music 和 Trip.com 等应用。 据介绍，小米 18 Pro 系列手机还将支持生成式 AI 功能。从小米集团副总裁、集团 CMO 许斐发布的演示视频来看，该机可以将用户的单词学习、喝水提醒等需求生成背屏应用。 据IT之家此前报道，小米 18 Pro 系列手机已于 9 月 23 日晚在国内正式发布，搭载第六代骁龙 8 至尊版系列移动平台，后置徕卡 2 亿大底主摄 + 2 亿大底长焦，配备 AI 百变背屏，售价 5,999 元起。 卢伟冰曾在 9 月 26 日表示，国外媒体和用户，对小米 18 Pro 系列呼声很高，期待早日上市，系列新机会在今年内登陆国际…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-4fc1f8d4773b2aadee46",
-      "title": "苹果智能家庭中枢 HomeView 首批评测出炉：Siri AI 问题频出，隐私问题引担忧",
-      "published": "2026-11-15T03:31:34Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/294.htm",
-      "summary": "IT之家 11 月 15 日消息，苹果首款智能家庭中枢 HomeView 已经于 11 月 13 日在海外上市，配备 7 英寸 Liquid Retina 显示屏、A18 芯片、人脸识别功能，但外界期待已久的 Siri AI 仍处于测试阶段，如今出炉的首批媒体评测、用户体验说明，苹果还有大量工作没有完成。 NBC 首席科技分析师 Joanna Stern 表示，这款设备的 Siri AI 体验并不算优秀，例如当你说嘿 Siri 时，房间的其他设备会被叫醒，而不是 HomeView。而且 Siri AI 经常会答非所问，有时候甚至是直接卡住几分钟。 The Verge 智能家居编辑 Jennifer Pattison Tuohy 表示，HomeView 的 Siri AI 经常无法妥善处理个人信息上下文请求，有时…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-edae8aa77a1350269710",
-      "title": "华为麒麟 9050 系列芯片新一代巴龙 AI Modem 情报公开：首创融合通信架构、业界首发四卡三待",
-      "published": "2026-11-15T03:25:16Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/292.htm",
-      "summary": "IT之家 11 月 15 日消息，华为官方今日继续揭秘首款「逻辑折叠」技术 τ 芯片 —— 麒麟 9050 系列更多配置信息，今日最新公开了新一代巴龙 AI Modem 的情报。 据介绍，新一代巴龙 AI Modem 首创融合通信架构，含 Modem AI 通信架构、多系统协同架构和星地一体融合架构，支持智能选网、地铁模式和极速回网功能，宣称对比 A 手机 18 Pro Max 火车游戏卡顿降低 48%、演唱会传图耗时降低 46%、地铁刷短视频卡顿降低 32%、户外回网等待降低 83%。 新一代巴龙 AI Modem 支持蜂窝极速大上行，宣称对比 A 手机 18 Pro Max 峰值场景提升 43%、拥塞场景提升 83%、弱网场景提升 49%、高速场景提升 69%；业界首发四卡三待，支持 2×SIM+2×eSI…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-05c00bd9d4202d15f76c",
-      "title": "刚刚，马斯克再创历史，人类首次用「筷子」夹住星舰飞船",
-      "published": "2026-11-15T02:47:36Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "爱范儿",
-      "source_id": "ifanr",
-      "publisher_id": "ifanr",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ifanr.com/1689501",
-      "summary": "再创历史 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-18T03:14:30Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a1bc38cdaa887c516ef3",
-      "title": "华为 Mate X8 折叠屏手机外观公布，余承东宣布屏幕、拍照、性能又有新突破",
-      "published": "2026-11-15T01:43:06Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "余承东"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/274.htm",
-      "summary": "IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东刚刚发布视频，回顾了华为 Mate X 系列折叠屏手机走过的岁月，并宣布 Mate X8 新机“就要来了”。 IT之家注意到，余承东还在视频的结尾公开了 Mate X8 折叠屏手机外观，他表示，新机在屏幕、拍照、性能等方面又有新的突破。 据IT之家此前报道，11 月 13 日，余承东手持紫色新机的画面在网上流传开来，被认为是华为 Mate X8 真机，圆形镜头模组回归。 据博主 @数码闲聊站 今日爆料，华为 Mate X8 为常规比例的大折叠产品，搭载 8 英寸广色域京东方新屏 + 超平整折痕技术，后置 50MP 18EV 超大底旗舰影像，搭载 N 代麒麟芯，大圆 Deco 搭配宝石环设计。",
-      "summary_status": "source",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-0f9273aa320f5f110c01",
-      "title": "华为 Mate X 系列折叠屏走过第八年，余承东官宣 Mate X8 新机“就要来了”",
-      "published": "2026-11-15T01:34:49Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "余承东"
-      ],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/272.htm",
-      "summary": "IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发布视频，回顾了华为 Mate X 系列折叠屏手机走过的岁月，并宣布 Mate X8 新机“就要来了”。 今年是华为 Mate X 系列走过的第八年。从最初少数用户尝鲜，到如今成为越来越多用户的主力机，折叠屏一步步走进日常，也陪伴大家记录了许多重要时刻。感谢大家一路以来的选择和支持！每一份信任，都是我们继续创新、不断进步的动力 [抱拳] 新一代的故事，我们共同见证。华为 Mate X8 ，敬请期待！ 据IT之家此前报道，11 月 13 日，余承东手持紫色新机的画面在网上流传开来，被认为是华为 Mate X8 真机，圆形镜头模组回归。 据博主 @数码闲聊站 今日爆料，华为 Mate X8 为常规比例的大折叠产品，搭…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-fdbc5dbbed3ff4400021",
-      "title": "马斯克晒 SpaceX 星舰“筷子夹”飞船近距离照片：“我拥抱了它”",
-      "published": "2026-11-15T01:04:53Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/265.htm",
-      "summary": "IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船，这是星舰飞船首次完成发射塔捕获。 随后，该公司创始人马斯克在社交平台连续发文并分享该飞船近距离照片，他写道：“多亏了 SpaceX 那群才华横溢的团队，这一伟大时刻终于到来了”“当 42 号飞船返回时，我拥抱了它。” 据IT之家此前报道，SpaceX 第 15 次试飞的星舰组合体于美国中部时间 13 日下午（北京时间 14 日清晨）从得克萨斯州星际基地升空，由超重型助推器与飞船组成。任务原计划让两级同时返回发射场，由发射塔上俗称“筷子”的机械臂分别捕获。 第二级飞船捕获发生在 11 月 14 日 16:20（IT之家注：北京时间 11 月 15 日 5:20），距升…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-1420dfacee224526e6d4",
-      "title": "华为：智能车灯原车拨杆闪灯为独立功能，不会被高精 ADB 主动控制干预，随时可用",
-      "published": "2026-11-15T01:01:56Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/264.htm",
-      "summary": "IT之家 11 月 15 日消息，华为智能汽车解决方案 BU 官方微博昨晚发布了乾崑答网友问（第 18 期），针对华为智能车载光相关的四个热门问题进行了集中解答。 ▲ 图源：华为乾崑智能汽车解决方案官网 IT之家附重点内容及全文截图如下： 在夜间行驶遇到对向来车时，怎么在保证远光灯不晃对向来车驾驶员眼睛的情况下，确保我的驾驶安全？ HUAWEI XPIXEL 智能车灯模组的高精 ADB (智能远光照明)，依托百万像素精准控制车灯。在整个远光灯照射范围，高精 ADB 功能会识别到对方前挡风玻璃的位置，然后将这个区域的灯光做调整，避免远光照射对向来车驾驶员。同时，保持其他远光灯照射区域的基础照明，驾驶员照样能看清行人和路面情况。 遇到对向车辆打开远光灯影响我的驾驶视野时，如果正在使用智能车灯，还能闪灯提示对方吗？ …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-6b270ce92801784657d1",
-      "title": "华为首款鸿蒙小折叠电脑 MateBook Fold S 现身官网：至高 32GB/1TB 规格，可选黑白蓝三色",
-      "published": "2026-11-15T00:44:19Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/263.htm",
-      "summary": "IT之家 11 月 15 日消息，华为首款鸿蒙小折叠电脑 MateBook Fold S 已于昨日 10:08 正式开启预订。 目前这款新机已现身官网，相关页面显示，该机折叠态 10.2 英寸、展开态 14.7 英寸，会在 11 月 24 日 17:00~11 月 25 日 17:00 支付尾款，支持 12 期 0 分期利息购买。 颜色 幻夜黑 天际白 云海蓝 配置 16GB/256GB（含键盘 + 内胆包） 16GB/512GB（含键盘 + 内胆包） 24GB/512GB（含键盘 + 内胆包） 32GB/1TB（含键盘 + 手写笔 + 内胆包） IT之家注意到，华为鸿蒙电脑依旧支持鸿蒙有礼活动，可在 13 项会员权益中任领其中 8 项（需登录华为账号后第 9 天领取），同时还会赠送 3 个月音乐超钻会员、华为…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-91d90ca19f91eac6b144",
-      "title": "国产算力巨头超聚变创业板 IPO 过会，前身是华为 X86 服务器业务",
-      "published": "2026-11-14T23:38:56Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/255.htm",
-      "summary": "IT之家 11 月 15 日消息，深交所上市审核委员会本月 12 日召开 2026 年第 61 次审议会议，会议结果为超聚变数字技术股份有限公司（以下简称超聚变）（首发）符合发行条件、上市条件和信息披露要求。 在深圳证券交易所上市审核委员会的会议现场，问询超聚变的主要问题包括：结合算力需求变化、下游客户资本开支、技术先进性、经营性现金流量净额状况、客户和供应商集中度等情况，说明超聚变毛利率变动趋势，以及经营业绩增长是否具有可持续性，相关风险揭示是否充分。 这意味着超聚变申报深交所创业板 IPO 过会，且公开信息显示从申报受理到过会仅用时 174 天。 IT之家注：超聚变成立于 2021 年 9 月，源于华为 2021 年剥离的 X86 服务器业务部门，目前由河南地方国资控股。估值方面，《世界独角兽企业发展报告 …",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-1b4dc58cadc6bbf5b424",
-      "title": "SpaceX 星舰飞船首次被发射塔机械臂捕获回收，马斯克将建 AI 数据中心星座",
-      "published": "2026-11-14T23:26:58Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/253.htm",
-      "summary": "IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船，这是星舰飞船首次完成发射塔捕获。 据介绍，SpaceX 计划使用该飞船在 LEO 轨道上构建一个庞大的网络 —— 根据埃隆 · 马斯克的说法，这个网络将包含一个由百万艘航天器组成的 AI 数据中心星座。 组装这些巨型结构需要极高的组装频率。SpaceX 表示，采用双筷子式抓取方式是实现这一目标的关键，因为它能更快地进行星际飞船的检查、修复和重新发射。因此，该公司很可能会在不久之后再次尝试这种手段 —— 很可能是在下一次飞船的飞行任务中。 IT之家注意到，第 15 次试飞的星舰组合体于美国中部时间 13 日下午（北京时间 14 日清晨）从得克萨斯州星际基地升空，由超重…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-2588d22b326ace71f6e6",
-      "title": "一天暴涨 6 万：请愿恢复黄仁勋英伟达 CEO 职务人数突破 12 万人，马斯克也参与签名",
-      "published": "2026-11-14T23:18:00Z",
-      "company": "人物热点",
-      "companies": [
-        "人物热点"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [
-        "马斯克"
-      ],
-      "associated_companies": [
-        "特斯拉"
-      ],
-      "company_match_basis": "person_affiliation",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/027/252.htm",
-      "summary": "IT之家 11 月 15 日消息，今年 11 月 12 日，英伟达董事会今日宣布，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。英伟达执行副总裁兼 CFO 科莱特 · 克雷斯同意出任临时 CEO，在董事会选出正式继任者前兼任这一职务，并继续担任执行副总裁和 CFO。 随后，一个名为“Stand with Jensen”的请愿活动在网上流传开来，要求英伟达董事会恢复黄仁勋的 CEO 职务。截至IT之家发文，该活动已收集超过 12 万个签名，较昨天增长约 6.3 万人次。 该网站显示，本次活动的组织者和签名者担心，黄仁勋可能在未经正当程序、甚至没有几天时间为自己申辩的情况下被迫离职。请愿信由现任员工、前任员工、股东及合作伙伴签署，特斯拉 CEO 埃隆 · 马斯克等行业巨头加入其中。 据IT之家了解，英伟达仍…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-15T06:22:58Z",
-      "kind": "rss",
-      "report_type": "report"
     }
   ],
   "collection_status": "ok"
