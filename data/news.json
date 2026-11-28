@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-11-27T19:27:17Z",
-  "last_success_at": "2026-11-27T19:27:17Z",
+  "updated_at": "2026-11-28T02:40:05Z",
+  "last_success_at": "2026-11-28T02:40:05Z",
   "retention_days": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "publisher_id": "ithome",
       "status": "ok",
       "feed_items": 60,
-      "accepted": 7,
-      "skipped": 53,
-      "last_success_at": "2026-11-27T19:27:17Z",
-      "last_attempt_at": "2026-11-27T19:27:17Z"
+      "accepted": 11,
+      "skipped": 49,
+      "last_success_at": "2026-11-28T02:40:05Z",
+      "last_attempt_at": "2026-11-28T02:40:05Z"
     },
     {
       "id": "ifanr",
@@ -35,8 +35,8 @@
       "feed_items": 20,
       "accepted": 3,
       "skipped": 17,
-      "last_success_at": "2026-11-27T19:27:17Z",
-      "last_attempt_at": "2026-11-27T19:27:17Z"
+      "last_success_at": "2026-11-28T02:40:05Z",
+      "last_attempt_at": "2026-11-28T02:40:05Z"
     },
     {
       "id": "apple",
@@ -53,8 +53,8 @@
       "feed_items": 20,
       "accepted": 0,
       "skipped": 20,
-      "last_success_at": "2026-11-27T19:27:17Z",
-      "last_attempt_at": "2026-11-27T19:27:17Z"
+      "last_success_at": "2026-11-28T02:40:05Z",
+      "last_attempt_at": "2026-11-28T02:40:05Z"
     },
     {
       "id": "openai",
@@ -71,8 +71,8 @@
       "feed_items": 1430,
       "accepted": 9,
       "skipped": 1421,
-      "last_success_at": "2026-11-27T19:27:17Z",
-      "last_attempt_at": "2026-11-27T19:27:17Z"
+      "last_success_at": "2026-11-28T02:40:05Z",
+      "last_attempt_at": "2026-11-28T02:40:05Z"
     },
     {
       "id": "geekpark",
@@ -88,8 +88,8 @@
       "feed_items": 30,
       "accepted": 3,
       "skipped": 27,
-      "last_success_at": "2026-11-27T19:27:17Z",
-      "last_attempt_at": "2026-11-27T19:27:17Z"
+      "last_success_at": "2026-11-28T02:40:05Z",
+      "last_attempt_at": "2026-11-28T02:40:05Z"
     }
   ],
   "disabled_sources": [
@@ -172,6 +172,188 @@
   ],
   "news": [
     {
+      "id": "rss-4b39329ea1ab7924ea46",
+      "title": "小米 REDMI Turbo 6 系列新机通过 3C 认证，支持 100W 有线快充",
+      "published": "2026-11-28T01:13:22Z",
+      "company": "小米",
+      "companies": [
+        "小米"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/799.htm",
+      "summary": "IT之家 11 月 28 日消息，昨日有一款型号为 M407CF 的小米新机通过国家 3C 质量认证。数码博主 @数码闲聊站 称该机属于 REDMI Turbo 6 系列。 如IT之家下图所示，3C 认证显示该机搭配的电源适配器型号为 MDY-18-EW，支持最高 20V 5A 的 100W 功率输出。 作为参考，上一代 REDMI Turbo 5 于 2026 年 1 月 29 日发布，搭载 7560mAh 电池并支持 100W 快充。 相关阅读： 《小米新机通过 3C 认证：有望为 REDMI Note 18，配备 45W 充电 + 8888mAh 电池》",
+      "summary_status": "source",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-8233dfee7323bcaec0b0",
+      "title": "iOS 27.3 前瞻苹果 AI 限额：Siri AI 标准每日 20 次云端请求",
+      "published": "2026-11-28T00:50:37Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/795.htm",
+      "summary": "IT之家 11 月 28 日消息，技术博主 @itspdfu 于 11 月 26 日在 X 平台发布长推文，通过挖掘 iOS 27.3 Beta 2 开发者预览版，发现了苹果 Siri AI 和多项 Apple Intelligence 功能的每日使用限额。 消息源指出根据苹果设定，设备每向苹果的私密云计算（PCC）发起一次请求，就消耗一个 Token。而这些 Token 只用来证明用户还有可用额度，不会暴露用户身份。 在请求流程中，用户在 iPhone 端发起的云端 PCC 请求，会先联系 Token 授予服务（Token Granting Service，简称 TGS）。TGS 知道用户是谁，会核查用户的使用资格和剩余额度，但不知道用户具体问了什么。 核查通过后，TGS 向设备返回一批一次性 Token（O…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-3bca6fd33efff8d1e949",
+      "title": "过去 7 年 30% 相关产品销售额！苹果在智利吃官司，最高面临 8000 万美元罚款",
+      "published": "2026-11-27T23:26:40Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/783.htm",
+      "summary": "IT之家 11 月 28 日消息，路透社最新报道称，智利国家竞争管理局（FNE）于当地时间昨日（11 月 27 日）对苹果公司提起反垄断诉讼，寻求 8,000 万美元（IT之家注：现汇率约合 5.34 亿元人民币）罚款并要求其开放 App Store 应用商店。 IT之家查询公开资料，FNE 在智利的角色是调查者和起诉方，目前该机构已向竞争法庭提起诉讼，请求法庭认定苹果违法并处以罚款。FNE 在长达 50 页的起诉文件中称，苹果的相关行为违反了智利第 211 号法令。 该机构认为，至少自 2019 年至今，苹果在智利境内的 iOS 应用分发市场和应用内付费数字商品分发市场中，实施了妨碍、限制或阻碍自由竞争的行为。 起诉书指出，苹果禁止侧载和第三方应用市场，要求开发者在销售数字商品和服务时只能使用苹果的应用内购买…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-703b26ed90b303c4af2f",
+      "title": "微信鸿蒙版 App 获 8.0.24.37 邀测升级",
+      "published": "2026-11-27T23:17:23Z",
+      "company": "华为",
+      "companies": [
+        "华为",
+        "腾讯"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/781.htm",
+      "summary": "IT之家 11 月 28 日消息，微信鸿蒙版 App 在华为应用市场（App Gallery）发布了 8.0.24.37 (8394789) 版本邀测升级（需收到短信通知后点击链接跳转安装），测试时间为 2026/11/27-2026/12/27。 IT之家注意到，和往常一样，本次更新的说明依旧为“修复了一些已知问题”。据博主 @伤心萨摩耶、MeoW 整理，8.0.24 版本的微信新增了如下特性： 1.设置＞朋友权限变更为通讯录权限； 2.我＞收藏＞笔记点击右上角三点新增小图模式、大图模式切换； 3.视频号＞发起直播＞更多＞互动与变现新增奖品； 4.视频号评论区左上角新增「问小微」入口（逐步开放）； 5.发现＞直播预览界面支持长按直播预览卡片快捷转发给朋友或分享到朋友圈； 6.发现＞听一听＞搜索底部新增「按住问…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-32a3bc34425fc76c1c3e",
+      "title": "OpenAI 转守为攻：反诉苹果窃密，喊话“不公平竞争”",
+      "published": "2026-11-27T23:12:29Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI",
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/780.htm",
+      "summary": "IT之家 11 月 28 日消息，《金融时报》昨日（11 月 27 日）发布博文，报道称在苹果公司提起的商业秘密诉讼中，OpenAI 公司已经提出反诉，指控苹果自身窃取了 OpenAI 的商业秘密，并涉嫌胁迫和威胁同时为两家公司供货的供应商。 苹果公司于 2026 年 7 月起诉 OpenAI，称前员工 Tang Tan 和 Chang Liu 离职后，将商业秘密带到了 OpenAI。 OpenAI 在反诉中称，一名员工曾从苹果跳槽至 OpenAI，工作六个月后又返回苹果，并通过个人账户带回了一款 OpenAI 硬件设备的详细资料。这些资料据称包括图片、工程信息、供应商详情、制造数据，以及外观涂层和密封剂标准。该说法早在 10 月就已在法院文件中披露。 在反竞争方面，OpenAI 指责苹果利用规模优势阻碍对手，…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-434a6110adc659c38ff0",
+      "title": "民间移植给力：苹果 M 芯片 Mac 已跑通《GTA 6》游戏，1080P 场景最高解锁 6FPS",
+      "published": "2026-11-27T23:06:24Z",
+      "company": "苹果",
+      "companies": [
+        "苹果"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/778.htm",
+      "summary": "IT之家 11 月 28 日消息，科技媒体 MacRumors 昨日（11 月 27 日）报道，尽管 Rockstar Games 没有推出官方 Mac 版本，但社区开发者已通过非官方项目，成功在苹果芯片 Mac 上运行《侠盗猎车手 VI》（GTA 6）游戏。 开发者把游戏的 XBOX Series 版本非官方地移植到 macOS，一些用户反映可以探索场景并控制视角。不过，这些项目仍处于实验阶段，运行速度太慢，无法正常游玩。 其中，名为“Halfwave”的项目在配备 48GB 内存的 M4 Pro MacBook Pro 上，监狱场景的帧率约为每秒 3 帧，船上场景接近每秒 5 帧。另一项 1080p 输出测试中，船上场景达到每秒 6 帧。开发者称存档和自由探索功能可以使用，但仍存在光照错误、物体闪烁和场景加…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-5ae915532cf5e6d6f984",
+      "title": "全球首个：联想为部分 Win11 商用电脑预装 OpenAI ChatGPT，企业登录最高可领 100 美元优惠额度",
+      "published": "2026-11-27T23:04:37Z",
+      "company": "OpenAI",
+      "companies": [
+        "OpenAI"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [],
+      "associated_companies": [],
+      "company_match_basis": "headline",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/777.htm",
+      "summary": "IT之家 11 月 28 日消息，据 Windows Latest 今日报道，联想成为全球首家在部分 Windows 11 商用电脑上预装 ChatGPT 的 PC 厂商。 OpenAI 同时也针对符合条件的联想设备推出商业推广活动，企业用户通过预装的 ChatGPT 桌面应用登录或创建 ChatGPT Business 工作区，最高可获得每个席位 100 美元（IT之家注：现汇率约合 667.5 元人民币）的优惠额度。 联想目前已在部分新款 Windows 11 电脑上预装 ChatGPT，现阶段主要涉及商用机型，具体覆盖哪些产品系列尚未完全明确。用户可以在 Windows 开始菜单中找到 ChatGPT，也可能在 Lenovo Now 或 Lenovo Vantage 应用中看到相关入口。 OpenAI 官…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
+      "id": "rss-35a2e12f154830d4901e",
+      "title": "马斯克 SpaceX 拓展卫星直连手机业务，有意收购美国 Anterix 900 MHz 频谱",
+      "published": "2026-11-27T22:53:40Z",
+      "company": "人物热点",
+      "companies": [
+        "人物热点"
+      ],
+      "source": "IT之家",
+      "source_id": "ithome",
+      "publisher_id": "ithome",
+      "people": [
+        "马斯克"
+      ],
+      "associated_companies": [
+        "特斯拉"
+      ],
+      "company_match_basis": "person_affiliation",
+      "source_type": "media_rss",
+      "url": "https://www.ithome.com/1/033/776.htm",
+      "summary": "IT之家 11 月 28 日消息，据彭博社当地时间 11 月 27 日报道，美国无线频谱公司 Anterix 正考虑大规模出售其持有的 900 MHz 无线频谱资产，而马斯克旗下 SpaceX 已表达对这一频段的兴趣。 随着 SpaceX 拓展卫星直连终端（Direct-to-Device，D2D）业务，双方可能围绕低频段频谱展开进一步合作或交易。 Anterix 是美国持有 900 MHz 频段许可规模最大的企业之一，其频谱覆盖美国本土 48 个州，以及夏威夷、阿拉斯加和波多黎各。根据该公司向美国证券交易委员会提交的文件，其持有的主要频谱范围为 896-901 MHz 和 935-940 MHz。 Anterix 正考虑将剩余频谱许可出售给单一买家，而不再局限于此前以长期租赁方式向公用事业企业提供频谱。Ant…",
+      "summary_status": "excerpt",
+      "fetched_at": "2026-11-28T02:40:05Z",
+      "kind": "rss",
+      "report_type": "report"
+    },
+    {
       "id": "rss-9789b0e1a85d3ed0f8fb",
       "title": "美团王兴：与微信小微合作按计划推进，预计明年 AI 资本开支将低于今年",
       "published": "2026-11-27T13:06:05Z",
@@ -189,7 +371,7 @@
       "url": "https://www.ithome.com/1/033/748.htm",
       "summary": "IT之家 11 月 27 日消息，据每日经济新闻，对于市场关注的美团与微信小微的试点合作进展，美团 CEO 王兴在财报发布后的业绩电话会上表示，双方合作正按计划推进，双方聚焦本地服务场景，优先打磨微信生态内完整服务链路。 王兴认为，微信 AI 能力叠加美团本地供给与履约能力，有望挖掘微信生态内新的本地服务需求。 在 AI 资本开支上，王兴表示，美团将坚持 ROI（投资回报率）导向、审慎投入。王兴透露，今年已提前锁定部分算力资源，预计明年 AI 相关资本开支将低于今年，投入节奏服从整体财务规划，兼顾业务收益与推理成本，持续优化投入效率。 他同时提到，AI 将持续在研发、客服、运营等环节提效，优化平台推荐与服务体验，中长期来看，AI 带来的降本增效有望逐步覆盖新增投入。 据IT之家此前报道，美团今日发布 2026 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -212,7 +394,7 @@
       "url": "https://www.ithome.com/1/033/747.htm",
       "summary": "IT之家 11 月 27 日消息，小米澎程今日宣布 OTA 1.20 已经开始全量推送，本次更新主要适配 N70、N90 全系车型，涉及辅助驾驶、智能座舱与日常用车体验。 IT之家从官方公告获悉，辅助驾驶方面，城区领航辅助功能的使用体验得到优化：加减速更平稳，变道选道更准确，避障绕行的横纵向协同更连贯，路口左转、右转及合流的博弈能力提升。小爱行车播报取消了变道语音提示，减少辅助驾驶过程中的打扰。 城区领航辅助安全里程门槛由 300 公里降低至 100 公里，使用 ACC、LCC、HNOA 累计里程达到 100 公里即可解锁 CNOA。 高速领航辅助同步优化，对周边车辆的响应更平顺，减少急刹与顿挫，变道也更积极。“端到端辅助驾驶”升级更名为“全域领航辅助”，车位级领航功能覆盖更多热门商圈和写字楼，可领航直达电梯口…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -234,7 +416,7 @@
       "url": "https://www.ithome.com/1/033/745.htm",
       "summary": "IT之家 11 月 27 日消息，微信安全中心现已公布 2026 年 11 月朋友圈热度谣言榜，涉及“监管要求基金公司上报全部产品 AI 敞口”“车辆召回”等。IT之家整理相应内容如下： 01 社保断缴三个月账户清零？ 近期，有传言称“社保断缴超过三个月，之前交的钱清零”，引发关注。 真相 该传言系典型的“旧谣新传”，所谓“清零”说法并不准确，参保人已缴纳的社保权益不会凭空消失。 养老保险断缴后，参保记录不会清零。社保经办机构会留存基本养老保险关系，保存全部参保缴费记录，个人账户储存额持续计息，已缴纳的养老保险费用不会作废。断缴只会放缓“累计时长”的积累，不会清除已有的缴费记录。 医保断缴主要影响连续缴费年限核算与医保待遇享受，医保个人账户的钱是不会清零的。多地政策规定，医保断缴超过 3 个月后续保，会被视为重…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -256,7 +438,7 @@
       "url": "https://www.ifanr.com/1695926",
       "summary": "穿西装的方盒子。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -411,7 +593,7 @@
       "url": "https://www.ifanr.com/1695738",
       "summary": "安全是个警钟长鸣的事情。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -499,7 +681,7 @@
       "url": "https://www.ifanr.com/1695642",
       "summary": "七年之期已到…… #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2371,7 +2553,7 @@
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
       "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2505,7 +2687,7 @@
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2637,7 +2819,7 @@
       "url": "http://www.geekpark.net/news/374417",
       "summary": "随着 iOS 27.2 的更新，中国大陆用户日盼夜盼的苹果智能，终于露出了一小手，但各种原因吧，仍然是犹抱琵琶半遮面。 如果对消费电子看得比较多的同学，可能会感到现在手机 AI 比较割裂。既有大厂在一点点摸索，上了 AI，但是散落在键盘、录音、文字记录、笔记等等各个功能之中；然后也有来自字节、阶跃这样的挑战者，走的是 Rabbit R1 的路子，想用一个 AI 助手，一杆子捅到底，然后被互联网大厂南墙撞得头破血流。 星芒 OSTA O1 Pro 采用了阔直板形式｜图片来源：极客公园 历史肯定是要发展的，但道路无疑注定是曲折的，先进的技术，未必总是一开始就能势如破竹。 极客公园最近试用了华为刚刚曝光的新品牌，华为星芒OSTA 的首款产品——华为星芒 OSTA O1 Pro，从这台手机上，我们或许看到，大厂在手机 …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2859,7 +3041,7 @@
       "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
       "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2881,7 +3063,7 @@
       "url": "https://openai.com/business/customer-stories/ifood",
       "summary": "",
       "summary_status": "missing",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2903,7 +3085,7 @@
       "url": "https://openai.com/business/customer-stories/intentful-dots",
       "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -2995,7 +3177,7 @@
       "url": "https://openai.com/index/introducing-shirudo",
       "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3017,7 +3199,7 @@
       "url": "http://www.geekpark.net/news/374374",
       "summary": "11 月 19 日，财联社援引供应链人士的消息称，富士康旗下的富智康已经拿到 OpenAI 手机的组装订单，首款产品有望在 2027 年底或 2028 年面市。OpenAI 至今没有确认自己在做手机，但从今年 4 月起，围绕这台手机的供应链消息就没有断过。 而在中国，一家 AI 公司的手机其实已经卖到了第二代，这就是豆包手机。只不过在这台手机上，让助手帮你叫一辆车已经不算难事，但想让它接着给朋友回一条「我上车了」的微信，目前还做不到。 按曹操出行公布的用法，看到想去的地方，按一下手机侧面的 AI 键，豆包就能认出屏幕上的地址，路线和车型也都可以在对话里选。但等你上了车，它却没办法替你在微信里点下「发送」。 车之所以叫得到，是因为曹操出行把服务直接接给了豆包。微信并没有这么做：它和淘宝、美团一起，被列在豆包手机助…",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3289,7 +3471,7 @@
       "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
       "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -3311,7 +3493,7 @@
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4009,7 +4191,7 @@
       "url": "http://www.geekpark.net/news/374302",
       "summary": "头图来源：腾讯 腾讯的 AI 故事，正在进入一个有些沉重的阶段。 11 月 18 日，腾讯发布 2026 年第三季度财报。本季度营收 2073.4 亿元，同比增长 8%；Non-IFRS 经营利润 681 亿元，同比下降 6%；Non-IFRS 归母净利润 665 亿元，同比下降 6%。 图片来源：腾讯财报 本季度，腾讯资本开支达到 814 亿元，同比增长 527%，单季支出已经超过 2025 年全年；研发投入 323.6 亿元，同比增长 42%。大规模算力采购和预付款之下，自由现金流为负 691 亿元；若剔除算力采购预付款，自由现金流仍有 169 亿元。 单看收入，这依旧是一份稳健的财报。但把 AI 拆出来，曲线的分叉比上一季度更明显：若剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI …",
       "summary_status": "excerpt",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4168,7 +4350,7 @@
       "url": "https://openai.com/index/perplexity-and-intelligence",
       "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "summary_status": "source",
-      "fetched_at": "2026-11-27T19:27:17Z",
+      "fetched_at": "2026-11-28T02:40:05Z",
       "kind": "rss",
       "report_type": "report"
     },
@@ -4593,94 +4775,6 @@
       "summary": "IT之家 11 月 21 日消息，11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和团队成员，在 Reddit 进行了一场持续 120 分钟的 AMA，回答全球开发者关于混元的“任何问题”。 问答环节，有人询问：字节跳动、Kimi 等似乎都在往 3 万亿、甚至 5 万亿参数的超大模型推进，而你们还在 7000 亿。为什么？你们怎么看参数量对模型能力的实际影响？这方面有什么计划？ 混元团队回应：“Hy3 和 Hy4 已经表明，做得扎实的小模型也能超过更大的模型。它们的成本也更低，而且在这个过程中，你能学到更多、收获更多。” 不过，混元团队也表示，Hy4 仍有很大的改进空间，尤其是通过后训练。“我们正投入大量精力进行大规模强化学习，同时继续改善用户体验和模型安全。我们还计划训练更大规模的模型。…",
       "summary_status": "excerpt",
       "fetched_at": "2026-11-21T09:44:04Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-a9287a0e82052b1ee1d3",
-      "title": "华为星芒 O1 Pro 定价 5499 元起引争议，总经理刘赫回应称“我们选择创新优先”",
-      "published": "2026-11-21T01:08:46Z",
-      "company": "华为",
-      "companies": [
-        "华为"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/030/311.htm",
-      "summary": "IT之家 11 月 21 日消息，华为全新子品牌星芒于 11 月 20 日发布首款机型 OSTA O1 Pro，12GB+256GB 版本首发价 5499 元，顶配 16GB+1TB 首发 8799 元。 这一定价与外界此前对子品牌“主打性价比”的预期形成落差。对此，星芒品牌总经理刘赫在微博评论区密集回应了网友质疑。 首先，争议的焦点之一，是 O1 Pro 与华为 Pura X View 的价差。两者同为麒麟 9030S 平台、6.39 英寸 1.5K 阔直屏，O1 Pro 砍掉了超广角镜头，起售价仅比 Pura X View 低 500 元。 有网友直言“再便宜 500 销量翻三倍”，刘赫的回应是：“我宁愿先把产品做好一点…… 便宜未必是创新的方向。O1 Pro 是尝试新技术，在 AI 带来新体验。”他将“星…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T01:29:01Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-e3b2d39621da7ee54718",
-      "title": "OpenAI 推出 MedChemBench 基准，评估 AI 辅助药物研发能力",
-      "published": "2026-11-21T00:06:12Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/030/301.htm",
-      "summary": "IT之家 11 月 21 日消息，当地时间 11 月 20 日，OpenAI 发布 MedChemBench 基准，用于评估 AI 模型在药物化学研究中的推理能力，包括识别分子结构、解读实验结果、比较化合物及预测其性质等。OpenAI 表示，模型在重建分子结构和解释实验依据方面表现较强，但在化合物筛选和数值性质预测方面仍有明显提升空间。 IT之家从官方介绍获悉，该基准包含 99 道题目，取自 117 篇论文与专利，涉及 761 个不同分子结构。多数题目向模型提供研究进行到某一节点时的上下文，包括生物靶点、研究人员的目标、此前研究过的化合物与部分实验结果。 官方将评测分为四个部分，IT之家附具体内容如下： 分子结构：依据题目给出的结构图与化学基团组装分子，考察原子连接与立体化学是否正确； 科学解释：解释需由给定证…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T01:29:01Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-ef188bbf56a674b1f471",
-      "title": "苹果超薄 iPhone 要补拍照短板？Air 2 机模显示双摄设计",
-      "published": "2026-11-20T23:10:00Z",
-      "company": "苹果",
-      "companies": [
-        "苹果"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/030/290.htm",
-      "summary": "IT之家 11 月 21 日消息，消息源 @SonnyDickson 昨日（11 月 20 日）在 X 平台发布推文，分享了两张照片，展示了苹果 iPhone 18 标准版，以及 iPhone Air 2（推文称其为 iPhone 18 Air）的机模。 外观方面，本次曝光的机模照片来看，苹果 iPhone Air 2 有别于初代 Air 的单摄设计，在机身顶部的长条形凸起区域内，出现两枚横向排列的摄像头。 初代 iPhone Air 于 2025 年 9 月推出，机身厚度仅 5.6 毫米，重量为 165 克，但轻薄设计也伴随着取舍，后置仅配备一枚摄像头。此前已有传闻称，苹果计划在后续机型的 4800 万像素主摄旁增加一枚超广角镜头。 除影像系统外，报道援引此前爆料称，新机续航也有望改善，并可能搭载 A20 P…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T01:29:01Z",
-      "kind": "rss",
-      "report_type": "report"
-    },
-    {
-      "id": "rss-7a14623eb4ab04e196ab",
-      "title": "OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑",
-      "published": "2026-11-20T22:57:39Z",
-      "company": "OpenAI",
-      "companies": [
-        "OpenAI"
-      ],
-      "source": "IT之家",
-      "source_id": "ithome",
-      "publisher_id": "ithome",
-      "people": [],
-      "associated_companies": [],
-      "company_match_basis": "headline",
-      "source_type": "media_rss",
-      "url": "https://www.ithome.com/1/030/288.htm",
-      "summary": "IT之家 11 月 21 日消息，OpenAI 今日宣布向 ChatGPT Plus 订阅用户开放 Spaces 协作空间功能。 该功能此前仅面向 Pro、Business 和 Enterprise 等付费方案用户提供，现在每月支付 20 美元（IT之家注：现汇率约合 133.8 元人民币）的 Plus 用户也可以创建自己的空间，与其他用户共同整理资料、协作处理文档和文件。 ChatGPT Spaces 最早于 2026 年 9 月的 OpenAI Dev Day 活动上推出，定位为多人协作工作空间。用户可以邀请同事或朋友加入，共享信息、文档及其他文件，并结合 ChatGPT 的相关功能开展写作、研究和项目管理工作。 用户可在 ChatGPT 左侧导航栏选择“Space”入口创建空间。该入口取代了原来的 Lib…",
-      "summary_status": "excerpt",
-      "fetched_at": "2026-11-21T01:29:01Z",
       "kind": "rss",
       "report_type": "report"
     }
